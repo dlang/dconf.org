@@ -28,3 +28,7 @@
 .page_right, .page_left, .page {
 	padding: 55px 30px 30px;
 }
+
+.clock {
+	height: 84px;
+}
