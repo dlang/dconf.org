@@ -1,11 +1,3 @@
-.logo {
-	height: 100px;
-}
-
-.menu {
-	margin: 0px 0px 0px 275px;
-}
-
 #menu ul, #menu li {
 	margin: 0px;
 	padding: 0px;
@@ -15,16 +7,10 @@
     line-height: 16px;
 }
 
-#menu li {
-	margin: 0px 5px;
-}
-
 #menu a {
-	padding: 7px 8px 0px;
-	margin-top: -7px;
-	line-height: 30px;
+	padding: 7px 13px;
 }
 
-.page_right, .page_left, .page {
-	padding: 55px 30px 30px;
+.clock {
+	height: 84px;
 }
