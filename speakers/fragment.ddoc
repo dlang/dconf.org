@@ -1,0 +1,19 @@
+DDOC = $(DEFINE $(TITLE)_BLURB,
+<a href="$(SPEAKER_URL)"><h1>$(SPEAKER)</h1></a>
+<div class="inline vmid">
+<table>
+  <tr>
+    <td>
+      <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(SPEAKER)" />
+    </td>
+    <td>
+      $(BIO)
+    </td>
+  </tr>
+</table>
+</div>
+)
+
+SPEAKER_PIC = $(BASE)/images/stock.png
+
+BASE = ..

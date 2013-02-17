@@ -1,0 +1,1768 @@
+# Webalizer V2.23-05 Incremental Data - 02/12/2013 05:59:18
+2013 2 12 5 59 18
+10904 8017 490 47 0 0 81742617 3358 862 0
+30 47 446 3 12
+0 0 0 0 0 0
+0 0 0 0 0 0
+959 660 6088037 58 307 79
+1000 759 7532730 64 362 89
+1325 1124 11889692 72 444 109
+1030 870 9405450 71 313 85
+1115 1004 10938832 66 261 86
+998 769 7784656 86 335 96
+638 508 4833134 57 243 86
+1045 846 8595127 61 354 84
+2185 1089 10762054 82 526 114
+609 388 3912905 30 213 38
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+416 314 3268844 119
+401 259 2512826 118
+410 290 2861611 173
+491 382 3292938 213
+308 242 2534299 130
+393 306 2650199 191
+284 224 2340916 94
+319 249 2540296 114
+257 202 2138591 92
+372 293 3151571 142
+395 308 2873943 159
+870 448 4251080 266
+850 379 3616857 191
+576 440 4556329 158
+511 407 4573422 115
+663 534 5659982 193
+472 349 3813088 117
+336 277 3014584 106
+588 473 5159629 120
+355 293 2993515 103
+521 373 3811663 166
+430 383 4195229 110
+303 259 2230018 89
+383 333 3701187 79
+0
+0
+0
+8017
+0
+0
+0
+0
+0
+24
+0
+834
+0
+0
+1674
+0
+0
+10
+0
+0
+0
+338
+0
+0
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/schedule/sample.html
+0 51 7867344824929627701 57637 2 0
+/sponsors/
+0 50 0 95103 14 13
+/talks/ratingfiles/ratings.php
+0 8 0 192 0 0
+/images/s_sociomantic.png
+1 671 0 4400460 0 0
+/index3.html
+0 1 0 8674 0 0
+/includes/css.js
+0 683 0 176056 0 0
+/talks/ratingfiles/ratings.css
+0 2 0 688 0 0
+/includes/tweet.js
+0 2 0 230 0 0
+/registration/
+0 135 0 273749 12 11
+/kickstarter/dconf.html
+0 1 0 5402 0 0
+/includes/style.css
+0 715 0 3413920 0 0
+/images/favicon.ico
+0 542 0 2736720 0 0
+/includes/facebook.js
+0 2 0 282 0 0
+/kickstarter/platinum.html
+0 1 0 3452 0 0
+/contact/
+0 108 0 224612 11 16
+/images/countdown.swf
+0 815 0 5384384 0 0
+/includes/google.js
+0 2 0 256 0 0
+/images/logo.png
+1 681 0 5516348 0 0
+/talks/ratingfiles/star0.png
+1 1 0 0 0 0
+/images/twitter_hash.png
+1 94 0 108596 0 0
+/kickstarter/kryptonite.html
+0 1 0 3443 0 0
+/faq/
+0 116 0 224233 9 13
+/images/twitter_d.png
+1 5 0 6780 0 0
+/images/s_remedy.png
+1 179 0 86625 0 0
+/kickstarter/
+0 29 0 435656 9 7
+/images/twitter_bubble.png
+1 95 0 295527 0 0
+/images/background.png
+1 624 0 449500 0 0
+/talks/
+0 166 0 317883 11 9
+/talks/ratingfiles/star1.png
+1 1 0 0 0 0
+/schedule/
+0 165 0 318512 12 18
+/speakers/
+0 172 0 337787 13 12
+/kickstarter/index3.html
+0 1 0 3195 0 0
+/images/stock.png
+1 2 0 1637 0 0
+/includes/widget.js
+0 97 0 4597942 0 0
+/
+0 1199 0 10323908 676 292
+/images/dotted_v.png
+1 597 0 438463 0 0
+/includes/twitter.js
+0 103 0 55352 0 0
+/talks/sample.html
+0 2 0 7020 0 0
+/venue/
+0 154 0 294198 13 13
+/talks/ratingfiles/ratings.js
+0 2 0 6735 0 0
+/includes/iefix.css
+0 19 0 4824 0 0
+/includes/ie8.css
+0 20 0 5380 0 0
+/images/dotted_h.png
+1 598 0 463540 0 0
+/kickstarter/early.html
+0 1 0 4278 0 0
+/kickstarter/diamond.html
+0 1 0 3447 0 0
+/includes/jquery.min.js
+0 657 0 40115422 0 0
+/about/
+0 144 0 268371 18 18
+# End Of Table - urls
+# -sites- (monthly)
+ec2-54-234-203-100.compute-1.amazonaws.com
+0 2 2 18902 1 1360274095
+/
+adsl190-2614187.dyn.etb.net.co
+0 11 11 130065 1 1360397890
+/
+host-2-96-34-210.as13285.net
+0 28 16 138930 1 1360063265
+-
+fulltextrobot-77-75-77-36.seznam.cz
+0 8 6 19639 1 1360024752
+/sponsors/
+37-139-52-23.mrhost.biz
+0 4 4 37804 2 1360361586
+/
+baiduspider-180-76-5-58.crawl.baidu.com
+0 1 0 208 0 0
+-
+w5-236104.unh.edu
+0 11 11 130065 1 1360091906
+/
+c16-245.blackberry.net
+0 5 5 87239 1 1360505588
+/speakers/
+75.185.202.84.customer.cdi.no
+0 11 11 130065 1 1360445685
+/
+ec2-107-20-37-147.compute-1.amazonaws.com
+0 1 1 10588 0 0
+-
+ppp137087.ostnet.pl
+0 16 14 136413 1 1360497084
+/venue/
+static-75-178.lhr.nokia.net
+0 6 5 37083 1 1360134894
+/
+static-75-245.lhr.nokia.net
+0 5 5 26441 1 1360134912
+/about/
+sticker01.yandex.ru
+0 3 2 19110 1 1360123838
+/
+230.red-213-99-254.dynamicip.rima-tde.net
+0 56 32 277860 1 1359955008
+-
+71-93-97-115.dhcp.mtpk.ca.charter.com
+0 11 11 130065 1 1360339169
+/
+95-28-174-254.broadband.corbina.ru
+0 9 9 116368 1 1360559204
+/contact/
+178-137-129-161-kie.broadband.kyivstar.net
+0 6 6 54375 2 1360647520
+/
+c-98-240-190-198.hsd1.mn.comcast.net
+0 11 11 130065 1 1360151923
+/
+d86-32-66-81.cust.tele2.at
+0 10 10 124635 1 1360535906
+/
+msnbot-65-55-52-113.search.msn.com
+0 6 2 4812 2 1360573491
+-
+dslb-188-103-077-211.pools.arcor-ip.net
+0 22 16 222385 2 1359911960
+/
+visitor59.pha.jhu.edu
+0 14 13 134217 1 1360107990
+/talks/
+dsdf-4d0a03c9.pool.mediaways.net
+0 9 9 115585 1 1359901050
+/
+a02-05-03.opera-mini.net
+0 11 11 130065 1 1360413122
+/
+baiduspider-180-76-5-188.crawl.baidu.com
+0 1 0 208 0 0
+-
+static-75-189.lhr.nokia.net
+0 1 1 9050 0 0
+-
+cpe-69-201-177-60.nyc.res.rr.com
+0 732 97 454418 1 1360585338
+/schedule/sample.html
+clu02.wocodi.com
+0 2 1 9659 1 1360183755
+/
+baiduspider-180-76-5-97.crawl.baidu.com
+0 1 1 1962 1 1359912595
+/sponsors/
+c16-234.blackberry.net
+0 3 3 148382 0 0
+-
+static-75-244.lhr.nokia.net
+0 3 3 26931 1 1360293820
+/
+baiduspider-180-76-5-60.crawl.baidu.com
+0 1 1 2501 1 1359859301
+/schedule/
+baiduspider-180-76-5-167.crawl.baidu.com
+0 1 0 208 0 0
+-
+70-36-236-84.dsl.static.sonic.net
+0 11 11 130065 1 1360178860
+/
+209-114-36-70.static.cloud-ips.com
+0 8 6 47040 2 1360509165
+/
+skychipmunk.caltech.edu
+0 11 11 130065 1 1360344162
+/
+static.180.97.9.5.clients.your-server.de
+0 2 2 18902 1 1360483239
+/
+baiduspider-123-125-71-51.crawl.baidu.com
+0 1 0 208 0 0
+-
+wtp-g3-maya8.sjdc
+0 2 2 18125 2 1360635542
+/
+244-21-72-188-rev.cell-net.net
+0 17 9 115585 1 1359971817
+/
+ks3299849.kimsufi.com
+0 2 2 18902 1 1360202257
+/
+c-50-135-199-114.hsd1.wa.comcast.net
+0 37 25 267959 2 1360614655
+/registration/
+50-76-32-210-ip-static.hfc.comcastbusiness.net
+0 17 14 136625 1 1360235330
+/schedule/
+ipc606.inf-i2.uni-jena.de
+0 82 69 456757 3 1360648757
+/contact/
+ea-in-f209.1e100.net
+0 1 0 209 0 0
+-
+msnbot-65-55-210-178.search.msn.com
+0 9 9 41863 1 1360624828
+/about/
+koln-4db4c7ba.pool.mediaways.net
+0 19 18 212184 1 1359884644
+/schedule/
+baiduspider-180-76-5-156.crawl.baidu.com
+0 1 0 235 0 0
+-
+c-67-166-32-49.hsd1.co.comcast.net
+0 9 9 115585 1 1360234347
+/
+mail.cpacsystems.se
+0 27 22 224413 1 1360635515
+/schedule/
+schnggts209-dmz.mycingular.net
+0 19 11 130466 1 1359987287
+/
+modemcable191.88-200-24.mc.videotron.ca
+0 10 10 121015 1 1360538841
+/
+dslb-088-074-160-103.pools.arcor-ip.net
+0 16 7 29597 1 1360633632
+/talks/
+176-9-206-169.cinfuserver.com
+0 10 3 23937 1 1359961627
+/
+37-144-168-156.broadband.corbina.ru
+0 19 19 233004 2 1360482300
+/contact/
+static-89-119.sin.nokia.net
+0 3 3 88550 0 0
+-
+77-23-176-192-dynip.superkabel.de
+0 15 13 134451 1 1360171934
+/schedule/
+hg-in-f24.1e100.net
+0 1 1 9451 1 1359928007
+/
+crawl-119-235-237-23.naver.jp
+0 2 1 9659 1 1360446543
+/
+baiduspider-180-76-5-146.crawl.baidu.com
+0 1 0 235 0 0
+-
+186.4.207.91.unknown.steephost.net
+0 30 30 274833 7 1360588470
+/
+fulltextrobot-77-75-77-32.seznam.cz
+0 5 3 6492 2 1360469657
+/contact/
+rate-limited-proxy-72-14-199-220.google.com
+0 1 1 9451 1 1359970147
+/
+lck20.wip.spokaneschools.org
+0 12 12 130334 1 1359997061
+/
+baiduspider-180-76-5-8.crawl.baidu.com
+0 1 0 208 0 0
+-
+dsl-189-235-150-49-dyn.prod-infinitum.com.mx
+0 44 36 301516 1 1360284025
+/
+baiduspider-123-125-71-76.crawl.baidu.com
+0 1 0 208 0 0
+-
+baiduspider-180-76-5-26.crawl.baidu.com
+0 3 0 651 0 0
+-
+dsdf-4db54f25.pool.mediaways.net
+0 7 7 109250 1 1360250764
+/
+c-98-218-49-13.hsd1.md.comcast.net
+0 1921 1921 22368162 47 1360595374
+/
+schnggts205-dmz.mycingular.net
+0 4 4 93829 1 1360011662
+/
+pc2.parkvod-unet.ocn.ne.jp
+0 11 11 130065 1 1360274080
+/
+p5b0aaca2.dip.t-dialin.net
+0 27 18 146016 1 1360490895
+-
+s2.webprovider.cz
+0 4 3 7948 0 0
+-
+pd9577dcb.dip.t-dialin.net
+0 22 16 141225 1 1360317609
+/contact/
+ec2-54-234-152-48.compute-1.amazonaws.com
+0 2 1 9659 1 1360122185
+/
+bl5-230-235.dsl.telepac.pt
+0 22 17 143019 1 1360441155
+/faq/
+ns232047.ovh.net
+0 4 4 0 4 1360593585
+/
+p54b763ad.dip.t-dialin.net
+0 45 38 196711 1 1360206395
+/venue/
+ec2-50-17-8-30.compute-1.amazonaws.com
+0 2 1 9659 1 1360030907
+/
+robot2.acoon.de
+0 50 24 90705 39 1360502961
+-
+baiduspider-180-76-5-183.crawl.baidu.com
+0 1 0 208 0 0
+-
+ec2-184-72-148-231.compute-1.amazonaws.com
+0 6 4 38220 4 1360579722
+/
+res388d-128-61-94-182.res.gatech.edu
+0 26 19 147576 1 1359973991
+/about/
+ip-95-221-90-6.bb.netbynet.ru
+0 10 10 116464 1 1360571082
+/sponsors/
+static-75-179.lhr.nokia.net
+0 3 3 26931 1 1360287133
+/
+24-213-38-36.static.mrqt.mi.charter.com
+0 38 18 221759 1 1360628299
+-
+host-62-24-252-133.as13285.net
+0 41 22 287879 1 1360063298
+/sponsors/
+66.55.132.202.choopa.net
+0 1 1 0 1 1360325782
+/
+109-184-212-178.dynamic.mts-nn.ru
+0 22 17 143019 1 1360483245
+/faq/
+dslb-178-005-164-240.pools.arcor-ip.net
+0 9 9 115585 1 1360164373
+/
+112.210.117.44.pldt.net
+0 16 16 207732 1 1360638105
+/
+213-0-43-190.rad.tsai.es
+0 16 16 207732 1 1360643115
+/
+sbagentfe06.maxis.net.my
+0 2 2 88052 1 1360097538
+/
+fw-emea.rohde-schwarz.com
+0 26 22 221415 1 1360641182
+/about/
+customer-tep-34-56.megared.net.mx
+0 1 0 207 1 1359984382
+/
+static-75-241.lhr.nokia.net
+0 4 4 97600 0 0
+-
+unallocated.sta.lan.ua
+0 8 8 73277 3 1360585521
+/
+189.58.29.171.dynamic.adsl.gvt.net.br
+0 1 0 0 1 1360555061
+-
+193.106.136.61.usersnat.smileweb.com.ua
+0 2 2 18902 1 1359946607
+/
+173.192.79.101-static.reverse.softlayer.com
+0 2 1 9659 1 1360274095
+/
+baiduspider-180-76-5-11.crawl.baidu.com
+0 2 0 0 2 1360220593
+/
+ec2-50-19-66-24.compute-1.amazonaws.com
+0 1 0 0 0 0
+-
+114-160-112-68.ip1.george24.com
+0 16 14 136407 1 1360203607
+/talks/
+ia-in-f37.1e100.net
+0 1 0 209 0 0
+-
+128-72-45-151.broadband.corbina.ru
+0 14 14 130265 1 1360623292
+/contact/
+81-208-64-110.ip.fastwebnet.it
+0 11 11 130065 1 1359954718
+/
+ec2-54-242-216-138.compute-1.amazonaws.com
+0 4 2 19318 1 1360122449
+/
+hsi-kbw-46-237-242-12.hsi.kabel-badenwuerttemberg.de
+0 11 11 130065 1 1359905079
+/
+baiduspider-180-76-5-96.crawl.baidu.com
+0 1 0 208 0 0
+-
+fetcher4.mail.ru
+0 4 0 886 0 0
+-
+65-102-185-25.tukw.qwest.net
+0 24 18 138286 1 1360201706
+/contact/
+81-91-40-158.utk.ru
+0 10 10 121015 1 1360187201
+/
+high-road.com
+0 213 40 383663 8 1360615457
+/
+odnb-4db7510f.pool.mediaways.net
+0 22 11 40742 1 1359917806
+-
+31-57.34-65.panhandle.res.rr.com
+0 11 11 130065 1 1360100288
+/
+ppp-83-171-161-105.dynamic.mnet-online.de
+0 19 15 138812 1 1360415157
+/about/
+baiduspider-180-76-5-27.crawl.baidu.com
+0 1 1 1962 1 1359997664
+/speakers/
+baiduspider-123-125-71-12.crawl.baidu.com
+0 1 0 208 0 0
+-
+c-65-96-13-149.hsd1.ma.comcast.net
+0 20 6 30464 1 1360627975
+/talks/
+baiduspider-180-76-5-22.crawl.baidu.com
+0 2 0 442 1 1360364681
+-
+msnbot-157-55-35-112.search.msn.com
+0 20 8 77409 8 1360593433
+/
+host86-139-140-136.range86-139.btcentralplus.com
+0 1 0 0 1 1360496187
+/
+msnbot-157-56-93-204.search.msn.com
+0 1 1 9050 0 0
+-
+funkwerk-itk.com
+0 61 35 294698 3 1360586644
+/about/
+baiduspider-180-76-5-90.crawl.baidu.com
+0 1 0 225 1 1359963024
+/
+zt117.tfbnw.net
+0 1 1 8430 0 0
+-
+webhost.alphainfonet.com
+0 2 0 0 1 1360484308
+-
+ip-176-195-205-172.bb.netbynet.ru
+0 9 9 116193 1 1360337531
+/about/
+c16-235.blackberry.net
+0 1 1 814 0 0
+-
+c-71-195-222-149.hsd1.ut.comcast.net
+0 10 6 29820 1 1359996067
+/speakers/
+msnbot-157-56-229-190.search.msn.com
+0 6 4 29767 1 1360624790
+/about/
+hsi-kbw-37-209-69-17.hsi15.kabel-badenwuerttemberg.de
+0 15 13 127363 1 1360168899
+/talks/
+ec2-23-20-39-33.compute-1.amazonaws.com
+0 2 2 18902 2 1360579718
+/
+rrcs-97-77-121-40.sw.biz.rr.com
+0 63 55 313684 1 1360596689
+/contact/
+c-98-226-163-51.hsd1.in.comcast.net
+0 11 11 130065 1 1360512222
+/
+static-89-120.sin.nokia.net
+0 3 3 15432 0 0
+-
+c-24-2-92-232.hsd1.ut.comcast.net
+0 34 24 241359 2 1360414536
+/speakers/
+hosted-by.leaseweb.com
+0 44 21 93846 3 1360641395
+/venue/
+baiduspider-180-76-5-94.crawl.baidu.com
+0 1 0 225 1 1360321667
+/
+pppoe-31-29-200-198.saratov.comstar.ru
+0 24 18 145386 1 1360291974
+/contact/
+mdb5036d0.tmodns.net
+0 10 10 121015 1 1360078918
+/
+ec2-23-20-214-123.compute-1.amazonaws.com
+0 2 2 9451 1 1360274094
+/
+baiduspider-123-125-71-27.crawl.baidu.com
+0 1 0 208 0 0
+-
+128-110-86-81.uconnect.utah.edu
+0 11 11 130065 1 1360002595
+/
+baiduspider-180-76-5-49.crawl.baidu.com
+0 1 0 208 0 0
+-
+baiduspider-123-125-71-42.crawl.baidu.com
+0 1 1 10588 0 0
+-
+c-5e8ee555.08-144-6c6b7013.cust.bredbandsbolaget.se
+0 80 74 563205 3 1360380973
+/
+206-47-94-97.dsl.ncf.ca
+0 22 17 143002 1 1360057689
+/about/
+ec2-23-20-100-232.compute-1.amazonaws.com
+0 1 0 0 1 1359979870
+/
+baiduspider-180-76-5-197.crawl.baidu.com
+0 2 1 9659 1 1359963024
+/
+a03-03-08.opera-mini.net
+0 16 16 206948 1 1359886377
+/
+home-324179.b.astral.ro
+0 17 17 208103 1 1359860465
+/
+ia-in-f18.1e100.net
+0 1 0 209 0 0
+-
+pppoe-2.102.252.tshtt.uz
+0 10 10 124635 1 1360496312
+/
+spmtnachtmann.hlrs.de
+0 11 11 130065 1 1359962446
+/
+static-88-134.sin.nokia.net
+0 2 2 5771 0 0
+-
+msnbot-157-55-35-46.search.msn.com
+0 8 3 7020 3 1360573972
+-
+baiduspider-180-76-5-15.crawl.baidu.com
+0 1 1 1959 1 1359955706
+/about/
+ec2-54-234-102-160.compute-1.amazonaws.com
+0 2 2 18902 2 1360398360
+/
+91-157-209-97.elisa-laajakaista.fi
+0 26 19 147576 1 1360075860
+/about/
+108-213-76-64.lightspeed.frokca.sbcglobal.net
+0 19 17 210649 1 1360628905
+/about/
+ns232038.ovh.net
+0 3 3 0 3 1360593585
+/
+c-24-17-82-101.hsd1.wa.comcast.net
+0 11 11 130065 1 1360356735
+/
+ip-95-221-107-59.bb.netbynet.ru
+0 18 18 223604 2 1360309297
+/about/
+hsi-kbw-078-042-144-174.hsi3.kabel-badenwuerttemberg.de
+0 3 3 16290 0 0
+-
+msnbot-65-55-208-111.search.msn.com
+0 6 6 104915 0 0
+-
+89-166-19-155.bb.dnainternet.fi
+0 16 14 136413 1 1360262451
+/talks/
+p4ff79e9e.dip.t-dialin.net
+0 12 12 132027 1 1359963188
+/speakers/
+91-115-53-175.adsl.highway.telekom.at
+0 11 11 130065 1 1359917135
+/
+msnbot-65-55-52-108.search.msn.com
+0 2 1 2167 1 1359996617
+/venue/
+124-170-201-104.dyn.iinet.net.au
+0 11 11 130065 1 1360230790
+/
+ec2-50-19-198-239.compute-1.amazonaws.com
+0 3 3 28353 1 1360274094
+/
+85-233-110-52.kt-net.net
+0 16 16 206948 1 1359893858
+/
+host141.dyn143.wfu.edu
+0 11 11 130065 1 1360094112
+/
+bd669917.virtua.com.br
+0 28 20 149769 1 1360459397
+/about/
+host86-173-12-37.range86-173.btcentralplus.com
+0 11 11 130065 1 1360158302
+/
+ip-87-86-104-251.easynet.co.uk
+0 25 18 145589 1 1360302777
+/contact/
+static-75-185.lhr.nokia.net
+0 5 4 89652 0 0
+-
+baiduspider-123-125-71-46.crawl.baidu.com
+0 1 0 208 0 0
+-
+x1-6-e0-46-9a-ed-82-66.k906.webspeed.dk
+0 12 8 105214 1 1360164619
+/registration/
+a10-01-04.opera-mini.net
+0 11 11 130065 1 1360576779
+/
+ec2-184-73-14-223.compute-1.amazonaws.com
+0 1 1 9451 1 1360275022
+/
+mpkfw.corp.tfbnw.net
+0 11 11 130065 1 1360247056
+/
+46-237-20-67.pppoe.yaroslavl.ru
+0 24 18 145209 1 1360331142
+/faq/
+174-25-111-159.ptld.qwest.net
+0 68 19 264660 6 1360597644
+/talks/
+50-12-184-64.sfo.clearwire-wmx.net
+0 33 5 42837 1 1359896807
+/
+h47n2-ens-a12.ias.bredband.telia.com
+0 37 30 281664 2 1360204906
+/
+instapaper.com
+0 1 1 9451 1 1359912909
+/
+static-75-187.lhr.nokia.net
+0 1 1 341 0 0
+-
+150-70-172-125.trendmicro.com
+0 2 2 10265 1 1360580737
+/
+ps16404.dreamhost.com
+0 1 1 9451 1 1360274095
+/
+bzq-79-181-168-117.red.bezeqint.net
+0 19 15 139011 1 1359914798
+/talks/
+cpeb3-24.geusnet.com
+0 55 49 136427 1 1359930784
+/about/
+zt118.tfbnw.net
+0 1 1 8430 0 0
+-
+odnb-4dbcf64d.pool.mediaways.net
+0 12 6 16544 2 1360151958
+/contact/
+109.120.157.179.addr.datapoint.ru
+0 4 4 37804 2 1360407531
+/
+86.108.x.37.go.com.jo
+0 26 19 147576 1 1360290180
+/about/
+d-86-123-47-86.craiova.rdsnet.ro
+0 16 16 206948 1 1359890684
+/
+Invalid
+0 1940 1528 14854432 163 1360648590
+/
+host-77-41-65-211.qwerty.ru
+0 13 11 130065 3 1360505820
+/
+schepper.svs.informatik.uni-oldenburg.de
+0 36 26 236203 4 1360638525
+/talks/
+msnbot-65-55-208-244.search.msn.com
+0 6 6 104915 0 0
+-
+ec2-75-101-254-207.compute-1.amazonaws.com
+0 1 0 208 0 0
+-
+dslb-088-071-028-245.pools.arcor-ip.net
+0 8 8 42073 1 1360501322
+/
+ti0043a380-0645.bb.online.no
+0 22 22 260130 2 1360566171
+/
+baiduspider-180-76-5-161.crawl.baidu.com
+0 2 1 2170 1 1360364683
+/speakers/
+ec2-184-72-144-138.compute-1.amazonaws.com
+0 3 2 19110 2 1360293496
+/
+mf55036d0.tmodns.net
+0 3 3 88393 1 1360144125
+/
+95-28-138-176.broadband.corbina.ru
+0 16 16 207732 1 1360599676
+/
+brln-4d0c2bb0.pool.mediaways.net
+0 11 11 130065 1 1360217725
+/
+static-89-115.sin.nokia.net
+0 4 4 27824 1 1360436136
+/
+99-149-221-215.lightspeed.rcklca.sbcglobal.net
+0 35 22 260130 2 1360459638
+/
+73.24.87.109.triolan.net
+0 27 19 147807 1 1359905937
+-
+151-240-101-224.rasana.net
+0 11 11 130065 1 1360217059
+/
+37-229-171-45-broadband.kyivstar.net
+0 32 24 247212 2 1360080118
+/sponsors/
+186-63-23-185.speedy.com.ar
+0 21 17 147225 1 1360182105
+/about/
+nhtn-01-0920.dsl.iowatelecom.net
+0 13 13 209408 1 1360471483
+/
+c83-253-238-69.bredband.comhem.se
+0 11 11 130065 1 1360167593
+/
+wtp-g4-maya8.sjdc
+0 1 1 9451 1 1360275132
+/
+a01-01-02.opera-mini.net
+0 13 12 201607 1 1360635782
+/
+dslb-094-223-133-214.pools.arcor-ip.net
+0 9 9 115585 1 1360241545
+/
+spider-100-43-83-133.yandex.com
+0 74 28 165323 41 1360636496
+-
+s08-02.opera-mini.net
+0 13 11 133672 1 1360317303
+/schedule/
+c-98-250-163-165.hsd1.mi.comcast.net
+0 22 22 260130 2 1360529789
+/
+dslb-188-103-073-043.pools.arcor-ip.net
+0 8 8 114686 1 1360077537
+/
+89-74-97-44.dynamic.chello.pl
+0 25 22 227393 1 1359875495
+/registration/
+a02-03-06.opera-mini.net
+0 11 11 130065 1 1360268953
+/
+lanhide.tnsi.com
+0 24 18 145386 1 1360317350
+/contact/
+static-37-141.mobily.com.sa
+0 1 1 9451 1 1360073938
+/
+kd175109103162.ppp-bb.dion.ne.jp
+0 13 13 130333 1 1360286694
+/
+msnbot-65-55-213-66.search.msn.com
+0 60 55 198498 10 1360325811
+/schedule/
+ec2-54-241-80-42.us-west-1.compute.amazonaws.com
+0 1 1 9451 1 1360276498
+/
+155.72.233.72.static.reverse.ltdomains.com
+0 1 1 9451 1 1360085596
+/
+cal_gi_laptop.gi.alaska.edu
+0 27 12 46848 1 1360614800
+/about/
+188-221-233-106.zone12.bethere.co.uk
+0 12 12 132027 1 1360419679
+/schedule/
+static-75-222.lhr.nokia.net
+0 3 2 11240 1 1360287323
+/venue/
+msnbot-157-56-93-153.search.msn.com
+0 4 0 856 2 1360574720
+-
+dslb-084-063-008-238.pools.arcor-ip.net
+0 11 11 130065 1 1360562428
+/
+dsl-187-158-206-242-dyn.prod-infinitum.com.mx
+0 1 1 8390 1 1359893627
+/
+wtp-g8-maya2.iad1
+0 5 5 95358 1 1360635909
+/schedule/
+ec2-54-242-180-96.compute-1.amazonaws.com
+0 1 1 8430 0 0
+-
+ip-91-233-30-11.ppp.tvoynet.ru
+0 24 18 145386 1 1360578727
+/contact/
+a12-08-07.opera-mini.net
+0 11 11 130065 1 1360027527
+/
+static-75-220.lhr.nokia.net
+0 3 3 20584 0 0
+-
+c16-211.blackberry.net
+0 4 4 10610 0 0
+-
+8-adsl.ntc.net.np
+0 11 11 130065 1 1360132624
+/
+70-89-194-181-busname-elmhurst.il.hfc.comcastbusiness.net
+0 19 15 138812 1 1360158346
+/about/
+servers-nat.spylog.net
+0 1 1 9451 1 1360435365
+/
+p5b2c527e.dip.t-dialin.net
+0 15 13 134457 1 1360209998
+-
+bthmspsrvz3ts416-dmz.mycingular.net
+0 9 9 115585 1 1360503347
+/
+s24-11.opera-mini.net
+0 8 8 127327 1 1360392975
+/
+150-70-64-213.trendmicro.com
+0 2 2 68969 0 0
+-
+static-75-243.lhr.nokia.net
+0 2 2 18100 0 0
+-
+dynamicip-176-213-234-27.pppoe.ufa.ertelecom.ru
+0 3 0 719 1 1360353538
+-
+178-84-148-200.dynamic.upc.nl
+0 29 23 227317 1 1360595824
+/contact/
+hn.kd.ny.adsl
+0 2 1 2196 1 1359976158
+/schedule/
+102.219.202.1.static.bjtelecom.net
+0 1 1 9451 1 1360364765
+/
+94-153-65-117-gprs.kyivstar.net
+0 9 9 85059 3 1360469591
+/
+img-spider-199-36-240-22.yandex.com
+0 2 0 208 0 0
+-
+92.50.166.76.static.ufanet.ru
+0 24 18 145386 1 1359947425
+/contact/
+baiduspider-180-76-5-194.crawl.baidu.com
+0 1 0 0 1 1360321668
+/
+odnb-4dbcb9e5.pool.mediaways.net
+0 9 4 22350 2 1360645253
+/speakers/
+iad1-wtp-gd-maya6.sdi.trendnet.org
+0 3 3 10416 1 1360635668
+/talks/
+201-4-8-226.user.veloxzone.com.br
+0 11 11 130065 1 1360123287
+/
+50-46-175-21.evrt.wa.frontiernet.net
+0 165 43 398412 5 1360633005
+/
+247.219.150.178.triolan.net
+0 13 12 132254 1 1359981070
+/faq/
+chello213047143207.35.11.tuwien.teleweb.at
+0 21 16 141041 1 1360156747
+/about/
+193.106.136.60.usersnat.smileweb.com.ua
+0 4 4 37804 2 1360559115
+/
+uni172-ip29.unisinos.br
+0 3 3 23937 1 1359956819
+/
+p5485691c.dip.t-dialin.net
+0 1 0 208 0 0
+-
+50.22.199.170-static.reverse.softlayer.com
+0 9 9 40298 2 1360041482
+/
+ppp-214-145.29-151.libero.it
+0 11 11 130065 1 1360488908
+/
+sol-fttb.35.120.119.46.sovam.net.ua
+0 3 3 28353 1 1359931043
+/
+50.22.245.218-static.reverse.softlayer.com
+0 2 1 8598 1 1359878537
+/
+c16-213.blackberry.net
+0 2 2 88052 1 1360570149
+/
+ec2-184-73-106-188.compute-1.amazonaws.com
+0 2 1 9676 1 1360106245
+/
+s0106e0cb4ece8152.vc.shawcable.net
+0 18 14 61884 1 1359924244
+/faq/
+ec2-23-23-9-115.compute-1.amazonaws.com
+0 2 1 9659 1 1360277019
+/
+pd95162b3.dip.t-dialin.net
+0 16 16 206948 1 1359877397
+/
+66-169-184-128.dhcp.ftwo.tx.charter.com
+0 22 17 142993 1 1360001858
+/venue/
+adsl-70-234-243-247.dsl.rcsntx.sbcglobal.net
+0 13 4 26112 1 1360155848
+/registration/
+ip-122-216-static.velo.net.id
+0 11 11 124904 1 1360107406
+/
+85-126-34-245.static.xdsl-line.inode.at
+0 26 22 237902 1 1360636314
+/kickstarter/
+static-75-183.lhr.nokia.net
+0 3 3 20584 0 0
+-
+i5e879675.versanet.de
+0 59 44 494759 2 1360613692
+/about/
+sbintfe04.maxis.net.my
+0 1 1 9451 1 1360097539
+/
+c-76-27-108-152.hsd1.ut.comcast.net
+0 26 19 147573 1 1360108053
+/contact/
+baiduspider-180-76-5-88.crawl.baidu.com
+0 1 0 0 1 1360508896
+/
+50ob.scansafe.net
+0 11 11 130065 1 1360320378
+/
+118.163.251.212.customer.cdi.no
+0 11 11 131136 1 1360582140
+/
+41.35.114.125.broad.nb.zj.dynamic.163data.com.cn
+0 11 11 130065 1 1360045412
+/
+173.193.205.248-static.reverse.softlayer.com
+0 6 1 3120 1 1360305065
+-
+static.75.198.46.78.clients.your-server.de
+0 2 1 2196 1 1359959230
+/speakers/
+crawl-119-235-237-24.naver.jp
+0 4 2 18541 2 1360631912
+/
+gate25-quantico.nmci.usmc.mil
+0 8 4 87024 1 1360607443
+/about/
+a04-10-04.opera-mini.net
+0 11 11 130065 1 1360231127
+/
+71-35-156-200.tukw.qwest.net
+0 14 13 134223 1 1359985683
+/speakers/
+p4fddf23c.dip.t-dialin.net
+0 16 16 207732 1 1360607495
+/
+baiduspider-180-76-5-182.crawl.baidu.com
+0 1 0 235 0 0
+-
+78.179.207.199.dynamic.ttnet.com.tr
+0 1 1 0 1 1360045689
+/
+188-221-157-173.zone12.bethere.co.uk
+0 10 9 115787 1 1360336624
+/
+ded3119.sysms.net
+0 1 1 9451 1 1360274095
+/
+h347.hlfs.bf1.yahoo.com
+0 10 10 124635 1 1360485540
+/
+rate-limited-proxy-72-14-199-132.google.com
+0 1 1 9451 1 1360181868
+/
+msnbot-65-55-210-169.search.msn.com
+0 6 6 104915 0 0
+-
+baiduspider-123-125-71-58.crawl.baidu.com
+0 1 0 208 0 0
+-
+ec2-54-234-103-243.compute-1.amazonaws.com
+0 1 1 9451 1 1360201770
+/
+dslb-094-216-196-102.pools.arcor-ip.net
+0 53 30 345902 5 1360637048
+/speakers/
+1-38-17-21.live.vodafone.in
+0 4 4 93829 1 1360050555
+/
+srv-76-184.mpi-sws.org
+0 1 1 9451 1 1360322077
+/
+cpc22-newc15-2-0-cust33.16-2.cable.virginmedia.com
+0 22 17 143005 1 1360015955
+/about/
+baiduspider-180-76-5-99.crawl.baidu.com
+0 1 0 225 1 1360177402
+/
+msnbot-65-55-215-76.search.msn.com
+0 2 1 1363 0 0
+-
+ip.imageworks.com
+0 19 15 138837 1 1360345187
+/venue/
+www.whois.sc
+0 3 1 9911 1 1360337116
+/
+186.gprs.mts.ru
+0 9 7 173189 1 1360626012
+-
+c-24-218-220-214.hsd1.ma.comcast.net
+0 50 14 108394 4 1360610007
+/registration/
+c-67-169-52-84.hsd1.ca.comcast.net
+0 16 16 207732 1 1360608195
+/
+nis-seaman.netrex.com
+0 5 4 37727 1 1360425694
+/
+87-194-216-74.bethere.co.uk
+0 15 13 134436 1 1360254146
+/speakers/
+ip-95-221-89-168.bb.netbynet.ru
+0 9 9 116193 1 1360430457
+/about/
+174-124-109-14.dyn.centurytel.net
+0 12 12 130334 1 1360075746
+/
+baiduspider-180-76-5-147.crawl.baidu.com
+0 1 0 208 0 0
+-
+ip-95-111-25-247.home.megalan.bg
+0 16 16 206948 1 1359864035
+/
+c16-238.blackberry.net
+0 6 6 29973 0 0
+-
+87-207-224-151.dynamic.chello.pl
+0 13 2 9704 1 1359892884
+/speakers/
+c16-244.blackberry.net
+0 4 4 21878 1 1360505575
+/
+ar1499.kis.ru
+0 28 8 45580 2 1360635457
+/about/
+proxy-2.cyberpods.net
+0 2 0 441 0 0
+-
+154.230.119.80.rev.sfr.net
+0 11 11 130065 1 1360267344
+/
+119-224-48-48.callplus.net.nz
+0 16 16 207732 1 1360625592
+/
+softbank126118088253.bbtec.net
+0 12 11 119743 1 1360271111
+/speakers/
+124-241-042-254.pool.fctv.ne.jp
+0 11 11 130065 1 1360401654
+/
+65-33-177-84.res.bhn.net
+0 20 16 140793 1 1360180570
+/schedule/
+201-66-216-80.pltce701.dsl.brasiltelecom.net.br
+0 16 14 136413 1 1360479771
+/talks/
+108.61.42.219.choopa.net
+0 3 3 17348 1 1360614309
+/
+static-75-181.lhr.nokia.net
+0 2 2 9391 0 0
+-
+host81-159-160-61.range81-159.btcentralplus.com
+0 11 3 23937 1 1360419973
+/
+static-95-72-225-77.ipcom.comunitel.net
+0 28 16 138930 1 1360212269
+-
+wtp-g9-maya2.iad1
+0 1 1 9451 1 1360300690
+/
+ec2-54-234-68-65.compute-1.amazonaws.com
+0 1 1 9451 1 1360580374
+/
+ns2.advancedns.net
+0 1 1 9451 1 1360268604
+/
+ec2-54-235-228-158.compute-1.amazonaws.com
+0 1 1 9451 1 1359930752
+/
+baiduspider-123-125-71-19.crawl.baidu.com
+0 1 0 208 0 0
+-
+cpc20-cove12-2-0-cust120.3-1.cable.virginmedia.com
+0 134 47 567495 7 1360636577
+/speakers/
+msnbot-157-55-36-38.search.msn.com
+0 4 2 4380 2 1360573070
+-
+baiduspider-123-125-71-81.crawl.baidu.com
+0 1 0 208 0 0
+-
+baiduspider-123-125-71-20.crawl.baidu.com
+0 1 0 208 0 0
+-
+c-69-245-116-32.hsd1.mi.comcast.net
+0 19 19 208000 1 1360617959
+/
+sbintfe01.maxis.net.my
+0 1 1 9451 1 1360097539
+/
+crawl01.exabot.com
+0 8 6 12395 2 1360154969
+-
+150-70-64-194.trendmicro.com
+0 1 1 9451 1 1360106408
+/
+ec2-54-234-152-209.compute-1.amazonaws.com
+0 1 1 0 1 1359984203
+/
+ip70-181-208-141.sd.sd.cox.net
+0 11 11 130065 1 1360122111
+/
+173-164-174-193-sfba.hfc.comcastbusiness.net
+0 11 11 130065 1 1359904417
+/
+dslb-088-074-174-244.pools.arcor-ip.net
+0 22 12 184761 1 1359881739
+/kickstarter/
+108.219.202.1.static.bjtelecom.net
+0 2 1 208 1 1360364760
+/
+baiduspider-123-125-71-111.crawl.baidu.com
+0 2 0 416 0 0
+-
+ping01.critical.io
+0 1 0 225 1 1359996071
+/
+kalypso.elke.uoc.gr
+0 1 0 226 0 0
+-
+51-200-ftth.onsbrabantnet.nl
+0 1 0 209 0 0
+-
+gate22-quantico.nmci.usmc.mil
+0 4 4 95589 1 1360607294
+/
+95-105-174-206.gci.net
+0 20 16 140807 1 1359910314
+/registration/
+dslb-178-000-216-022.pools.arcor-ip.net
+0 14 14 218500 2 1360429732
+/
+208-115-111-74-reverse.wowrack.com
+0 2 1 2342 1 1360388199
+/contact/
+ti0007a380-dhcp1680.bb.online.no
+0 16 16 206948 1 1359881254
+/
+c16-246.blackberry.net
+0 3 3 15822 1 1360505588
+/speakers/
+crawl-66-249-73-180.googlebot.com
+0 11 1 10283 7 1360047057
+/sponsors/
+c16-214.blackberry.net
+0 3 3 11765 0 0
+-
+vm2305.hvm.agava.net
+0 4 4 37804 2 1360388351
+/
+odnb-4dbcfb43.pool.mediaways.net
+0 142 44 388080 6 1360609671
+/
+c73-201.rim.net
+0 11 11 130065 1 1359993190
+/
+static-75-224.lhr.nokia.net
+0 3 3 28688 0 0
+-
+ec2-50-18-21-225.us-west-1.compute.amazonaws.com
+0 2 2 0 1 1360274095
+/
+123.230.55.52.er.eaccess.ne.jp
+0 8 8 42073 1 1359972806
+/
+120.sub-70-192-131.myvzw.com
+0 11 11 122974 1 1360006151
+/talks/
+static-75-184.lhr.nokia.net
+0 2 2 5777 0 0
+-
+host-41.238.19.215.tedata.net
+0 8 8 106134 0 0
+-
+msnbot-157-56-93-201.search.msn.com
+0 6 4 37852 2 1360572772
+/sponsors/
+baiduspider-180-76-5-186.crawl.baidu.com
+0 1 0 208 0 0
+-
+c-67-170-36-124.hsd1.wa.comcast.net
+0 27 20 157025 1 1360126214
+/faq/
+213-241-61-132.ip.netia.com.pl
+0 77 58 516346 3 1360385405
+/speakers/
+mx1.h30media.co.uk
+0 21 3 23937 1 1359972532
+/
+21-252.2-0.pl
+0 11 11 130065 1 1360477630
+/
+178-137-18-206-lvv.broadband.kyivstar.net
+0 36 36 340236 10 1360533413
+/
+p3246-ipngn901hodogaya.kanagawa.ocn.ne.jp
+0 1 1 9451 1 1360038403
+/
+a04-01-07.opera-mini.net
+0 11 11 130065 1 1360142027
+/
+171-107-237-24.gci.net
+0 8 5 17997 1 1360164957
+/registration/
+static-88-133.sin.nokia.net
+0 2 2 19638 0 0
+-
+surksum.xs4all.nl
+0 2 1 9659 1 1360102011
+/
+chaos.puxlit.net
+0 26 19 147573 1 1360047779
+/about/
+c-67-171-38-42.hsd1.wa.comcast.net
+0 11 11 130065 1 1359948493
+/
+msnbot-157-56-93-191.search.msn.com
+0 4 1 2638 3 1360573097
+-
+50-0-175-252.dsl.static.sonic.net
+0 16 16 206834 1 1360582881
+/
+baiduspider-180-76-5-7.crawl.baidu.com
+0 1 1 1966 1 1360057996
+/registration/
+122-59-248-46.jetstream.xtra.co.nz
+0 18 14 136847 1 1360016370
+/faq/
+c16-237.blackberry.net
+0 2 2 1839 0 0
+-
+200.sub-174-254-180.myvzw.com
+0 10 10 121015 1 1360003514
+/
+dsdf-4db5ce54.pool.mediaways.net
+0 9 9 115585 1 1360165511
+/
+p5b0a26fd.dip.t-dialin.net
+0 11 11 130065 1 1360564549
+/
+87-206-245-108.dynamic.chello.pl
+0 11 11 130065 1 1360076972
+/
+ec2-204-236-226-210.compute-1.amazonaws.com
+0 31 19 47856 3 1360450667
+/venue/
+host163-44-dynamic.59-82-r.retail.telecomitalia.it
+0 11 11 130065 1 1359975419
+/
+crawl-66-249-76-132.googlebot.com
+0 36 19 189610 18 1360460277
+/
+baiduspider-180-76-5-157.crawl.baidu.com
+0 1 0 235 0 0
+-
+static-75-182.lhr.nokia.net
+0 6 5 98702 0 0
+-
+ip-95-220-109-142.bb.netbynet.ru
+0 10 10 116464 1 1360496918
+/sponsors/
+46-237-31-231.pppoe.yaroslavl.ru
+0 15 4 8949 1 1360423970
+/speakers/
+tal33-1-87-88-180-126.dsl.sta.abo.bbox.fr
+0 28 19 147994 1 1360480315
+/about/
+baiduspider-123-125-71-49.crawl.baidu.com
+0 1 0 208 0 0
+-
+80-121-87-81.adsl.highway.telekom.at
+0 11 11 130065 1 1360184166
+/
+msnbot-199-30-20-14.search.msn.com
+0 2 1 10796 0 0
+-
+188-221-201-27.zone12.bethere.co.uk
+0 11 11 130065 1 1360085038
+/
+84-235-91-20.saudi.net.sa
+0 19 19 250185 1 1360474578
+/
+193.106.136.57.usersnat.smileweb.com.ua
+0 2 2 18902 1 1360170132
+/
+c16-212.blackberry.net
+0 1 1 10588 0 0
+-
+baiduspider-180-76-5-150.crawl.baidu.com
+0 2 1 2194 1 1360032198
+/venue/
+97-86-225-202.dhcp.roch.mn.charter.com
+0 24 18 145206 1 1359931765
+/about/
+subs07-103-10-66-75.three.co.id
+0 14 13 134220 1 1360064491
+/speakers/
+baiduspider-123-125-71-36.crawl.baidu.com
+0 1 0 208 0 0
+-
+wel-38.cs.helsinki.fi
+0 20 11 40027 1 1360311942
+/contact/
+kablosuz-90.ceng.metu.edu.tr
+0 29 22 224801 1 1360641730
+-
+176-222-44-116.dsl.optinet.hr
+0 11 11 130065 1 1360193614
+/
+static.39.154.46.78.clients.your-server.de
+0 1 0 208 0 0
+-
+c16-236.blackberry.net
+0 3 3 17972 1 1360595311
+/
+c-71-198-24-191.hsd1.ca.comcast.net
+0 11 11 130065 1 1360546743
+/
+gate23-quantico.nmci.usmc.mil
+0 5 5 20486 0 0
+-
+ec2-107-22-81-228.compute-1.amazonaws.com
+0 1 1 9451 1 1360316137
+/
+bzq-79-183-204-176.red.bezeqint.net
+0 20 16 140796 1 1360266454
+/talks/
+h2101589.stratoserver.net
+0 1 1 8674 1 1360586686
+/
+static-75-223.lhr.nokia.net
+0 5 4 29346 1 1360287306
+/speakers/
+mail.autoform.ch
+0 22 17 142997 1 1360065263
+/venue/
+static-75-186.lhr.nokia.net
+0 5 5 34545 1 1360287266
+/about/
+baiduspider-180-76-5-165.crawl.baidu.com
+0 1 1 78601 0 0
+-
+c-76-18-48-194.hsd1.fl.comcast.net
+0 9 9 115585 1 1360255106
+/
+fl1-119-240-118-39.stm.mesh.ad.jp
+0 10 10 121015 1 1360456781
+/
+178-137-128-25-kie.broadband.kyivstar.net
+0 21 21 196349 7 1360259529
+/
+baiduspider-180-76-5-189.crawl.baidu.com
+0 1 0 208 0 0
+-
+gw.hatena.ne.jp
+0 1 1 0 1 1360275832
+/
+38.242.246.80.telrostelecom.ru
+0 11 11 130065 1 1360066546
+/
+amtbrinkmann.hlrs.de
+0 36 29 272204 2 1360224174
+/
+l0017-1-88-125-252-180.fbx.proxad.net
+0 11 11 130065 1 1360400593
+/
+ip-109-91-14-167.unitymediagroup.de
+0 11 11 50596 1 1360612693
+/
+c-98-232-93-65.hsd1.wa.comcast.net
+0 3 3 23937 1 1359900755
+/
+mm-172-147-57-86.static.mgts.by
+0 10 10 121015 1 1360047576
+/
+msnbot-65-55-215-90.search.msn.com
+0 2 1 8638 0 0
+-
+cpe-75-82-51-110.socal.res.rr.com
+0 31 27 270882 1 1360507942
+/about/
+ip4daaf979.direct-adsl.nl
+0 28 16 138930 1 1360146675
+-
+ns231143.ovh.net
+0 1 1 0 1 1360338550
+/
+94-137-213-114.pppoe.irknet.ru
+0 11 11 130065 1 1360145174
+/
+s51-02.opera-mini.net
+0 11 11 130065 1 1360330723
+/
+sbagentfe04.maxis.net.my
+0 3 3 15228 1 1360097538
+/
+c-67-188-93-75.hsd1.ca.comcast.net
+0 1 1 5430 0 0
+-
+76-224-230-228.lightspeed.frsnca.sbcglobal.net
+0 15 14 137907 1 1360441504
+/schedule/
+spiderduck01.dmz1.twitter.com
+0 2 1 9659 1 1360274095
+/
+static-75-177.lhr.nokia.net
+0 1 1 9050 0 0
+-
+82-160-241-165.tktelekom.pl
+0 25 18 145440 1 1360491990
+/faq/
+baiduspider-180-76-5-176.crawl.baidu.com
+0 1 0 208 0 0
+-
+baiduspider-180-76-5-24.crawl.baidu.com
+0 1 0 208 0 0
+-
+68-190-16-68.static.mtgm.al.charter.com
+0 1 1 9451 1 1360332053
+/
+bl7-174-146.dsl.telepac.pt
+0 20 16 140807 1 1360149385
+/talks/
+132.139.55.59.broad.nc.jx.dynamic.163data.com.cn
+0 2 0 490 1 1360489719
+-
+baiduspider-180-76-5-144.crawl.baidu.com
+0 1 1 1980 1 1360101109
+/faq/
+p549e5b19.dip.t-dialin.net
+0 32 25 246019 1 1359870857
+/contact/
+baiduspider-180-76-5-61.crawl.baidu.com
+0 1 0 225 1 1360508895
+/
+d86-32-177-43.cust.tele2.at
+0 12 12 132027 1 1360167533
+/schedule/
+ip-95-221-113-46.bb.netbynet.ru
+0 10 10 116461 1 1360385791
+/about/
+s4.dchost.eu
+0 23 10 32398 1 1359983417
+/about/
+178-137-188-86-kha.broadband.kyivstar.net
+0 15 6 27192 1 1360413726
+/about/
+baiduspider-180-76-5-91.crawl.baidu.com
+0 1 0 235 0 0
+-
+cl-78-158-11-226.fastlink.lt
+0 5 5 24782 1 1360295682
+/speakers/
+lightning.yama.info.waseda.ac.jp
+0 49 22 94616 3 1360465311
+/faq/
+static.72.198.46.78.clients.your-server.de
+0 1 1 8390 1 1359871605
+/
+static-75-247.lhr.nokia.net
+0 2 2 18100 0 0
+-
+sbintfe03.maxis.net.my
+0 1 1 9451 1 1360097540
+/
+c-71-56-8-226.hsd1.ga.comcast.net
+0 11 11 122981 1 1360023995
+/registration/
+idefix.odevis.com
+0 11 11 130065 1 1360054799
+/
+baiduspider-180-76-5-55.crawl.baidu.com
+0 1 1 9451 1 1360014861
+/
+6.201.151.178.triolan.net
+0 11 11 130065 1 1360393419
+/
+gate24-quantico.nmci.usmc.mil
+0 10 9 18550 1 1360607426
+/talks/
+static-75-242.lhr.nokia.net
+0 1 1 9050 0 0
+-
+dslb-084-062-103-047.pools.arcor-ip.net
+0 48 25 262346 5 1360612924
+/
+static-72-70-59-98.bstnma.fios.verizon.net
+0 43 11 55834 2 1360574956
+/talks/
+host37.nextit.com
+0 11 11 130065 1 1360239235
+/
+75-144-29-169-novato.ca.sfba.hfc.comcastbusiness.net
+0 19 15 135534 1 1359944177
+/contact/
+static-75-190.lhr.nokia.net
+0 4 3 20467 1 1360287283
+/contact/
+193.106.136.55.usersnat.smileweb.com.ua
+0 2 2 18902 1 1359989997
+/
+89-28-117-31.starnet.md
+0 90 63 599832 4 1360636992
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+178-137-129-161-kie.broadband.kyivstar.net
+0 3 3 26022 1 1360647520
+/
+wtp-g3-maya8.sjdc
+0 1 1 8674 1 1360635542
+/
+ipc606.inf-i2.uni-jena.de
+0 52 44 234267 2 1360648757
+/contact/
+mail.cpacsystems.se
+0 27 22 224413 1 1360635515
+/schedule/
+dslb-088-074-160-103.pools.arcor-ip.net
+0 16 7 29597 1 1360633632
+/talks/
+c-98-218-49-13.hsd1.md.comcast.net
+0 9 9 48870 0 0
+-
+24-213-38-36.static.mrqt.mi.charter.com
+0 38 18 221759 1 1360628299
+-
+112.210.117.44.pldt.net
+0 16 16 207732 1 1360638105
+/
+213-0-43-190.rad.tsai.es
+0 16 16 207732 1 1360643115
+/
+fw-emea.rohde-schwarz.com
+0 26 22 221415 1 1360641182
+/about/
+c-65-96-13-149.hsd1.ma.comcast.net
+0 20 6 30464 1 1360627975
+/talks/
+hosted-by.leaseweb.com
+0 44 21 93846 3 1360641395
+/venue/
+108-213-76-64.lightspeed.frokca.sbcglobal.net
+0 19 17 210649 1 1360628905
+/about/
+150-70-172-125.trendmicro.com
+0 1 1 814 0 0
+-
+Invalid
+0 53 26 277475 5 1360648590
+/
+schepper.svs.informatik.uni-oldenburg.de
+0 10 8 90608 1 1360638525
+/talks/
+a01-01-02.opera-mini.net
+0 13 12 201607 1 1360635782
+/
+spider-100-43-83-133.yandex.com
+0 1 0 234 1 1360636496
+-
+wtp-g8-maya2.iad1
+0 5 5 95358 1 1360635909
+/schedule/
+150-70-64-213.trendmicro.com
+0 2 2 68969 0 0
+-
+odnb-4dbcb9e5.pool.mediaways.net
+0 9 4 22350 2 1360645253
+/speakers/
+iad1-wtp-gd-maya6.sdi.trendnet.org
+0 3 3 10416 1 1360635668
+/talks/
+50-46-175-21.evrt.wa.frontiernet.net
+0 78 26 319985 2 1360633005
+/
+85-126-34-245.static.xdsl-line.inode.at
+0 26 22 237902 1 1360636314
+/kickstarter/
+crawl-119-235-237-24.naver.jp
+0 2 1 8882 1 1360631912
+/
+dslb-094-216-196-102.pools.arcor-ip.net
+0 20 1 2735 2 1360637048
+/speakers/
+ar1499.kis.ru
+0 19 6 30693 1 1360635457
+/about/
+cpc20-cove12-2-0-cust120.3-1.cable.virginmedia.com
+0 17 17 210233 1 1360636577
+/speakers/
+kablosuz-90.ceng.metu.edu.tr
+0 29 22 224801 1 1360641730
+-
+89-28-117-31.starnet.md
+0 34 30 344403 2 1360636992
+/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

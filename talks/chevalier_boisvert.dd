@@ -1,0 +1,40 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 3:30 PM
+
+SPEAKER = Maxime Chevalier-Boisvert
+
+SPEAKER_URL = http://cs.mcgill.ca/~mcheva/
+
+SPEAKER_PIC = https://si0.twimg.com/profile_images/1661657727/71626_809219620367_13613931_45564044_6205031_n.jpg
+
+TALK_TITLE = Higgs, an Experimental JIT Compiler written in D
+
+LEVEL = Intermediate
+
+BENEFITS =
+An experience report on the usage of D in writing complex systems
+software&mdash;a complete JIT compiler including an x86 backend.
+Exposure to the world of JIT compilers and dynamic language optimization.
+A JIT compiler writer's perspective on the usage of JIT compilation for CTFE.
+
+ABSTRACT =
+Just-in-time (JIT) compilers are highly complex pieces of software which
+manipulate symbolic representations of code at multiple levels of
+abstraction, generate machine instructions, and introspect the state of
+programs at execution time. We present an experience report on the usage
+of   D in implementing Higgs, an optimizing JIT compiler for JavaScript.
+We discuss how various features of D did or did not address our technical
+and practical concerns and provide some recommendations for future
+development of the language.
+
+BIO =
+Maxime Chevalier-Boisvert holds a master's degree from McGill University
+and is currently pursuing a PhD at Université de Montréal as part of the
+Dynamic Language Team.  Her area of study is compiler design and
+optimization, with a focus on dynamic programming languages, JIT compilers
+and type analysis.

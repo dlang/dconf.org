@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 2:30 PM
+
+SPEAKER = Rainer Sch&uuml;tze
+
+SPEAKER_URL = https://github.com/rainers
+
+TALK_TITLE = A Precise Garbage Collector for D
+
+LEVEL = Intermediate
+
+BENEFITS =
+Learning how to create custom type information using the RTInfo
+compiler hook, understanding the gains and pitfalls of using precise
+garbage collection in a systems programming language.
+
+ABSTRACT =
+$(P Though optional to some extent, garbage collection simplifies
+programming considerably and is a major building block for a number of
+features of the D programming language like slices and delegate
+closures. The current garbage collector implemented in the D runtime
+library is conservative, limiting the possibility to detect false
+pointer references leading to unused memory leaking and polluting the
+address space, especially in 32-bit environments.)
+
+$(P This presentation describes the implementation of a precise
+garbage collector for D that takes advantage of building necessary
+type information at compile time via the existing RTInfo compiler
+hook. Modifications to the D runtime library are discussed and
+compiler modifications are proposed to support precise scanning the
+data and TLS segments in addition to heap allocated memory.)
+
+BIO =
+Rainer Schuetze is the author of Visual D, an extension to Visual
+Studio to integrate the D programming language. In addition he has
+been working on improving the experience of debugging D applications
+under Windows. In his professional career he has been working as a
+software engineer in the computer music industry for almost 20 years.

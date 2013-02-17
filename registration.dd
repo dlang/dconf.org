@@ -1,0 +1,55 @@
+Ddoc
+
+$(T h1,, Registration)
+
+$(P Early bird registration must be completed on or before March 31,
+2013. Prices go up to $(DOLLAR)425 for the conference and the tutorial
+on  April 1. Register as soon as possible to reserve your seat!)
+
+<hr>
+<h3>Early Bird Conference and Tutorial Registration</h3>
+$(P Tutorial on April 30 and conference on May 1-3, 2013.)
+<!-- Begin Verisign -->
+<form method="post" action="https://payments.verisign.com/payflowlink">
+  <input type="hidden" name="LOGIN" value="digitalmars"/>
+  <input type="hidden" name="PARTNER" value="VeriSign"/>
+  <input type="hidden" name="AMOUNT" value="800.00"/>
+  <input type="hidden" name="TYPE" value="S"/>
+  <input type="hidden" name="DESCRIPTION" value="Conference and Tutorial Registration"/>
+  <input type="submit" value="$(DOLLAR)800 using VISA / MC" title="Secure payments with VeriSign" class="button" />
+</form>
+<!-- End Verisign -->
+
+<hr>
+<h3>Early Bird Conference Registration</h3>
+<p>	Conference from May 1-3 </p>
+<!-- Begin Verisign -->
+<form method="post" action="https://payments.verisign.com/payflowlink">
+  <input type="hidden" name="LOGIN" value="digitalmars"/>
+  <input type="hidden" name="PARTNER" value="VeriSign"/>
+  <input type="hidden" name="AMOUNT" value="400.00"/>
+  <input type="hidden" name="TYPE" value="S"/>
+  <input type="hidden" name="DESCRIPTION" value="Conference Registration"/>
+  <input type="submit" value="$(DOLLAR)400 using VISA / MC" title="Secure payments with VeriSign" class="button" />
+</form>
+<!-- End Verisign -->
+
+<hr>
+<h3>Early Bird Tutorial Registration</h3>
+<p>	Tutorial April 30 </p>
+<!-- Begin Verisign -->
+<form method="post" action="https://payments.verisign.com/payflowlink">
+  <input type="hidden" name="LOGIN" value="digitalmars"/>
+  <input type="hidden" name="PARTNER" value="VeriSign"/>
+  <input type="hidden" name="AMOUNT" value="400.00"/>
+  <input type="hidden" name="TYPE" value="S"/>
+  <input type="hidden" name="DESCRIPTION" value="Tutorial Registration"/>
+  <input type="submit" value="$(DOLLAR)400 using VISA / MC" title="Secure payments with VeriSign" class="button" />
+</form>
+<!-- End Verisign -->
+
+<hr>
+<p>All registrations are final. Registrations are transferrable.</p>
+
+<p>Please let us know what you'd like your badge to say if it is
+different from your name on your credit card.  </p>

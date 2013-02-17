@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 11:00 AM
+
+SPEAKER = Adam Wilson
+
+SPEAKER_PIC = http://www.high-road.com/images/team/full/adam.jpg
+
+SPEAKER_URL = http://prospectivesoftware.com
+
+TALK_TITLE = C# to D
+
+LEVEL = Basic
+
+BENEFITS =
+This presentation will provide a roadmap to any developer who is
+currently working with C# and interested in converting their code
+D. Attendees will gain a better understanding of the differences
+between the two languages that will allow them to more easily
+transition to D.
+
+ABSTRACT =
+Breaking up is never easy and taking the plunge opens a Pandora’s Box
+of difficult questions. This talk will answer some of those questions
+and provide direction for anyone looking to convert their C# software
+to D. We will focus on the practical issues that anyone converting
+their project from C# to D will face. These issues include, but are
+not limited to, the differences between C# Namespaces and D Modules,
+Strings, Scoping, Properties, and what to expect while converting from
+the .NET Base Class Library to Phobos. This talk will be code-centric
+featuring real-world examples and how-to’s.
+
+BIO =
+Adam Wilson is the Director of Software Development at Prospective
+Software which specializes in CRM software for the automotive
+industry. He has over 14 years of experience writing code in a
+plethora of languages, including C++, C#, VB, and of course D. In his
+free time he enjoys spending time with his wife, reading
+science-fiction, and flying Cessna 172’s.

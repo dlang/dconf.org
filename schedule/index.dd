@@ -1,0 +1,67 @@
+Ddoc
+
+  <h1>Schedule</h1>
+  <table id="schedule" class="aqua">
+    <tr>
+      <th colspan="2">Before the Conference: Tuesday April 30, 2013</th>
+    </tr>
+    <tr>
+      <td>9:00 AM - 5:00 PM</td><td>$(LINK2 $(BASE)/tutorial.html, Tutorial)</td>
+    </tr>
+  </table>
+
+  <table id="schedule" class="green">
+    <tr>
+      <th colspan="2">Day 1: Wednesday May 1, 2013</th>
+    </tr>
+    $(BREAKFAST)
+    $(bright_ROW)
+    $(cehreli_ROW)
+    $(schadek_ROW)
+    $(LUNCH)
+    $(olshansky_ROW)
+    $(evans_1_ROW)
+    $(lucarella_ROW)
+    $(panel_ROW)
+  </table>
+
+  <table id="schedule" class="orange">
+  <tr>
+    <th colspan="2">Day 2: Thursday May 2, 2013</th>
+  </tr>
+  $(BREAKFAST)
+  $(buclaw_ROW)
+  $(nowak_ROW)
+  $(wilson_ROW)
+  $(LUNCH)
+  $(panteleev_ROW)
+  $(schuetze_ROW)
+  $(chevalier_boisvert_ROW)
+  $(edwards_ROW)
+  </table>
+
+  <table id="schedule" class="purple">
+  <tr>
+    <th colspan="2">Day 3: Friday May 3, 2013</th>
+  </tr>
+  $(BREAKFAST)
+  $(clugston_ROW)
+  $(rohe_ROW)
+  $(simcha_ROW)
+  $(LUNCH)
+  $(nadlinger_ROW)
+  $(evans_2_ROW)
+  $(gertzfield_ROW)
+  $(alexandrescu_ROW)
+  </table>
+
+Macros:
+
+BASE = ..
+
+TR = <tr>$0</tr>
+
+BREAKFAST = <tr class="break"><td>8:30 AM - 9:00 AM</td><td>Breakfast</td></tr>
+
+LUNCH = <tr class="break"><td>12:00 PM - 1:30 PM</td><td>Lunch &amp; Mingling</td></tr>
+

@@ -1,0 +1,39 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 11:00 AM
+
+SPEAKER = Robert Schadek
+
+SPEAKER_URL = http://www.svs.informatik.uni-oldenburg.de/60865.html
+
+SPEAKER_PIC = http://www.svs.informatik.uni-oldenburg.de/bilder/photo_robert.jpg
+
+TALK_TITLE = Distributed Caching Compiler for D
+
+LEVEL = Basic, Intermediate
+
+BENEFITS =
+Insides into compiler construction, multithreading with D
+inside a D compiler. Ideas for STL-like container implementation.
+Experiences with unittests for 50k lines application.
+
+ABSTRACT =
+$(P Nearly thirty years have passed since the release of the infamous Dragon Book by Aho, Lam, Sethi, and Ullman. Since then the available memory and CPU power has grown by a factor of at least 1000 and 10000 respectively. The use of multiprocessors and fast networks has become the rule rather than the exception. Even though compiler and programming language have advanced greatly in this period of time, their basic design has not been adjusted to reflect the enormous hardware improvements.)
+
+$(P In this presentation, which reflects the content of my master thesis, I present a D compiler written in D that exploits these tremendous hardware advances. To utilize multiprocessors the lexer and parser are run in different communicating threads. On top of that different semantic analysis are spread across multiple threads. To speedup compilation, by use of a cache and work distribution among a network, datastructures are created that store results, like the abstract-syntax- tree, in a consecutive chunk of memory. To remove manual labor a lexer- and parser-generator were created that use a custom library that, not only, consists of stl inspired containers.)
+
+$(P Besides the conceptual architecture of this new compiler, I will report on the implementation, the use of datastructures and the lessons learned during this project with respect to compiler design as well as the D Programming Language.)
+
+BIO =
+Robert Schadek received a Bachelor's degree in computer science in 2011 at the
+University of Oldenburg, Germany. In his bachelor thesis he developed a
+multi-threaded octree. In 2012 he earned a Master's degree in computer science at
+the University of Oldenburg. His master thesis was titled "DMCD A Distributed
+Multithreading Caching D Compiler" and introduced multi-threading among other
+optimizations to the compiler control flow. Since 2012, he is a PhD candidate
+in the department of Prof. Dr.-Ing. Oliver Theel at the University of
+Oldenburg. His PhD research focuses on quorum systems in combination with graphs.

@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 1:30 PM
+
+SPEAKER = David Nadlinger
+
+SPEAKER_PIC = https://twimg0-a.akamaihd.net/profile_images/2878553035/5180e46655856b82d2fd8232243e2e35.png
+
+SPEAKER_URL = http://klickverbot.at
+
+TALK_TITLE = LDC
+
+LEVEL = All
+
+BENEFITS =
+
+ABSTRACT =
+LDC is a fully open source, portable D compiler based on the
+same front-end as DMD, but leveraging the LLVM compiler infrastructure
+for optimization and code generation. Development activity has
+resurged recently, and this talk will start out with an overview of
+the current status, focussing on spec compliance, performance and
+platform support. In the second half, after a cursory look at the
+internal workings of the compiler, the talk will recap the current
+situation from a developer point of view, including our experiences
+regarding the use of DMD in an external project. Finally, future plans
+and open issues will be discussed, with a specific emphasis on
+cross-compiler compatibility.
+
+BENEFITS =
+LDC is one of the three major D compilers. The attendee will get
+familiar with the latest developments in LDC as well as the unique
+features and challenges of this platform.
+
+BIO =
+Maintainer of LDC and avid open source advocate, with a weakness for
+outside-the-box metaprogramming ideas. Past D projects include language
+support in the SWIG C interface generator and the Thrift RPC framework
+(GSoC 2011).  Semi-regular DMD/druntime/Phobos contributor and reviewer.
+

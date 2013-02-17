@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 10:00 AM
+
+SPEAKER = Martin Nowak
+
+SPEAKER_URL = https://github.com/dawgfoto
+
+TALK_TITLE = Shared libraries in D
+
+LEVEL = Basic, Intermediate
+
+BENEFITS =
+Getting an overview of what's possible and what should be
+possible with shared libraries.
+
+ABSTRACT = $(P Where are we?$(BR)
+I'll give a short overview of the current state of affairs.)
+
+$(P Where are we heading?$(BR)
+I'll take about what I envision to be a good shared library support.)
+
+$(P Caveats?$(BR)
+I'd like to briefly restate shared library pitfalls.)
+
+$(P And finally we want to discuss what you'd expect from a good
+shared library support.)
+
+BIO =
+I started to learn C++ in 2009 when I worked as DSP and application
+developer at Ableton.  Two years later I was lucky enough to delve
+into D.  Contributing to dmd and druntime has accompanied my discovery
+of programming since then.  I still look forward to finish my studies
+of electrical engineering and I'm an Emacser.

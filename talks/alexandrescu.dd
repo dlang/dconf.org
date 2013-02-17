@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 4:00 PM
+
+SPEAKER = Andrei Alexandrescu
+
+SPEAKER_PIC = https://twimg0-a.akamaihd.net/profile_images/2750759171/6ffcec73d8ebd25136887749b407fff9.png
+
+SPEAKER_URL = http://erdani.com
+
+TALK_TITLE = Quo Vadis?
+
+LEVEL = All
+
+BENEFITS =
+Get inspiration to keep you for one year until DConf 2014.
+
+ABSTRACT =
+In this closing note, Andrei discusses hot topics in D's development and
+the language's present and future.
+
+BIO =
+Andrei Alexandrescu coined the colloquial term "modern C++" (adapted
+from his award-winning book Modern C++ Design), used today to describe
+a collection of important C++ styles and idioms. He is also the
+coauthor (with Herb Sutter) of C++ Coding Standards and the author of
+The D Programming Language book. With Walter Bright, Andrei
+co-designed many important features of D and authored a large part of
+D's standard library. His research on Machine Learning and Natural
+Language Processing completes a broad spectrum of expertise. Andrei
+holds a Ph.D. in Computer Science from the University of Washington and
+a B.Sc. in Electrical Engineering from University "Politehnica"
+Bucharest. He works as a Research Scientist for Facebook.

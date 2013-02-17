@@ -1,0 +1,25 @@
+Ddoc
+
+Macros:
+
+DATE = May 1st
+
+TIME = 4:30 PM
+
+SPEAKER = Walter Bright, Andrei Alexandrescu, and more
+
+TYPE = Panel
+
+DURATION = 30 minutes
+
+TALK_TITLE = The D Development Process
+
+LEVEL = All
+
+BENEFITS =
+This panel debates D's development process.
+
+ABSTRACT =
+Join us for a lively discussion that's likely to go late into the night over beers. The topic is D's development process&mdash;what are we doing well, what should we improve, and what are the next steps to take?
+
+BIO =

@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 2:30 PM
+
+SPEAKER = Manu Evans
+
+SPEAKER_URL = https://github.com/TurkeyMan
+
+SPEAKER_PIC = $(BASE)/images/ManuEvans.jpg
+
+TALK_TITLE = Effective SIMD for modern architectures
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+Exposure to the language syntax and API's present in D, and also some
+best practises for writing portable SIMD code.
+
+ABSTRACT =
+Efficient and portable implementation of SIMD algorithms in D using
+$(TT core.simd) and $(TT std.simd).
+
+BIO =
+Manu Evans is a senior technology programmer in the video games
+industry with 10 years commercial experience. He has worked at Remedy
+Games in Finland, and Krome Studios in Australia, on titles including
+Alan Wake, Star Wars, Spyro the Dragon, and many, many more. Manu is
+an expert in hardware abstraction, low level systems and performance
+optimisation on a wide variety of computer hardware.

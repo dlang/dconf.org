@@ -1,0 +1,42 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 9:00 AM
+
+SPEAKER = Don Clugston
+
+SPEAKER_URL = http://www.codeproject.com/Members/Don-Clugston
+
+SPEAKER_PIC = http://www.codeproject.com/script/Membership/ProfileImages/%7B784461E3-DF35-4D71-AB60-0E92303833AD%7D.jpg
+
+TALK_TITLE = Metaprogramming in the Real World
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+
+ABSTRACT =
+$(P Sociomantic Labs is a global leader in real-time bidding for online
+display advertising. Our codebase is not only written entirely in D,
+but also makes extensive use of generic programming, even in
+application-level code. Compile-time metaprogramming techniques have a
+reputation of being akin to sorcery, incomprehensible to all but an
+elite group of top-notch library developers. Yet we have found that
+even developers with no prior knowledge of D have been able to master
+the compile-time aspects of the language in a remarkably short period
+of time.)
+
+$(P This presentation will review the history of this part of the
+language, to explain exactly how and why generic programming D has
+become so accessible in practice. Drawing from Sociomantic's
+experience with D, I'll discuss the areas where reality differs from
+expectations. Accessible metaprogramming has huge implications for the
+future commercial growth of D, and our real-world experience will help
+the D community to further exploit this strength.)
+
+BIO =
+Don Clugston is a major contributor to the D reference compiler
+and its core libraries.

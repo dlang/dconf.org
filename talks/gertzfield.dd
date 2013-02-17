@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 3:30 PM
+
+DURATION = 30 minutes
+
+SPEAKER = Ben Gertzfield
+
+SPEAKER_URL = https://facebook.com/beng
+
+SPEAKER_PIC = http://media-cache-ec2.pinterest.com/avatars/bgertzfield_1337070853_600.jpg
+
+TALK_TITLE = Writing Testable Code in D
+
+LEVEL = Intermediate
+
+BENEFITS =
+Learn how to write unit tests in D, and how to structure D code so it
+can be effectively unit tested.
+
+ABSTRACT =
+$(P Modern large-scale software design often requires ever-growing team
+sizes. As team size scales up, so does the amount of churn (and number
+of bugs introduced) to a code base in a release. Unfortunately, the
+amount of manual developer or QA testing necessary to find those bugs
+scales quadratically (or worse) as N features are tested by hand in M
+configurations. The solution is to keep coders, not QA, responsible
+for maintaining the quality of their individual components, and to
+make it trivial and fast to run just the right tests that cover the
+code the coder changes. D comes pre-baked with lots of tools to make
+this easier, including a standard unit testing harness, but
+there'smuch more we can build on top of that to help write not only
+tests for code, but code that can be tested in an automated fashion.)
+
+$(P We'll discuss techniques and tools for designing large-scale
+testable code in D, including unit testing, mocks, fakes, inversion of
+control, and dependency injection.)
+
+BIO =
+Ben Gertzfield is a mobile engineer at Facebook. He's designed and
+shipped testability and dependency injection frameworks for
+Objective-C and C++, and is a huge advocate for freeing engineers from
+the burdens of manual testing.
+

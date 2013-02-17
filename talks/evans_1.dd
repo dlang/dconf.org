@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 1st
+
+TIME = 2:30 PM
+
+SPEAKER = Manu Evans
+
+SPEAKER_URL = https://github.com/TurkeyMan
+
+SPEAKER_PIC = $(BASE)/images/ManuEvans.jpg
+
+TALK_TITLE = Using D Alongside a Game Engine
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+Share experience, food for thought, encourage other game developers.
+
+ABSTRACT =
+Post-mortem on experiments integrating D with a typical C/C++ game
+engine as an extension language for use processing game logic. Topics
+covered include dynamic C/C++ linkage, memory management, patterns for
+usage as an extension of existing C/C++ code, issues encountered, and
+other hairy details.
+
+BIO =
+Manu Evans is a senior technology programmer in the video games
+industry with 10 years commercial experience. He has worked at Remedy
+Games in Finland, and Krome Studios in Australia, on titles including
+Alan Wake, Star Wars, Spyro the Dragon, and many, many more. Manu is
+an expert in hardware abstraction, low level systems and performance
+optimisation on a wide variety of computer hardware.

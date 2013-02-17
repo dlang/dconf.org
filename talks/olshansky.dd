@@ -1,0 +1,56 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 1:30 PM
+
+SPEAKER = Dmitry Olshansky
+
+SPEAKER_URL = https://github.com/blackwhale
+
+SPEAKER_PIC = $(BASE)/images/DmitryOlshansky.jpg
+
+TALK_TITLE = Inside the Regular Expressions in D
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+Acquire the knowledge of how regular expressions work from the inside out.
+It will greatly aid in furthering the understanding of how to use them
+and when
+not to use them.  The last but not least it's an opportunity to learn
+how to
+take advantage of the meta-programming in D.
+
+ABSTRACT =
+$(P The talk gives an up-close view of how a regular expression libraries work
+behind the scenes, dispelling a few common myths in the process.
+The talk consists of two parts with equatorial line being between the
+generic and the D specific.)
+
+$(P The first part is intentionally language agnostic and
+focuses on the core principles behind the regular expressions.
+The key point of this part is the two fundamental ways of
+matching regular expression, their respective strengths and weaknesses.)
+
+$(P The second part dives into how all of this fits into std.regex, a modern
+regular expression
+library written in D. Important practical considerations are discussed,
+and some unique
+D features that aid such an undertaking are highlighted. Among other
+things this
+includes an in-depth overview of meta-programming tricks used to
+generate optimized
+machine code for a regular expression during the compile-time (phew!).)
+
+BIO =
+I'm Dmitry Olshansky, a young all-around researcher.
+My interests are wildly changing  over the time and include
+text processing, compilers, robotics, embedded systems,
+parallel and concurrent programming, scalable network systems
+and the current pursuit being AI.
+Among my works the most publicly recognized today is
+the standard regular expression library for D
+(a.k.a. $(LINK2 http://dlang.org/phobos/std_regex.html,$(TT std.regex))).

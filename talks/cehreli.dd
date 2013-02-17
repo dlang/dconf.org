@@ -1,0 +1,26 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 10:00 AM
+
+SPEAKER = Ali &Ccedil;ehreli
+
+SPEAKER_URL = http://acehreli.org
+
+SPEAKER_PIC = http://goo.gl/ULB89
+
+TALK_TITLE = Copy and Move Semantics in D
+
+LEVEL = Intermediate
+
+BENEFITS =
+This talk will show how to take advantage of copy and move semantics of D to write efficient and safe data types in the presence of mutable, const, and immutable member variables and parameters.
+
+ABSTRACT =
+D structs are similar to their counterparts in other languages but they have significant differences as well. The mechanics of copying and moving struct objects are special in D.
+
+BIO =
+Ali &Ccedil;ehreli has been working as a C++ programmer in Silicon Valley since 1996. His experience has been with small and large companies in various fields, currently with Riverbed. He is the president of The Silicon Valley Chapter of the ACCU, where he has given presentations on C++ Exception Safety and the D programming language. He is the author of the online book "Programming in D", which aims at teaching D as a first language.

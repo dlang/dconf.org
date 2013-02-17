@@ -1,0 +1,25 @@
+Ddoc
+
+  $(bright_BLURB)
+  $(alexandrescu_BLURB)
+  $(buclaw_BLURB)
+  $(cehreli_BLURB)
+  $(chevalier_boisvert_BLURB)
+  $(clugston_BLURB)
+  $(edwards_BLURB)
+  $(evans_1_BLURB)
+  $(gertzfield_BLURB)
+  $(lucarella_BLURB)
+  $(nadlinger_BLURB)
+  $(nowak_BLURB)
+  $(olshansky_BLURB)
+  $(panteleev_BLURB)
+  $(rohe_BLURB)
+  $(schadek_BLURB)
+  $(schuetze_BLURB)
+  $(simcha_BLURB)
+  $(wilson_BLURB)
+
+Macros:
+
+BASE = ..

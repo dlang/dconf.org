@@ -1,0 +1,41 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 11:00 AM
+
+SPEAKER = David Simcha
+
+SPEAKER_URL = https://github.com/dsimcha
+
+SPEAKER_PIC = https://secure.gravatar.com/avatar/c84b2a3332abdc3772c00f74e35e0353?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
+TALK_TITLE = D-Specific Design Patterns
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+Attendees will be exposed to a variety of useful programming
+techniques that are obvious only in hindsight.  These will certainly
+be useful in D and may even affect their programming style in other
+languages where these techniques are less obvious but still possible.
+
+ABSTRACT =
+The D programming language offers a variety of abstractions not found
+together in any other language.  In particular, D's compile time
+metaprogramming facilities are a game changer, especially when
+combined with its low-level programming capabilities.  This session
+explores design patterns that have emerged from my code, my former
+GSoC students' code and code written by other Phobos contributors.  It
+attempts to codify some of the more useful patterns that are currently
+known only informally and only to a small group of hardcore D users.
+
+BIO =
+David Simcha is currently a software engineer at Google's New York
+City office, working on scalable nearest neighbor matching.  Previous
+to this, he received his Ph.D. in Biomedical Engineering from Johns
+Hopkins University with a concentration in Bioinformatics while
+contributing extensively to D on the side.
+

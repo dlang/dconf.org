@@ -1,0 +1,5 @@
+AuthName "restricted site"
+AuthType Basic
+AuthUserFile /jail/digitalmars.com/usr/local/www/.htpasswd
+
+require valid-user

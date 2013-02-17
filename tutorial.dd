@@ -1,0 +1,34 @@
+Ddoc
+
+$(T H1,, Tutorial)
+
+$(P Just starting with D and want to get up to speed? Attend an exclusive
+one-day tutorial held by Walter Bright, the creator of D, and Andrei
+Alexandrescu, D's second-in-command.)
+
+$(P The tutorial is designed for programmers who already are
+comfortable with some other language or languages and would like to
+start with D.
+)
+
+$(P Topics taught include:)
+
+$(UL
+$(LI Expressions and Statements)
+$(LI Basic types)
+$(LI Functions, arrays, and associative arrays)
+$(LI Classes, Structs, and Unions)
+$(LI Templates)
+$(LI Introspection and Reflection)
+$(LI Compile-Time Evaluation and Metaprogramming)
+$(LI The Standard Library)
+)
+
+$(T h2,, Registration)
+
+$(P Registration costs $(DOLLAR)400 at early-bird prices (on or before
+March 31, 2013). Seating for the tutorial is limited in order to favor
+direct interaction with the instructors so we recommend reserving a
+seat early. $(B $(LINK2 registration.html, Register now.)))
+
+

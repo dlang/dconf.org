@@ -1,0 +1,34 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 1:30 PM
+
+SPEAKER = Vladimir Panteleev
+
+SPEAKER_URL = http://thecybershadow.net
+
+SPEAKER_PIC = $(BASE)/images/vpanteleev.jpg
+
+TALK_TITLE = Web Development in D
+
+LEVEL = Basic, Intermediate
+
+BENEFITS =
+A thorough Introduction to D web development and related technologies.
+
+ABSTRACT =
+With its speed, safety, and expressiveness, D excels for web
+development. However, D is not yet thought of as a compelling choice
+in that area. The best D tools and techniques for web development are
+young and not well known at this time. This talk will fix that by
+providing an overview of the web development libraries, solutions and
+techniques available to D users today.
+
+BIO =
+Vladimir Panteleev (a.k.a. "CyberShadow") is a
+D enthusiast from Moldova (Eastern Europe), best known
+within the D community for DFeed, the web newsreader (and
+IRC bot) running on $(LINK http://forum.dlang.org).

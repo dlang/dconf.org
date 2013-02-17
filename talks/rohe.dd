@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 3rd
+
+TIME = 10:00 AM
+
+SPEAKER = Stefan Rohe
+
+SPEAKER_PIC = $(BASE)/images/StefanRohe.jpg
+
+TALK_TITLE = Code Analysis for D with AnalyzeD
+
+LEVEL = Intermediate
+
+BENEFITS =
+$(UL
+  $(LI Information about Static Code Analysis for D.)
+  $(LI $(LINK2 http://analyzed.no-ip.org/online, DPaste like Web Application.))
+  $(LI Extended D toolchain (Styleguard, Metrics, D1to2).)
+  $(LI Cleaner Code due to removal of e.g. unused variables.)
+)
+
+ABSTRACT =
+$(P Professional Programming in teams requires a common clean coding
+style. This could be enforced using code reviews, but the simpler and
+less offensive way to achieve this is by using a tool as style cop. It
+helps spreading the conventions about the language in the team and
+assisting new team members in easily adopt to the programming style by
+getting fast feedback on their code. Having such a static code
+analyzer refactoring becomes easier, because it reminds about now
+unused variables, unused parameters or other refactoring artefacts.)
+
+$(P This talk will introduce you to $(LINK2 http://analyzed.no-ip.org, AnalyzeD),
+explain you how it's working, and give you an outline about what's planned.)
+
+$(P AnalyzeD is currently used for checking 250kLOC of production code against $(LINK2 http://analyzed.no-ip.org/conventions, programming conventions) and determines metrics.ent state and what is planned to develop/release.)
+
+BIO =
+Stefan Rohe studied computer science in Germany and worked at
+Fraunhofer Institute. In 2008 he joined the industry where he got the
+chance to redesign a complete server application in D. Now there is a
+complete Scrum team of D professionals having about 80% of the code
+base emerged to D.

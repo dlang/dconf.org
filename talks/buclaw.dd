@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 2nd
+
+TIME = 9:00 AM
+
+SPEAKER = Iain Buclaw
+
+SPEAKER_URL = https://github.com/ibuclaw
+
+SPEAKER_PIC = https://secure.gravatar.com/avatar/907f83bbb9b80bd8cf5e2f1a07c42e5e?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
+TALK_TITLE = GDC
+
+LEVEL = Basic, Intermediate
+
+BENEFITS =
+Community awareness of the GDC project, a brief insight into what it
+does, how to help, and to engage the core D language and library
+developers to actively think about portability in future changes done
+to the language and library.
+
+ABSTRACT =
+Starting with an introduction to GDC, what works (and doesn't) and
+updates on current progress of development.  Will go on to talk about
+future developments, scope and design.  In particularly focusing on
+the expansion of D, including targeting more architectures, future
+shared library support in the runtime, the implementation of D
+Front-End itself to scale and be platform agnostic, and finally
+getting across the chasm to gain a bigger user base (Andrei said "I
+want 1,000,000 users" back in 2012).  Rounding it up with (an
+interogation :o) Q&A.
+
+BIO =
+Lead developer, project coordinator and the principal force behind the
+development of the GNU D Compiler from as far back as 2009, where have
+been responsible for the migration over from D1 to D2, as well as from
+GCC 3.x to GCC 4.x.  Others might be interested to know that outside
+hobby life I work on for a Cloud Services/Hosting company as a
+Technical Engineer, and unofficially use D on a frequent basis to
+develop interpreters, and various plug-ins to work within our
+infrastructure.

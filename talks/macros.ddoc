@@ -1,0 +1,65 @@
+BASE = ..
+
+PAGE_TITLE = DConf 2013 speaker: $(SPEAKER)
+
+SPEAKER_PIC = $(BASE)/images/stock.png
+
+TYPE = Presentation
+
+LEVEL = Intermediate
+
+DURATION = 50 minutes
+
+DDOC =
+$(HEADER)
+<body>
+<div id="fb-root">
+</div>
+<script src="$(BASE)/includes/facebook.js" type="text/javascript"></script>
+<div id="container">
+  $(MENU)
+  <div class="page_left equal hyphenate">
+    $(TALK_INFO)
+  </div>
+  <div class="divider_v equal">&nbsp;
+  </div>
+  $(SPONSORS)
+</div>
+$(FOOTER)
+</body>
+</html>
+
+TALK_INFO =
+  <h1>$(TALK_TITLE)</h1>
+  <div class="inline vmid">
+    <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
+    <div><p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br>
+      $(DATE) @ $(TIME)</b><br><br>Duration: $(DURATION)<br>
+      Talk type: $(TYPE)<br>
+      Level: $(LEVEL)<br>
+      <!--a href="#">Powerpoint slides</a--></p>
+      <div class="srtgs" id="rt_test">
+      </div>
+$(COMMENT
+      <!--<img src="ratingfiles/star1.png" width="17" height="17" alt=""><img src="ratingfiles/star1.png" width="17" height="17" alt=""><img src="ratingfiles/star1.png" width="17" height="17" alt=""><img src="ratingfiles/star0.png" width="17" height="17" alt=""><img src="ratingfiles/star0.png" width="17" height="17" alt=""> <span class="rate">(3.0, 5 ratings)</span>-->
+)
+    </div>
+    <div class="dotted_left">
+      <div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false">
+      </div>
+      <div><a href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /> </a>
+      </div>
+      <div><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a><script language="javascript" type="text/javascript" src="$(BASE)/includes/tweet.js"></script>
+      </div>
+      <div><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+        <script type="IN/Share" data-counter="right" data-showzero="true"></script>
+      </div>
+      <div class="g-plusone" data-size="medium">
+      </div>
+      <script language="javascript" type="text/javascript" src="$(BASE)/includes/google.js"></script>
+    </div>
+  </div>
+  $(P $(B <u>Abstract:</u>&nbsp;)$(ABSTRACT))
+  <p><b><u>Benefits:</u> </b>$(BENEFITS)</p>
+  <!--p><b><u>Notes:</u> </b> $(NOTES)</p-->
+  <p><b><u>Speaker Bio:</u> </b> $(BIO)

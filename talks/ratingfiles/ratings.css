@@ -1,0 +1,41 @@
+.srtgs .stars, .srtgs .d_rtg, .srtgs .totalrate { width:85px; display: inline-block;}
+.rate {
+	font-size: 12px;
+	display: inline-block;
+}
+.srtgs .stars {
+ position:relative;
+ height:17px;
+ margin:0;
+ background: url('star0.png') repeat-x top left;
+ padding:0px;
+}
+.srtgs .d_rtg {
+ position:absolute;
+ top:0; left:0;
+ margin:0;
+ height:17px;
+}
+
+.totalrate i {
+ padding-right:12px;
+ color:#010101;
+}
+
+ .srtgs .d_rtg span {
+  display:block;
+  width:17px;
+  float:left;
+  cursor:pointer;
+ }
+.srtgs .star_n {
+ position:relative;
+ height:17px;
+ margin:0;
+ background: url('star1.png') repeat-x top left;
+}
+
+.srtgs em {
+ display:block;
+ margin:0px 11px;
+}

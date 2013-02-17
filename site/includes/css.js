@@ -10,6 +10,6 @@ function equalHeight(group) {
 }
 $(document).ready(function() {
    equalHeight($(".equal"));
-   //$("td:last-child").css({padding:"0px"});
+   $("td:last-child").css({padding:"0px"});
 });
 

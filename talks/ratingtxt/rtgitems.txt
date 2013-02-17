@@ -1,0 +1,8 @@
+^2^1
+rt_article1^5^2
+rt_article3^7^2
+rt_test^15^4
+rt_article4^7^2
+rt_article2^6^2
+rt_img1^4^1
+rt_test2^3^1

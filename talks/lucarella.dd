@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 1st
+
+TIME = 3:30 PM
+
+SPEAKER = Leandro Lucarella
+
+SPEAKER_URL = http://llucax.com.ar
+
+SPEAKER_PIC = https://secure.gravatar.com/avatar/254e99a25dbedd5ab51c310d0e874568?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
+TALK_TITLE = Concurrent Garbage Collection for D
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+The attendee will learn the basic principles of garbage collection,
+the basic structure of the current D1/Tango implementation (which is
+almost the same as the D2 implementation) and what could happen if the
+GC is improved to be concurrent.
+
+ABSTRACT =
+This talk gives a brief introduction to garbage collection and its
+state of art in general, but focusing on D needs; then describes
+current D GC implementation details and proposes changes to improve
+it, paying special attention to pause times. Finally it shows how an
+implementation of a concurrent GC can reduce the maximum pause time up
+to 200 times and the program total execution time up to 3 times using
+an heterogeneous benchmark.
+
+BIO =
+Leandro Lucarella has been following D since about 2004 and started
+participating in D forums in late 2006. In 2008 he started working on
+a concurrent GC for D as his thesis, which he finished by the end of
+2010. In late 2011 he moved to Berlin to work using D.
