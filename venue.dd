@@ -2,15 +2,55 @@ Ddoc
 
 $(T h1,, Venue)
 
-$(P $(LINK2 http://www.facebook.com/careers, Facebook) has graciously
+$(P $(HTTP www.facebook.com/careers, Facebook) has graciously
 agreed to host DConf 2013 at its headquarters at $(I 1601 Willow Road,
 Menlo Park, CA 94025, USA).)
 
 <iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Facebook+HQ,+Willow+Road,+Menlo+Park&amp;aq=0&amp;oq=facebook&amp;sll=41.955405,-71.685791&amp;sspn=5.743153,3.78479&amp;t=h&amp;ie=UTF8&amp;hq=Facebook+HQ,&amp;hnear=Willow+Rd,+Menlo+Park,+California&amp;ll=37.488616,-122.145395&amp;spn=0.03269,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Facebook+HQ,+Willow+Road,+Menlo+Park&amp;aq=0&amp;oq=facebook&amp;sll=41.955405,-71.685791&amp;sspn=5.743153,3.78479&amp;t=h&amp;ie=UTF8&amp;hq=Facebook+HQ,&amp;hnear=Willow+Rd,+Menlo+Park,+California&amp;ll=37.488616,-122.145395&amp;spn=0.03269,0.054932&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
-$(P Nearby hotels include $(LINK2 http://gardencourt.com, Garden
-Court Hotel), $(LINK2 http://cardinalhotel.com, Cardinal Hotel), $(LINK2 http://starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=1300,
-Aloft Silicon Valley), $(LINK2 http://starwoodhotels.com/sheraton/property/overview/index.html?propertyID=214,
+$(T h2,, NEW! Share a car rental or hotel room)
+
+$(P Interested in saving some of your travel costs by sharing a rental
+car or a hotel room? There are other like-minded folks! Please post to
+$(HTTP goo.gl/SJCAH, this thread).)
+
+$(T h2,, Nearby hotels)
+
+$(P Nearby hotels with access to public transportation include (prices
+and availability and may vary):)
+
+$(UL
+
+$(LI $(B Menlo Park & Palo Alto)
+  $(UL
+  $(LI $(HTTP menloparkinn.com, Menlo Park Inn))
+  $(LI $(HTTP starwoodhotels.com/sheraton/property/overview/index.html?propertyID=214, Sheraton Palo Alto) (2 blocks from Caltrain station))
+  $(LI $(HTTP hotelkeen.com, Hotel Keen))
+  )
+)
+
+$(LI $(B Newark) (Approximately 15 minutes away, across the bridge from the Facebook Headquarters and will require a $(DOLLAR)5 bridge toll fee)
+  $(UL $(LI $(HTTP whotelsiliconvalley.com, Aloft Silicon Valley))
+  $(LI $(HTTP marriott.com/hotels/travel/sjcft-courtyard-newark-silicon-valley, Courtyard Newark Silicon Valley))
+  )
+)
+
+$(LI $(B East Palo Alto) (closest to Facebook Headquarters + Conference Site, but the most expensive option)
+$(UL $(LI $(HTTP fourseasons.com, Four Seasons Hotel Silicon Valley))))
+
+$(LI $(B San Francisco) (you may take the local Caltrain to the Palo Alto
+stop$(COMMENT and take the Facebook shuttle to the event))
+  $(UL
+  $(LI $(HTTP www.baybridgeinn.com/index.html, Bay Bridge Inn))
+  $(LI $(HTTP intercontinentalsanfrancisco.com, InterContinental San Francisco))
+  )
+)
+
+)
+
+$(COMMENT Nearby hotels include $(HTTP gardencourt.com, Garden
+Court Hotel), $(HTTP cardinalhotel.com, Cardinal Hotel), $(HTTP starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=1300,
+Aloft Silicon Valley), $(HTTP starwoodhotels.com/sheraton/property/overview/index.html?propertyID=214,
 Sheraton Palo Alto), and other hotels in the Palo Alto/Menlo Park
 area.)
 
@@ -20,4 +60,8 @@ $(P For flying to Menlo Park you may use any of the SFO (18 miles), SJC
 (17 miles), or OAK (26 miles) airports.)
 
 $(P Taxi fare is relatively expensive in California, so car rental or
-public transportation are more affordable.)
+public transportation are more affordable. Public transportation options include $(HTTP caltrain.com, Caltrain) and $(HTTP bart.gov, BART).)
+
+Macros:
+
+HTTP=$(LINK2 http://$1, $+)
