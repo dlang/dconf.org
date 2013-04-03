@@ -8,7 +8,7 @@ TIME = 2:30 PM
 
 SPEAKER = Rainer Sch&uuml;tze
 
-SPEAKER_PIC = images/rainer.jpg
+SPEAKER_PIC = ../images/rainer.jpg
 
 SPEAKER_URL = https://github.com/rainers
 
