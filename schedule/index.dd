@@ -1,15 +1,6 @@
 Ddoc
 
   <h1>Schedule</h1>
-  <table id="schedule" class="aqua">
-    <tr>
-      <th colspan="2">Before the Conference: Tuesday April 30, 2013</th>
-    </tr>
-    <tr>
-      <td>9:00 AM - 5:00 PM</td><td>$(LINK2 $(BASE)/tutorial.html, Tutorial)</td>
-    </tr>
-  </table>
-
   <table id="schedule" class="green">
     <tr>
       <th colspan="2">Day 1: Wednesday May 1, 2013</th>

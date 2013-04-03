@@ -8,6 +8,8 @@ TIME = 2:30 PM
 
 SPEAKER = Rainer Sch&uuml;tze
 
+SPEAKER_PIC = images/rainer.jpg
+
 SPEAKER_URL = https://github.com/rainers
 
 TALK_TITLE = A Precise Garbage Collector for D

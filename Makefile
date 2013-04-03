@@ -5,8 +5,7 @@ OUT = out
 TMP = .tmp
 
 MAIN_FILES = $(addprefix $(OUT)/,$(addsuffix .html, index contact faq	\
- venue tutorial registration schedule/index speakers/index				\
- kickstarter/index))
+ venue registration schedule/index speakers/index kickstarter/index))
 
 TALK_NAMES = alexandrescu bright buclaw cehreli chevalier_boisvert		\
  clugston edwards evans_1 evans_2 gertzfield lucarella nadlinger		\
