@@ -8,6 +8,8 @@ TIME = 10:00 AM
 
 SPEAKER = Martin Nowak
 
+SPEAKER_PIC = $(BASE)/images/Martin.jpg
+
 SPEAKER_URL = https://github.com/dawgfoto
 
 TALK_TITLE = Shared libraries in D
