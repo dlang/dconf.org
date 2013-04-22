@@ -17,22 +17,35 @@ TALK_TITLE = Concurrent Garbage Collection for D
 LEVEL = Intermediate, Advanced
 
 BENEFITS =
-The attendee will learn the basic principles of garbage collection,
-the basic structure of the current D1/Tango implementation (which is
-almost the same as the D2 implementation) and what could happen if the
-GC is improved to be concurrent.
+Learning about garbage collection and particularly about D's
+implementation. Discovering an alternative GC for (soft) real-time or
+low-latency applications.
 
 ABSTRACT =
-This talk gives a brief introduction to garbage collection and its
-state of art in general, but focusing on D needs; then describes
-current D GC implementation details and proposes changes to improve
-it, paying special attention to pause times. Finally it shows how an
-implementation of a concurrent GC can reduce the maximum pause time up
-to 200 times and the program total execution time up to 3 times using
-an heterogeneous benchmark.
+Stop-the-world garbage collectors can be quite problematic for (soft)
+real-time applications. The pauses introduced can be disruptive to the
+point to make some applications inviable, like games or even low-latency
+servers.
+
+$(P The Concurrent D Garbage Collector (CDGC) was developed mainly to
+address this issue, by making the mark phase run in parallel with the
+actual application, reducing the pause times by 2 orders of magnitude.
+Since our systems at sociomantic labs GmbH require to have very low
+latency at all times, we've been using this collector for almost 2 years
+now with good results.)
+
+$(P This presentation gives a brief introduction to garbage collection,
+describes original D's GC implementation details and explains how it has
+been extended to do perform the mark phase in parallel. After showing
+some benchmark results, shortcomings and future work and improvements
+are discussed.)
 
 BIO =
 Leandro Lucarella has been following D since about 2004 and started
 participating in D forums in late 2006. In 2008 he started working on
-a concurrent GC for D as his thesis, which he finished by the end of
-2010. In late 2011 he moved to Berlin to work using D.
+the CDGC as his Software Engineering thesis, which he finished by the
+end of 2010. Since he got involved with D he has been a small but steady
+contributor. With more than 12 years of experience in the industry, in
+the last years he's been focusing on low-latency and distributed systems
+in C/C++ and moved to Berlin in late 2011 to work at sociomantic labs
+GmbH, a company using D as the main programming language.
