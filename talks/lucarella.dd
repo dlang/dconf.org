@@ -14,7 +14,7 @@ SPEAKER_PIC = https://secure.gravatar.com/avatar/254e99a25dbedd5ab51c310d0e87456
 
 TALK_TITLE = Concurrent Garbage Collection for D
 
-LEVEL = Intermediate, Advanced
+LEVEL = Intermediate
 
 BENEFITS =
 Learning about garbage collection and particularly about D's
