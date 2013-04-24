@@ -25,7 +25,7 @@ HEADER =
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css" />
 $(GETSCRIPT $(BASE)/includes/jquery.min.js)
-$(GETSCRIPT $(BASE)/includes/css.js)
+$(COMMENT $(GETSCRIPT $(BASE)/includes/css.js))
 $(GETSCRIPT $(BASE)/includes/widget.js)
 $(GETSCRIPT http://dlang.org/js/hyphenate.js)
 <!--[if IE 9]>
@@ -90,7 +90,7 @@ $(GETSCRIPT $(BASE)/includes/facebook.js)
 $(DIV id="container",
   $(MENU)
   $(DIV class="page_left equal hyphenate", $(BODY))
-  $(DIV class="divider_v equal", &nbsp;)
+  $(COMMENT $(DIV class="divider_v equal", &nbsp;))
   $(SPONSORS)
 )
 $(FOOTER)
