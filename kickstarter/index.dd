@@ -1,10 +1,10 @@
 Ddoc
 
-$(T div, class="page_left small_left equal",
+$(DIV class="page_left small_left equal",
 
     <h1>Kickstarter Contributors</h1>
-    <div class="ks">
-      <div class="equal">
+    $(DIV class="ks",
+      $(DIV class="equal",
         <table>
           <tr>
             <td>Andrew Edwards</td>
@@ -227,7 +227,7 @@ $(T div, class="page_left small_left equal",
             <td>50</td>
           </tr>
           <tr>
-            <td>Jonas Drewson</td>
+            <td>Jonas Drewsen</td>
             <td>50</td>
           </tr>
           <tr>
@@ -319,9 +319,9 @@ $(T div, class="page_left small_left equal",
             <td>25</td>
           </tr>
         </table>
-      </div>
-      <div class="divider_v equal">&nbsp;</div>
-      <div class="equal">
+      )
+      $(DIV class="divider_v equal", &nbsp;)
+      $(DIV class="equal",
         <table>
           <tr>
             <td>Robert Schadek</td>
@@ -632,8 +632,8 @@ $(T div, class="page_left small_left equal",
             <td>1</td>
           </tr>
         </table>
-      </div>
-    </div>
+      )
+    )
 )
 
 Macros:

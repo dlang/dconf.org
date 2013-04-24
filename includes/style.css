@@ -239,7 +239,7 @@ div#twit .twtr-widget a:hover {
 	margin: 20px 0px 0px;
 }
 
-a.sp:link, a.sp:visited, a.sp:active {
+.sp {
 	font-family: "Arial Black", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -247,10 +247,6 @@ a.sp:link, a.sp:visited, a.sp:active {
 	text-transform: uppercase;
 	line-height: 20px;
 	padding-left: 11px;
-}
-
-a.sp:hover {
-	color: #8b9896;
 }
 
 a.smaller {

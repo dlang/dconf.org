@@ -13,48 +13,44 @@ DURATION = 50 minutes
 DDOC =
 $(HEADER)
 <body>
-<div id="fb-root">
-</div>
+$(div id="fb-root", )
 <script src="$(BASE)/includes/facebook.js" type="text/javascript"></script>
-<div id="container">
+$(DIV id="container",
   $(MENU)
-  <div class="page_left equal hyphenate">
-    $(TALK_INFO)
-  </div>
-  <div class="divider_v equal">&nbsp;
-  </div>
+  $(DIV class="page_left equal hyphenate", $(TALK_INFO))
+  $(DIV class="divider_v equal", &nbsp;)
   $(SPONSORS)
-</div>
+)
 $(FOOTER)
 </body>
 </html>
 
 TALK_INFO =
   $(T h1,, $(TALK_TITLE))
-  $(T div, class="inline vmid",
+  $(DIV class="inline vmid",
     <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
-    $(T div,, <p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br />
+    $(DIV, <p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br />
       $(DATE) @ $(TIME)</b><br><br>Duration: $(DURATION)<br />
       Talk type: $(TYPE)<br />
       Level: $(LEVEL)<br />
       <!--a href="#">Powerpoint slides</a--></p>
-      $(T div, class="srtgs" id="rt_test", )
+      $(DIV class="srtgs" id="rt_test", )
 $(COMMENT
       <!--<img src="ratingfiles/star1.png" width="17" height="17" alt=""><img src="ratingfiles/star1.png" width="17" height="17" alt=""><img src="ratingfiles/star1.png" width="17" height="17" alt=""><img src="ratingfiles/star0.png" width="17" height="17" alt=""><img src="ratingfiles/star0.png" width="17" height="17" alt=""> <span class="rate">(3.0, 5 ratings)</span>-->
 )
     )
-    $(T div, class="dotted_left",
-      $(T div, class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false", )
-      $(T div,,
+    $(DIV class="dotted_left",
+      $(DIV class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false", )
+      $(DIV,
         $(T a, href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false",
         <img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" />
         )
       )
-      $(T div,, $(T a, href="https://twitter.com/share" class="twitter-share-button", Tweet)$(GETSCRIPT $(BASE)/includes/tweet.js))
-      $(T div,, $(GETSCRIPT http://platform.linkedin.com/in.js)
+      $(DIV, $(T a, href="https://twitter.com/share" class="twitter-share-button", Tweet)$(GETSCRIPT $(BASE)/includes/tweet.js))
+      $(DIV, $(GETSCRIPT http://platform.linkedin.com/in.js)
         <script type="IN/Share" data-counter="right" data-showzero="true"></script>
       )
-      $(T div, class="g-plusone" data-size="medium", )
+      $(DIV class="g-plusone" data-size="medium", )
       $(GETSCRIPT $(BASE)/includes/google.js)
     )
   )

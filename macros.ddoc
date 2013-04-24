@@ -1,6 +1,10 @@
 BASE = .
 
-DIV = <div $1>$+</div>
+MDASH = &mdash;
+
+HTTP = $(LINK2 http://$1,$+)
+
+DIV = <div $1>$+</div><!-- end <div $1> -->
 
 T = <$1 $(TTAIL $+)</$1>
 
@@ -63,19 +67,6 @@ $(DIV class="menu row_after",
 )
 
 SPONSORS =
-$(DIV class="divider_v equal", &nbsp)
-$(DIV class="page_right small_right equal",
-  $(DIV class="sponsors_sm",
-    <a href="$(BASE)/sponsors/" class="sp smaller">Sponsors &#x25B8;</a><br />
-    <a href="http://sociomantic.com">
-    <img src="$(BASE)/images/s_sociomantic.png" width="110" alt="Sociomantic" border="0" /></a><br />
-    <a href="http://remedygames.com"><img src="$(BASE)/images/s_remedy.png" width="110" width="32" alt="Sociomantic" border="0" /></a><br />
-    <a href="$(BASE)/kickstarter/index.html" class="sp ks smallest">Kickstarter Contributors &#x25B8;</a>
-  )
-  $(DIV class="divider_h divider_h_sm", &nbsp;)
-)
-
-SPONSORS =
 $(DIV class="page_right equal",
   $(DIV class="sponsors",
     $(T span, class="sp", Sponsors)<br />
@@ -86,20 +77,20 @@ $(DIV class="page_right equal",
   )
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="twitter",
-    $(T div, class="hash", )
-    $(T div, class="inside" id="twit", $(GETSCRIPT $(BASE)/includes/twitter.js))
+    $(DIV class="hash", )
+    $(DIV class="inside" id="twit", $(GETSCRIPT includes/twitter.js))
   )
 )
 
 DDOC =
 $(HEADER)
 <body>
-$(T div, id="fb-root", )
+$(DIV id="fb-root", )
 $(GETSCRIPT $(BASE)/includes/facebook.js)
-$(T div, id="container",
+$(DIV id="container",
   $(MENU)
-  $(T div, class="page_left equal hyphenate", $(BODY))
-  $(T div, class="divider_v equal", &nbsp;)
+  $(DIV class="page_left equal hyphenate", $(BODY))
+  $(DIV class="divider_v equal", &nbsp;)
   $(SPONSORS)
 )
 $(FOOTER)
@@ -108,7 +99,7 @@ $(FOOTER)
 
 FOOTER =
 <hr />
-$(T div, align="right",
+$(DIV align="right",
   $(T font, size="-2",
     &copy; 2013 http://digitalmars.com |
     Generated with Ddoc
