@@ -1,5 +1,7 @@
 BASE = .
 
+DIV = <div $1>$+</div>
+
 T = <$1 $(TTAIL $+)</$1>
 
 TTAIL = $1>$+
@@ -23,10 +25,10 @@ $(GETSCRIPT $(BASE)/includes/css.js)
 $(GETSCRIPT $(BASE)/includes/widget.js)
 $(GETSCRIPT http://dlang.org/js/hyphenate.js)
 <!--[if IE 9]>
-<link rel="stylesheet" type="text/css" href="$(BASE)/includes/iefix.css">
+<link rel="stylesheet" type="text/css" href="$(BASE)/includes/iefix.css" />
 <![endif]-->
 <!--[if lt IE 9]>
-<link rel="stylesheet" type="text/css" href="$(BASE)/includes/ie8.css">
+<link rel="stylesheet" type="text/css" href="$(BASE)/includes/ie8.css" />
 <![endif]-->
 $(COMMENT
   <link href="ratingfiles/ratings.css" rel="stylesheet" type="text/css" />
@@ -37,16 +39,17 @@ $(COMMENT
 </head>
 
 MENU =
-<div class="logo"><a href="$(BASE)/index.html"><img src="$(BASE)/images/logo.png" height="100" width="490" alt="DConf 2012" border="0"></a>
-</div>
-<div class="clock">
-  <object type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85">
+$(DIV class="logo",
+  <a href="$(BASE)/index.html"><img src="$(BASE)/images/logo.png" height="100" width="490" alt="DConf 2012" border="0" /></a>
+)
+$(DIV class="clock",
+  $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
     <param name="movie" value="$(BASE)/images/countdown.swf" />
     <param name="quality" value="high" />
     <embed src="$(BASE)/images/countdown.swf" quality="high" width="258" height="85" />
-  </object>
-</div>
-<div class="menu row_after">
+  )
+)
+$(DIV class="menu row_after",
   <nav>
     <ul id="menu">
       <li><a href="$(BASE)/schedule/index.html">Schedule</a></li>
@@ -57,65 +60,54 @@ MENU =
       <li><a href="$(BASE)/contact.html">Contact Us</a></li>
     </ul>
   </nav>
-</div>
+)
 
 SPONSORS =
-<div class="divider_v equal">&nbsp;
-</div>
-<div class="page_right small_right equal">
-  <div class="sponsors_sm">
+$(DIV class="divider_v equal", &nbsp)
+$(DIV class="page_right small_right equal",
+  $(DIV class="sponsors_sm",
     <a href="$(BASE)/sponsors/" class="sp smaller">Sponsors &#x25B8;</a><br />
     <a href="http://sociomantic.com">
     <img src="$(BASE)/images/s_sociomantic.png" width="110" alt="Sociomantic" border="0" /></a><br />
-    <a href="http://remedygames.com"><img src="$(BASE)/images/s_remedy.png" width="110" width="32" alt="Sociomantic" border="0" /></a><br>
+    <a href="http://remedygames.com"><img src="$(BASE)/images/s_remedy.png" width="110" width="32" alt="Sociomantic" border="0" /></a><br />
     <a href="$(BASE)/kickstarter/index.html" class="sp ks smallest">Kickstarter Contributors &#x25B8;</a>
-  </div>
-  <div class="divider_h divider_h_sm">&nbsp;
-  </div>
-</div>
+  )
+  $(DIV class="divider_h divider_h_sm", &nbsp;)
+)
 
 SPONSORS =
-<div class="page_right equal">
-  <div class="sponsors">
-    $(COMMENT <a href="$(BASE)/sponsors/" class="sp">)
-    <span class="sp">Sponsors</sp>$(COMMENT &#x25B8;</a>)<br />
+$(DIV class="page_right equal",
+  $(DIV class="sponsors",
+    $(T span, class="sp", Sponsors)<br />
       <a href="http://sociomantic.com">
       <img src="$(BASE)/images/s_sociomantic.png" width="220" alt="Sociomantic" border="0" /></a><br />
-      <a href="http://remedygames.com"><img src="$(BASE)/images/s_remedy.png" width="219" width="32" alt="Remedy Games" border="0" /></a><br>
+      <a href="http://remedygames.com"><img src="$(BASE)/images/s_remedy.png" width="219" width="32" alt="Remedy Games" border="0" /></a><br />
       <a href="$(BASE)/kickstarter/index.html" class="sp ks">Kickstarter Contributors &#x25B8;</a>
-  </div>
-  <div class="divider_h">&nbsp;
-  </div>
-  <div class="twitter">
-    <div class="hash"></div>
-      <div class="inside" id="twit">
-        <script language="javascript" type="text/javascript" src="$(BASE)/includes/twitter.js"></script>
-      </div>
-    </div>
-  </div>
-</div>
+  )
+  $(DIV class="divider_h", &nbsp;)
+  $(DIV class="twitter",
+    $(T div, class="hash", )
+    $(T div, class="inside" id="twit", $(GETSCRIPT $(BASE)/includes/twitter.js))
+  )
+)
 
 DDOC =
 $(HEADER)
 <body>
-<div id="fb-root">
-</div>
-<script src="$(BASE)/includes/facebook.js" type="text/javascript"></script>
-<div id="container">
+$(T div, id="fb-root", )
+$(GETSCRIPT $(BASE)/includes/facebook.js)
+$(T div, id="container",
   $(MENU)
-  <div class="page_left equal hyphenate">
-    $(BODY)
-  </div>
-  <div class="divider_v equal">&nbsp;
-  </div>
+  $(T div, class="page_left equal hyphenate", $(BODY))
+  $(T div, class="divider_v equal", &nbsp;)
   $(SPONSORS)
-</div>
+)
 $(FOOTER)
 </body>
 </html>
 
 FOOTER =
-<hr>
+<hr />
 $(T div, align="right",
   $(T font, size="-2",
     &copy; 2013 http://digitalmars.com |

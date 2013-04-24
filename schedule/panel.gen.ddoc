@@ -2,7 +2,7 @@
 panel_TIME = 4:30 PM
 panel_NAME = Walter Bright, Andrei Alexandrescu, and more
 panel_ROW =   <tr class="tooltip">
-  <td>4:30 PM</td><td><a href="../talks/panel.html">The D Development Process</a><br>Walter Bright, Andrei Alexandrescu, and more<span class="abstract">
+  <td>4:30 PM</td><td><a href="../talks/panel.html">The D Development Process</a><br />Walter Bright, Andrei Alexandrescu, and more<span class="abstract">
 Join us for a lively discussion that's likely to go late into the night over beers. The topic is D's development process&mdash;what are we doing well, what should we improve, and what are the next steps to take?</span></td>
     </tr>
 
