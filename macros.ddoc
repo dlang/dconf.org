@@ -78,7 +78,7 @@ $(DIV class="page_right equal",
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="twitter",
     $(DIV class="hash", )
-    $(DIV class="inside" id="twit", $(GETSCRIPT includes/twitter.js))
+    $(DIV class="inside" id="twit", $(GETSCRIPT $(BASE)/includes/twitter.js))
   )
 )
 

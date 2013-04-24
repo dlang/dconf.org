@@ -1,6 +1,6 @@
 DDOC =
 $(DEFINE $(TITLE)_BLURB,
-  $(T a href="$(SPEAKER_URL)", $(T h1,, $(SPEAKER)))
+  $(T a, href="$(SPEAKER_URL)", $(T h1,, $(SPEAKER)))
   $(DIV class="inline vmid",
     $(T table,,
       $(T tr,,
