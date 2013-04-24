@@ -196,7 +196,7 @@ div#twit .twtr-widget a:hover {
 
 .page_right {
 	width: 270px;
-	background-image: url('dotted_v.png');
+	background-image: url('../images/dotted_v.png');
 	background-repeat: repeat-y;
 }
 
