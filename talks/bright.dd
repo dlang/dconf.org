@@ -8,6 +8,8 @@ TIME = 9:00 AM
 
 SPEAKER = Walter Bright
 
+SPEAKER_SHORT = bright
+
 SPEAKER_URL = http://walterbright.com
 
 SPEAKER_PIC = http://walterbright.com/wblogo.jpg
@@ -15,6 +17,16 @@ SPEAKER_PIC = http://walterbright.com/wblogo.jpg
 TALK_TITLE = Opening Keynote
 
 TYPE = $(B Keynote)
+
+SLIDES_URL = http://slideshare.net/andreialexandrescu1/dconf-2013-opening-keynote-by-walter-bright
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = https://www.youtube.com/watch?v=e2F2pqeMLuw
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day01-talk01
+
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 

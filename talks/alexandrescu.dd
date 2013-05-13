@@ -4,7 +4,9 @@ Macros:
 
 DATE = May 3rd
 
-TIME = 4:00 PM
+TIME = 3:30 PM
+
+DURATION = 90 minutes
 
 SPEAKER = Andrei Alexandrescu
 

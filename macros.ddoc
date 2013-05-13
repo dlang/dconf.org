@@ -46,7 +46,7 @@ MENU =
 $(DIV class="logo",
   <a href="$(BASE)/index.html"><img src="$(BASE)/images/logo.png" height="100" width="490" alt="DConf 2012" border="0" /></a>
 )
-$(DIV class="clock",
+$(COMMENT DIV class="clock",
   $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
     <param name="movie" value="$(BASE)/images/countdown.swf" />
     <param name="quality" value="high" />

@@ -8,11 +8,15 @@ TIME = 11:00 AM
 
 SPEAKER = Robert Schadek
 
+SPEAKER_SHORT = schadek
+
 SPEAKER_URL = http://www.svs.informatik.uni-oldenburg.de/60865.html
 
 SPEAKER_PIC = http://www.svs.informatik.uni-oldenburg.de/bilder/photo_robert.jpg
 
 TALK_TITLE = Distributed Caching Compiler for D
+
+SLIDES = $(SLIDES_YES)
 
 LEVEL = Basic, Intermediate
 

@@ -10,6 +10,18 @@ LEVEL = Intermediate
 
 DURATION = 50 minutes
 
+SLIDES_URL = $(BASE)/talks/$(SPEAKER_SHORT).pdf
+
+SLIDES_YES = $(T A, href=$(SLIDES_URL), Slides)<br />
+
+SLIDES_NO =
+
+SLIDES =
+
+VIDEO_URL =
+
+VIDEO_YES = Video:&nbsp;$(T A, href="$(VIDEO_HD_URL)",[HD])&nbsp;$(T A, href="$(VIDEO_SD_URL)",[SD])<br />
+
 DDOC =
 $(HEADER)
 <body>
@@ -33,6 +45,8 @@ TALK_INFO =
       $(DATE) @ $(TIME)</b><br><br>Duration: $(DURATION)<br />
       Talk type: $(TYPE)<br />
       Level: $(LEVEL)<br />
+      $(B $(SLIDES))
+      $(B $(VIDEO))
       <!--a href="#">Powerpoint slides</a--></p>
       $(DIV class="srtgs" id="rt_test", )
 $(COMMENT

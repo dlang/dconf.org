@@ -4,26 +4,33 @@ SITE = dconf.org@digitalmars.com:data/
 OUT = out
 TMP = .tmp
 
-MAIN_FILES = $(addprefix $(OUT)/,$(addsuffix .html, index contact faq	\
- venue registration schedule/index speakers/index kickstarter/index))
+HTML_NAMES = $(addsuffix .html, index contact faq venue registration	\
+ schedule/index speakers/index kickstarter/index)
 
-TALK_NAMES = alexandrescu bright buclaw cehreli chevalier_boisvert		\
+TALK_BASENAMES = alexandrescu bright buclaw cehreli chevalier_boisvert	\
  clugston edwards evans_1 evans_2 gertzfield lucarella nadlinger		\
  nowak olshansky panteleev rohe schadek schuetze simcha wilson
 
-TO_COPY = images/ includes/
+TO_COPY = images/ includes/ talks/bright.pdf talks/cehreli.pdf	\
+talks/schadek.pdf
 
 VERBATIM = $(addprefix $(OUT)/, $(TO_COPY))
 
-TALKS = $(addprefix $(OUT)/talks/, $(addsuffix .html, ${TALK_NAMES} panel))
+TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES} panel))
 
-SPEAKER_BITS = $(addprefix $(TMP)/speakers/, $(addsuffix .gen.ddoc, ${TALK_NAMES}))
+SPEAKER_BITS = $(addprefix $(TMP)/speakers/, $(addsuffix .gen.ddoc, ${TALK_BASENAMES}))
 
-SCHEDULE_BITS = $(addprefix $(TMP)/schedule/, $(addsuffix .gen.ddoc, ${TALK_NAMES}))
+SCHEDULE_BITS = $(addprefix $(TMP)/schedule/, $(addsuffix .gen.ddoc, ${TALK_BASENAMES}))
+
+ALL_RELATIVE_PATHS = $(HTML_NAMES) $(TALK_NAMES) $(TO_COPY)
+
+SITE_NOW = $(addprefix $(OUT)/, $(ALL_RELATIVE_PATHS))
+
+SITE_2013 = $(addprefix $(OUT)/2013/, $(ALL_RELATIVE_PATHS))
 
 # Rules
 
-all : $(MAIN_FILES) $(TALKS) $(VERBATIM)
+all : $(SITE_NOW) $(SITE_2013)
 
 clean :
 	rm -rf $(OUT) $(TMP)
@@ -56,4 +63,11 @@ $(OUT)/%.html : macros.ddoc %.dd
 	dmd -c -o- -Df$@ $^
 
 $(OUT)/%/ : %/
+	cp -r $^ $@
+
+$(OUT)/%.pdf : %.pdf
+	cp $^ $@
+
+$(OUT)/2013/% : $(OUT)/%
+	@mkdir -p `dirname $@`
 	cp -r $^ $@
