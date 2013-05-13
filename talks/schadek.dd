@@ -18,6 +18,12 @@ TALK_TITLE = Distributed Caching Compiler for D
 
 SLIDES = $(SLIDES_YES)
 
+VIDEO_SD_URL = http://youtube.com/watch?v=ITI-fNx1XLI
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day01-talk03
+
+VIDEO = $(VIDEO_YES)
+
 LEVEL = Basic, Intermediate
 
 BENEFITS =
