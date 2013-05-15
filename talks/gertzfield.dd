@@ -10,11 +10,21 @@ DURATION = 60 minutes
 
 SPEAKER = Ben Gertzfield
 
+SPEAKER_SHORT = gertzfield
+
 SPEAKER_URL = https://facebook.com/beng
 
 SPEAKER_PIC = http://media-cache-ec2.pinterest.com/avatars/bgertzfield_1337070853_600.jpg
 
 TALK_TITLE = Writing Testable Code in D
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=V98Z11V7kEY
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day01-talk04
+
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate
 
