@@ -12,7 +12,7 @@ TALK_BASENAMES = alexandrescu bright buclaw cehreli chevalier_boisvert	\
  nowak olshansky panteleev rohe schadek schuetze simcha wilson
 
 TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/,	\
-bright buclaw cehreli schadek gertzfield))
+bright buclaw cehreli schadek gertzfield evans_1 lucarella))
 
 VERBATIM = $(addprefix $(OUT)/, $(TO_COPY))
 

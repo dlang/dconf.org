@@ -14,7 +14,7 @@ SPEAKER_SHORT = gertzfield
 
 SPEAKER_URL = https://facebook.com/beng
 
-SPEAKER_PIC = http://media-cache-ec2.pinterest.com/avatars/bgertzfield_1337070853_600.jpg
+SPEAKER_PIC = $(BASE)/images/gertzfield.jpg
 
 TALK_TITLE = Writing Testable Code in D
 

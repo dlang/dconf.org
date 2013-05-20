@@ -8,6 +8,8 @@ TIME = 3:30 PM
 
 SPEAKER = Leandro Lucarella
 
+SPEAKER_SHORT = lucarella
+
 SPEAKER_URL = http://llucax.com.ar
 
 SPEAKER_PIC = https://secure.gravatar.com/avatar/254e99a25dbedd5ab51c310d0e874568?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
@@ -15,6 +17,14 @@ SPEAKER_PIC = https://secure.gravatar.com/avatar/254e99a25dbedd5ab51c310d0e87456
 TALK_TITLE = Concurrent Garbage Collection for D
 
 LEVEL = Intermediate
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=1MF5bcmvJ0o
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day01-talk06
+
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 Learning about garbage collection and particularly about D's

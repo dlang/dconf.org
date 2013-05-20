@@ -8,11 +8,21 @@ TIME = 2:30 PM
 
 SPEAKER = Manu Evans
 
+SPEAKER_SHORT = evans_1
+
 SPEAKER_URL = https://github.com/TurkeyMan
 
 SPEAKER_PIC = $(BASE)/images/ManuEvans.jpg
 
 TALK_TITLE = Using D Alongside a Game Engine
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=FKceA691Wcg
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day01-talk05
+
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate, Advanced
 
