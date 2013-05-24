@@ -16,6 +16,12 @@ TALK_TITLE = The D Development Process
 
 LEVEL = All
 
+VIDEO_SD_URL = http://youtube.com/watch?v=nws-inqgIvo
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day01-talk07
+
+VIDEO = $(VIDEO_YES)
+
 BENEFITS =
 This panel debates D's development process.
 
