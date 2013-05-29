@@ -8,6 +8,8 @@ TIME = 10:00 AM
 
 SPEAKER = Martin Nowak
 
+SPEAKER_SHORT = nowak
+
 SPEAKER_PIC = $(BASE)/images/Martin.jpg
 
 SPEAKER_URL = https://github.com/dawgfoto
@@ -19,6 +21,14 @@ LEVEL = Basic, Intermediate
 BENEFITS =
 Getting an overview of what's possible and what should be
 possible with shared libraries.
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=i63VeudjZM4
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day02-talk02
+
+VIDEO = $(VIDEO_YES)
 
 ABSTRACT = $(P Where are we?$(BR)
 I'll give a short overview of the current state of affairs.)
