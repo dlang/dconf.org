@@ -8,6 +8,8 @@ TIME = 11:00 AM
 
 SPEAKER = Adam Wilson
 
+SPEAKER_SHORT = wilson
+
 SPEAKER_PIC = http://www.high-road.com/images/team/full/adam.jpg
 
 SPEAKER_URL = http://prospectivesoftware.com
@@ -15,6 +17,14 @@ SPEAKER_URL = http://prospectivesoftware.com
 TALK_TITLE = C# to D
 
 LEVEL = Basic
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = https://www.youtube.com/watch?v=6_xdfSVRrKo
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day02-talk03
+
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 This presentation will provide a roadmap to any developer who is
