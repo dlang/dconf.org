@@ -20,7 +20,7 @@ LEVEL = Basic
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_SD_URL = https://www.youtube.com/watch?v=6_xdfSVRrKo
+VIDEO_SD_URL = http://youtube.com/watch?v=6_xdfSVRrKo
 
 VIDEO_HD_URL = https://archive.org/details/dconf2013-day02-talk03
 

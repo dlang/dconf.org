@@ -8,6 +8,8 @@ TIME = 1:30 PM
 
 SPEAKER = Vladimir Panteleev
 
+SPEAKER_SHORT = panteleev
+
 SPEAKER_URL = http://thecybershadow.net
 
 SPEAKER_PIC = $(BASE)/images/vpanteleev.jpg
@@ -15,6 +17,14 @@ SPEAKER_PIC = $(BASE)/images/vpanteleev.jpg
 TALK_TITLE = Web Development in D
 
 LEVEL = Basic, Intermediate
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=Zs8O7MVmlfw
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day02-talk04
+
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 A thorough Introduction to D web development and related technologies.
