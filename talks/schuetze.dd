@@ -8,6 +8,8 @@ TIME = 2:30 PM
 
 SPEAKER = Rainer Sch&uuml;tze
 
+SPEAKER_SHORT = schuetze
+
 SPEAKER_PIC = ../images/rainer.jpg
 
 SPEAKER_URL = https://github.com/rainers
@@ -15,6 +17,14 @@ SPEAKER_URL = https://github.com/rainers
 TALK_TITLE = A Precise Garbage Collector for D
 
 LEVEL = Intermediate
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=LQY1m_eT37c
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day02-talk05
+
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 Learning how to create custom type information using the RTInfo

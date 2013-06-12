@@ -8,6 +8,16 @@ TIME = 3:30 PM
 
 SPEAKER = Maxime Chevalier-Boisvert
 
+SPEAKER_SHORT = chevalier_boisvert
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=hJUNHX0vakI
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day02-talk06
+
+VIDEO = $(VIDEO_YES)
+
 SPEAKER_URL = http://cs.mcgill.ca/~mcheva/
 
 SPEAKER_PIC = https://si0.twimg.com/profile_images/1661657727/71626_809219620367_13613931_45564044_6205031_n.jpg

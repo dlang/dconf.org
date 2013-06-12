@@ -12,6 +12,16 @@ SPEAKER_URL = http://www.codeproject.com/Members/Don-Clugston
 
 SPEAKER_PIC = http://www.codeproject.com/script/Membership/ProfileImages/%7B784461E3-DF35-4D71-AB60-0E92303833AD%7D.jpg
 
+SPEAKER_SHORT = clugston
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=pmwKRYrfEyY
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day03-talk01
+
+VIDEO = $(VIDEO_YES)
+
 TALK_TITLE = Metaprogramming in the Real World
 
 LEVEL = Intermediate, Advanced
@@ -37,6 +47,4 @@ expectations. Accessible metaprogramming has huge implications for the
 future commercial growth of D, and our real-world experience will help
 the D community to further exploit this strength.)
 
-BIO =
-Don Clugston is a major contributor to the D reference compiler
-and its core libraries.
+BIO = Don Clugston is a senior developer at Sociomantic Labs GmbH. Before becoming a full-time D programmer, he worked for 15 years in the solar photovoltaics industry, both in research and manufacturing. He also wrote the FastDelegate library which is used by many C++ programmers. He has been a prolific contributor to the D community since 2005.

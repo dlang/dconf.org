@@ -12,7 +12,8 @@ TALK_BASENAMES = alexandrescu bright buclaw cehreli chevalier_boisvert	\
  nowak olshansky panteleev rohe schadek schuetze simcha wilson
 
 TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/,	\
-bright buclaw cehreli schadek gertzfield evans_1 lucarella nowak wilson panteleev))
+bright buclaw cehreli schadek gertzfield evans_1 lucarella nowak wilson \
+panteleev schuetze chevalier_boisvert clugston rohe))
 
 VERBATIM = $(addprefix $(OUT)/, $(TO_COPY))
 
@@ -37,6 +38,7 @@ clean :
 
 rsync : all
 	rsync -avz $(OUT)/* $(SITE)
+	
 
 # Patterns
 

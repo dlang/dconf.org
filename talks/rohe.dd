@@ -8,6 +8,16 @@ TIME = 10:00 AM
 
 SPEAKER = Stefan Rohe
 
+SPEAKER_SHORT = rohe
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=ph_uU7_QGY0
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day03-talk02
+
+VIDEO = $(VIDEO_YES)
+
 SPEAKER_PIC = $(BASE)/images/StefanRohe.jpg
 
 TALK_TITLE = Code Analysis for D with AnalyzeD
