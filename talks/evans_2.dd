@@ -8,6 +8,16 @@ TIME = 2:30 PM
 
 SPEAKER = Manu Evans
 
+SPEAKER_SHORT = evans_2
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=q_39RnxtkgM
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day03-talk05
+
+VIDEO = $(VIDEO_YES)
+
 SPEAKER_URL = https://github.com/TurkeyMan
 
 SPEAKER_PIC = $(BASE)/images/ManuEvans.jpg

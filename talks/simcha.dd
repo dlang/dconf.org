@@ -8,11 +8,21 @@ TIME = 11:00 AM
 
 SPEAKER = David Simcha
 
+SPEAKER_SHORT = simcha
+
 SPEAKER_URL = https://github.com/dsimcha
 
 SPEAKER_PIC = https://secure.gravatar.com/avatar/c84b2a3332abdc3772c00f74e35e0353?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
 
 TALK_TITLE = D-Specific Design Patterns
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=yMNMV9JlkcQ
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day03-talk03
+
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate, Advanced
 

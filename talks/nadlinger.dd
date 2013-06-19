@@ -8,6 +8,16 @@ TIME = 1:30 PM
 
 SPEAKER = David Nadlinger
 
+SPEAKER_SHORT = nadlinger
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=ntdKZWSiJdY
+
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day03-talk04
+
+VIDEO = $(VIDEO_YES)
+
 SPEAKER_PIC = https://twimg0-a.akamaihd.net/profile_images/2878553035/5180e46655856b82d2fd8232243e2e35.png
 
 SPEAKER_URL = http://klickverbot.at
@@ -15,8 +25,6 @@ SPEAKER_URL = http://klickverbot.at
 TALK_TITLE = LDC
 
 LEVEL = All
-
-BENEFITS =
 
 ABSTRACT =
 LDC is a fully open source, portable D compiler based on the
