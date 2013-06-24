@@ -10,11 +10,21 @@ DURATION = 90 minutes
 
 SPEAKER = Andrei Alexandrescu
 
+SPEAKER_SHORT = alexandrescu
+
 SPEAKER_PIC = https://twimg0-a.akamaihd.net/profile_images/2750759171/6ffcec73d8ebd25136887749b407fff9.png
 
 SPEAKER_URL = http://erdani.com
 
 TALK_TITLE = Quo Vadis?
+
+SLIDES = $(SLIDES_YES)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=4M-0LFBP9AU
+
+VIDEO_HD_URL = https://archive.org/details/dconf2013-day03-talk06
+
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 
