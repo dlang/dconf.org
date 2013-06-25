@@ -22,7 +22,7 @@ SLIDES = $(SLIDES_YES)
 
 VIDEO_SD_URL = http://youtube.com/watch?v=4M-0LFBP9AU
 
-VIDEO_HD_URL = https://archive.org/details/dconf2013-day03-talk06
+VIDEO_HD_URL = http://archive.org/details/dconf2013-day03-talk06
 
 VIDEO = $(VIDEO_YES)
 
