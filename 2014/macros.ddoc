@@ -14,7 +14,7 @@ TT = <tt>$0</tt>
 
 GETSCRIPT = <script language="javascript" type="text/javascript" src="$0"></script>
 
-PAGE_TITLE = The D Programming Language Conference 2013
+PAGE_TITLE = The D Programming Language Conference 2014
 
 DEFINE = $1 = $+
 
@@ -44,7 +44,7 @@ $(COMMENT
 
 MENU =
 $(DIV class="logo",
-  <a href="$(BASE)/index.html"><img src="$(BASE)/images/logo.png" height="100" width="490" alt="DConf 2012" border="0" /></a>
+  <a href="$(BASE)/index.html"><img src="$(BASE)/images/dlogo.png" height="100" alt="DConf 2014" border="0" /></a>
 )
 $(COMMENT DIV class="clock",
   $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
@@ -54,32 +54,24 @@ $(COMMENT DIV class="clock",
   )
 )
 $(DIV class="menu row_after",
-  <nav>
-    <ul id="menu">
-      <li><a href="$(BASE)/schedule/index.html">Schedule</a></li>
-      <li><a href="$(BASE)/registration.html">Registration</a></li>
-      <li><a href="$(BASE)/speakers/index.html">Speakers</a></li>
-      <li><a href="$(BASE)/venue.html">Venue</a></li>
-      <li><a href="$(BASE)/faq.html">FAQ</a></li>
-      <li><a href="$(BASE)/contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
+  $(T nav,,
+    $(T ul,id="menu",
+      $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+      $(LI $(LINK2 $(BASE)/../2013, DConf 2013))
+      $(LI $(LINK2 $(BASE)/venue.html, Venue))
+      $(LI $(LINK2 $(BASE)/contact.html, Contact Us))
+    )
+  )
 )
 
 SPONSORS =
 $(DIV class="page_right equal",
-  $(DIV class="sponsors",
-    $(T span, class="sp", Sponsors)<br />
-      <a href="http://sociomantic.com">
-      <img src="$(BASE)/images/s_sociomantic.png" width="220" alt="Sociomantic" border="0" /></a><br />
-      <a href="http://remedygames.com"><img src="$(BASE)/images/s_remedy.png" width="219" width="32" alt="Remedy Games" border="0" /></a><br />
-      <a href="$(BASE)/kickstarter/index.html" class="sp ks">Kickstarter Contributors &#x25B8;</a>
-  )
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="twitter",
     $(DIV class="hash", )
-    $(DIV class="inside" id="twit", $(GETSCRIPT $(BASE)/includes/twitter.js))
-  )
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+)
 )
 
 DDOC =
@@ -101,7 +93,7 @@ FOOTER =
 <hr />
 $(DIV align="right",
   $(T font, size="-2",
-    &copy; 2013 http://digitalmars.com |
+    &copy; 2014 http://digitalmars.com |
     Generated with Ddoc
   )
 )

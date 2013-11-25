@@ -1,0 +1,61 @@
+Ddoc
+
+$(T h1,, Venue)
+
+$(P $(HTTP www.facebook.com/careers, Facebook) has graciously
+agreed again to host DConf 2014 at its headquarters at $(I 1 Hacker Way,
+Menlo Park, CA 94025, USA).)
+
+<iframe width="640" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1+Hacker+Way,+Menlo+Park,+CA&amp;aq=0&amp;oq=1+hacker+way&amp;sll=37.7577,-122.4376&amp;sspn=0.203032,0.362206&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=1+Hacker+Way,+Menlo+Park,+California+94025&amp;ll=37.484116,-122.148244&amp;spn=0.006368,0.011319&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=1+Hacker+Way,+Menlo+Park,+CA&amp;aq=0&amp;oq=1+hacker+way&amp;sll=37.7577,-122.4376&amp;sspn=0.203032,0.362206&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=1+Hacker+Way,+Menlo+Park,+California+94025&amp;ll=37.484116,-122.148244&amp;spn=0.006368,0.011319&amp;z=14" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+$(T h2,, Nearby hotels)
+
+$(P Nearby hotels with access to public transportation include (prices
+and availability and may vary):)
+
+$(UL
+
+$(LI $(B Menlo Park & Palo Alto)
+  $(UL
+  $(LI $(HTTP menloparkinn.com, Menlo Park Inn))
+  $(LI $(HTTP starwoodhotels.com/sheraton/property/overview/index.html?propertyID=214, Sheraton Palo Alto) (2 blocks from Caltrain station))
+  $(LI $(HTTP hotelkeen.com, Hotel Keen))
+  )
+)
+
+$(LI $(B Newark) (Approximately 15 minutes away, across the bridge from the Facebook Headquarters and will require a $(DOLLAR)5 bridge toll fee)
+  $(UL $(LI $(HTTP whotelsiliconvalley.com, Aloft Silicon Valley))
+  $(LI $(HTTP marriott.com/hotels/travel/sjcft-courtyard-newark-silicon-valley, Courtyard Newark Silicon Valley))
+  )
+)
+
+$(LI $(B East Palo Alto) (closest to Facebook Headquarters + Conference Site, but the most expensive option)
+$(UL $(LI $(HTTP fourseasons.com, Four Seasons Hotel Silicon Valley))))
+
+$(LI $(B San Francisco) (you may take the local Caltrain to the Palo Alto
+stop$(COMMENT and take the Facebook shuttle to the event))
+  $(UL
+  $(LI $(HTTP www.baybridgeinn.com/index.html, Bay Bridge Inn))
+  $(LI $(HTTP intercontinentalsanfrancisco.com, InterContinental San Francisco))
+  )
+)
+
+)
+
+$(COMMENT Nearby hotels include $(HTTP gardencourt.com, Garden
+Court Hotel), $(HTTP cardinalhotel.com, Cardinal Hotel), $(HTTP starwoodhotels.com/alofthotels/property/overview/index.html?propertyID=1300,
+Aloft Silicon Valley), $(HTTP starwoodhotels.com/sheraton/property/overview/index.html?propertyID=214,
+Sheraton Palo Alto), and other hotels in the Palo Alto/Menlo Park
+area.)
+
+$(T h2,, Transportation)
+
+$(P For flying to Menlo Park you may use any of the SFO (18 miles), SJC
+(17 miles), or OAK (26 miles) airports.)
+
+$(P Taxi fare is relatively expensive in California, so car rental or
+public transportation are more affordable. Public transportation options include $(HTTP caltrain.com, Caltrain) and $(HTTP bart.gov, BART).)
+
+Macros:
+
+HTTP=$(LINK2 http://$1, $+)

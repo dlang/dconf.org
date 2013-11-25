@@ -1,0 +1,97 @@
+Ddoc
+
+  $(T h1,,DConf 2013)
+
+  $(T h2,,We invite you to DConf 2013, the conference of the D programming language (Menlo Park, CA, May 1-3 2013).)
+
+  $(P The D programming language is undergoing rapid growth, spurred
+  by a bustling talented community and downright furious coding
+  activity on the open-source $(LINK2
+  http://github.com/D-Programming-Language/dmd, compiler
+  front-end) and $(LINK2
+  http://github.com/D-Programming-Language/phobos, standard
+  library). These also fuel the $(LINK2 http://gdcproject.org,
+  gdc) compiler (based off of the $(LINK2 http://gcc.gnu.org,
+  gcc) infrastructure) and the $(LINK2
+  https://github.com/ldc-developers, ldc) compiler (grown atop of
+  the $(LINK2 http://llvm.org, llvm) infrastructure). A conference to
+  catalyze the community was just bound to happen, and indeed we have
+  successfully funded $(LINK2
+  http://www.kickstarter.com/projects/2083649206/the-d-programming-language-conference-2013-0,
+  DConf 2013) via Kickstarter.)
+
+  $(P DConf is the main face-to-face event for everyone and everything
+  related to the D language and environment. DConf 2013 will feature
+  $(LINK2 $(BASE)/speakers/index.html, leading speakers) from the D
+  community.)
+
+  $(T h2,,Topics)
+
+  $(P DConf 2013 offers a variety of talks on topics of interest to a
+  broad variety of engineers.)
+
+  $(T ul,,
+  $(LI $(B Tools and Techniques) for maximizing productivity when
+  working in D)
+
+  $(LI $(B Experience reports) on using D in domains such as
+  compilers, scientific computing, and gaming)
+
+  $(LI $(B Under the hood) looks at metaprogramming, design patterns,
+  and SIMD)
+
+  $(LI $(B Hot topics) that are sure to engender lively debates, such
+  as manual and automatic memory management, migrating from other
+  languages, and managing the D development itself
+  )
+  )
+
+  $(P ... and more! Check the $(LINK2 $(BASE)/schedule/index.html,
+  schedule) for the full list of talks along with their abstracts.)
+
+  $(T h2,,Speakers and Attendees)
+
+  $(P DConf features 19 speakers from the engineering and research
+  community, including recognizable names in the D milieu such as
+  $(LINK2 talks/clugston.html, Don Clugston), $(LINK2
+  talks/nadlinger.html, David Nadlinger), $(LINK2 talks/buclaw.html,
+  Iain Buclaw), and $(LINK2 talks/olshansky.html, Dmitry Olshansky), to
+  just mention a few. We are also honored with the presence of
+  researchers who are either using D or working on it, such as $(LINK2
+  talks/schadek.html, Robert Schadek), $(LINK2
+  talks/chevalier_boisvert.html, Maxime Chevalier-Boisvert), and
+  $(LINK2 talks/rohe.html, Stefan Rohe).) Check the full list of
+  $(LINK2 speakers/index.html, speakers) for more information.
+
+  $(P Above all, DConf 2013 aims at bringing together "everybody who's
+  somebody" in the D world for an event that's inspirational and
+  defining for the future of the language.)
+
+  $(T h2,, Registration and Pricing)
+
+  $(P Registration is now $(LINK2 registration.html,
+  open). $(DOLLAR)400 on or before March 31st buys a conference pass
+  ($(DOLLAR)425 therafter). Refer to the $(LINK2
+  $(BASE)/registration.html, registration) page for full details.)
+
+  $(P Please note: Seating is limited and the
+  $(HTTP kickstarter.com/projects/2083649206/the-d-programming-language-conference-2013-0,
+  kickstarter) donors have already secured a fraction of the
+  registrations, so register soon to secure a seat.)
+
+  $(T h2,,Important Dates)
+
+  $(T table,,
+      $(T tr,,
+        $(T td,, Early bird registration deadline)
+        $(T td,, $(B Sunday March 31, 2013) (expired))
+      )
+      $(T tr,,
+        $(T td,, Registration deadline)
+        $(T td,, $(B Friday April 26, 2013))
+      )
+      $(T tr,,
+        $(T td,, Conference)
+        $(T td,, $(B Wednesday May 1&ndash;Friday May 3, 2013))
+      )
+  )
