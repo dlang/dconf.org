@@ -5,17 +5,13 @@ OUT = out
 
 all: $(OUT)/index.php 2013/all 2014/all
 
-$(OUT)/index.php: index.php
-	mkdir -p $(OUT)
-	cp $< $@
-
 .PHONY: rsync
 rsync : all
 	rsync -avz $(OUT)/* $(SITE)
 
 .PHONY: clean
 clean: 2013/clean 2014/clean
-	rm -rf .made out
+	rm -rf out
 
 # Patterns
 
@@ -24,3 +20,8 @@ clean: 2013/clean 2014/clean
 
 2014/%:
 	$(MAKE) --directory=2014 $*
+
+$(OUT)/%: %
+	mkdir -p $(OUT)
+	cp $< $@
+
