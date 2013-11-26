@@ -1,9 +1,12 @@
-OUT = ../out/2014
+ifeq (,$(OUT))
+$(error you must define OUT)
+endif
+
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, contact index venue)
 
-TO_COPY = images/ includes/
+TO_COPY = images includes
 
 ALL_RELATIVE_PATHS = $(HTML_NAMES) $(TO_COPY)
 
@@ -11,11 +14,10 @@ SITE_FILES = $(addprefix $(OUT)/, $(ALL_RELATIVE_PATHS))
 
 # Rules
 
-all : .made
-.made : $(SITE_FILES)
+all : $(SITE_FILES)
 
 clean :
-	rm -rf $(OUT) $(TMP) .made
+	rm -rf $(OUT) $(TMP)
 
 # Patterns
 
@@ -41,7 +43,7 @@ $(OUT)/kickstarter/%.html : macros.ddoc kickstarter/%.dd
 $(OUT)/%.html : macros.ddoc %.dd
 	dmd -c -o- -Df$@ $^
 
-$(OUT)/%/ : %/
+$(OUT)/% : %
 	cp -r $^ $@
 
 $(OUT)/%.pdf : %.pdf

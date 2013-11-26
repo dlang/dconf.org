@@ -1,5 +1,5 @@
 SITE = erdani.com:www/d/conf/
-SITE = dconf.org@digitalmars.com:data/
+#SITE = dconf.org@digitalmars.com:data/
 
 OUT = out
 
@@ -16,10 +16,10 @@ clean: 2013/clean 2014/clean
 # Patterns
 
 2013/%:
-	$(MAKE) --directory=2013 $*
+	$(MAKE) --directory=2013 OUT=../$(OUT)/2013 $*
 
 2014/%:
-	$(MAKE) --directory=2014 $*
+	$(MAKE) --directory=2014 OUT=../$(OUT)/2014 $*
 
 $(OUT)/%: %
 	mkdir -p $(OUT)

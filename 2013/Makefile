@@ -1,4 +1,7 @@
-OUT = ../out/2013
+ifeq (,$(OUT))
+$(error you must define OUT)
+endif
+
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, index contact faq venue registration	\
