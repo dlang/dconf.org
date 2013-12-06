@@ -1,5 +1,5 @@
-SITE = erdani.com:www/d/conf/
-#SITE = dconf.org@digitalmars.com:data/
+#SITE = erdani.com:www/d/conf/
+SITE = dconf.org@digitalmars.com:data/
 
 OUT = out
 
@@ -7,7 +7,7 @@ all: $(OUT)/index.php 2013/all 2014/all
 
 .PHONY: rsync
 rsync : all
-	rsync -avz $(OUT)/* $(SITE)
+	rsync -avz -p $(OUT)/* $(SITE)
 
 .PHONY: clean
 clean: 2013/clean 2014/clean
