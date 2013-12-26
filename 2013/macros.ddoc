@@ -60,7 +60,6 @@ $(DIV class="menu row_after",
       <li><a href="$(BASE)/registration.html">Registration</a></li>
       <li><a href="$(BASE)/speakers/index.html">Speakers</a></li>
       <li><a href="$(BASE)/venue.html">Venue</a></li>
-      <li><a href="$(BASE)/faq.html">FAQ</a></li>
       <li><a href="$(BASE)/contact.html">Contact Us</a></li>
     </ul>
   </nav>
