@@ -16,16 +16,23 @@ as possible to reserve your seat for less&mdash;a savings of over 40%!)
 <hr />
 $(H3 Conference Pre-Registration)
 $(P Conference from May 21-23)
-<!-- Begin Verisign -->
-<form method="post" action="https://payments.verisign.com/payflowlink">
-  <input type="hidden" name="LOGIN" value="digitalmars"/>
-  <input type="hidden" name="PARTNER" value="VeriSign"/>
-  <input type="hidden" name="AMOUNT" value="250.00"/>
-  <input type="hidden" name="TYPE" value="S"/>
-  <input type="hidden" name="DESCRIPTION" value="Conference Pre-Registration"/>
-  <input type="submit" value="$(DOLLAR)250 using VISA / MC" title="Secure payments with VeriSign" class="button" />
+
+<form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
+  <input type="hidden" name="returnUrl" value="http://www.dconf.org/2014/thankyou.html" >
+  <input type="hidden" name="processImmediate" value="1" >
+  <input type="hidden" name="accessKey" value="11SEM03K88SD016FS1G2" >
+  <input type="hidden" name="signatureMethod" value="HmacSHA256" >
+  <input type="hidden" name="collectShippingAddress" value="1" >
+  <input type="hidden" name="isDonationWidget" value="0" >
+  <input type="hidden" name="amazonPaymentsAccountId" value="ZXALWELULEWA22L7PD2E79ZCEE411P89X2TK1K" >
+  <input type="hidden" name="cobrandingStyle" value="logo" >
+  <input type="hidden" name="immediateReturn" value="1" >
+  <input type="hidden" name="amount" value="USD 250.00" >
+  <input type="hidden" name="description" value="Dconf 2014 Early Bird Registration" >
+  <input type="hidden" name="signatureVersion" value="2" >
+  <input type="hidden" name="signature" value="Opm3R6Kd9zoS4zVqkwYAubHHmlYKenjxSlUuG3QbrBc=" >
+  <input type="image" src="http://g-ecx.images-amazon.com/images/G/01/asp/SMPayNowWithLogo.gif" border="0">
 </form>
-<!-- End Verisign -->
 
 <hr />
 $(P All registrations are final. Registrations are transferrable.)
