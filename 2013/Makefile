@@ -4,7 +4,7 @@ endif
 
 TMP = .tmp
 
-HTML_NAMES = $(addsuffix .html, index contact faq venue registration	\
+HTML_NAMES = $(addsuffix .html, index contact venue registration	\
  schedule/index speakers/index kickstarter/index)
 
 TALK_BASENAMES = alexandrescu bright buclaw cehreli chevalier_boisvert	\
