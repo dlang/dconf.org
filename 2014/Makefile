@@ -4,7 +4,7 @@ endif
 
 TMP = .tmp
 
-HTML_NAMES = $(addsuffix .html, contact index venue)
+HTML_NAMES = $(addsuffix .html, contact index registration venue thankyou)
 
 TO_COPY = images includes
 

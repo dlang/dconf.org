@@ -1,0 +1,34 @@
+Ddoc
+
+$(T h1,, Registration)
+
+$(P Pre-registration is now open!)
+
+$(P Are you cost-conscious? Do you trust the conference will have a great
+program even before seeing the program? Then pre-register before the submission
+process has ended $(B for only $(DOLLAR)250) to get the full conference package!)
+
+$(P Pre-registration must be completed on or before January 31, 2014, same as
+the deadline for proposal submissions. Prices go up to $(DOLLAR)400 (early bird)
+and then $(DOLLAR)425 (sticker price). Pre-register as soon
+as possible to reserve your seat for less&mdash;a savings of over 40%!)
+
+<hr />
+$(H3 Conference Pre-Registration)
+$(P Conference from May 21-23)
+<!-- Begin Verisign -->
+<form method="post" action="https://payments.verisign.com/payflowlink">
+  <input type="hidden" name="LOGIN" value="digitalmars"/>
+  <input type="hidden" name="PARTNER" value="VeriSign"/>
+  <input type="hidden" name="AMOUNT" value="250.00"/>
+  <input type="hidden" name="TYPE" value="S"/>
+  <input type="hidden" name="DESCRIPTION" value="Conference Pre-Registration"/>
+  <input type="submit" value="$(DOLLAR)250 using VISA / MC" title="Secure payments with VeriSign" class="button" />
+</form>
+<!-- End Verisign -->
+
+<hr />
+$(P All registrations are final. Registrations are transferrable.)
+
+$(P Please let us know what you'd like your badge to say if it is
+different from your name on your credit card.)
