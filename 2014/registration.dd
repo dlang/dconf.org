@@ -41,6 +41,25 @@ $(P Conference from May 21-23)
 </form>
 </td>
 
+<td>
+<form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
+  <input type="hidden" name="returnUrl" value="http://www.dconf.org/2014/thankyou.html" >
+  <input type="hidden" name="processImmediate" value="1" >
+  <input type="hidden" name="accessKey" value="11SEM03K88SD016FS1G2" >
+  <input type="hidden" name="signatureMethod" value="HmacSHA256" >
+  <input type="hidden" name="collectShippingAddress" value="1" >
+  <input type="hidden" name="isDonationWidget" value="0" >
+  <input type="hidden" name="amazonPaymentsAccountId" value="ZXALWELULEWA22L7PD2E79ZCEE411P89X2TK1K" >
+  <input type="hidden" name="cobrandingStyle" value="logo" >
+  <input type="hidden" name="immediateReturn" value="1" >
+  <input type="hidden" name="amount" value="USD 250.00" >
+  <input type="hidden" name="description" value="Dconf 2014 Early Bird Registration" >
+  <input type="hidden" name="signatureVersion" value="2" >
+  <input type="hidden" name="signature" value="Opm3R6Kd9zoS4zVqkwYAubHHmlYKenjxSlUuG3QbrBc=" >
+  <input type="image" src="http://g-ecx.images-amazon.com/images/G/01/asp/SMPayNowWithLogo.gif" border="0">
+</form>
+</td>
+
 </tr>
 </table>
 
