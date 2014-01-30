@@ -102,7 +102,7 @@ $(T table,,
     )
     $(T tr,,
       $(T td,, Early bird registration deadline)
-      $(T td,, $(B To Be Determined))
+      $(T td,, $(T font, color=red, $(B Friday January 31, 2014, 23:59:59.99 PST))
     )
     $(T tr,,
       $(T td,, Registration deadline)
