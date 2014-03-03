@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 1:30 PM
+
+SPEAKER = Dmitry Olshansky
+
+SPEAKER_URL = https://github.com/blackwhale
+
+SPEAKER_PIC = $(BASE)/../2013/images/DmitryOlshansky.jpg
+
+TALK_TITLE = Inside the Regular Expressions in D
+
+LEVEL = Intermediate. Having a basic understanding of regular expressions is highly recommended, but not required.
+
+BENEFITS =
+The talk gives an up-close view of how a regular expression libraries work behind the scenes, dispelling a few common myths in the process. The talk consists of two parts, with first focusing on generic concepts and second devoted to D specific features.
+
+$(P The first part of talk intentionally language agnostic and
+focuses on the core principles behind the regular expressions.
+The key point of this part is the fundamental ways of
+matching regular expression, their respective strengths and weaknesses.)
+
+$(P The second part dives into how all of this fits into std.regex, a modern regular expression library written in D. Important practical considerations are discussed, some D features that aid such an undertaking are highlighted.)
+
+$(P The last but not least - a feature unique to D is discussed, a generation of optimal native code for a regular expression at compile-time via metaprogramming. The major steps to achieve that along with tricks for seamless integration are detailed, the simplicity of it being the key part of the talk.)
+
+$(P Bottom line, attendees will acquire the knowledge of how regular expressions work from the inside out. It will greatly aid in furthering the understanding of how to use them and when not to use them.  More then that it's a good chance to learn practical metaprogramming in D by following an exciting real world example.)
+
+ABSTRACT =
+Take a sneak peek at a regular expression engine internals.
+Learn how simple and effective a metaprogramming could be, by observing D's std.regex library unique features described in great detail.
+
+BIO =
+Dmitry Olshansky, a young all-around researcher and D enthusiast.
+
+Interests changed wildly over time and today include: text processing, compilers, robotics, embedded systems, parallel and concurrent programming, scalable network systems.
+
+Currently enrolled as Ph.D student, with the thesis being focused on a specific class of AI systems.
+
+The most recognized work is the standard regular expression library for D
+(a.k.a. $(LINK2 http://dlang.org/phobos/std_regex.html,$(TT std.regex))).

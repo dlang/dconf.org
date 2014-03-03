@@ -1,0 +1,14 @@
+DEFINE = $(TITLE)_$1 = $+
+
+DDOC =
+$(DEFINE TIME, $(TIME))
+$(DEFINE NAME, $(SPEAKER))
+$(DEFINE ROW,
+  $(T tr, class="tooltip",
+    $(T td,, $(TIME))
+    $(T td,, $(LINK2 ../talks/$(TITLE).html, $(TALK_TITLE))<br />
+      $(SPEAKER)$(T span, class="abstract", $(ABSTRACT))
+    )
+    $(COMMENT td,,$(SLIDES)$(VIDEO))
+  )
+)

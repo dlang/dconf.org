@@ -1,0 +1,57 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 1:30 PM
+
+SPEAKER = Vladimir Panteleev
+
+SPEAKER_SHORT = panteleev
+
+SPEAKER_URL = http://thecybershadow.net
+
+SPEAKER_PIC = $(BASE)/../2013/images/vpanteleev.jpg
+
+TALK_TITLE = Reducing D bugs
+
+LEVEL = Intermediate
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk04
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+The first part and main focus of this talk will be DustMite, the D source code
+minimization tool. Although the tool has already found popularity amongst many D
+users and developers,   it remains difficult and initially unintuitive to get
+started with.   The talk will cover an extensive tutorial of its usage, starting
+with basic use, following into more advanced use cases,   such as effective
+reduction of compiler regressions, stalls, crashes,   and dealing with false
+reductions, and later covering some   unusual applications of DustMite.
+
+$(P Following DustMite will be a description of Digger, a tool
+which interfaces with Git and its "bisect" functionality, and
+allows to quickly determine the change which introduced a
+regression.)
+
+$(P Finalizing the talk will be descriptions of several tools to solve problems
+such as large binary size, slow compilation time, and possibly large memory
+consumption.)
+
+ABSTRACT =
+This talk confronts some of the challenges encountered by D users and
+developers, such as narrowing down implementation bugs and other problems
+difficult to diagnose conventionally. Topics covered include DustMite, the
+source code minimization tool, Git and its use in D development, as well as a
+miscellanea of other tools of related purpose.
+
+BIO =
+I am Vladimir Panteleev, a D enthusiast from Moldova (Eastern Europe).   I am
+known in the D community for authoring DFeed ($(LINK http://forum.dlang.org)),
+DustMite, and several other tools,   some of which will be covered in this talk.

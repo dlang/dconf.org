@@ -1,96 +1,18 @@
 Ddoc
 
-$(T h1,,DConf 2014 Pre-registration is now open!)
+$(T h1,, DConf 2014 schedule published, early bird registration open!)
 
-$(P Want to be earlier than the earliest bird? $(LINK2 registration.html,
-Pre-register now) for only $(DOLLAR)250 to get full access to DConf 2014!)
+$(P We have a great $(LINK2 $(BASE)/schedule/index.html, schedule) and a roster of excellent $(LINK2 $(BASE)/speakers/index.html, speakers) picked from a large body of excellent submissions. Turning some of them down has been the worst thing about organizing DConf 2014! $(LINK2 registration.html,
+Register now) for only $(DOLLAR)400 to get access to DConf. Full conference registration cost will be $(DOLLAR)425 after March 31st.)
 
-$(T h1,,DConf 2014 Call for Submissions)
-
-$(T h2,,Please join us at DConf 2014, the conference of the D programming language (Menlo Park, CA, May 21-23 2014).)
-
-$(P These are heady days for the D programming language. Since $(LINK2 ../2013/,
-last year's conference) we've witnessed a growing user base, accelerated
-participation to core development, and stronger corporate support. Quality and
-stability have improved all across the board for $(LINK2 http://github.com/D
--Programming-Language/dmd, dmd), $(LINK2 http://gdcproject.org, gdc), $(LINK2
-https://github.com/ldc-developers, ldc), and the $(LINK2 http://github.com/D
--Programming-Language/phobos, standard library).)
-
-$(P DConf is the main face-to-face event for everyone and everything related to
-the D language and environment. Facebook will host the conference for the second consecutive year at its headquarters in Menlo Park, CA. We aim at making this next edition even bigger, better, and badder than DConf 2013!
-)
-
-$(T h2,,Call for Submissions)
-
-$(P We are looking forward to your submission for a paper, talk, demo, or panel for DConf 2014. The topics of choice are anything and everything related to the D language. Such include:)
-
-$(T ul,,
-$(LI $(B Language Proper) issues, such as new idioms and techniques enabled by D)
-
-$(LI $(B Tools and Techniques) for maximizing productivity when
-working in D)
-
-$(LI $(B Experience reports) on using D in the real world)
-
-$(LI $(B Under the hood) looks at compiler and standard library implementation artifacts)
-
-$(LI $(B Hot topics) that are sure to engender lively debates, such
-as manual and automatic memory management, migrating from other
-languages, and of course the perennial matter of managing the D development itself
-)
-)
-
-$(P But don't be constrained! Originality in topics and formats is warmly encouraged. If it is relevant to the D language, it fits. Just mind the guidelines and don't forget the deadlines below.)
-
-$(P Speakers will receive a free conference registration and will have
-reasonable travel costs covered. Speakers who pay for registration and
-subsequently get an approved submission will have registration costs reimbursed.)
-
-$(P DConf 2014 does not accept presentation proposals that are advertisements of for-sale products or technologies. Vendors interested in doing so, please $(LINK2 contact.html, contact) us for sponsorship information. We appreciate your understanding.)
-
-$(P We expect original work, or work synthesized from community folklore into interesting tidbits by the author. Related work can be mentioned with credit. Overviews of an area covered by other authors is acceptable, again with due credit and assuming the overview has intrinsic value.)
-
-$(T h2,,Selection Criteria)
-
-The committee will review and rate submissions according to the following criteria:
-
-$(T ul,,
-
-$(LI $(B Relevance:) Is the topic interesting to DConf attendees? Will a coverage be beneficial? Is it building on tried and true ideas, or on the contrary, blazing new trails?)
-
-$(LI $(B Coverage:) Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?)
-
-$(LI $(B Organization:) Is the submission well organized? Will the audience tune into the narrative?)
-
-$(LI $(B Novelty and Originality:) How new and noteworthy is the material? Previously published material is acceptable provided it hasn't reached a wide audience within the D community yet.)
-
-$(LI $(B Credentials:) What qualifies you to talk on the topic of choice? Although this criterion favors experienced and well-known submitters, we also very strongly encourage submissions from up-and-coming contributors who have accumulated "street cred" through their open source and forum contributions.)
-
-$(LI $(B Bottom line:) What's your session's takeaway? How is it going to improve attendees' knowledge, outlook, and inspiration?)
-)
-
-$(T h2,,Submission Guidelines)
-
-$(P We expect submission in plain text format or one of the usual rich document formats, such as PDF or DOC. Send your submissions to $(LINK2 mailto:dconf2014@digitalmars.com, dconf2014@digitalmars.com). The submission should include:)
+$(T h2,,Three Reasons to be at DConf)
 
 $(T ol,,
+  $(T li,, $(B See it. Hear it. Be part of it!) DConf is the premier event where D luminaries exchange knowledge, insight, and inspiration on everything related to the D language and its ecosystem. The talks are of high quality but the hallway mingling during breaks and the informal evening gatherings are even better! DConf is the time and place to be to get a glimpse into the present of D and to help shape its future.)$(BR)
 
-$(LI $(B Title))
+  $(T li,, $(B Learn from the best.) We carefully selected our $(LINK2 $(BASE)/schedule/index.html, talks) from a strong set of submissions. They include a combination of evergreen and up-and-coming topics such as $(LINK2 $(BASE)/talks/crapuchettes.html, high-performance computing), $(LINK2 $(BASE)/talks/allison.html, teaching), $(LINK2 $(BASE)/talks/neves.html, compile-time reflection), $(LINK2 $(BASE)/talks/wilson.html, graphics), $(LINK2 $(BASE)/talks/franklin.html, embedded systems), $(LINK2 $(BASE)/talks/clugston.html, big data), $(LINK2 $(BASE)/talks/strasuns.html, declarative programming), and $(LINK2 $(BASE)/talks/index.html, a lot more). Keynotes by $(LINK2 $(BASE)/talks/bright.html, Walter Bright), $(LINK2 $(BASE)/talks/alexandrescu.html, Andrei Alexandrescu), and $(LINK2 $(BASE)/talks/meyers.html, Scott Meyers) complete a compelling summit.)$(BR)
 
-$(LI $(B Kind) (e.g. talk, panel, contest, interpretive dance))
-
-$(LI $(B Duration) (we're aiming for 50-minutes presentations, but are considering smaller and larger durations))
-
-$(LI $(B Target Audience) (e.g. beginner, intermediate, advanced))
-
-$(LI $(B Abstract:) the "elevator pitch" of the talk, in one paragraph)
-
-$(LI $(B Extended description:) an extended abstract including any details you believe are relevant for evaluating the submission)
-
-$(LI $(B Brief speaker biography) including a summary of their expertise relative to the talk topic)
-
-$(LI $(B Keyword tags))
+  $(T li,, $(B Stay connected, get connected.) Hear it first at DConf&mdash;whether it's language development, innovative framework, or new research. Share your own ideas at the $(LINK2 $(BASE)/talks/lightning.html, lightning talks) session or over beers at the $(LINK2 http://aloftsiliconvalley.com, Aloft Hotel), the unofficial evening gathering place of DConf. Connect to the best peers in the industry. Last but not least DConf 2014 is hosted by $(LINK2 https://www.facebook.com/careers, Facebook), so this is a perfect opportunity to visit and explore employment opportunities with one of the best companies to work for $(LINK2 http://www.glassdoor.com/Best-Places-to-Work-2012-LST_KQ0.htm, consistently since 2011)&mdash;not to mention a growing user and supporter of the D language.)
 )
 
 $(T h2,,Important Dates)
@@ -98,15 +20,15 @@ $(T h2,,Important Dates)
 $(T table,,
     $(T tr,,
       $(T td,, Submission Deadline)
-      $(T td,, $(T font, color=red, $(B Friday January 31, 2014, 23:59:59.99 PST)))
+      $(T td,, $(B Friday January 31, 2014, 23:59:59.99 PST))
     )
     $(T tr,,
       $(T td,, Early bird registration deadline)
-      $(T td,, $(B To Be Determined))
+      $(T td,, $(T font, color=red, $(B March 31, 2014)))
     )
     $(T tr,,
       $(T td,, Registration deadline)
-      $(T td,, $(B To Be Determined))
+      $(T td,, $(B May 15, 2014))
     )
     $(T tr,,
       $(T td,, Conference)

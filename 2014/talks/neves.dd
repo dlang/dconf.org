@@ -1,0 +1,70 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 3:30 PM
+
+SPEAKER = Atila Neves
+
+SPEAKER_SHORT = neves
+
+SPEAKER_URL = https://github.com/atilaneves
+
+SPEAKER_PIC = https://avatars.githubusercontent.com/u/4956425
+
+TALK_TITLE = Case Studies In Simplifying Code With Compile-Time Reflection
+
+LEVEL = Intermediate, Advanced
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day01-talk06
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+$(P The talk will show how the D versions of two C++11 libraries written by the
+author require less boilerplate code to be written with the use of compile-time
+reflection whislt offering equivalent or better functionality. One is a unit
+testing framework designed from the start to run tests in parallel for maximum
+speed and decoupling, the other a serialisation library that requires user code
+to be written only once for both marshalling and unmarshalling.)
+
+$(P For unit-testing, C++ requires macros for assertions, for registering tests, and
+that each test be a child of a TestCase class. The D version not only dispenses
+with registration but also with the requirement of participating in the TestCase
+hierarchy by allowing the registration of functions. User defined attributes can
+be used to tweak the default behaviour.)
+
+$(P In the case of serialisation, C++ requires that code be written for every non-
+primitive type. D allows the compiler to write the code for the library user and
+makes it easier, also via user defined attributes, to customise the behaviour
+for certain use cases. In most cases no code need be written at all. The talk
+will show examples taken from an MQTT broker written in D, and how it is smaller
+than the C++ version.)
+
+$(P The proposed talk aims to showcase how to write code to make use of D’s compile-
+time reflection, why one would want to write such code, and how it was used in a
+real project to reduce boilerplate. D’s metaprogramming capabilities are an
+advanced topic with few practical examples and it would be helpful to make them
+known to D novices or programmers currently considering learning the language.)
+
+
+ABSTRACT =
+This talk will show how the power of compile-time reflection and user
+defined attributes in D can be leveraged to reduce the number of lines of code
+that need to be written. Two real-life case studies will be presented showing
+how their D incarnations are better than the C++11 ones that inspired them.
+
+BIO =
+I have a PhD in Particle Physics for research done at CERN. Most of the research itself required programming in C++, and I also had a major participation in the coding of the experiment’s data acquisition and decoding software in C and C++. I later joined the Computer Security Team at CERN in the IT department and spent two years there writing Perl.
+
+$(P I currently work at Cisco writing networking software, my job having re- quired me to write in C, C++, Perl, Python, Java and Ruby. I even wrote a small D wrapper for our C API for fun.)
+
+$(P The software I wrote and will cover in the talk stems from the work done at my job at Cisco. Both software libraries were written as a better alternative inspired by the code used at work for writing unit tests and serialising network protocol packets. I first wrote them in C++ and after learning D soon realised that both of them would work better in D due to D’s unique capabilities.)
+
+$(P The result of this work was a comparison of MQTT broker implementations in different languages, D being one of them, that ended up generating a lot of discussion on Hacker News and programming subreddit.)

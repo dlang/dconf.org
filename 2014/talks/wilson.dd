@@ -1,0 +1,40 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 11:00 AM
+
+SPEAKER = Adam Wilson
+
+SPEAKER_SHORT = wilson
+
+SPEAKER_PIC = http://www.high-road.com/images/team/full/adam.jpg
+
+SPEAKER_URL = http://prospectivesoftware.com
+
+TALK_TITLE = Designing an Aurora: A Glimpse at the Graphical Future of D
+
+LEVEL = Basic
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk03
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+Do you love D? Are you frustrated by the lack of graphics support? Then allow me to introduce you to Aurora, a graphics toolkit written specifically for D. Aurora is a Graphics Rendering Toolkit that is designed with ease-of-use in mind and is intended for use by developers who have little to no experience writing graphics code. Whether you are writing a game, a user interface, or a creative graphics project, Aurora is flexible enough to meet your needs.
+
+$(P This talk will cover the overall design of Aurora, current implementation progress with demonstrations, the obstacles that are currently faced by the Aurora team, and will solicit the audience for feedback about the current and future design of Aurora.)
+
+$(P This interactive presentation will provide the audience with in-depth information about the current state and future direction of the Aurora Graphics Toolkit as well as providing the opportunity to directly influence the direction and scope of Aurora.)
+
+ABSTRACT =
+Aurora is a brand new Graphics Toolkit written specifically for D and designed for developers with limited to no experience writing graphics code. This presentation is intended to introduce the community to Aurora, demonstrate progress to date, and solicit discussion about the future direction of Aurora and the obstacles that it faces.
+
+BIO =
+Adam Wilson is the Director of Software Development at Prospective Software which specializes in CRM software for the automotive industry. He has over 15 years of experience writing code in a plethora of languages, but has focused on C++, C#, and of course D. Adam also holds a Computer Game Development Certificate from Edmonds Community College which he earned in 2007. In his free time he enjoys spending time with his wife, reading science-fiction, flying light aircraft, and hacking on D code.

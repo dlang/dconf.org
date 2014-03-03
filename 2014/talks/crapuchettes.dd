@@ -1,0 +1,59 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 10:00 AM
+
+SPEAKER = Jonathan Crapuchettes
+
+SPEAKER_SHORT = crapuchettes
+
+SPEAKER_URL = https://github.com/jcrapuchettes
+
+SPEAKER_PIC = https://avatars.githubusercontent.com/u/4846109
+
+TALK_TITLE = Templates in the Wild: A Postmortem
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+BENEFITS = An inspiring success story that any aspiring D evangelist can learn
+from.
+
+ABSTRACT = $(T I,,An industry success story:) EMSI needed to improve its data
+processes with n-­dimensional dataset processing, in-­memory data manipulation,
+data type checking, internal testing, and code correctness. D was the language
+of choice because it couples low-­level performance with high-­level design.
+
+$(P EMSI began manipulating economic labor market data using Excel. The company next used SQL for computations, while Excel spreadsheets handled the flow of the operations. As more data sets were incorporated and increasingly complex methodology was added, we moved the flow control to PHP because of its “ease” of development and widespread use. One of the goals when moving to PHP was to allow for quarterly runs of the data processing with just the push of a button. Sadly this goal never came to fruition, but during this time some fundamental concepts regarding data storage structure took shape.)
+
+$(P
+Within a few years the PHP code base had become unwieldy and lacked the kind of internal error­checking that we desperately needed. It was also missing the capacity to manipulate datasets of arbitrary dimensions: up to that point datasets had been two­dimensional (e.g., Area by Industry or Area by Occupation), but demographic measures­­which were becoming increasingly in demand­­added at least two additional dimensions to each dataset. We decided that a new library of dataset structures and manipulation functions needed to be created.)
+
+$(P
+After much debate, D was selected as the language for the new framework. We have been using D since 2007 for some performance-­oriented utilities and appreciated its productive inclusiveness of features from inline assembly to associative arrays in the same clean language. We determined that
+D’s fast compile times, strong static typing, and powerful templating capabilities were ideal for building strongly­-checked and performant data processes. Equally important, D’s high­level features made it accessible to data developers with a wide­range of programming skill and experience.
+)
+
+$(P Most importantly, choosing D allowed for the development of five major constructs which today form the basis for our data processing framework: cubes, data storage engines, dimensions, hierarchies, and measures. Cubes encompass data storage engines and offer abstraction layers for particular sets of functionality. Data storage engines hold the dimensions and data nodes for each cube. Dimensions are compile­time concepts that have templated names and hierarchy node types. Hierarchies handle the run­time concepts of classification codes and their levels (e.g., counties to states and states to the nation). Finally, measures are the data contained within each node in the cubes.
+)
+
+$(P In applying these constructs, we make heavy use of templated structs, classes, and functions to build custom algorithms at compile­time that are optimized for specific use cases and allow for quicker realization of errors. All in all, D provided a faster, cleaner development of data processes and enabled us to build a framework that met our specific needs while giving us a platform from which we can further develop and improve our processes into the future.
+)
+
+$(P I will also be showing examples from our code base of techniques that we have used as well as discussing some of the problems we encountered with D during development.
+)
+
+BIO = Jonathan Crapuchettes is a senior programmer at EMSI, a CareerBuilder
+company. He has been developing applications for economic models and data
+manipulation for the last eight years and has been using D since version 1.0 was
+released. He holds a BS in computer science from Eastern Washington University.

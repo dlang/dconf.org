@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 23rd
+
+TIME = 1:30 PM
+
+SPEAKER = Stephan Dilly
+
+SPEAKER_SHORT = dilly
+
+SPEAKER_PIC = $(BASE)/images/dilly.jpg
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = http://archive.org/details/dconf2014-day03-talk04
+
+VIDEO = $(VIDEO_NO)
+
+SPEAKER_URL = http://extrawurst.org
+
+TALK_TITLE = Mobile Gameserver Backend in D
+
+LEVEL = Beginner, Intermediate
+
+ABSTRACT =
+A gameserver backend that I have developed for a mobile game app project. The server is completely written in D using the $(TT vibe.d) framework.
+
+BENEFITS =
+When I decided to add an online multiplayer feature to the mobile game STACK4, I evaluated a couple of solutions to implement it in: C/Libuv, PHP, Java+Vertx, Node.js and D+$(TT vibe.d). The talk discusses the evaluation process, the experiences with D after going with it and how D compares to the others performance and productive wise. D, with its elegance, simplicity and performance, turned out to be the perfect replacement for Node.js, and in my talk I want to elaborate this fact. More details can be found in the article series on this topic on my $(LINK2 http://www.extrawurst.org/blog11/2014/01/stack4-and-the-d-programming-language-part1, website).
+
+BIO =
+I am Stephan Dilly, a 27 years old Senior Software Engineer at Funatics Software GmbH. Being a professional in the gaming industry for 6 years I worked for titles like "The Settlers - Rise of Cultures" for PC and "Endwar" for PSP/NDS. During the last 3 years and due to the shifting in this sector from boxed to online games I mainly focused on developing server backends for massive online titles including "Cultures Online" and most recently "Panzer General Online". D is on my radar at least since 2007 (I submitted the first dmd bug back then), in 2009 I wrote my B.Sc Thesis about "D in game development" and now I finally convinced my boss to switch from Node.js to D in production. The D sphere knows me best as
+"Extrawurst", my contributions to TDPL, for my article series about this talk’s topic, the various libraries I open sourced for developing a mobile game server backend in D and my engagement to bring German speaking D developers together in the #d.de channel as an operator.

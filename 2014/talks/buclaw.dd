@@ -1,0 +1,51 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 3:30 PM
+
+SPEAKER = Iain Buclaw
+
+SPEAKER_SHORT = buclaw
+
+SPEAKER_URL = https://github.com/ibuclaw
+
+SPEAKER_PIC = https://secure.gravatar.com/avatar/907f83bbb9b80bd8cf5e2f1a07c42e5e?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
+TALK_TITLE = Debugging in D
+
+LEVEL = All
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk01
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+Raise general awareness of what is happening around the GDB and
+Binutils projects, and give users a tutorial on how they can expect to
+use these applications in the future to maximise their own ability to
+track down issues in D programs from link-time to runtime debugging.
+
+ABSTRACT =
+Talk about steps and processes used to get (near) complete
+D support in GDB and Binutils.  From recognising primitive types to
+writing a D-style expression parser to run D code interactively with
+the program in debug.  And if using a black and white TUI is not your
+idea of debugging, there's D syntax highlighting support in CGDB on
+show too.
+
+BIO =
+Lead developer, project coordinator and the principal force behind the
+development of the GNU D Compiler from as far back as 2009, where have
+been responsible for the migration over from D1 to D2, as well as from
+GCC 3.x to GCC 4.x.  Others might be interested to know that outside
+hobby life I work on for a Cloud Services/Hosting company as a
+Technical Engineer, and unofficially use D on a frequent basis to
+develop interpreters, and various plug-ins to work within our
+infrastructure.

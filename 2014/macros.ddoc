@@ -18,8 +18,7 @@ PAGE_TITLE = The D Programming Language Conference 2014
 
 DEFINE = $1 = $+
 
-HEADER =
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+HEADER = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://w3.org/1999/xhtml" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -39,12 +38,12 @@ $(COMMENT
   $(GETSCRIPT $(BASE)/talks/ratingfiles/ratings.js)
 )
 <link href="$(BASE)/images/favicon.ico" rel="shortcut icon" />
-<title>$(PAGE_TITLE)</title>
+$(T title,, $(PAGE_TITLE))
 </head>
 
 MENU =
 $(DIV class="logo",
-  <a href="$(BASE)/index.html"><img src="$(BASE)/images/dlogo.png" height="100" alt="DConf 2014" border="0" /></a>
+  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dlogo.png" height="100" alt="DConf 2014" border="0" />)
 )
 $(COMMENT DIV class="clock",
   $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
@@ -57,9 +56,12 @@ $(DIV class="menu row_after",
   $(T nav,,
     $(T ul,id="menu",
       $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
-      $(LI $(LINK2 $(BASE)/../2013, DConf 2013))
+      $(LI $(LINK2 $(BASE)/schedule/index.html, Schedule))
+      $(LI $(LINK2 $(BASE)/registration.html, Registration))
+      $(LI $(LINK2 $(BASE)/speakers/index.html, Speakers))
       $(LI $(LINK2 $(BASE)/venue.html, Venue))
       $(LI $(LINK2 $(BASE)/contact.html, Contact Us))
+      $(LI $(LINK2 $(BASE)/../2013, DConf 2013))
     )
   )
 )
@@ -74,8 +76,7 @@ $(DIV class="page_right equal",
 )
 )
 
-DDOC =
-$(HEADER)
+DDOC = $(HEADER)
 <body>
 $(DIV id="fb-root", )
 $(GETSCRIPT $(BASE)/includes/facebook.js)

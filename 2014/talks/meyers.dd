@@ -1,0 +1,42 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 9:00 AM
+
+SPEAKER = Scott Meyers
+
+SPEAKER_SHORT = meyers
+
+SPEAKER_URL = http://aristeia.com
+
+SPEAKER_PIC = http://aristeia.com/images/sdm-big.jpg
+
+TALK_TITLE = The Last Thing D Needs
+
+LEVEL = All
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk01
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+Surprising.
+
+ABSTRACT =
+Based on his 25 years of experience with C++, Scott Meyers will offer a recommendation&mdash;almost a plea&mdash;regarding the D programming language and its community.
+
+BIO =
+$(LINK2 http://aristeia.com, Scott Meyers) is one of the world's foremost
+authorities on C++. Author of the best-selling Effective C++ series (Effective
+C++, More Effective C++, and Effective STL), he’s also a founder of
+$(LINK2 http://cppandbeyond.com, C++ and Beyond) and the consulting editor for Addison
+Wesley's $(LINK2 http://www.awprofessional.com/esds/, Effective Software
+Development Series). He provides training and consulting services to clients
+worldwide.

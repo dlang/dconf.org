@@ -1,0 +1,65 @@
+Ddoc
+
+Macros:
+
+DATE = May 23rd
+
+TIME = 10:00 AM
+
+SPEAKER = Don Clugston
+
+SPEAKER_URL = http://www.codeproject.com/Members/Don-Clugston
+
+SPEAKER_PIC = http://www.codeproject.com/script/Membership/ProfileImages/%7B784461E3-DF35-4D71-AB60-0E92303833AD%7D.jpg
+
+SPEAKER_SHORT = clugston
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/
+
+VIDEO_HD_URL = http://archive.org/details/dconf2014-day03-talk01
+
+VIDEO = $(VIDEO_NO)
+
+TALK_TITLE = Real-Time Big Data in D
+
+LEVEL = Intermediate
+
+BENEFITS =
+In one sentence: D should consider Big Data as one of its key markets, so we
+should be ruthless about memory inefficiency.
+
+$(T OL,,
+$(T LI,, An introduction to Big Data, why it is important, and how it differs from traditional high-performance code.)
+$(T LI,, An update on Sociomantic's continued explosive growth, and the pivotal role D plays for us.)
+$(T LI,, The impact of memory inefficiency on performance.)
+$(T LI,, The performance killers in the language, and why Sociomantic can't use Phobos at present.)
+$(T LI,, Techniques and idioms we use to minimize our memory footprint.)
+$(T LI,, The consequences of using fibers.)
+$(T LI,, What we can change to make Big Data an even bigger win for D.)
+)
+
+ABSTRACT =
+"Big Data" applications, which process petabytes of data per year, are
+computationally demanding, yet they have different requirements from
+traditional performance-critical applications. A programming language which
+is well suited for CPU-bound code, isn't necessarily ideal for real-time Big
+Data.
+
+$(P At Sociomantic Labs, we consume a deluge of real time data every day using
+an all-D technology stack. This talk will explain how our use of D has been
+successful in our intensely competitive industry.
+Unfortunately, most existing D libraries were not designed for Big Data
+applications. I'll discuss the performance killers they contain,
+and propose some changes to make D the natural choice for Big Data tasks.)
+
+
+BIO =
+Don is a Senior Software Developer at Sociomantic Labs, Berlin.
+He has contributed to the D language since 2005, mainly in the areas
+of mathematics and metaprogramming. Before joining Sociomantic as
+a full-time D programmer, he worked in the solar photovoltaic industry
+on numerical modelling, measurement, and industrial inkjet. His
+'FastDelegate' library is well known in the C++ community.
+He has two sons, and a daughter with superpowers.

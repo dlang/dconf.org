@@ -26,8 +26,6 @@ ALL_RELATIVE_PATHS = $(HTML_NAMES) $(TALK_NAMES) $(TO_COPY)
 
 SITE_FILES = $(addprefix $(OUT)/, $(ALL_RELATIVE_PATHS))
 
-#SITE_2013 = $(addprefix $(OUT)/2013/, $(ALL_RELATIVE_PATHS))
-
 # Rules
 
 all : $(SITE_FILES)
