@@ -1,0 +1,46 @@
+Ddoc
+
+Macros:
+
+DATE = May 23rd
+
+TIME = 4:30 PM
+
+SPEAKER = Amaury Sechet
+
+SPEAKER_SHORT = sechet
+
+SPEAKER_URL = https://github.com/deadalnix
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = http://archive.org/details/dconf2014-day03-talk02
+
+VIDEO = $(VIDEO_NO)
+
+SPEAKER_PIC = http://worldcubeassociation.org/results/upload/a2008SECH01.jpg
+
+TALK_TITLE = SDC, a D Compiler as a Library
+
+LEVEL = Intermediate to Advanced
+
+BENEFITS =
+The talk intends to present SDC and how it works, including:
+$(T UL,,
+$(T LI,, Using JIT for CTFE)
+$(T LI,, Semantic analysis scheduled via a dependency management system.)
+$(T LI,, What is done and what remains to be done.)
+$(T LI,, The opportunities it opens for static analysis.)
+)
+
+
+ABSTRACT =
+One of the forces of D is the great compile time capabilities. These come with a
+drawback - any tooling around D must be able to semantically analyze the whole
+language. SDC intend to solve that problem by providing a compiler as a library,
+usable by 3rd party tools.
+
+BIO =
+Amaury Sechet is a software engineer at Facebook and the main developer of SDC.

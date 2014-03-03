@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 11:00 AM
+
+SPEAKER = Chuck Allison
+
+SPEAKER_SHORT = allison
+
+SPEAKER_URL = https://www.uvu.edu/profpages/profiles/show/user_id/67
+
+SPEAKER_PIC = http://www.chuckallison.com/files/chuck-allison.jpg
+
+TALK_TITLE = A Real D In Programming: Lessons Learned From Eight Years of Teaching D at the University
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day01-talk03
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Developers and students with familiarity with a C-family language and an interest in Programming to D Max
+
+BENEFITS =
+Unbelievable
+
+ABSTRACT = Tales from eight years of downloading D mastery into the brains
+of computer science undergraduates.
+
+$(P The presenter teaches a senior-level course at Utah Valley University on the
+Analysis of Programming Languages that includes a D-programming component. Come see the
+result of eight years of honing pedagogical material and projects that covers D
+from soup to nuts, including the following topics and more: CFTE, UFCS, D’s
+generics, pass-by-name with alias, coroutines via fibers, alias this, the scope
+statement, contract programming, mixins, Variant and Algebraic, Nullable,
+functional programming, and concurrency and infinite streams via message
+passing.)
+
+BIO =
+Chuck Allison was an early member of the ISO C++ Standards committee (1991–2001) and designed and provided the reference implementation for std::bitset. He was a columnist and editor for the C/C++ Users Journal (1992–2003), and wrote two books on C++: C & C++ Code Capsules (1998) and Thinking in C++, Volume 2, with Bruce Eckel (2004), both published by Prentice-Hall. After twenty years of developing software he returned in 2001 to his first professional love, teaching. He is a professor and chair of computer science at Utah Valley University in Orem, Utah. He has published over 100 articles and in his spare time gives training on C++, Python, D and software development principles. Except when he is playing his classical guitar or bicycling the backroads of central Utah, that is. He was an early adopter of D and has never missed a DConf.

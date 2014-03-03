@@ -1,0 +1,53 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 10:00 AM
+
+SPEAKER = Maxime Chevalier-Boisvert
+
+SPEAKER_SHORT = chevalier_boisvert
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL = http://archive.org/details/dconf2014-day02-talk06
+
+VIDEO = $(VIDEO_NO)
+
+SPEAKER_URL = http://cs.mcgill.ca/~mcheva/
+
+SPEAKER_PIC = http://mloc-js.com/2014/themes/mlocjs/img/speakers/maxime_chevalier_boisvert.jpg
+
+TALK_TITLE = Refactoring JIT Compilation
+
+LEVEL = Intermediate
+
+BENEFITS =
+Exposure to the world of JIT compilers and dynamic language optimization.
+Discussion of a novel compiler architecture which is at the intersection of
+method-based compilation and tracing, aiming to combine the advantages of both.
+A demonstration of how various features of D can help simplify and clean up the
+implementation of complex systems software in practice.
+
+ABSTRACT =
+Higgs, a JIT compiler for JavaScript written in D, was presented at DConf 2013.
+Basic block versioning, a novel optimization technique in early stages of
+testing at the time, was also introduced. Experimental results demonstratring
+how basic block versioning fares on multiple metrics across a variety of
+benchmarks can now be shown. We discuss how we have interpreted these results
+to inform further development of Higgs and introduce a JIT compiler
+architecture based on the idea of lazy/incremental compilation and inlining.
+We also explore how D has influenced the development of Higgs and take a more
+in-depth look at how various D features such as templates and CTFE are used in
+the Higgs implementation.
+
+BIO =
+Maxime Chevalier-Boisvert is the creator of Higgs, an experimental JIT compiler
+for JavaScript written in D. She holds a master's degree from McGill University
+and is currently pursuing a PhD at Université de Montréal as part of the
+Dynamic Language Team. Her area of study is compiler design and optimization,
+with a focus on dynamic programming languages, JIT compilers and type analysis.

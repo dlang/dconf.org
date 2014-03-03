@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 4:30 PM
+
+DURATION = 50 minutes
+
+SPEAKER = Michael V. Franklin
+
+SPEAKER_SHORT = franklin
+
+SPEAKER_PIC = $(BASE)/images/franklin.png
+
+TALK_TITLE = Tiny, Ubiquitous Machines Powered by D
+
+LEVEL = Beginner, Intermediate
+
+BENEFITS =
+Attendees will be given a brief overview of the ARM Cortex-M microcontroller, the tools used for their software development, and their unique constraints and possibilities.  They will be presented with a detailed tour of the recent effort to make programming these machines in D a reality including the project's objectives, approach, progress made as of May 2014, and its future plans and expectations.  This pioneering effort has the potential to not only expand D's platform base, but also D's user base as embedded systems engineers are in desperate need of a programming language with more modern convenience. It does, however, also carry the danger of converting great software engineers into inventors and entrepreneurs as they begin to realize the infinite possibilities of building tiny, ubiquitous machines powered by D.
+
+ABSTRACT =
+Microcontrollers (MCUs) offer a unique and challenging set of constraints for any programming language. They are not fast (10's to low 100's of MHz), they have very little storage (100's of KB) and have even less RAM. Due to these extremely limited resources, languages used to program these tiny, ubiquitous machines must generate the most efficient code in terms of both size and speed. This talk will show that D can program microcontrollers just as well, if not better than the current de facto languages, and will detail progress on the recently launched effort bring D to the ARM Cortex-M family of MCUs.
+
+BIO =
+Bachelor of Science in Computer Engineering – Trained in C/C++
+$(T ul,,
+  $(T li,, 8 years programming business applications in C#)
+  $(T li,, 2 years programming HMI's for Industrial Automation in C#)
+  $(T li,, 2 years programming ARM Cortex-M microcontrollers for Industrial Automation in C/C++)
+)

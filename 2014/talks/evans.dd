@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 2:30 PM
+
+SPEAKER = Manu Evans
+
+SPEAKER_SHORT = evans
+
+SPEAKER_URL = https://github.com/TurkeyMan
+
+SPEAKER_PIC = $(BASE)/../2013/images/ManuEvans.jpg
+
+TALK_TITLE = Applied Stream Processing for Geometry and Image Data
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL = http://archive.org/details/dconf2014-day01-talk05
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All-access; I aim to present some ideas and best practises along with technical details, hopefully a little something for everyone.
+
+BENEFITS =
+Many of these tasks are performed on the GPU these days, but there are still occasions where it's useful or necessary to do image processing on a CPU. Most languages have relative poor expressive qualities for this sort of work.
+Typical rendering or image processing tasks are often dominated by tedious iteration, format description, format conversion, and data packing/unpacking routines. D's powerful meta-programming and UDA features present many opportunities to simplify these mundane tasks, ideally approaching the level of simplicity and convenience users appreciate while writing shaders for a GPU.
+
+Depending on the success of these experiments, this talk may also include in a touch of SIMD, and/or performance observations.
+
+ABSTRACT =
+Explore some creative ways to apply novel features of D to typical geometry and image processing tasks.
+
+BIO =
+Manu Evans is a senior technology programmer in the video games industry with 11
+years commercial experience. He has worked at Remedy Games in Finland, and Krome
+Studios in Australia, on titles including Quantum Break, Alan Wake, Star Wars,
+Spyro the Dragon, and many more. Manu is an expert in hardware abstraction, low
+level systems and performance optimisation on a wide variety of computer and
+video games hardware.

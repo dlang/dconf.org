@@ -1,0 +1,32 @@
+Ddoc
+
+Macros:
+
+DATE = May 23rd
+
+TIME = 2:30 PM
+
+SPEAKER = Many
+
+TYPE = 5 minute talks
+
+DURATION = 50 minutes
+
+TALK_TITLE = Lightning Talks!
+
+LEVEL = All
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day03-talk0
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+Fun all around.
+
+ABSTRACT =
+Have something to say? Has your proposal been rejected? Worse yet, didn't you have the time to put one together? No problem! This is the time when you get the opportunity to get up on the stage and have it for up to five minutes. Send your lightning talk ideas to Walter and Andrei!
+
+BIO =
+Varied.

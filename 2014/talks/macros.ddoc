@@ -1,0 +1,55 @@
+BASE = ..
+
+PAGE_TITLE = DConf 2014 speaker: $(SPEAKER)
+
+SPEAKER_PIC = $(BASE)/images/stock.png
+
+TYPE = Presentation
+
+LEVEL = Intermediate
+
+DURATION = 50 minutes
+
+SLIDES_URL = $(BASE)/talks/$(SPEAKER_SHORT).pdf
+
+SLIDES_YES = $(T A, href=$(SLIDES_URL), Slides)<br />
+
+SLIDES_NO =
+
+SLIDES =
+
+VIDEO_URL =
+
+VIDEO_YES = Video:&nbsp;$(T A, href="$(VIDEO_HD_URL)",[HD])&nbsp;$(T A, href="$(VIDEO_SD_URL)",[SD])<br />
+
+DDOC =
+$(HEADER)
+<body>
+$(div id="fb-root", )
+$(GETSCRIPT $(BASE)/includes/facebook.js)
+$(DIV id="container",
+  $(MENU)
+  $(DIV class="page_left equal hyphenate", $(TALK_INFO))
+  $(SPONSORS)
+)
+$(FOOTER)
+</body>
+</html>
+
+TALK_INFO =
+  $(T h1, align=left, $(TALK_TITLE))
+  $(DIV class="inline vmid",
+    <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
+    $(DIV, <p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br />
+      $(DATE) @ $(TIME)</b><br><br>$(I Duration:) $(DURATION)<br />
+      $(I Talk type:) $(TYPE)<br />
+      $(I Level:) $(LEVEL)<br />
+      $(B $(SLIDES))
+      $(B $(VIDEO))
+      <!--a href="#">Powerpoint slides</a--></p>
+    )
+  )
+  $(P $(B $(U Abstract:)&nbsp;)$(ABSTRACT))
+  $(P $(B $(U Benefits:) )$(BENEFITS))
+  <!--p>$(B $(U Notes:) ) $(NOTES)</p-->
+  $(P $(B $(U Speaker Bio:) ) $(BIO))

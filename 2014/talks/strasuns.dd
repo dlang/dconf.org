@@ -1,0 +1,53 @@
+Ddoc
+
+Macros:
+
+DATE = May 23rd
+
+TIME = 3:30 PM
+
+SPEAKER = Mihails Strasuns aka "Dicebot"
+
+SPEAKER_SHORT = strasuns
+
+SPEAKER_URL = https://github.com/Dicebot
+
+SPEAKER_PIC = $(BASE)/images/strasuns.jpg
+
+TALK_TITLE = Declarative programming in D
+
+LEVEL = Basic, Intermediate
+
+BENEFITS =
+$(T ul,,
+$(T li,, Define term "declarative programming" in context of this talk (and why it is applicable here))
+$(T li,, DSL: ctRegex and Pegged as famous examples. Most obvious example of benefits that declarative approach can give over straightforward imperative code.)
+$(T li,, Generalize idea to any code generation based on concentrated input and description.)
+$(T li,, Move as much useful information as possible into declarations: pros and cons over custom DSL approach.)
+$(T li,, Overview of related D tool set, speculations about possible design patterns)
+$(T li,, Reflection-based declarative approach: $(TT hibernated) and $(TT vibe.http.rest) as beneficial examples.)
+$(T li,, Speculation: high level test coverage verification)
+$(T li,, Speculation: why limit to declarations? Separating expression/statement reflection from AST proposal.)
+$(T li,, Thoughts about existing issues.)
+)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk02
+
+VIDEO = $(VIDEO_NO)
+
+ABSTRACT =
+When term "declarative programming" is used in context of imperative languages,
+it is most often associated with Domain-Specific Languages. However, it is a
+more general approach with essential value of separating meaningful description
+from boilerplate behavior. It is already widely used in D programs and won't be
+a revelation for any experienced D users.
+
+$(P This talk tries to somewhat generalize this approach and popularize it as common D paradigm, as well as speculate upon possible improvements to D
+reflection capabilities that can make it even more powerful.)
+
+BIO =
+Programming & open-source enthusiast. Contributor to several D projects, most notably $(TT vibe.d). D developer at Sociomantic Labs. One of Arch Linux Trusted Users.

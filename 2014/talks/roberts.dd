@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 22nd
+
+TIME = 2:30 PM
+
+SPEAKER = Brad Roberts
+
+SPEAKER_SHORT = roberts
+
+SPEAKER_URL = https://github.com/braddr
+
+SPEAKER_PIC = https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/t1/1613759_691746020846683_954867738_s.jpg
+
+TALK_TITLE = Tooling: Bringing Developers and Development Together
+
+LEVEL = Developers, primarily 'of' D rather than 'with' D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk05
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+The talk will cover, briefly, the timeline of D and the tools that have existed since the 0.00 release in Dec 2001.  The bulk of the talk will cover the existing tooling: communication, source management, bug tracking, testing, and releasing.  The talk will end with a glimpse at some of what the future could/might bring.
+
+ABSTRACT =
+Once any project grows beyond one or two developers automation and communication becomes increasingly important.  This talk will cover the past, present, and a little bit of the future of what exists in the D community today.
+
+BIO =
+I first became aware of D in 2005 when Steve Yeggie included it in a survey of programing languages blog post he wrote while the two of us were at Amazon.  A year or so later I wanted to learn more and was appalled at the lack of infrastructure I expected to find in a project of it's scale.  Newsgroups only, no bug tracking, no source control system (no, occasional tarballs doesn't count, Walter), incomplete source, no public tests, etc.  So, I set out to make all of these things exist/happen.
+
+$(P Outside the realm of D, I've been writing software professionally for the last 25 years, primarily in data processing and back-end systems. Lots of networking, telecom, database, and distributed systems work for IBM, Informix, Netscape, and Amazon to list the ones anyone would recognize.  Additional, at each of those companies, I've tended to also invest considerable time in supporting the software management systems.)

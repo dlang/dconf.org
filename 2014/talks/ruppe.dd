@@ -1,0 +1,58 @@
+Ddoc
+
+Macros:
+
+DATE = May 23rd
+
+TIME = 11:00 AM
+
+SPEAKER = Adam Ruppe
+
+SPEAKER_SHORT = ruppe
+
+SPEAKER_URL = https://github.com/adamdruppe
+
+SPEAKER_PIC = http://graph.facebook.com/1056450962/picture?type=large
+
+TALK_TITLE = x86 Bare Metal and Custom Runtime Programming
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = http://archive.org/details/dconf2014-day03-talk03
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate, Advanced
+
+BENEFITS =
+Get acquianted with what really makes D tick - its core runtime library.
+
+ABSTRACT =
+"kernel in D" is a fairly common topic on forums. I've
+written a minimal runtime and then rebuilt it back up to the point
+where we can produce a ~30 KB stand-alone executable which can be used
+on Linux or on bare metal with the support of a decently large subset
+of the language (classes, exceptions, even closures with some manual
+care). By creatively hacking the RTInfo facility in $(TT object.d), we can
+also perform some static checks on defined types to help confirm to
+performance or correctness checks.
+
+$(P For example, storing a slice without the GC is prone to losing track
+of who owns the memory. Using RTInfo and compile time reflection, we
+can scan all user types and issue a compile error any time this is
+done, directing the user to use an owned array struct instead.)
+
+$(P It is also worth noting that such techniques may be usable in the full
+druntime as well, without stepping on other uses, e.g. precise GC.)
+
+BIO =
+I've been a freelance programmer since 2009, using primarily
+D as a server-side web language. For the last several months,
+I have also been working on writing a D "cookbook" for people
+to learn the language through practical examples. I joined the
+D community in 2007 and started programming (with assembly
+language and Digital Mars C) in 1999. My open source and hobbyist
+experience covers a wide spectrum of programming related fields
+from bare metal code to compilers to homemade games.

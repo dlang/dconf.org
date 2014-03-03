@@ -1,0 +1,36 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 4:30 PM
+
+SPEAKER = Walter Bright, Andrei Alexandrescu, and more
+
+SPEAKER_URL =
+
+SPEAKER_PIC =
+
+TYPE = Panel
+
+DURATION = 30 minutes
+
+TALK_TITLE = It's Payback Time!
+
+LEVEL = All
+
+VIDEO_SD_URL = http://youtube.com/watch?v=
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day01-talk07
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+A cathartic moment.
+
+ABSTRACT =
+Dislike this or that feature or decision made by the language leaders? Ever pounded your keyboard in frustration watching an exchange on the $(LINK2 http://forum.dlang.org/group/digitalmars.D, forum)? Really, what were they $(I thinking)? Well, it's payback time. They'll be out there for the roasting. Ask them anything, and hold no punches!
+
+BIO =
+Walter, Andrei, and most other major players in the D ecosystem who will be in the room have a solid reputation in making good decisions all the time, and bitterly defending the bad ones.

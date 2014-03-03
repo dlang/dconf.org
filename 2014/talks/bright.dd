@@ -1,0 +1,56 @@
+Ddoc
+
+Macros:
+
+DATE = May 21st
+
+TIME = 9:00 AM
+
+SPEAKER = Walter Bright
+
+SPEAKER_SHORT = bright
+
+SPEAKER_URL = http://walterbright.com
+
+SPEAKER_PIC = http://walterbright.com/wblogo.jpg
+
+TALK_TITLE = Opening Keynote: High Performance Code Using D
+
+TYPE = $(B Keynote)
+
+SLIDES_URL =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL = https://www.youtube.com/watch?v=
+
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day01-talk01
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+Memory safety, powerful abstractions, and fast compilation are great features
+to have. But what about high performance code? This talk shows how D can deliver
+on generating highly competitive, no-compromise performance applications.
+Conventional wisdom says that high performance and powerful abstractions are
+in conflict with each other, that one must write close-to-the-metal code to get
+high performance. Bright will show that this is no longer true with a modern
+high level language like D.
+
+BENEFITS =
+This talk will provide insight into how to combine D's capabilities to generate
+high performance code, and why it works. It'll be practical and transferrable
+to solving everyday performance problems. Amaze your colleagues by smoking their
+solutions written in other languages.
+
+BIO =
+Walter Bright is the creator and first implementer of the D programming language
+and has implemented compilers for several other languages. He's an expert in all
+areas of compiler technology, including front ends, optimizers, code generation,
+interpreter engines and runtime libraries. Walter regularly writes articles
+about compilers and programming, is known for engaging and informative
+presentations, and provides training in compiler development techniques. Many
+are surprised to discover that Walter is also the creator of the wargame Empire,
+which is still popular today over 30 years after its debut.
