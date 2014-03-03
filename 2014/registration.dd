@@ -29,8 +29,8 @@ $(P Conference from May 21-23)
 <INPUT TYPE="hidden" NAME="business" VALUE="walter@digitalmars.com">
 <INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2014/thankyou.html">
 <INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
-<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2014 Preregistration">
-<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="250.00">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2014 Early Bird Registration">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="400.00">
 <INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
 </FORM>
 </td>
@@ -52,10 +52,10 @@ $(P Conference from May 21-23)
   <input type="hidden" name="amazonPaymentsAccountId" value="ZXALWELULEWA22L7PD2E79ZCEE411P89X2TK1K" >
   <input type="hidden" name="cobrandingStyle" value="logo" >
   <input type="hidden" name="immediateReturn" value="1" >
-  <input type="hidden" name="amount" value="USD 250.00" >
+  <input type="hidden" name="amount" value="USD 400.00" >
   <input type="hidden" name="description" value="Dconf 2014 Early Bird Registration" >
   <input type="hidden" name="signatureVersion" value="2" >
-  <input type="hidden" name="signature" value="Opm3R6Kd9zoS4zVqkwYAubHHmlYKenjxSlUuG3QbrBc=" >
+  <input type="hidden" name="signature" value="y/n1I5u5IrLY9h/Ck48AOTm/i41pMBRuslsfL2ZKOCk=" >
   <input type="image" src="http://g-ecx.images-amazon.com/images/G/01/asp/SMPayNowWithLogo.gif" border="0">
 </form>
 </td>
