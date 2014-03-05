@@ -8,11 +8,11 @@ TIME = 10:00 AM
 
 SPEAKER = Don Clugston
 
+SPEAKER_SHORT = clugston
+
 SPEAKER_URL = http://www.codeproject.com/Members/Don-Clugston
 
-SPEAKER_PIC = http://www.codeproject.com/script/Membership/ProfileImages/%7B784461E3-DF35-4D71-AB60-0E92303833AD%7D.jpg
-
-SPEAKER_SHORT = clugston
+SPEAKER_PIC = $(BASE)/images/clugston.jpg
 
 SLIDES = $(SLIDES_NO)
 
@@ -53,7 +53,6 @@ successful in our intensely competitive industry.
 Unfortunately, most existing D libraries were not designed for Big Data
 applications. I'll discuss the performance killers they contain,
 and propose some changes to make D the natural choice for Big Data tasks.)
-
 
 BIO =
 Don is a Senior Software Developer at Sociomantic Labs, Berlin.
