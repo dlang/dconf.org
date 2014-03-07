@@ -2,7 +2,7 @@ Ddoc
 
 Macros:
 
-DATE = May 23rd
+DATE = May 21st
 
 TIME = 9:00 AM
 
@@ -16,7 +16,7 @@ SPEAKER_PIC = http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg
 
 SPEAKER_URL = http://erdani.com
 
-TALK_TITLE = State of the $(TT struct) address
+TALK_TITLE = Opening Keynote: State of the $(TT struct) address
 
 SLIDES = $(SLIDES_NO)
 
