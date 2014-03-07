@@ -2,7 +2,7 @@ Ddoc
 
 Macros:
 
-DATE = May 21st
+DATE = May 23rd
 
 TIME = 9:00 AM
 
@@ -14,7 +14,7 @@ SPEAKER_URL = http://walterbright.com
 
 SPEAKER_PIC = http://walterbright.com/wblogo.jpg
 
-TALK_TITLE = Opening Keynote: High Performance Code Using D
+TALK_TITLE = Keynote: High Performance Code Using D
 
 TYPE = $(B Keynote)
 
