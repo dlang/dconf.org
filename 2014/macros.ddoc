@@ -70,12 +70,15 @@ SPONSORS =
 $(DIV class="page_right equal",
   $(DIV class="sponsors",
     $(T span, class="sp", Keynote Speakers)<br />
-      $(LINK2 $(BASE)/talks/alexandrescu.html,
-      <img src="$(BASE)/images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" />)
-      $(LINK2 $(BASE)/talks/meyers.html,
-      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" />)
-      $(LINK2 $(BASE)/talks/bright.html,
-      <img src="$(BASE)/images/bright_134.jpg" width="75" alt="Walter Bright" border="0" />)
+      $(T table,, $(T tr,,
+      $(T td,, $(LINK2 $(BASE)/talks/alexandrescu.html,
+      <img src="$(BASE)/images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" />))
+      $(T td,, $(LINK2 $(BASE)/talks/meyers.html,
+      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" />))
+      $(T td,, $(LINK2 $(BASE)/talks/bright.html,
+      <img src="$(BASE)/images/bright_134.jpg" width="75" alt="Walter Bright" border="0" />)))
+      $(T tr, align=center, $(T td,,Alexandrescu) $(T td,,Meyers) $(T td,,Bright))
+      )
   )
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="sponsors",
