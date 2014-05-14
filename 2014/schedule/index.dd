@@ -12,7 +12,7 @@ $(T table, id="schedule" class="green",
   $(allison_ROW)
   $(LUNCH)
   $(olshansky_ROW)
-  $(evans_ROW)
+  $(simpkins_ROW)
   $(neves_ROW)
   $(panel_ROW)
 )
