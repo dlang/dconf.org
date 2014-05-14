@@ -8,8 +8,8 @@ HTML_NAMES = $(addsuffix .html, contact index registration venue thankyou \
 	schedule/index speakers/index)
 
 TALK_BASENAMES = alexandrescu allison bright buclaw chevalier_boisvert \
-	clugston crapuchettes dilly evans franklin lightning meyers neves \
-	olshansky panel panteleev roberts ruppe sechet strasuns wilson
+	clugston crapuchettes dilly franklin lightning meyers neves \
+	olshansky panel panteleev roberts ruppe sechet simpkins strasuns wilson
 
 TO_COPY = images/ includes/
 
