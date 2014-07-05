@@ -18,9 +18,7 @@ SLIDES_NO =
 
 SLIDES =
 
-VIDEO_URL =
-
-VIDEO_YES = Video:&nbsp;$(T A, href="$(VIDEO_HD_URL)",[HD])&nbsp;$(T A, href="$(VIDEO_SD_URL)",[SD])<br />
+VIDEO_YES = Video:&nbsp;$(T A, href="$(VIDEO_URL_A)",[archive.org])&nbsp;$(T A, href="$(VIDEO_URL_Y)",[youtube])<br />
 
 DDOC =
 $(HEADER)

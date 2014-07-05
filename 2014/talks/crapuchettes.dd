@@ -18,11 +18,11 @@ TALK_TITLE = Templates in the Wild: A Postmortem
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL =
+VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk02
 
-VIDEO_HD_URL =
+VIDEO_URL_Y = https://youtube.com/watch?v=TlqVu9RtoeY
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate
 

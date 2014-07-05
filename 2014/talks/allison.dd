@@ -18,11 +18,11 @@ TALK_TITLE = A Real D In Programming: Lessons Learned From Eight Years of Teachi
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=ymoIx3klQ6M
 
-VIDEO_HD_URL = https://archive.org/details/dconf2014-day01-talk03
+VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk03
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Developers and students with familiarity with a C-family language and an interest in Programming to D Max
 
