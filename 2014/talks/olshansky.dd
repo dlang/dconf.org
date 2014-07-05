@@ -12,6 +12,12 @@ SPEAKER_URL = https://github.com/blackwhale
 
 SPEAKER_PIC = $(BASE)/../2013/images/DmitryOlshansky.jpg
 
+VIDEO_URL_Y = https://www.youtube.com/watch?v=hkaOciiP11c
+
+VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk04
+
+VIDEO = $(VIDEO_YES)
+
 TALK_TITLE = Inside the Regular Expressions in D
 
 LEVEL = Intermediate. Having a basic understanding of regular expressions is highly recommended, but not required.

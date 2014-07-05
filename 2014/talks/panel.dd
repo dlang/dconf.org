@@ -20,11 +20,11 @@ TALK_TITLE = It's Payback Time!
 
 LEVEL = All
 
-VIDEO_SD_URL = http://youtube.com/watch?v=
+VIDEO_URL_Y = https://www.youtube.com/watch?v=TNvUIWFy02I
 
-VIDEO_HD_URL = https://archive.org/details/dconf2014-day01-talk07
+VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk07
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 A cathartic moment.

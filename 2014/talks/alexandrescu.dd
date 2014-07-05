@@ -20,11 +20,11 @@ TALK_TITLE = Opening Keynote: State of the $(TT struct) address
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL =
+VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk01
 
-VIDEO_HD_URL =
+VIDEO_URL_Y = http://youtu.be/U580iDBBZQk
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 
