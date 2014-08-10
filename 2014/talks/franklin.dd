@@ -14,6 +14,12 @@ SPEAKER_SHORT = franklin
 
 SPEAKER_PIC = $(BASE)/images/franklin.png
 
+VIDEO_URL_Y = https://youtube.com/watch?v=o5m0m_ZG9e8
+
+VIDEO_URL_A = https://archive.org/details/dconf2014-day02-talk07
+
+VIDEO = $(VIDEO_NO)
+
 TALK_TITLE = Tiny, Ubiquitous Machines Powered by D
 
 LEVEL = Beginner, Intermediate
