@@ -20,7 +20,7 @@ LEVEL = All
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_YL = http://www.youtube.com/watch?v=7Ufrxfl2G3k
+VIDEO_URL_Y = http://www.youtube.com/watch?v=7Ufrxfl2G3k
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day02-talk06
 
