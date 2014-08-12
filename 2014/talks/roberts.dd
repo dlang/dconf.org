@@ -20,9 +20,9 @@ LEVEL = Developers, primarily 'of' D rather than 'with' D
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL = http://www.youtube.com/watch?v=Es8st0E5428
+VIDEO_URL_Y = http://www.youtube.com/watch?v=Es8st0E5428
 
-VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk05
+VIDEO_URL_A = https://archive.org/details/dconf2014-day02-talk05
 
 VIDEO = $(VIDEO_YES)
 
