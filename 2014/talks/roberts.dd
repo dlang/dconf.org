@@ -20,11 +20,11 @@ LEVEL = Developers, primarily 'of' D rather than 'with' D
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL = http://youtube.com/watch?v=
+VIDEO_SD_URL = http://www.youtube.com/watch?v=Es8st0E5428
 
 VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk05
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 The talk will cover, briefly, the timeline of D and the tools that have existed since the 0.00 release in Dec 2001.  The bulk of the talk will cover the existing tooling: communication, source management, bug tracking, testing, and releasing.  The talk will end with a glimpse at some of what the future could/might bring.
