@@ -20,11 +20,11 @@ LEVEL = Basic
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL = http://youtube.com/watch?v=
+VIDEO_SD_URL = http://www.youtube.com/watch?v=PRbK7jk0jrk
 
 VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk03
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 Do you love D? Are you frustrated by the lack of graphics support? Then allow me to introduce you to Aurora, a graphics toolkit written specifically for D. Aurora is a Graphics Rendering Toolkit that is designed with ease-of-use in mind and is intended for use by developers who have little to no experience writing graphics code. Whether you are writing a game, a user interface, or a creative graphics project, Aurora is flexible enough to meet your needs.
