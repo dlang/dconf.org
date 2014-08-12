@@ -12,11 +12,11 @@ SPEAKER_SHORT = chevalier_boisvert
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL =
+VIDEO_SD_URL = http://www.youtube.com/watch?v=cJGNItlMWBM
 
-VIDEO_HD_URL = http://archive.org/details/dconf2014-day02-talk06
+VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk02
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 SPEAKER_URL = http://cs.mcgill.ca/~mcheva/
 
