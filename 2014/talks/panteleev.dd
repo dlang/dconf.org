@@ -20,11 +20,11 @@ LEVEL = Intermediate
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL = http://youtube.com/watch?
+VIDEO_URL_Y = http://www.youtube.com/watch?v=5iXRFlKvEY0
 
-VIDEO_HD_URL = https://archive.org/details/dconf2014-day02-talk04
+VIDEO_URL_A = https://archive.org/details/dconf2014-day02-talk04
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 The first part and main focus of this talk will be DustMite, the D source code
