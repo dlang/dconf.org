@@ -14,11 +14,11 @@ SPEAKER_URL = https://github.com/deadalnix
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL = http://youtube.com/watch?v=
+VIDEO_URL_Y = http://www.youtube.com/watch?v=AhR4PSExnqk
 
-VIDEO_HD_URL = http://archive.org/details/dconf2014-day03-talk02
+VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk07
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 SPEAKER_PIC = http://worldcubeassociation.org/results/upload/a2008SECH01.jpg
 
