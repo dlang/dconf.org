@@ -18,11 +18,11 @@ TALK_TITLE = x86 Bare Metal and Custom Runtime Programming
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_SD_URL = http://youtube.com/watch?v=
+VIDEO_URL_Y = http://www.youtube.com/watch?v=qErXPomAWYI
 
-VIDEO_HD_URL = http://archive.org/details/dconf2014-day03-talk03
+VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk03
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate, Advanced
 
