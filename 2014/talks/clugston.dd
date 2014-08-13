@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/clugston.jpg
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = http://youtube.com/
+VIDEO_URL_Y = http://www.youtube.com/watch?v=WmE7ZR1_YKs
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk02
 
