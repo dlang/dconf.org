@@ -18,6 +18,12 @@ TALK_TITLE = Declarative programming in D
 
 LEVEL = Basic, Intermediate
 
+VIDEO_URL_Y = http://www.youtube.com/watch?v=SqeOPLB2xAM
+
+VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk06
+
+VIDEO = $(VIDEO_YES)
+
 BENEFITS =
 $(T ul,,
 $(T li,, Define term "declarative programming" in context of this talk (and why it is applicable here))
