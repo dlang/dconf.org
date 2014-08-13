@@ -16,11 +16,11 @@ TALK_TITLE = Lightning Talks!
 
 LEVEL = All
 
-VIDEO_SD_URL = http://youtube.com/watch?v=
+VIDEO_URL_Y = http://www.youtube.com/watch?v=oF8K4-bieaw
 
-VIDEO_HD_URL = https://archive.org/details/dconf2014-day03-talk0
+VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk05
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 Fun all around.
