@@ -1,0 +1,118 @@
+BASE = .
+
+MDASH = &mdash;
+
+HTTP = $(LINK2 http://$1,$+)
+
+DIV = <div $1>$+</div><!-- end <div $1> -->
+
+T = <$1 $(TTAIL $+)</$1>
+
+TTAIL = $1>$+
+
+TT = <tt>$0</tt>
+
+GETSCRIPT = <script language="javascript" type="text/javascript" src="$0"></script>
+
+PAGE_TITLE = The D Programming Language Conference 2015
+
+DEFINE = $1 = $+
+
+HEADER = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css" />
+$(GETSCRIPT $(BASE)/includes/jquery.min.js)
+$(COMMENT $(GETSCRIPT $(BASE)/includes/css.js))
+$(GETSCRIPT $(BASE)/includes/widget.js)
+$(GETSCRIPT http://dlang.org/js/hyphenate.js)
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="$(BASE)/includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="$(BASE)/includes/ie8.css" />
+<![endif]-->
+<link href="$(BASE)/images/favicon.ico" rel="shortcut icon" />
+$(T title,, $(PAGE_TITLE))
+</head>
+
+MENU =
+$(COMMENT $(DIV class="logo",
+  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dlogo.png" height="100" alt="DConf 2015" border="0" />)
+))
+$(COMMENT DIV class="clock",
+  $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
+    <param name="movie" value="$(BASE)/images/countdown.swf" />
+    <param name="quality" value="high" />
+    <embed src="$(BASE)/images/countdown.swf" quality="high" width="258" height="85" />
+  )
+)
+$(DIV class="menu row_after",
+  $(T nav,,
+    $(T ul,id="menu",
+      $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+      $(LI $(LINK2 $(BASE)/index.html, Home))
+      $(LI $(LINK2 $(BASE)/schedule/index.html, Schedule))
+      $(LI $(LINK2 $(BASE)/registration.html, Registration))
+      $(LI $(LINK2 $(BASE)/speakers/index.html, Speakers))
+      $(LI $(LINK2 $(BASE)/venue.html, Venue))
+      $(LI $(LINK2 $(BASE)/contact.html, Contact))
+      $(LI $(LINK2 $(BASE)/../2014, DConf 2014))
+      $(LI $(LINK2 $(BASE)/../2013, DConf 2013))
+    )
+  )
+)
+
+SPONSORS =
+$(DIV class="page_right equal",
+  $(DIV class="sponsors",
+    $(T span, class="sp", Keynote Speakers)<br />
+      $(T table,, $(T tr,,
+      $(T td,, $(LINK2 $(BASE)/talks/alexandrescu.html,
+      <img src="$(BASE)/images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" />))
+      $(T td,, $(LINK2 $(BASE)/talks/meyers.html,
+      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" />))
+      $(T td,, $(LINK2 $(BASE)/talks/bright.html,
+      <img src="$(BASE)/images/bright_134.jpg" width="75" alt="Walter Bright" border="0" />)))
+      $(T tr, align=center, $(T td,,Alexandrescu) $(T td,,Meyers) $(T td,,Bright))
+      )
+  )
+  $(DIV class="divider_h", &nbsp;)
+  $(DIV class="sponsors",
+    $(T span, class="sp", Sponsors)<br />
+      <a href="http://www.drdobbs.com">
+      <img src="$(BASE)/images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
+  )
+  $(DIV class="divider_h", &nbsp;)
+  $(DIV class="twitter",
+    $(DIV class="hash", )
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+)
+)
+
+DDOC = $(HEADER)
+<body>
+$(DIV id="fb-root", )
+$(GETSCRIPT $(BASE)/includes/facebook.js)
+$(DIV id="container",
+  $(MENU)
+  $(COMMENT $(DIV class="page_left equal hyphenate", $(BODY)))
+  $(DIV class="equal hyphenate", $(BODY))
+  $(COMMENT $(DIV class="divider_v equal", &nbsp;))
+)
+$(FOOTER)
+</body>
+</html>
+
+FOOTER =
+<hr />
+$(DIV align="right",
+  $(T font, size="-2",
+    &copy; 2015 http://digitalmars.com |
+    Generated with Ddoc
+  )
+)
+
+NOTYET=Stay tuned to the $(LINK2 http://forum.dlang.org/group/digitalmars.D.announce, D announce forum) for news about DConf 2015.

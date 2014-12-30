@@ -1,0 +1,9 @@
+Ddoc
+
+$(T h1,, Speakers)
+
+$(P $(HTTP walterbright.com, Walter Bright) and $(HTTP erdani.com, Andrei Alexandrescu) are confirmed. The full list of speakers is not available yet. $(NOTYET))
+
+Macros:
+
+BASE = ..
