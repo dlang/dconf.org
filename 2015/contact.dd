@@ -1,0 +1,8 @@
+Ddoc
+
+$(T h1,, Contact Us)
+
+$(P $(LINK2 mailto:dconf2015@digitalmars.com, dconf2015@digitalmars.com))
+
+$(P On Twitter: $(LINK2 https://twitter.com/D_Programming, $(TT
+@D_programming)),  $(LINK2 https://twitter.com/search?q=%23dconf, $(TT #dconf)))

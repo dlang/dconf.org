@@ -1,0 +1,30 @@
+Ddoc
+
+$(T h1,, Venue)
+
+$(P A welcome change! $(HTTP uvu.edu, Utah Valley University) has generously offered to host DConf 2015 at its beautiful campus in Orem, UT.)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3043.9287825550136!2d-111.71295400000001!3d40.277332200000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9ae27b33434b%3A0x3ab349af4a0087ef!2s800+W+University+Pkwy%2C+Utah+Valley+University%2C+Orem%2C+UT+84058!5e0!3m2!1sen!2sus!4v1419966279394" width="800" height="600" frameborder="0" style="border:0"></iframe>
+
+$(T h2,, Nearby hotels)
+
+$(P Nearby hotels (prices
+and availability and may vary):)
+
+$(UL
+
+$(LI $(HTTP laquintaoremuniversitypkwy.com, La Quinta Inn & Suites Orem University Parkway), 521 West University Parkway, Orem, UT 84058)
+
+$(LI $(HTTP comfortinn.com/hotel-orem-utah-UT115, Comfort Inn & Suites), 427 West University Parkway, Orem, UT 84058)
+
+$(LI $(HTTP hamptoninn3.hilton.com/en/hotels/utah/hampton-inn-and-suites-orem-PVUORHX/accommodations/index.html, Hampton Inn & Suites Orem), 851 West 1250 South, Orem, UT 84058)
+
+)
+
+$(T h2,, Transportation)
+
+$(P Utah Valley University is a 45-minutes ride from $(HTTP slcairport.com, Salt Lake City International Airport) (SLC). The $(HTTP flyprovo.com, Provo Municipal Airport) (PVU) is even closer (15 minutes).)
+
+Macros:
+
+HTTP=$(LINK2 http://$1, $+)
