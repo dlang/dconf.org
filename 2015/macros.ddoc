@@ -66,7 +66,7 @@ $(DIV class="menu row_after",
 
 SPONSORS =
 $(DIV class="page_right equal",
-  $(DIV class="sponsors",
+  $(COMMENT DIV class="sponsors",
     $(T span, class="sp", Keynote Speakers)<br />
       $(T table,, $(T tr,,
       $(T td,, $(LINK2 $(BASE)/talks/alexandrescu.html,
@@ -78,13 +78,13 @@ $(DIV class="page_right equal",
       $(T tr, align=center, $(T td,,Alexandrescu) $(T td,,Meyers) $(T td,,Bright))
       )
   )
-  $(DIV class="divider_h", &nbsp;)
-  $(DIV class="sponsors",
+  $(COMMENT DIV class="divider_h", &nbsp;)
+  $(COMMENT DIV class="sponsors",
     $(T span, class="sp", Sponsors)<br />
       <a href="http://www.drdobbs.com">
       <img src="$(BASE)/images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
   )
-  $(DIV class="divider_h", &nbsp;)
+  $(COMMENT DIV class="divider_h", &nbsp;)
   $(DIV class="twitter",
     $(DIV class="hash", )
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
@@ -98,9 +98,9 @@ $(DIV id="fb-root", )
 $(GETSCRIPT $(BASE)/includes/facebook.js)
 $(DIV id="container",
   $(MENU)
-  $(COMMENT $(DIV class="page_left equal hyphenate", $(BODY)))
-  $(DIV class="equal hyphenate", $(BODY))
-  $(COMMENT $(DIV class="divider_v equal", &nbsp;))
+  $(DIV class="page_left equal hyphenate", $(BODY))
+  $(COMMENT DIV class="divider_v equal", &nbsp;)
+  $(SPONSORS)
 )
 $(FOOTER)
 </body>
