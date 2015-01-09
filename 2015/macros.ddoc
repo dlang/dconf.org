@@ -38,9 +38,9 @@ $(T title,, $(PAGE_TITLE))
 </head>
 
 MENU =
-$(COMMENT $(DIV class="logo",
+$(DIV class="logo",
   $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dlogo.png" height="100" alt="DConf 2015" border="0" />)
-))
+)
 $(COMMENT DIV class="clock",
   $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
     <param name="movie" value="$(BASE)/images/countdown.swf" />
