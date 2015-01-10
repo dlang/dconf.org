@@ -78,13 +78,13 @@ $(DIV class="page_right equal",
       $(T tr, align=center, $(T td,,Alexandrescu) $(T td,,Meyers) $(T td,,Bright))
       )
   )
-  $(COMMENT DIV class="divider_h", &nbsp;)
-  $(COMMENT DIV class="sponsors",
+  $(DIV class="divider_h", &nbsp;)
+  $(DIV class="sponsors",
     $(T span, class="sp", Sponsors)<br />
-      <a href="http://www.drdobbs.com">
-      <img src="$(BASE)/images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
+      <a href="http://www.uvu.edu/cs">
+      <img src="http://www.uvu.edu/sbdc/images/uvu-logo.gif" width="220" alt="UVU" border="0" /></a><br />
   )
-  $(COMMENT DIV class="divider_h", &nbsp;)
+  $(DIV class="divider_h", &nbsp;)
   $(DIV class="twitter",
     $(DIV class="hash", )
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
