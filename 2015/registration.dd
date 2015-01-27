@@ -2,5 +2,70 @@ Ddoc
 
 $(T h1,, Registration)
 
-$(P Registration is not open yet. $(NOTYET))
+$(P Preregistration is now open!)
+
+$(P Are you cost-conscious? Register now $(B for only $(DOLLAR)250) to get the full conference package!)
+
+$(P Registration must be completed before March 1, 2015. Prices go up to
+$(DOLLAR)400 (sticker price) after that. Capacity is also limited. Register as soon as possible to reserve your seat for less!)
+
+<hr />
+$(H3 Conference Preregistration)
+$(P Conference from May 27&ndash;29)
+
+<table>
+<tr>
+
+<td>
+<FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
+<INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
+<INPUT TYPE="hidden" NAME="business" VALUE="walter@digitalmars.com">
+<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2015/thankyou.html">
+<INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2015 Preregistration">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="250.00">
+<INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
+</FORM>
+</td>
+
+
+<td>
+<form action="https://www.eventbrite.com/e/dconf-2015-tickets-15507934650">
+    <input type="submit" value="buy with Visa / MC">
+</form>
+</td>
+
+$(COMMENT
+<td>
+<form action="https://authorize.payments.amazon.com/pba/paypipeline" method="post">
+  <input type="hidden" name="returnUrl" value="http://www.dconf.org/2014/thankyou.html" >
+  <input type="hidden" name="processImmediate" value="1" >
+  <input type="hidden" name="accessKey" value="11SEM03K88SD016FS1G2" >
+  <input type="hidden" name="signatureMethod" value="HmacSHA256" >
+  <input type="hidden" name="collectShippingAddress" value="1" >
+  <input type="hidden" name="isDonationWidget" value="0" >
+  <input type="hidden" name="amazonPaymentsAccountId" value="ZXALWELULEWA22L7PD2E79ZCEE411P89X2TK1K" >
+  <input type="hidden" name="cobrandingStyle" value="logo" >
+  <input type="hidden" name="immediateReturn" value="1" >
+  <input type="hidden" name="amount" value="USD 400.00" >
+  <input type="hidden" name="description" value="Dconf 2014 Early Bird Registration" >
+  <input type="hidden" name="signatureVersion" value="2" >
+  <input type="hidden" name="signature" value="y/n1I5u5IrLY9h/Ck48AOTm/i41pMBRuslsfL2ZKOCk=" >
+  <input type="image" src="http://g-ecx.images-amazon.com/images/G/01/asp/SMPayNowWithLogo.gif" border="0">
+</form>
+</td>
+)
+
+</tr>
+</table>
+
+<hr />
+$(P All registrations are final. Registrations are transferrable.)
+
+$(P Please let us know what you'd like your badge to say if it is
+different from your name on your credit card.)
+
+$(P Privacy Policy: Your name and email address will be shared with Facebook
+since Facebook is hosting the event. Otherwise, Digital Mars will not
+share your data with anyone unless compelled by lawful orders.)
 
