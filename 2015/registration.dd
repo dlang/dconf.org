@@ -5,8 +5,6 @@ $(T h1,, Registration)
 $(P Registration is now open!)
 
 <hr />
-$(H3 Conference Registration)
-$(P Conference from May 27&ndash;29)
 
 <table>
 <tr>
@@ -54,6 +52,11 @@ General Registration
 </td>
 
 </tr>
+</table>
+
+<hr />
+
+<table>
 <tr>
 <td colspan="3">
 UVU Student Registration
