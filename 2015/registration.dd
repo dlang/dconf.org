@@ -10,6 +10,11 @@ $(P Conference from May 27&ndash;29)
 
 <table>
 <tr>
+<td colspan="3">
+General Registration
+</td>
+</tr>
+<tr>
 
 <td>
 <FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
@@ -46,6 +51,36 @@ $(P Conference from May 27&ndash;29)
     data-ap-payment-action="AuthorizeAndCapture"
    >
 </div>
+</td>
+
+</tr>
+<tr>
+<td colspan="3">
+UVU Student Registration
+</td>
+</tr>
+<tr>
+
+<td>
+<FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
+<INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
+<INPUT TYPE="hidden" NAME="business" VALUE="walter@digitalmars.com">
+<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2015/thankyou.html">
+<INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2015 UVU Registration">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="95.00">
+<INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
+</FORM>
+</td>
+
+<td>
+<form action="https://www.eventbrite.com/e/dconf-2015-tickets-15507934650">
+    <input type="submit" value="buy with Visa / MC">
+</form>
+</td>
+
+<td>
+&nbsp;
 </td>
 
 </tr>
