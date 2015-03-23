@@ -1,4 +1,4 @@
-#SITE=erdani.com:www/d/bvbvuntf
+#SITE=erdani.com:www/d/
 SITE = dconf.org@digitalmars.com:data/
 
 OUT = out

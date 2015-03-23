@@ -1,0 +1,54 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 10:00 AM
+
+SPEAKER = Martin Nowak
+
+SPEAKER_SHORT = nowak
+
+SPEAKER_URL = https://github.com/MartinNowak
+
+SPEAKER_PIC = https://avatars0.githubusercontent.com/u/288976?v=3&s=400
+
+TALK_TITLE = Garbage Collection in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+BENEFITS =
+
+ABSTRACT =
+This talk will take an in-depth look at the state of D's garbage
+collector. We will compare GC with other techniques, learn about
+recent performance improvements in D's GC, profile and tweak the GC
+for a specific application, see an example of manual memory
+management, and have an outlook on upcoming GC improvements.
+
+$(P D's garbage collector is notoriously known for being slow. This talk
+will debunk some myths about garbage collection and will provide a
+factual comparison of garbage collection against other memory
+management techniques.)
+
+$(P We will then look at specific reasons that make D's GC slow and review
+how the recent improvements made it faster.)
+
+$(P Following an introduction to the new GC profile and configure options,
+we will tweak a small example application and have a brief look at
+manual memory management.)
+
+$(P The talk will finish with an outlook on ongoing GC improvements.)
+
+BIO =
+Starting off as electrical engineering student, Martin became a C++ developer working on DSP and application code at $(LINK2 https://www.ableton.com,Ableton). Following 1.5 years of full-time open source he is now working as backend engineer at $(LINK2 http://www.plugintheworld.com,Mobisol). Martin is one of the main contributors to the $(LINK2 https://github.com/D-Programming-Language/druntime,D runtime) and was recently named release manager for the D reference compiler and standard library.
+You can find his GitHub profile $(LINK2 https://github.com/MartinNowak,here).

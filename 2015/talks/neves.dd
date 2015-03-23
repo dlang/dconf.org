@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 29
+
+TIME = 2:30 PM
+
+SPEAKER = Atila Neves
+
+SPEAKER_SHORT = neves
+
+SPEAKER_URL = https://github.com/atilaneves
+
+SPEAKER_PIC = https://avatars.githubusercontent.com/u/4956425
+
+TALK_TITLE = Behaviour-Driven Development with D and Cucumber
+
+LEVEL = Intermediate to Advanced
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS = This talk will introduce what behaviour-driven development is, its benefits and how to do it in D.
+
+ABSTRACT =
+The talk will spend half its time explaining BDD and TDD to the audience and also what Cucumber is. It will show how to use Cucumber to BDD D command-line applications.
+Cucumber is written and configured in Ruby, and the second part of the talk will show how to drive D code from Cucumber. This will show some of D’s strengths with regards to compile-time reflection and type-safety, including a compile-time check for regular expressions.
+
+BIO =
+Atila Neves has a PhD in Particle Physics for research doen at CERN. Most of the research required programming in C++ and he had a major participation in the coding of the NA60’s experiment’s data acquisition and decoding software in C and C++. He later joined the Computer Security Team at CERN in the IT department and spent two years there writing Perl.
+
+$(P He now works at Cisco writing networking software and tools in a variety of languages, having used D for some of those tools.)

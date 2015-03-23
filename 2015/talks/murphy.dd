@@ -1,0 +1,61 @@
+Ddoc
+
+Macros:
+
+DATE = 28 May
+
+TIME = 10:00 AM
+
+SPEAKER = Daniel Murphy
+
+SPEAKER_SHORT = murphy
+
+SPEAKER_URL = https://github.com/yebblies
+
+SPEAKER_PIC = https://avatars2.githubusercontent.com/u/580100?v=3&s=400
+
+TALK_TITLE = DDMD and Automated Conversion from C++ to&nbsp;D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate to Advanced
+
+BENEFITS =
+
+ABSTRACT =
+One of the long-standing problems hindering DMD has been
+that the compiler is written in C++, not D.  Over the last two years,
+the DDMD project has attempted to automatically convert the majority
+of DMD to D.  Where previous attempts have failed, DDMD has
+successfully produced a fully functional compiler, and is on track to
+replace the original C++ codebase.  This talk covers the tools and
+techniques used, the problems encountered along the way, and explores
+possible applications of the same approach to other projects.
+
+$(P Content I plan to cover includes:)
+$(UL
+$(LI Motivation for converting the project to C++.)
+$(LI Evaluation of other attempts at replacing the C++ frontend such as
+the original DDMD and SDC.)
+$(LI How magicport (the conversion tool) works and the advantages and
+disadvantages of the approach.)
+$(LI Major problems faced along the way, focusing on extended C++ interop
+support and C++ constructs not directly expressible in D.)
+$(LI Current progress on the DDMD project and future plans (including
+performance evaluation of DDMD))
+$(LI Application to other projects (this will include a case study of
+converting another medium-sized project if I have time))
+)
+
+BIO =
+Daniel is a Computer Engineer from Sydney, Australia.
+His notable projects in the D community include DDMD, magicport and
+ylink.  He has been a regular contributor to DMD since 2011 under the
+name "yebblies".  His interests include compilers, digital hardware,
+and embedded systems.

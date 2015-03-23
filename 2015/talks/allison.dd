@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 9:00 AM
+
+SPEAKER = Chuck Allison
+
+SPEAKER_SHORT = allison
+
+SPEAKER_URL = https://www.uvu.edu/profpages/profiles/show/user_id/67
+
+SPEAKER_PIC = ../images/allison.jpg
+
+TALK_TITLE = Confessions of a C++ Aficionado: Why D Is My Language Of Choice
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Developers and students with familiarity with a C-family language and an interest in Programming to D Max
+
+BENEFITS =
+Unbelievable
+
+ABSTRACT = This talk highlights why D is so appealing to long-time C++ folks. Whilst D is much more than just a better C++, that’s just how I use it. Not only does it do C++-like things in a more friendly and powerful way, but it adds modern language and library features found in other languages (Python, C#, Java, Haskell) in a familiar, easy-to-learn/use syntax.
+
+BIO =
+Chuck Allison was an early member of the ISO C++ Standards committee (1991–2001) and designed and provided the reference implementation for std::bitset. He was a columnist and editor for the C/C++ Users Journal (1992–2003), and wrote two books on C++: C & C++ Code Capsules (1998) and Thinking in C++, Volume 2, with Bruce Eckel (2004), both published by Prentice-Hall. After twenty years of developing software he returned in 2001 to his first professional love, teaching. He is a professor and chair of computer science at Utah Valley University in Orem, Utah. He has published over 100 articles and in his spare time gives training on C++, Python, D and software development principles. Except when he is playing his classical guitar or bicycling the backroads of central Utah, that is. He was an early adopter of D and has never missed a DConf.

@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 27
+
+TIME = 2:30 PM
+
+SPEAKER = David Nadlinger
+
+SPEAKER_SHORT = nadlinger
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL =
+
+VIDEO = $(VIDEO_NO)
+
+SPEAKER_PIC = http://www.tiqi.ethz.ch/photos/david_nadlinger_web.jpg
+
+SPEAKER_URL = http://klickverbot.at
+
+TALK_TITLE = DRuntime and You
+
+LEVEL = Intermediate
+
+ABSTRACT =
+D is a native language that aims for minimal system requirements. However, to support some of our modern features such as modules and garbage collection, we need a certain amount of additional runtime library magic. While this is hardly visible to the end user in most cases, it becomes painfully obvious once the goal is to do runtime loading of shared libraries, run D in an embedded environment, or port it to a new platform. This talk will provide an in-depth look at what makes your D programs tick under the hood, allowing you to better understand its runtime characteristics and providing a jump start for tailoring the runtime to the needs of your specific environment.
+
+
+$(P There has been a lot of interest in areas related to the D runtime system lately: Embedded programming, where additional baggage is shunned. Shared library support, where the moving parts of several D objects need to be coordinated. While this has also been reflected in the past DConf schedules, the past material mainly tackles the topic from an end-user perspective, ignoring the actual inner workings. But during my previous porting work, I would have often found a comprehensive overview of the druntime internals helpful.)
+
+$(P The aim of this talk is to provide that overview. Not only will it be a useful resource for people who are wanting to bring D to new platforms, it will also be of interest to those curious about the technical details in the general D community. By answering questions such as:)
+
+$(UL
+$(LI Why did dynamic loading of libraries take us so long to implement?)
+$(LI How does thread-local storage mix with shared libraries? With fibers?)
+$(LI What are the ramifications of exception handling for operating system support)
+$(LI Why does the garbage collector pop up in platform porting discussions over and over again?)
+$(LI What are $(D TypeInfo) and $(D ModuleInfo) actually used for? Can I just get rid of them?)
+)
+
+$(P It will provide a common grounds for many recurring discussions in the community.)
+
+BIO =
+When David is not working on Quantum Computing at ETH Zurich, he is an avid advocate of open source software with a particular interest in compilers and languages. David is a member of the D core team and one of the main authors and former maintainer of LDC. Among other things, he ported LDC to MinGW, implemented Linux shared library support for it, and started work on ARM support. David is also a committer to mingw-w64, KDE, SWIG and several other projects.

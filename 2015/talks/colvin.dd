@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 29
+
+TIME = 1:30 PM
+
+SPEAKER = John Colvin
+
+SPEAKER_SHORT = colvin
+
+SPEAKER_URL = https://github.com/John-Colvin
+
+SPEAKER_PIC = https://avatars3.githubusercontent.com/u/1867189?v=3&s=400
+
+TALK_TITLE = D Is For Science
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Anyone with an interest in D and scientific computing.
+
+BENEFITS =
+
+ABSTRACT =
+In this talk I aim to provide some perspectives drawing on my experience over the last several years in programming-dominated physics and engineering research groups, as well as discussions with researchers from other disciplines. I feel the majority of the pieces are already in place to make D a strong proposition for scientific programming, but a lack of standardisation (e.g. matrix types) and polish (e.g. no OS X shared libraries, missing math overloads for $(D std.complex)) currently make it only tenable for enthusiasts. By approaching each example from the perspective of a somewhat typical researcher in the relevant field (i.e. strictly non-enthusiast, just wants to get the job done) practical pain-points can be identified. The problems that do exist are tractable and the upsides are significant.
+
+BIO =
+I am a PhD student (Physics, University of Warwick, UK) doing research centred around the development of data analysis techniques and software for Tokamak research (i.e. saving the world with fusion power!). As my language of choice I use D for everything I can, from small utility scripts to professional web development with $(D vibe.d) to distributed heterogeneous computations creating terabytes of data per minute.

@@ -1,8 +1,26 @@
 Ddoc
 
-$(T h1,, Speakers)
+  $(bright_BLURB)
+  $(alexandrescu_BLURB)
 
-$(P $(HTTP walterbright.com, Walter Bright) and $(HTTP erdani.com, Andrei Alexandrescu) are confirmed. The full list of speakers is not available yet. $(NOTYET))
+  $(murphy_BLURB)
+  $(schott_BLURB)
+  $(zvibel_BLURB)
+  $(nadlinger_BLURB)
+  $(sechet_BLURB)
+
+  $(allison_BLURB)
+  $(nowak_BLURB)
+  $(strasuns_BLURB)
+  $(smith_BLURB)
+  $(davis_BLURB)
+  $(isaacson_BLURB)
+
+  $(ruppe_BLURB)
+  $(clugston_BLURB)
+  $(colvin_BLURB)
+  $(neves_BLURB)
+  $(gubler_BLURB)
 
 Macros:
 

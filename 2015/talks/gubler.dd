@@ -1,0 +1,62 @@
+Ddoc
+
+Macros:
+
+DATE = May 29
+
+TIME = 3:30 PM
+
+SPEAKER = Erich Gubler
+
+SPEAKER_SHORT = gubler
+
+SPEAKER_URL = https://linkedin.com/pub/erich-gubler/31/8ab/839
+
+SPEAKER_PIC = https://media.licdn.com/media/p/6/005/044/2ec/27b01fe.jpg
+
+TALK_TITLE = Why I Love D: An Undergrad Experience
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner to Intermediate
+
+BENEFITS =
+
+ABSTRACT =
+As a student of Computer Science at UVU, the D programming language has been a breath of fresh air after learning "standard" languages used in industry like Java, C++, and C#. What makes D truly great is how it combines the strength of many paradigms and techniques from other languages into a very strong whole. D is a comfort language for all programmers at all levels of abstraction, from high to low. This experience report shows some of the places where using D has really shined in assignments at Utah Valley University, specifically for the virtual machine, assembler, and compiler constructed as part of UVU's Computer Science capstone track.
+
+$(P Students at UVU are encouraged to use the language they feel the most familiar with in order to complete higher-level programming assignments. After spending some time learning about the D language, the author decided to use D as the language of choice for the series of projects that serve as the capstone for the Bachelor's Degree in Computer Science at UVU.)
+
+$(P The capstone is composed of three components:)
+
+$(UL
+$(LI A virtual machine that implements a register-register architecture, complete with static and stack-based memory.)
+$(LI An assembler that targets bytecode executed by the virtual machine.)
+$(LI A compiler that implements the KXI 2015 language developed at UVU, which is a very simple class-oriented language similar to C++ and D in syntax. The compiler's backend targets the assembler.)
+)
+
+$(P There are many places where D-specific features have significantly enhanced the development of these projects, including but not limited to:)
+
+$(UL
+$(LI The D module system)
+$(LI Dynamic arrays and associative arrays (and the range interface, to a lesser degree))
+$(LI The powerful string backend provided by D)
+$(LI Templates – which were a much more pleasant experience than C++)
+$(LI Enums, especially in tandem with $(D std.conv.to))
+$(LI Functional programming paradigm features)
+$(LI Relatively small features like $(D @property))
+$(LI Other minor syntax differences (UFCS))
+)
+
+$(P It is very likely that more D language features will be added to this list as the author learns more about them.)
+
+$(P The main focus of this experience report will be appreciation for the D language in comparison with other languages, and the author's perspective after some previous experience with Java and C++.)
+
+BIO =
+Erich Gubler is an undergraduate student currently preparing to apply for a Bachelor's degree at Utah Valley University. The most relevant of his programming projects include the implementation of the projects mentioned in the extended abstract, under the guidance of UVU faculty. He plans on graduating from UVU in its Fall semester of 2015.

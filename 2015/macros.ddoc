@@ -4,6 +4,8 @@ MDASH = &mdash;
 
 HTTP = $(LINK2 http://$1,$+)
 
+D = <tt>$0</tt>
+
 DIV = <div $1>$+</div><!-- end <div $1> -->
 
 T = <$1 $(TTAIL $+)</$1>

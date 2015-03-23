@@ -1,0 +1,50 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 2:30 PM
+
+SPEAKER = Jonathan M. Davis
+
+SPEAKER_SHORT = davis
+
+SPEAKER_URL = http://stackoverflow.com/users/160887/jonathan-m-davis
+
+SPEAKER_PIC = https://www.gravatar.com/avatar/797e06feb159ad441a5dd270c4ccf06e?s=128&d=identicon&r=PG
+
+TALK_TITLE = Introduction to Ranges
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner
+
+ABSTRACT =
+Ranges are a core concept in D and its standard library,
+Phobos, and understanding them is key to being able to use Phobos, as many
+of its modules use them as one of their core constructs. This talk will go
+over what they are, why they are, how they're used, and how to write them.
+
+$(P This will go over all of the major input range
+types and the major items that anyone using or writing ranges needs to know.
+It will also definitely go into the various quirks of using strings as
+ranges as well as any of the basic information on Unicode that's necessary
+to understand how and why strings work they way they do. It may or may not
+go into the $(D moveXXX) functions and some of the more esoteric aspects of
+ranges, and it may or may not go into much detail on output ranges. It will
+discuss output ranges as well.)
+
+BIO =
+Jonathan M Davis is the primary author of
+$(D std.datetime) and one of Phobos' core contributors. He is a professional
+developer and has experience in a number of programming languages, including
+C++, Haskell, Java, and D. For better or worse, he's well known in the D
+community for answering questions and being long-winded. He currently
+resides in California.

@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 3:30
+
+SPEAKER = Amaury Sechet
+
+SPEAKER_SHORT = sechet
+
+SPEAKER_URL = https://github.com/deadalnix
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+SPEAKER_PIC = http://worldcubeassociation.org/results/upload/a2008SECH01.jpg
+
+TALK_TITLE = Memory, What Is It All About?
+
+LEVEL = Intermediate to Advanced
+
+BENEFITS =
+
+ABSTRACT =
+It is literally impossible to program without having some understanding of memory. However, the subject is rarely explained in and out from the machine to the language, with the compiler in between. This talk is going to discuss how these parts of the stack work with memory and how they interact with conventional automatic memory management's methods.
+
+This talk is going to do a deep dive in memory. This includes:
+
+$(UL
+$(LI Cache hierarchy of modern CPUs)
+$(LI Cache consistency of modern CPUs)
+$(LI How D's type qualifiers take advantage of modern CPU's memory mechanisms)
+$(LI Compiler and runtime aspects of reference counting (including exception handling))
+$(LI Compiler and runtime aspects of garbage collections. Strategies that can and cannot be used in D)
+$(LI Sharing memory across cores via immutable and shared. Implications for the compiler and the CPU)
+$(LI Pitfalls and holes in current D's implementations. Which are bugs, and which are features.)
+$(LI Quick overview of alternatives (via linear types, via convention à la C++, agents à la Erlang, ...), discuss pro and cons.)
+)
+
+BIO =
+Amaury Sechet is a software engineer at Facebook and the main developer of SDC.

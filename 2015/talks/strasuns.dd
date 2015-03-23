@@ -1,0 +1,70 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 11:00 AM
+
+SPEAKER = Mihails "Dicebot" Strasuns
+
+SPEAKER_SHORT = strasuns
+
+SPEAKER_URL = https://github.com/Dicebot
+
+SPEAKER_PIC = $(BASE)/../2014/images/strasuns.jpg
+
+TALK_TITLE = Now We Are Porting
+
+LEVEL = Basic, Intermediate
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+For quite some years Sociomantic Labs company has been in a bit of an
+awkward position: one of biggest commerical D users, stuck with the old
+D1 version of the language. But things are changing and, during the last
+6 months, some serious effort has been put into the process of transitioning
+to D2. This talk will provide a report on our current progress and our
+experiences making the transition - tools and processes used, issues
+encountered and hopes for the future. Some of the techniques used may be
+helpful not only for D users but for anyone trying to do a major upgrade
+of a big code base - in any language.
+
+SLIDES = $(SLIDES_NO)
+
+ABSTRACT =
+One of questions I was most often asked during DConf 2014 was "Why is
+switching to D2 that difficult?". Even some of the Sociomantic developers
+were surprised when they heard the initial time estimates. But while the
+porting process itself is not rocket science and does not require any
+special expertise, our actual case is not that simple:
+
+$(UL
+$(LI total code base affected is approaching 1MLOC)
+$(LI  usual service maintenance process can't be interrupted/blocked)
+$(LI  ~400KLOC come from a base set of libraries that are used as dependencies)
+$(LI  some of D1->D2 changes have serious semantic effects)
+)
+
+$(P To address all these issues, we are currently using a formal 3-stage process and
+certain tools to ensure a steady (though slow) transition with absolutely no
+interruption to main development. A description of this process and an explanation
+of the most problematic issues will be the main topic of this talk.)
+
+$(P This is also a good context to talk about breaking changes in general and how they
+affect commercial users - at least from Sociomantic's perspective. Why do we both want
+and don't want breaking changes at the same time? How to evaluate the "Investment" part
+of ROI metrics in the context of such changes? How can tools greatly reduce transition
+pains? Such questions are likely to be of more practical interest to the D community
+than a discussion of legacy code problems.)
+
+BIO =
+One of the software developers working for Sociomantic Labs, one of the biggest
+commercial D users. For the last 6 months I have been primarily responsible for designing
+and operating the transition process from D1 to D2.
+Occasional contributor to the D toolchain and an Arch Linux Trusted User.
