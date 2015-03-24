@@ -29,7 +29,7 @@ LEVEL = Beginner to Intermediate
 BENEFITS =
 
 ABSTRACT =
-As a student of Computer Science at UVU, the D programming language has been a breath of fresh air after learning "standard" languages used in industry like Java, C++, and C#. What makes D truly great is how it combines the strength of many paradigms and techniques from other languages into a very strong whole. D is a comfort language for all programmers at all levels of abstraction, from high to low. This experience report shows some of the places where using D has really shined in assignments at Utah Valley University, specifically for the virtual machine, assembler, and compiler constructed as part of UVU's Computer Science capstone track.
+As a student of Computer Science at UVU, the D programming language has been a breath of fresh air after learning "standard" languages used in industry like Java, C++, and C#. What makes D truly great is how it combines the strength of many paradigms and techniques from other languages into a very strong whole. D is a comfort language for all programmers at all levels of abstraction, from high to low. This experience report shows some of the places where D really shone in assignments at Utah Valley University, specifically for the virtual machine, assembler, and compiler constructed as part of UVU's Computer Science capstone track.
 
 $(P Students at UVU are encouraged to use the language they feel the most familiar with in order to complete higher-level programming assignments. After spending some time learning about the D language, the author decided to use D as the language of choice for the series of projects that serve as the capstone for the Bachelor's Degree in Computer Science at UVU.)
 
@@ -59,4 +59,4 @@ $(P It is very likely that more D language features will be added to this list a
 $(P The main focus of this experience report will be appreciation for the D language in comparison with other languages, and the author's perspective after some previous experience with Java and C++.)
 
 BIO =
-Erich Gubler is an undergraduate student currently preparing to apply for a Bachelor's degree at Utah Valley University. The most relevant of his programming projects include the implementation of the projects mentioned in the extended abstract, under the guidance of UVU faculty. He plans on graduating from UVU in its Fall semester of 2015.
+Erich Gubler is an undergraduate student currently preparing to apply for a master's degree at Utah Valley University. The most relevant of his programming projects include the implementation of the projects mentioned in the extended abstract, under the guidance of UVU faculty. He plans on graduating from UVU in its Fall semester of 2015.
