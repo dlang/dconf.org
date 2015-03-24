@@ -1,6 +1,6 @@
 BASE = ..
 
-PAGE_TITLE = DConf 2014 speaker: $(SPEAKER)
+PAGE_TITLE = DConf 2015 speaker: $(SPEAKER)
 
 SPEAKER_PIC = $(BASE)/images/stock.png
 
