@@ -1,0 +1,72 @@
+Ddoc
+
+Macros:
+
+DATE = May 29
+
+TIME = 10:00 AM
+
+SPEAKER = Adam Ruppe
+
+SPEAKER_SHORT = ruppe
+
+SPEAKER_URL = https://github.com/adamdruppe
+
+SPEAKER_PIC = http://graph.facebook.com/1056450962/picture?type=large
+
+TALK_TITLE = Dynamic Types in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+BENEFITS =
+Last year, my theme was "yes, D $(I can) do that" and "just try it!",
+with a focus on lower level code. This year, I'd like to keep the same
+idea, but on the other end of the spectrum: the same D language that
+we can use to write bare-metal code can also write Javascript-style
+dynamic code.
+
+ABSTRACT =
+I'll talk primarily about my $(D jsvar.d), and some about its (optional)
+companion, $(D script.d), showing what they can do and how I was able to do
+it.
+
+$(UL
+
+$(LI What is a dynamic type?)
+$(LI What good is it?)
+$(LI What does Phobos offer?)
+$(LI How can we do better? Operator overloading, $(D opDispatch), `ref` return.)
+$(LI How do we interact with native objects? Reflection!)
+$(LI What about `eval()`? Enter `script.d`.)
+$(LI What still sucks (and how to handle it)? `@property`, `delegate` in `struct` pitfalls.)
+$(LI What cool stuff have you done with it? Show my app.)
+
+)
+
+$(P Remainder of time: Q&A about cool stuff. I can go on about a lot of
+topics for a long time - my other big D project right now is a game
+without C libraries (except the OS itself). Of course, my older
+projects include the web stuff and I can talk about that too.
+But really, I want the Q&A to be audience led and ideally take up a
+solid 15 minutes so we can get into more things.)
+
+BIO =
+Adam D. Ruppe is a master programmer and serious contender - if not winner - for world champion of D for seven consecutive years and counting. He is among the most prolific D programmers on the planet, having written all manner of code in it from bare metal programs to professional web projects, and is also the author of the critically praised and community renowned "D Cookbook".
+
+$(P With expert level knowledge in several programming languages, techniques, and domains coupled with versatile practicality and humble generosity, Adam rarely finds a problem he cannot solve and is a common sight in the D community, always willing$(MDASH)and able$(MDASH)to help on nearly any user question.)
+
+$(UL Recent D projects:
+$(LI A JSON inspector utilizing a pure-D async HTTP library, pure D script interpreter and pure D terminal library: $(LINK https://github.com/adamdruppe/inspector))
+$(LI A simple volume control, showing OS interaction and terminal UI: $(LINK https://github.com/adamdruppe/volume-control))
+$(LI A cross-platform terminal emulator in pure D, using a D windowing library: $(LINK https://github.com/adamdruppe/terminal-emulator))
+$(LI Windows COM helpers: $(LINK https://github.com/adamdruppe/com))
+$(LI And, of course, the always growing collection of useful modules, including $(D jsvar.d), $(D script.d), $(D dom.d), and much more: $(LINK https://github.com/adamdruppe/arsd))
+)

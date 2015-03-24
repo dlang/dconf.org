@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE = May 27
+
+TIME = 4:30 PM
+
+SPEAKER = Walter Bright, Andrei Alexandrescu, and more
+
+SPEAKER_URL =
+
+SPEAKER_PIC = http://i.ytimg.com/vi/nws-inqgIvo/maxresdefault.jpg
+
+TYPE = Panel
+
+DURATION = As long as we stand
+
+TALK_TITLE = Ask Us Anything!
+
+LEVEL = All
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+ABSTRACT =
+These are heady times for D. Discuss vision topics with the leaders of the D community, many of whom will be present in the room.
+
+BIO =
+N/A

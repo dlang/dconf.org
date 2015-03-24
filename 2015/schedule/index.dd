@@ -1,9 +1,58 @@
 Ddoc
 
-$(T h1,, Schedule)
+$(T h1,,Schedule)
 
-$(P Schedule is not available yet. $(NOTYET))
+$(T table, id="schedule" class="green",
+  $(T TR,,
+      $(T th, colspan="3", Day 1: Wednesday May 27, 2015)
+  )
+  $(BREAKFAST)
+  $(alexandrescu_ROW)
+  $(murphy_ROW)
+  $(schott_ROW)
+  $(LUNCH)
+  $(zvibel_ROW)
+  $(nadlinger_ROW)
+  $(sechet_ROW)
+  $(panel1_ROW)
+)
+
+$(T table, id="schedule" class="orange",
+  $(T TR,,
+    $(T th, colspan="3", Day 2: Thursday May 28, 2015)
+  )
+  $(BREAKFAST)
+  $(allison_ROW)
+  $(nowak_ROW)
+  $(strasuns_ROW)
+  $(LUNCH)
+  $(smith_ROW)
+  $(davis_ROW)
+  $(isaacson_ROW)
+  $(panel2_ROW)
+)
+
+$(T table, id="schedule" class="purple",
+  $(T TR,,
+    $(T th, colspan="3", Day 3: Friday May 29, 2015)
+  )
+  $(BREAKFAST)
+  $(bright_ROW)
+  $(ruppe_ROW)
+  $(clugston_ROW)
+  $(LUNCH)
+  $(colvin_ROW)
+  $(neves_ROW)
+  $(gubler_ROW)
+)
 
 Macros:
 
 BASE = ..
+
+TR = $(T tr,, $0)
+
+BREAKFAST = $(T tr, class="break", $(T td,, 8:30 AM - 9:00 AM)$(T td, colspan=2, Breakfast))
+
+LUNCH = $(T tr, class="break", $(T td,, 12:00 PM - 1:30 PM)$(T td, colspan=2, Lunch &amp; Mingling))
+

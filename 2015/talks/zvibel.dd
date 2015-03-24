@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 27
+
+TIME = 1:30 PM
+
+SPEAKER = Liran Zvibel
+
+SPEAKER_SHORT = zvibel
+
+SPEAKER_URL = https://www.linkedin.com/in/liranzvibel
+
+SPEAKER_PIC = https://media.licdn.com/media/p/1/000/0b6/165/3b7a4aa.jpg
+
+TALK_TITLE = Using D for Implementing a Large Scale Primary Storage System
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate to Advanced Systems Programmers
+
+BENEFITS =
+
+ABSTRACT =
+The talk will discuss using D for a large scale distributed project implementing a primary storage system with strict performance and resources requirements. Will go over the pros and cons of using D and compare our experience to previous similar projects implemented in C and C++ with Python.
+
+$(P We are an experienced group of system programmers, implementing a large software based storage system. We have leveraged D specific features to make sure we have a very sound infrastructure to use, some of the things we did were previously either impossible or impractical using only C or C++ forcing us to use Python for code generation, on the other hand$(MDASH)some D aspects make it more difficult to handle than the other options. I will present what we really like, and what we’ve learned to live with.)
+
+BIO =
+Liran Zvibel is the Co-founder and CTO of $(LINK2 http://weka.io,Weka.IO), a stealth-mode storage startup. Prior to that he was the Co-Founder and VP R&D of Fusic, a video processing mobile/web based startup. Prior to that Liran was at XIV Storage (acquired by IBM in 2007) doing several architectural and leadership roles. Prior to that Liran served 6 years at the IDF, technologically leading a project that was awarded the most prestigious Israeli Defense Award, reaching a rank of Captain. Liran received his B.Sc. in Mathematics and Computer Sciences from the Tel Aviv University at the age of 18.

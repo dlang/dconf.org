@@ -1,0 +1,53 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 3:30 PM
+
+SPEAKER = Mark Isaacson
+
+SPEAKER_SHORT = isaacson
+
+SPEAKER_URL = http://modernmaintainablecode.com
+
+SPEAKER_PIC = https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/000/1af/0b9/29cbf70.jpg
+
+TALK_TITLE = Leveraging D to mitigate dependency-induced code smell
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL =
+
+BENEFITS =
+
+ABSTRACT =
+In the course of writing an ODBC driver for Facebook's Presto, a distributed SQL query engine, converting between all sorts of interfaces (C, D, JSON, wide/narrow strings, etc) and dealing with design decisions from foreign lands was center-stage, unavoidable, and problematic. This talk is an "in the trenches" look at dealing with other people's code smell, the grueling, but necessary, bits and the solutions that create sheer joy as they take something barely manageable and refine it into something more natural and idiomatic.
+
+$(P Talking points include:)
+
+$(UL
+$(LI Utilities to convert between C interfaces and D interfaces.)
+  $(UL
+  $(LI The beautiful (slicing a C string into a D string) and the annoying (when the provided length isn't always the length))
+  $(LI Wrapping [wide] output C-strings)
+  $(LI Writing useful exception boundaries)
+  $(LI Automatic conversions to safer types: why none of my exported functions include a $(D void*) type)
+  )
+$(LI Converting runtime type information into static type information.)
+$(LI The value of with statements. Compare/contrast against member functions and how with statements help when dealing with C-style data management.)
+$(LI Pulling in (or rather, failing to pull in) dub dependencies for Windows DLLs and the associated hacks that made D feel like a scripting language (in a good way))
+$(LI The low friction to contributing to Phobos. Some code smell came from Phobos itself ($(D std.json)), addressing it was easy/efficient.)
+$(LI Using $(D version(unittest)) to try and mock networking facilities turned out to be an anti-pattern)
+)
+
+BIO =
+Mark Isaacson is a Software Engineer at Facebook, where he recently open sourced a project in the D programming language: an ODBC driver for Presto, a distributed interactive SQL query engine that scales upwards of petabytes. Mark is the author of a tech blog "Modern Maintainable Code" that aims to open a dialogue regarding what maintainable code really looks like, to teach techniques for effective code design, and to challenge existing practices when they fall short.
+

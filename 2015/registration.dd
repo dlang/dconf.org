@@ -9,7 +9,7 @@ $(P Registration is now open!)
 <table>
 <tr>
 <td colspan="3">
-General Registration $400
+General Registration $(DOLLAR)400
 </td>
 </tr>
 <tr>
@@ -59,7 +59,7 @@ General Registration $400
 <table>
 <tr>
 <td colspan="3">
-UVU Student Registration $95
+UVU Student Registration $(DOLLAR)95
 </td>
 </tr>
 <tr>

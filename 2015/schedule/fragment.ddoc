@@ -1,0 +1,19 @@
+DEFINE = $(TITLE)_$1 = $+
+
+DDOC =
+$(DEFINE TIME, $(TIME))
+$(DEFINE NAME, $(SPEAKER))
+$(DEFINE SPEAKER_PIC, $(SPEAKER_PIC))
+$(DEFINE ROW,
+  $(T tr, class="tooltip",
+    $(T td,, $(TIME))
+    $(T td,,
+      $(DIV style='vertical-align:middle',
+        <img src="$(SPEAKER_PIC)" height="30" alt="$(NAME)"  style="float:right" />
+      )
+    $(LINK2 ../talks/$(TITLE).html, $(TALK_TITLE))<br />
+      $(SPEAKER)
+    )
+    $(COMMENT td,,$(SLIDES)$(VIDEO))
+  )
+)

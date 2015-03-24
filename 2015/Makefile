@@ -7,13 +7,13 @@ TMP = .tmp
 HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index venue thankyou)
 
-# TALK_BASENAMES = alexandrescu allison bright buclaw chevalier_boisvert \
-# 	clugston crapuchettes dilly franklin lightning meyers neves \
-# 	olshansky panel panteleev roberts ruppe sechet simpkins strasuns wilson
+TALK_BASENAMES = alexandrescu allison bright colvin clugston davis gubler \
+ isaacson murphy nadlinger neves nowak panel1 panel2 ruppe schott sechet smith \
+ strasuns zvibel
 
 TO_COPY = images/ includes/
 
-#TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
+TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
 SPEAKER_BITS = $(addprefix $(TMP)/speakers/, $(addsuffix .gen.ddoc, ${TALK_BASENAMES}))
 

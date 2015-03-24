@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 28
+
+TIME = 4:30 PM
+
+SPEAKER = Open Mic
+
+SPEAKER_URL =
+
+SPEAKER_PIC = http://erdani.com/d/downloads.daily.png
+
+TYPE = Panel
+
+DURATION = As long as we stand
+
+TALK_TITLE = Hot topics: Efficiency and Deployment Process
+
+LEVEL = All
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+ABSTRACT =
+Two themes recur with regularity within the D community. One is, how do we make our programs and libraries faster? The other is, how to improve our development process?
+
+$(P Let's discuss these in an informal gathering. Make sure you get up to speed with $(LINK2 http://wiki.dlang.org/DIP75, DIP75).)
+
+BIO =
+N/A
