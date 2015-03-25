@@ -45,16 +45,20 @@ porting process itself is not rocket science and does not require any
 special expertise, our actual case is not that simple:
 
 $(UL
-$(LI total code base affected is approaching 1MLOC)
+$(LI  large total code base size)
+$(LI  considerablle amount of code comes from a common base set of libraries)
+$(LI  development process for different services is quite decentralized)
 $(LI  usual service maintenance process can't be interrupted/blocked)
-$(LI  ~400KLOC come from a base set of libraries that are used as dependencies)
 $(LI  some of D1->D2 changes have serious semantic effects)
+$(LI  real-time applications are especially fragile)
 )
 
 $(P To address all these issues, we are currently using a formal 3-stage process and
 certain tools to ensure a steady (though slow) transition with absolutely no
-interruption to main development. A description of this process and an explanation
-of the most problematic issues will be the main topic of this talk.)
+interruption to main development. General idea behind the proces is to get into special
+intermediate state that is still valid D1 but can be turned into working D2 code with
+a simple automated tool. A description of this process and an explanation of the most
+problematic issues will be the main topic of this talk.)
 
 $(P This is also a good context to talk about breaking changes in general and how they
 affect commercial users - at least from Sociomantic's perspective. Why do we both want
