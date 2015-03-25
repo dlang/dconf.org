@@ -12,7 +12,7 @@ SPEAKER_SHORT = schott
 
 SPEAKER_URL = https://github.com/Hackerpilot
 
-SPEAKER_PIC = https://pbs.twimg.com/profile_images/1895686497/twitter.png
+SPEAKER_PIC = ../images/schott.png
 
 TALK_TITLE = Tools for D Development
 
