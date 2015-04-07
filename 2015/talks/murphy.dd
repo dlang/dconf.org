@@ -40,7 +40,7 @@ possible applications of the same approach to other projects.
 
 $(P Content I plan to cover includes:)
 $(UL
-$(LI Motivation for converting the project to C++.)
+$(LI Motivation for converting the project to D.)
 $(LI Evaluation of other attempts at replacing the C++ frontend such as
 the original DDMD and SDC.)
 $(LI How magicport (the conversion tool) works and the advantages and
