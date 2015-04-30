@@ -38,72 +38,29 @@ ABSTRACT =
    D is being used for the following:
 
 $(UL
-$(LI Receiving market data
+$(LI Receiving real-time market data
 
-    $(P Market data is currently consumed via a C vendor API. Writing D
-    wrapper code for this API proved relatively straightforward, the
-    initial proof of principle was up and running after around one
-    afternoons worth of work. Being able to persist the data using
-    their C-API and re-hydrate messages has been very useful. Also
-    having access to posix on linux and being able to use atomic
-    operations therein made the implementation in D relatively
-    straightforward.)
+    $(P Market data is currently consumed via a C vendor API. Writing
+    D wrapper code for this API proved relatively straightforward; the
+    initial proof of principle was up and running in an
+    afternoon. Having access to the full Posix API on Linux made the
+    implementation in D relatively straightforward.)
 
-    $(P This market data receiver process republishes data into a shared
-    memory queue where it can be ingested easily by the main
-    strategy. Currently the system ingests around 250MM market data
-    messages a day, which approximates to around 10k per second events
-    amortised. The API provides metrics on our consumption rate and
-    we've measured that D is more than capable of ingesting messages
-    at this rate. When it came time to re-implement in C or C++ we were
-    satisfied enough with the performance and maintainability of the
-    code that we allowed it to go into production.)
-
-    $(P Several of D's language features have proved very useful in
-    practice. Mix-in templates are being used to generate default stub
-    implementations of callback structures.)
-
-    $(P Compile-time reflection is being used to emit the java code
-    necessary to read a struct from a shared memory segment. This has
-    saved a lot of time and has allowed new message types to be added
-    quickly. Previously this was quite tedious, manual and error
-    prone. Compile time reflection is also being used to assert at
-    compile time that the message structures are all the correct size
-    and shape - i.e. that all members are located on appropriate word
-    boundaries where appropriate.)
+    $(P The market data listener communicates with a trading strategy
+    via a shared memory queue. Metrics provided by the API verify that
+    D is more than capable of handling the data volume. When it came
+    time to re-implement in C or C++ we were satisfied enough with the
+    performance and maintainability of the D code that it was allowed
+    to go into production.)
 )
+
 $(LI Electronic Trading
 
-    $(P To trade with the outside world we need to use a firm-provided
-    C-API so again the easy C linkage provided by D proved useful. Our
-    outbound gateway is a D process which takes a structures from a
-    shared memory queue and converts it into a FIX-like string for
-    submission to the C API. Similarly when receiving trade
-    confirmations a c callback calls into D code where messages are
-    parsed and inserted back into an inbound shard memory queue.)
+    $(P To trade with the outside world, a firm-provided FIX-like
+    C-API is used, so again the straightforward C linkage provided by
+    D proved useful.)
 
-    $(P Maybe of note as part of the integration story is that In the
-    test environment we've been able to re-use our old C++ based
-    financial exchange simulator by bridging the two languages via a
-    common C interface. i.e. a 'shim' layer in C was used to link
-    together the D gateway code with the C++ exchange simulator code.)
-)
-$(LI Other aspects of note
-
-    $(P D is being used but increasingly several command-line tools are
-    creeping into common use (i.e. to analyse the recorded data). We
-    end up with around 20GB of recorded data per day so the
-    traditional tools like python etc. start choking at this
-    level. Being able to analyse with D is proving increasingly
-    useful.)
-
-    $(P The scope of functionality provided by Phobos could best be
-    described as 'just enough batteries included but not too
-    many :-$(RPAREN)'. Specifically the posix, csv, json, datetime, atomic and
-    algoritm libraries saved a lot of time that would otherwise have
-    been spent finding and maintaining suitable alternatives.)
-)
-)
+) )
 
 
 BIO =
