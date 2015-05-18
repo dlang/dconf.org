@@ -33,6 +33,6 @@ The talk will spend half its time explaining BDD and TDD to the audience and als
 Cucumber is written and configured in Ruby, and the second part of the talk will show how to drive D code from Cucumber. This will show some of D’s strengths with regards to compile-time reflection and type-safety, including a compile-time check for regular expressions.
 
 BIO =
-Atila Neves has a PhD in Particle Physics for research doen at CERN. Most of the research required programming in C++ and he had a major participation in the coding of the NA60’s experiment’s data acquisition and decoding software in C and C++. He later joined the Computer Security Team at CERN in the IT department and spent two years there writing Perl.
+Atila Neves has a PhD in Particle Physics for research done at CERN. Most of the research required programming in C++ and he had a major participation in the coding of the NA60’s experiment’s data acquisition and decoding software in C and C++. He later joined the Computer Security Team at CERN in the IT department and spent two years there writing Perl.
 
 $(P He now works at Cisco writing networking software and tools in a variety of languages, having used D for some of those tools.)
