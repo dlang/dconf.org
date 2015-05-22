@@ -39,7 +39,7 @@ $(LI An assembler that targets bytecode executed by the virtual machine.)
 $(LI A compiler that implements the KXI 2015 language developed at UVU, which is a very simple class-oriented language similar to C++ and D in syntax. The compiler's backend targets the assembler.)
 )
 
-$(P There are many places where D-specific features have significantly enhanced the development of these projects, including but not limited to:)
+$(P There are many places where D has significantly enhanced the development of these projects. Focuses in this talk will be:)
 
 $(UL
 $(LI The D module system)
