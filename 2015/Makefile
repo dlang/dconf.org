@@ -7,9 +7,9 @@ TMP = .tmp
 HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index venue thankyou)
 
-TALK_BASENAMES = alexandrescu allison bright colvin clugston davis gubler \
+TALK_BASENAMES = alexandrescu allison bright colvin davis gubler \
  isaacson murphy nadlinger neves nowak panel1 panel2 ruppe schott sechet smith \
- strasuns zvibel
+ strasuns wakeling zvibel
 
 TO_COPY = images/ includes/
 

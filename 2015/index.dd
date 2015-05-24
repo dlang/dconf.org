@@ -25,7 +25,7 @@ $(P Hate garbage? So do we! Release czar and all-around D guru $(TALK nowak, Mar
 
 $(P Don't miss experience reports from using D in varied domains such as $(TALK zvibel, large-scale storage systems), $(TALK smith, hedge funds), $(TALK isaacson, database drivers), $(TALK colvin, scientific computing), $(TALK allison, teaching at university level), and $(TALK gubler, learning).)
 
-$(P What's the deal with them ranges everybody talks about? Glad you asked! Listen to D veteran contributor $(TALK davis, Jonathan M. Davis) is up for an introduction. Also learn about $(TALK ruppe, dynamic types) and $(TALK clugston, correct use of floating point).)
+$(P What's the deal with them ranges everybody talks about? Glad you asked! Listen to D veteran contributor $(TALK davis, Jonathan M. Davis) is up for an introduction. Also learn about $(TALK ruppe, dynamic types) and $(TALK wakeling, random number generation).)
 
 An assortment of talks featuring topics such as $(TALK schott, tooling), $(TALK nadlinger, runtime support), $(TALK sechet, memory hierarchy), $(TALK strasuns, porting large codebases), and $(TALK neves, behavior-driven development) complete a strong program.)
 
