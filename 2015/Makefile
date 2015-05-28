@@ -11,7 +11,7 @@ TALK_BASENAMES = alexandrescu allison bright colvin davis gubler \
  isaacson murphy nadlinger neves nowak panel1 panel2 ruppe schott sechet smith \
  strasuns wakeling zvibel
 
-TO_COPY = images/ includes/
+TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, smith strasuns))
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
