@@ -16,7 +16,7 @@ SPEAKER_PIC = https://avatars2.githubusercontent.com/u/580100?v=3&s=400
 
 TALK_TITLE = DDMD and Automated Conversion from C++ to&nbsp;D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
