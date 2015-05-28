@@ -35,7 +35,7 @@ encountered and hopes for the future. Some of the techniques used may be
 helpful not only for D users but for anyone trying to do a major upgrade
 of a big code base - in any language.
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 ABSTRACT =
 One of questions I was most often asked during DConf 2014 was "Why is
