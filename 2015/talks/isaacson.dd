@@ -16,7 +16,7 @@ SPEAKER_PIC = https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/000/1af/0b9/29c
 
 TALK_TITLE = Leveraging D to mitigate dependency-induced code smell
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

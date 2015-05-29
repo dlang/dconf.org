@@ -16,7 +16,7 @@ SPEAKER_PIC = https://www.gravatar.com/avatar/797e06feb159ad441a5dd270c4ccf06e?s
 
 TALK_TITLE = Introduction to Ranges
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
