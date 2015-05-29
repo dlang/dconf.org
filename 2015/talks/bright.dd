@@ -20,7 +20,7 @@ TYPE = $(B Keynote)
 
 SLIDES_URL =
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
