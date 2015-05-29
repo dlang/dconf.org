@@ -16,7 +16,7 @@ SPEAKER_PIC = https://avatars3.githubusercontent.com/u/1867189?v=3&s=400
 
 TALK_TITLE = D Is For Science
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
