@@ -16,7 +16,7 @@ SPEAKER_PIC = https://media.licdn.com/media/p/1/000/0b6/165/3b7a4aa.jpg
 
 TALK_TITLE = Using D for Implementing a Large Scale Primary Storage System
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
