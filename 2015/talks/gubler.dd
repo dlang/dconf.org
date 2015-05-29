@@ -16,7 +16,7 @@ SPEAKER_PIC = https://media.licdn.com/media/p/6/005/044/2ec/27b01fe.jpg
 
 TALK_TITLE = Why I Love D: An Undergrad Experience
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
