@@ -18,7 +18,7 @@ TALK_TITLE = Behaviour-Driven Development with D and Cucumber
 
 LEVEL = Intermediate to Advanced
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
