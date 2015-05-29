@@ -18,7 +18,7 @@ SPEAKER_URL = http://erdani.com
 
 TALK_TITLE = Keynote
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk01
 
