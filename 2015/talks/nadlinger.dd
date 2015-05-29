@@ -10,7 +10,7 @@ SPEAKER = David Nadlinger
 
 SPEAKER_SHORT = nadlinger
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_SD_URL =
 
