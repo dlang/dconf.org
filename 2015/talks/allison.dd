@@ -14,9 +14,9 @@ SPEAKER_URL = https://www.uvu.edu/profpages/profiles/show/user_id/67
 
 SPEAKER_PIC = ../images/allison.jpg
 
-TALK_TITLE = Confessions of a C++ Aficionado: Why D Is My Language Of Choice
+TALK_TITLE = Confessions of a C++ Wonk: Why D Is Very, Very Good For Me
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
