@@ -14,7 +14,7 @@ SPEAKER_URL = http://braingam.es/
 
 SPEAKER_PIC = $(BASE)/../2015/images/wakeling.jpg
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
