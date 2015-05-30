@@ -16,7 +16,7 @@ SPEAKER_PIC = http://graph.facebook.com/1056450962/picture?type=large
 
 TALK_TITLE = Dynamic Types in D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
