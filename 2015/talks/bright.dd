@@ -18,8 +18,6 @@ TALK_TITLE = Keynote
 
 TYPE = $(B Keynote)
 
-SLIDES_URL =
-
 SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
