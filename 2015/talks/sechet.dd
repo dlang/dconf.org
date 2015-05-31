@@ -12,7 +12,7 @@ SPEAKER_SHORT = sechet
 
 SPEAKER_URL = https://github.com/deadalnix
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
