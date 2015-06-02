@@ -16,7 +16,7 @@ SPEAKER_PIC = http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg
 
 SPEAKER_URL = http://erdani.com
 
-TALK_TITLE = Keynote
+TALK_TITLE = Keynote: Generic Programming Must Go
 
 SLIDES = $(SLIDES_YES)
 
@@ -28,8 +28,29 @@ VIDEO = $(VIDEO_NO)
 
 LEVEL = All
 
-ABSTRACT =
-Keynote
+ABSTRACT = Generic Programming has a good track method as an approach to
+designing data structures and algorithms, as well as general libraries.
+However, attempts at applying it to large-vocabulary domains (the example used
+throughout the talk is memory allocation) are marred by rigidity of
+interfaces, verboseness, and a combinatorial explosion of nomenclature.
+
+$(P This talk proposes $(I Design By Introspection), a scalable approach to
+designing software artifacts that puts static introspection, not concepts and
+nomenclature, at the forefront. The primitive operations supported by a
+component are divided in "required" and "optional"; there is no need to define
+a concept for each subset of optional primitives supported. For example, in
+range terminology, a notion of "length" may be optionally defined by any
+range, without any burden to define names for "input ranges with length",
+"forward ranges with length", and so on.)
+
+$(P Component users (either programmers or higher-level components) use static
+introspection to query capabilities supported by a given component (usually
+received as a type parameter) and build larger design artifacts accordingly.)
+
+$(P A flexible memory allocator is given as a running example. Except for $(TT
+allocate()), all primitives of an allocator component are optional. More
+complex, combination allocators use other allocators as type parameters and
+make design decisions depending on the capabilities of their parameters.)
 
 BIO =
 Andrei Alexandrescu coined the colloquial term "modern C++" (adapted
