@@ -14,13 +14,11 @@ SPEAKER_URL = http://walterbright.com
 
 SPEAKER_PIC = http://walterbright.com/wblogo.jpg
 
-TALK_TITLE = Keynote
+TALK_TITLE = Keynote - Memory DisAllocation
 
 TYPE = $(B Keynote)
 
-SLIDES_URL =
-
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
@@ -31,10 +29,13 @@ VIDEO = $(VIDEO_NO)
 LEVEL = All
 
 ABSTRACT =
-TBD
+There are many ways to allocate memory, such as garbage collection,
+reference counting, and manual memory management. This talk will show
+a fourth way - not allocating memory at all by using lazy ranges.
 
 BENEFITS =
-Listen the outlook of D from its creator himself
+Learn techniques to avoid the allocation of temporaries by using
+lazy ranges.
 
 BIO =
 Walter Bright is the creator and first implementer of the D programming language
