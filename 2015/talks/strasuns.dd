@@ -18,11 +18,11 @@ TALK_TITLE = Now We Are Porting
 
 LEVEL = Basic, Intermediate
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=kDu0lgwqHKM
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 For quite some years Sociomantic Labs company has been in a bit of an

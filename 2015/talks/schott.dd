@@ -18,11 +18,11 @@ TALK_TITLE = Tools for D Development
 
 SLIDES = $(T A, href=$(BASE)/talks/$(SPEAKER_SHORT).zip, Slides)<br />
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=FmFyB9e7edw
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All of the above
 

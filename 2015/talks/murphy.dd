@@ -18,11 +18,11 @@ TALK_TITLE = DDMD and Automated Conversion from C++ to&nbsp;D
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=5daHGXSetXk
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate to Advanced
 
