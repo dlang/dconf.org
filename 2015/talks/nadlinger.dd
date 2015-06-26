@@ -12,11 +12,11 @@ SPEAKER_SHORT = nadlinger
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_SD_URL =
+VIDEO_SD_URL = https://www.youtube.com/watch?v=WzXe2kT9sEo
 
 VIDEO_HD_URL =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 SPEAKER_PIC = http://www.tiqi.ethz.ch/photos/david_nadlinger_web.jpg
 
