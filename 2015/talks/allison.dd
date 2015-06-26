@@ -18,11 +18,11 @@ TALK_TITLE = Confessions of a C++ Wonk: Why D Is Very, Very Good For Me
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=rmRmfoKxMCE
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Developers and students with familiarity with a C-family language and an interest in Programming to D Max
 
