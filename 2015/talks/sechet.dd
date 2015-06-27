@@ -41,7 +41,7 @@ $(LI Compiler and runtime aspects of reference counting (including exception han
 $(LI Compiler and runtime aspects of garbage collections. Strategies that can and cannot be used in D)
 $(LI Sharing memory across cores via immutable and shared. Implications for the compiler and the CPU)
 $(LI Pitfalls and holes in current D's implementations. Which are bugs, and which are features.)
-$(LI Quick overview of alternatives (via linear types, via convention ?? la C++, agents ?? la Erlang, ...), discuss pro and cons.)
+$(LI Quick overview of alternatives (via linear types, via convention à la C++, agents à la Erlang, ...), discuss pro and cons.)
 )
 
 BIO =
