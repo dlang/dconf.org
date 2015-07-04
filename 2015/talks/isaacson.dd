@@ -18,11 +18,11 @@ TALK_TITLE = Leveraging D to mitigate dependency-induced code smell
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=HHHhi4_9sGo
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL =
 
