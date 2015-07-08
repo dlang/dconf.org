@@ -20,11 +20,11 @@ TALK_TITLE = Keynote: Generic Programming Must Go
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk01
+VIDEO_URL_A =
 
-VIDEO_URL_Y = http://youtu.be/U580iDBBZQk
+VIDEO_URL_Y = https://www.youtube.com/watch?v=mCrVYYlFTrA
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 

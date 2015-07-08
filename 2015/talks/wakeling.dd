@@ -18,9 +18,9 @@ SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
-VIDEO_URL_A =
+VIDEO_URL_A = https://www.youtube.com/watch?v=QdMdH7WX2ew
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 TALK_TITLE = Random Number Generation in Phobos and Beyond
 
