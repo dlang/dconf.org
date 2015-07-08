@@ -18,11 +18,11 @@ TALK_TITLE = D Is For Science
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=edjrSDjkfko
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Anyone with an interest in D and scientific computing.
 
