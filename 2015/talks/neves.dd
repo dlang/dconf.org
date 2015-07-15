@@ -20,11 +20,11 @@ LEVEL = Intermediate to Advanced
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=bxSPCmwqgYs
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS = This talk will introduce what behaviour-driven development is, its benefits and how to do it in D.
 
