@@ -12,7 +12,7 @@ SPEAKER_SHORT = nadlinger
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=rmRmfoKxMCE
+VIDEO_URL_Y = https://www.youtube.com/watch?v=WzXe2kT9sEo
 
 VIDEO_SD_URL =
 
