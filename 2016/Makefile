@@ -5,7 +5,7 @@ endif
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, \
-	contact index)
+	contact index venue)
 
 TALK_BASENAMES =
 
