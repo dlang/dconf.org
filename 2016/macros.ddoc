@@ -41,7 +41,7 @@ $(T title,, $(PAGE_TITLE))
 
 MENU =
 $(DIV class="logo",
-  $(COMMENT $(T a, href="$(BASE)/index.html", <img src="$(BASE)/../2015/images/dlogo.png" alt="DConf 2015" border="0" />))
+  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf_logo_2016.svg" alt="DConf 2016" border="0" />)
 )
 $(COMMENT DIV class="clock",
   $(T object, type="application/x-shockwave-flash" data="$(BASE)/images/countdown.swf" width="258" height="85",
