@@ -19,16 +19,25 @@ hr {
 	width: 1010px;
 	margin: 0px auto;
 	padding: 10px;
+	padding-top: 120px;
 	border: none;
 	overflow: hidden;
 }
 
 .logo {
-	margin: 0px;
-	overflow: hidden;
-	width: 500px;
-	height: 110px;
-	float: left;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 100%;
+	background: #DA5845;
+	border-bottom: 1px solid white;
+}
+.logo a
+{
+	display: block;
+	width: 950px;
+	padding-left: 60px;
+	margin: auto;
 }
 
 .menu {
