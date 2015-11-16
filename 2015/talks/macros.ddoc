@@ -18,7 +18,7 @@ SLIDES_NO =
 
 SLIDES =
 
-VIDEO_YES = Video:&nbsp;$(T A, href="$(VIDEO_URL_A)",[archive.org])&nbsp;$(T A, href="$(VIDEO_URL_Y)",[youtube])<br />
+VIDEO_YES = $(T A, href="$(VIDEO_URL_Y)",Video)<br />
 
 DDOC =
 $(HEADER)
