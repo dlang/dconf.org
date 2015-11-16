@@ -2,14 +2,37 @@ Ddoc
 
 $(T h1,, Registration)
 
-$(P Registration is now open!)
+$(P We're gearing up for the largest DConf to date in one of Europe's hottest
+tech hubs. Are you considering attending DConf 2016 in Berlin? Here's the
+skinny.)
+
+$(P The general registration fee is $(DOLLAR)400. That's top-notch content for 
+a fraction of what  similar conferences are charging. Curious about the quality? 
+Just check the talk videos of the 
+$(HTTP dconf.org/2015/schedule/index.html, 2015), 
+$(HTTP dconf.org/2014/schedule/index.html, 2014), and 
+$(HTTP dconf.org/2013/schedule/index.html, 2013) editions. You're getting 
+fantastic value not only in terms of strong content, but also access to 
+industry luminaries, a welcoming and enthusiastic community, and a lasting 
+boost of inspiration for your work.)
+
+$(P But wait! Do you trust DConf 2016 to deliver on its promise? Then $(B pay 
+only $(DOLLAR)250) for the early bird registration before seeing the schedule.)
+
+$(P There is a catch though. Early bird registration is time-boxed$(MDASH)it 
+closes when we publish the schedule. Also, we're liable to sell out during the 
+early bird registration. So you need to hurry to secure your seat.)
+
+$(P Registration proceeds left after covering conference-related expenses will
+go to D Language Foundation. Your payment will be  transparently used to foster
+understanding and adoption of the D programming language.)
 
 <hr />
 
 <table>
 <tr>
 <td colspan="3">
-General Registration $(DOLLAR)400
+$(P $(B $(T font, size=+1, Early Bird Registration $(DOLLAR)250)))
 </td>
 </tr>
 <tr>
@@ -58,27 +81,26 @@ $(COMMENT
 
 <hr />
 
-
-<hr />
 $(P All registrations are final. Registrations are transferrable.)
 
 $(P Please let us know what you'd like your badge to say if it is
 different from your name on your credit card.)
 
-$(P Privacy Policy: Your name and email address will be shared with Utah Valley University
-since it is hosting the event. Otherwise, Digital Mars will not
+$(P Privacy Policy: Your name and email address will be shared with Sociomantic
+since it is hosting the event. Otherwise, The D Language Foundation will not
 share your data with anyone unless compelled by lawful orders.)
 
 $(T h1,, Sponsorship)
 
-$(P Cannot attend DConf but want to help out? Be a sponsor!)
+$(P Cannot attend DConf 2016 but want to help out? Be an individual sponsor!
+We'll list your name on an individual sponsors page.)
 
 <hr />
 
 <table>
 <tr>
 <td >
-Sponsorship $(DOLLAR)50
+$(P $(B $(T font, size=+1, Individual Sponsorship $(DOLLAR)50)))
 </td>
 </tr>
 <tr>
@@ -98,5 +120,8 @@ Sponsorship $(DOLLAR)50
 </table>
 
 <hr />
+
+$(P For corporate sponsorship packages, please contact
+$(LINK2 mailto:dconf2016@digitalmars.com, dconf2016@digitalmars.com).)
 
 
