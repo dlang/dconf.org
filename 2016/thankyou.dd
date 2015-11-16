@@ -1,0 +1,7 @@
+Ddoc
+
+$(T h1,, Registration)
+
+$(P Thanks! Your request was processed successfully.)
+
+$(P $(LINK2 /, Return to the DConf homepage.))
