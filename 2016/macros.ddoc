@@ -55,6 +55,7 @@ $(DIV class="menu row_after",
     $(T ul,id="menu",
       $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
       $(LI $(LINK2 $(BASE)/index.html, Home))
+      $(LI $(LINK2 $(BASE)/registration.html, Register))
       $(LI $(LINK2 $(BASE)/venue.html, Venue))
       $(LI $(LINK2 $(BASE)/contact.html, Contact))
       $(LI $(LINK2 $(BASE)/../2015, DConf 2015))
