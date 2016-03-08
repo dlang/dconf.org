@@ -16,13 +16,6 @@ fantastic value not only in terms of strong content, but also access to
 industry luminaries, a welcoming and enthusiastic community, and a lasting 
 boost of inspiration for your work.)
 
-$(P But wait! Do you trust DConf 2016 to deliver on its promise? Then $(B pay 
-only $(DOLLAR)250) for the early bird registration before seeing the schedule.)
-
-$(P There is a catch though. Early bird registration is time-boxed$(MDASH)it 
-closes when we publish the schedule. Also, we're liable to sell out during the 
-early bird registration. So you need to hurry to secure your seat.)
-
 $(P Registration proceeds left after covering conference-related expenses will
 go to D Language Foundation. Your payment will be  transparently used to foster
 understanding and adoption of the D programming language.)
@@ -32,7 +25,7 @@ understanding and adoption of the D programming language.)
 <table>
 <tr>
 <td colspan="3">
-$(P $(B $(T font, size=+1, Early Bird Registration $(DOLLAR)250)))
+$(P $(B $(T font, size=+1, Registration $(DOLLAR)400)))
 </td>
 </tr>
 <tr>
@@ -43,8 +36,8 @@ $(P $(B $(T font, size=+1, Early Bird Registration $(DOLLAR)250)))
 <INPUT TYPE="hidden" NAME="business" VALUE="foundation@dlang.org">
 <INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2016/thankyou.html">
 <INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
-<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2016 Early Bird Registration">
-<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="250.00">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2016 Registration">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="400.00">
 <INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
 </FORM>
 </td>
