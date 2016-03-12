@@ -1,6 +1,6 @@
 #SITE=erdani.com:www/d/
 SITE = dconf.org@digitalmars.com:data/
-
+DMD = dmd
 OUT = out
 
 all: $(OUT)/index.php 2013/all 2014/all 2015/all 2016/all
