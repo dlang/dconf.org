@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 10:00 AM
+
+SPEAKER = Vladimir Panteleev
+
+SPEAKER_SHORT = panteleev
+
+SPEAKER_URL = http://thecybershadow.net
+
+SPEAKER_PIC = $(BASE)/../2013/images/vpanteleev.jpg
+
+TALK_TITLE = D Secrets
+
+LEVEL = All
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+
+ABSTRACT =
+It is no secret that D is a large and comprehensive language. This talk explores some lesser-known tricks and techniques for using the language effectively.
+
+$(P This talk will be a loosely-connected description of a number of tips collected by the author throughout his usage of D. These will mainly relate to metaprogramming, Druntime, and curious language syntax features.)
+
+BIO =
+Vladimir Panteleev is a D hacker from Moldova. He has been using D since 2006 and contributing to its development since almost as long, and maintains several open-source projects written in D.

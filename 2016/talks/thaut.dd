@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 1:30 PM
+
+SPEAKER = Benjamin Thaut
+
+SPEAKER_SHORT = thaut
+
+SPEAKER_URL =
+
+SPEAKER_PIC = https://media.licdn.com/media/p/7/005/00e/210/1cdcd05.jpg
+
+TALK_TITLE = D's Import and Export Business
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Advanced
+
+ABSTRACT =
+This talk gives an overview over implementing DLL support on Windows within in DMD reference compiler. An short description over the inner workings of Windows DLLs is given. Further it describes the problems and possible solutions with implementing the 'export' protection level, as described in the D language specification.
+
+$(P I currently already have a full working version of DLLs using DMD targeting the Microsoft x64 c-runtime and linker. There are few points that need to be solved before the pull request can be done. These points include testing, stripping of unused symbols, better support for templates across DLL boundaries and more. All this points will be explained during the talk. I hope to raise the general knowledge of DLLs in the D community with this talk to allow for a more informed discussion around DLLs support in D. In case my pull request makes it into DMD I also hope for this talk to become documentation or an entry point for anyone interested in the topic.)
+
+BENEFITS =
+
+BIO =
+My name is Benjamin Thaut. I'm 27 years old and I have a masters degree in Computer Science and Media from the Hochschule der Medien in Stuttgart Germany. I have been working for Havok, one of the biggest middle ware companies in the games industry, for four years now. If I'm currently not working on games related software for Havok (www.havok.com) I contribute to various Open Source projects. I was contributing to "Mechwarrior Living Legends", a total conversion for Crysis, for 3 years and ended up as Lead Programmer of the team. Currently I'm contributing to the $(WEB ezengine.net, ezEngine), an open source game engine, to the D programming reference compiler and runtime. My first contact with the D programming Language was 5 years ago. Ever since I'm using D for personal projects and try to advertise the language to others.

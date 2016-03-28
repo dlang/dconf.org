@@ -5,9 +5,12 @@ endif
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, \
-	contact index registration thankyou venue)
+	contact index registration schedule/index speakers/index thankyou venue)
 
-TALK_BASENAMES =
+TALK_BASENAMES = alexandrescu bof bright cehreli clugston colvin \
+	hunsur lucarella \
+	marques nacke panel1 panel2 panel3 panteleev piolat nowak schadek \
+	schveighoffer sechet smith thaut watson zvibel
 
 TO_COPY = images/ includes/
 #TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \

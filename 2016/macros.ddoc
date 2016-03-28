@@ -53,9 +53,11 @@ $(COMMENT DIV class="clock",
 $(DIV class="menu row_after",
   $(T nav,,
     $(T ul,id="menu",
-      $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+      $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp)
       $(LI $(LINK2 $(BASE)/index.html, Home))
       $(LI $(LINK2 $(BASE)/registration.html, Register))
+      $(LI $(LINK2 $(BASE)/schedule, Schedule))
+      $(LI $(LINK2 $(BASE)/speakers, Speakers))
       $(LI $(LINK2 $(BASE)/venue.html, Venue))
       $(LI $(LINK2 $(BASE)/contact.html, Contact))
       $(LI $(LINK2 $(BASE)/../2015, DConf 2015))
@@ -68,6 +70,13 @@ $(DIV class="menu row_after",
 SPONSORS =
 $(DIV class="page_right equal",
   $(DIV class="divider_h", &nbsp;)
+  $(DIV class="sponsors",
+    $(T span, class="sp", Sponsor)<br />
+      $(T table,, $(T tr,,
+      $(T td,, $(LINK2 http://sociomantic.com,
+      <img src="http://www.offremedia.com/sites/default/files/styles/270x170_echelle/public/logo_org_21466.png?itok=moLeleXt" width="100%" alt="Sociomantic" border="0" />)))
+    )
+  )
   $(DIV class="twitter",
     $(DIV class="hash", )
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
@@ -99,3 +108,5 @@ $(DIV align="right",
 )
 
 NOTYET=Stay tuned to the $(LINK2 http://forum.dlang.org/group/digitalmars.D.announce, D announce forum) for news about DConf 2015.
+
+WEB = $(LINK2 http://$1, $2)

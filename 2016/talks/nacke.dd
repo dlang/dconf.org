@@ -1,0 +1,56 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 2:30 PM
+
+SPEAKER = Kai Nacke
+
+SPEAKER_SHORT = nacke
+
+SPEAKER_URL =
+
+SPEAKER_PIC = https://fosdem.org/2016/schedule/speaker/kai_nacke/effeae52a7763412cb9009851192cbc986c0a3069991a617d4f415b0ec6ffa4a.jpg
+
+TALK_TITLE = D Everywhere!
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+Using LLVM as backend enables LDC to target many CPU architectures,
+ranging from ARM and MIPS based embedded systems and smartphones over
+server systems based on POWER and Sparc up to the "big iron" z System. D
+everywhere seems possible!
+
+$(P Having code generation for a target, the real work is getting druntime
+and Phobos support right. This talk highlights the areas which always
+needs tweaking, which are difficult to get right and which surprises you
+may encounter along the way.)
+
+$(P As the frontend of the compiler is now written in D and thus requiring a
+D compiler, this talk also discusses the strategies the LDC team employs
+to bootstrap the compiler code itself to a new platform.)
+
+$(P Given the many available LLVM targets this talk inspires the audience to
+bring D to their favorite platform!)
+
+BIO =
+Kai Nacke is a professional IT architect. In his spare time he likes to
+develop open source applications. He is the current maintainer of LDC,
+the LLVM-based D compiler, and a committer of the LLVM project. His
+contributions to LDC include ports to different CPU architectures and
+operating systems.
+
+$(P Besides programming he is also the auther of "D Web Development" and a
+speaker at the Free and Open Source Software Developers' European
+Meeting (FOSDEM).)

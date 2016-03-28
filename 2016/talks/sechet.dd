@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 3:30 PM
+
+SPEAKER = Amaury Sechet
+
+SPEAKER_SHORT = sechet
+
+SPEAKER_URL = https://github.com/deadalnix
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+SPEAKER_PIC = https://worldcubeassociation.org/uploads/user/avatar/2008SECH01/1441150539.jpg
+
+TALK_TITLE = Bit Packing like a Madman
+
+LEVEL = Beginner to Intermediate
+
+BENEFITS =
+
+ABSTRACT =
+This talk will go over various bit packing techniques, and will use actual examples from open source projects such as clang, LLVM, jemalloc, SDC explaining how they are used. This will go over some fundamental that are often glossed over if talked about at all, such as how to layout a bitfield.
+
+$(P ABI friendly value type (that end up being passed in registers) are going to be discussed. Tips will be given to transform a non friendly struct into a friendly one using bitpacking. std.bigint makes a good subject study.)
+
+$(P Computation requirements for various packing technique will be discussed. Bit packing techniques will be categorized into fast ones, that can be used to reduce memory consumption and reduce cache misses, and slower ones, that are more suitable for compression but should be avoided on the working set.)
+
+$(P Tagging pointers in a $(D @safe) or $(D @system) manner.)
+
+$(P Finally, a technique allowing to create the equivalent of a class hierarchy without classes, inheritance, granted all subclasses are known/can be listed using bit packing techniques and D reflection capabilities. The technique is similar to the way HHVM implement PHP arrays, or LLVM implement its bytecode, but can be made better in D. The technique discriminate "classes" using a tag field and using as an index in constant tables to implement a virtual dispatch equivalent. Other class like features like polymorphism and downcasting can be implemented cheaply as well.)
+
+BIO =
+Amaury Sechet is a software engineer at Facebook, LLVM comitter and the main developer of SDC.

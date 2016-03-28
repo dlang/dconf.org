@@ -1,0 +1,32 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 1:30 PM
+
+SPEAKER = Ethan Watson
+
+SPEAKER_SHORT = watson
+
+SPEAKER_URL =
+
+TALK_TITLE = Quantum Break: AAA Gaming With Some D Code
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+​Can D be used to make games? Yes. Has it been used in a major game release? It has now. Remedy Entertainment have successfully shipped the first AAA game to use D code. And it’s in a fairly critical subsystem too. This talk will cover the usage of D in Quantum Break, problems encountered and solved, and where we want to take our usage of D in the future.
+
+$(P ​This talk will cover Remedy’s use of D in Quantum Break, providing a combination of Tools and Techniques, ​Experience Reports, ​and briefly touching on Under the Hood ​and Language Proper​topics.)
+
+BIO = ​Ethan Watson is a senior generalist programmer at Remedy Entertainment, a world­renowned game development studio with games such as Max Payne, Alan Wake, and Quantum Break to their name. He hails from the fictional land of Australia, where everything ­ including the sun ­ tries to kill you. Having survived his upbringing, he found himself needing to pay his bills and what better way is there to do so than working on cutting­edge real time technology?

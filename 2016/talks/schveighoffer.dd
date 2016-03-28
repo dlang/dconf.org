@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 3:30 PM
+
+SPEAKER = Steve Schveighoffer
+
+SPEAKER_SHORT = schveighoffer
+
+SPEAKER_PIC = $(BASE)/images/schveighoffer.jpg
+
+SPEAKER_URL =
+
+TALK_TITLE = Mutability Wildcards in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate to Advanced
+
+ABSTRACT =
+D provides multiple mechanisms for adjusting how a piece of data can be modified. I will discuss mainly how the two “wildcard” modifiers (const and inout) work and how inout can be improved.
+
+$(P Both const and inout in D provide a mechanism to consolidate code into handling multiple type modifiers, while providing a guarantee to the caller that the code cannot modify its parameters. Each works in different ways, but especially inout is difficult to grasp. Through this presentation, I hope to shine some light on the underlying concept of inout, and show how it can be used in different situations, including situations where inout is not intuitively the choice you would think of. I also intend to show how inout can be further improved to remove some of the sticky situations that it creates.)
+
+BIO =
+I have been an active D coder and contributor to druntime, phobos, and tango, since 2007. I have worked on embedded systems, large distributed systems, and pretty much everything in between since graduating from WPI in 1998. I rewrote the D array runtime to prevent stomping of data from multiple references, and wrote a collection library (dcollections), whose red black tree implementation was copied into phobos. I’m also the author of the iopipe library - a buffer-based D pipeline library that streamlines parsing i/o from any source. Finally, I was the original proposer of the inout concept.

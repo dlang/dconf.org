@@ -1,0 +1,51 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 3:30 PM
+
+SPEAKER = Mithun Hunsur
+
+SPEAKER_SHORT = hunsur
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/hunsur.jpg
+
+TALK_TITLE = Skiron: Experiments in CPU Design in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate to Advanced
+
+ABSTRACT =
+When designing a CPU, many considerations need to be taken into account: from hardware constraints to instruction set flexibility, building an architecture worthy of use requires compromise. This talk details the effective use of D and its features, such as metaprogramming, to enable rapid development with equally rapid performance for Skiron: a CPU design and implementation focused on examining the impact of particular design decisions on flexibility and performance.
+
+$(P Skiron is a flexible 32-bit RISC and MIPS-inspired architecture designed for the sole purpose of evaluating potential compromises in CPU design with a minimal time investment in making changes. To this end, the tools involved in the ecosystem – the reference simulator, assembler, disassembler, and documentation – needed to be built around the principle of rapid iteration.)
+
+$(P As a result, D was selected as the implementation language: its unique blend of features places it in an ideal place for Skiron, especially with regards to ensuring that changes in design will be reflected across the entire ecosystem. This is accomplished through extensive use of metaprogramming, D-exclusive features, the excellent standard library, and much more.)
+
+Areas investigated in this talk will include, but not be limited to:
+
+$(UL
+$(LI Compromises inherent in the design of CPUs, including performance, instruction set concerns, and end-user usability)
+
+$(LI The use of metaprogramming to facilitate rapid development of the instruction set, opcode structure, production of documentation, and more – and the different kinds of metaprogramming available in D, from templates to code generation in mixins)
+
+$(LI Taking advantage of D features such as final switch and built-in unit tests to ensure correctness of code, as well as other features like binary constants)
+
+$(LI Using both GC and non-GC code effectively within a set of projects, and tips and tricks involved in writing non-GC code)
+
+$(LI The advantages of D over competing systems languages for a complex, multi-level project – specifically, how D can be used to go from high-level user-facing functionality to low-level code generation and simulation without switching language)
+)
+
+BIO =
+During the day, Mithun Hunsur is an undergraduate student at Monash University – but during the nights and the weekends, he’s a prolific systems programmer and reverse engineer working on exploring the far reaches of the technologies he works with on a daily basis. Since 2013, he has been utilising D in a variety of projects, both internal and external, in order to maximise development speed while keeping performance characteristics from other systems languages. As part of his efforts to support the wider D ecosystem, he has submitted pull requests to druntime and Phobos, and has assisted in improving the performance of exception handling in LDC. He is currently situated in Melbourne, Australia.

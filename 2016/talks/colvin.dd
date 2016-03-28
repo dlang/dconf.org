@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 1:30 PM
+
+SPEAKER = John Colvin
+
+SPEAKER_SHORT = colvin
+
+SPEAKER_URL = https://github.com/John-Colvin
+
+SPEAKER_PIC = https://avatars3.githubusercontent.com/u/1867189?v=3&s=400
+
+TALK_TITLE = CLWrap: Nuisance-free control of your GPU
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+For most programmers used to developing for a modern CPU, working with GPUs for general purpose computation can appear daunting and laborious. Even seasoned users will admit that the performance improvements are often not worth the extra effort. With the power of D’s type system and static introspection, the library CLWrap provides no-compromise tools for working with GPUs via OpenCL in D, while being much safer and easier to use than the traditional APIs.
+
+$(P In this talk I will give a bottom-up, by-example tour of CLWrap. The library builds abstractions without sacrificing the level of control necessary to make efficient use of powerful co-processors such as modern GPUs. As such it should be valuable across the full spectrum of heterogeneous computing users. By the end of the talk, everyone listening should be able to write and understand the handful of lines of D necessary to offload work to the GPU. Additionally, I will demonstrate how CLWrap can be used seamlessly with other tools in the DlangScience ecosystem.)
+
+BIO =
+I am a part time PhD student (Physics, University of Warwick, UK) developing data analysis techniques and software for fusion power research and a programming consultant working in finance. I am the founder of the DlangScience project which develops, curates and maintains scientific libraries for D.

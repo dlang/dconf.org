@@ -16,16 +16,16 @@ clean: 2013/clean 2014/clean
 # Patterns
 
 2013/%:
-	$(MAKE) --directory=2013 OUT=../$(OUT)/2013 $*
+	$(MAKE) DMD=$(DMD) --directory=2013 OUT=../$(OUT)/2013 $*
 
 2014/%:
-	$(MAKE) --directory=2014 OUT=../$(OUT)/2014 $*
+	$(MAKE) DMD=$(DMD) --directory=2014 OUT=../$(OUT)/2014 $*
 
 2015/%:
-	$(MAKE) --directory=2015 OUT=../$(OUT)/2015 $*
+	$(MAKE) DMD=$(DMD) --directory=2015 OUT=../$(OUT)/2015 $*
 
 2016/%:
-	$(MAKE) --directory=2016 OUT=../$(OUT)/2016 $*
+	$(MAKE) DMD=$(DMD) --directory=2016 OUT=../$(OUT)/2016 $*
 
 $(OUT)/%: %
 	mkdir -p $(OUT)
