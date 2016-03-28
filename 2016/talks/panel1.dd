@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE =
+
+TIME = 4:30 PM
+
+SPEAKER = Various
+
+SPEAKER_URL =
+
+SPEAKER_PIC = http://dlang.org/images/dlogo.svg
+
+TYPE = Lightning Talks
+
+DURATION = As long as we stand
+
+TALK_TITLE = Lightning Talks!
+
+LEVEL = All
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+ABSTRACT =
+We've had many, many good submissions of great quality for DConf 2016, so it's been very difficult to have to turn down some of them. Therefore, we're giving away the time slot traditionally reserved for Q&A with the D language leadership for a blizzard of quick talks. Please contact dconf2016@digitalmars.com if you want to give a short talk. Authors of declined submissions have priority. See you there!
+
+BIO =
+N/A

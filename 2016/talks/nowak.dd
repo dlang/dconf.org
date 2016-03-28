@@ -1,0 +1,41 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 11:00 AM
+
+SPEAKER = Martin Nowak
+
+SPEAKER_SHORT = nowak
+
+SPEAKER_URL = https://github.com/MartinNowak
+
+SPEAKER_PIC = https://avatars0.githubusercontent.com/u/288976?v=3&s=400
+
+TALK_TITLE = Object-Relational Mapper
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+BENEFITS =
+
+ABSTRACT =
+This talk presents a high-level approach to working with relational and NoSQL databases, and provides idiomatic solutions to common tasks such as deriving schemas from annotated type definitions, migrating data, or efficiently processing queries. These solutions will be introduced as part of a library that wants to become the go-to library for anything from small web applications to demanding backends.
+
+$(P There already exist many libraries for certain aspects of database work and D even has some higher-level object mappers. But it still lacks a holistic approach that deals with every task in day-to-day database work in a way that leverages D's powerful features to improve efficiency and reduce boilerplate.)
+
+$(P This library provides a common high-level interface to various existing database drivers, making it possible to work with any SQL and a wide range of NoSQL databases.)
+
+$(P It will hopefully lay the groundwork for very productive web application development by using D to provide a unique efficiency, (type-)safety, and conciseness advantage over existing solutions in other programming languages.)
+
+BIO =
+After working 2 years as C++ application and DSP developer at $(WEB ableton.com, Ableton) and almost 2 years of full-time open source work, Martin is currently working as backend engineer at $(WEB plugintheworld.com, Mobisol). He is one of the main contributors to the D runtime and reference compiler, and also D's release manager. You can find his GitHub profile $(WEB github.com/MartinNowak, here).

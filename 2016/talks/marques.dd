@@ -1,0 +1,47 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 11:00 AM
+
+SPEAKER = Lu&iacute;s Marques
+
+SPEAKER_SHORT = marques
+
+SPEAKER_PIC = http://www.gravatar.com/avatar/186595d443d24380c366e93823c03605?s=250
+
+SPEAKER_URL =
+
+TALK_TITLE = What Parnas72 Means for D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+D is presented as a language with strong modeling power. Yet, how well the language is able to provide the desired abstractions can only be fully evaluated in the context of how programmers want to divide their programs into smaller components. That easily becomes a complex topic, because there is no complete consensus on how to best design programs. How important different abstractions are judged to be will depend on the assumed programming paradigm, the chosen programming methodology, the desired program properties, as well as personal preferences. Despite this, there are some programming abstractions, properties and principles that are broadly considered as desirable, and which tend to reappear in multiple places and various forms. One these principles is that of information hiding.
+
+$(P The advantages of information hiding were first described by David Parnas in his 1971 article "Information Distribution Aspects of Design Methodology", and more broadly popularized in his 1972 article, "On the criteria to be used in decomposing systems into modules" (Parnas72). The name "information hiding" is somewhat misleading, and although it is related to the concept of encapsulating data in objects it should not be confused with it. Instead, it refers more broadly to what is now typically described using two different principles: (1) coding against an interface, not an implementation; and (2) the interface segregation principle. Taken together, these mean that each "module" (class, component, etc.) should be implemented by relying only on the essential properties of the entities with which it interacts. All other information should be hidden from the module, so that the module does not rely on it, no matter its nature (e.g. run-time data, programming interface details, etc.).)
+
+$(P The presentation of the concept and advantages of information hiding in Parnas72 comes in two forms: the main text exposition, in informal prose, and the example programs' specifications, in an arcane specification language [1]. The main text is, for the most part, quite clear and enjoyable to read, especially for a scientific article. On the other hand, the example programs' specifications look foreign and obscure. For instance, the purpose of the described functions is never specified textually, but only indirectly through a list of cross-referencing formal contracts. Therefore, the paper will not invite most readers to carefully examine the proposed example programs, but only to consider their general structure, to follow along with the main text explanation.)
+
+$(P Some time ago I decided to examine in detail Parnas72, due to its historic importance and continued relevance. To assure I had completely understood the article in its entirety, at the time I decided to reimplement the example programs of the paper in the D programming language. In the process of doing so I progressively realized that not only the D implementation clarified the original article, but also that many of the best insights that could be gleaned from the paper could only be had by contrasting the proposed implementation with a more modern, D-idiomatic one.)
+
+$(P In this talk, I propose to present the original argument of the paper on how information hiding can improve the decomposition of programs, and then illustrate how this objective can be best realized when the modeling power of D is available.)
+
+$(P With respect to the original argument, we will see, in the context of more modern practices and terminology, how a decomposition based on information hiding improves program comprehensibility, development time, testability, and amenability to change.)
+
+$(P Then, we will look into how even the proposed information-hiding design is unnecessarily complex, and how modern practices in general and the D abstractions in particular can dramatically simplify the problem. Specifically, we will see that the nature of information hiding naturally and inexorably leads us towards a solution using ranges and algorithms. This is one of the hallmarks of great design: great design feels inevitable. Thus, this will be an argument in favor of the claim that D indeed possesses strong modeling power.)
+
+[1] A Paradigm for Software Module Specification with Examples, 1971, Parnas, D.L.
+
+BIO =
+$(P I am a generalist programmer, with a good grasp of computer architecture and distributed systems. I started using D around 2003, and became even more enamored with the language when ranges and range-based algorithms were introduced. I am currently pursuing my PhD, which aims to provide probabilistic timeliness guarantees in wireless networks operating in uncertain environments, such as wireless sensor networks. In my free time you might find me doing embedded systems development, creating my own CPU, or trying to come up with a generic algorithm to neatly solve a problem. Whenever possible I choose D for the task -- even for hardware design.)

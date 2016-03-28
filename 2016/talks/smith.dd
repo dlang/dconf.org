@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 1:30 PM
+
+SPEAKER = Erik Smith
+
+SPEAKER_SHORT = smith
+
+SPEAKER_PIC = $(BASE)/images/smith.png
+
+SPEAKER_URL =
+
+TALK_TITLE = A D standard database interface and implementation
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+Most modern language platforms, including D, provide some ability to interact with databases through community provided libraries specific to each database.   Some languages, however, (notably Java, python, and perl), have had a big advantage in the application and utility domain by offering a standard common interface layer.  D, with it's unique mix of speed, modeling power, and ease-of-scripting, could also achieve a similar level or success.  A standard interface would provide multiple benefits: a simpler interface for client code to be built more quickly,  a level of portability across databases, and a foundational layer on which higher level capabilities can be built.
+
+$(P A fundamental design aspect of the D standard database interface (std.database) is to provide an interface that meets many design goals.  It must be both familiar and as easy to use as any comparable interface in any language.  The implementations must be designed for high performance that many use cases will require.   It must also be flexible enough to take advantage of specific driver capabilities when they are available.  The interface must also be carefully designed with a sufficient number of implementations to be stable as more databases are supported over time.  The interface must dovetail seamlessly with D language features.  The interface must provide both synchronous and asynchronous I/O capabilities to address the growing need for applications with high numbers of connections. Finally, both SQL and NoSQL databases should be addressed.)
+
+$(P An exploration of the interface, as well as the growing list supported databases, will include coverage of essential features: including I/O binding for scalars and arrays, range based row sets, detachable row sets, direct vs polymorphic interfaces, type conversion, compile time policy configuration, connection pooling, fluent style interface, and the use of higher level functions that simplify common use cases, including basic serialization and object relational mapping.)
+
+BIO =
+Erik Smith has many years of experience in high performance database application development with C++.  He is a long time C++ conference attendee and this is his 3rd year of attendance at DConf.  Erik is a member of the analytics team at Transcend Insights in San Diego.

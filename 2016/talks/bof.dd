@@ -1,0 +1,29 @@
+Ddoc
+
+Macros:
+
+DATE =
+
+TIME = 5:30 PM
+
+SPEAKER = E-V-E-R-Y-O-N-E!
+
+TYPE = Birds of a Feather
+
+DURATION = As long as we stand
+
+TALK_TITLE = Birds of a Feather session: Building and Packaging Systems
+
+LEVEL = All
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+ABSTRACT =
+Per popular demand, we're holding an unstructured after hours birds-of-a-feather meeting among all interested in build systems, packaging, deployment, and such. We don't know the exact location yet&mdash;conference room, hotel foyer, tea house, beer hall?&mdash;but hang loose and listen to announcements at the end of the second day.
+
+BIO =
+N/A

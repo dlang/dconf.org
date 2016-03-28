@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 10:00 AM
+
+SPEAKER = Ali &Ccedil;ehreli
+
+SPEAKER_SHORT = cehreli
+
+SPEAKER_URL = http://acehreli.org
+
+SPEAKER_PIC = $(BASE)/images/cehreli.jpg
+
+TALK_TITLE = Multitasking with D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+D provides support for multitasking in the form of language features and standard library modules. D makes it easy for your programs to perform multiple tasks at the same time by taking advantage of all cores of the CPU through parallelism, concurrency, and fibers.
+
+BIO =
+Ali Çehreli has been working with C, C++, and D in Silicon Valley since 1996. He is the author of the book "Programming in D", a board member of The D Language Foundation, and an organizer of DLang and ACCU meetup groups in Silicon Valley.

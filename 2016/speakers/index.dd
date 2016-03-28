@@ -1,0 +1,27 @@
+Ddoc
+
+  $(bright_BLURB)
+  $(alexandrescu_BLURB)
+  $(lucarella_BLURB)
+
+  $(cehreli_BLURB)
+  $(marques_BLURB)
+  $(watson_BLURB)
+  $(nacke_BLURB)
+  $(schveighoffer_BLURB)
+
+  $(clugston_BLURB)
+  $(zvibel_BLURB)
+  $(thaut_BLURB)
+  $(schadek_BLURB)
+  $(sechet_BLURB)
+  $(panteleev_BLURB)
+
+  $(nowak_BLURB)
+  $(smith_BLURB)
+  $(colvin_BLURB)
+  $(hunsur_BLURB)
+
+Macros:
+
+BASE = ..

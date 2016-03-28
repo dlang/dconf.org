@@ -1,0 +1,59 @@
+Ddoc
+
+$(T h1,,Schedule)
+
+$(T table, id="schedule" class="green",
+  $(T TR,,
+      $(T th, colspan="3", Day 1: Wednesday May 4, 2016)
+  )
+  $(BREAKFAST)
+  $(alexandrescu_ROW)
+  $(cehreli_ROW)
+  $(marques_ROW)
+  $(LUNCH)
+  $(watson_ROW)
+  $(nacke_ROW)
+  $(schveighoffer_ROW)
+  $(panel1_ROW)
+)
+
+$(T table, id="schedule" class="orange",
+  $(T TR,,
+    $(T th, colspan="3", Day 2: Thursday May 5, 2016)
+  )
+  $(BREAKFAST)
+  $(bright_ROW)
+  $(clugston_ROW)
+  $(zvibel_ROW)
+  $(LUNCH)
+  $(thaut_ROW)
+  $(schadek_ROW)
+  $(sechet_ROW)
+  $(panel3_ROW)
+  $(bof_ROW)
+)
+
+$(T table, id="schedule" class="purple",
+  $(T TR,,
+    $(T th, colspan="3", Day 3: Friday May 6, 2016)
+  )
+  $(BREAKFAST)
+  $(lucarella_ROW)
+  $(panteleev_ROW)
+  $(nowak_ROW)
+  $(LUNCH)
+  $(smith_ROW)
+  $(colvin_ROW)
+  $(hunsur_ROW)
+  $(panel2_ROW)
+)
+
+Macros:
+
+BASE = ..
+
+TR = $(T tr,, $0)
+
+BREAKFAST = $(T tr, class="break", $(T td,, 8:30 AM - 9:00 AM)$(T td, colspan=2, Breakfast))
+
+LUNCH = $(T tr, class="break", $(T td,, 12:00 PM - 1:30 PM)$(T td, colspan=2, Lunch &amp; Mingling))

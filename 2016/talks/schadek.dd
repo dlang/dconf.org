@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 2:30 PM
+
+SPEAKER = Robert Schadek
+
+SPEAKER_SHORT = schadek
+
+SPEAKER_URL = http://www.svs.informatik.uni-oldenburg.de/60865.html
+
+SPEAKER_PIC = http://www.svs.informatik.uni-oldenburg.de/bilder/photo_robert.jpg
+
+TALK_TITLE = Asynchronous single page applications without a line of HTML or Javascript, or why D is just awesome
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+BENEFITS =
+
+ABSTRACT =
+Building awesome UI’s fast with AngularJS, Bootstrap, vibe.d and
+a lot of D.
+
+$(P AngularJS, together with Node.js, is an extremely powerful combination for building single page applications. Unfortunately, its development requires writing HTML and Javascript, which is tedious and error prone. By using vibe.d, HTML is no longer necessary, and the developers can use the full power of a static-typed language for the development of the backend. Substituting Javascript with Typescript in addition to a little bit of CTFE D magic then removes the need for redundant data type declarations, and makes everything statically typed. At the end of the talk, the attendee will have witnessed the creation of a statically typed, asynchronous single page application that required little extra typing than its dynamically typed equivalent. Additionally, the attendees will be motivated to explore the presented combination of frameworks as a viable desktop application UI framework.)
+
+BIO =
+Robert Schadek received a Bachelor's degree in computer science in 2011 at the University of Oldenburg, Germany. In his bachelor thesis he developed a multi-threaded octree. In 2012 he earned a Master's degree in computer science at the University of Oldenburg. His master thesis was titled "DMCD A Distributed Multithreading Caching D Compiler" and introduced multi-threading among other optimizations to the compiler control flow. Since 2012, he is a PhD candidate in the department of Prof. Dr.-Ing. Oliver Theel at the University of Oldenburg. His PhD research focuses on quorum systems in combination with graphs.

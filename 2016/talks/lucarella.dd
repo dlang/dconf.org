@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 9:00 AM
+
+SPEAKER = Leandro Lucarella
+
+SPEAKER_SHORT = lucarella
+
+SPEAKER_URL = http://llucax.com.ar
+
+SPEAKER_PIC = https://secure.gravatar.com/avatar/254e99a25dbedd5ab51c310d0e874568?s=400&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
+
+TALK_TITLE = Keynote
+
+TYPE = $(B Keynote)
+
+LEVEL = All
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_SD_URL =
+
+VIDEO_HD_URL =
+
+VIDEO = $(VIDEO_NO)
+
+BENEFITS =
+
+ABSTRACT =
+Being probably one of the earliest D adopters in the industry, Sociomantic had a lot of fun rides with the language and its community. This talk will go through this history, from where we started to where are we heading at. We started very early but we lagged behind very early too, being stuck with D1 for way too long made our participation in Dland very limited. But we hope this will change very soon. We are more excited than ever about getting closer to the community and being a more active player in the language ecosystem.
+
+BIO =
+Leandro Lucarella has been following D since about 2004 and started
+participating in D forums in late 2006. In 2008 he started working on
+the CDGC as his Software Engineering thesis, which he finished by the
+end of 2010. Since he got involved with D he has been an on-and-off
+small contributor. With more than 15 years of experience in the
+industry, in the last years he's been focusing on low-latency and
+distributed systems in C/C++ and moved to Berlin in late 2011 to work
+in D at Sociomantic.

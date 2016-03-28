@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May
+
+TIME =
+
+SPEAKER = Guillaume Piolat
+
+SPEAKER_SHORT = piolat
+
+SPEAKER_URL =
+
+SPEAKER_PIC =
+
+TALK_TITLE = Rendered UIs for audio plugins
+
+TYPE =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL =
+
+ABSTRACT =
+
+BENEFITS =
+
+BIO =
