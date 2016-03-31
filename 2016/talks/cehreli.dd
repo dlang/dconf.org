@@ -27,7 +27,9 @@ VIDEO = $(VIDEO_NO)
 LEVEL = Intermediate
 
 ABSTRACT =
-D provides support for multitasking in the form of language features and standard library modules. D makes it easy for your programs to perform multiple tasks at the same time by taking advantage of all cores of the CPU through parallelism, concurrency, and fibers.
+D provides support for multitasking in the form of language features and standard library modules. D makes it easy for your programs to perform multiple tasks at the same time. This kind of support is especially important in order to take advantage of the multiple CPU cores that are available on modern computing systems.
+
+$(P Multitasking is one of the most difficult computing concepts to implement correctly. This talk will introduce different kinds of multitasking, as well as parallelism, a concept which is in fact unrelated to, but is often confused with, multitasking. The talk will conclude with fibers (aka co-routines), a powerful tool that is often overlooked despite its convenience.)
 
 BIO =
 Ali Çehreli has been working with C, C++, and D in Silicon Valley since 1996. He is the author of the book "Programming in D", a board member of The D Language Foundation, and an organizer of DLang and ACCU meetup groups in Silicon Valley.
