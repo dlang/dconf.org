@@ -8,6 +8,8 @@ TIME = 1:30 PM
 
 SPEAKER = Ethan Watson
 
+SPEAKER_PIC = $(BASE)/images/watson.jpg
+
 SPEAKER_SHORT = watson
 
 SPEAKER_URL =
