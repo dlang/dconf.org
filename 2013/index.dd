@@ -7,9 +7,9 @@ Ddoc
   $(P The D programming language is undergoing rapid growth, spurred
   by a bustling talented community and downright furious coding
   activity on the open-source $(LINK2
-  http://github.com/D-Programming-Language/dmd, compiler
+  http://github.com/dlang/dmd, compiler
   front-end) and $(LINK2
-  http://github.com/D-Programming-Language/phobos, standard
+  http://github.com/dlang/phobos, standard
   library). These also fuel the $(LINK2 http://gdcproject.org,
   gdc) compiler (based off of the $(LINK2 http://gcc.gnu.org,
   gcc) infrastructure) and the $(LINK2
