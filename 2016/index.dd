@@ -31,7 +31,7 @@ $(T table,,
     )
     $(T tr,,
       $(T td,, Registration deadline)
-      $(T td,, $(LINK2 registration.html, $(B Monday April 22, 2016, 23:59:59.99 PST)))
+      $(T td,, $(LINK2 registration.html, $(B Monday May 2, 2016, 23:59:59.99 PST)))
     )
     $(T tr,,
       $(T td,, Conference)
