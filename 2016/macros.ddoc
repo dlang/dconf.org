@@ -82,6 +82,13 @@ $(DIV class="page_right equal",
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 )
+  $(DIV class="sponsors",
+    $(T span, class="sp", Catering Partner)<br />
+      $(T table,, $(T tr,,
+      $(T td,, $(LINK2 http://starkes-catering.com,
+	<img src="images/starkes.svg" width="100%" alt="Starkes Catering" border="0" />)))
+    )
+   )
 )
 
 DDOC = $(HEADER)
