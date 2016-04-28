@@ -86,7 +86,7 @@ $(DIV class="page_right equal",
     $(T span, class="sp", Catering Partner)<br />
       $(T table,, $(T tr,,
       $(T td,, $(LINK2 http://starkes-catering.com,
-	<img src="images/starkes.svg" width="40%" alt="Starkes Catering" border="0" />)))
+	<img src="images/starkes.svg" width="100%" alt="Starkes Catering" border="0" />)))
     )
    )
 )
