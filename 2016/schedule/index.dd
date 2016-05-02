@@ -6,7 +6,7 @@ $(T table, id="schedule" class="green",
   $(T TR,,
       $(T th, colspan="3", Day 1: Wednesday May 4, 2016)
   )
-  $(BREAKFAST)
+  $(BREAKFAST1)
   $(alexandrescu_ROW)
   $(cehreli_ROW)
   $(marques_ROW)
@@ -54,6 +54,8 @@ BASE = ..
 
 TR = $(T tr,, $0)
 
-BREAKFAST = $(T tr, class="break", $(T td,, 8:30 AM - 9:00 AM)$(T td, colspan=2, Breakfast))
+BREAKFAST = $(T tr, class="break", $(T td,, 9:00 AM - 10:00 AM)$(T td, colspan=2, Breakfast))
 
-LUNCH = $(T tr, class="break", $(T td,, 12:00 PM - 1:30 PM)$(T td, colspan=2, Lunch &amp; Mingling))
+BREAKFAST1 = $(T tr, class="break", $(T td,, 9:00 AM - 10:00 AM)$(T td, colspan=2, Breakfast and Registration))
+
+LUNCH = $(T tr, class="break", $(T td,, 1:00 PM - 2:30 PM)$(T td, colspan=2, Lunch &amp; Mingling))
