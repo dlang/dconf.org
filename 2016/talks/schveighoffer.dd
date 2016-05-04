@@ -16,7 +16,7 @@ SPEAKER_URL =
 
 TALK_TITLE = Mutability Wildcards in D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
