@@ -16,7 +16,7 @@ SPEAKER_PIC = https://media.licdn.com/media/p/7/005/00e/210/1cdcd05.jpg
 
 TALK_TITLE = D's Import and Export Business
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
