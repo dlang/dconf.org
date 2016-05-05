@@ -9,10 +9,12 @@ HTML_NAMES = $(addsuffix .html, \
 
 TALK_BASENAMES = alexandrescu bof bright cehreli clugston colvin \
 	hunsur lucarella \
-	marques nacke panel1 panel2 panel3 panteleev piolat nowak schadek \
+	marques nacke panel1 panel2 panel3 panteleev nowak schadek \
 	schveighoffer sechet smith thaut watson zvibel
 
-TO_COPY = images/ includes/
+TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \
+  thaut\
+))
 #TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \
   alexandrescu allison bright colvin davis gubler isaacson murphy nadlinger neves ruppe sechet smith strasuns wakeling zvibel))\
   talks/schott.zip
