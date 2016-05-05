@@ -16,7 +16,9 @@ SPEAKER_PIC = http://www.svs.informatik.uni-oldenburg.de/bilder/photo_robert.jpg
 
 TALK_TITLE = Asynchronous single page applications without a line of HTML or Javascript, or why D is just awesome
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://www.slideshare.net/RobertSchadek/asynchronous-single-page-applications-without-a-line-of-html-or-javascript-or-why-d-is-just-awesome
 
 VIDEO_SD_URL =
 
