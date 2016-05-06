@@ -16,7 +16,9 @@ SPEAKER_PIC = https://avatars0.githubusercontent.com/u/288976?v=3&s=400
 
 TALK_TITLE = Object-Relational Mapper
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = https://code.dawg.eu/talks/2016-05-06-orm_dconf
 
 VIDEO_URL_Y =
 
