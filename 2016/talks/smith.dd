@@ -16,7 +16,9 @@ SPEAKER_URL =
 
 TALK_TITLE = A D standard database interface and implementation
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://www.slideshare.net/cruisercoder/dconf-2016-stddatabase-61743444
 
 VIDEO_URL_Y =
 
