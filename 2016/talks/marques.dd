@@ -16,7 +16,9 @@ SPEAKER_URL =
 
 TALK_TITLE = What Parnas72 Means for D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://www.slideshare.net/AndreiAlexandrescu2/dconf-2016-what-parnas72-means-for-d-by-luis-marques
 
 VIDEO_URL_Y =
 

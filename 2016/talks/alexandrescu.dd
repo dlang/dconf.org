@@ -18,7 +18,9 @@ SPEAKER_URL = http://erdani.com
 
 TALK_TITLE = Keynote
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://lideshare.net/AndreiAlexandrescu2/dconf-2016-opening-keynote
 
 VIDEO_URL_A =
 

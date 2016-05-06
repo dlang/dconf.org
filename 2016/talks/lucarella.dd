@@ -20,7 +20,11 @@ TYPE = $(B Keynote)
 
 LEVEL = All
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://www.slideshare.net/AndreiAlexandrescu2/dconf-2016-sociomantic-d-by-leandro-lucarella
+
+SLIDES_URL_UNUSED = http://www.slideshare.net/AndreiAlexandrescu2/dconf-2016-sociomantic-d-by-leandro-lucarella-extended-version
 
 VIDEO_SD_URL =
 
