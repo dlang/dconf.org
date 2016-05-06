@@ -16,7 +16,9 @@ SPEAKER_PIC = $(BASE)/images/hunsur.jpg
 
 TALK_TITLE = Skiron: Experiments in CPU Design in D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://www.slideshare.net/MithunHunsur/skiron-experiments-in-cpu-design-in-d
 
 VIDEO_URL_Y =
 
