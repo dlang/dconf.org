@@ -2,6 +2,10 @@ ifeq (,$(OUT))
 $(error you must define OUT)
 endif
 
+ifeq (,$(DMD))
+DMD = dmd
+endif
+
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, \
