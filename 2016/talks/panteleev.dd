@@ -18,7 +18,9 @@ TALK_TITLE = D Secrets
 
 LEVEL = All
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://thecybershadow.net/d/dconf2016/
 
 VIDEO_URL_Y =
 
