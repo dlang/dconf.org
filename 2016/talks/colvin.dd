@@ -16,7 +16,9 @@ SPEAKER_PIC = https://avatars3.githubusercontent.com/u/1867189?v=3&s=400
 
 TALK_TITLE = CLWrap: Nuisance-free control of your GPU
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://www.slideshare.net/JohnColvin7/clwrap-nonsense-free-control-of-your-gpu
 
 VIDEO_URL_Y =
 
