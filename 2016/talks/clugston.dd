@@ -14,7 +14,7 @@ SPEAKER_URL = http://www.codeproject.com/Members/Don-Clugston
 
 SPEAKER_PIC = $(BASE)/../2014/images/clugston.jpg
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
