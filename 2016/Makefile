@@ -13,7 +13,7 @@ TALK_BASENAMES = alexandrescu bof bright cehreli clugston colvin \
 	schveighoffer sechet smith thaut watson zvibel
 
 TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \
-  clugston schveighoffer thaut\
+  cehreli clugston schveighoffer thaut\
 ))
 #TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \
   alexandrescu allison bright colvin davis gubler isaacson murphy nadlinger neves ruppe sechet smith strasuns wakeling zvibel))\
