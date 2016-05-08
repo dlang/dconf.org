@@ -20,8 +20,6 @@ TYPE = $(B Keynote)
 
 SLIDES = $(SLIDES_YES)
 
-SLIDES_URL = http://slideshare.net/AndreiAlexandrescu2/dconf-2016-keynote-by-walter-bright
-
 VIDEO_URL_Y =
 
 VIDEO_URL_A =
