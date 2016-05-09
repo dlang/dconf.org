@@ -10,11 +10,11 @@ LEVEL = Intermediate
 
 DURATION = 50 minutes
 
-SLIDES_PDF = $(BASE)/talks/$(SPEAKER_SHORT).pdf
+SLIDES_FILE = $(BASE)/talks/$(SPEAKER_SHORT).$1
 
 SLIDES_URL =
 
-SLIDE_LINKS = $(LINK2 $(SLIDES_PDF), PDF)
+SLIDE_LINKS = $(LINK2 $(SLIDES_FILE pdf), PDF)
 
 SLIDES_YES = $(I Slides:) $(B $(SLIDE_LINKS))<br />
 

@@ -26,7 +26,8 @@ SLIDES_URL = http://www.slideshare.net/AndreiAlexandrescu2/dconf-2016-sociomanti
 
 SLIDES_URL_EXTENDED = http://www.slideshare.net/AndreiAlexandrescu2/dconf-2016-sociomantic-d-by-leandro-lucarella-extended-version
 
-SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) <br/> Extended slides: $(LINK2 $(SLIDES_URL_EXTENDED), SlideShare)
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) &middot; $(LINK2 $(SLIDES_FILE pdf), PDF) <br/>
+Extended slides: $(LINK2 $(SLIDES_URL_EXTENDED), SlideShare) &middot; $(LINK2 $(SLIDES_FILE extended.pdf), PDF)
 
 VIDEO_SD_URL =
 
