@@ -12,9 +12,10 @@ TALK_BASENAMES = alexandrescu bof bright cehreli clugston colvin \
 	marques nacke panel1 panel2 panel3 panteleev nowak schadek \
 	schveighoffer sechet smith thaut watson zvibel
 
-TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \
-  bright cehreli clugston marques schveighoffer thaut\
-))
+TO_COPY = images/ includes/ $(addprefix talks/, $(addsuffix .pdf, \
+  alexandrescu bright cehreli clugston colvin hunsur lucarella\
+  lucarella.extended marques schadek schveighoffer smith thaut zvibel) \
+$(addsuffix .pptx, sechet))
 #TO_COPY = images/ includes/ $(addsuffix .pdf, $(addprefix talks/, \
   alexandrescu allison bright colvin davis gubler isaacson murphy nadlinger neves ruppe sechet smith strasuns wakeling zvibel))\
   talks/schott.zip
@@ -61,6 +62,9 @@ $(OUT)/%/ : %/
 	cp -r $^ $@
 
 $(OUT)/%.pdf : %.pdf
+	cp $^ $@
+
+$(OUT)/%.pptx : %.pptx
 	cp $^ $@
 
 $(OUT)/%.zip : %.zip

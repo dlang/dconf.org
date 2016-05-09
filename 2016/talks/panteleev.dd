@@ -22,7 +22,7 @@ SLIDES = $(SLIDES_YES)
 
 SLIDES_URL = http://thecybershadow.net/d/dconf2016/
 
-SLIDE_LINKS = $(LINK2 $(SLIDES_URL), View online)
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), View online) &middot; $(LINK2 https://github.com/CyberShadow/reveal.js/tree/dconf2016-secrets, Source code)
 
 VIDEO_URL_Y =
 
