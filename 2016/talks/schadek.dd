@@ -20,6 +20,8 @@ SLIDES = $(SLIDES_YES)
 
 SLIDES_URL = http://www.slideshare.net/RobertSchadek/asynchronous-single-page-applications-without-a-line-of-html-or-javascript-or-why-d-is-just-awesome
 
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare)
+
 VIDEO_SD_URL =
 
 VIDEO_HD_URL =
