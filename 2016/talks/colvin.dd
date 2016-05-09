@@ -20,6 +20,8 @@ SLIDES = $(SLIDES_YES)
 
 SLIDES_URL = http://www.slideshare.net/JohnColvin7/clwrap-nonsense-free-control-of-your-gpu
 
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare)
+
 VIDEO_URL_Y =
 
 VIDEO_URL_A =

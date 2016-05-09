@@ -16,6 +16,8 @@ SLIDES = $(SLIDES_YES)
 
 SLIDES_URL = http://slideshare.net/AndreiAlexandrescu2/dconf-2016-bitpacking-like-a-madman-by-amaury-sechet
 
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare)
+
 VIDEO_URL_Y =
 
 VIDEO_URL_A =

@@ -20,6 +20,8 @@ SLIDES = $(SLIDES_YES)
 
 SLIDES_URL = http://www.slideshare.net/cruisercoder/dconf-2016-stddatabase-61743444
 
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare)
+
 VIDEO_URL_Y =
 
 VIDEO_URL_A =
