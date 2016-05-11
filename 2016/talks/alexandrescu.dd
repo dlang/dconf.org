@@ -22,6 +22,8 @@ SLIDES = $(SLIDES_YES)
 
 SLIDES_URL = http://slideshare.net/AndreiAlexandrescu2/dconf-2016-opening-keynote
 
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) &middot; $(LINK2 $(SLIDES_FILE pdf), PDF)
+
 VIDEO_URL_A =
 
 VIDEO_URL_Y =
