@@ -16,7 +16,11 @@ SPEAKER_URL =
 
 TALK_TITLE = Quantum Break: AAA Gaming With Some D Code
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/watson.pptx
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PPTX)
 
 VIDEO_URL_Y =
 
