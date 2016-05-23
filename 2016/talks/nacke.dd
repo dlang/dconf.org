@@ -16,7 +16,7 @@ SPEAKER_PIC = https://fosdem.org/2016/schedule/speaker/kai_nacke/effeae52a776341
 
 TALK_TITLE = D Everywhere!
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
