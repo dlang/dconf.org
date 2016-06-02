@@ -1,10 +1,8 @@
 Ddoc
 
-$(T h1,,DConf 2016 Call for Participation)
+$(T h1,,DConf 2016 Has Successfully Concluded! )
 
-$(T h2,,Please join us at DConf 2016, the conference of the D programming language in Berlin, Germany, May 4-6 2016.)
-
-$(P We're very very excited to hold DConf under $(HTTP sociomantic.com, Sociomantic)'s sponsorship in their neck of the woods&mdash;Berlin, one of Europe's premier technology hotbeds. Sociomantic has been a long-time supporter and user of D and we're grateful to benefit from their hosting.)
+$(P We were very very excited to hold DConf under $(HTTP sociomantic.com, Sociomantic)'s sponsorship in their neck of the woods&mdash;Berlin, one of Europe's premier technology hotbeds. Sociomantic has been a long-time supporter and user of D and we're grateful to benefit from their hosting.)
 
 $(P The D programming language has continued to $(HTTP erdani.com/d/downloads.daily.png, grow strongly) through 2015 in both use and development participation. The fledgling D Language Foundation is poised to lead and organize the community better than ever before. DConf is the main face-to-face event for everyone and everything related to the D language and environment. The 2016 edition will be held in premiere in Europe, on the heels of strong D adoption throughout the Old Continent. We're gearing for our largest event yet!)
 
@@ -12,27 +10,9 @@ $(T h2,,Conference Programme)
 
 $(P Check the $(LINK2 schedule/, schedule) or see our $(LINK2 speakers/, speakers) page.)
 
-$(T h2,,Registration)
-
-$(P Registration is now open! Space and time are limited, so secure
-your seat now. For more details, check our
-$(LINK2 registration.html, registration page).)
-
 $(T h2,,Important Dates)
 
 $(T table,,
-    $(T tr,,
-      $(T td,, Submission Deadline)
-      $(T td,, $(T font, color=red, $(B Friday February 26, 2016, 23:59:59.99 PST)))
-    )
-    $(T tr,,
-      $(T td,, Early bird registration deadline)
-      $(T td,, $(T font, color=red, $(B Monday February 29, 2016, 23:59:59.99 PST)))
-    )
-    $(T tr,,
-      $(T td,, Registration deadline)
-      $(T td,, $(LINK2 registration.html, $(B Monday April 22, 2016, 23:59:59.99 PST)))
-    )
     $(T tr,,
       $(T td,, Conference)
       $(T td,, $(B Wednesday May 4&ndash;Friday May 6, 2016))
