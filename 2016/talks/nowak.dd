@@ -18,7 +18,7 @@ TALK_TITLE = Object-Relational Mapper
 
 SLIDES = $(SLIDES_YES)
 
-SLIDES_URL = https://code.dawg.eu/talks/2016-05-06-orm_dconf
+SLIDES_URL = https://code.dawg.eu/talks/2016-05-06-orm_dconf/
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), View online)
 
