@@ -29,11 +29,11 @@ SLIDES_URL_EXTENDED = http://www.slideshare.net/AndreiAlexandrescu2/dconf-2016-s
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) &middot; $(LINK2 $(SLIDES_FILE pdf), PDF) <br/>
 Extended slides: $(LINK2 $(SLIDES_URL_EXTENDED), SlideShare) &middot; $(LINK2 $(SLIDES_FILE extended.pdf), PDF)
 
-VIDEO_SD_URL =
+VIDEO_URL_A =
 
-VIDEO_HD_URL =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=0iwO3S-3szM
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 
