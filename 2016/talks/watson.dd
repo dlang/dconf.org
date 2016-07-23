@@ -22,11 +22,11 @@ SLIDES_URL = $(BASE)/talks/watson.pptx
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PPTX)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=OLFBal4Qo_k
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate
 
