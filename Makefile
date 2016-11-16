@@ -3,7 +3,7 @@ SITE = dconf.org@digitalmars.com:data/
 DMD = dmd
 OUT = out
 
-all: $(OUT)/index.php 2013/all 2014/all 2015/all 2016/all
+all: $(OUT)/index.php 2013/all 2014/all 2015/all 2016/all 2017/all
 
 .PHONY: rsync
 rsync : all
@@ -26,6 +26,9 @@ clean: 2013/clean 2014/clean
 
 2016/%:
 	$(MAKE) DMD=$(DMD) --directory=2016 OUT=../$(OUT)/2016 $*
+
+2017/%:
+	$(MAKE) DMD=$(DMD) --directory=2017 OUT=../$(OUT)/2017 $*
 
 $(OUT)/%: %
 	mkdir -p $(OUT)
