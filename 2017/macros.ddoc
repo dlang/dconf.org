@@ -41,7 +41,7 @@ $(T title,, $(PAGE_TITLE))
 
 MENU =
 $(DIV class="logo",
-  $(COMMENT T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf_logo_2016.svg" alt="DConf 2016: May 4&#x2013;6 &#x00B7; Berlin" height="116" border="0" />)
+  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf_logo_2017.svg" alt="DConf 2017: May 4&#x2013;6 &#x00B7; Berlin" height="116" border="0" />)
 )
 $(DIV class="menu row_after",
   $(T nav,,
