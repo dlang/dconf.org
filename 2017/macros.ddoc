@@ -65,7 +65,7 @@ SPONSORS =
 $(DIV class="page_right equal",
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="sponsors",
-    $(T span, class="sp", Sponsor)<br />
+    $(T span, class="sp", Partner)<br />
       $(T table,, $(T tr,,
       $(T td,, $(LINK2 http://sociomantic.com,
       <img src="http://www.offremedia.com/sites/default/files/styles/270x170_echelle/public/logo_org_21466.png?itok=moLeleXt" width="100%" alt="Sociomantic" border="0" />)))
@@ -77,12 +77,14 @@ $(DIV class="page_right equal",
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 )
   $(DIV class="sponsors",
+   $(COMMENT
     $(T span, class="sp", Catering Partner)<br />
-      $(T table,, $(T tr,,
+    $(T table,, $(T tr,,
       $(T td,, $(LINK2 http://starkes-catering.com,
-	<img src="$(BASE)/images/starkes.svg" width="40%" alt="Starkes Catering" border="0" />)))
+        <img src="$(BASE)/images/starkes.svg" width="40%" alt="Starkes Catering" border="0" />)))
     )
    )
+  )
 )
 
 DDOC = $(HEADER)

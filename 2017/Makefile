@@ -5,11 +5,13 @@ endif
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, \
-	index)
+	contact index registration schedule/index speakers/index venue)
 
 TALK_BASENAMES =
 
-TO_COPY = images/ includes/
+TO_COPY = \
+	images/ $(wildcard images/*.png images/*.svg) \
+	includes/ $(wildcard includes/*)
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
@@ -50,7 +52,7 @@ $(OUT)/%.html : macros.ddoc %.dd
 	$(DMD) -c -o- -Df$@ $^
 
 $(OUT)/%/ : %/
-	cp -r $^ $@
+	mkdir -p $@
 
 $(OUT)/%.pdf : %.pdf
 	cp $^ $@
@@ -59,4 +61,13 @@ $(OUT)/%.pptx : %.pptx
 	cp $^ $@
 
 $(OUT)/%.zip : %.zip
+	cp $^ $@
+
+$(OUT)/%.png : %.png
+	cp $^ $@
+
+$(OUT)/%.svg : %.svg
+	cp $^ $@
+
+$(OUT)/%.css : %.css
 	cp $^ $@

@@ -1,0 +1,25 @@
+Ddoc
+
+$(T h1,, Venue)
+
+$(P Europe! We're very excited to be right in the middle of the action in Berlin with $(HTTP sociomantic.com, Sociomantic)'s generous hosting.)
+
+$(P DConf 2017 will take place at $(HTTP heimathafen-neukoelln.de, Heimathafen in Neuk&ouml;lln).)
+
+<img src="images/heimathafen.png"><br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.124998183607!2d13.437135351934037!3d52.47687244707698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fa17c0f7be7%3A0xc8825224f17a6cd7!2sKarl-Marx-Stra%C3%9Fe+141%2C+12043+Berlin%2C+Germany!5e0!3m2!1sen!2sus!4v1445615446410" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+$(T h2,, Nearby hotels)
+
+$(P Nearby hotels (prices and availability and may vary):)
+
+$(UL
+
+$(LI $(HTTP ibis.com/gb/hotel-5694-ibis-berlin-neukoelln/index.shtml, Hotel Ibis Neuk&ouml;lln), Jahnstrasse 13, 12347&mdash;Berlin, Germany. This will likely be DConf's unofficial hangout place.)
+
+)
+
+Macros:
+
+HTTP=$(LINK2 http://$1, $+)
