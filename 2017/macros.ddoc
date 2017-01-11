@@ -65,7 +65,7 @@ SPONSORS =
 $(DIV class="page_right equal",
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="sponsors",
-    $(T span, class="sp", Sponsor)<br />
+    $(T span, class="sp", Partner)<br />
       $(T table,, $(T tr,,
       $(T td,, $(LINK2 http://sociomantic.com,
       <img src="http://www.offremedia.com/sites/default/files/styles/270x170_echelle/public/logo_org_21466.png?itok=moLeleXt" width="100%" alt="Sociomantic" border="0" />)))
