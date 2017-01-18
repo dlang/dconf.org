@@ -1,3 +1,124 @@
 Ddoc
 
-Coming soon!
+$(T h1,, Registration)
+
+$(P We're gearing up for the largest DConf to date in one of Europe's hottest
+tech hubs. Are you considering attending DConf 2017 in Berlin? Here's the
+skinny.)
+
+$(P The general registration fee is $(DOLLAR)400. That's top-notch content for 
+a fraction of what  similar conferences are charging. Curious about the quality? 
+Just check the talk videos of the 
+$(HTTP dconf.org/2015/schedule/index.html, 2016), 
+$(HTTP dconf.org/2015/schedule/index.html, 2015), 
+$(HTTP dconf.org/2014/schedule/index.html, 2014), and 
+$(HTTP dconf.org/2013/schedule/index.html, 2013) editions. You're getting 
+fantastic value not only in terms of strong content, but also access to 
+industry luminaries, a welcoming and enthusiastic community, and a lasting 
+boost of inspiration for your work.)
+
+$(P Registration proceeds left after covering conference-related expenses will
+go to D Language Foundation. Your payment will be  transparently used to foster
+understanding and adoption of the D programming language.)
+
+$(P Early Bird registration is $(DOLLAR)250.00 and ends Feb 26. After that registration
+will be $(DOLLAR)400.00.)
+
+<hr />
+
+<table>
+<tr>
+<td colspan="3">
+$(P $(B $(T font, size=+1, Early Bird Registration $(DOLLAR)250)))
+</td>
+</tr>
+<tr>
+
+<td>
+<FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
+<INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
+<INPUT TYPE="hidden" NAME="business" VALUE="foundation@dlang.org">
+<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2017/thankyou.html">
+<INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2017 Registration">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="250.00">
+<INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
+</FORM>
+</td>
+
+
+<td>
+<form action="https://www.eventbrite.com/e/dconf-2017-berlin-tickets-31277455712">
+    <input type="submit" value="buy with Visa / MC">
+</form>
+</td>
+
+$(COMMENT
+<td>
+<script async src="https://static-na.payments-amazon.com/OffAmazonPayments/us/js/Widgets.js"></script>
+<div
+    data-ap-widget-type="expressPaymentButton"
+    data-ap-signature="FkRtqfvFM7%2FKUDQcCGwpM3TAILr%2FL9YPfhPxr5b1qr4%3D"
+    data-ap-seller-id="A3D4NWQ793ZWZX"
+    data-ap-access-key="AKIAJ6H3WNTEVMKJIUWA"
+    data-ap-lwa-client-id="amzn1.application-oa2-client.608548861df74f3aa907d0276c1d0e35"
+    data-ap-return-url="http://www.dconf.org/2015/thankyou.html"
+    data-ap-currency-code="USD"
+    data-ap-amount="400.00"
+    data-ap-note="Registration for Dconf 2015 May 27-29"
+    data-ap-shipping-address-required="false"
+    data-ap-payment-action="AuthorizeAndCapture"
+   >
+</div>
+</td>
+)
+
+</tr>
+</table>
+
+<hr />
+
+$(P All registrations are final. Registrations are transferrable.)
+
+$(P Please let us know what you'd like your badge to say if it is
+different from your name on your credit card.)
+
+$(P Privacy Policy: Your name and email address will be shared with Sociomantic
+since it is hosting the event. Otherwise, The D Language Foundation will not
+share your data with anyone unless compelled by lawful orders.)
+
+$(T h1,, Sponsorship)
+
+$(P Cannot attend DConf 2017 but want to help out? Be an individual sponsor!
+We'll list your name on an individual sponsors page.)
+
+<hr />
+
+<table>
+<tr>
+<td >
+$(P $(B $(T font, size=+1, Individual Sponsorship $(DOLLAR)50)))
+</td>
+</tr>
+<tr>
+
+<td>
+<FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
+<INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
+<INPUT TYPE="hidden" NAME="business" VALUE="foundation@dlang.org">
+<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2017/thankyou.html">
+<INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2017 Sponsorship">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="50.00">
+<INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
+</FORM>
+</td>
+
+</table>
+
+<hr />
+
+$(P For corporate sponsorship packages, please contact
+$(LINK2 mailto:dconf2016@digitalmars.com, dconf2016@digitalmars.com).)
+
+
