@@ -16,85 +16,9 @@ $(P The D conference will not end after the three days of talks but continue on 
 
 $(P The motivation for adding a D ecosystem hackathon (besides having fun) is that a lot of time is wasted due to communication latency because most people can only hack during the night or weekends. At last year’s DConf, the “birds of feather” groups were intended to reduce this communication problem, but sadly the scheduling didn’t quite provide enough time. Thus, the DConf 2017 hackathon isn't a hackathon in the tradition sense as most of the time and focus will hopefully be spent discussing, planning and developing future D projects.)
 
-$(T h2,,Call for Submissions)
-
-$(P We are looking forward to your submission for a paper, talk, demo, or panel for DConf 2017. The topics of choice are anything and everything related to the D language. Such include:)
-
-$(T ul,,
-$(LI $(B Language Proper) issues, such as new idioms and techniques enabled by D)
-
-$(LI $(B Tools and Techniques) for maximizing productivity when
-working in D)
-
-$(LI $(B Experience reports) on using D in the real world)
-
-$(LI $(B Under the hood) looks at compiler and standard library implementation artifacts)
-
-$(LI $(B Hot topics) that are sure to engender lively debates, such
-as manual and automatic memory management, migrating from other
-languages, and of course the perennial matter of managing the D development itself
-)
-
-$(LI $(B Research Reports) (new for DConf 2017!) We gladly accept academic-style research reports from graduate students and other academic researchers.)
-)
-
-$(P But don't be constrained! Originality in topics and formats is warmly encouraged. If it is relevant to the D language, it fits. Just mind the guidelines and don't forget the deadlines below.)
-
-$(P DConf 2017 does not accept presentation proposals that are advertisements of for-sale products or technologies. Vendors interested in doing so, please $(LINK2 contact.html, contact) us for sponsorship information. We appreciate your understanding.)
-
-$(P We expect original work, or work synthesized from community folklore into interesting tidbits by the author. Related work can be mentioned with credit. Overviews of an area covered by other authors is acceptable, again with due credit and assuming the overview has intrinsic value.)
-
-$(P As usual, DConf covers airfare, lodging, and transportation for all speakers within reasonable limits. Contact organizers for details.)
-
-$(T h2,,Selection Criteria)
-
-The committee will review and rate submissions according to the following criteria:
-
-$(T ul,,
-
-$(LI $(B Relevance:) Is the topic interesting to DConf attendees? Will a coverage be beneficial? Is it building on tried and true ideas, or on the contrary, blazing new trails?)
-
-$(LI $(B Coverage:) Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?)
-
-$(LI $(B Organization:) Is the submission well organized? Will the audience tune into the narrative?)
-
-$(LI $(B Novelty and Originality:) How new and noteworthy is the material? Previously published material is acceptable provided it hasn't reached a wide audience within the D community yet.)
-
-$(LI $(B Credentials:) What qualifies you to talk on the topic of choice? Although this criterion favors experienced and well-known submitters, we also very strongly encourage submissions from up-and-coming contributors who have accumulated "street cred" through their open source and forum contributions.)
-
-$(LI $(B Bottom line:) What's your session's takeaway? How is it going to improve attendees' knowledge, outlook, and inspiration?)
-)
-
-$(T h2,,Submission Guidelines)
-
-$(P We expect submission in plain text format or one of the usual rich document formats, such as PDF or DOC. Send your submissions to $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org). The submission should include:)
-
-$(T ol,,
-
-$(LI $(B Title))
-
-$(LI $(B Kind) (e.g. talk, panel, contest, interpretive dance))
-
-$(LI $(B Duration) (we're aiming for 50-minutes presentations, but are considering smaller and larger durations))
-
-$(LI $(B Target Audience) (e.g. beginner, intermediate, advanced))
-
-$(LI $(B Abstract:) the "elevator pitch" of the talk, in one paragraph)
-
-$(LI $(B Extended description:) an extended abstract including any details you believe are relevant for evaluating the submission)
-
-$(LI $(B Brief speaker biography) including a summary of their expertise relative to the talk topic)
-
-$(LI $(B Keyword tags))
-)
-
 $(T h2,,Important Dates)
 
 $(T table,,
-    $(T tr,,
-      $(T td,, Submission Deadline)
-      $(T td,, $(T font, color=blue, $(B Sunday February 26, 2017, 23:59:59.99 PST)))
-    )
     $(T tr,,
       $(T td,, Early bird registration deadline)
       $(T td,, $(T font, color=blue, $(B Monday February 27, 2017, 23:59:59.99 PST)))
