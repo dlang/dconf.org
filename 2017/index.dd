@@ -2,13 +2,19 @@ Ddoc
 
 $(T h1,,DConf 2017 Call for Submissions: Bigger, Badder, and Berliner!)
 
-$(T h2,,Please join us at DConf 2017, the international conference of the D programming language in Berlin, Germany, May 4-6 2017.)
+$(T h2,,Please join us at DConf 2017, the international conference of the D programming language in Berlin, Germany, May 4-7 2017.)
 
 $(P We're happy to announce that the D Language Foundation is cooperating again with $(HTTP sociomantic.com, Sociomantic) to organize DConf 2017 in Berlin for the second time. Same location, same dates, but of course a whole new experience!)
 
 $(P The D programming language has improved dramatically this year thanks to more focus brought up by the D Language Foundation, better participation from corporate users and worldwide volunteers, and the advent of world-class open-source libraries such as Sociomantic's $(HTTP github.com/sociomantic-tsunami, Tsunami) and Ilya Yaroshenko's $(HTTP blog.mir.dlang.io/glas/benchmark/openblas/2016/09/23/glas-gemm-benchmark.html, GLAS). The D Language Foundation has accumulated a war chest and announced a $(HTTP dlang.org/dlangupb-scholarship.html, scholarship) that already enrolls four MSc students.)
 
 $(P DConf is the main face-to-face event for everyone and everything related to the D language and environment. The 2017 edition will be held in Europe for the second time, following last year's smashing success. Which, of course, we plan to smash again!)
+
+$(T h2,,DConf Hackathon on Sunday, May 7 (new for DConf 2017!))
+
+$(P The D conference will not end after the three days of talks but continue on into Sunday for a hackathon during which people can collaboratively focus on long-lasting problems and pain points in the D ecosystem. Of course, any D hackers who wish to simply progress their own personal projects are welcome too! The hackathon will take place at the same $(HTTP ./venue.html, venue) (Heimathafen).)
+
+$(P The motivation for adding a D ecosystem hackathon (besides having fun) is that a lot of time is wasted due to communication latency because most people can only hack during the night or weekends. At last year’s DConf, the “birds of feather” groups were intended to reduce this communication problem, but sadly the scheduling didn’t quite provide enough time. Thus, the DConf 2017 hackathon isn't a hackathon in the tradition sense as most of the time and focus will hopefully be spent discussing, planning and developing future D projects.)
 
 $(T h2,,Call for Submissions)
 
@@ -100,5 +106,9 @@ $(T table,,
     $(T tr,,
       $(T td,, Conference)
       $(T td,, $(B Thursday May 4&ndash;Saturday May 6, 2017))
+    )
+    $(T tr,,
+      $(T td,, Hackathon)
+      $(T td,, $(B Sunday May 7, 2017))
     )
 )
