@@ -39,14 +39,16 @@ $(GETSCRIPT http://dlang.org/js/hyphenate.js)
 $(T title,, $(PAGE_TITLE))
 </head>
 
-MENU =
+LOGO =
 $(DIV class="logo",
   $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf_logo_2017.svg" alt="DConf 2017: May 4&#x2013;6 &#x00B7; Berlin" height="116" border="0" />)
 )
+
+MENU =
+$(DIV class="menu_container",
 $(DIV class="menu row_after",
   $(T nav,,
     $(T ul,id="menu",
-      $(LI &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp)
       $(LI $(LINK2 $(BASE)/index.html, Home))
       $(LI $(LINK2 $(BASE)/registration.html, Register))
       $(LI $(LINK2 $(BASE)/schedule, Schedule))
@@ -59,6 +61,7 @@ $(DIV class="menu row_after",
       $(LI $(LINK2 $(BASE)/../2013, 2013))
     )
   )
+)
 )
 
 SPONSORS =
@@ -91,8 +94,9 @@ DDOC = $(HEADER)
 <body>
 $(DIV id="fb-root", )
 $(GETSCRIPT $(BASE)/includes/facebook.js)
+$(LOGO)
+$(MENU)
 $(DIV id="container",
-  $(MENU)
   $(DIV class="page_left equal hyphenate", $(BODY))
   $(COMMENT DIV class="divider_v equal", &nbsp;)
   $(SPONSORS)
@@ -102,14 +106,9 @@ $(FOOTER)
 </html>
 
 FOOTER =
-<hr />
-$(DIV align="right",
-  $(T font, size="-2",
-    &copy; 2016 The D Language Foundation |
+$(DIV class="footer",
+    &copy; 2017 $(LINK2 https://dlang.org/foundation.html, The D Language Foundation) |
     Generated with Ddoc
-  )
 )
-
-NOTYET=Stay tuned to the $(LINK2 http://forum.dlang.org/group/digitalmars.D.announce, D announce forum) for news about DConf 2015.
 
 WEB = $(LINK2 http://$1, $2)
