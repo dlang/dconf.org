@@ -4,3 +4,6 @@
 # Generated directories
 /20??/.tmp
 /out
+
+# Private key
+/deploy_rsa
