@@ -51,9 +51,6 @@ $(TMP)/schedule/%.gen.ddoc : macros.ddoc talks/macros.ddoc schedule/fragment.ddo
 $(OUT)/%.html : macros.ddoc %.dd
 	$(DMD) -c -o- -Df$@ $^
 
-$(OUT)/%/ : %/
-	mkdir -p $@
-
 $(OUT)/%.pdf : %.pdf
 	cp $^ $@
 
@@ -71,3 +68,7 @@ $(OUT)/%.svg : %.svg
 
 $(OUT)/%.css : %.css
 	cp $^ $@
+
+$(OUT)/%/ : %/
+	mkdir -p $@
+

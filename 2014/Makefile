@@ -51,8 +51,8 @@ $(TMP)/schedule/%.gen.ddoc : macros.ddoc talks/macros.ddoc schedule/fragment.ddo
 $(OUT)/%.html : macros.ddoc %.dd
 	$(DMD) -c -o- -Df$@ $^
 
-$(OUT)/%/ : %/
-	cp -r $^ $@
-
 $(OUT)/%.pdf : %.pdf
 	cp $^ $@
+
+$(OUT)/%/ : %/
+	cp -r $^ $@
