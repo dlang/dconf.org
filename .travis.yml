@@ -7,7 +7,7 @@ addons:
 script: make
 before_deploy:
 - echo -e "Host digitalmars.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- openssl aes-256-cbc -K $encrypted_1daeb42065ec_key -iv $encrypted_1daeb42065ec_iv
+- openssl aes-256-cbc -K $encrypted_beb33a8b4591_key -iv $encrypted_beb33a8b4591_iv
   -in deploy_rsa.enc -out deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 deploy_rsa
@@ -18,6 +18,6 @@ deploy:
   skip_cleanup: true
   # Travis supports only "one" script deployment
   # The chmod is done separately as it will fail for folder & files not owned by travis_ci_dconf
-  script: rsync -vr --delete-after --omit-dir-times out/ travis_ci_dconf@digitalmars.com:/usr/local/www/dconf.org/data && (ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true)
+  script: rsync -vr --omit-dir-times out/ travis_ci_dconf@digitalmars.com:/usr/local/www/dconf.org/data && (ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true)
   on:
     branch: master
