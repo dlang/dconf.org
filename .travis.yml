@@ -1,9 +1,4 @@
 language: d
-addons:
-  apt:
-    sources:
-    # older versions of Make don't support the wildcard rules and will create folders instead of files
-    - make
 script: make
 before_deploy:
 - echo -e "Host digitalmars.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
