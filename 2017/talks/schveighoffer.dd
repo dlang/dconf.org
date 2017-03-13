@@ -12,7 +12,7 @@ SPEAKER_SHORT = schveighoffer
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/../2016/images/schveighoffer.jpg
 
 TALK_TITLE = IOPipe: a High Performance I/O Library
 
@@ -24,7 +24,7 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
+KEYWORDS = io, buffering, streams, performance, pipeline chaining, parsing
 
 ABSTRACT =
 $(P Buffered I/O has been used effectively in software and hardware for many decades, allowing I/O systems to hide the latency that typically happens when one is reading or writing data. However, buffers provide another feature: allowing mass processing of data in-place. The iopipe library is a high-performance buffering subsystem, written entirely in D, which alleviates much of the need to copy or manage data for processing. It’s API also allows for easy chaining of processors to create customized pipelines for data processing.)

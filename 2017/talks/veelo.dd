@@ -24,8 +24,6 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
-
 ABSTRACT =
 $(P Pegged is an elegant library for generating packrat parsers in D. Packrat parsers are parsers for parsing expression grammars (PEGs) that operate in guaranteed linear time through the use of memoization. PEGs are an alternative to context free grammars for formally specifying syntax, and have been gaining in popularity during the last decade. PEG parsers are top-down recursive descent parsers.)
 
