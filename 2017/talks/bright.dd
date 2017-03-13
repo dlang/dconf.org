@@ -14,7 +14,7 @@ SPEAKER_URL = http://walterbright.com
 
 SPEAKER_PIC = http://walterbright.com/wblogo.jpg
 
-TALK_TITLE = Keynote
+TALK_TITLE = Pointers Gone Wild: Memory Safety and D
 
 TYPE = $(B Keynote)
 
@@ -29,7 +29,17 @@ VIDEO = $(VIDEO_NO)
 LEVEL = All
 
 ABSTRACT =
-$(P $(I Coming soon...))
+$(P
+While memory safe code can be written in any language, it
+has become increasingly obvious that languages need to be
+able to mechanically check memory safety. Errors in memory
+safety are regularly exploited to breach security, and
+is all too commonplace in code that was thought to be secure.
+Relying on best practices and code reviews simply isn't good enough
+anymore.
+
+This presentation is about D's approach to mechanically checking
+for memory safety in a language with pointers.)
 
 BIO =
 $(P Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He's an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.)
