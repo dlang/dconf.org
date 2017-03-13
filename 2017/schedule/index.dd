@@ -29,7 +29,8 @@ $(T table, id="schedule" class="orange",
   $(LUNCH)
   $(engelen_ROW)
   $(watson_ROW)
-  $(studentsAB_ROW)
+  $(nitu_ROW)
+  $(cojocaru_ROW)
   $(panel_ROW)
 )
 
@@ -44,7 +45,7 @@ $(T table, id="schedule" class="purple",
   $(LUNCH)
   $(schveighoffer_ROW)
   $(dilly_ROW)
-  $(studentsCD_ROW)
+  $(caciulescu_ROW)
   $(lightning_ROW)
 )
 

@@ -1,0 +1,46 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 16:30
+
+SPEAKER = Alexandru Razvan Caciulescu
+
+SPEAKER_SHORT = caciulescu
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Zero Overhead Interface Between the D Language and the C++
+Standard Library
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P As with all new programming languages, one of the main
+obstacles the D language faces lies with its adoption by programmers
+coming from other languages. Despite it being arguably advantageous in
+several aspects over classic programming languages such as C or C++,
+many programmers prefer to stick with what they already know. To
+narrow this gap and bring together the best of both worlds, old
+and new, the D language has already the capability of calling any
+functions from the C standard library. The main contribution of this
+project is to extend that and provide full compatibility with the C++
+standard library as well.)
+
+$(P This talk will present the obstacles and challenges faced when
+interfacing the D language with the C++ STL and provide a glimpse into
+a future where D has the full support of the STL behind it.)
+
+BIO =

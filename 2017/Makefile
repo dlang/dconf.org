@@ -12,6 +12,8 @@ alexandrescu \
 arneaud \
 bright \
 buclaw \
+caciulescu \
+cojocaru \
 dilly \
 engelen \
 hackathon1 \
@@ -21,14 +23,13 @@ lightning \
 marques \
 meyers \
 nacke \
+nitu \
 nunn \
 olshansky \
 panel \
 panteleev \
 schveighoffer \
 sechet \
-studentsAB \
-studentsCD \
 veelo \
 watson \
 wilson \

@@ -1,0 +1,40 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 17:00
+
+SPEAKER = Lucia Cojocaru
+
+SPEAKER_SHORT = cojocaru
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Generic Lightweight DRuntime
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P Array operations in D have their implementation split between bits of
+compiler optimized code and an archaic inheritance hierarchy in DRuntime
+which relies for the most part on the TypeInfo structure.
+Rather than generating from the compiler TypeInfo information and a
+calls to DRuntime functions, this talk explores "lowering" array
+operations to template calls in object.d. We strive to achieve a
+performance improvement by removing the TypeInfo layer of indirection
+and we are making a first step towards a templatized, easy to maintain
+DRuntime.)
+
+BIO =
