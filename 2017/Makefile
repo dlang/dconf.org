@@ -8,36 +8,34 @@ HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index thankyou venue)
 
 TALK_BASENAMES = \
-bright \
-arneaud \
-marques \
-sechet \
-koch \
-wilson \
-nacke \
-buclaw \
-meyers \
-panteleev \
-olshansky \
-engelen \
-watson \
-studentsAB \
-panel \
 alexandrescu \
-nunn \
-veelo \
-schveighoffer \
+arneaud \
+bright \
+buclaw \
 dilly \
-studentsCD \
-lightning \
+engelen \
 hackathon1 \
 hackathon2 \
+koch \
+lightning \
+marques \
+meyers \
+nacke \
+nunn \
+olshansky \
+panel \
+panteleev \
+schveighoffer \
+sechet \
+studentsAB \
+studentsCD \
+veelo \
+watson \
+wilson \
 
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg) \
-	includes/ $(wildcard includes/*) \
-        $(addprefix talks/, $(addsuffix .pdf, \
-          bright ))
+	includes/ $(wildcard includes/*)
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
