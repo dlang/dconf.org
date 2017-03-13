@@ -10,9 +10,9 @@ SPEAKER = Andrei Alexandrescu
 
 SPEAKER_SHORT = alexandrescu
 
-SPEAKER_URL = 
+SPEAKER_URL = http://erdani.com
 
-SPEAKER_PIC = 
+SPEAKER_PIC = http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg
 
 TALK_TITLE = Keynote
 
@@ -26,7 +26,7 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
+LEVEL = All
 
 ABSTRACT =
 $(P $(I Coming soon...))

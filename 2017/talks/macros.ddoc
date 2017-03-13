@@ -38,10 +38,12 @@ $(FOOTER)
 </body>
 </html>
 
+SPEAKER_IMG = <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
+
 TALK_INFO =
   $(T h1, align=left, $(TALK_TITLE))
   $(DIV class="inline vmid",
-    <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
+    $(SPEAKER_IMG)
     $(DIV, <p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br />
       $(DATE) @ $(TIME)</b><br><br>$(I Duration:) $(DURATION)<br />
       $(I Talk type:) $(TYPE)<br />

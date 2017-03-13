@@ -8,11 +8,20 @@ TIME = 17:30
 
 SPEAKER = Andrei Alexandrescu, Walter Bright, Scott Meyers
 
-SPEAKER_SHORT = 
+SPEAKER_SHORT = panel
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+PANEL_SPEAKER_IMG =
+<table class="image">
+<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
+</table>
+
+SPEAKER_IMG =
+$(PANEL_SPEAKER_IMG http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg, Andrei Alexandrescu, http://erdani.com)
+$(PANEL_SPEAKER_IMG http://walterbright.com/wblogo.jpg, Walter Bright, http://walterbright.com)
+$(PANEL_SPEAKER_IMG http://www.aristeia.com/images/sdm-small.jpg, Scott Meyers, http://www.aristeia.com/)
 
 TALK_TITLE = Trends in Systems Programming Languages
 
@@ -26,7 +35,7 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
+LEVEL = All
 
 ABSTRACT =
 $(P $(I Coming soon...))
