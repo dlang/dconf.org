@@ -12,7 +12,7 @@ SPEAKER_SHORT = watson
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/../2016/images/watson.jpg
 
 TALK_TITLE = Binderoo - A Rapid Iteration Framework That Even Scripters Can Use
 
@@ -24,7 +24,7 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = Intermediate level D users, familiarity with compile time concepts preferred
+LEVEL = Intermediate
 
 KEYWORDS = C++ interop, CTFE, templates, mixins, rapid iteration, scripting
 
