@@ -10,7 +10,7 @@ SPEAKER = Luís Marques
 
 SPEAKER_SHORT = marques
 
-SPEAKER_URL = 
+SPEAKER_URL = http://www.luismarques.eu/
 
 SPEAKER_PIC = http://www.gravatar.com/avatar/186595d443d24380c366e93823c03605?s=250
 
@@ -75,7 +75,7 @@ $(OL
                 )
 
 BIO =
-$(P I am a generalist programmer, with a good grasp of computer architecture and distributed systems. I started using D early in its life, but I became especially interested in the language when ranges and range-based algorithms were introduced. These STL-inspired facilities made significant progress on a promise that object-oriented programming failed to deliver, and which the STL only delivered to a limited extend: the design and employment of reusable components.)
+$(P I am a generalist programmer, with a good grasp of computer architecture and distributed systems. I started using D early in its life, but I became especially interested in the language when ranges and range-based algorithms were introduced. These STL-inspired facilities made significant progress on a promise that object-oriented programming failed to deliver, and which the STL only delivered to a limited extent: the design and employment of reusable components.)
 
 $(P By training I am a software engineer. By night I wear a cape and dabble in hardware design. A few years ago I bought an FPGA and taught myself hardware design. While FPGAs are super exciting, I found that VHDL and Verilog can sap all the joy out of hardware design. As part of my search for alternatives I found Chisel. While Chisel aimed to do for hardware what D tries to achieve with its design by introspection (create generic yet efficient building blocks), I found the usability of Chisel to suffer due to its life as Scala DSL.)
 
