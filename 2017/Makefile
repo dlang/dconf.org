@@ -7,11 +7,37 @@ TMP = .tmp
 HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index thankyou venue)
 
-TALK_BASENAMES =
+TALK_BASENAMES = \
+bright \
+arneaud \
+marques \
+sechet \
+koch \
+wilson \
+nacke \
+buclaw \
+meyers \
+panteleev \
+olshansky \
+engelen \
+watson \
+studentsAB \
+panel \
+alexandrescu \
+nunn \
+veelo \
+schveighoffer \
+dilly \
+studentsCD \
+lightning \
+hackathon1 \
+hackathon2 \
 
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg) \
-	includes/ $(wildcard includes/*)
+	includes/ $(wildcard includes/*) \
+        $(addprefix talks/, $(addsuffix .pdf, \
+          bright ))
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 

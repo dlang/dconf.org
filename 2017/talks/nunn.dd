@@ -1,0 +1,55 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 11:00
+
+SPEAKER = Gerald Nunn
+
+SPEAKER_SHORT = nunn
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Why D is the Perfect Fit for Building GTK Applications
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner to Intermediate
+
+KEYWORDS = GTK, GNOME, GtkD, Graphical User Interface (GUI)
+
+ABSTRACT =
+$(P D is an ideal language language to use for building GTK applications. This talk will explore why it is a good fit in comparison to other languages based on the experience of the speaker writing Terminix, a popular terminal emulator for Gnome.)
+
+$(P When writing GTK applications there is currently a gap between compiled languages, which are often low productivity and difficult to learn, and scripting languages which are easier to learn but lack performance, static typing and other features that developers often prefer.)
+
+$(P Vala was intended by GNOME to fill this gap but it is not well maintained and it's future looks bleak. In my opinion D is a perfect replacement for Vala as it occupies a unique sweet spot for building GUI applications. and in particular. GTK LInux applications.)
+
+$(P This talk will focus on the following topics:)
+$(UL
+    $(LI Yes Matilda, desktop GUI applications are still relevant today)
+    $(LI What is GTK in a single slide)
+    $(LI Surveying the current options for building GTK applications (C, C++, Python, Javascript, Vala and Rust))
+    $(LI Why choose D over other options?)
+    $(LI Summary of experience writing Terminix including:
+    $(UL
+        $(LI How D makes Terminix better)
+        $(LI Best practices for writing D GTK applications)
+        $(LI Lessons learned)
+        )
+        )
+    $(LI The future and a call to action)
+)
+
+BIO =
+$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is Terminix (https://gnunn1.github.io/terminix-web/), a popular tiling terminal emulator for GNOME. Terminix is currently $(LINK2 https://github.com/search?l=D&q=stars%3A%3E1&s=stars&type=Repositories, the second most starred D language project on github behind DMD).)

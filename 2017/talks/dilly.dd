@@ -1,0 +1,71 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 15:30
+
+SPEAKER = Stefan Dilly
+
+SPEAKER_SHORT = dilly
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Amazon Alexa Skills written in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner and Intermediate
+
+KEYWORDS = amazon alexa, iot, amazon aws, server programming, asynchronous, ctfe, meta programming, vibe.d
+
+ABSTRACT =
+$(P When I first laid hands on an Amazon Echo Device
+I expected it to be just another nerd toy. Turns out
+”Alexa” quickly seduced me. It allows me to control
+my digital life using my voice. All computing for this
+happens in the cloud. Much like Apple landed a genius
+coup with opening up the iPhone for third party apps
+Amazon allows devs to write their own skills for Alexa.
+It quickly turned out that D is a great fit for skill
+development out of several reasons like performance
+and productivity. Productivity is important because
+inherently this system has longer iteration times due
+to testing in the cloud. Every bug that can be found at
+compile time saves money and optimizes TTM 1 . Per-
+formance equals money in the cloud since each CPU
+cycle has a cost. D proves to be strong in both areas
+and positions itself as a language with large potential
+in the IoT 2 domain. This talk will present experiences,
+advantages of using D over the alternatives and also
+offers an honest overview of the pain points that need
+to be improved.)
+
+BIO =
+$(P Stephan Dilly is the head of engineering at InnoGames.
+With 10 years of professional software development
+experience, he has worked as a consultant and engi-
+neer for top gaming companies including Funatics and
+Ubisoft Bluebyte. Before joining InnoGames, Stephan
+developed games in the front-end and back-end domain
+on titles like ”The Settlers”, ”Tom Clancy’s Endwar”
+and ”Assassin’s Creed Identity”. Now, he focuses on
+front-end technology at InnoGames and shapes the
+strategy for mobile-only games using modern game
+engines. Stephan aka ’Extrawurst’ is an active mem-
+ber in the D community since 2007, he contributed to
+books like ”The D Programming Language” by Andrei
+Alexandrescu and ”Web Development in D” by Kai
+Nacke. Over the last months he gathered interest in
+Amazon’s Alexa Voice recognition system and IoT in
+general and created an ecosystem that facilitates simple
+development of high-performance Alexa Skills in D.)

@@ -1,0 +1,73 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 15:30
+
+SPEAKER = Stefan Koch
+
+SPEAKER_SHORT = koch
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = A Look Into the New CTFE Engine
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P Two parts: The first is me talking about my experience,
+writing the engine. The second goes into deeper technical
+detail explaining the trade-offs, and design decisions.)
+
+$(UL
+$(LI What is CTFE and what can it be used for ?)
+$(LI Examples std.regex and sqlite-d)
+$(LI Show how the utility of ctfe is not just in the big things but
+the simple convenience of assigning cos(viewAngle) to a
+static immutable variable.)
+$(LI Example: the newCTFE-Engine is ctfeable itself so the
+compiler itself will not compile if the bytecode-tests fail)
+$(LI Discussion of the old Engine, pointing out why it is
+suboptimal.)
+$(LI Exposition of different interpretation models:
+$(UL
+$(LI AST-Interpreter)
+$(LI ByteCode-Interpreter (and its extension to JIT)))
+)
+$(LI Overview: of the newCTFE Codegen-API
+Explanation of rationale; Backends are pluggable via a
+template parameter.
+Showing 2 back-ends
+BC-Interpreter
+DebugPrinter-Backend)
+$(LI Explaining the design of the BC-Interpreter
+Showing the 10x performance improvements as a live demo)
+$(LI Explanation of the intricacies of Code-Generation.
+“2 Months of Development. 6 Months of Debugging”)
+$(LI Status of what the engine can currently complle)
+$(LI Future outlook and showing the 50x Improvement using
+pseudo-JIT)
+$(LI Acknowledgements)
+)
+
+BIO =
+$(UL
+$(LI 25 Years old.)
+$(LI Programing since the age of 7.)
+$(LI Begun using D in 2013. While working on the SDC-Compiler.)
+$(LI Wrote a CTFE reader for Sqlite3-Databases in 2015)
+$(LI Working on the new CTFE-Engine and other DMD
+improvements since July 2016)
+)

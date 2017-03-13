@@ -1,7 +1,71 @@
 Ddoc
 
-Coming soon!
+$(T h1,,Schedule)
+
+$(T table, id="schedule" class="green",
+  $(T TR,,
+      $(T th, colspan="3", Day 1: Thursday May 4, 2017)
+  )
+  $(BREAKFAST1)
+  $(bright_ROW)
+  $(arneaud_ROW)
+  $(marques_ROW)
+  $(LUNCH)
+  $(sechet_ROW)
+  $(koch_ROW)
+  $(wilson_ROW)
+  $(nacke_ROW)
+  $(buclaw_ROW)
+)
+
+$(T table, id="schedule" class="orange",
+  $(T TR,,
+    $(T th, colspan="3", Day 2: Friday May 5, 2017)
+  )
+  $(BREAKFAST)
+  $(meyers_ROW)
+  $(panteleev_ROW)
+  $(olshansky_ROW)
+  $(LUNCH)
+  $(engelen_ROW)
+  $(watson_ROW)
+  $(studentsAB_ROW)
+  $(panel_ROW)
+)
+
+$(T table, id="schedule" class="purple",
+  $(T TR,,
+    $(T th, colspan="3", Day 3: Saturday May 6, 2017)
+  )
+  $(BREAKFAST)
+  $(alexandrescu_ROW)
+  $(nunn_ROW)
+  $(veelo_ROW)
+  $(LUNCH)
+  $(schveighoffer_ROW)
+  $(dilly_ROW)
+  $(studentsCD_ROW)
+  $(lightning_ROW)
+)
+
+$(T table, id="schedule" class="aqua",
+  $(T TR,,
+    $(T th, colspan="3", Day 4: Saturday May 7, 2017)
+  )
+  $(BREAKFAST)
+  $(hackathon1_ROW)
+  $(LUNCH)
+  $(hackathon2_ROW)
+)
 
 Macros:
 
 BASE = ..
+
+TR = $(T tr,, $0)
+
+BREAKFAST = $(T tr, class="break", $(T td,, 9:00 - 10:00)$(T td, colspan=2, Breakfast))
+
+BREAKFAST1 = $(T tr, class="break", $(T td,, 9:00 - 10:00)$(T td, colspan=2, Breakfast and Registration))
+
+LUNCH = $(T tr, class="break", $(T td,, 13:00 - 14:30)$(T td, colspan=2, Lunch &amp; Mingling))

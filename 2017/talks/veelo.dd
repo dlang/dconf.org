@@ -1,0 +1,36 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 12:00
+
+SPEAKER = Bastiaan Veelo
+
+SPEAKER_SHORT = veelo
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Extending Pegged to Parse Another Programming Language
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = 
+
+ABSTRACT =
+$(P Pegged is an elegant library for generating packrat parsers in D. Packrat parsers are parsers for parsing expression grammars (PEGs) that operate in guaranteed linear time through the use of memoization. PEGs are an alternative to context free grammars for formally specifying syntax, and have been gaining in popularity during the last decade. PEG parsers are top-down recursive descent parsers.)
+
+$(P The Pegged implementation showcases many features of D, and has come out as a far more elegant product than similar implementations in other languages. Its use is beautifully simple, and its implementation comprehensible to outsiders. Due to D’s powerful template system and compile time function evaluation, it is even possible — within the same source file — to define a simple grammar and some input string, have the compiler generate a parser at compile time, parse the input at compile time and use the result right there at compile time, if you need to. The Pegged project was started by Philippe Sigaud in 2012.)
+
+$(P The traditional PEG formalism is very effective for small grammars and new grammar designs, but has some limitations that make it unsuitable for generating parsers for certain existing more complex languages. This talk presents how these limitations were successfully eliminated from Pegged, most notably by implementing discoveries from recent research on left-recursive PEGs. At the same time, this talk is a demonstration that the D programming language and its community are attractive to non-computer scientists. Because the motivation for this effort is not scientific curiosity, but the pragmatic need of a bunch of programming naval architects to translate their extensive design software from an archaic and dying programming language to a language with future; and that language might as well be D.)
+
+BIO =

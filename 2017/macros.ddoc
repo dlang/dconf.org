@@ -16,7 +16,7 @@ TT = <tt>$0</tt>
 
 GETSCRIPT = <script language="javascript" type="text/javascript" src="$0"></script>
 
-PAGE_TITLE = The D Programming Language Conference 2016
+PAGE_TITLE = The D Programming Language Conference 2017
 
 DEFINE = $1 = $+
 

@@ -1,0 +1,82 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 12:00
+
+SPEAKER = Luís Marques
+
+SPEAKER_SHORT = marques
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = http://www.gravatar.com/avatar/186595d443d24380c366e93823c03605?s=250
+
+TALK_TITLE = DHDL: The D Hardware Description Language
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner
+
+KEYWORDS = DHDL, hardware design, hardware accelerator, digital logic, FPGA, Verilog, VHDL, Chisel, FIRRTL
+
+ABSTRACT =
+$(P With the slowdown of Moore's law, there has been an increased interest in augmenting the computing power of the CPUs found in data centers with more parallel and energy-efficient alternatives, such as GPUs, FPGAs and ASICs. While replacing general-purpose CPUs with specialized hardware accelerators can provide order-of-magnitude improvements in computing power and energy efficiency, designing custom hardware is still a daunting task, impaired by archaic tools and a culture that has failed to appreciably raise the level of abstraction.)
+
+$(P This talk presents DHDL, a D language extension and library for constructing digital hardware. By leveraging the strong modeling power of D, DHDL facilitates the design of parameterized hardware blocks. This flexibility promotes reuse, thereby increasing the hardware designer's productivity; it also decreases the rigidity of the designs, allowing for an easier exploration of the design-space or the accommodation to new requirements.)
+
+$(P The talk will go over several topics that will help the audience members start to design their own hardware accelerators or FPGA-based embedded systems:)
+
+$(UL
+	$(LI Overview of digital electronics and common logic building blocks)
+
+	$(LI Quick overview of VHDL and Verilog, and their limitations)
+
+	$(LI The DHDL hardware description model:
+        $(UL
+		$(LI Built-in data types and their semantics)
+		$(LI Expressing combinational circuits using D operators)
+		$(LI Maintaining state with registers)
+		$(LI The semantics of assignment and concurrent execution)
+		$(LI Grouping logic into hardware blocks)
+         ))
+	$(LI How D helps in designing generic hardware blocks and interfaces)
+
+	$(LI Testing and deployment into FPGAs)
+)
+
+$(P These topics will be presented in the context of a complete system, including:)
+
+$(OL
+	$(LI IO: How to use common IO interfaces (e.g. UARTs), such that you can:
+        $(UL
+		$(LI Get the data in and out of your hardware accelerators)
+		$(LI Communicate with the outside world in your embedded systems)
+                ))
+	$(LI Memory: How to use different types of memory, including:
+        $(UL
+		$(LI FPGA block memory)
+		$(LI FPGA distributed memory)
+		$(LI Synchronous DRAM)
+                ))
+	$(LI Computation:
+        $(UL
+		$(LI Brief overview of architecture and ISA design)
+		$(LI Microarchitecture and achieving timing closure)
+                ))
+                )
+
+BIO =
+$(P I am a generalist programmer, with a good grasp of computer architecture and distributed systems. I started using D early in its life, but I became especially interested in the language when ranges and range-based algorithms were introduced. These STL-inspired facilities made significant progress on a promise that object-oriented programming failed to deliver, and which the STL only delivered to a limited extend: the design and employment of reusable components.)
+
+$(P By training I am a software engineer. By night I wear a cape and dabble in hardware design. A few years ago I bought an FPGA and taught myself hardware design. While FPGAs are super exciting, I found that VHDL and Verilog can sap all the joy out of hardware design. As part of my search for alternatives I found Chisel. While Chisel aimed to do for hardware what D tries to achieve with its design by introspection (create generic yet efficient building blocks), I found the usability of Chisel to suffer due to its life as Scala DSL.)
+
+$(P I have stated before that "whenever possible I choose D for the task -- even for hardware design". This is my attempt to make good on that promise; to bring the Chisel model of hardware design to D, and all the modeling power it has to offer.)

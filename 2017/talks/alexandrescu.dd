@@ -1,0 +1,34 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 10:00
+
+SPEAKER = Andrei Alexandrescu
+
+SPEAKER_SHORT = alexandrescu
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Keynote
+
+TYPE = $(B Keynote)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = 
+
+ABSTRACT =
+
+
+BIO =

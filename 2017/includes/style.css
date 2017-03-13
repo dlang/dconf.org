@@ -525,6 +525,13 @@ td {
 	background-color: #b7a7d6;
 }
 
+/*
+.break td {
+        color: #404040;
+        background-color: #f0f0f0;
+}
+*/
+
 .break tr:hover {
 	opacity: 0.5 !important;
 }

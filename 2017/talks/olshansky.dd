@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 12:00
+
+SPEAKER = Dmitry Olshansky
+
+SPEAKER_SHORT = olshansky
+
+SPEAKER_URL = https://github.com/blackwhale
+
+SPEAKER_PIC = $(BASE)/../2013/images/DmitryOlshansky.jpg
+
+TALK_TITLE = Pry - Pragmatic Parser Combinators in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+KEYWORDS = parsers ctfe meta-programming
+
+ABSTRACT =
+$(P Showing off how easy it is to create high performance parser generator library in the D programming language. The focus is on key enabling language features such as powerful compile-time features, UFCS for fluent DSL-style interface, CTFE for enabling true DSL - grammars. The motto of the talk is the beauty and power in the small, most code snippets are going to be short 1:1 expositions of the original library. Of course, expect some benchmarks and comparisons.)
+
+$(P Ever since std.regex work has landed in Phobos the author sought out to continue on to the next level - parser generators. The journey to the parsers was long postponed by real life and continuous work on std.regex. One of great displeasures with regex is that they are both under-powered (regular!) and needlessly complicated with all of backreferences, lookaround, greedy operators vs lazy operators and whatnot. Speaking of compile-time regex - it was a brilliant hack on top of existing (complex) infrastructure that while largely successful left a sour taste in the mouth. This brings us to the point where the burning desire for something simpler, more powerful and elegantly constructed comes to fruition.)
+
+$(P The talk showcases the internals of Pry - a new pragmatic parser combinator library written in D. The pragmatism here implies high performance and pay as you go principle. If there is anything that std.regex taught me is that performance is everything, there should be no reason to go and write parser by hand. But performance need not to be complex or ugly, in fact it's one point of the talk that simple and elegant could be fast.)
+
+$(P The library is organized in two layers - parser combinator (lower) layer and PEG grammar (higher) layer, each is designed to be usable by the end user. Each layer relies on unique abilities of D - parser combinators heavily rely on compile-time type manipulations and UFCS, PEG grammar layer runs full-blown parser at compile-time using CTFE.)
+
+$(P Lastly the talk will follow through some practical examples with benchmarks and closing thoughts of future directions.)
+
+BIO =
+$(P Dmitry Olshansky is a young all-around researcher and software engineer. He's been a long-time D language contributor with the most notable contribution being std.regex and std.uni modules of the standard library. Aside from everything D related his main interests are compilers, text processing, robotics, parallel and concurrent programming, scalable network systems and AI.)

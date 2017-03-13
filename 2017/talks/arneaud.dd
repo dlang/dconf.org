@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 11:00
+
+SPEAKER = Simon Arneaud
+
+SPEAKER_SHORT = arneaud
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = D as a Better C
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Advanced
+
+KEYWORDS = betterC, GC, D runtime, systems programming
+
+ABSTRACT =
+$(P "-betterC"?  "D runtime"?  There's been a lot of talk about the
+potential of D to replace C for systems programming.  I'll explain what it
+all means, in practical, concrete terms.  I'll show what works today, what
+might be possible in the future, and what needs to be done to get there.
+Extended Description: This talk will contain some background theory,
+discussion of different approaches for systems programming in D, and
+highlights of some real projects.)
+
+BIO =
+$(P Simon Arneaud is a consultant living in Sydney,
+Australia.  He's worked professionally on low-power microcontrollers,
+globally distributed web services, and various things in between.)
+

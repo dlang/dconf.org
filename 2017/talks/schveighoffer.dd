@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 6
+
+TIME = 14:30
+
+SPEAKER = Steven Schveighoffer
+
+SPEAKER_SHORT = schveighoffer
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = IOPipe: a High Performance I/O Library
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = 
+
+ABSTRACT =
+$(P Buffered I/O has been used effectively in software and hardware for many decades, allowing I/O systems to hide the latency that typically happens when one is reading or writing data. However, buffers provide another feature: allowing mass processing of data in-place. The iopipe library is a high-performance buffering subsystem, written entirely in D, which alleviates much of the need to copy or manage data for processing. It’s API also allows for easy chaining of processors to create customized pipelines for data processing.)
+
+$(P D’s standard I/O subsystem from Phobos is built upon C’s standard I/O subsystem. While this is a perfectly reasonable choice with good benefits, it means we are restricted to only what C provides us. In terms of performance and flexibility, this isn’t much. The API provides no mechanism for context-specific processing of data, and poor management of the underlying buffer. About the only thing it does do well (and does very well) is fetching data one line at a time. However, even this we can beat with some well written optimized D code. I’ll go over the features and benefits of using buffers directly, and provide some performance metrics and code examples that show why doing this the “D” way is faster, easier to write, and easier to customize. I will show how the iopipe system allows for parsers that need very little user-level memory management, and can provide unlimited range-like flexibility for input sources. Finally, I’ll showcase the interesting approach iopipe takes with buffered output.)
+
+BIO =
+$(P Steven Schveighoffer has been using D since 2007, is part of the core druntime and Phobos teams, and has written several D libraries. His contributions, aside from the iopipe library, include a container library (dcollections), rewriting the array runtime, and is the original proposer of the inout type modifier. He has been working on systems ranging from embedded controllers to high-end distributed systems since graduating from WPI. He currently works for National Resource Management in Massachusetts writing internal systems (some using D), and is the organizer for the Boston D language group.)

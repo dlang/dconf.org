@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 16:30
+
+SPEAKER = Students A and B
+
+SPEAKER_SHORT = studentsAB
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = 
+
+TYPE = $(B )
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = 
+
+ABSTRACT =
+
+BIO =

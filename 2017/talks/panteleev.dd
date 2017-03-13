@@ -1,0 +1,33 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 11:00
+
+SPEAKER = Vladimir Panteleev
+
+SPEAKER_SHORT = panteleev
+
+SPEAKER_URL = http://thecybershadow.net
+
+SPEAKER_PIC = $(BASE)/../2013/images/vpanteleev.jpg
+
+TALK_TITLE = Practical Meta-Programming
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate and Advanced
+
+ABSTRACT =
+$(P This talk covers some of the author's experience with one of D's most prominent features, meta-programming. Discussed are ways to leverage D's metaprogramming capabilities for tasks such as parsing file formats, serialization, image and video editing, game modding, and general data processing. Covered techniques include compile-time introspection, code generation, COM instrumentation, alias binding, DSLs, and general template metaprogramming. The talk also includes a few modest language improvement proposals.)
+
+BIO =
+$(P Vladimir Panteleev is a D hacker from Moldova. He has been using D since 2006 and contributing to its development since almost as long, and maintains several open-source projects written in D.)

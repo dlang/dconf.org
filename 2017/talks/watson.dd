@@ -1,0 +1,118 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 15:30
+
+SPEAKER = Ethan Watson
+
+SPEAKER_SHORT = watson
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Binderoo - A Rapid Iteration Framework That Even Scripters Can Use
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate level D users, familiarity with compile time concepts preferred
+
+KEYWORDS = C++ interop, CTFE, templates, mixins, rapid iteration, scripting
+
+ABSTRACT =
+$(P Remedy’s rapid-iteration framework has gone open-source, and on top of that it’s being
+pushed into a production environment with an unconventional userbase for compiled code -
+scripters. This talk will cover the challenges involved in creating a middleware for immediate
+use in a production environment; how it provides the backbone to replace scripting in a
+traditional sense; and design considerations required when your userbase can’t be shrugged
+off by saying, “They’re programmers, they can deal with a restrictive or unintuitive API.”)
+
+$(P Binderoo itself is a ground-up rewrite of the binding and rapid iteration solution used in
+Quantum Break. Its initial design goals were to write code that normal people could read;
+and to dramatically improve maintenance for people binding C++ code for D interoperation.
+The binding is half-way to a zero maintenance environment, thanks to using compile-time
+information and a post-build step to auto-generate C++ bindings. The next step is to parse
+C++ headers and generate the D code for you as well.)
+
+$(P The new code started out with heavy use of templates and mixins. As the feature set of
+Binderoo expanded, and more code was being exposed to the new system, the problems of
+such a readable approach started making themselves clear. The absolute showstoppers,
+however, are related to compiler internals - namely, the slowness of the template system;
+and 32-bit DMD builds being the default on Windows and subsequently running out of
+memory with less than 2% of our C++ codebase bound up.)
+
+$(P For the initial stable release, Binderoo will lean heavily on CTFE to generate code for string
+mixins. This will speed up as Stefan’s work makes it into main and switched on by default.
+But the sacrifice here is readability of the code itself.)
+
+$(P Binderoo’s binding system is similar to the methods presented at previous DConfs, but more
+flexible. Inheriting from a bound C++ object with new D code is implemented and in-use.)
+
+$(P Vtables are being built manually, and a system to deal with version changes for function
+signatures has been devised that works both for normal functions, member methods, and
+member virtual functions.)
+
+$(P As mentioned in my last DConf talk, Remedy’s scripting system for level builders is awfully
+limited. After years of suggesting maybe we should try D, I was finally given the go-ahead to
+implement a solution for it. Binderoo, as such, would form the core of the solution. But simply
+giving level scripters a programming language and saying “go for it” is just not good enough.
+They need an environment to operate in.)
+
+$(P Interaction with our C++ objects is limited. There’s a lot of things that aren’t necessary for
+level logic. Rather than giving scripters full access, we utilise compile time info and code
+generation once again to create a scripting environment. All game entities get a specialised
+interface generated for them, created by parsing all components required for a given entity
+type; extracting functions marked as @Scriptable; and creating wrappers for them that a
+level builder can use.)
+
+$(P This also has a double-complexity, thanks to our codebase going in a massively-parallel
+task-based environment. The code we expose to scripters is written in a way to be safe
+within our task-based environment. Scripters are also keep to learn how to effectively script
+in such an environment for one reason - it’ll allow them to do more things than they
+otherwise would be allowed to do. After asking around, I am unaware of any other
+multi-threaded scripting ​ solutions in place (but realistically Naughty Dog would h
+ave to have
+something in order due to their engine being a massively-parallel task-based environment).)
+
+$(P Certain things are disallowed in the environment (such as large chunks of the D Runtime
+and Phobos). This will be solved by linting. But there’s things that can’t be solved by linting.
+Like memory allocation, or hitting the garbage collector. Marking their entire enviromnent as
+@nogc will be unnecessarily restrictive. So the solution is obvious: make the garbage
+collector operate in the manner we expect it to. We have an in-progress ARC solution. We
+also have time to get this right before a game will ship with it, and we’d love to work closely
+with the D community to get it right.)
+
+$(P (Side note: as we’re using dynamic libraries thanks to Binderoo, the idea is that we can
+insert a different GC for each library compiled. The scripting library, for example, would
+compile with ARC; whether the non-scripted modules will use ARC or another GC solution
+remains to be determined)
+Using an actual programming language means we’re also able to give the level builders
+tools they otherwise wouldn’t normally get. Such as the ability to write their own components
+that get added to our entities. They’re a specialised form of the component, limited in
+flexibility but quickly allowing logic to be added. The initial use case: a component that
+simply rotates an entity at a fixed rate. The previous solution required building a keyframed
+animation and playing it back.)
+
+$(P Enabling such an environment, and keeping feature parity with the old scripting solution, has
+also required special considerations for implementation. Code generation is used to create a
+reflection of our hierarchy-based levels; events can be added as required and called from
+normal game logic; and the C++ side has needed quite a few C++11 tricks to make the
+entire system significanly less painful to use than the old system. Ask me about C++ variadic
+template parameters and rewriting those parameters to a format suitable for scripting
+interaction. (This little bit is effectively another “death to C++” rant).)
+
+BIO =
+$(P Hailing from the fictional land of Australia, Ethan Watson is no stranger to DConf. As a
+senior engine programmer at Remedy Enterainment, he was part of the team responsible for
+shipping Quantum Break. As a speaker, he has presented at DConf, GDC Europe, and
+Reboot Develop. As a person, some might say he likes squirrels just a bit too much but
+they’re objectively wrong. We don’t have squirrels in Australia.)

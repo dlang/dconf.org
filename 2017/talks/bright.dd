@@ -1,0 +1,35 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 10:00
+
+SPEAKER = Walter Bright
+
+SPEAKER_SHORT = bright
+
+SPEAKER_URL = http://walterbright.com
+
+SPEAKER_PIC = http://walterbright.com/wblogo.jpg
+
+TALK_TITLE = Keynote
+
+TYPE = $(B Keynote)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P $(I Coming soon...))
+
+BIO =
+$(P Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He's an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.)
