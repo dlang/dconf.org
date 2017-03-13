@@ -29,6 +29,18 @@ VIDEO = $(VIDEO_NO)
 LEVEL = 
 
 ABSTRACT =
-
+$(P $(I Coming soon...))
 
 BIO =
+$(P Andrei Alexandrescu coined the colloquial term "modern C++" (adapted
+from his award-winning book Modern C++ Design), used today to describe
+a collection of important C++ styles and idioms. He is also the
+coauthor (with Herb Sutter) of C++ Coding Standards and the author of
+The D Programming Language book. With Walter Bright, Andrei
+co-designed many important features of D and authored a large part of
+D's standard library. His research on Machine Learning and Natural
+Language Processing completes a broad spectrum of expertise. Andrei
+holds a Ph.D. in Computer Science from the University of Washington and
+a B.Sc. in Electrical Engineering from University "Politehnica"
+Bucharest. He works with the D Language Foundation.
+)
