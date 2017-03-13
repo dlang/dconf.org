@@ -10,9 +10,9 @@ SPEAKER = Stefan Dilly
 
 SPEAKER_SHORT = dilly
 
-SPEAKER_URL = 
+SPEAKER_URL = http://extrawurst.org
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/../2014/images/dilly.jpg
 
 TALK_TITLE = Amazon Alexa Skills written in D
 
