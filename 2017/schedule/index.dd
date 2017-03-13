@@ -46,6 +46,7 @@ $(T table, id="schedule" class="purple",
   $(schveighoffer_ROW)
   $(dilly_ROW)
   $(caciulescu_ROW)
+  $(staniloiu_ROW)
   $(lightning_ROW)
 )
 

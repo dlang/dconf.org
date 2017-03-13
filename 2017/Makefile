@@ -30,6 +30,7 @@ panel \
 panteleev \
 schveighoffer \
 sechet \
+staniloiu \
 veelo \
 watson \
 wilson \
