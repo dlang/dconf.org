@@ -10,9 +10,9 @@ SPEAKER = Stefan Koch
 
 SPEAKER_SHORT = koch
 
-SPEAKER_URL = 
+SPEAKER_URL = https://github.com/UplinkCoder
 
-SPEAKER_PIC = 
+SPEAKER_PIC = https://avatars2.githubusercontent.com/u/2844936?v=3&s=460
 
 TALK_TITLE = A Look Into the New CTFE Engine
 
