@@ -1,6 +1,28 @@
 Ddoc
 
   $(bright_BLURB)
+  $(alexandrescu_BLURB)
+  $(arneaud_BLURB)
+  $(bright_BLURB)
+  $(buclaw_BLURB)
+  $(caciulescu_BLURB)
+  $(cojocaru_BLURB)
+  $(dilly_BLURB)
+  $(engelen_BLURB)
+  $(koch_BLURB)
+  $(marques_BLURB)
+  $(meyers_BLURB)
+  $(nacke_BLURB)
+  $(nitu_BLURB)
+  $(nunn_BLURB)
+  $(olshansky_BLURB)
+  $(panteleev_BLURB)
+  $(schveighoffer_BLURB)
+  $(sechet_BLURB)
+  $(staniloiu_BLURB)
+  $(veelo_BLURB)
+  $(watson_BLURB)
+  $(wilson_BLURB)
 
 Macros:
 
