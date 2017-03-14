@@ -12,7 +12,7 @@ SPEAKER_SHORT = veelo
 
 SPEAKER_URL = https://www.linkedin.com/in/bastiaan-veelo-a1511472/
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/veelo.jpg
 
 TALK_TITLE = Extending Pegged to Parse Another Programming Language
 
