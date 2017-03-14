@@ -6,17 +6,15 @@ DATE = May 7
 
 TIME = 10:00
 
-SPEAKER = Hackathon Session 1
+SPEAKER = Everybody
 
-SPEAKER_SHORT = 
+SPEAKER_SHORT = hackathon1
 
 SPEAKER_URL = 
 
 SPEAKER_PIC = 
 
-TALK_TITLE = 
-
-TYPE = $(B )
+TALK_TITLE = Hackathon Morning Session
 
 SLIDES = $(SLIDES_NO)
 
@@ -26,9 +24,13 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
+LEVEL = All
+
+DURATION = 3 hours
+
+TYPE = $(B Hackathon)
 
 ABSTRACT =
+$(HACKATHON_ABSTRACT)
 
-
-BIO =
+SPEAKER_BIO =   <!-- -->
