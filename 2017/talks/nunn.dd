@@ -12,7 +12,7 @@ SPEAKER_SHORT = nunn
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/nunn.jpg
 
 TALK_TITLE = Why D is the Perfect Fit for Building GTK Applications
 
@@ -52,4 +52,4 @@ $(UL
 )
 
 BIO =
-$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is Terminix (https://gnunn1.github.io/terminix-web/), a popular tiling terminal emulator for GNOME. Terminix is currently $(LINK2 https://github.com/search?l=D&q=stars%3A%3E1&s=stars&type=Repositories, the second most starred D language project on github behind DMD).)
+$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is Terminix (https://gnunn1.github.io/terminix-web/), a popular tiling terminal emulator for GNOME.)
