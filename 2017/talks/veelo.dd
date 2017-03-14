@@ -10,7 +10,7 @@ SPEAKER = Bastiaan Veelo
 
 SPEAKER_SHORT = veelo
 
-SPEAKER_URL = 
+SPEAKER_URL = https://www.linkedin.com/in/bastiaan-veelo-a1511472/
 
 SPEAKER_PIC = 
 
@@ -32,3 +32,6 @@ $(P The Pegged implementation showcases many features of D, and has come out as 
 $(P The traditional PEG formalism is very effective for small grammars and new grammar designs, but has some limitations that make it unsuitable for generating parsers for certain existing more complex languages. This talk presents how these limitations were successfully eliminated from Pegged, most notably by implementing discoveries from recent research on left-recursive PEGs. At the same time, this talk is a demonstration that the D programming language and its community are attractive to non-computer scientists. Because the motivation for this effort is not scientific curiosity, but the pragmatic need of a bunch of programming naval architects to translate their extensive design software from an archaic and dying programming language to a language with future; and that language might as well be D.)
 
 BIO =
+$(P Bastiaan Veelo came to know about D shortly after it was released some sixteen years ago, while trying to write a flex/bison parser for C++ to pretty-print his code in a literate programming report. He found out the hard way that C++ is a pain to parse, and as D advertised with being developed with fast and easy parsing in mind, it quickly got his attention. Since then, he has been following D’s evolution continuously, without the opportunity to use the language professionally. Recently, he has been investing time to change that and help create that opportunity, which has led him to work on parsers once again — this time in D.)
+
+$(P Bastiaan is the lead developer of a specialised program for the computer aided geometric design of ship hulls called Fairway, for the company SARC in the Netherlands. He holds a B.Eng. in naval architecture from the Haarlem Polytechnic, an M.Sc. in marine technology and a Ph.D. in mechanical engineering from NTNU, the Norwegian University of Science and Technology.)
