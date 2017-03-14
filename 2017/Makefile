@@ -36,7 +36,7 @@ watson \
 wilson \
 
 TO_COPY = \
-	images/ $(wildcard images/*.png images/*.svg) \
+	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*)
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
@@ -90,6 +90,9 @@ $(OUT)/%.png : %.png
 	cp $^ $@
 
 $(OUT)/%.svg : %.svg
+	cp $^ $@
+
+$(OUT)/%.jpg : %.jpg
 	cp $^ $@
 
 $(OUT)/%.css : %.css

@@ -27,11 +27,11 @@ $(T h2,,Important Dates)
 $(T table,,
     $(T tr,,
       $(T td,, Early bird registration deadline)
-      $(T td,, $(T font, color=blue, $(B Monday February 27, 2017, 23:59:59.99 PST)))
+      $(T td,, $(B Monday February 27, 2017, 23:59:59.99 PST))
     )
     $(T tr,,
       $(T td,, Registration deadline)
-      $(T td,, $(B To Be Determined))
+      $(T td,, $(T font, color=blue, $(B Sunday April 23, 2017, 23:59:59.99 PST)))
     )
     $(T tr,,
       $(T td,, Conference)
