@@ -6,17 +6,15 @@ DATE = May 6
 
 TIME = 17:30
 
-SPEAKER = Lightning Talks
+SPEAKER = TBD
 
-SPEAKER_SHORT = 
+SPEAKER_SHORT = lightning
 
 SPEAKER_URL = 
 
 SPEAKER_PIC = 
 
-TALK_TITLE = 
-
-TYPE = $(B )
+TALK_TITLE = Lightning Talks
 
 SLIDES = $(SLIDES_NO)
 
@@ -26,9 +24,12 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
+DURATION = 60 minutes
+
+LEVEL = All
 
 ABSTRACT =
-
+$(P $(I TBD))
 
 BIO =
+$(P $(I TBD))
