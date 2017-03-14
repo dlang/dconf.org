@@ -70,11 +70,11 @@ BASE = ..
 
 TR = $(T tr,, $0)
 
-BREAKFAST = $(T tr, class="break", $(T td,, 9:00 - 10:00)$(T td, colspan=2, Breakfast))
+BREAKFAST = $(T tr, class="break", $(T td,, 9:00)$(T td, colspan=2, Breakfast))
 
-BREAKFAST1 = $(T tr, class="break", $(T td,, 9:00 - 10:00)$(T td, colspan=2, Breakfast and Registration))
+BREAKFAST1 = $(T tr, class="break", $(T td,, 9:00)$(T td, colspan=2, Breakfast and Registration))
 
-LUNCH = $(T tr, class="break", $(T td,, 13:00 - 14:30)$(T td, colspan=2, Lunch &amp; Mingling))
+LUNCH = $(T tr, class="break", $(T td,, 13:00)$(T td, colspan=2, Lunch &amp; Mingling))
 
 END_OF_DAY1 = $(T tr, class="break", $(T td,, 18:30)$(T td, colspan=2, End of Day 1))
 END_OF_DAY2 = $(T tr, class="break", $(T td,, 18:30)$(T td, colspan=2, End of Day 2))
