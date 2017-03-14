@@ -10,13 +10,13 @@ SPEAKER = Iain Buclaw
 
 SPEAKER_SHORT = buclaw
 
-SPEAKER_URL = 
+SPEAKER_URL = https://github.com/ibuclaw
 
-SPEAKER_PIC = 
+SPEAKER_PIC = https://secure.gravatar.com/avatar/907f83bbb9b80bd8cf5e2f1a07c42e5e?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png
 
-TALK_TITLE = 
+TALK_TITLE = GNU + D, Present and Future
 
-TYPE = $(B )
+DURATION = 25 minutes
 
 SLIDES = $(SLIDES_NO)
 
@@ -26,9 +26,17 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = 
+LEVEL = All
 
 ABSTRACT =
-
+$(P $(I Coming soon...))
 
 BIO =
+Lead developer, project coordinator and the principal force behind the
+development of the GNU D Compiler from as far back as 2009, where have
+been responsible for the migration over from D1 to D2, as well as from
+GCC 3.x to GCC 4.x.  Others might be interested to know that outside
+hobby life I work on for a Cloud Services/Hosting company as a
+Technical Engineer, and unofficially use D on a frequent basis to
+develop interpreters, and various plug-ins to work within our
+infrastructure.
