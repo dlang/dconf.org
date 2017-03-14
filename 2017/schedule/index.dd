@@ -55,7 +55,7 @@ $(T table, id="schedule" class="purple",
 
 $(T table, id="schedule" class="aqua",
   $(T TR,,
-    $(T th, colspan="3", Day 4: Saturday May 7, 2017)
+    $(T th, colspan="3", Day 4: Sunday May 7, 2017)
   )
   $(BREAKFAST)
   $(hackathon1_ROW)
