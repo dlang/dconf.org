@@ -1,0 +1,67 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 17:30
+
+SPEAKER = Andrei Alexandrescu, Walter Bright, Scott Meyers
+
+SPEAKER_SHORT = panel
+
+SPEAKER_URL = 
+
+PANEL_SPEAKER_IMG =
+<table class="image">
+<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
+</table>
+
+SPEAKER_IMG =
+$(PANEL_SPEAKER_IMG http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg, Andrei Alexandrescu, http://erdani.com)
+$(PANEL_SPEAKER_IMG http://walterbright.com/wblogo.jpg, Walter Bright, http://walterbright.com)
+$(PANEL_SPEAKER_IMG http://www.aristeia.com/images/sdm-small.jpg, Scott Meyers, http://www.aristeia.com/)
+
+TALK_TITLE = Trends in Systems Programming Languages
+
+TYPE = $(B Panel)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P $(I Coming soon...))
+
+BIO =
+$(P $(B Andrei Alexandrescu) coined the colloquial term "modern C++" (adapted
+from his award-winning book Modern C++ Design), used today to describe
+a collection of important C++ styles and idioms. He is also the
+coauthor (with Herb Sutter) of C++ Coding Standards and the author of
+The D Programming Language book. With Walter Bright, Andrei
+co-designed many important features of D and authored a large part of
+D's standard library. His research on Machine Learning and Natural
+Language Processing completes a broad spectrum of expertise. Andrei
+holds a Ph.D. in Computer Science from the University of Washington and
+a B.Sc. in Electrical Engineering from University "Politehnica"
+Bucharest. He works with the D Language Foundation.
+)
+
+$(P $(B Walter Bright) is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He's an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.)
+
+$(P $(B Scott Meyers) started programming in 1971, and he started teaching
+programming in 1972. He’s best known for his $(I Effective C++) books, but
+he’s also worked on constraint expression for programming languages,
+program representations in development environments, software
+simulations of bacteriophage lambda, general principles for improving
+software quality, and the effective presentation of technical
+information. In 2009, he received the Dr. Doob’s Excellence in
+Programming Award, and in 2014, and online poll likened his hair style
+to that of the cartoon character, He-Man.)

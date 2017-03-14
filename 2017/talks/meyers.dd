@@ -1,0 +1,50 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 10:00
+
+SPEAKER = Scott Meyers
+
+SPEAKER_SHORT = meyers
+
+SPEAKER_URL = http://www.aristeia.com/
+
+SPEAKER_PIC = http://www.aristeia.com/images/sdm-small.jpg
+
+TALK_TITLE = Things that Matter
+
+TYPE = $(B Keynote)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P In the 45+ years since Scott Meyers wrote his first program, he’s played
+many roles: programmer, user, educator, researcher, consultant.
+Different roles beget different perspectives on software development,
+and so many perspectives over so much time have led Scott to strong
+views about $(I the things that really matter).  In this presentation,
+he’ll share what he believes is especially important in software and
+software development, and he’ll try to convince you to embrace the same
+ideas he does.)
+
+BIO =
+$(P Scott Meyers started programming in 1971, and he started teaching
+programming in 1972. He’s best known for his $(I Effective C++) books, but
+he’s also worked on constraint expression for programming languages,
+program representations in development environments, software
+simulations of bacteriophage lambda, general principles for improving
+software quality, and the effective presentation of technical
+information. In 2009, he received the Dr. Doob’s Excellence in
+Programming Award, and in 2014, and online poll likened his hair style
+to that of the cartoon character, He-Man.)

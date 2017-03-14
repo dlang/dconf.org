@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 14:30
+
+SPEAKER = Amaury Séchet
+
+SPEAKER_SHORT = sechet
+
+SPEAKER_URL = https://github.com/deadalnix
+
+SPEAKER_PIC = https://worldcubeassociation.org/uploads/user/avatar/2008SECH01/1441150539.jpg
+
+TALK_TITLE = Cryptography in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+KEYWORDS = cryptography, system programming
+
+ABSTRACT =
+$(P "Don't roll your own crypto" may be one of the most common advice a programmer will get when asking about crypto. No matter how many time this is repeated, this advice proved as effective as telling teenagers to practice abstinence. This talk intends instead to provide developers with an understanding of major concepts in cryptography and a set of advice on how to implement and use these these safely.)
+
+$(P The talk will be a tour of major symmetric cryptographic tools such as finite fields, hash functions, block and stream cyphers, and describe how to use them to create confidentiality, integrity and authenticity.)
+
+$(P Implementing these techniques safely is a much harder task than it may seems at first. This talk will discuss how to create fast, yet secure implementations by using techniques protecting against side channel attacks and why a system level programming language such as D is necessary to do so.)
+
+$(P The talk will then move on to public key cryptography using elliptic curve. Diffie-Hellman, digital signatures, ring signatures, hierarchical key derivation and homomorphic commitment will be explained. If these words sounds like gibberish to you, you are at the right place.)
+
+$(P Once again, safe and fast implementation techniques will be discussed.)
+
+$(P If times allows, we'll discuss how these techniques are used to secure cryptocurrencies.)
+
+BIO =
+$(P Amaury SECHET is a LLVM committer and the main developer of SDC. After being a software developer at Facebook for four years, he recently started working in the cryptocurrency space.)

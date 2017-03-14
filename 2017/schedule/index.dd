@@ -1,7 +1,82 @@
 Ddoc
 
-Coming soon!
+$(T h1,,Schedule)
+
+$(T table, id="schedule" class="green",
+  $(T TR,,
+      $(T th, colspan="3", Day 1: Thursday May 4, 2017)
+  )
+  $(BREAKFAST1)
+  $(bright_ROW)
+  $(arneaud_ROW)
+  $(marques_ROW)
+  $(LUNCH)
+  $(sechet_ROW)
+  $(koch_ROW)
+  $(wilson_ROW)
+  $(nacke_ROW)
+  $(buclaw_ROW)
+  $(END_OF_DAY1)
+)
+
+$(T table, id="schedule" class="orange",
+  $(T TR,,
+    $(T th, colspan="3", Day 2: Friday May 5, 2017)
+  )
+  $(BREAKFAST)
+  $(meyers_ROW)
+  $(panteleev_ROW)
+  $(olshansky_ROW)
+  $(LUNCH)
+  $(engelen_ROW)
+  $(watson_ROW)
+  $(nitu_ROW)
+  $(cojocaru_ROW)
+  $(panel_ROW)
+  $(END_OF_DAY2)
+)
+
+$(T table, id="schedule" class="purple",
+  $(T TR,,
+    $(T th, colspan="3", Day 3: Saturday May 6, 2017)
+  )
+  $(BREAKFAST)
+  $(alexandrescu_ROW)
+  $(nunn_ROW)
+  $(veelo_ROW)
+  $(LUNCH)
+  $(schveighoffer_ROW)
+  $(dilly_ROW)
+  $(caciulescu_ROW)
+  $(staniloiu_ROW)
+  $(lightning_ROW)
+  $(END_OF_DAY3)
+)
+
+$(T table, id="schedule" class="aqua",
+  $(T TR,,
+    $(T th, colspan="3", Day 4: Saturday May 7, 2017)
+  )
+  $(BREAKFAST)
+  $(hackathon1_ROW)
+  $(LUNCH)
+  $(hackathon2_ROW)
+  $(END_OF_DAY4)
+)
 
 Macros:
 
 BASE = ..
+
+TR = $(T tr,, $0)
+
+BREAKFAST = $(T tr, class="break", $(T td,, 9:00)$(T td, colspan=2, Breakfast))
+
+BREAKFAST1 = $(T tr, class="break", $(T td,, 9:00)$(T td, colspan=2, Breakfast and Registration))
+
+LUNCH = $(T tr, class="break", $(T td,, 13:00)$(T td, colspan=2, Lunch &amp; Mingling))
+
+END_OF_DAY1 = $(T tr, class="break", $(T td,, 18:30)$(T td, colspan=2, End of Day 1))
+END_OF_DAY2 = $(T tr, class="break", $(T td,, 18:30)$(T td, colspan=2, End of Day 2))
+END_OF_DAY3 = $(T tr, class="break", $(T td,, 18:30)$(T td, colspan=2, End of Day 3))
+END_OF_DAY4 = $(T tr, class="break", $(T td,, 18:30)$(T td, colspan=2, End of the Conference))

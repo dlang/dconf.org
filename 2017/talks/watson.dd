@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 15:30
+
+SPEAKER = Ethan Watson
+
+SPEAKER_SHORT = watson
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = $(BASE)/../2016/images/watson.jpg
+
+TALK_TITLE = Binderoo - A Rapid Iteration Framework That Even Scripters Can Use
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+KEYWORDS = C++ interop, CTFE, templates, mixins, rapid iteration, scripting
+
+ABSTRACT =
+$(P Remedy’s rapid-iteration framework has gone open-source, and on top of that it’s being
+pushed into a production environment with an unconventional userbase for compiled code -
+scripters. This talk will cover the challenges involved in creating a middleware for immediate
+use in a production environment; how it provides the backbone to replace scripting in a
+traditional sense; and design considerations required when your userbase can’t be shrugged
+off by saying, “They’re programmers, they can deal with a restrictive or unintuitive API.”)
+
+BIO =
+$(P Hailing from the fictional land of Australia, Ethan Watson is no stranger to DConf. As a
+senior engine programmer at Remedy Enterainment, he was part of the team responsible for
+shipping Quantum Break. As a speaker, he has presented at DConf, GDC Europe, and
+Reboot Develop. As a person, some might say he likes squirrels just a bit too much but
+they’re objectively wrong. We don’t have squirrels in Australia.)

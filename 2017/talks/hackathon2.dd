@@ -1,0 +1,36 @@
+Ddoc
+
+Macros:
+
+DATE = May 7
+
+TIME = 14:30
+
+SPEAKER = Everybody
+
+SPEAKER_SHORT = hackathon2
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Hackathon Afternoon Session
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+DURATION = 4 hours
+
+TYPE = $(B Hackathon)
+
+ABSTRACT =
+$(HACKATHON_ABSTRACT)
+
+SPEAKER_BIO =   <!-- -->

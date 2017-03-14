@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 14:30
+
+SPEAKER = Johan Engelen
+
+SPEAKER_SHORT = engelen
+
+SPEAKER_URL = https://johanengelen.github.io/
+
+SPEAKER_PIC = 
+
+TALK_TITLE = Abstraction Cost and Optimization (LDC)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate and Advanced
+
+KEYWORDS = Optimization, performance, assembly, zero-cost abstractions
+
+ABSTRACT =
+$(P Discussions about the performance of code fragments pop up regularly on the dlang forums.  Why is this much faster than that? Does `immutable` make my code faster? Is a range-based loop faster than a normal loop? Without understanding the LDC optimization process and capabilities, it's not so easy to do good performance measurements and comparisons; the discussions often lack good data.)
+
+$(P I will live demonstrate and explain the optimized LDC assembly output for basic D code patterns. Common pitfalls and how to avoid them will be discussed. After this talk, you'll be better prepared for the next forum.dlang.org performance thread.)
+
+$(P Have a better understanding of the zero/non-zero runtime costs of certain D constructs. Awareness of common pitfalls and useful tools for analyzing why a certain piece of code is/isn't performant.)
+
+$(P Using Matt Godbolt's D compiler explorer you can study, live and side-by-side, D code and the assembly produced by different compilers for different compile flags. It is a neat tool that I will use to live demonstrate the zero or non-zero cost of common D constructs.)
+
+$(P Expecially in small programs, it is easy to make mistakes in evaluating the performance of a certain D construct, so I'll start with explaining common pitfalls and will show their solutions. Then, I will discuss the (non-)zero cost of common D abstractions. A small selection of the topics to be discussed: virtual functions, Voldemort types, aggregate comparisons, when does immutable/const matter?, inline assembly, ranges or for-based iteration. The results are often surprising, so for extra fun, I'll poll the audience before showing the assembly output.)
+
+BIO =
+$(P Johan Engelen is one of the core LDC developers. He is also a D compiler consultant for Weka.io (probably the largest industrial single-executable D codebase) and maintains and adds features to their fork of LDC. While working on LDC, he often studies the compiler output IR and assembly. To aid this, he helped setting up LDC at d.godbolt.org. Examples of his recent contributions to LDC related to optimization are @fastmath, link-time optimization (LTO) and profile-guided optimization (PGO).)
+
+$(P Johan (PhD Electrical Engineering) is assistent professor in the Robotics and Mechatronics (RAM) group at the University of Twente, the Netherlands. In his spare time he has contributed large amounts of work to the open source projects LDC and Inkscape.)

@@ -1,0 +1,42 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 16:30
+
+SPEAKER = Nicholas Wilson
+
+SPEAKER_SHORT = wilson
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = DCompute: Native & Convenient Heterogeneous Computing for D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+KEYWORDS = Heterogeneous Computing, OpenCL, CUDA
+
+ABSTRACT =
+$(P Following John Colvin’s 2016 DConf talk about easing the pain of using OpenCL, I thought: we have a compiler that targets LLVM (LDC) and LLVM targets SPIR-V & (while I’m at it) NVPTX, how hard can it be?)
+
+$(P The results are modifications to LDC to allow code generation for use with the OpenCL and CUDA compute APIs, and a set of libraries (under development) to provide a D wrapping for more convenient writing and invocation of kernels written in D, opening up exciting new frontiers for D.)
+
+$(P This talk will cover: the modifications made to LDC to support SPIR-V and NVPTX code generation; a guide for using these modifications and libraries, and; why D is uniquely positioned to bring its pillars of “Convenience, Modelling power and Efficiency” to the world of heterogeneous computing and their unwieldy APIs, through it’s powerful template system and introspective capabilities.)
+
+$(P From watching this talk I expect attendees to know how to go about writing and invoking kernels for offloading computationally intensive workloads, all in D!)
+
+
+BIO =
+$(P I am a student at Murdoch University, Western Australia, studying for my BEng (Hons)/BSc in Industrial Computer Systems & Instrumentation and Control / Molecular Biology & Biomed. I am currently doing my honours thesis on low cost Electroluminescence imaging of solar cells. I have been using D for 5 years for odd jobs and number bashing.)

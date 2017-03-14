@@ -12,6 +12,7 @@ rsync : all
 .PHONY: clean
 clean: 2013/clean 2014/clean
 	rm -rf out
+	rm -rf 20??/.tmp
 
 # Patterns
 

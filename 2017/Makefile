@@ -7,7 +7,33 @@ TMP = .tmp
 HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index thankyou venue)
 
-TALK_BASENAMES =
+TALK_BASENAMES = \
+alexandrescu \
+arneaud \
+bright \
+buclaw \
+caciulescu \
+cojocaru \
+dilly \
+engelen \
+hackathon1 \
+hackathon2 \
+koch \
+lightning \
+marques \
+meyers \
+nacke \
+nitu \
+nunn \
+olshansky \
+panel \
+panteleev \
+schveighoffer \
+sechet \
+staniloiu \
+veelo \
+watson \
+wilson \
 
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg) \

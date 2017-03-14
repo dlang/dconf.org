@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 5
+
+TIME = 16:30
+
+SPEAKER = Razvan Nitu
+
+SPEAKER_SHORT = nitu
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = 
+
+TALK_TITLE = D Language Compiler as a Library
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P Since the D language has started gaining the attention of companies
+and programming communities, a critical factor for the success of the
+language is the existence of tools which minimize the effort of developing
+programs. Such tools are: style checkers, code formatters, syntax highlighters,
+auto-completion, automated refactoring etc. All these tools share the fact that
+they need to access certain parts of the compiler in order to do their job.
+Although the code of the compiler is open source and anyobody that wants to
+build such a tool can simply extract the part of the compiler that he/she
+needs, this solution is time consuming since the compiler is poorly documented
+and the code complexity is rather high.)
+
+$(P The alternative solution is to provide a D language compiler as a library. This
+approach encourages tool developers by taking some work off their plate and imposes
+a structure on the currently chaotic organization of the code base.)
+
+BIO =

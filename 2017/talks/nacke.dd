@@ -1,0 +1,49 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 17:30
+
+SPEAKER = Kai Nacke
+
+SPEAKER_SHORT = nacke
+
+SPEAKER_URL = 
+
+SPEAKER_PIC = https://fosdem.org/2016/schedule/speaker/kai_nacke/effeae52a7763412cb9009851192cbc986c0a3069991a617d4f415b0ec6ffa4a.jpg
+
+TALK_TITLE = Where Art Thou, LDC?
+
+DURATION = 25 minutes
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y = 
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P In the last year, LDC, the LLVM-based D compiler, got some exciting
+additions like profile guided optimization and link time optimization.
+In this talk I present what the LDC team has achieved since last DConf.
+A lot of development around LDC is ongoing. I show on which topics
+people are currently working and give a status update on two of my pet projects:
+moving more compiler source from C++ to D and addition of the
+ucent data type.)
+
+BIO =
+$(P Kai Nacke is a professional IT architect. In his spare time he likes to
+develop open source applications. He is the current maintainer of LDC,
+the LLVM-based D compiler, and a committer of the LLVM project. His
+contributions to LDC include ports to different CPU architectures and
+operating systems.)
+
+$(P Besides programming he is also the author of "D Web Development" and a
+speaker at the Free and Open Source Software Developers' European
+Meeting (FOSDEM).)
