@@ -29,11 +29,11 @@ LEVEL = Beginner to Intermediate
 KEYWORDS = GTK, GNOME, GtkD, Graphical User Interface (GUI)
 
 ABSTRACT =
-$(P D is an ideal language language to use for building GTK applications. This talk will explore why it is a good fit in comparison to other languages based on the experience of the speaker writing Terminix, a popular terminal emulator for Gnome.)
+$(P D is an ideal language to use for building GTK applications. This talk will explore why it is a good fit in comparison to other languages based on the experience of the speaker writing Terminix, a popular terminal emulator for Gnome.)
 
 $(P When writing GTK applications there is currently a gap between compiled languages, which are often low productivity and difficult to learn, and scripting languages which are easier to learn but lack performance, static typing and other features that developers often prefer.)
 
-$(P Vala was intended by GNOME to fill this gap but it is not well maintained and it's future looks bleak. In my opinion D is a perfect replacement for Vala as it occupies a unique sweet spot for building GUI applications. and in particular. GTK LInux applications.)
+$(P Vala was intended by GNOME to fill this gap but it is not well maintained and it's future looks bleak. In my opinion D is a perfect replacement for Vala as it occupies a unique sweet spot for building GUI applications and, in particular, GTK Linux applications.)
 
 $(P This talk will focus on the following topics:)
 $(UL
