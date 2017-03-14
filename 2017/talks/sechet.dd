@@ -27,7 +27,7 @@ VIDEO = $(VIDEO_NO)
 KEYWORDS = cryptography, system programming
 
 ABSTRACT =
-$(P "Don't roll your own crypto" may be one of the most common advice a programmer will get when asking about crypto. No matter how many time this is repeated, this advice proved as effective as telling teenagers to practice abstinence. This talk intends instead to provide developers with an understanding of major concepts in cryptography and a set of advice on how to implement and use these these safely.)
+$(P "Don't roll your own crypto" may be one of the most common advice a programmer will get when asking about crypto. No matter how many time this is repeated, this advice proved as effective as telling teenagers to practice abstinence. This talk intends instead to provide developers with an understanding of major concepts in cryptography and a set of advice on how to implement and use these safely.)
 
 $(P The talk will be a tour of major symmetric cryptographic tools such as finite fields, hash functions, block and stream cyphers, and describe how to use them to create confidentiality, integrity and authenticity.)
 
@@ -37,7 +37,7 @@ $(P The talk will then move on to public key cryptography using elliptic curve. 
 
 $(P Once again, safe and fast implementation techniques will be discussed.)
 
-$(P If times allows, we'll discuss how these techniques are used to secure cryptocurrencies.)
+$(P If time allows, we'll discuss how these techniques are used to secure cryptocurrencies.)
 
 BIO =
 $(P Amaury SECHET is a LLVM committer and the main developer of SDC. After being a software developer at Facebook for four years, he recently started working in the cryptocurrency space.)
