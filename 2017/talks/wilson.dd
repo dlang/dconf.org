@@ -10,9 +10,9 @@ SPEAKER = Nicholas Wilson
 
 SPEAKER_SHORT = wilson
 
-SPEAKER_URL = 
+SPEAKER_URL = https://github.com/thewilsonator
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/wilson.jpg
 
 TALK_TITLE = DCompute: Native & Convenient Heterogeneous Computing for D
 
