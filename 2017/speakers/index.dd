@@ -2,8 +2,8 @@ Ddoc
 
   $(bright_BLURB)
   $(alexandrescu_BLURB)
+  $(meyers_BLURB)
   $(arneaud_BLURB)
-  $(bright_BLURB)
   $(buclaw_BLURB)
   $(caciulescu_BLURB)
   $(cojocaru_BLURB)
@@ -11,7 +11,6 @@ Ddoc
   $(engelen_BLURB)
   $(koch_BLURB)
   $(marques_BLURB)
-  $(meyers_BLURB)
   $(nacke_BLURB)
   $(nitu_BLURB)
   $(nunn_BLURB)
