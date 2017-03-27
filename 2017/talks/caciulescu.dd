@@ -12,7 +12,7 @@ SPEAKER_SHORT = caciulescu
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/default.jpg
 
 TALK_TITLE = Zero Overhead Interface Between the D Language and the C++
 Standard Library

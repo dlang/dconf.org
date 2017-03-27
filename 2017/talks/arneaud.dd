@@ -12,7 +12,7 @@ SPEAKER_SHORT = arneaud
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/default.jpg
 
 TALK_TITLE = D as a Better C
 
