@@ -12,7 +12,7 @@ SPEAKER_SHORT = nitu
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/default.jpg
 
 TALK_TITLE = D Language Compiler as a Library
 
