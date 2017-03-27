@@ -12,7 +12,7 @@ SPEAKER_SHORT = engelen
 
 SPEAKER_URL = https://johanengelen.github.io/
 
-SPEAKER_PIC = 
+SPEAKER_PIC = $(BASE)/images/engelen.jpg
 
 TALK_TITLE = Abstraction Cost and Optimization (LDC)
 
