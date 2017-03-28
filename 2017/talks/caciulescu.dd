@@ -12,7 +12,7 @@ SPEAKER_SHORT = caciulescu
 
 SPEAKER_URL = 
 
-SPEAKER_PIC = $(BASE)/images/default.jpg
+SPEAKER_PIC = $(BASE)/images/caciulescu.png
 
 TALK_TITLE = Zero Overhead Interface Between the D Language and the C++
 Standard Library
@@ -44,3 +44,14 @@ interfacing the D language with the C++ STL and provide a glimpse into
 a future where D has the full support of the STL behind it.)
 
 BIO =
+$(P Alex is a Linux and security enthusiast who spends most of his time
+in Sublime and vim when he isn’t slaying ‘features’ in GDB. Currently
+a Masters student at University Politehnica of Bucharest, Romania,
+Faculty of Automatic Control and Computer Science, studying computer
+and network security. He holds a B.Sc. in Computer Science &
+Engineering. Previous experience includes low-level programming,
+compilers, basic kernel and operating systems development. He first
+started contributing to the Open Source community back in 2012 and has
+been an active member ever since. Alex is currently working on the D
+compiler and runtime environment, tackling the challenge of
+interfacing D with C++.)
