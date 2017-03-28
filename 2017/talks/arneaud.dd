@@ -10,7 +10,7 @@ SPEAKER = Simon Arneaud
 
 SPEAKER_SHORT = arneaud
 
-SPEAKER_URL = 
+SPEAKER_URL = https://theartofmachinery.com/
 
 SPEAKER_PIC = $(BASE)/images/default.jpg
 
