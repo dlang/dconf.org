@@ -36,7 +36,7 @@ I can explain...
 )
 
 BIO =
-$(Iain is an Infrastructure Administrator at Sociomantic Labs.  He has been
+$(P Iain is an Infrastructure Administrator at Sociomantic Labs.  He has been
 contributing to GNU projects since 2009, and is the prinicipal force behind
 the development of the GNU D Compiler (GDC), D language maintainer for the
 GNU Debugger (GDB), and listed maintainer of the GNU Compiler Collection (GCC).
