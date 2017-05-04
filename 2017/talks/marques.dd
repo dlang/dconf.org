@@ -16,7 +16,7 @@ SPEAKER_PIC = http://www.gravatar.com/avatar/186595d443d24380c366e93823c03605?s=
 
 TALK_TITLE = DHDL: The D Hardware Description Language
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
