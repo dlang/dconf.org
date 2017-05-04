@@ -4,6 +4,8 @@ $(T h1,,DConf 2017$(BR) Bigger, Badder, and Berliner!)
 
 $(T h2,,Please join us at DConf 2017, the international conference of the D programming language in Berlin, Germany, May 4-7 2017.)
 
+$(P DConf 2017 is now underway! If you aren't with us in Berlin, be sure to join us via the livestream at $(HTTP youtube.com/watch?v=MqrJZg6PgnM&utm_content=buffercc4c1&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer, YouTube)).
+
 $(P We're happy to announce that the D Language Foundation is cooperating again with $(HTTP sociomantic.com, Sociomantic) to organize DConf 2017 in Berlin for the second time. Same location, same dates, but of course a whole new experience!)
 
 $(P The D programming language has improved dramatically this year thanks to more focus brought up by the D Language Foundation, better participation from corporate users and worldwide volunteers, and the advent of world-class open-source libraries such as Sociomantic's $(HTTP github.com/sociomantic-tsunami, Tsunami) and Ilya Yaroshenko's $(HTTP blog.mir.dlang.io/glas/benchmark/openblas/2016/09/23/glas-gemm-benchmark.html, GLAS). The D Language Foundation has accumulated a war chest and announced a $(HTTP dlang.org/dlangupb-scholarship.html, scholarship) that already enrolls four MSc students.)
