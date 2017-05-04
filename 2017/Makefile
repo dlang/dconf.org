@@ -38,7 +38,8 @@ wilson \
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*) \
-	$(addprefix talks/, $(addsuffix .pdf, bright arneaud sechet marques))
+	$(addprefix talks/, $(addsuffix .pdf, bright arneaud sechet marques)) \
+	$(addprefix talks/, $(addsuffix .pptx, wilson))
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
