@@ -18,7 +18,7 @@ TALK_TITLE = Pointers Gone Wild: Memory Safety and D
 
 TYPE = $(B Keynote)
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
