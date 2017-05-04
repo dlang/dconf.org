@@ -16,7 +16,7 @@ SPEAKER_PIC = https://worldcubeassociation.org/uploads/user/avatar/2008SECH01/14
 
 TALK_TITLE = Cryptography in D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
