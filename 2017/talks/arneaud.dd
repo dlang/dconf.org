@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/default.jpg
 
 TALK_TITLE = D as a Better C
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
