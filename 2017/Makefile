@@ -40,7 +40,7 @@ TO_COPY = \
 	includes/ $(wildcard includes/*) \
 	$(addprefix talks/, $(addsuffix .pdf, bright arneaud sechet marques nacke buclaw)) \
 	$(addprefix talks/, $(addsuffix .pptx, wilson)) \
-	$(addprefix talks/, $(addsuffix .odp, nitu)) \
+	$(addprefix talks/, $(addsuffix .odp, nitu koch)) \
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
