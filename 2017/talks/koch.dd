@@ -16,7 +16,11 @@ SPEAKER_PIC = https://avatars2.githubusercontent.com/u/2844936?v=3&s=460
 
 TALK_TITLE = A Look Into the New CTFE Engine
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/koch.odp
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), ODP)
 
 VIDEO_URL_Y = 
 
