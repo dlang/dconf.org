@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/veelo.jpg
 
 TALK_TITLE = Extending Pegged to Parse Another Programming Language
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
