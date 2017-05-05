@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/../2013/images/DmitryOlshansky.jpg
 
 TALK_TITLE = Pry - Pragmatic Parser Combinators in D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
