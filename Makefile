@@ -12,7 +12,7 @@ rsync : all
 # Travis deployment
 .PHONY: deploy
 deploy : all
-	rsync --chmod=D2775,F664 -vr --omit-dir-times out/ travis_ci_dconf@digitalmars.com:/usr/local/www/dconf.org/data || true
+	rsync -vr --omit-dir-times out/ travis_ci_dconf@digitalmars.com:/usr/local/www/dconf.org/data || true
 	ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true
 
 .PHONY: clean
