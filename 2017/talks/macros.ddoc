@@ -70,3 +70,6 @@ HACKATHON_ABSTRACT=
 $(P The D conference will not end after the three days of talks but continue on into Sunday for a hackathon during which people can collaboratively focus on long-lasting problems and pain points in the D ecosystem. Of course, any D hackers who wish to simply progress their own personal projects are welcome too! The hackathon will take place at the same $(LINK2 $(BASE)/venue.html, venue) (Heimathafen).)
 
 $(P The motivation for adding a D ecosystem hackathon (besides having fun) is that a lot of time is wasted due to communication latency because most people can only hack during the night or weekends. At last year’s DConf, the “birds of feather” groups were intended to reduce this communication problem, but sadly the scheduling didn’t quite provide enough time. Thus, the DConf 2017 hackathon isn't a hackathon in the traditional sense as most of the time and focus will hopefully be spent discussing, planning and developing future D projects.)
+
+$(P You can find a list of themes with a short abstract and ideas at $(LINK2 https://docs.google.com/document/d/1L5edu6LLj3Afa3tPgqk-aX-fErwr7sPj37Dt5avoc5w/edit#, this document).
+	More detailed information about the hackathon can be found on this document as well.)
