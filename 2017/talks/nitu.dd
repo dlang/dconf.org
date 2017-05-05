@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/default.jpg
 
 TALK_TITLE = D Language Compiler as a Library
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/nitu.odp
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), ODP)
 
 VIDEO_URL_Y = 
 
