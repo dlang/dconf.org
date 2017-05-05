@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/../2013/images/vpanteleev.jpg
 
 TALK_TITLE = Practical Meta-Programming
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://thecybershadow.net/d/dconf2017/
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), View online) &middot; $(LINK2 https://github.com/CyberShadow/reveal.js/tree/dconf2017-meta, Source code)
 
 VIDEO_URL_Y = 
 
