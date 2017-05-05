@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/engelen.jpg
 
 TALK_TITLE = Abstraction Cost and Optimization (LDC)
 
-SLIDES = $(SLIDES_NO)
+CODE_URL = engelen_code.d
+
+CODE_SAMPLES = $(CODE_SAMPLES_YES)
+
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
