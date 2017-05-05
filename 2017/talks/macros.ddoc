@@ -22,6 +22,12 @@ SLIDES_NO =
 
 SLIDES =
 
+CODE_SAMPLES_YES = $(I $(LINK2 $(CODE_URL), Code samples))<br />
+
+CODE_SAMPLES_NO =
+
+CODE_SAMPLES =
+
 VIDEO_YES = $(T A, href="$(VIDEO_URL_Y)",Video)<br />
 
 DDOC =
@@ -50,6 +56,7 @@ TALK_INFO =
       $(DATE) @ $(TIME)</b><br><br>$(I Duration:) $(DURATION)<br />
       $(I Talk type:) $(TYPE)<br />
       $(I Level:) $(LEVEL)<br />
+      $(CODE_SAMPLES)
       $(SLIDES)
       $(B $(VIDEO))
       <!--a href="#">Powerpoint slides</a--></p>
