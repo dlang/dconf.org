@@ -18,7 +18,11 @@ TALK_TITLE = Things that Matter
 
 TYPE = $(B Keynote)
 
-SLIDES = $(SLIDES_NO)
+SLIDES_URL = $(BASE)/talks/meyers.pptx
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PPTX)
+
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
