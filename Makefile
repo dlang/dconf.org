@@ -9,6 +9,12 @@ all: $(OUT)/index.html 2013/all 2014/all 2015/all 2016/all 2017/all
 rsync : all
 	rsync -avz -p $(OUT)/* $(SITE)
 
+# Travis deployment
+.PHONY: deploy
+deploy : all
+	rsync --chmod=D2775,F664 -vr --omit-dir-times out/ travis_ci_dconf@digitalmars.com:/usr/local/www/dconf.org/data || true
+	ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true
+
 .PHONY: clean
 clean: 2013/clean 2014/clean
 	rm -rf out

@@ -13,8 +13,6 @@ deploy:
   skip_cleanup: true
   # Travis supports only "one" script deployment
   # The chmod is done separately as it will fail for folder & files not owned by travis_ci_dconf
-  script:
-  - rsync --chmod=D2775,F664 -vr --omit-dir-times out/ travis_ci_dconf@digitalmars.com:/usr/local/www/dconf.org/data || true
-  - ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true
+  script: make deploy
   on:
     branch: master
