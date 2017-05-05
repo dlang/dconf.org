@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/../2016/images/watson.jpg
 
 TALK_TITLE = Binderoo - A Rapid Iteration Framework That Even Scripters Can Use
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
