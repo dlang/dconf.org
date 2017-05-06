@@ -38,8 +38,8 @@ wilson \
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*) \
-	$(addprefix talks/, $(addsuffix .pdf, bright arneaud sechet marques nacke buclaw veelo olshansky watson engelen alexandrescu)) \
-	$(addprefix talks/, $(addsuffix .pptx, wilson cojocaru meyers)) \
+	$(addprefix talks/, $(addsuffix .pdf, bright arneaud sechet marques nacke buclaw veelo olshansky watson engelen alexandrescu nunn)) \
+	$(addprefix talks/, $(addsuffix .pptx, wilson cojocaru meyers nunn)) \
 	$(addprefix talks/, $(addsuffix .odp, nitu koch)) \
 	$(addprefix talks/, $(addsuffix .d, engelen_code)) \
 
