@@ -17,7 +17,11 @@ SPEAKER_PIC = $(BASE)/images/caciulescu.png
 TALK_TITLE = Zero Overhead Interface Between the D Language and the C++
 Standard Library
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/caciulescu.odp
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), ODP)
 
 VIDEO_URL_Y = 
 
