@@ -6,7 +6,7 @@ DATE = May 6
 
 TIME = 17:30
 
-SPEAKER = TBD
+SPEAKER = Multiple Speakers
 
 SPEAKER_SHORT = lightning
 
@@ -29,7 +29,16 @@ DURATION = 60 minutes
 LEVEL = All
 
 ABSTRACT =
-$(P $(I TBD))
+$(UL
+$(LI "A Dive into Ocean" by $(B Hatem Oraby))
+$(LI "Snap Packages for D Compilers and Build Tools" by $(B Joe Wakeling))
+$(LI "Benchmarking" by $(B Robert Schadek))
+$(LI "SecureD" by $(B Adam Wilson))
+$(LI "Meetup Minutes" by $(B Ben Palmer), $(B Steven Schveighoffer), $(B Stefan Rohe), $(B Ali Çehreli), and $(B John Colvin))
+$(LI "D-Enabled Gadgets" by $(B Adrian Matoga))
+$(LI "Compile-Time Assembler and Disassembler" by $(B Stefan Koch))
+$(LI "Writing Microsoft Excel Add-Ins in D" by $(B Átila Neves))
+)
 
 BIO =
-$(P $(I TBD))
+$(P $(I Multiple Speakers))
