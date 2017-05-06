@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/../2016/images/schveighoffer.jpg
 
 TALK_TITLE = IOPipe: a High Performance I/O Library
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
