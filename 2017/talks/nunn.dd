@@ -16,7 +16,9 @@ SPEAKER_PIC = $(BASE)/images/nunn.jpg
 
 TALK_TITLE = Why D is the Perfect Fit for Building GTK Applications
 
-SLIDES = $(SLIDES_NO)
+SLIDE_LINKS = $(LINK2 $(SLIDES_FILE pdf), PDF) &middot $(LINK2 $(SLIDES_FILE pptx), PPTX)
+
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y = 
 
