@@ -40,7 +40,8 @@ TO_COPY = \
 	includes/ $(wildcard includes/*) \
 	$(addprefix talks/, $(addsuffix .pdf, bright arneaud sechet marques nacke buclaw veelo olshansky watson engelen alexandrescu nunn)) \
 	$(addprefix talks/, $(addsuffix .pptx, wilson cojocaru meyers nunn)) \
-	$(addprefix talks/, $(addsuffix .odp, nitu koch)) \
+	$(addprefix talks/, $(addsuffix .ppt, staniloiu)) \
+	$(addprefix talks/, $(addsuffix .odp, nitu koch caciulescu)) \
 	$(addprefix talks/, $(addsuffix .d, engelen_code)) \
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
@@ -85,6 +86,9 @@ $(OUT)/%.pdf : %.pdf
 	cp $^ $@
 
 $(OUT)/%.pptx : %.pptx
+	cp $^ $@
+
+$(OUT)/%.ppt : %.ppt
 	cp $^ $@
 
 $(OUT)/%.odp : %.odp
