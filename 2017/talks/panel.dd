@@ -38,7 +38,7 @@ VIDEO = $(VIDEO_NO)
 LEVEL = All
 
 ABSTRACT =
-$(P $(I Coming soon...))
+$(P Various topics...)
 
 BIO =
 $(P $(B Andrei Alexandrescu) coined the colloquial term "modern C++" (adapted
