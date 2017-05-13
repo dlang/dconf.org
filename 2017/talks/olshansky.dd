@@ -10,7 +10,7 @@ SPEAKER = Dmitry Olshansky
 
 SPEAKER_SHORT = olshansky
 
-SPEAKER_URL = https://github.com/blackwhale
+SPEAKER_URL = https://github.com/DmitryOlshansky
 
 SPEAKER_PIC = $(BASE)/../2013/images/DmitryOlshansky.jpg
 
