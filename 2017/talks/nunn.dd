@@ -31,7 +31,7 @@ LEVEL = Beginner to Intermediate
 KEYWORDS = GTK, GNOME, GtkD, Graphical User Interface (GUI)
 
 ABSTRACT =
-$(P D is an ideal language to use for building GTK applications. This talk will explore why it is a good fit in comparison to other languages based on the experience of the speaker writing Terminix, a popular terminal emulator for Gnome.)
+$(P D is an ideal language to use for building GTK applications. This talk will explore why it is a good fit in comparison to other languages based on the experience of the speaker writing Tilix, a popular terminal emulator for Gnome.)
 
 $(P When writing GTK applications there is currently a gap between compiled languages, which are often low productivity and difficult to learn, and scripting languages which are easier to learn but lack performance, static typing and other features that developers often prefer.)
 
@@ -43,9 +43,9 @@ $(UL
     $(LI What is GTK in a single slide)
     $(LI Surveying the current options for building GTK applications (C, C++, Python, Javascript, Vala and Rust))
     $(LI Why choose D over other options?)
-    $(LI Summary of experience writing Terminix including:
+    $(LI Summary of experience writing Tilix including:
     $(UL
-        $(LI How D makes Terminix better)
+        $(LI How D makes Tilix better)
         $(LI Best practices for writing D GTK applications)
         $(LI Lessons learned)
         )
@@ -54,4 +54,4 @@ $(UL
 )
 
 BIO =
-$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is Terminix (https://gnunn1.github.io/terminix-web/), a popular tiling terminal emulator for GNOME.)
+$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is Tilix (https://gnunn1.github.io/tilix-web/), a popular tiling terminal emulator for GNOME.)
