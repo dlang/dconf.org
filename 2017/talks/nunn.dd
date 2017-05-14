@@ -54,4 +54,4 @@ $(UL
 )
 
 BIO =
-$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is Tilix (https://gnunn1.github.io/tilix-web/), a popular tiling terminal emulator for GNOME.)
+$(P Gerald Nunn is a Senior Middleware Solutions Architect with Red Hat. While his day job has nothing to do with the desktop, GTK or GNOME, he maintains a passion for building GUI applications. His current hobby project is $(LINK2 https://gnunn1.github.io/tilix-web, Tilix), a popular tiling terminal emulator for GNOME.)
