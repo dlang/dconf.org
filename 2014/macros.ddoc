@@ -26,7 +26,7 @@ HEADER = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://
 $(GETSCRIPT $(BASE)/includes/jquery.min.js)
 $(COMMENT $(GETSCRIPT $(BASE)/includes/css.js))
 $(GETSCRIPT $(BASE)/includes/widget.js)
-$(GETSCRIPT http://dlang.org/js/hyphenate.js)
+$(GETSCRIPT https://dlang.org/js/hyphenate.js)
 <!--[if IE 9]>
 <link rel="stylesheet" type="text/css" href="$(BASE)/includes/iefix.css" />
 <![endif]-->
