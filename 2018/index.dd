@@ -1,0 +1,38 @@
+Ddoc
+
+$(T h1,,DConf 2018$(BR) in Munich!)
+
+$(P )
+
+$(T h2,,Important Dates)
+
+$(T table,,
+    $(T tr,,
+      $(T td,, Early bird registration deadline)
+      $(T td,, $(B TBD))
+    )
+    $(T tr,,
+      $(T td,, Registration deadline)
+      $(T td,, $(B TBD))
+    )
+    $(T tr,,
+      $(T td,, Conference)
+      $(T td,, $(B Wednesday May 2&ndash;Friday May 4, 2018))
+    )
+    $(T tr,,
+      $(T td,, Hackathon)
+      $(T td,, $(B Saturday May 5, 2018))
+    )
+)
+
+Macros:
+KEYNOTE_SPEAKER_IMG =
+<table class="image">
+<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
+</table>
+
+KEYNOTE_SPEAKERS=
+$(KEYNOTE_SPEAKER_IMG http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg, Andrei Alexandrescu, talks/alexandrescu.html)
+$(KEYNOTE_SPEAKER_IMG http://walterbright.com/wblogo.jpg, Walter Bright, talks/bright.html)
+$(KEYNOTE_SPEAKER_IMG http://www.aristeia.com/images/sdm-small.jpg, Scott Meyers, talks/meyers.html)
