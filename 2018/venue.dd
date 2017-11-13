@@ -1,0 +1,9 @@
+Ddoc
+
+$(T h1,, Venue)
+
+$(P )
+
+Macros:
+
+HTTP=$(LINK2 http://$1, $+)
