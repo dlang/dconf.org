@@ -20,9 +20,9 @@ LEVEL = Intermediate, Advanced
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=xpImt14KTdc
+VIDEO_URL_Y = https://www.youtube.com/watch?v=SzIveF7R8lM
 
-VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk06
+VIDEO_URL_A = https://archive.org/details/dconf2014-day-01-talk06
 
 VIDEO = $(VIDEO_YES)
 
