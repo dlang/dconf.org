@@ -18,7 +18,7 @@ TALK_TITLE = A Real D In Programming: Lessons Learned From Eight Years of Teachi
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=ymoIx3klQ6M
+VIDEO_URL_Y = https://youtu.be/sBjOnSq6tsE
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk03
 
