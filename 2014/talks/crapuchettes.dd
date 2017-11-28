@@ -20,7 +20,7 @@ SLIDES = $(SLIDES_NO)
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day01-talk02
 
-VIDEO_URL_Y = https://youtube.com/watch?v=TlqVu9RtoeY
+VIDEO_URL_Y = https://youtu.be/5c4A_2IE9Yc
 
 VIDEO = $(VIDEO_YES)
 
