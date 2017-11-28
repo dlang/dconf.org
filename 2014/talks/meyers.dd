@@ -22,7 +22,7 @@ SLIDES = $(SLIDES_NO)
 
 VIDEO_URL_Y = http://www.youtube.com/watch?v=48kP_Ssg2eY
 
-VIDEO_URL_A = http://www.youtube.com/watch?v=48kP_Ssg2eY
+VIDEO_URL_A = http://www.ustream.tv/recorded/47947981
 
 VIDEO = $(VIDEO_YES)
 
