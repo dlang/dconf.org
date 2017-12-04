@@ -18,7 +18,7 @@ TALK_TITLE = x86 Bare Metal and Custom Runtime Programming
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = http://www.youtube.com/watch?v=qErXPomAWYI
+VIDEO_URL_Y = https://youtu.be/lu5TTvnvDSI
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk03
 

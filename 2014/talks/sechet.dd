@@ -14,7 +14,7 @@ SPEAKER_URL = https://github.com/deadalnix
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = http://www.youtube.com/watch?v=AhR4PSExnqk
+VIDEO_URL_Y = https://youtu.be/TMZzhjC9B3A
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk07
 
