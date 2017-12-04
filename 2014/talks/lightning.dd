@@ -16,7 +16,7 @@ TALK_TITLE = Lightning Talks!
 
 LEVEL = All
 
-VIDEO_URL_Y = http://www.youtube.com/watch?v=oF8K4-bieaw
+VIDEO_URL_Y = https://youtu.be/0zUXmLyG0k8
 
 VIDEO_URL_A = https://archive.org/details/dconf2014-day03-talk05
 
