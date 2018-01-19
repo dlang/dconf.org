@@ -17,7 +17,7 @@ We are featuring growth and outreach as a special theme this year - if you have 
 $(T h2,,Call for Submissions)
 
 $(P
-We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. The topics of choice are anything and everything related to the D language, such as:
+We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. All submissions should be directed to $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org). The topics of choice are anything and everything related to the D language, such as:
 )
 
 $(UL
@@ -40,6 +40,12 @@ $(T h2,, Hackathon)
 
 $(P
 Building on the success of the past year's hackathon, we are happy to announce a day-long Hackathon on Saturday, May 5th. The day is largely unstructured, but we expect birds-of-a-feather groups to materialize naturally. Bring your laptop and your enthusiasm!
+)
+
+$(T h2,, Sponsorship)
+
+$(P
+Sponsorship packages are available. For details, please direct queries to Franziska Mai ($(LINK2 mailto:f.mai@hlmc.de, f.mai@hlmc.de)) or Gerhard Versteegen ($(LINK2 mailto:g.versteegen@hlmc.de, g.versteegen@hlmc.de)).
 )
 
 $(T h2,,Important Dates)
