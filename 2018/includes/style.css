@@ -358,7 +358,7 @@ h2 {
 
 h3 {
 	font-family: Georgia, serif;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #000000;
 	line-height: 20px;
@@ -371,7 +371,7 @@ h1 + p, h1 + div {
 
 p, td {
 	font-family: Georgia, "Palatino Linotype", serif;
-	font-size: 14px;
+	font-size: 16px;
 	color: #000000;
 	line-height: 16px;
 	margin-bottom: 14px;
