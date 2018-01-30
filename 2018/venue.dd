@@ -1,9 +1,19 @@
 Ddoc
-
 $(T h1,, Venue)
-
-$(P )
-
-Macros:
-
-HTTP=$(LINK2 http://$1, $+)
+$(P
+Like to hit the snooze button a few times before a busy day at DConf? This year, you can get a couple extra snoozes in than you could at past iterations! DConf 2018 is taking place at the NH München Messe, a 253-room hotel in the Zamdorf area of Munich.
+)
+$(P
+Not only will this save you time, it will save you money. The hotel is offering a discount to DConf 2018 attendees. Keep an eye on this space for information on how to take advantage of this offer.
+)
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.477770286422!2d11.640737815905705!3d48.139593658999004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e754f844b568f%3A0xcad50f47cc4b1e23!2sNH+M%C3%BCnchen+Messe!5e0!3m2!1sen!2skr!4v1517323757068" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+$(T h2,, Nearby hotels)
+$(P
+If you'd like to find an alternative to the Hotel NH München Messe there are other options nearby (prices and availability may vary):
+)
+$(UL
+$(LI $(LINK2 https://www.accorhotels.com/gb/hotel-8666-ibis-styles-munich-east/index.shtml, ibis Styles Munich East))
+$(LI $(LINK2 https://en.azimuthotels.de/Germany/azimut-hotel-city-east-munich/, AZIMUT Hotel Munich))
+$(LI $(LINK2 https://www.galahotels.com/en/Hotel/germany_85/munich_8372/mercure_munchen_ost_messe_336693, Mercure München Ost - Messe Hotel))
+$(LI $(LINK2 http://www.tulipinnmuenchenmesse.com/en, Tulip Inn München Messe))
+)
