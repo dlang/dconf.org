@@ -11,7 +11,7 @@ We are featuring growth and outreach as a special theme this year - if you have 
 )
 $(T h2,,Call for Submissions)
 $(P
-We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. All submissions should be directed to $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org). The topics of choice are anything and everything related to the D language, such as:
+We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. The topics of choice are anything and everything related to the D language, such as:
 )
 $(UL
 $(LI $(B Language techniques) enabled by the D language)
@@ -21,14 +21,14 @@ $(LI $(B Under the hood) looks at compiler and standard library implementation a
 $(LI $(B Hot topics) such as safe deterministic memory management, migrating from other languages, or community engagement)
 $(LI $(B Research reports) by students doing research on or using the D language)
 )
-$(P 
+$(P
 But don't be constrained! Originality in topics and formats is warmly encouraged. If it is relevant to the D language, it fits. Just mind the guidelines and don't forget the deadlines below.
 )
-$(P 
+$(P
 We expect original work, or work synthesized from community folklore into interesting tidbits by the author. Related work can be mentioned with credit. Overviews of an area covered by other authors is acceptable, again with due credit and assuming the overview has intrinsic value.
 )
 $(T h2,,Selection Criteria)
-$(P 
+$(P
 The committee will review and rate submissions according to the following criteria:
 )
 $(T ul,,
@@ -40,7 +40,7 @@ $(LI $(B Credentials:) What qualifies you to talk on the topic of choice? Althou
 $(LI $(B Bottom line:) What's your session's takeaway? How is it going to improve attendees' knowledge, outlook, and inspiration?)
 )
 $(T h2,,Submission Guidelines)
-$(P We expect submission in plain text format or one of the usual rich document formats, such as PDF or DOC. Send your submissions to $(LINK2 mailto:dconf2015@digitalmars.com, dconf2015@digitalmars.com). The submission should include:)
+$(P We expect submission in plain text format or one of the usual rich document formats, such as PDF or DOC. All submissions should be directed to $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org) and should include:)
 $(T ol,,
 $(LI $(B Title))
 $(LI $(B Kind) (e.g. talk, panel, contest, interpretive dance))
