@@ -55,7 +55,7 @@ $(DIV class="menu row_after",
       $(LI $(NO_LINK_YET Register))
       $(LI $(NO_LINK_YET Schedule))
       $(LI $(NO_LINK_YET Speakers))
-      $(LI $(NO_LINK_YET Venue))
+      $(LI $(LINK2 $(BASE)/venue.html, Venue))
       $(LI $(LINK2 $(BASE)/contact.html, Contact))
       $(LI $(LINK2 $(BASE)/../2017, 2017))
       $(LI $(LINK2 $(BASE)/../2016, 2016))
