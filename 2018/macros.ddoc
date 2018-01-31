@@ -115,7 +115,7 @@ $(FOOTER)
 
 FOOTER =
 $(DIV class="footer",
-    &copy; 2017 $(LINK2 https://dlang.org/foundation.html, The D Language Foundation) |
+    &copy; $(YEAR) $(LINK2 https://dlang.org/foundation.html, The D Language Foundation) |
     Generated with Ddoc
 )
 
