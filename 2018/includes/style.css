@@ -373,13 +373,12 @@ p, td {
 	font-family: Georgia, "Palatino Linotype", serif;
 	font-size: 16px;
 	color: #000000;
-	line-height: 16px;
+	line-height: 18px;
 	margin-bottom: 14px;
 }
 
 ul {
 	font-family: Georgia, "Palatino Linotype", serif;
-	font-size: 14px;
 	color: #000000;
 	list-style-position: outside;
 	list-style-type: square;
@@ -389,8 +388,6 @@ ul {
 
 ol {
 	font-family: Georgia, "Palatino Linotype", serif;
-	font-size: 14px;
-	line-height: 16px;
 	color: #000000;
 	list-style-position: inside;
 	margin: 0px 5px;
@@ -399,8 +396,8 @@ ol {
 
 li {
 	font-family: Georgia, "Palatino Linotype", serif;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 15px;
+	line-height: 18px;
 	color: #000000;
 	padding: 0px;
 	margin: 0px 10px;
