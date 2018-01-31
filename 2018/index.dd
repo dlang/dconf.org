@@ -4,10 +4,17 @@ $(P
 The D Language Foundation is pleased to announce the international conference and hackathon DConf 2018 in Munich, Germany, May 2-5 2018.
 )
 $(P
-DConf is the main face-to-face event for everyone in the D programming language community and anyone who wants to know what all the fuss is about. We are proud to be hosted in Munich, a hotbed of systems and embedded software with a strong and vibrant programmer community. And if you use the public transportation system, beware! The passenger information software is written in D by local company Funkwerk AG.
+DConf is the main face-to-face event for everyone in the D programming language community and anyone who wants to know what all the fuss is about. We are proud to be hosted by our partner $(LINK2 https://www.qa-systems.de/, QA Systems) through the organizational expertise of $(LINK2 http://www.hlmc.de/, HLMC).
 )
 $(P
-We are featuring growth and outreach as a special theme this year - if you have any friends who use another language who could benefit from learning more about the D language, let them know!
+Munich is a hotbed of systems and embedded software with a strong and vibrant programmer community. If you use the public transportation system, beware! The passenger information software is written in D by local company Funkwerk AG.
+)
+$(T h2,,Content)
+$(P
+We are happy to be hosting the creator of the Scala programming language, Martin Odersky, as our invited keynote speaker. He'll be presenting "How to Abstract Over Context", and what he sees as the canonical approach in Scala.
+)
+$(P
+We are featuring growth and outreach as a special theme this year - if you have any friends who could benefit from learning more about the D programming language, let them know!
 )
 $(T h2,,Call for Submissions)
 $(P
@@ -57,7 +64,7 @@ Building on the success of the past year's hackathon, we are happy to announce a
 )
 $(T h2,, Sponsorship)
 $(P
-Sponsorship packages are available. For details, please direct queries to Franziska Mai ($(LINK2 mailto:&#102;&#046;&#109;&#097;&#105;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;, &#102;&#046;&#109;&#097;&#105;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;)) or Gerhard Versteegen ($(LINK2 mailto:&#103;&#046;&#118;&#101;&#114;&#115;&#116;&#101;&#101;&#103;&#101;&#110;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;, &#103;&#046;&#118;&#101;&#114;&#115;&#116;&#101;&#101;&#103;&#101;&#110;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;e)).
+Sponsorship packages are available. For details, please direct queries to Franziska Mai ($(LINK2 mailto:&#102;&#046;&#109;&#097;&#105;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;, &#102;&#046;&#109;&#097;&#105;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;)) or Gerhard Versteegen ($(LINK2 mailto:&#103;&#046;&#118;&#101;&#114;&#115;&#116;&#101;&#101;&#103;&#101;&#110;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;, &#103;&#046;&#118;&#101;&#114;&#115;&#116;&#101;&#101;&#103;&#101;&#110;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;)).
 )
 $(T h2,,Important Dates)
 $(T table,,

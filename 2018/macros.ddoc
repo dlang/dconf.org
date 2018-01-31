@@ -71,10 +71,15 @@ SPONSORS =
 $(DIV class="page_right equal",
   $(DIV class="divider_h", &nbsp;)
   $(DIV class="sponsors",
-    $(T span, class="sp", Partner)<br />
+    $(T span, class="sp", Partner/Host)<br />
       $(T table,, $(T tr,,
-      $(T td,, $(LINK2 http://sociomantic.com,
-      <img src="http://www.offremedia.com/sites/default/files/styles/270x170_echelle/public/logo_org_21466.png?itok=moLeleXt" width="100%" alt="Sociomantic" border="0" />)))
+      $(T td,, $(LINK2 https://www.qa-systems.de/,
+      <img src="images/QAS_Logo_UZG_RGB_web.jpg" width="100%" alt="QA Systems" border="0" />)))
+    )
+    $(T span, class="sp", Organizer)<br />
+      $(T table,, $(T tr,,
+      $(T td,, $(LINK2 http://www.hlmc.de/,
+      <img src="images/hlmc-logo-web.png" width="100%" alt="HLMC" border="0" />)))
     )
   )
   $(DIV class="twitter",
