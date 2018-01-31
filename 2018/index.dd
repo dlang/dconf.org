@@ -9,8 +9,10 @@ DConf is the main face-to-face event for everyone in the D programming language 
 $(P
 Munich is a hotbed of systems and embedded software with a strong and vibrant programmer community. If you use the public transportation system, beware! The passenger information software is written in D by local company Funkwerk AG.
 )
+$(P
+We are featuring growth and outreach as a special theme this year - if you have any friends who could benefit from learning more about the D programming language, let them know!
+)
 $(T h2,,Keynote Speakers)
-
 $(P
 We are happy to be hosting the creator of the Scala programming language, Martin Odersky, as our invited keynote speaker. He'll be joining our regular keynote speakers, Andrei Alexandrescu and Walter Bright.
 )
@@ -19,13 +21,6 @@ $(P
     $(KEYNOTE_SPEAKERS)
    )
 )
-
-$(T h2,,Content)
-
-$(P
-We are featuring growth and outreach as a special theme this year - if you have any friends who could benefit from learning more about the D programming language, let them know!
-)
-
 $(T h2,,Call for Submissions)
 $(P
 We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. The topics of choice are anything and everything related to the D language, such as:
