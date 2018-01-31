@@ -52,7 +52,7 @@ $(DIV class="menu row_after",
   $(T nav,,
     $(T ul,id="menu",
       $(LI $(LINK2 $(BASE)/index.html, Home))
-      $(LI $(NO_LINK_YET Register))
+      $(LI $(LINK2 $(BASE)/registration.html, Register))
       $(LI $(NO_LINK_YET Schedule))
       $(LI $(NO_LINK_YET Speakers))
       $(LI $(LINK2 $(BASE)/venue.html, Venue))
