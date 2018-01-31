@@ -34,7 +34,7 @@ $(P $(B $(T font, size=+1, Early-Bird Registration $(DOLLAR)340)))
 <INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2018/thankyou.html">
 <INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
 <INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2018 Registration">
-<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="400.00">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="340.00">
 <INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
 </FORM>
 </td>
