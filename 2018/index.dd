@@ -16,6 +16,7 @@ We are happy to be hosting the creator of the Scala programming language, Martin
 $(P
 We are featuring growth and outreach as a special theme this year - if you have any friends who could benefit from learning more about the D programming language, let them know!
 )
+
 $(T h2,,Call for Submissions)
 $(P
 We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. The topics of choice are anything and everything related to the D language, such as:
@@ -93,6 +94,14 @@ $(T table,,
       $(T td,, $(B Saturday May 5, 2018))
     )
 )
+
+$(T h2,,Summary trailer from DConf16)
+
+<div style="margin-top: -20px;">
+<p> For the ones that missed it (and the ones that didn't too), here is a short video about the conference:
+<iframe src="https://player.vimeo.com/video/167235872?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</p>
+</div>
 
 Macros:
 KEYNOTE_SPEAKER_IMG =
