@@ -11,11 +11,19 @@ Munich is a hotbed of systems and embedded software with a strong and vibrant pr
 )
 $(T h2,,Content)
 $(P
-We are happy to be hosting the creator of the Scala programming language, Martin Odersky, as our invited keynote speaker. He'll be presenting "How to Abstract Over Context", and what he sees as the canonical approach in Scala.
+We are happy to be hosting the creator of the Scala programming language, Martin Odersky, as our invited keynote speaker. He'll be joining our regular keynote speakers, Andrei Alexandrescu and Walter Bright.
+)
+$(P
+  $(DIV class="inline vmid",
+    $(KEYNOTE_SPEAKERS)
+   )
 )
 $(P
 We are featuring growth and outreach as a special theme this year - if you have any friends who could benefit from learning more about the D programming language, let them know!
 )
+$(T h2,,Keynote Speakers)
+
+
 $(T h2,,Call for Submissions)
 $(P
 We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. The topics of choice are anything and everything related to the D language, such as:
@@ -97,11 +105,11 @@ $(T table,,
 Macros:
 KEYNOTE_SPEAKER_IMG =
 <table class="image">
-<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<caption align="bottom"><b>$2</b></caption>
 <tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
 </table>
 
 KEYNOTE_SPEAKERS=
-$(KEYNOTE_SPEAKER_IMG http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg, Andrei Alexandrescu, talks/alexandrescu.html)
-$(KEYNOTE_SPEAKER_IMG http://walterbright.com/wblogo.jpg, Walter Bright, talks/bright.html)
-$(KEYNOTE_SPEAKER_IMG http://www.aristeia.com/images/sdm-small.jpg, Scott Meyers, talks/meyers.html)
+$(KEYNOTE_SPEAKER_IMG http://erdani.com/media/2012-07-16%20Professional%20Photo%205.jpg, Andrei Alexandrescu, )
+$(KEYNOTE_SPEAKER_IMG http://walterbright.com/wblogo.jpg, Walter Bright, )
+$(KEYNOTE_SPEAKER_IMG images/Martin.jpg, Martin Odersky, )
