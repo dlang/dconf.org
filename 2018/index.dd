@@ -99,14 +99,12 @@ $(T table,,
       $(T td,, $(B Saturday May 5, 2018))
     )
 )
-
-$(T h2,,Summary trailer from DConf16)
-
-<div style="margin-top: -20px;">
-<p> For the ones that missed it (and the ones that didn't too), here is a short video about the conference:
+$(T h2,,Summary trailer from DConf 2016)
+$(P
+For a taste of what DConf is all about, check out this video from the Sociomantic, the hosts of the 2016 & 2017 editions in Berlin.
+)
 <iframe src="https://player.vimeo.com/video/167235872?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</p>
-</div>
+
 
 Macros:
 KEYNOTE_SPEAKER_IMG =
