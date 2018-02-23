@@ -76,15 +76,15 @@ $(T h2,,Important Dates)
 $(T table,,
     $(T tr,,
       $(T td,, Submission deadline)
-      $(T td,, $(T font, color=blue, $(B February 25, 2018)))
+      $(T td,, $(T font, color=blue, $(B February 25, 2018, 24:00 AOE)))
     )
     $(T tr,,
       $(T td,, Author notification)
-      $(T td,, $(B March 17, 2018))
+      $(T td,, $(B March 17, 2018, 24:00 AOE))
     )
     $(T tr,,
       $(T td,, Early bird registration deadline)
-      $(T td,, $(B March 17, 2018))
+      $(T td,, $(B March 17, 2018, 24:00 AOE))
     )
     $(T tr,,
       $(T td,, Registration deadline)
