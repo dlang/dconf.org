@@ -1,0 +1,77 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 12:00
+
+SPEAKER = Igor Česi
+
+SPEAKER_SHORT = cesi
+
+SPEAKER_URL =
+
+TALK_TITLE = Porting D to a non-Windows non-Posix platform
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+The D language has been ported and well supported on Windows and various Posix platforms. In order to use D on a non-Windows, non-Posix platform, often proprietary and closed source, the compiler, druntime and phobos need to be ported and adapted to the specificities of the platform in question. The talk presents challenges and gotchas encountered on the path of such an effort including: how to choose and build the compiler, how to bootstrap druntime and get the unittests running, phobos porting challenges and more.
+)
+
+$(P
+This presentation is meant for programmers who are considering porting D language to currently unsupported platforms. It can also be of interest to D language code architects as it presents how easy (or difficult) it is to find the pieces of code which need to be ported and how well a new platform integrates in the existing code. Finally, the curious programmer can learn some new details on how compilers, druntime and phobos work.
+)
+
+$(P
+Using, or even evaluating, D language on non-supported platforms (non-Windows, non- Posix) requires a major porting effort. Such platforms are often proprietary and closed source (e.g. game consoles).
+)
+
+$(P
+Evaluating necessary work (and therefore time) to get a software working on a new platform is not an easy task. In addition to previous porting experience and knowledge of general porting techniques, a good guide, a How-To document or an overview in the form of a presentation can be invaluable source of information.
+)
+
+$(P
+During the porting, the programmer is faced with many questions and has many decisions to make, such as: compiler choice, build system choice, how to validate that the code is correct, what is the minimum code necessary to run existing unittests, how portable is phobos, and many others.
+)
+
+$(P
+In most cases, the answers are specific to the target platform, but knowing which questions will need answers can be a big help during the planning phase. During the implementation phase, having an idea how far away from the final goal is essential, both from planning and psychological/morale point of view.
+)
+
+$(P
+The presentation describes the porting of D language to an unnamed game console platform (*) which was done by Igor Česi at Ubisoft during autumn / winter 2017. In the form of an experience report it will describe:
+$(OL
+$(LI How to choose and then build the compiler for the target platform)
+$(LI Build system options)
+$(LI Porting druntime)
+    $(UL
+    $(LI Bootstrapping)
+    $(LI A road to unittests)
+    $(LI Filling the gaps)
+    )
+$(LI Porting phobos)
+    $(UL
+    $(LI The easy part and low hanging fruits)
+    $(LI The hard part (platform specificities; the devil is in the details))
+$(LI Useful tips and tricks)
+)
+
+(*) The reason to avoid specifically naming the target platform is the NDA agreement signed with the platform owner. This should have a positive impact on the content of the presentation as it forces the content to be more generic; it is not expected many people
+will do exactly the same port.
+)
+
+BIO =
+$(P
+Igor Česi is a senior programmer at Ubisoft Paris studio where he helped making 10+ games including multiple titles in Ghost Recon and Just Dance franchises. The latest game he participated in making is Mario+Rabbids Kingdom Battle. He's been programming in C++ for the last 20 years. After following D from a 'distance' for many years and thanks to guys from Remedy Entertainment who proved that D on gaming consoles is possible, he is trying to introduce the D language to programming teams in Ubisoft Paris studio.
+)

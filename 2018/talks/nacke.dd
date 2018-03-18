@@ -1,0 +1,42 @@
+Ddoc
+
+Macros:
+
+DATE = May 2
+
+TIME = 16:30
+
+SPEAKER = Kai Nacke
+
+SPEAKER_SHORT = nacke
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/nacke.jpg
+
+TALK_TITLE = D for the Blockchain
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+Write blockchain applications leveraging the power of D.
+)
+
+$(P
+Blockchain is the latest emerging technology. Basically, a blockchain is a secure, distributed ledger, allowing a lot of applications beyond crypto currencies. Hyperledger Fabric is one of the frameworks which implements blockchain technology in a way well suited for business purposes. Mainly written in the Go programming language it seems not to be a good fit for a D programmer. In this talk I give a short introduction to the concepts of blockchain and the Hyperledger Fabric ecosystem. I point out the integration challenges and missing building
+blocks a D programmer is facing in this environment. By presenting different approaches, I highlight the design decisions I have made for my solution. With my implementation it is now possible to write blockchain applications from the UI down to the chaincode (smart contracts) in D.
+)
+
+BIO =
+$(P
+Kai Nacke is a professional IT architect. In his spare time he likes to develop open source applications. He is the current maintainer of LDC, the LLVM-based D compiler, and a committer of the LLVM project. His contributions to LDC include ports to different CPU architectures and operating systems. Another interest of him is using D for business applications. He is the developer of the D bindings for SAP. Besides programming he is also the author of "D Web Development" and a speaker at the Free and Open Source Software Developers' European Meeting (FOSDEM).
+)

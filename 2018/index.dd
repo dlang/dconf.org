@@ -114,6 +114,6 @@ KEYNOTE_SPEAKER_IMG =
 </table>
 
 KEYNOTE_SPEAKERS=
-$(KEYNOTE_SPEAKER_IMG images/erdani.jpg, Andrei Alexandrescu, )
 $(KEYNOTE_SPEAKER_IMG images/bright.jpg, Walter Bright, )
+$(KEYNOTE_SPEAKER_IMG images/erdani.jpg, Andrei Alexandrescu, )
 $(KEYNOTE_SPEAKER_IMG images/Martin.jpg, Martin Odersky, )

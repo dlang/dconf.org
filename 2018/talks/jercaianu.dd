@@ -1,0 +1,40 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 16:30
+
+SPEAKER = Alexandru Jercaianu
+
+SPEAKER_SHORT = jercaianu
+
+SPEAKER_URL =
+
+TALK_TITLE = Project Blizzard: safe memory allocation and deallocation
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P
+Fostering memory safe code is a key goal of the D language. However, as its predecessors have proven, manual memory management is highly incompatible with this world view. Dangling pointers and use-after-free can not only lead to memory corruption, but also to various security exploits. It is high time to put the allocator modules to good work and devise a way to have safe manual memory management, at negligible cost of performance.
+)
+
+$(P
+This talk will show how to compose the existing memory allocators in the D standard library, together with innovative techniques such as type reusabililty, to create a safe alternative to the traditional "malloc".
+)
+
+BIO =

@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 17:00
+
+SPEAKER = Eduard Staniloiu
+
+SPEAKER_SHORT = staniloiu
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/staniloiu.jpg
+
+TALK_TITLE = TBA
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P
+This talk discusses work on generic collections that are safe, flexible, and allow type qualifiers, all while being consistent with the Range API, to provide a clean and intuitive experience to both new and experienced users alike.
+)
+
+$(P
+We will identify and discuss some of the challenges of using custom allocators with qualified types and how we can overcome them to define our path to success.
+)
+
+BIO =
+$(P Eduard is a MSc student and Teaching Assistant at University "Politehnica" of Bucharest. He is a hard working student who enjoys $(I to get his hands dirty). He likes learning new technologies and strengthening his current knowledge. He is passionate about computer science because we get to think about and tackle problems that we encounter on a daily basis and we are able to find solutions that help other people. His previous experience includes distributed systems and parallel programming, operating systems, basic kernel development, open-source software and basic Android programming. He is a Linux fan, a command line addict and a vim enthusiast. He hopes that through his work he will be able to help and improve the D language, which he is becoming so fond of.
+)

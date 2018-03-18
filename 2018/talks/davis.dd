@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 12:00
+
+SPEAKER = Jonathan M. Davis
+
+SPEAKER_SHORT = davis
+
+SPEAKER_URL = http://jmdavisprog.com/index.html
+
+SPEAKER_PIC = $(BASE)/images/davis.jpg
+
+TALK_TITLE = Overview of dxml and Lessons Learned
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+dxml is an XML parsing library written in D which heavily uses
+common D idioms such as ranges. This talk will go over its design, the challenges encountered in implementing it, and lessons learned in the process.
+)
+
+$(P
+This talk will go over how and why dxml came into existence and how its design evolved. It will go over some of the fundamental issues with using ranges when parsing XML and how those were solved (for a while, it actually presented a cursor API rather than a range API due to some of those issues). At least some of those lessons learned seem like they would be quite applicable beyond XML and of value to the D community at large in figuring out how to go about making an API range-based. At the time of writing, dxml currently only has a range-based STaX parser and related helper functions, but there should be plenty there to talk about. However, future development that is done between now and dconf could definitely affect what makes it into the talk (a DOM parser using the STaX parser is planned as are two XML writers - one which is the writer equivalent of a STaX parser and one which is DOM-based). Given the fact that std.xml needs to be replaced, dxml may or may not end up going through the Phobos review process (that will largely depend on community feedback) and ultimately end up in Phobos (that will of course depend on how the review process goes), so having a talk go over it is potentially valuable from that angle as well.
+)
+
+$(P
+Links to the source and documentation can be found here:
+
+$(HTTP jmdavisprog.com/projects.html, http://jmdavisprog.com/projects.html)
+)
+
+BIO =
+$(P
+Jonathan M Davis is the primary author of std.datetime and one of Phobos' core contributors. He is a professional developer and has experience in a number of programming languages, including C++, Haskell, Java, and D. For better or worse, he's well known in the D community for answering questions and being long-winded. He currently resides in Utah.
+)

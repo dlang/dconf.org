@@ -1,0 +1,73 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 14:30
+
+SPEAKER = Luís Marques
+
+SPEAKER_SHORT = marques
+
+SPEAKER_URL = http://www.luismarques.eu/
+
+SPEAKER_PIC = $(BASE)/images/marques.jpg
+
+TALK_TITLE = Beyond OOP: A Case Study
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner
+
+ABSTRACT =
+$(P
+What makes for good software architecture? How should we design our programs? While much has been written about these topics, the answers rarely take into account D's differentiating features. Specifically, most contemporary software design advice assumes an object-oriented programming (OOP) mindset, leaving unexplored the breadth of possibilities allowed by a flexible, multi-paradigm language like D.
+)
+
+$(P
+This talk has two parts. In the first part we identify an apparent contradiction imposed by the OOP design school. We analyze that contradiction in detail, with the goal of understanding its root cause and finding ways to avoid it. In the second part we take what we learned and go over how to design a program from scratch. We use the modeling power of D to achieve the desired architectural properties: simplicity, performance, and malleability.
+)
+
+$(P
+This talk presents a way to design and implement software that departs from the orthodox advice and practices. Yet, it does not present a radically new idea. Instead, we build upon a collection of insights identified by several others, and synthesize a coherent approach that tries to balance competing priorities. In many ways, we use the more avant-garde D features to go back to a simple but expressive style, free from complicated inheritance hierarchies, tangled object graphs, and rococo design patterns.
+)
+
+$(P
+In the first part of the talk we comment on the following topics:
+$(UL
+  $(LI Software architecture and business value)
+  $(LI The essence of OOP: messaging and encapsulation)
+  $(LI The single responsibility principle vs anemic objects)
+  $(LI Domain-driven design and the abstraction frontier)
+  $(LI Fat objects vs open methods, generic programming and algorithms)
+))
+
+$(P
+In the second part of the talk we study the design of Simbool, an educational application used to design and simulate digital logic circuits. We touch upon the following topics:
+$(UL
+  $(LI Architectural flexibility:
+    $(UL
+    $(LI UML and premature architecture)
+    $(LI Emergent architecture: letting the problem dictate the design)
+    $(LI Facing uncertain requirements with joy)
+    )
+  $(LI The value of values, context and free functions:
+    $(UL
+    $(LI Avoiding object graphs, and staying cache friendly)
+    $(LI Contextual memory allocation and data-oriented design)
+    $(LI Modularity and performance with open methods, design by introspection and UFCS)
+    )
+  $(LI Simple and effective testing strategies)
+))
+
+BIO =
+$(P
+I am a generalist programmer, with a good grasp of computer architecture. I have always been interested in the design of clean solutions for difficult programming problems, but there is something to be said about just bashing the problem in the head with some systems programming. In any case, the number of CPU cycle casualties has decreased dramatically since we introduced our unit of tactical rangers, generic ammunition and mental training by introspection.
+)

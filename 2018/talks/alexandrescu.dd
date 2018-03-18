@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 10:00
+
+SPEAKER = Andrei Alexandrescu
+
+SPEAKER_SHORT = alexandrescu
+
+SPEAKER_URL = http://erdani.com
+
+SPEAKER_PIC = $(BASE)/images/erdani.jpg
+
+TALK_TITLE = Systematic Introspection in the D Language
+
+TYPE = $(B Keynote)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+There has been increasing interest in using static introspection as an enabling technology in the D language. However, the primitives provided - some built-in, some available in library form - could be organized more systematically to allow simple, natural use that can be immediately understood and easily maintained. This talk is a vision of an integrated library-based approach to static introspection that makes short work of some traditional challenges, and more importantly enables new, complex uses.
+)
+
+BIO =
+$(P Andrei Alexandrescu coined the colloquial term "modern C++" (adapted from his award-winning book Modern C++ Design), used today to describe a collection of important C++ styles and idioms. He is also the coauthor (with Herb Sutter) of C++ Coding Standards and the author of The D Programming Language book. With Walter Bright, Andrei co-designed many important features of D and authored a large part of D's standard library. His research on Machine Learning and Natural Language Processing completes a broad spectrum of expertise. Andrei holds a Ph.D. in Computer Science from the University of Washington and a B.Sc. in Electrical Engineering from University "Politehnica" Bucharest. He works with the D Language Foundation.
+)

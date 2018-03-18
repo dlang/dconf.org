@@ -1,5 +1,28 @@
 Ddoc
 
+  $(bright_BLURB)
+  $(alexandrescu_BLURB)
+  $(odersky_BLURB)
+  $(cesi_BLURB)
+  $(cojocaru_BLURB)
+  $(davis_BLURB)
+  $(degenhardt_BLURB)
+  $(dilly_BLURB)
+  $(engelen_BLURB)
+  $(jercaianu_BLURB)
+  $(kroeplin_BLURB)
+  $(le_BLURB)
+  $(leroy_BLURB)
+  $(marques_BLURB)
+  $(nacke_BLURB)
+  $(nitu_BLURB)
+  $(olshansky_BLURB)
+  $(rohe_BLURB)
+  $(schveighoffer_BLURB)
+  $(staniloiu_BLURB)
+  $(watson_BLURB)
+  $(zvibel_BLURB)
+
 Macros:
 
 BASE = ..

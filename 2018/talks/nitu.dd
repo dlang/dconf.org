@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 17:00
+
+SPEAKER = Razvan Nitu
+
+SPEAKER_SHORT = nitu
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/default.jpg
+
+TALK_TITLE = ExposeD - the war stories of an aspiring D compiler developer
+
+TALK_TYPE = $(B Student)
+
+SLIDES = $(SLIDES_NO)
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P
+Razvan Nitu has been taking part in the development effort of the D compiler for one and a half years. During this period he has been involved in almost all the activities that such a task requires: implementation of language features, language design, writing documentation, reading specifications, solving bugs, refactorization etc.
+)
+
+$(P
+The talk will delve into the struggles of a rookie compiler developer trying to leave his mark and make D a better language for everyone. Key aspects of the development process will be exposed via an overview of the most important projects that the author has worked on:  D language compiler as a library, lambda comparison, and postblit qualifier paradox. If you have ever wondered about the perks of being a compiler contributor then this is the talk for you.
+)
+
+BIO =

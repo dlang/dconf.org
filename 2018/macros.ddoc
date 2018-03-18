@@ -53,8 +53,8 @@ $(DIV class="menu row_after",
     $(T ul,id="menu",
       $(LI $(LINK2 $(BASE)/index.html, Home))
       $(LI $(LINK2 $(BASE)/registration.html, Register))
-      $(LI $(NO_LINK_YET Schedule))
-      $(LI $(NO_LINK_YET Speakers))
+      $(LI $(LINK2 $(BASE)/schedule/index.html, Schedule))
+      $(LI $(LINK2 $(BASE)/speakers/index.html, Speakers))
       $(LI $(LINK2 $(BASE)/venue.html, Venue))
       $(LI $(LINK2 $(BASE)/contact.html, Contact))
       $(LI $(LINK2 $(BASE)/../2017, 2017))
@@ -74,12 +74,12 @@ $(DIV class="page_right equal",
     $(T span, class="sp", Partner/Host)<br />
       $(T table,, $(T tr,,
       $(T td,, $(LINK2 https://www.qa-systems.de/,
-      <img src="images/QAS_Logo_UZG_RGB_web.jpg" width="100%" alt="QA Systems" border="0" />)))
+      <img src="$(BASE)/images/QAS_Logo_UZG_RGB_web.jpg" width="100%" alt="QA Systems" border="0" />)))
     )
     $(T span, class="sp", Organizer)<br />
       $(T table,, $(T tr,,
       $(T td,, $(LINK2 http://www.hlmc.de/,
-      <img src="images/hlmc-logo-web.png" width="100%" alt="HLMC" border="0" />)))
+      <img src="$(BASE)/images/hlmc-logo-web.png" width="100%" alt="HLMC" border="0" />)))
     )
   )
   $(DIV class="twitter",

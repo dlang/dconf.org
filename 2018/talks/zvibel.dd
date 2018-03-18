@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 17:30
+
+SPEAKER = Liran Zvibel
+
+SPEAKER_SHORT = zvibel
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/zvibel.jpg
+
+TALK_TITLE = Using D as the programming language of choice for large scale primary storage system
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+At Weka.IO we are leveraging D to build the fastest and most scalable file system, solving challenges that have been around IT for the last 20 years. We face strict resource constraints and the systems' performance has to beat competing appliance-based solutions written in C/C++ for latency and throughput.
+)
+
+$(P
+This is our fifth year using D, and are about a year now “out of stealth”, with customer experience. This talk will go over our field experience using D, and comparing what we are doing with SW only to competing solutions that are hardware based (FPGA or otherwise accelerated).
+)
+
+BIO =
+$(P
+Liran Zvibel is the Co-founder and CTO of WekaIO, the fastest and most scalable file system implemented in D. Prior to that he was the Co-Founder and VP R&D of Fusic, a video processing mobile/web based startup. Prior to that Liran was at XIV Storage (acquired by IBM in 2007) doing several architectural and leadership roles. Prior to that Liran served 6 years at the IDF, technologically leading a project that was awarded the most prestigious Israeli Defense Award, reaching a rank of Captain. Liran received his B.Sc. in Mathematics and Computer Sciences from the Tel Aviv University at the age of 18.
+)
