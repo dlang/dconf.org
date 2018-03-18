@@ -1,8 +1,6 @@
 Ddoc
 $(T h1,,DConf 2018 in Munich!)
-
 $(P $(B$(LINK2 ./registration.html, Registration) is now open!))
-
 $(P
 The D Language Foundation is pleased to announce the international conference and hackathon DConf 2018 in Munich, Germany, May 2-5 2018.
 )
@@ -24,7 +22,6 @@ $(P
     $(KEYNOTE_SPEAKERS)
    )
 )
-
 $(T h2,, Hackathon)
 $(P
 Building on the success of the past year's hackathon, we are happy to announce a day-long Hackathon on Saturday, May 5th. The day is largely unstructured, but we expect birds-of-a-feather groups to materialize naturally. Bring your laptop and your enthusiasm!
