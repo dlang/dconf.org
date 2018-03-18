@@ -54,9 +54,9 @@ $(LI Hiring and Onboarding of new D-velopers)
 
 BIO =
 $(P
-Mario Kröplin is the author of dunit, ddepend...
+$(B Mario Kröplin) is the author of dunit, ddepend, and other open source D projects.
 )
 
 $(P
-Stefan Rohe studied computer science in Germany and worked at Fraunhofer Institute. In 2008 he joined the industry where he got the chance to redesign a complete server application in D.
+$(BStefan Rohe) studied computer science in Germany and worked at Fraunhofer Institute. In 2008 he joined the industry where he got the chance to redesign a complete server application in D.
 )

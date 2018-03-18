@@ -32,8 +32,10 @@ olshansky \
 panel \
 rohe \
 schveighoffer \
+shemesh \
 staniloiu \
 watson \
+weka \
 zvibel \
 
 $(addprefix $(OUT)/, includes/%): includes/%

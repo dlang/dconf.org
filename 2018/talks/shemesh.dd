@@ -1,0 +1,39 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 17:30
+
+SPEAKER = Shachar Shemesh
+
+SPEAKER_SHORT = shemesh
+
+SPEAKER_URL = https://www.weka.io/
+
+TALK_TITLE =
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+
+BIO =
+$(P
+Shachar (that's me) has been a programmer for over 3 decades. His experience includes heading Check Point's security response team, being a core developer on LiveU's video streaming device, and helping porting Akamai's code into a more modern software architecture. In between, Shachar has also worked on several open source projects, authoring such joys as rsyncrypto and fakeroot-ng, as well as such abominations as sshpass. Shachar even has credit for a one-liner in the vanilla Linux kernel, which still officially makes him a "Linux kernel contributer".)
+
+$(P
+For the past 3½ years Shachar has been a D programmer at Weka.io, first writing its RAID subsystem, and recently fully engaged with the Mecca effort.
+)
