@@ -4,7 +4,6 @@ html {
 
 body {
 	background-color: #e8e8e8;
-	background-image: url('../images/background.png');
 	background-repeat: repeat-x;
 	margin: 0px;
 	padding: 0px;
@@ -213,7 +212,6 @@ div#twit .twtr-widget a:hover {
 
 .page_right {
 	width: 270px;
-	background-image: url('../images/dotted_v.png');
 	background-repeat: repeat-y;
 }
 
@@ -242,7 +240,6 @@ div#twit .twtr-widget a:hover {
 /* } */
 
 .divider_h {
-	background-image: url('../images/dotted_h.png');
 	background-repeat: repeat-x;
 	margin: 30px -10px 10px;
 }

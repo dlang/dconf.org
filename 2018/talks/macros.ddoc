@@ -33,8 +33,6 @@ VIDEO_YES = $(T A, href="$(VIDEO_URL_Y)",Video)<br />
 DDOC =
 $(HEADER)
 <body>
-$(div id="fb-root", )
-$(GETSCRIPT $(BASE)/includes/facebook.js)
 $(DIV id="container",
   $(MENU)
   $(DIV class="page_left equal hyphenate", $(TALK_INFO))

@@ -25,17 +25,7 @@ HEADER = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css" />
-$(GETSCRIPT $(BASE)/includes/jquery.min.js)
-$(COMMENT $(GETSCRIPT $(BASE)/includes/css.js))
-$(GETSCRIPT $(BASE)/includes/widget.js)
-$(GETSCRIPT https://dlang.org/js/hyphenate.js)
-<!--[if IE 9]>
-<link rel="stylesheet" type="text/css" href="$(BASE)/includes/iefix.css" />
-<![endif]-->
-<!--[if lt IE 9]>
-<link rel="stylesheet" type="text/css" href="$(BASE)/includes/ie8.css" />
-<![endif]-->
-<link href="$(BASE)/../2015/images/favicon.ico" rel="shortcut icon" />
+<link href="$(BASE)/images/favicon.ico" rel="shortcut icon" />
 $(T title,, $(PAGE_TITLE))
 </head>
 
@@ -100,8 +90,6 @@ $(DIV class="page_right equal",
 
 DDOC = $(HEADER)
 <body>
-$(DIV id="fb-root", )
-$(GETSCRIPT $(BASE)/includes/facebook.js)
 $(LOGO)
 $(MENU)
 $(DIV id="container",
