@@ -1,0 +1,40 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 16:30
+
+SPEAKER = Lucia Cojocaru
+
+SPEAKER_SHORT = cojocaru
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/cojocaru.jpg
+
+TALK_TITLE = TBA
+
+TALK_TYPE = $(B Student)
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P TBA)
+
+BIO =
+$(P Lucia Cojocaru is a Masters student at University Politehnica of Bucharest, Romania, Faculty of Automatic Control and Computer Science. Her Bachelor’s degree is on Computer Science Engineering.  She is currently studying computer and network security focusing on low-level executable vulnerabilities and operating system security mechanisms. Her previous experience includes operating system essentials, basic kernel development, x86 and embedded, microcontroller and FPGA programming, ELF linking and loading exploration and compiler design.  She is most proficient with x86 assembly and C, C++, and Java programming languages. Lucia is currently working on the D compiler and runtime environment.
+)

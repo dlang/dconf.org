@@ -1,0 +1,38 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 17:30
+
+SPEAKER = Liran Zvibel
+
+SPEAKER_SHORT = zvibel
+
+SPEAKER_URL = https://www.weka.io/
+
+SPEAKER_PIC = $(BASE)/images/zvibel.jpg
+
+TALK_TITLE =
+
+SLIDES_URL =
+
+SLIDE_LINKS =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+
+BIO =
+$(P
+Liran Zvibel is the Co-founder and CTO of WekaIO, the fastest and most scalable file system implemented in D. Prior to that he was the Co-Founder and VP R&D of Fusic, a video processing mobile/web based startup. Prior to that Liran was at XIV Storage (acquired by IBM in 2007) doing several architectural and leadership roles. Prior to that Liran served 6 years at the IDF, technologically leading a project that was awarded the most prestigious Israeli Defense Award, reaching a rank of Captain. Liran received his B.Sc. in Mathematics and Computer Sciences from the Tel Aviv University at the age of 18.
+)

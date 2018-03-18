@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 14:30
+
+SPEAKER = Ethan Watson
+
+SPEAKER_SHORT = watson
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/watson.jpg
+
+TALK_TITLE = Binderoo - Wait, What Do You Mean You Quit Your Job?
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+So you think Binderoo sounded pretty cool. And then you learn the maintainer left his job. What happens to Binderoo then? Simple: The open-sourced project lives on. Oh, and it gets some interesting new features that non-game-developers have been after. How does Linux support sound? What about C# interop? Join in and hear about the ways Binderoo has been improved and expanded, and some of the problems that were solved along the way.
+)
+
+BIO =
+$(P
+Back for round 3 at DConf, Ethan Watson is coming in without an employer. Having quit his job before the new year, he has spent some time in his fictional homeland of Australia (a land without squirrels must be fictional after all) working on his future career prospects. As a seasoned game developer with 15 years of experience across multiple platforms, he has also presented at GDC Europe and Reboot Develop.
+)

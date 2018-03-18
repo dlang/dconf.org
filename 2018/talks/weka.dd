@@ -1,0 +1,54 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 17:30
+
+SPEAKER = Liran Zvibel, Shachar Shemesh
+
+SPEAKER_SHORT = weka
+
+SPEAKER_URL = https://www.weka.io/
+
+PANEL_SPEAKER_IMG =
+<table class="image">
+<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
+</table>
+
+SPEAKER_IMG =
+$(PANEL_SPEAKER_IMG $(BASE)/images/zvibel.jpg, Liran Zvibel, https://www.weka.io/)
+$(PANEL_SPEAKER_IMG $(BASE)/images/stock.png, Shachar Shemesh, https://www.weka.io/)
+
+TALK_TITLE = TBA
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+TBA
+)
+
+
+BIO =
+$(P
+$(B Liran Zvibel) is the Co-founder and CTO of WekaIO, the fastest and most scalable file system implemented in D. Prior to that he was the Co-Founder and VP R&D of Fusic, a video processing mobile/web based startup. Prior to that Liran was at XIV Storage (acquired by IBM in 2007) doing several architectural and leadership roles. Prior to that Liran served 6 years at the IDF, technologically leading a project that was awarded the most prestigious Israeli Defense Award, reaching a rank of Captain. Liran received his B.Sc. in Mathematics and Computer Sciences from the Tel Aviv University at the age of 18.
+)
+
+$(P
+$(B Shachar Shemesh) has been a programmer for over 3 decades. His experience includes heading Check Point's security response team, being a core developer on LiveU's video streaming device, and helping porting Akamai's code into a more modern software architecture. In between, Shachar has also worked on several open source projects, authoring such joys as rsyncrypto and fakeroot-ng, as well as such abominations as sshpass. Shachar even has credit for a one-liner in the vanilla Linux kernel, which still officially makes him a "Linux kernel contributer".
+)
+
+$(P
+For the past 3½ years Shachar has been a D programmer at Weka.io, first writing its RAID subsystem, and recently fully engaged with the Mecca effort.
+)

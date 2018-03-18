@@ -1,0 +1,32 @@
+Ddoc
+
+Macros:
+
+DATE = May 2
+
+TIME = 11:00
+
+SPEAKER = Stefan Rohe
+
+SPEAKER_SHORT = rohe
+
+SPEAKER_URL = http://www.funkwerk.com/en/
+
+TALK_TITLE =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+
+BIO =
+$(P
+Stefan Rohe studied computer science in Germany and worked at Fraunhofer Institute. In 2008 he joined the industry where he got the chance to redesign a complete server application in D.
+)

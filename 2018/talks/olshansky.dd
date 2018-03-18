@@ -1,0 +1,67 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 11:00
+
+SPEAKER = Dmitry Olshansky
+
+SPEAKER_SHORT = olshansky
+
+SPEAKER_URL = https://olshansky.me/
+
+SPEAKER_PIC = $(BASE)/images/DmitryOlshansky.jpg
+
+TALK_TITLE = Unified Concurrent Runtime for D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+D happens to have a great deal of ways to do incompatible things
+especially when it comes to I/O and system interface in general.
+
+There is a zoo of incompatible approaches:
+$(UL
+$(LI std library is simple blocking I/O much like most 3rd party C code)
+$(LI vibe.d is its own Fiber-based pseudoblocking I/O)
+$(LI some libs are explicitly asynchronous with custom ways to notify of completion)
+)
+
+And it's not the difference that is easy to wrap away.
+
+The talk is presenting experimental work being done to have C libraries respect D's Fibers, goes beyond I/O and finally discusses a unified view of D's concurrency primitives.
+)
+
+$(P
+The talk is based on results of a joint work with Alexandru Caciulescu. The talks aims to present a simple coherent runtime via a model of light user-mode threads (UMT), where I/O and blocking system calls are handled efficiently by the runtime, which maintains an event-loop.
+
+Then we see how can implement such a model where even 3rd party C code behaves well when called from UMT. A very different approaches lead to radically different internal designs for Windows and Linux, which however (with a few considerations)
+are nicely fitting in our model.
+
+The performance of the prototype is benchmarked against the baseline on a few typical applications.
+
+The second part of the talk is focused on D itself and things like:
+$(UL
+$(LI channels and communication of UMTs)
+$(LI multiplexing over many sources including user-defined)
+$(LI extending std.algo and friends to seamlessly work with async I/O)
+$(LI combining APIs with explicit async and pseudoblocking)
+$(LI integrating OS threads and UMTs in one package)
+))
+
+BIO =
+$(P
+Dmitry Olshansky is a young all-around researcher and software engineer. He's been a long-time D language contributor with his most notable contributions being the std.regex and std.uni modules of the standard library. Aside from everything D-related, his main interests are compilers, runtimes, text processing, parallel and
+concurrent programming, scalable network systems and AI.
+)

@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 3
+
+TIME = 15:30
+
+SPEAKER = Jean-Louis LeRoy
+
+SPEAKER_SHORT = leroy
+
+SPEAKER_URL =
+
+TALK_TITLE = Open Methods for D (The Expression Problem - solved)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+Open methods are an alternative to traditional Object-Oriented Programming. In OOP polymorphism is typically implemented via virtual member functions. This makes it difficult to add new behavior to existing hierarchies of classes - the so called $(HTTP http://wiki.c2.com/?ExpressionProblem, Expression problem). This leads to designs that are either flawed (God classes) or clumsy (the Visitor pattern). Open methods are virtual functions defined outside of classes. This solves the Expression problem $(HTTP wiki.c2.com/?CrossCuttingConcern, and more). Open methods can be implemented in D as a library. By using a combination of compile- and run-time techniques, it is possible to deliver an elegant
+syntax and a performance similar to native virtual functions.
+)
+
+$(P
+$(B Outline (tentative))
+$(UL
+    $(LI The problem with OOP. Unnatural design choices. Adding new polymorphic behavior to existing classes. The Expression problem. Workarounds (Visitor, Abstract Factory).)
+   $(LI Open methods as an alternative. Algorithms come back to the front stage. Two case studies: 1/ visitation 2/ multi-tiered apps.)
+   $(LI Implementing Open Methods in D. Syntax. Performance. Comparison with C++.)
+   $(LI Improving D to support language extension libraries even better.)
+))
+
+BIO =
+$(P
+Jean-Louis Leroy is the author of the openmethods module. He got his first taste of programming from a HP-25 calculator. His first real programming language was Forth, where CTFE is pervasive. Later he programmed (a little) in Lisp and Smalltalk, and (a lot) in C, C++, and Perl. He now works for Bloomberg LP in New York. His interests include object-relational mapping, open multi-methods, DSLs, and language extensions in general.
+)

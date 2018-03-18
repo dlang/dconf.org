@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 2
+
+TIME = 17:30
+
+SPEAKER = Multiple Speakers
+
+SPEAKER_SHORT = lightning
+
+SPEAKER_URL =
+
+SPEAKER_PIC =
+
+TALK_TITLE = Lightning Talks
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 60 minutes
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+TBA
+)
+
+BIO =
+$(P $(I Multiple Speakers))

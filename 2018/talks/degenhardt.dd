@@ -1,0 +1,44 @@
+Ddoc
+
+Macros:
+
+DATE = May 2
+
+TIME = 12:00
+
+SPEAKER = Jon Degenhardt
+
+SPEAKER_SHORT = degenhardt
+
+SPEAKER_URL = https://github.com/jondegenhardt
+
+TALK_TITLE = Exploring D via Benchmarking of eBay's TSV Utilities
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+Over the past year I have conducted several performance studies based on eBay's TSV Utilities. One study was a comparative benchmark of similar tools written in different programming languages. A second study examined the impact of using Link Time Optimization and Profile Guided Optimization. This talk will describe the goals and motivations behind these studies, summarize the results, and offer a few thoughts on the findings. The talk will conclude with an update to the March 2017 comparative benchmark study.
+)
+
+$(P
+The focus of the talk is run-time performance, but performance is only one consideration when examining a programming environment. This talk will describe the larger context under which these studies were conducted, how this influenced the studies, the way the code was written, and the takeaways. Indeed, the results of the first two benchmarks studies have been described before. The TSV Utilities GitHub repository contains results of the March 2017 comparative study. The comparative benchmarks and the LTO study have been presented at Silicon Valley D meetups. This talk will summarize these studies, highlighting the key results, but won't go into the same depth as the other venues. Having a set of standard set of benchmarks has had value outside of the evaluation itself, these benefits will also be covered in the talk.
+)
+
+$(P
+The benchmark studies themselves have interesting results. TSV Utilities performance compares quite well
+to other tools, in many cases running several times faster. The LTO and PGO studies showed significant gains. The comparative benchmarks update will be conducted prior to DConf and will be new information.
+)
+
+BIO =
+$(P
+Jon Degenhardt is a senior member of eBay's Search Science team. He has been working on search engines for the last decade, both on the core search engine as well as the data science driving recall and ranking. His work includes substantial involvement in search engine performance. He started programming in D in late 2015.
+)

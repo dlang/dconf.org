@@ -1,0 +1,47 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 15:30
+
+SPEAKER = Vang Le
+
+SPEAKER_SHORT = le
+
+SPEAKER_URL =
+
+TALK_TITLE = Adoption of D for genomic bioinformatics
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner/Intermediate
+
+ABSTRACT =
+$(P
+Bioinformatics is a young, fast growing area of computer science. It is among the big-data areas that are most demanding in computation resources. Algorithms and tools are being actively researched and developed to utilize unprecedentedly huge amount of data, which is becoming cheaper and cheaper to collect. Genomics projects produces mostly plain texts saved in compressed file formats.
+)
+
+$(P
+Genomics laboratories can easily produce from dozens of terabytes, to petabytes of data every year. This poses great challenges to both storing and analyzing of data. While hardware (for computation and storage) is rather generic across all application areas, software tools are very specifically developed and used for a particular area. There are currently not many software pieces written in D for bioinformatics. However, D makes a very attractive candidate for use in bioinformatics. On-par performance to C, modern and readable syntax with plenty of syntactic sugars, built-in unit test, ability to both generate a single binary executable and support scripting, and elegant support for parallel computing are among the most appreciated features of D, especially to a C++ or scripting language programmer.
+)
+
+$(P
+In this talk we present our experience in adopting D for genomic bioinformatics, with some benchmarks and evaluation of how easy or difficult to do some common bioinformatic tasks in D. We discuss current status and potentials of the D-bioinformatics relationship.
+)
+
+$(P
+We describe here our experience in adopting D for genomics bioinformatics. We also present our envision about applicability of D for bioinformatics. It is also an opportunity to explain the essence of bioinformatics (its input data, fundamental algorithms and output). This allows prospective bioinformatician, probably some current D programmers, to evaluate the requirements and a sense of what it takes and gives to work in bioinformatics. We will finish with discussions about what we and D can do more for bioinformatics.
+)
+
+BIO =
+$(P
+Dr. Vang Le focused on physics during his high-school years, but spent his university career in molecular biology. Computer science and programming were always a secret hobby. He got a Postdoc job in Denmark which required both molecular biology and computer science. This gave birth to a full-time bioinformatician job where he openly combine his passions for computer science and curiosity for living things. He currently works in Aalborg University Hospital as a clinical bioinformatician, where he is key in establishing bioinformatic infrastructure and routine analysis workflows to deal with the great amount of data from next generation sequencing (NGS) machines. He has great opportunities to set up computer clusters for storage and computation and to learn many cutting edge technologies. He sees D as a great alternative to C and C++ and predicts it will one day enjoy a level of popularity (particularly in bioinformatics) comparable to C, C++, Java, or Python.
+)

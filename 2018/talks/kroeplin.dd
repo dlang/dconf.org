@@ -1,0 +1,32 @@
+Ddoc
+
+Macros:
+
+DATE = May 2
+
+TIME = 11:00
+
+SPEAKER = Mario Kröplin
+
+SPEAKER_SHORT = kroeplin
+
+SPEAKER_URL = http://www.funkwerk.com/en/
+
+TALK_TITLE =
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+
+BIO =
+$(P
+Mario Kröplin is the author of dunit, ddepend...
+)

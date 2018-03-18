@@ -1,5 +1,8 @@
 Ddoc
 $(T h1,,DConf 2018 in Munich!)
+
+$(P $(B$(LINK2 ./registration.html, Registration) is now open!))
+
 $(P
 The D Language Foundation is pleased to announce the international conference and hackathon DConf 2018 in Munich, Germany, May 2-5 2018.
 )
@@ -14,7 +17,7 @@ We are featuring growth and outreach as a special theme this year - if you have 
 )
 $(T h2,,Keynote Speakers)
 $(P
-We are happy to be hosting the creator of the Scala programming language, Martin Odersky, as our invited keynote speaker. He'll be joining our regular keynote speakers, Andrei Alexandrescu and Walter Bright.
+We are happy to be hosting the creator of the Scala programming language, Martin Odersky, as our invited keynote speaker. He'll be joining our regular keynote speakers, Walter Bright and Andrei Alexandrescu. They each will kick off a day of the conference, followed by $(LINK2 $(BASE)/schedule/index.html, a strong line up of presentations) from members of the D community.
 )
 $(P
   $(DIV class="inline vmid",
@@ -22,48 +25,6 @@ $(P
    )
 )
 
-$(T h2,,Call for Submissions)
-$(P
-We are looking forward to your submission for a paper, talk, demo, panel, or research report for DConf 2018. The topics of choice are anything and everything related to the D language, such as:
-)
-$(UL
-$(LI $(B Language techniques) enabled by the D language)
-$(LI $(B Tools and techniques) for maximizing productivity when working in D)
-$(LI $(B Experience reports) on using D in the real world)
-$(LI $(B Under the hood) looks at compiler and standard library implementation artifacts)
-$(LI $(B Hot topics) such as safe deterministic memory management, migrating from other languages, or community engagement)
-$(LI $(B Research reports) by students doing research on or using the D language)
-)
-$(P
-But don't be constrained! Originality in topics and formats is warmly encouraged. If it is relevant to the D language, it fits. Just mind the guidelines and don't forget the deadlines below.
-)
-$(P
-We expect original work, or work synthesized from community folklore into interesting tidbits by the author. Related work can be mentioned with credit. Overviews of an area covered by other authors is acceptable, again with due credit and assuming the overview has intrinsic value.
-)
-$(T h2,,Selection Criteria)
-$(P
-The committee will review and rate submissions according to the following criteria:
-)
-$(T ul,,
-$(LI $(B Relevance:) Is the topic interesting to DConf attendees? Will a coverage be beneficial? Is it building on tried and true ideas, or on the contrary, blazing new trails?)
-$(LI $(B Coverage:) Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?)
-$(LI $(B Organization:) Is the submission well organized? Will the audience tune into the narrative?)
-$(LI $(B Novelty and Originality:) How new and noteworthy is the material? Previously published material is acceptable provided it hasn't reached a wide audience within the D community yet.)
-$(LI $(B Credentials:) What qualifies you to talk on the topic of choice? Although this criterion favors experienced and well-known submitters, we also very strongly encourage submissions from up-and-coming contributors who have accumulated "street cred" through their open source and forum contributions.)
-$(LI $(B Bottom line:) What's your session's takeaway? How is it going to improve attendees' knowledge, outlook, and inspiration?)
-)
-$(T h2,,Submission Guidelines)
-$(P We expect submission in plain text format or one of the usual rich document formats, such as PDF or DOC. All submissions should be directed to $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org) and should include:)
-$(T ol,,
-$(LI $(B Title))
-$(LI $(B Kind) (e.g. talk, panel, contest, interpretive dance))
-$(LI $(B Duration) (we're aiming for 50-minutes presentations, but are considering smaller and larger durations))
-$(LI $(B Target Audience) (e.g. beginner, intermediate, advanced))
-$(LI $(B Abstract:) the "elevator pitch" of the talk, in one paragraph)
-$(LI $(B Extended description:) an extended abstract including any details you believe are relevant for evaluating the submission)
-$(LI $(B Brief speaker biography) including a summary of their expertise relative to the talk topic)
-$(LI $(B Keyword tags))
-)
 $(T h2,, Hackathon)
 $(P
 Building on the success of the past year's hackathon, we are happy to announce a day-long Hackathon on Saturday, May 5th. The day is largely unstructured, but we expect birds-of-a-feather groups to materialize naturally. Bring your laptop and your enthusiasm!
@@ -114,6 +75,6 @@ KEYNOTE_SPEAKER_IMG =
 </table>
 
 KEYNOTE_SPEAKERS=
-$(KEYNOTE_SPEAKER_IMG images/erdani.jpg, Andrei Alexandrescu, )
 $(KEYNOTE_SPEAKER_IMG images/bright.jpg, Walter Bright, )
+$(KEYNOTE_SPEAKER_IMG images/erdani.jpg, Andrei Alexandrescu, )
 $(KEYNOTE_SPEAKER_IMG images/Martin.jpg, Martin Odersky, )

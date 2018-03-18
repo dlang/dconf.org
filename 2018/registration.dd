@@ -4,26 +4,24 @@ $(P
 Munich is a hotbed of systems and embedded software with a strong and vibrant programmer community, including lots of D programmers. It's the perfect place for DConf 2018. We'd love for you to join us!
 )
 $(P
-The general registration fee of $(DOLLAR)400 will be in effect from March 18. Until then, you can catch the worm with the 15% Early-Bird discount. And if you attended DConf 2017, we want to welcome you back with open arms. The Early-Bird discount is permanent for you!
+The general registration fee is $(B$(DOLLAR)400). Please follow one of the order links below to register. If you attended DConf 2017, we want to welcome you back with open arms. For you, the price is $(B$(DOLLAR)340)! To register, please send an email to $(LINK2 mailto:social@dlang.org, social@dlang.org) requesting the 2017 Attendee Discount. Be sure to include the email address you used when you registered last year.
 )
 $(P
-If you've never attended any the past editions of DConf and want to know what you're buying into, you can take a gander at the talk videos from DConfs past: $(HTTP dconf.org/2016/schedule/index.html, 2017),
+If you've never attended any of the past editions of DConf and want to know what you're buying into, you can take a gander at the talk videos from DConfs past: $(HTTP dconf.org/2016/schedule/index.html, 2017),
 $(HTTP dconf.org/2016/schedule/index.html, 2016),
 $(HTTP dconf.org/2015/schedule/index.html, 2015),
 $(HTTP dconf.org/2014/schedule/index.html, 2014), and
 $(HTTP dconf.org/2013/schedule/index.html, 2013). You're getting
-fantastic value not only in terms of strong content, but also access to
-industry luminaries, a welcoming and enthusiastic community, and a lasting
-boost of inspiration for your work.
+fantastic value not only in terms of strong content, but also access to industry luminaries, a welcoming and enthusiastic community, and a lasting boost of inspiration for your work.
 )
 $(P
-Registration proceeds left after covering conference-related expenses will go to the D Language Foundation. Your payment will be transparently used to foster understanding and adoption of the D programming language.
+Registration proceeds remaining after conference-related expenses are covered will go to the D Language Foundation. Your payment will be used transparently to foster understanding and adoption of the D programming language.
 )
 <hr />
 <table>
 <tr>
 <td colspan="3">
-$(P $(B $(T font, size=+1, Early-Bird Registration $(DOLLAR)340)))
+$(P $(B $(T font, size=+1, DConf 2018 Registration $(DOLLAR)400)))
 </td>
 </tr>
 <tr>
@@ -34,7 +32,7 @@ $(P $(B $(T font, size=+1, Early-Bird Registration $(DOLLAR)340)))
 <INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2018/thankyou.html">
 <INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
 <INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2018 Registration">
-<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="340.00">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="400.00">
 <INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
 </FORM>
 </td>
@@ -47,5 +45,6 @@ $(P $(B $(T font, size=+1, Early-Bird Registration $(DOLLAR)340)))
 </tr>
 </table>
 <hr />
-$(P For corporate sponsorship packages, please contact
-$(LINK2 mailto:foundation@dlang.org, foundation@dlang.org).)
+$(P
+For corporate sponsorship packages, please direct queries to Franziska Mai ($(LINK2 mailto:&#102;&#046;&#109;&#097;&#105;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;, &#102;&#046;&#109;&#097;&#105;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;)) or Gerhard Versteegen ($(LINK2 mailto:&#103;&#046;&#118;&#101;&#114;&#115;&#116;&#101;&#101;&#103;&#101;&#110;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;, &#103;&#046;&#118;&#101;&#114;&#115;&#116;&#101;&#101;&#103;&#101;&#110;&#064;&#104;&#108;&#109;&#099;&#046;&#100;&#101;)).
+)

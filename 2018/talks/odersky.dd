@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 10:00
+
+SPEAKER = Martin Odersky
+
+SPEAKER_SHORT = odersky
+
+SPEAKER_URL = http://lampwww.epfl.ch/~odersky/
+
+SPEAKER_PIC = $(BASE)/images/Martin.jpg
+
+TALK_TITLE = How To Abstract Over Context
+
+TYPE = $(B Keynote)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+Programming is fundamentally about abstraction. Without abstraction
+we'd all be still programming in assembly language. A very important part of programming is context - to understand a program text one must also understand the environment including "other code" in which the program fragment is to be executed. So, can we abstract over context? And should we be doing that?
+)
+
+$(P
+In fact, abstracting over context seems to be important, because it is the core of a large variety of programming techniques, including "monkey patching", dependency injection frameworks, dynamic scoping, receiver functions, type classes, the reader monad, the cake pattern, etc. Some of these techniques are more ad-hoc than others. In my talk I will argue that implicit parameters as they are found in Scala are a canonical way to express context and that implicit function types are the right way to abstract over it.
+)
+
+BIO =
+$(P Martin Odersky is the inventor of the Scala language, a professor at EPFL in Lausanne, Switzerland, and a founder of Lightbend. His work concentrates on the fusion of functional and object-oriented programming. He believes the two paradigms are two sides of the same coin, to be unified as much as possible. To prove this, he has worked on a number of language designs, from Pizza to GJ to Functional Nets. He was named an ACM fellow for his achievements in this area. He has also influenced the development of Java as a co-designer of Java generics and as the original author of the current javac reference compiler.
+)

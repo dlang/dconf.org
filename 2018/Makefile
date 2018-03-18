@@ -8,9 +8,35 @@ HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index thankyou venue)
 
 TALK_BASENAMES = \
-# alexandrescu \
+alexandrescu \
 bright \
-...
+odersky \
+cesi \
+cojocaru \
+davis \
+degenhardt \
+dilly \
+engelen \
+funkwerk \
+hackathon1 \
+hackathon2 \
+jercaianu \
+kroeplin \
+le \
+leroy \
+lightning \
+marques \
+nacke \
+nitu \
+olshansky \
+panel \
+rohe \
+schveighoffer \
+shemesh \
+staniloiu \
+watson \
+weka \
+zvibel \
 
 $(addprefix $(OUT)/, includes/%): includes/%
 	cp $^ $@
@@ -21,7 +47,7 @@ TO_COPY = \
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
-SPEAKER_BITS =
+SPEAKER_BITS = $(addprefix $(TMP)/speakers/, $(addsuffix .gen.ddoc, ${TALK_BASENAMES}))
 
 SCHEDULE_BITS = $(addprefix $(TMP)/schedule/, $(addsuffix .gen.ddoc, ${TALK_BASENAMES}))
 

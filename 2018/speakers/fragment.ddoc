@@ -4,7 +4,7 @@ $(DEFINE $(TITLE)_BLURB,
   $(DIV class="inline vmid",
     $(T table,,
       $(T tr,,
-        $(T td,, <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(SPEAKER)" />)
+        $(T td,, <img class="stroke" src="$(SPEAKER_PIC)"  height="170" alt="$(SPEAKER)" />)
         $(T td,, $(BIO))
       )
     )

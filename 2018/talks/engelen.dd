@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 4
+
+TIME = 11:00
+
+SPEAKER = Johan Englen
+
+SPEAKER_SHORT = leroy
+
+SPEAKER_URL = https://johanengelen.github.io/
+
+SPEAKER_PIC = $(BASE)/images/engelen.jpg
+
+TALK_TITLE = LLVM-backed goodies in LDC
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+A major part of LDC development is related with LLVM development. The LDC team closely follows (and contributes to) LLVM development, in order to expose the "latest and greatest" LLVM features to D developers. Since last DConf, LDC gained many new LLVM-based capabilities: AddressSanitizer, fuzzing, IR-based PGO, dynamic codegen at runtime, experimental integration of LLD, better integration of LLVM's compiler-rt runtime libraries. In this talk, I will focus on a selection of LDC's LLVM-based features: what they do and how they work, with examples of how they can be used effectively.
+)
+
+BIO =
+$(P
+Johan Engelen is one of the core LDC developers. He is also a D compiler consultant for Weka.io (probably the largest industrial single-executable D codebase) and maintains and adds features to their fork of LDC. While working on LDC, he often studies the compiler output IR and assembly. To aid this, he helped setting up LDC at d.godbolt.org. Examples of his recent contributions to LDC related to LLVM functionality are: fuzzing with libFuzzer, better AddressSanitizer support, and IR-based PGO. Johan (PhD Electrical Engineering) is assistant professor in the Robotics and Mechatronics (RAM) group at the University of Twente, the Netherlands. His software engineering skills stem largely from participating in open source communities such as Inkscape, LLVM, Dlang, and LDC.
+)

@@ -1,0 +1,62 @@
+Ddoc
+
+Macros:
+
+DATE = May 2
+
+TIME = 11:00
+
+SPEAKER = Mario Kröplin, Stefan Rohe
+
+SPEAKER_SHORT = funkwerk
+
+SPEAKER_URL = http://www.funkwerk.com/en/
+
+PANEL_SPEAKER_IMG =
+<table class="image">
+<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
+</table>
+
+SPEAKER_IMG =
+$(PANEL_SPEAKER_IMG $(BASE)/images/stock.png, Mario Kröplin, http://www.funkwerk.com/en/)
+$(PANEL_SPEAKER_IMG $(BASE)/images/stock.png, Stefan Rohe, http://www.funkwerk.com/en/)
+
+TALK_TITLE = A Decade of D @ Funkwerk
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+Funkwerk's journey with D from 2008 until now.
+)
+
+$(P
+We will roughly summarize our experiences from 10 years of fun and pain with D.
+
+Topics include:
+$(UL
+$(LI Transitioning to D)
+$(LI Features that shine in commercial usage)
+$(LI Update policy)
+$(LI Coding Style)
+$(LI D in Production)
+$(LI Hiring and Onboarding of new D-velopers)
+))
+
+BIO =
+$(P
+$(B Mario Kröplin) is the author of dunit, ddepend, and other open source D projects.
+)
+
+$(P
+$(BStefan Rohe) studied computer science in Germany and worked at Fraunhofer Institute. In 2008 he joined the industry where he got the chance to redesign a complete server application in D.
+)
