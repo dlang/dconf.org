@@ -28,8 +28,13 @@ LEVEL = Beginner/Intermediate
 
 ABSTRACT =
 $(P
-When starting the implementation of live-ask.com based on Angular it was natural to use nodejs as the driving backend technology at first. When the application got bigger and the backend more sophisticated it was switched to D. Vibe.d as the framework builds on the same principles like nodejs: event driven IO. Converting to D introduced strong typing, native unittesting, meta programming and more. It improved DRYness, convenience and performance. It allowed me to focus on building a more complex architecture that runs in a scalable, resilient and cost efficient environment on Amazon AWS. The implementation is unittested and integration tested, the CI and CD pipeline smoothly allows it to publish changes in a matter of minutes to the live environment. Aside all the glory features we will also look at the downsides like
-missing API libraries, convenience tools and compile times.
+The talk is about live-ask.com, a realtime feedback web application. The audience will hear about the journey to build a modern web app using Angular in the frontend and D in the backend. We will shed light on the advantages of D and why it has so much potential in the web space.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+When starting the implementation of live-ask.com based on Angular it was natural to use nodejs as the driving backend technology at first. When the application got bigger and the backend more sophisticated it was switched to D. Vibe.d as the framework builds on the same principles like nodejs: event driven IO. Converting to D introduced strong typing, native unittesting, meta programming and more. It improved DRYness, convenience and performance. It allowed me to focus on building a more complex architecture that runs in a scalable, resilient and cost efficient environment on Amazon AWS. The implementation is unittested and integration tested, the CI and CD pipeline smoothly allows it to publish changes in a matter of minutes to the live environment. Aside all the glory features we will also look at the downsides like missing API libraries, convenience tools and compile times.
 )
 
 BIO =

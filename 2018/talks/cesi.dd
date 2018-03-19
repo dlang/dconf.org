@@ -29,6 +29,8 @@ $(P
 The D language has been ported and well supported on Windows and various Posix platforms. In order to use D on a non-Windows, non-Posix platform, often proprietary and closed source, the compiler, druntime and phobos need to be ported and adapted to the specificities of the platform in question. The talk presents challenges and gotchas encountered on the path of such an effort including: how to choose and build the compiler, how to bootstrap druntime and get the unittests running, phobos porting challenges and more.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 This presentation is meant for programmers who are considering porting D language to currently unsupported platforms. It can also be of interest to D language code architects as it presents how easy (or difficult) it is to find the pieces of code which need to be ported and how well a new platform integrates in the existing code. Finally, the curious programmer can learn some new details on how compilers, druntime and phobos work.
 )

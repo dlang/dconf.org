@@ -32,6 +32,8 @@ dxml is an XML parsing library written in D which heavily uses
 common D idioms such as ranges. This talk will go over its design, the challenges encountered in implementing it, and lessons learned in the process.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 This talk will go over how and why dxml came into existence and how its design evolved. It will go over some of the fundamental issues with using ranges when parsing XML and how those were solved (for a while, it actually presented a cursor API rather than a range API due to some of those issues). At least some of those lessons learned seem like they would be quite applicable beyond XML and of value to the D community at large in figuring out how to go about making an API range-based. At the time of writing, dxml currently only has a range-based STaX parser and related helper functions, but there should be plenty there to talk about. However, future development that is done between now and dconf could definitely affect what makes it into the talk (a DOM parser using the STaX parser is planned as are two XML writers - one which is the writer equivalent of a STaX parser and one which is DOM-based). Given the fact that std.xml needs to be replaced, dxml may or may not end up going through the Phobos review process (that will largely depend on community feedback) and ultimately end up in Phobos (that will of course depend on how the review process goes), so having a talk go over it is potentially valuable from that angle as well.
 )

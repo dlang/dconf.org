@@ -35,6 +35,8 @@ $(P
 This talk has two parts. In the first part we identify an apparent contradiction imposed by the OOP design school. We analyze that contradiction in detail, with the goal of understanding its root cause and finding ways to avoid it. In the second part we take what we learned and go over how to design a program from scratch. We use the modeling power of D to achieve the desired architectural properties: simplicity, performance, and malleability.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 This talk presents a way to design and implement software that departs from the orthodox advice and practices. Yet, it does not present a radically new idea. Instead, we build upon a collection of insights identified by several others, and synthesize a coherent approach that tries to balance competing priorities. In many ways, we use the more avant-garde D features to go back to a simple but expressive style, free from complicated inheritance hierarchies, tangled object graphs, and rococo design patterns.
 )
@@ -57,13 +59,13 @@ $(UL
     $(LI UML and premature architecture)
     $(LI Emergent architecture: letting the problem dictate the design)
     $(LI Facing uncertain requirements with joy)
-    )
+    ))
   $(LI The value of values, context and free functions:
     $(UL
     $(LI Avoiding object graphs, and staying cache friendly)
     $(LI Contextual memory allocation and data-oriented design)
     $(LI Modularity and performance with open methods, design by introspection and UFCS)
-    )
+    ))
   $(LI Simple and effective testing strategies)
 ))
 

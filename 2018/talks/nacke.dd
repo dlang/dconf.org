@@ -31,6 +31,8 @@ $(P
 Write blockchain applications leveraging the power of D.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 Blockchain is the latest emerging technology. Basically, a blockchain is a secure, distributed ledger, allowing a lot of applications beyond crypto currencies. Hyperledger Fabric is one of the frameworks which implements blockchain technology in a way well suited for business purposes. Mainly written in the Go programming language it seems not to be a good fit for a D programmer. In this talk I give a short introduction to the concepts of blockchain and the Hyperledger Fabric ecosystem. I point out the integration challenges and missing building
 blocks a D programmer is facing in this environment. By presenting different approaches, I highlight the design decisions I have made for my solution. With my implementation it is now possible to write blockchain applications from the UI down to the chaincode (smart contracts) in D.
