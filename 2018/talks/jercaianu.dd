@@ -12,6 +12,8 @@ SPEAKER_SHORT = jercaianu
 
 SPEAKER_URL =
 
+SPEAKER_PIC = jercaianu.jpg
+
 TALK_TITLE = Project Blizzard: safe memory allocation and deallocation
 
 SLIDES_URL =
@@ -38,3 +40,7 @@ This talk will show how to compose the existing memory allocators in the D stand
 )
 
 BIO =
+$(P
+Alex is currently a MSc student and teaches “Operating Systems" at the Polytechnic University of Bucharest. He has a strong interest in low level programming and for the past couple of months he has been working on D’s experimental allocators. In order to build a stronger D
+community at his university, part of his efforts go to helping several students bring their contributions to the language.
+)
