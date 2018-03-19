@@ -12,7 +12,7 @@ SPEAKER_SHORT = jercaianu
 
 SPEAKER_URL =
 
-SPEAKER_PIC = jercaianu.jpg
+SPEAKER_PIC = $(BASE)/images/jercaianu.jpg
 
 TALK_TITLE = Project Blizzard: safe memory allocation and deallocation
 
@@ -27,8 +27,6 @@ VIDEO_URL_Y =
 VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
-
-DURATION = 25 minutes
 
 ABSTRACT =
 $(P

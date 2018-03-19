@@ -12,7 +12,6 @@ alexandrescu \
 bright \
 odersky \
 cesi \
-cojocaru \
 davis \
 degenhardt \
 dilly \

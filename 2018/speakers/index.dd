@@ -4,7 +4,6 @@ Ddoc
   $(alexandrescu_BLURB)
   $(odersky_BLURB)
   $(cesi_BLURB)
-  $(cojocaru_BLURB)
   $(davis_BLURB)
   $(degenhardt_BLURB)
   $(dilly_BLURB)
