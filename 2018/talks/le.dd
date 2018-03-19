@@ -37,6 +37,8 @@ $(P
 In this talk we present our experience in adopting D for genomic bioinformatics, with some benchmarks and evaluation of how easy or difficult to do some common bioinformatic tasks in D. We discuss current status and potentials of the D-bioinformatics relationship.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 We describe here our experience in adopting D for genomics bioinformatics. We also present our envision about applicability of D for bioinformatics. It is also an opportunity to explain the essence of bioinformatics (its input data, fundamental algorithms and output). This allows prospective bioinformatician, probably some current D programmers, to evaluate the requirements and a sense of what it takes and gives to work in bioinformatics. We will finish with discussions about what we and D can do more for bioinformatics.
 )

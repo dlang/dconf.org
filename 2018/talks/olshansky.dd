@@ -28,29 +28,34 @@ LEVEL = Intermediate
 
 ABSTRACT =
 $(P
-D happens to have a great deal of ways to do incompatible things
-especially when it comes to I/O and system interface in general.
-
-There is a zoo of incompatible approaches:
+D happens to have a great deal of ways to do incompatible things especially when it comes to I/O and system interface in general. here is a zoo of incompatible approaches:
 $(UL
 $(LI std library is simple blocking I/O much like most 3rd party C code)
 $(LI vibe.d is its own Fiber-based pseudoblocking I/O)
 $(LI some libs are explicitly asynchronous with custom ways to notify of completion)
 )
 
-And it's not the difference that is easy to wrap away.
-
-The talk is presenting experimental work being done to have C libraries respect D's Fibers, goes beyond I/O and finally discusses a unified view of D's concurrency primitives.
+And it's not a difference that is easy to wrap away.
 )
 
 $(P
+The talk is presenting experimental work being done to have C libraries respect D's Fibers, goes beyond I/O and finally discusses a unified view of D's concurrency primitives.
+)
+
+$(P $(B $(U Description)))
+
+$(P
 The talk is based on results of a joint work with Alexandru Caciulescu. The talks aims to present a simple coherent runtime via a model of light user-mode threads (UMT), where I/O and blocking system calls are handled efficiently by the runtime, which maintains an event-loop.
+)
 
-Then we see how can implement such a model where even 3rd party C code behaves well when called from UMT. A very different approaches lead to radically different internal designs for Windows and Linux, which however (with a few considerations)
-are nicely fitting in our model.
+$(P
+Then we see how can implement such a model where even 3rd party C code behaves well when called from UMT. A very different approaches lead to radically different internal designs for Windows and Linux, which however (with a few considerations) are nicely fitting in our model.
 
+$(P
 The performance of the prototype is benchmarked against the baseline on a few typical applications.
+)
 
+$(P
 The second part of the talk is focused on D itself and things like:
 $(UL
 $(LI channels and communication of UMTs)

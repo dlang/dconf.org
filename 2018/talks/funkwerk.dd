@@ -39,6 +39,8 @@ $(P
 Funkwerk's journey with D from 2008 until now.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 We will roughly summarize our experiences from 10 years of fun and pain with D.
 

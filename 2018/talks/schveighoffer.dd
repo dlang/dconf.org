@@ -31,6 +31,8 @@ $(P
 Do you like programming in PHP? Me neither. This is why for the last year I have been porting my company’s in-house tracking system from a LAMP (Linux/Apache/Mysql/PHP) application into a vibe.d application. I’ll share the techniques I am using in converting my application one piece at a time, including some of the trickier parts to get both sides to act somewhat seamlessly with each other. I will also showcase some of the best reasons to undertake such an endeavor.
 )
 
+$(P $(B $(U Description)))
+
 $(P
 My company's web application is an in-house “job tracking” system, essentially a bug tracker, but for actual sales and installation of our products. It was built from a now-defunct basic job-tracking system that used PHP and Smarty templates to render pages. In the first section, I’ll briefly discuss the basics of the PHP design, so you can get a feel for what needs to be done to convert such a beast. The next section will focus on getting Apache to serve both vibe.d pages and php pages interchangeably, so that you can change one piece at a time. I’ll go over how to configure php to have sessions that are readable from both sides, and the best way to communicate between the two sides. Finally, I’ll show some comparisons of how the vibe.d/diet version compares to the PHP/Smarty version, highlighting the advantages of using D, along with a demo of the two sites for comparison. If there is time, I plan on doing some research into some of the more common PHP web frameworks (e.g. Symfony, Laravel), to discuss how this technique can be used for them.
 )
