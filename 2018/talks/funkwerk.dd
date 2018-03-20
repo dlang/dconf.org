@@ -51,7 +51,7 @@ $(LI Features that shine in commercial usage)
 $(LI Update policy)
 $(LI Coding Style)
 $(LI D in Production)
-$(LI Hiring and Onboarding of new D-evelopers)
+$(LI Hiring and Onboarding of new D-velopers)
 ))
 
 BIO =
@@ -60,5 +60,5 @@ $(B Mario Kröplin) is the author of dunit, ddepend, and other open source D pro
 )
 
 $(P
-$(B Stefan Rohe) is thrilled about Clean D Code and transformed Funkwerk into a D-shop by introducing D into green- and brownfield projects. By Funkwerk being the first commercial adaptor of D, Stefan is the first commercial D programmer. Next to his work at Funkwerk he organizes the local community.
+$(B Stefan Rohe) is thrilled about Clean D Code and transformed Funkwerk into a D-shop by introducing D into green- and brownfield projects. Funkwerk being the first commercial adopter of D makes Stefan is the first commercial D programmer. Next to his work at Funkwerk he organizes the local community.
 )
