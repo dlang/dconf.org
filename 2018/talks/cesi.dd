@@ -53,21 +53,22 @@ In most cases, the answers are specific to the target platform, but knowing whic
 
 $(P
 The presentation describes the porting of D language to an unnamed game console platform (*) which was done by Igor Česi at Ubisoft during autumn / winter 2017. In the form of an experience report it will describe:
-$(OL
-$(LI How to choose and then build the compiler for the target platform)
-$(LI Build system options)
-$(LI Porting druntime)
-    $(UL
-    $(LI Bootstrapping)
-    $(LI A road to unittests)
-    $(LI Filling the gaps)
-    )
-$(LI Porting phobos)
-    $(UL
-    $(LI The easy part and low hanging fruits)
-    $(LI The hard part (platform specificities; the devil is in the details))
-$(LI Useful tips and tricks)
-)
+    $(OL
+        $(LI How to choose and then build the compiler for the target platform)
+        $(LI Build system options)
+        $(LI Porting druntime)
+            $(UL
+            $(LI Bootstrapping)
+            $(LI A road to unittests)
+            $(LI Filling the gaps)
+            )
+        $(LI Porting phobos)
+            $(UL
+            $(LI The easy part and low hanging fruits)
+            $(LI The hard part (platform specificities; the devil is in the details))
+        $(LI Useful tips and tricks)
+            )
+        )
 
 (*) The reason to avoid specifically naming the target platform is the NDA agreement signed with the platform owner. This should have a positive impact on the content of the presentation as it forces the content to be more generic; it is not expected many people
 will do exactly the same port.
