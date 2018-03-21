@@ -12,6 +12,8 @@ SPEAKER_SHORT = degenhardt
 
 SPEAKER_URL = https://github.com/jondegenhardt
 
+SPEAKER_PIC = $(BASE)/images/jon_degenhardt.jpg
+
 TALK_TITLE = Exploring D via Benchmarking of eBay's TSV Utilities
 
 SLIDES = $(SLIDES_NO)

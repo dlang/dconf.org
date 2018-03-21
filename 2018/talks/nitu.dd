@@ -12,7 +12,7 @@ SPEAKER_SHORT = nitu
 
 SPEAKER_URL =
 
-SPEAKER_PIC = $(BASE)/images/default.jpg
+SPEAKER_PIC = $(BASE)/images/RazvanN.png
 
 TALK_TITLE = ExposeD - the war stories of an aspiring D compiler developer
 
@@ -42,3 +42,6 @@ The talk will delve into the struggles of a rookie compiler developer trying to 
 )
 
 BIO =
+$(P
+Razvan Nitu is a PhD student and teaching assistant at University POLITEHNICA of Bucharest, Romania. He is passionate about compilers and operating systems and talking about himself is not one of his skills.
+)
