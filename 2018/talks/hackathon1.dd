@@ -4,7 +4,7 @@ Macros:
 
 DATE = May 5
 
-TIME = 10:00
+TIME = 11:00
 
 SPEAKER = Everybody
 
@@ -26,7 +26,7 @@ VIDEO = $(VIDEO_NO)
 
 LEVEL = All
 
-DURATION = 3 hours
+DURATION = 2 hours
 
 TYPE = $(B Hackathon)
 

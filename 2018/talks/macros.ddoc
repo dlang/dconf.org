@@ -69,10 +69,24 @@ $(P
 The D conference will not end after the three days of talks, but will continue into a fourth day for our 2nd annual Hackathon!
 Collaborate with fellow D hackers to make the D community a better place.)
 
+$(P $(B $(U Description)))
+
 $(P
-The first DConf Hackathon resulted in, to quote Walter Bright, "A tsunami of pull requests". From working on core D features like the initial immplementation of static foreach and the splitting up of std.datetime into multiple modules, to hacking on third-party projects like iopipe and dub, people worked alone or in groups to fix bugs and implement improvements. Others hashed out ideas, like the group that focused on bringing D to the GPU. Still others took their time to act as tutors, helping fellow D hackers improve their D skillset.
+The first DConf Hackathon resulted in, to quote Walter Bright, "A tsunami of pull requests". From work on core D features like the initial implementation of static foreach and the splitting up of std.datetime into multiple modules, to hacking on third-party projects like iopipe and dub, people worked alone or in groups to fix bugs and implement improvements. Others hashed out ideas, like the group that focused on bringing D to the GPU. Still others took their time to act as tutors, helping fellow D hackers improve their D skillset.
 )
 
 $(P
-This year we aim to repeat our success. We hope you stick around to participate in this final day of DConf and see where the day takes you!
+This year, we aim to repeat our success, with two key differences: we're kicking off the Hackathon morning session with an extra talk and we're opening the doors to those who weren't able to make it to the full conference!
+)
+
+$(P
+WekaIO's $(LINK2 $(BASE)/talks/shemesh.html, Shachar Shemesh will get us started) with a Hackathon keynote announcing the company's new open source library. That should give some Hackathon attendees something to focus on if they come in with no concrete plans!
+)
+
+$(P
+Additionally, for those in the vicinity who want to attend but are unable to get away for the full conference, we're opening the doors to you with a special $(DOLLAR)100 Hackathon pass. Come hear Shachar's talk, find some help for your project or contribute to another, and enjoy mingling with the D community. Visit the $(LINK2 $(BASE)/registration.html, registration page) to purchase your Hackathon pass!
+)
+
+$(P
+If you have the bought the full registration, we hope you stick around. If you're unable to attend the full conference and are looking for a fun way to spend your Saturday, we hope you join us. Who knows where they day will take you?
 )

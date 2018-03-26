@@ -47,7 +47,7 @@ $(T table, id="schedule" class="purple",
   $(watson_ROW)
   $(le_ROW)
   $(jercaianu_ROW)
-  $(weka_ROW)
+  $(zvibel_ROW)
   $(END_OF_DAY3)
 )
 
@@ -56,6 +56,7 @@ $(T table, id="schedule" class="aqua",
     $(T th, colspan="3", Day 4: Saturday May 5, 2018)
   )
   $(BREAKFAST)
+  $(shemesh_ROW)
   $(hackathon1_ROW)
   $(LUNCH)
   $(hackathon2_ROW)
