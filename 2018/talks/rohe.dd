@@ -12,6 +12,8 @@ SPEAKER_SHORT = rohe
 
 SPEAKER_URL = https://github.com/funkwerk/
 
+SPEAKER_PIC = $(BASE)/images/rohe.jpg
+
 TALK_TITLE =
 
 SLIDES = $(SLIDES_NO)
