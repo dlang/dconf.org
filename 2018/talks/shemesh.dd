@@ -2,9 +2,9 @@ Ddoc
 
 Macros:
 
-DATE = May 4
+DATE = May 5
 
-TIME = 17:30
+TIME = 10:00
 
 SPEAKER = Shachar Shemesh
 
@@ -12,7 +12,7 @@ SPEAKER_SHORT = shemesh
 
 SPEAKER_URL = https://www.weka.io/
 
-TALK_TITLE =
+TALK_TITLE = Announcing Mecca
 
 SLIDES_URL =
 
@@ -26,13 +26,39 @@ VIDEO_URL_A =
 
 VIDEO = $(VIDEO_NO)
 
-LEVEL = All
+LEVEL = Intermediate/Advanced
 
 ABSTRACT =
+$(P
+Weka.io is a small start-up company producing a hyper-scalable high performance software only (BYOH) storage system written in D. During our work we've created a rather rich set of run time support tools for our system that are not, on their own, related to our specific product, or even storage at large. Mecca is a stand-alone library providing those tools. This lecture goes over the highlights of what Mecca contains, and some cool uses for it.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+Weka's code has to be as efficient as possible. We often manage to provide performance on par with non-distributed devices. To achieve this, we have to remove run-time costs wherever they happen. Mecca, therefor, is written for providing the comfort of D while still keeping extreme high performance low-latency operation.
+)
+
+$(P
+Mecca contains three main areas of interest:
+)
+
+$(P
+mecca.lib is a set of useful utilities for making programming in D easier, especially for the GC averse among us. They include support for no-GC exception throwing, easier and more verbose assertions, a D port of libdivide (quicker division when the divider is constant), direct OS memory management, time keeping without calling the OS and type wrappers for making the type system more granular.
+)
+
+$(P
+mecca.containers is a set of no GC containers, replacing or augmenting the D types.
+)
+
+$(P
+mecca.reactor is a fibers manager. In essence, the reactor is a user-land implementation of an OS scheduler. It manages fiber's readiness state, contains IO wrappers for performing seemingly blocking calls, contains the standard synchronization constructs (mutex, event etc.) and time based operations.
+)
 
 BIO =
 $(P
-Shachar (that's me) has been a programmer for over 3 decades. His experience includes heading Check Point's security response team, being a core developer on LiveU's video streaming device, and helping porting Akamai's code into a more modern software architecture. In between, Shachar has also worked on several open source projects, authoring such joys as rsyncrypto and fakeroot-ng, as well as such abominations as sshpass. Shachar even has credit for a one-liner in the vanilla Linux kernel, which still officially makes him a "Linux kernel contributer".)
+Shachar (that's me) has been a programmer for over 3 decades. His experience includes heading Check Point's security response team, being a core developer on LiveU's video streaming device, and helping porting Akamai's code into a more modern software architecture. In between, Shachar has also worked on several open source projects, authoring such joys as rsyncrypto and fakeroot-ng, as well as such abominations as sshpass. Shachar even has credit for a one-liner in the vanilla Linux kernel, which still officially makes him a "Linux kernel contributer".
+)
 
 $(P
 For the past 3½ years Shachar has been a D programmer at Weka.io, first writing its RAID subsystem, and recently fully engaged with the Mecca effort.
