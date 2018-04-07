@@ -10,7 +10,9 @@ SPEAKER = Vang Le
 
 SPEAKER_SHORT = le
 
-SPEAKER_URL =
+SPEAKER_URL = https://github.com/biocyberman
+
+SPEAKER_PIC = $(BASE)/images/le.jpg
 
 TALK_TITLE = Adoption of D for genomic bioinformatics
 
