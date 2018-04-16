@@ -10,7 +10,9 @@ SPEAKER = Igor Česi
 
 SPEAKER_SHORT = cesi
 
-SPEAKER_URL =
+SPEAKER_URL = http://www.ubisoft.com/
+
+SPEAKER_PIC = $(BASE)/images/cesi.jpg
 
 TALK_TITLE = Porting D to a non-Windows non-Posix platform
 

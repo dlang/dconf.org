@@ -14,7 +14,7 @@ SPEAKER_URL =
 
 SPEAKER_PIC = $(BASE)/images/staniloiu.jpg
 
-TALK_TITLE = TBA
+TALK_TITLE = Showcasing Collections
 
 SLIDES_URL =
 
