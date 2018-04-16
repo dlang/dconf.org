@@ -14,7 +14,7 @@ SPEAKER_URL = http://walterbright.com
 
 SPEAKER_PIC = $(BASE)/images/bright.jpg
 
-TALK_TITLE = TBA
+TALK_TITLE = Taking Advantage of D Within Existing C Code Bases
 
 TYPE = $(B Keynote)
 
@@ -30,7 +30,18 @@ LEVEL = All
 
 ABSTRACT =
 $(P
-Yada yada yada
+For 40 years now, C has been a major force in programming languages, and a great deal of the world's critical software is written
+in it. But there's also been 40 years of advancement in programming languages, while C has remained relatively unchanged. It's
+well known, and well understood. It's problems are well known, too, and have turned out to be relatively intractable, such as
+buffer overflows. Security issues such as buffer overflows have cost enormous amounts of money, and continue to plague companies.
+)
+
+$(P
+These issues have been solved by more modern programming languages, but it is impractical to translate large code bases from C to
+another language. It is possible, however, to incrementally start using a modern language alongside an existing code base, without
+disrupting it, and without overhead. One such is the D programming language. This presentation will show how that is done and the
+advantages in doing so - advantages such as guaranteed elimination of certain types of bugs, modern programming concepts, etc.
+It'll make your code easier to write, easier to read, easier to review, and more robust.
 )
 
 BIO =
