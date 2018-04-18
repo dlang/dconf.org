@@ -10,7 +10,7 @@ SPEAKER = Mario Kröplin, Stefan Rohe
 
 SPEAKER_SHORT = funkwerk
 
-SPEAKER_URL = https://github.com/funkwerk
+SPEAKER_URL = http://www.funkwerk.com/en/
 
 PANEL_SPEAKER_IMG =
 <table class="image">
@@ -19,8 +19,8 @@ PANEL_SPEAKER_IMG =
 </table>
 
 SPEAKER_IMG =
-$(PANEL_SPEAKER_IMG $(BASE)/images/stock.png, Mario Kröplin, http://www.funkwerk.com/en/)
-$(PANEL_SPEAKER_IMG $(BASE)/images/rohe.jpg, Stefan Rohe, https://github.com/funkwerk/)
+$(PANEL_SPEAKER_IMG $(BASE)/images/mario.jpg, Mario Kröplin, http://www.funkwerk.com/en/)
+$(PANEL_SPEAKER_IMG $(BASE)/images/rohe.jpg, Stefan Rohe, http://www.funkwerk.com/en/)
 
 TALK_TITLE = A Decade of D @ Funkwerk
 
@@ -56,7 +56,10 @@ $(LI Hiring and Onboarding of new D-velopers)
 
 BIO =
 $(P
-$(B Mario Kröplin) is the author of dunit, ddepend, and other open source D projects.
+$(B Mario Kröplin) is a software architect at the German company Funkwerk. At the location near Munich, Funkwerk develops passenger
+information systems, which are in operation at railway companies throughout Europe. In 2008 they started using D and since then,
+D has been the means of choice for all new development. Mario (linkrope) is also the author of D tools and frameworks that are
+in daily use at Funkwerk.
 )
 
 $(P

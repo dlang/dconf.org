@@ -12,6 +12,8 @@ SPEAKER_SHORT = kroeplin
 
 SPEAKER_URL = http://www.funkwerk.com/en/
 
+SPEAKER_PIC = $(BASE)/images/mario.jpg
+
 TALK_TITLE =
 
 SLIDES = $(SLIDES_NO)
@@ -28,5 +30,8 @@ ABSTRACT =
 
 BIO =
 $(P
-Mario Kröplin is the author of dunit, ddepend...
+Mario Kröplin is a software architect at the German company Funkwerk. At the location near Munich, Funkwerk develops passenger
+information systems, which are in operation at railway companies throughout Europe. In 2008 they started using D and since then,
+D has been the means of choice for all new development. Mario (linkrope) is also the author of D tools and frameworks that are
+in daily use at Funkwerk.
 )

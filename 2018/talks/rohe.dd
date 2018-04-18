@@ -10,7 +10,7 @@ SPEAKER = Stefan Rohe
 
 SPEAKER_SHORT = rohe
 
-SPEAKER_URL = https://github.com/funkwerk/
+SPEAKER_URL = http://www.funkwerk.com/en/
 
 SPEAKER_PIC = $(BASE)/images/rohe.jpg
 
