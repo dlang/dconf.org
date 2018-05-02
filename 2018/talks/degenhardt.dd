@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/jon_degenhardt.jpg
 
 TALK_TITLE = Exploring D via Benchmarking of eBay's TSV Utilities
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = https://github.com/eBay/tsv-utils-dlang/blob/master/docs/dconf2018.pdf
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PDF)
 
 VIDEO_URL_Y =
 

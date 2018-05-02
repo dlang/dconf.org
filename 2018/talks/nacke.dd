@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/nacke.jpg
 
 TALK_TITLE = D for the Blockchain
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
