@@ -18,7 +18,7 @@ TALK_TITLE = Taking Advantage of D Within Existing C Code Bases
 
 TYPE = $(B Keynote)
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
