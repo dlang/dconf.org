@@ -10,13 +10,13 @@ SPEAKER = Steven Schveighoffer
 
 SPEAKER_SHORT = schveighoffer
 
-SPEAKER_URL =
+SPEAKER_URL = http://schveiguy.com
 
 SPEAKER_PIC = $(BASE)/images/schveighoffer.jpg
 
 TALK_TITLE = How to convert your rusty old LAMP into a shiny new Vibe app.
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
