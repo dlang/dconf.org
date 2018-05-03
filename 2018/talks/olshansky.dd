@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/DmitryOlshansky.jpg
 
 TALK_TITLE = Unified Concurrent Runtime for D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
