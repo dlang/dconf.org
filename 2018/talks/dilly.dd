@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/dilly.jpg
 
 TALK_TITLE = Building a Scalable Webapp with Angular and D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = http://dconf2018.live-ask.com/
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), at live-ask)
 
 VIDEO_URL_Y =
 
