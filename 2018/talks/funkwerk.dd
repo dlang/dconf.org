@@ -24,7 +24,7 @@ $(PANEL_SPEAKER_IMG $(BASE)/images/rohe.jpg, Stefan Rohe, http://www.funkwerk.co
 
 TALK_TITLE = A Decade of D @ Funkwerk
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
