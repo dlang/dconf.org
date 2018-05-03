@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/marques.jpg
 
 TALK_TITLE = Beyond OOP: A Case Study
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
