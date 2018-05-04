@@ -42,7 +42,8 @@ $(addprefix $(OUT)/, includes/%): includes/%
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*) \
-	$(wildcard talks/*.pdf)
+	$(wildcard talks/*.pdf) \
+	$(wildcard talks/*.pptx) \
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))
 
