@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/cesi.jpg
 
 TALK_TITLE = Porting D to a non-Windows non-Posix platform
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
