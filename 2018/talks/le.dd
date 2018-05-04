@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/le.jpg
 
 TALK_TITLE = Adoption of D for genomic bioinformatics
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
