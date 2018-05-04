@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/davis.jpg
 
 TALK_TITLE = Overview of dxml and Lessons Learned
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
