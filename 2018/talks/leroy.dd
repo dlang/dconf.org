@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/leroy.jpg
 
 TALK_TITLE = Open Methods for D (The Expression Problem - solved)
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = https://jll63.github.io/openmethods.d/dconf2018/
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), at GitHub)
 
 VIDEO_URL_Y =
 
