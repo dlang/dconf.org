@@ -16,11 +16,7 @@ SPEAKER_PIC = $(BASE)/images/zvibel.jpg
 
 TALK_TITLE = Using D as the programming language of choice for large scale primary storage system
 
-SLIDES_URL =
-
-SLIDE_LINKS =
-
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
