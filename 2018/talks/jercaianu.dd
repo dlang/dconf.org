@@ -16,11 +16,7 @@ SPEAKER_PIC = $(BASE)/images/jercaianu.jpg
 
 TALK_TITLE = Project Blizzard: safe memory allocation and deallocation
 
-SLIDES_URL =
-
-SLIDE_LINKS =
-
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

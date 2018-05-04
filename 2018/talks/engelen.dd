@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/engelen.jpg
 
 TALK_TITLE = LLVM-backed goodies in LDC
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/engelen.pdf
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PDF), $(LINK2 $(BASE)/talks/code.engelen.dconf_asan.d, dconf_asan.d), $(LINK2 $(BASE)/talks/code.engelen.dconf_fuzz.d, dconf_fuzz.d), $(LINK2 $(BASE)/talks/code.engelen.fuzz_dxml.d, fuzz_dxml.d)
 
 VIDEO_URL_Y =
 
