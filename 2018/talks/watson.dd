@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/watson.jpg
 
 TALK_TITLE = Binderoo - Wait, What Do You Mean You Quit Your Job?
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
