@@ -14,11 +14,7 @@ SPEAKER_URL = https://www.weka.io/
 
 TALK_TITLE = Announcing Mecca
 
-SLIDES_URL =
-
-SLIDE_LINKS =
-
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
