@@ -2,7 +2,7 @@ Ddoc
 $(T h1,,DConf 2018 in Munich!)
 <hr />
 $(P
-$(I DConf 2018 has successfully concluded. The D Language Foundation extends their gratitude to our partners, our supporters, and all of the attendees, for helping us pull off another successful event. We look forward to doing it again next year!)
+$(I $(LINK2 https://dlang.org/blog/2018/05/31/dconf-2018-ex-post-facto/, DConf 2018 has successfully concluded). The D Language Foundation extends their gratitude to our partners, our supporters, and all of the attendees, for helping us pull off another successful event. We look forward to doing it again next year!)
 )
 <hr />
 $(P
