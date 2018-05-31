@@ -1,6 +1,10 @@
 Ddoc
 $(T h1,,DConf 2018 in Munich!)
-$(P $(B$(LINK2 ./registration.html, Registration) is now open!))
+<hr />
+$(P
+$(I DConf 2018 has successfully concluded. The D Language Foundation extends their gratitude to our partners, our supporters, and all of the attendees, for helping us pull off another successful event. We look forward to doing it again next year!)
+)
+<hr />
 $(P
 The D Language Foundation is pleased to announce the international conference and hackathon DConf 2018 in Munich, Germany, May 2-5 2018.
 )
