@@ -22,11 +22,11 @@ SLIDES_URL = $(BASE)/talks/engelen.pdf
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PDF), $(LINK2 $(BASE)/talks/code.engelen.dconf_asan.d, dconf_asan.d), $(LINK2 $(BASE)/talks/code.engelen.dconf_fuzz.d, dconf_fuzz.d), $(LINK2 $(BASE)/talks/code.engelen.fuzz_dxml.d, fuzz_dxml.d)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=GMKvYrjaaoU
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 

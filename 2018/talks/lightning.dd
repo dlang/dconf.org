@@ -18,11 +18,11 @@ TALK_TITLE = Lightning Talks
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=Odj_5_pDN-U
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 DURATION = 60 minutes
 

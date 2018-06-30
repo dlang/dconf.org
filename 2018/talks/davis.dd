@@ -18,11 +18,11 @@ TALK_TITLE = Overview of dxml and Lessons Learned
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://www.youtube.com/watch?v=YWVnQwphIus
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate
 
