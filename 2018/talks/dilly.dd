@@ -22,11 +22,11 @@ SLIDES_URL = http://dconf2018.live-ask.com/
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), at live-ask)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://youtu.be/1Ptoi9llB8Q
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Beginner/Intermediate
 

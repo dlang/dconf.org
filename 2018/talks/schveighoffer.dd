@@ -18,11 +18,11 @@ TALK_TITLE = How to convert your rusty old LAMP into a shiny new Vibe app.
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://youtu.be/c9ByCu1FQEQ
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Beginner/Intermediate
 
