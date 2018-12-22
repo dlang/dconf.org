@@ -1,0 +1,101 @@
+BASE = .
+
+MDASH = &mdash;
+
+HTTP = $(LINK2 http://$1,$+)
+
+D = <tt>$0</tt>
+
+DIV = <div $1>$+</div><!-- end <div $1> -->
+
+T = <$1 $(TTAIL $+)</$1>
+
+TTAIL = $1>$+
+
+TT = <tt>$0</tt>
+
+GETSCRIPT = <script language="javascript" type="text/javascript" src="$0"></script>
+
+PAGE_TITLE = The D Programming Language Conference 2018
+
+DEFINE = $1 = $+
+
+HEADER = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css" />
+<link href="$(BASE)/images/favicon.ico" rel="shortcut icon" />
+$(T title,, $(PAGE_TITLE))
+</head>
+
+LOGO =
+$(DIV class="logo",
+  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf_logo_2019.jpg" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London" height="116" border="0" />)
+)
+
+NO_LINK_YET=$(DIV class="nolinkyet", $0)
+
+MENU =
+$(DIV class="menu_container",
+$(DIV class="menu row_after",
+  $(T nav,,
+    $(T ul,id="menu",
+      $(LI $(LINK2 $(BASE)/index.html, Home))
+      $(LI $(LINK2 $(BASE)/registration.html, Register))
+      $(LI $(LINK2 $(BASE)/schedule/index.html, Schedule))
+      $(LI $(LINK2 $(BASE)/speakers/index.html, Speakers))
+      $(LI $(LINK2 $(BASE)/venue.html, Venue))
+      $(LI $(LINK2 $(BASE)/contact.html, Contact))
+      $(LI $(LINK2 $(BASE)/../2018, 2018))
+      $(LI $(LINK2 $(BASE)/../2017, 2017))
+      $(LI $(LINK2 $(BASE)/../2016, 2016))
+      $(LI $(LINK2 $(BASE)/../2015, 2015))
+      $(LI $(LINK2 $(BASE)/../2014, 2014))
+      $(LI $(LINK2 $(BASE)/../2013, 2013))
+    )
+  )
+)
+)
+
+SPONSORS =
+$(DIV class="page_right equal",
+  $(DIV class="divider_h", &nbsp;)
+  <hr />
+  $(DIV class="sponsors",
+    $(T span, class="sp", Partner/Host/Organizer)<br />
+      $(T table,, $(T tr,,
+      $(T td,, $(LINK2 http://symmetryinvestments.com/,
+      <img src="$(BASE)/images/symmetry-logo1.png" width="100%" alt="QA Systems" border="0" />)))
+    )
+  )
+  <hr />
+  $(DIV class="twitter",
+    <a class="twitter-timeline" data-height="420" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  )
+  $(DIV class="hash",
+    <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  )
+  <hr />
+)
+
+DDOC = $(HEADER)
+<body>
+$(LOGO)
+$(MENU)
+$(DIV id="container",
+  $(DIV class="page_left equal hyphenate", $(BODY))
+  $(COMMENT DIV class="divider_v equal", &nbsp;)
+  $(SPONSORS)
+)
+$(FOOTER)
+</body>
+</html>
+
+FOOTER =
+$(DIV class="footer",
+    &copy; $(YEAR) $(LINK2 https://dlang.org/foundation.html, The D Language Foundation) |
+    Generated with Ddoc
+)
+
+WEB = $(LINK2 http://$1, $2)

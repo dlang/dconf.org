@@ -1,0 +1,8 @@
+Ddoc
+
+  $(bright_BLURB)
+  $(alexandrescu_BLURB)
+
+Macros:
+
+BASE = ..
