@@ -40,6 +40,9 @@ clean: 2013/clean 2014/clean
 2018/%:
 	$(MAKE) DMD=$(DMD) --directory=2018 OUT=../$(OUT)/2018 $*
 
+2019/%:
+	$(MAKE) DMD=$(DMD) --directory=2019 OUT=../$(OUT)/2019 $*
+
 $(OUT)/%: %
 	mkdir -p $(OUT)
 	cp $< $@

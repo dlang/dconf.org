@@ -1,0 +1,10 @@
+Ddoc
+
+$(T h1,, Contact Us)
+
+$(P $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org))
+
+$(P On Twitter: $(LINK2 https://twitter.com/D_Programming, $(TT
+@D_programming)), $(LINK2 https://twitter.com/search?q=%23dlang, $(TT #dlang)), $(LINK2 https://twitter.com/search?q=%23dconf, $(TT #dconf)))
+
+$(P Learn more about the $(LINK2 https://dlang.org/foundation.html, D Language Foundation).)
