@@ -8,6 +8,8 @@ HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index thankyou venue)
 
 TALK_BASENAMES = \
+	hackathon1 \
+	hackathon2 \
 
 $(addprefix $(OUT)/, includes/%): includes/%
 	cp $^ $@

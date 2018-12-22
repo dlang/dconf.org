@@ -4,7 +4,7 @@ $(T h1,,Schedule)
 
 $(T table, id="schedule" class="green",
   $(T TR,,
-      $(T th, colspan="3", Day 1: Wednesday May 2, 2018)
+      $(T th, colspan="3", Day 1: Wednesday May 8, 2019)
   )
   $(BREAKFAST1)
   $(LUNCH)
@@ -13,7 +13,7 @@ $(T table, id="schedule" class="green",
 
 $(T table, id="schedule" class="orange",
   $(T TR,,
-    $(T th, colspan="3", Day 2: Thursday May 3, 2018)
+    $(T th, colspan="3", Day 2: Thursday May 9, 2019)
   )
   $(BREAKFAST)
   $(LUNCH)
@@ -22,7 +22,7 @@ $(T table, id="schedule" class="orange",
 
 $(T table, id="schedule" class="purple",
   $(T TR,,
-    $(T th, colspan="3", Day 3: Friday May 4, 2018)
+    $(T th, colspan="3", Day 3: Friday May 10, 2019)
   )
   $(BREAKFAST)
   $(LUNCH)
@@ -31,10 +31,12 @@ $(T table, id="schedule" class="purple",
 
 $(T table, id="schedule" class="aqua",
   $(T TR,,
-    $(T th, colspan="3", Day 4: Saturday May 5, 2018)
+    $(T th, colspan="3", Day 4: Saturday May 11, 2019)
   )
   $(BREAKFAST)
+  $(hackathon1_ROW)
   $(LUNCH)
+  $(hackathon2_ROW)
   $(END_OF_DAY4)
 )
 

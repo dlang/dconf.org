@@ -1,0 +1,72 @@
+BASE = ..
+
+PAGE_TITLE = DConf 2019 speaker: $(SPEAKER)
+
+SPEAKER_PIC = $(BASE)/../2018/images/stock.png
+
+TYPE = Presentation
+
+LEVEL = Intermediate
+
+DURATION = 50 minutes
+
+SLIDES_FILE = $(BASE)/talks/$(SPEAKER_SHORT).$1
+
+SLIDES_URL =
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_FILE pdf), PDF)
+
+SLIDES_YES = $(I Slides:) $(B $(SLIDE_LINKS))<br />
+
+SLIDES_NO =
+
+SLIDES =
+
+CODE_SAMPLES_YES = $(I $(LINK2 $(CODE_URL), Code samples))<br />
+
+CODE_SAMPLES_NO =
+
+CODE_SAMPLES =
+
+VIDEO_YES = $(T A, href="$(VIDEO_URL_Y)",Video)<br />
+
+DDOC =
+$(HEADER)
+<body>
+$(DIV id="container",
+  $(MENU)
+  $(DIV class="page_left equal hyphenate", $(TALK_INFO))
+  $(SPONSORS)
+)
+$(FOOTER)
+</body>
+</html>
+
+SPEAKER_IMG = <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
+
+SPEAKER_BIO = $(P $(B $(U Speaker Bio:) ) $(BIO))
+
+TALK_INFO =
+  $(T h1, align=left, $(TALK_TITLE))
+  $(DIV class="inline vmid",
+    $(SPEAKER_IMG)
+    $(DIV, <p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br />
+      $(DATE) @ $(TIME)</b><br><br>$(I Duration:) $(DURATION)<br />
+      $(I Talk type:) $(TYPE)<br />
+      $(I Level:) $(LEVEL)<br />
+      $(CODE_SAMPLES)
+      $(SLIDES)
+      $(B $(VIDEO))
+      <!--a href="#">Powerpoint slides</a--></p>
+    )
+  )
+  $(P $(B $(U Abstract:)&nbsp;)$(ABSTRACT))
+  <!--p>$(B $(U Notes:) ) $(NOTES)</p-->
+  $(SPEAKER_BIO)
+
+HACKATHON_ABSTRACT=
+$(P The fourth day of DConf 2019 is set aside for our 3rd annual Hackathon! Collaborate with fellow D hackers to make the D community a better place.)
+
+$(P $(B $(U Description)))
+$(P The first DConf Hackathon resulted in, to quote Walter Bright, "A tsunami of pull requests". That cemented its place as part of the DConf tradition. The 2018 edition of the Hackathon saw coders from Ubisoft tutoring some folks on game development in D, a clinical bioinformatician organizing programmers interested in contributing to projects for genomic bioinformatics, and a whole lot of keyboard banging on and birds-of-a-feather discussions about a variety of issues in the D ecosystem.)
+$(P In 2018, we kicked off the Hackathon with one more talk and opened the doors to the general public. It's too soon to say if we'll be able to do the same for 2019, but our fingers are crossed that we can. Either way, we invite all registered conference goers to stick around on that last day to contribute, look for help with your own project, join in discussions about solving D issues, or simply just to hang out and have fun for one last day with our merry band of D coders.)
