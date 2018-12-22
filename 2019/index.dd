@@ -1,5 +1,4 @@
 Ddoc
-
 $(T h1,,DConf 2019 in London!)
 $(P The D Language Foundation is pleased to announce the international conference and hackathon DConf 2019 in London, United Kingdom, May 8 - 11 2019.)
 $(P DConf is the largest gathering of D programming language enthusiasts on the planet, a face-to-face event where programmers talk shop, share and learn about their craft, find jobs, work to improve the D ecosystem, and sample the local selection of brews. Three days of presentations are followed by a fourth day of collaborative hacking on D projects, each day capped off by spirited discussion well into the night.)
@@ -15,7 +14,6 @@ $(P
 )
 $(T h2,, Hackathon)
 $(P $(LINK2 $(BASE)/talks/hackathon1.html, The DConf Hackathon returns) on Saturday, May 11th. The Hackathon is an unstructured, free-wheeling, full day of solving D issues, advancing D projects, teaching, learning, and communing with like-minded souls. The previous edition of the Hackathon was open to the general public. We are eager to do so this time as well, but need to iron out some details first. Watch this space!)
-
 $(T h2,, Sponsorship)
 $(P TBA )
 $(T h2,,Important Dates)
