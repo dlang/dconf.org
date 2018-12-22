@@ -1,19 +1,33 @@
 Ddoc
 $(T h1,,DConf 2019 in London!)
-$(P The D Language Foundation is pleased to announce the international conference and hackathon DConf 2019 in London, United Kingdom, May 8 - 11 2019.)
-$(P DConf is the largest gathering of D programming language enthusiasts on the planet, a face-to-face event where programmers talk shop, share and learn about their craft, find jobs, work to improve the D ecosystem, and sample the local selection of brews. Three days of presentations are followed by a fourth day of collaborative hacking on D projects, each day capped off by spirited discussion well into the night.)
-$(P DConf 2019 is hosted by $(LINK2 http://symmetryinvestments.com/, our friends at Symmetry Investments). With offices in Hong Kong, Singapore, and London, Symmetry employs D in their investment management mission and previously sponsored $(LINK2 https://dlang.org/blog/symmetry-autumn-of-code/, the Symmetry Autumn of Code). We're excited to work with Symmetry in bringing DConf to London for the first time.)
-$(P London's technology sector is booming from government support and heavy investment in startups. The heart of the boom is East London Tech City, a.k.a. the Silicon Roundabout. Dozens of global and local tech firms call the area their home. DConf 2019 will be right in the middle of it, at $(LINK2 $(BASE)/venue.html Inmarsat's 99 City Road Conference Centre).)
-$(P We welcome members of the D programming language community and anyone interested in learning more about our favorite language to join us in London for four days of fun, challenge, and comradery.)
+$(P
+The D Language Foundation is pleased to announce the international conference and hackathon DConf 2019 in London, United Kingdom, May 8 - 11 2019.
+)
+$(P
+DConf is the largest gathering of D programming language enthusiasts on the planet, a face-to-face event where programmers talk shop, share and learn about their craft, find jobs, work to improve the D ecosystem, and sample the local selection of brews. Three days of presentations are followed by a fourth day of collaborative hacking on D projects, each day capped off by spirited discussion well into the night.
+)
+$(P
+DConf 2019 is hosted by $(LINK2 http://symmetryinvestments.com/, our friends at Symmetry Investments). With offices in Hong Kong, Singapore, and London, Symmetry employs D in their investment management mission and previously sponsored $(LINK2 https://dlang.org/blog/symmetry-autumn-of-code/, the Symmetry Autumn of Code). We're excited to work with Symmetry in bringing DConf to London for the first time.
+)
+$(P
+London's technology sector is booming from government support and heavy investment in startups. The heart of the boom is East London Tech City, a.k.a. the Silicon Roundabout. Dozens of global and local tech firms call the area their home. DConf 2019 will be right in the middle of it, at $(LINK2 $(BASE)/venue.html Inmarsat's 99 City Road Conference Centre).
+)
+$(P
+We welcome members of the D programming language community and anyone interested in learning more about our favorite language to join us in London for four days of fun, challenge, and camaraderie.
+)
 $(T h2,,Keynote Speakers)
-$(P Our regular keynote speakers, Walter Bright and Andrei Alexandrescu, are already locked in. The invited keynote speaker is not yet confirmed. Keep an ear open for the announcement!)
+$(P
+Our regular keynote speakers, Walter Bright and Andrei Alexandrescu, are already locked in. The invited keynote speaker is not yet confirmed. Keep an ear open for the announcement! In the meantime, $(LINK2 https://dlang.org/blog/2018/05/31/dconf-2018-ex-post-facto/, read a summary of DConf 2018).
+)
 $(P
   $(DIV class="inline vmid",
     $(KEYNOTE_SPEAKERS)
    )
 )
 $(T h2,, Hackathon)
-$(P $(LINK2 $(BASE)/talks/hackathon1.html, The DConf Hackathon returns) on Saturday, May 11th. The Hackathon is an unstructured, free-wheeling, full day of solving D issues, advancing D projects, teaching, learning, and communing with like-minded souls. The previous edition of the Hackathon was open to the general public. We are eager to do so this time as well, but need to iron out some details first. Watch this space!)
+$(P
+$(LINK2 $(BASE)/talks/hackathon1.html, The DConf Hackathon returns) on Saturday, May 11th. The Hackathon is an unstructured, free-wheeling, full day of solving D issues, advancing D projects, teaching, learning, and communing with like-minded souls. The previous edition of the Hackathon was open to the general public. We are eager to do so this time as well, but need to iron out some details first. Watch this space!
+)
 $(T h2,, Sponsorship)
 $(P TBA )
 $(T h2,,Important Dates)
