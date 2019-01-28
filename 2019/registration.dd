@@ -1,8 +1,67 @@
 Ddoc
 $(T h1,, Registration)
 $(P
-London's Silicon Roundabout is an exciting location for DConf 2019. We'd love for you to join us!
+We'd love for you to join us at the $(LINK2 https://99cityroad.com/, 99 City Road Conference Centre) in the heart London's Silicon Roundabout for DConf 2019!
 )
 $(P
-Registration is currently closed. Keep an eye on $(LINK2 https://twitter.com/D_Programming, our Twitter feed), $(LINK2 https://forum.dlang.org/group/announce, the D Announce forum), or $(LINK2 https://dlang.org/blog/, the official D Blog) for registration news.
+Early-bird registration is now open! The regular registration rate is $(B$(DOLLAR)400). The early-bird discount is $(B 15%). This year, we are required to tack on a $(B 20%) VAT. Early-bird registration runs until $(B March 17, 24:00 AOE), after which the regular fee will take effect.
+)
+
+<table class="feetable">
+<tr>
+<th>Registration Type</th>
+<th>Base Fee</th>
+<th>20% VAT (GBP)</th>
+<th>Total</th>
+</tr>
+<tr>
+<td>Early-bird Fee</td>
+<td>$(DOLLAR)340.00</td>
+<td>$(DOLLAR)68.00 (£85.97)</td>
+<td>$(DOLLAR)408.00</td>
+</tr>
+<tr>
+<td>Regular Fee</td>
+<td>$(DOLLAR)400.00</td>
+<td>$(DOLLAR)80.00 (£101.14)</td>
+<td>$(DOLLAR)480.00</td>
+</tr>
+</table>
+$(P
+We support registrations through FlipCause and PayPal. If you are registering with a credit card rather than an existing PayPal balance, choosing FlipCause will be more efficient for us, so we encourage you to do so. Thanks!
+)
+
+<hr />
+$(P
+$(B $(T font, size=+1, DConf 2019 Early-Bird Registration $(DOLLAR)408)))
+<hr />
+<table>
+<td>$(B Register via FlipCause)
+</td>
+<td>
+<a href="https://www.flipcause.com/secure/cause_pdetails/NDgwMDA="><img src="images/register.png"></a>
+</td>
+</tr>
+<tr><td colspan="2">&nbsp</td></tr>
+<tr>
+<td>
+$(B Register via PayPal)
+</td>
+<td>
+<FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
+<INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
+<INPUT TYPE="hidden" NAME="business" VALUE="foundation@dlang.org">
+<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2018/thankyou.html">
+<INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
+<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2019 Early-Bird Registration">
+<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="408.00">
+<INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
+</FORM>
+</td>
+</tr>
+</table>
+<hr />
+
+$(P
+Keep an eye on $(LINK2 https://twitter.com/D_Programming, our Twitter feed), $(LINK2 https://forum.dlang.org/group/announce, the D Announce forum), or $(LINK2 https://dlang.org/blog/, the official D Blog) for registration news.
 )

@@ -566,6 +566,15 @@ td {
 }
 */
 
+.feetable {
+	border: 1px solid black;
+}
+
+.feetable td, .feetable th {
+	border: 1px solid black;
+	padding: 10px;
+}
+
 .abstract {
 	background: #FFFFAA ;
 	border: 1px solid #FFAD33;
