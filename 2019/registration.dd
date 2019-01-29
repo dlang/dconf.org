@@ -51,7 +51,7 @@ $(B Register via PayPal)
 <FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
 <INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
 <INPUT TYPE="hidden" NAME="business" VALUE="foundation@dlang.org">
-<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2018/thankyou.html">
+<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2019/thankyou.html">
 <INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
 <INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2019 Early-Bird Registration">
 <INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="408.00">
