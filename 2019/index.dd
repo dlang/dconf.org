@@ -113,4 +113,4 @@ KEYNOTE_SPEAKER_IMG =
 KEYNOTE_SPEAKERS=
 $(KEYNOTE_SPEAKER_IMG ../2018/images/bright.jpg, Walter Bright<br />&nbsp;, )
 $(KEYNOTE_SPEAKER_IMG ../2018/images/erdani.jpg, Andrei Alexandrescu, )
-$(KEYNOTE_SPEAKER_IMG ../2019/images/laeeth.jpg, Laeeth Isharc, )
+$(KEYNOTE_SPEAKER_IMG ../2019/images/laeeth.jpg, Laeeth Isharc<br />&nbsp;, )
