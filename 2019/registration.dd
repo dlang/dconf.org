@@ -6,7 +6,7 @@ We'd love for you to join us at the $(LINK2 https://99cityroad.com/, 99 City Roa
 $(P
 Early-bird registration is now open! The regular registration rate is $(B$(DOLLAR)400). The early-bird discount is $(B 15%). This year, we are required to tack on a $(B 20%) VAT. Early-bird registration runs until $(B March 17, 24:00 AOE), after which the regular fee will take effect.
 )
-
+$(P $(EM Note that GBP values in the following table are based on the January 2019 HMRC exchange rate of 1.2643 GBP to 1 USD))
 <table class="feetable">
 <tr>
 <th>Registration Type</th>
@@ -15,16 +15,28 @@ Early-bird registration is now open! The regular registration rate is $(B$(DOLLA
 <th>Total</th>
 </tr>
 <tr>
-<td>Early-bird Fee</td>
-<td>$(DOLLAR)340.00</td>
-<td>$(DOLLAR)68.00 (£53.78)</td>
-<td>$(DOLLAR)408.00</td>
+<td>Early-bird Fee (USD)</td>
+<td>$(B$(DOLLAR)340.00)</td>
+<td>$(B$(DOLLAR)68.00)</td>
+<td>$(B$(DOLLAR)408.00)</td>
+</tr>
+<tr>
+<td>Early-bird Fee (GBP)</td>
+<td>$(B £268.92)</td>
+<td>$(B £53.78)</td>
+<td>$(B £322.70)</td>
 </tr>
 <tr>
 <td>Regular Fee</td>
 <td>$(DOLLAR)400.00</td>
-<td>$(DOLLAR)80.00 (£63.27)</td>
+<td>$(DOLLAR)80.00</td>
 <td>$(DOLLAR)480.00</td>
+</tr>
+<tr>
+<td>Regular Fee (USD)</td>
+<td>£316.38</td>
+<td>£63.28</td>
+<td>£379.66</td>
 </tr>
 </table>
 $(P
@@ -36,27 +48,40 @@ $(P
 $(B $(T font, size=+1, DConf 2019 Early-Bird Registration $(DOLLAR)408)))
 <hr />
 <table>
-<td>$(B Register via FlipCause)
+<td>$(B Register via FlipCause (USD))
 </td>
 <td>
 <a href="https://www.flipcause.com/secure/cause_pdetails/NDgwMDA="><img src="images/register.png"></a>
 </td>
 </tr>
 <tr><td colspan="2">&nbsp</td></tr>
+<tr><td colspan="2">&nbsp</td></tr>
 <tr>
 <td>
-$(B Register via PayPal)
+$(B Register via PayPal (USD)$(BR)$(DOLLAR)408.00)
 </td>
 <td>
-<FORM ACTION="https://www.paypal.com/cgi-bin/webscr" METHOD="POST">
-<INPUT TYPE="hidden" NAME="cmd" VALUE="_xclick">
-<INPUT TYPE="hidden" NAME="business" VALUE="foundation@dlang.org">
-<INPUT TYPE="hidden" NAME="return" VALUE="http://www.dconf.org/2019/thankyou.html">
-<INPUT TYPE="hidden" NAME="undefined_quantity" VALUE="1">
-<INPUT id="paypalDescription" TYPE="hidden" NAME="item_name" VALUE="DConf 2019 Early-Bird Registration">
-<INPUT id="paypalAmount" TYPE="hidden" NAME="amount" VALUE="408.00">
-<INPUT TYPE="image" SRC="http://images.paypal.com/images/x-click-but5.gif" NAME="submit" ALT="Make payments with PayPal - it's fast, free and secure!">
-</FORM>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ABKR47ER9XW5U">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</td>
+</tr>
+<tr><td colspan="2">&nbsp</td></tr>
+<tr><td colspan="2">&nbsp</td></tr>
+<tr>
+<td>
+$(B Register via PayPal (GBP)$(BR)£322.70)
+</td>
+<td>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="4VQGGH632RXGU">
+<input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
 </td>
 </tr>
 </table>
