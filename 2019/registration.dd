@@ -27,13 +27,13 @@ $(P $(EM Note that GBP values in the following table are based on the January 20
 <td>$(B £322.70)</td>
 </tr>
 <tr>
-<td>Regular Fee</td>
+<td>Regular Fee (USD)</td>
 <td>$(DOLLAR)400.00</td>
 <td>$(DOLLAR)80.00</td>
 <td>$(DOLLAR)480.00</td>
 </tr>
 <tr>
-<td>Regular Fee (USD)</td>
+<td>Regular Fee (GBP)</td>
 <td>£316.38</td>
 <td>£63.28</td>
 <td>£379.66</td>
