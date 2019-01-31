@@ -45,10 +45,10 @@ We support registrations through FlipCause and PayPal. If you are registering wi
 
 <hr />
 $(P
-$(B $(T font, size=+1, DConf 2019 Early-Bird Registration $(DOLLAR)408)))
+$(B $(T font, size=+1, DConf 2019 Early-Bird Registration)))
 <hr />
 <table>
-<td>$(B Register via FlipCause (USD))
+<td>$(B Register via FlipCause (USD)$(BR)$(DOLLAR)408.00)
 </td>
 <td>
 <a href="https://www.flipcause.com/secure/cause_pdetails/NDgwMDA="><img src="images/register.png"></a>
