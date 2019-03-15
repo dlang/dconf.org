@@ -50,7 +50,7 @@ BREAKFAST = $(T tr, class="break", $(T td,, 8:00)$(T td, colspan=2, Morning Snac
 
 BREAKFAST1 = $(T tr, class="break", $(T td,, 8:00)$(T td, colspan=2, Morning Snack and Registration))
 
-LUNCH = $(T tr, class="break", $(T td,, 12:00)$(T td, colspan=2, Lunch &amp; Mingling))
+LUNCH = $(T tr, class="break", $(T td,, 11:00)$(T td, colspan=2, Lunch &amp; Mingling))
 
 END_OF_DAY1 = $(T tr, class="break", $(T td,, 18:00)$(T td, colspan=2, End of Day 1))
 END_OF_DAY2 = $(T tr, class="break", $(T td,, 18:00)$(T td, colspan=2, End of Day 2))
