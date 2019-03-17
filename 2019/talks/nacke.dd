@@ -1,0 +1,50 @@
+Ddoc
+
+Macros:
+
+DATE = May 10
+
+TIME = 15:30
+
+SPEAKER = Kai Nacke
+
+SPEAKER_SHORT = nacke
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/../2018/images/nacke.jpg
+
+TALK_TITLE = Handmade or tool-built?
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+On the evolution of a parser generator written in D.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+The parsers of real-world compilers like dmd and clang are hand-written. Does it have to be that way? Tools like Coco and AntLR are too simple or bring additional dependencies. In many such tools support for D is outdated or not available. When I was faced with the task of writing a parser for a programming language, I did not think about it for a long time, and decided to create a hand-written reursive descent parser. But it was immediately clear that this is a tedious job. I came up with the idea to automate the essential part of it. The aim was to achieve convenience before completeness. The repetitive activities should be removed from the programmer without restricting it.
+)
+
+$(P
+The result is my tool LLtool. LLtool generates just the body of a parser from an grammar description, relaying on conventions to interfacing with other parts of a compiler. A future In my talk I show how a grammer and a recursive descent parser relate to each other and create a parser from a grammar description. I also Show how limitations of my approach can be solved in a systematic way. A further topic is how to support language variations. For demonstration I use the Grammar of a real programming language.
+)
+
+BIO =
+$(P Kai Nacke is a professional IT architect. In his spare time he likes to develop open source applications. He was maintainer of LDC,
+the LLVM-based D compiler, and a committer of the LLVM project. His contributions to LDC include ports to different CPU architectures and
+operating systems. Another interest of him is using D for business applications. He is the developer of the D bindings for SAP.
+Besides programming he is also the author of "D Web Development" and a speaker at the Free and Open Source Software Developers' European
+Meeting (FOSDEM).
+)

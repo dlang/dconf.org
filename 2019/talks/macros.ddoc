@@ -65,8 +65,20 @@ TALK_INFO =
   $(SPEAKER_BIO)
 
 HACKATHON_ABSTRACT=
-$(P The fourth day of DConf 2019 is set aside for our 3rd annual Hackathon! Collaborate with fellow D hackers to make the D community a better place.)
+$(P
+The fourth day of DConf 2019 is set aside for our 3rd annual Hackathon! Collaborate with fellow D hackers to make the D community a better place.
+)
 
 $(P $(B $(U Description)))
-$(P The first DConf Hackathon resulted in, to quote Walter Bright, "A tsunami of pull requests". That cemented its place as part of the DConf tradition. The 2018 edition of the Hackathon saw coders from Ubisoft tutoring some folks on game development in D, a clinical bioinformatician organizing programmers interested in contributing to projects for genomic bioinformatics, and a whole lot of keyboard banging on and birds-of-a-feather discussions about a variety of issues in the D ecosystem.)
-$(P In 2018, we kicked off the Hackathon with one more talk and opened the doors to the general public. It's too soon to say if we'll be able to do the same for 2019, but our fingers are crossed that we can. Either way, we invite all registered conference goers to stick around on that last day to contribute, look for help with your own project, join in discussions about solving D issues, or simply just to hang out and have fun for one last day with our merry band of D coders.)
+
+$(P
+The first DConf Hackathon resulted in, to quote Walter Bright, "A tsunami of pull requests". That cemented its place as part of the DConf tradition. The 2018 edition of the Hackathon saw coders from Ubisoft tutoring some folks on game development in D, a clinical bioinformatician organizing programmers interested in contributing to projects for genomic bioinformatics, and keyboards banging on &amp; birds-of-a-feather discussions about a variety of issues in the D ecosystem.
+)
+
+$(P
+In 2018, we kicked off the Hackathon day with one more talk. This year, we're starting it with an $(LINK2 $(BASE)/talks/agm.html, Annual General Meeting) to hash out longstanding issues and set the stage for the Hackathon. The morning Hackathon session will begin immediately following the AGM, the afternoon session immediately after lunch.
+)
+
+$(P
+We encourage all attendees interested in D's future to stick around until May 11 for the AGM and the Hackathon!
+)

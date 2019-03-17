@@ -1,0 +1,56 @@
+Ddoc
+
+Macros:
+
+DATE = May 8
+
+TIME = 10:00
+
+SPEAKER = Jens Mueller
+
+SPEAKER_SHORT = mueller
+
+SPEAKER_URL =
+
+TALK_TITLE = A Pragmatic Approach for Machine Learning in D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner - Intermediate
+
+ABSTRACT =
+$(P
+In this talk I will present an approach to perform machine learning as part of our existing D applications at dunnhumby. It covers not only our integration of the MXNet deep learning library, but also why we chose this option in comparison. Our implementation is split into two parts: bindings for the MXNet C API and convenience wrappers. I will present and discuss the exposed API for solving learning problems. Its building blocks are common across major learning frameworks, namely, n-dimensional arrays, (stochastic) gradient calculations and optimization algorithms.
+)
+
+$(P
+Finally, I will show how you can solve your machine learning problem using the presented library.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+Machine learning has come a long way since its birth in the 1950s. Thanks to the availability of data and computational resources, many problems are routinely solved using machine learning these days. In comparison to (explicit) programming, machine learning is about performing a task without explicit instructions but rather by means of learning from data. Machine learning comes with its own up- and downsides but is largely to stay relevant in the 21st century as a core technology.
+)
+
+$(P
+At dunnhumby we integrate machine learning into our D applications with an aim to get the most out of what it has to offer. We developed a machine learning library called dmxnet which integrates $(LINK2 https://mxnet.incubator.apache.org/, MXNet). MXNet is one of the lesser known machine learning libraries though it is easy to integrate and work with. It has received back up from Amazon. Other noteworthy mentions related to learning frameworks include TensorFlow, Keras and PyTorch.
+)
+
+$(P
+Our library was open sourced in 2017 and can be found at $(LINK2 https://github.com/sociomantic-tsunami/dmxnet, https://github.com/sociomantic-tsunami/dmxnet). Recently, it was converted to D2-only which would make it even more appealing to a wider audience. Special care is taken with respect to garbage collection in order to avoid adversely affecting the real-time behavior of our applications. The code also comes with unit- and integration tests and code changes are always reviewed and continuously integrated.
+)
+
+$(P
+Our current implementation exposes only core MXNet functionality like n-dimensional arrays, gradient calculations and model parameter updates. Specifically, we did not include its distributed key value store and handling of datasets since we use our own existing open source solutions.
+)
+
+BIO =
+$(P Jens studied computer science at Ulm University and Humboldt-Universität zu Berlin. Afterwards he started a Phd in Machine Learning and defended his thesis in 2014. He stayed for a brief post-doc and left academia in 2016 to join dunnhumby.
+)

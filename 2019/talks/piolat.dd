@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 8
+
+TIME = 14:30
+
+SPEAKER = Guillaume Piolat
+
+SPEAKER_SHORT = piolat
+
+SPEAKER_URL = https://www.auburnsounds.com/
+
+SPEAKER_PIC = $(BASE)/images/piolat.png
+
+TALK_TITLE = intel-intrinsics - Not intrinsically about intrinsics
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+intel-intrinsics is a D SIMD libray that reuses existing Intel syntax for SIMD intrinsics, $(LINK2 https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=MMX$(COMMA)SSE$(COMMA)SSE2, and associated documentation).
+)
+
+$(P
+Besides familiarity, we'll discuss the measurable improvements you may expect today from your usage of intel-intrinsics, versus alternatives, with examples of real production code.
+)
+
+$(P
+What could possibly be more boring than that?
+)
+
+$(P
+It turns out intel-intrinsics is different from equivalents in other languages. Our vision is to decorrelate semantics and codegen completely, to harness the power of the backend.
+)
+
+BIO =
+$(P Guillaume Piolat worked as a professional complainer in various segments of the software industry: mostly signal processing.    Struck by baldness early, he is now a purveyor of audio effects in the pro audio market, as Auburn Sounds. Guillaume created "D-idioms", a blog to bring awareness on the most mundane points   of the language. You will likely see him rant about complexity on the D forums.
+)

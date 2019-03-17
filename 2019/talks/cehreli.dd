@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 10
+
+TIME = 16:30
+
+SPEAKER = Ali Çehreli
+
+SPEAKER_SHORT = cehreli
+
+SPEAKER_URL =
+
+TALK_TITLE = Using D for ROS Bag File Manipulation for Autonomous Driving
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+The D programming language is used in writing development tools at Mercedes-Benz Research and Development, North America. This talk will present how the many low and high level features of D and its standard library have been used effectively in migrating and merging ROS bag files: bit manipulations, templates, UDAs, UFCS, design by introspection, mixin, code generation, and more.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+The Robot Operating System (ROS) is a set of software libraries and tools that are useful in research and development of robots and other autonomous devices like self driving cars.
+)
+
+$(P
+ROS applications communicate with each other through messages that are published and subscribed under specific topics. Messages of ROS sessions can be stored in so called "bag files" for further research and development. As message types ordinarily need to be improved in active development, existing bag files become incompatible but can be migrated.
+)
+
+$(P
+Mercedes-Benz Research and Development, North America, in partnership with Bosch, use ROS as a tool in research in their autonomous driving projects. This talk will describe how D has been useful in writing tools for migrating and merging bag files.
+)
+
+BIO =
+$(P Ali is a software engineer with programming language experiences mostly in C, C++, and D. His past work includes a fun stint at WekaIO, a high performance storage company that bases its technology entirely on D. Ali is the author of the book Programming in D, the secretary and board member of The D Language Foundation, former acting president of the Silicon Valley Chapter of the ACCU, an organizer of the Silicon Valley DLang meetup group, and a team member of the revolutionary Mill CPU. He currently works in the sensor fusion team of the Autonomous Driving division at Mercedes-Benz Research and Development, North America. One of his responsibilities is helping with ISO 26262 software safety issues.
+)

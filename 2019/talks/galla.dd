@@ -1,0 +1,34 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 15:30
+
+SPEAKER = Francesco Galla
+
+SPEAKER_SHORT = galla
+
+SPEAKER_URL =
+
+TALK_TITLE = TBA (Symmetry Autumn of Code Report)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner - Intermediate
+
+ABSTRACT =
+$(P
+TBA
+)
+
+BIO =
+$(P TBA
+)

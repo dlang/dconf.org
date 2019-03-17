@@ -1,0 +1,46 @@
+Ddoc
+
+Macros:
+
+DATE = May 10
+
+TIME = 11:00
+
+SPEAKER = Steven Schveighoffer
+
+SPEAKER_SHORT = schveighoffer
+
+SPEAKER_URL = http://schveiguy.com
+
+SPEAKER_PIC = $(BASE)/../2018/images/schveighoffer.jpg
+
+TALK_TITLE = D is for (De)Serialization
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+Why is it that every time I write some project in D, I end up writing a serializer? I believe the reason lies in the ease with which you can use D to write generative code. It comes down to the fundamental truth that writing code that rids you of boilerplate is not only fun and satisfying, but when it’s easy, you feel foolish not to do it! With D, teaching the compiler how to write code is easier than with any other language I know, and everyone should be doing it.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+I’ve written a few different libraries in D, I’ve written some in C++, Java, and several other languages. But every time I write some code where I find myself copy/pasting or writing tedious code that maps one type of thing to something else, I yearn to use D’s awesome compiler capabilities. D is the only language where I feel comfortable writing generative or templated code, and can actually read and understand (and maintain) the result.
+)
+
+$(P
+This talk will cover several examples of generative programming from the community, and show how all the tools the compiler provides makes such programming far simpler than the manual alternatives. If you ever wrote a program in D, and used templates or static if, you probably know this feeling. Even more so if you have used generics or templates in other languages. But add in CTFE, User Data Attributes, compiler __traits, and mixins, and all of a sudden, you can quit your “day job” of writing boilerplate, and let the compiler do all the hard work.
+)
+
+BIO =
+$(P Steven Schveighoffer has written several D libraries, including dcollections (container library) and iopipe (a high-performance i/o pipeline library). He has numerous contributions to both Phobos and Druntime, including rewriting the array runtime, and the RedBlackTree implementation. Most recently, he is working on getting the JSON iopipe library ready for release, including a full serializer.
+)
