@@ -1,0 +1,124 @@
+Ddoc
+
+Macros:
+
+DATE = May 10
+
+TIME = 13:30
+
+SPEAKER = Ethan Watson
+
+SPEAKER_SHORT = watson
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/watson.jpg
+
+TALK_TITLE = Mad With Power - The Hunt for New Compile-Time Idioms
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner - Intermediate
+
+ABSTRACT =
+$(P
+Design by introspection and compile time function evaluation is fun and exciting. Especially
+for a performance-focused programmer that likes the idea of running as much code as
+possible offline. But it’s also something of a wild-west. There’s idioms for standard
+metaprogramming approaches. But what else is the language capable of? Join Ethan as he
+discovers just how far he can push D with an eye on making a code base easily
+maintainable and highly efficient - two goals that have generally been considered mutually
+exclusive.
+)
+
+$(P
+This session also aims to give a person new to this kind of programming an easy road into
+the concepts and methods used.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+In December 2017 I quit my job at Remedy with the intention to go off and do my own thing.
+And of course I’m going to be using D if I’m calling the shots. My plan is to make my own
+games, but it quickly became clear that getting funded as a game development studio isn’t
+entirely easy. Funding a tech studio? That’s a far more reasonable prospect. Make a product
+people want to use and fund, and then use the profits (and the tech) to make the games I
+want to make.
+)
+
+$(P
+So I’ve been setting off on trying to establish my own middleware company - a narrative
+toolset and runtime that enables people to create high-fidelity narratives in interactive
+environments quicker and far cheaper than previously possible. Even just looking in to all the
+business stuff of writing pitch decks and talking to potential investors made one thing very
+clear - once the business is up and running, my programming time will be very limited.
+Thus, with D not being a widely-used language, there’s a real danger that choosing D could
+limit who I could employ. At least, that’s what an outsider who knows nothing about
+programming would think. D is a very logical choice for moving on from C++, and certainly
+does a number of things better than other modern languages do. But. We still need to do
+some things to make it clear what the intention of the code base is, and make it dead simple
+to maintain.
+)
+
+$(P
+Programming standards. Design documents. These all work. But surely design by
+introspection could enforce these things in a much more immediate fashion?
+Rather than just programming to get something done, I started out the code base with two
+goals in mind:
+    $(T ul,,
+        $(LI Performance. Because hey, I’m an engine programmer.)
+        $(LI Maintainability. This codebase needs to not degenerate just because I can’t pay complete attention to it.)
+    )
+)
+
+$(P
+Performance is critical. As I’m using online multi-user collaborative tools as a
+user-experience quality bar, the back end needs to be blisteringly fast and potentially
+manage hundreds of users simultaneously on server boxes stored inside a company. The
+front end needs to be done in C# and WPF (Hooray for WPF going open source! Now my
+multi-platform support won’t rely on an open-sourced WPF clone). But the backend shouldn’t
+go anywhere near C# code. Good news though - thanks to doing the groundwork in
+Binderoo, I can write my D code and have C# bindings generated as part of the build
+process. I’ve covered interoperation extensively in prior D Conf talks, and won’t be covering
+it any further in this one.
+)
+
+$(P
+But maintenance. I look at C++, C#, Swift, Rust, and I’m like……. Yeah, we can do *so* much better
+to make a maintainable codebase performant. But it does require essentially making new idioms for
+myself to use.
+)
+
+$(P
+So let’s look at some that I’m actively using in my codebase.
+)
+
+$(P
+Also note that one of the justifications for doing this talk is that I don’t feel there’s enough
+people doing what I do with D code. Every time I hit a little snag in compile time code, it often
+turns in to hours of blind debugging trying to work out what the compiler is telling me - and
+often because the code is complicated under the hood, getting an isolated example for bug
+report purposes just doesn’t work even once you understand the problem. So I figure the
+more people writing code like this, the quicker things will get better for everyone. As such, I
+will also explain ground-up some of the concepts I use. Consider this a crash-course tutorial
+if you’re interested in design by introspection or compile time function evaluation.
+(Note that to drive this home, I often reuse sentences wholesale throughout the talk.
+Repetition without it feeling like repetition. Your teacher never made your homework this
+enjoyable!)
+)
+
+BIO =
+$(P Fourth time lucky? Ethan Watson is a bit of a vet when it comes to D Conf, having presented
+at the three previous events. An unhealthy fascination with squirrels aside, his talks are
+regarded for being information-rich and entertaining at the same time - thanks to combining
+16 years of experience as a programmer in the video games industry with his experience in
+amateur stand up comedy. He is currently in the process of setting up a middleware studio,
+and working at another Finnish game studio (Housemarque) at the same time.
+)

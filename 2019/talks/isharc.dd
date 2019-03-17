@@ -1,0 +1,36 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 09:00
+
+SPEAKER = Laeeth Isharc
+
+SPEAKER_SHORT = isharc
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/laeeth.jpg
+
+TALK_TITLE = TBA
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner - Intermediate
+
+ABSTRACT =
+$(P
+TBA
+)
+
+BIO =
+$(P TBA
+)

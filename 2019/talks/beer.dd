@@ -1,0 +1,43 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 10:00
+
+SPEAKER = Mathis Beer
+
+SPEAKER_SHORT = beer
+
+SPEAKER_URL =
+
+TALK_TITLE = D and Process-based Object Orientation at Funkwerk
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate, Enterprise
+
+ABSTRACT =
+$(P
+Functional programming and object-orientation are often seen as contradictory. By modelling processes with objects rather than entities, and keeping domain data largely immutable, we get the best of both worlds.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+Funkwerk application design started out as UML-heavy Java-like. Over the past years we’ve worked on transitioning to a model of immutable unowned domain data managed on the scale of processes, rather than entities, transformed between usecases by freestanding pure functions. Interfaces are primarily used as a tool for separation of concern and and domain process abstraction rather than describing actions that can be done with data.
+)
+
+BIO =
+$(P Mathis Beer has been working at Funkwerk for close to two years. In that time, he has witnessed and contributed to the transition of our design sentiment of OOP-heavy code made generic by a class hierarchy, to cleanly separated domains of concern connected by a plain-old-data semi-immutable domain model. This has various advantages.
+)
+
+$(P Mathis is also known as “FeepingCreature”. He is the author of $(LINK2 https://github.com/funkwerk/boilerplate, https://github.com/funkwerk/boilerplate.)
+)

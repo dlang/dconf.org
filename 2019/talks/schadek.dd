@@ -1,0 +1,45 @@
+Ddoc
+
+Macros:
+
+DATE = May 8
+
+TIME = 13:30
+
+SPEAKER = Robert Schadek
+
+SPEAKER_SHORT = schadek
+
+SPEAKER_URL =
+
+TALK_TITLE = All Spreadsheets Must Die
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+The presentation will make the case why spreadsheets are D's biggest competition on its way to world domination and how this battle can be won.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+Languages like C++, Rust or Go seem to be the natural competition for the D programming language. This presentation will show how this is only true for a selected field of industries, and how spreadsheets are the dominant programming language on
+the planet. After a brief and humorous look into the capabilities and idiosyncrasies of spreadsheet programming, using D as an alternative will be explored. Starting from there, techniques will be presented to combat spreadsheets on all fronts. These techniques will span a wide range of activities from data extraction, database interaction, use of existing code (in various languages), and finally data exchange via GraphQL*. All of these techniques will be examined under the scope of applicability, required effort, and impact.
+)
+
+$(P
+* GraphQL is a data query and manipulation language that is superseding more and more REST APIs.
+)
+
+BIO =
+$(P Robert Schadek received a Master degree in computer science at the University of Oldenburg. His master thesis was titled "DMCD A Distributed Multithreading Caching D Compiler" and introduced multi-threading among other optimizations to the compiler control flow. He was a computer science PhD student from 2012-2018 at the University of Oldenburg. His PhD research focuses on quorum systems in combination with graphs. Since 2018 he is happily using D in his day job working for Symmetry Investments.
+)

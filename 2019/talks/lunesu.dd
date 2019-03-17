@@ -1,0 +1,42 @@
+Ddoc
+
+Macros:
+
+DATE = May 8
+
+TIME = 15:30
+
+SPEAKER = Lionello Lunesu
+
+SPEAKER_SHORT = lunesu
+
+SPEAKER_URL =
+
+TALK_TITLE = Packaging Your D App
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+LEVEL = Beginner - Intermediate
+
+ABSTRACT =
+$(P
+You’ve developed your app in D, now how to get it into people’s hands? In this talk I will cover several packaging methods for your CLI or web app.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+One of the harder problems is how to manage dependencies, not just during development in a team where people have different operating systems, but also during deployment in the cloud or customer's environment. DUB is a great package manager for D, but does little to help you build the final deployment package. In the past I’ve created DEB and RPM packages for my D apps, but more recently created Docker containers and/or NIX package. The latter is great for managing dependencies and creating a platform agnostic package and can also be used to create minimal Docker containers.
+)
+
+BIO =
+$(P Lionello Lunesu is creator of Nounly and Co-Founder of Enuma Technologies, a hardware/software consultancy company in Hong Kong, building solutions for enterprise customers. Nounly started as a weekend project, but turned into a web app people started to rely on. To meet expectations, Nounly was ported to Vibe.D and is now hosted as an auto-scaling web service.
+)

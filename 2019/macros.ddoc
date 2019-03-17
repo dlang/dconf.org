@@ -31,7 +31,7 @@ $(T title,, $(PAGE_TITLE))
 
 LOGO =
 $(DIV class="logo",
-  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf_logo_2019.jpg" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London" height="116" border="0" />)
+  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London" height="116" border="0" />)
 )
 
 NO_LINK_YET=$(DIV class="nolinkyet", $0)

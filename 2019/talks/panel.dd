@@ -1,0 +1,48 @@
+Ddoc
+
+Macros:
+
+DATE = May 8
+
+TIME = 16:30
+
+SPEAKER = Andrei Alexandrescu, Walter Bright
+
+SPEAKER_SHORT = panel
+
+SPEAKER_URL =
+
+PANEL_SPEAKER_IMG =
+<table class="image">
+<caption align="bottom"><b><a href="$3">$2</a></b></caption>
+<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
+</table>
+
+SPEAKER_IMG =
+$(PANEL_SPEAKER_IMG $(BASE)/../2018/images/erdani.jpg, Andrei Alexandrescu, http://erdani.com)
+$(PANEL_SPEAKER_IMG $(BASE)/../2018/images/bright.jpg, Walter Bright, http://walterbright.com)
+
+TALK_TITLE = Ask us Anything!
+
+TYPE = $(B Panel)
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+Ready your pitchforks and rotten fruit! Prepare your rose petals and candy! But most of all, sort your queries! This is your chance to raise your hand and ask D's maintainers directly to fill you in on the things about D and the ecosystem that matter to you most. It's been a while since Walter and Andrei faced the unrestrained, unpredictable, and intelligent grilling the D community loves to bring them. Remind them how much fun it is!
+)
+
+BIO =
+$(P $(B Andrei Alexandrescu) coined the colloquial term "modern C++" (adapted from his award-winning book Modern C++ Design), used today to describe a collection of important C++ styles and idioms. He is also the coauthor (with Herb Sutter) of C++ Coding Standards and the author of The D Programming Language book. With Walter Bright, Andrei co-designed many important features of D and authored a large part of D's standard library. His research on Machine Learning and Natural Language Processing completes a broad spectrum of expertise. Andrei holds a Ph.D. in Computer Science from the University of Washington and a B.Sc. in Electrical Engineering from University "Politehnica" Bucharest. He works with the D Language Foundation.
+)
+
+$(P $(B Walter Bright) is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He's an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.)

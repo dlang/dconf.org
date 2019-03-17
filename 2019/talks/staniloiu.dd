@@ -1,0 +1,72 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 14:30
+
+SPEAKER = Eduard Staniloiu
+
+SPEAKER_SHORT = staniloiu
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/../2018/images/staniloiu.jpg
+
+TALK_TITLE = Rethinking the Default Class Hierarchy: an Object’s Tale
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner - Intermediate
+
+DURATION = 25 minutes
+
+ABSTRACT =
+$(P
+Every class defined in the D language has Object as the root ancestor. Object defines four
+methods: toString, toHash, opCmp and opEquals; at a fist glance, their presence might not
+strike you with much, but they are doing more harm than good. Their signatures predate the
+introduction of the @nogc, nothrow, pure, and @safe function attributes, and also of the const,
+immutable, and shared type qualifiers. As a consequence, these methods make it difficult to use
+Object with qualifiers or in code with properties such as @nogc, pure, or @safe. We propose
+the introduction of a new class, ProtoObject, as the root class and ancestor of Object.
+ProtoObject defines no method and requires the user to implement the desired behaviour
+through interfaces: this approach enables the user to opt-in for the behaviour that makes sense
+for his class and the design is flexible enough to allow future attributes and language
+improvements to be used without breaking code.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+We start by having a look at the current design and discuss the shortcommings of Object. There
+debate two main issues:
+    $(T ul,,
+        $(LI The user has no way of opting out of one of the four methods; Ex. there are classes for which opCmp doesn't make sense)
+        $(LI The signatures predate function attributes and qualifiers and this makes it difficult, if not impossible, to work with object in attributed code. Since we, sadly, can't predict the future and know if and what attributes and qualifiers will be available in the language, this is yet another argument to have a ProtoObject with no methods.)
+    )
+)
+
+$(P
+We will discuss how existing code and new code will interact with ProtoObject in this brave new world.
+)
+
+BIO =
+$(P Eduard is a PhD student and Teaching Assistant at University "Politehnica" of Bucharest. He is
+a hard working student who enjoys ​to get his hands dirty
+)
+
+$(P He likes learning new technologies and strengthening his current knowledge. He is passionate about computer science,
+programming languages, coffee and doing nothing. His previous experience includes distributed
+systems and parallel programming, operating systems, basic kernel development, open-source
+software and basic Android programming. He is a Linux fan, a command line addict and a vim
+enthusiast. He hopes that through his work he will be able to help and improve the D language,
+which he is becoming so fond of.
+)

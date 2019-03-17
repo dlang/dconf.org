@@ -1,0 +1,42 @@
+Ddoc
+
+Macros:
+
+DATE = May 11
+
+TIME = 09:00
+
+SPEAKER = Everybody
+
+SPEAKER_SHORT = agm
+
+SPEAKER_URL =
+
+SPEAKER_PIC = $(BASE)/images/dman.png
+
+TALK_TITLE = Annual General Meeting
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+DURATION = 4 hours
+
+TYPE = $(B AGM)
+
+ABSTRACT =
+$(P
+The AGM provides an opportunity to participate in the determination of the Foundation's vision, provides a formal setting to discuss and resolve longstanding issues and take advantage of face-to-face communication to accelerate organizational processes. Topics up for discussion include: DIPs; Pull requests; Internal implementation issues; General issues and topics of interest; Infrastructure, libraries and progress reports; bug squashing prioritization, and longer-term goals and vision for the DLF. The proceeds of the discussions will help focus and set the stage for the Hackathon.
+)
+
+$(P
+This is the first AGM we've hosted at DConf. It was proposed by Nicholas Wilson and is expected to last an-hour-and-a-half, but it could go longer. The morning session of the Hackathon will begin immediately following the AGM.
+)
+
+SPEAKER_BIO =   <!-- -->

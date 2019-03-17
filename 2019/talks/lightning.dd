@@ -1,0 +1,37 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 16:30
+
+SPEAKER = Multiple Speakers
+
+SPEAKER_SHORT = lightning
+
+SPEAKER_URL =
+
+SPEAKER_PIC =
+
+TALK_TITLE = Lightning Talks
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 60 minutes
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+Got a D project or idea you want the world to know about? Can you tell the world about it in 5 minutes? Here's your chance! Send an email to $(LINK2 mailto:social@dlang.org, social@dlang.org) $(B before) the conference, or let us know before May 9 $(B at) the conference, and if there's room we'll squeeze you in.
+)
+
+BIO =
+$(P $(I Multiple Speakers))

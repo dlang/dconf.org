@@ -1,7 +1,26 @@
 Ddoc
 
-  $(bright_BLURB)
   $(alexandrescu_BLURB)
+  $(bright_BLURB)
+  $(isharc_BLURB)
+  $(beer_BLURB)
+  $(cehreli_BLURB)
+  $(colvin_BLURB)
+  $(galla_BLURB)
+  $(lunesu_BLURB)
+  $(marques_BLURB)
+  $(militaru_BLURB)
+  $(mueller_BLURB)
+  $(nacke_BLURB)
+  $(neves_BLURB)
+  $(nitu_BLURB)
+  $(piolat_BLURB)
+  $(schadek_BLURB)
+  $(schveighoffer_BLURB)
+  $(staniloiu_BLURB)
+  $(veelo_BLURB)
+  $(watson_BLURB)
+  $(wilzbach_BLURB)
 
 Macros:
 

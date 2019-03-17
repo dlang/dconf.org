@@ -1,0 +1,59 @@
+Ddoc
+
+Macros:
+
+DATE = May 8
+
+TIME = 16:00
+
+SPEAKER = Sebastian Wilzbach
+
+SPEAKER_SHORT = wilzbach
+
+SPEAKER_URL =
+
+TALK_TITLE = How to Become a D Contributor
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+DURATION = 25 minutes
+
+LEVEL = Beginner - Intermediate
+
+ABSTRACT =
+$(P
+While there are many people actively contributing to the D Programming Language, there are still more than 7 billion people out there who aren’t. This talk will try to explain some of the hurdles typical beginners run into and show them inside the door.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+High barrier to enter, finding good issues to get started, and a confusing structure are among the most common reason people cited in the State of D 2018 survey which prevented them from contributing to D.
+)
+
+$(P
+This talk will explain every step on how to become a contributor and core team member. Among others, it will answer these questions:
+    $(T ul,,
+        $(LI How to find things to help on?)
+        $(LI How can I fix this bug XZY (with actual examples from dmd,)
+    druntime and phobos?)
+        $(LI How is a good PR supposed to look like?)
+        $(LI What all these CIs are doing and why are they red?)
+        $(LI Why is no one reviewing my PR?)
+        $(LI What is this suspicious dlang-bot and how can he help me?)
+        $(LI Who got merge rights and how could I get them?)
+        $(LI How do I follow-up on a PR?)
+        $(LI What’s the best thing I can do to help D?)
+    )
+)
+
+BIO =
+$(P Sebastian has contributed to D’s core repositories with more than 2.000 pull requests and while he secretly hates D, he still thinks it's by far the least ugly language. Among others, he is the
+guy behind run.dlang.io, D’s Functional Garden, the DTour, the D  documentation archives and those mysterious pull requests to your project. Currently, he is helping to organize D’s 2019 GSoC as one of organization admins for the D programming language.
+)

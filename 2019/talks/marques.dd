@@ -1,0 +1,54 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 11:00
+
+SPEAKER = Luís Marques
+
+SPEAKER_SHORT = marques
+
+SPEAKER_URL = http://www.luismarques.eu/
+
+SPEAKER_PIC = $(BASE)/../2018/images/marques.jpg
+
+TALK_TITLE = Compile-Time Types
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Beginner
+
+ABSTRACT =
+$(P
+This talk explores how D's compile-time features could be made even more approachable and regular. Currently, each compile-time feature has its own syntax, implementing an approximate equivalent of a corresponding run-time feature. This duplication and imperfect mapping between the two introduces complexity and irregularities into the language. The talk discusses how these issues could be addressed by distinguishing between compile-time and run-time facilities at the level of the type system, instead of the language grammar.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+One of the ways in which D improves upon C++ is by providing powerful, yet sensible, facilities for compile-time computation, conditional compilation and metaprogramming. Several D features contribute to make these compile-time activities more approachable and more similar to regular programming. Yet, despite D already comparing favorably with other languages, using compile-time features still requires additional expertise and often presents stumbling blocks and inconveniences.
+)
+
+$(P
+D distinguishes between run-time and compile-time facilities by using different syntactical constructs for both. For instance, compile-time value declarations can be distinguished from normal ones by the use of the "enum" keyword. Generic functions can be recognized by the use of two sets of parameters, or by the employment of a template declaration. A conditional becomes a compile-time decision when the "static" keyword is prepended to the regular "if statement". The list goes on.
+)
+
+$(P
+These differences introduce into the language complexity and irregularities that can create problems. They make the language harder to learn and master; they create corner cases and unexpected interactions; and they make it harder to transition code between the run-time and the compile-time realms, and freely combine from both. For example, if you have a call to a function such as "writefln" you cannot automatically take advantage of compile-time knowledge of the arguments. Instead, the user must change the call syntax according to the circumstances, which becomes even more problematic in generic code.
+)
+
+$(P
+This talk makes the case for introducing a new type qualifier, to denote the notion of a compile-time value, and discusses how doing so could address many of these issues.
+)
+
+BIO =
+$(P Luís currently works at lowRISC, a not-for-profit organization that creates open-source hardware and associated tools. In particular, Luís has been working on improving the RISC-V backend of the LLVM compiler infrastructure. He is a long-time D user. More recently he has been experimenting with D language extensions, such as for hardware design.
+)

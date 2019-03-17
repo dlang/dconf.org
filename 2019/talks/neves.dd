@@ -1,0 +1,54 @@
+Ddoc
+
+Macros:
+
+DATE = May 9
+
+TIME = 13:30
+
+SPEAKER = Átila Neves
+
+SPEAKER_SHORT = neves
+
+SPEAKER_URL =
+
+TALK_TITLE = Frictionless D adoption for the masses.
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = All
+
+ABSTRACT =
+$(P
+The talk will mention psychological aspects of programming language adoption, and how C++ "conquered the world" by removing barriers to entry for C programmers. It will suggest a way for D to copy C++'s success in this area.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+The talk will cover anecdotes from the speaker's experience with regards to getting software teams to adopt, or at least consider adopting, D. It will mention that the speaker himself once chose C++ over D at work, why his team efforts ultimately failed, and the steps he believes are needed to decrease the friction of adoption so that it comes naturally.
+)
+
+$(P
+The talk will spend some time on C++'s success, specifically how it made the transition from C codebases so easy that its ubiquity will quite likely last at least a few decades more. It is the speaker's belief that C++'s killer feature is the ability to #include C headers with at most wrapping the preprocessor directive in an `extern "C" {}` block, and the talk will argue that the only way to emulate that success is to "steal" said killer feature. That is, to make it possible to write:
+<pre>#include "foo.h"</pre>
+And have that work as simply and easily as it does in C++, with the exact same semantics.
+)
+
+$(P
+The talk will conclude with a case study of an implementation of said feature that doesn't require compiler modifications or a forked compiler, and suggest that some of the work demonstrated be included in future versions of dmd.
+)
+
+$(P
+It will also mention existing alternatives in the D ecosystem to interface with C and C++, and how they're not enough to make adoption as easy as it can be.
+)
+
+BIO =
+$(P Átila Neves has a PhD in Particle Physics for research done at CERN. Most of the time spent there required programming in C++, with a 2-year stint as a Perl programmer in the IT department's security team. He also worked for Cisco for almost 7 years, developing networking software in C and C++ and leading his teams in the areas of software quality and testing. He now works as a D consultant/programmer for Symmetry Investments. He spends his spare time yelling at the screen in frustration while waiting for computers to compile his code.
+)

@@ -8,8 +8,32 @@ HTML_NAMES = $(addsuffix .html, \
 	contact index registration schedule/index speakers/index thankyou venue)
 
 TALK_BASENAMES = \
+	agm \
+	alexandrescu \
+	beer \
+	bright \
+	cehreli \
+	colvin \
+	galla \
 	hackathon1 \
 	hackathon2 \
+	isharc \
+	lightning \
+	lunesu \
+	marques \
+	militaru \
+	mueller \
+	nacke \
+	neves \
+	nitu \
+	panel \
+	piolat \
+	schadek \
+	schveighoffer \
+	staniloiu \
+	veelo \
+	watson \
+	wilzbach \
 
 $(addprefix $(OUT)/, includes/%): includes/%
 	cp $^ $@

@@ -1,0 +1,56 @@
+Ddoc
+
+Macros:
+
+DATE = May 10
+
+TIME = 10:00
+
+SPEAKER = Bastiaan Veelo
+
+SPEAKER_SHORT = veelo
+
+SPEAKER_URL = https://www.linkedin.com/in/bastiaan-veelo-a1511472/
+
+SPEAKER_PIC = $(BASE)/../2017/images/veelo.jpg
+
+TALK_TITLE = Transcompilation into D
+
+SLIDES = $(SLIDES_NO)
+
+VIDEO_URL_Y =
+
+VIDEO_URL_A =
+
+VIDEO = $(VIDEO_NO)
+
+LEVEL = Intermediate
+
+ABSTRACT =
+$(P
+SARC is an engineering company listed as $(LINK2 https://dlang.org/orgs-using-d.html,  one of the organisations using D). An important pillar of its business is the development of software for the maritime industry. Currently, its main D-related focus is to translate all of its 500KLOC of Extended Pascal into D using an in-house developed transcompiler. The transcompiler is purely developed using D tools, which was the subject of my $(LINK2 https://youtu.be/t5y9dVMdI7I, DConf 2017 talk). SARC's motivation for selecting D as its future language was presented $(LINK2 https://dlang.org/blog/2018/06/20/how-an-engineering-company-chose-to-migrate-to-d/, on the D blog in 2018). This talk will present the proceedings of this particular transcompilation effort, discussing challenges and strategies, and the D language features that help to make the project a success.
+)
+
+$(P $(B $(U Description)))
+
+$(P
+Subjects that I plan to cover:
+    $(T ul,,
+        $(LI Review of earlier developments (Initial Pegged parser, working on Pegged itself to solve left-recursion etc., sample manual translations into multiple languages, language evaluation).)
+        $(LI Dealing with language differences (case [in]sensitivity, array and string indices, mutable strings, bit sets, schema types, memory management).)
+        $(LI Keeping backwards file IO compatibility in the end products.)
+        $(LI Finding a balance between literal translation (reimplementing the language in D) and migration towards standard D (string type?))
+        $(LI Transcompilation project on live code: I am busy implementing the transcompilation while colleagues continue developing the software further.)
+        $(LI Finding a balance between perfecting automation and keeping the transcompiler simple at the price of requiring manual tweaking.)
+        $(LI No symbol table -> no import resolution, no scope, no stack, no type conversion, no semantics.)
+        $(LI Conditioning the code for transcompilation case.)
+        $(LI Building a tool that does the right thing most of the time based on heurtics, insert CT introspection checks that it did the right thing (adding extra braces where necessary), do manual fix ups in the original source where necessary, finally retranslate without the CT checks.)
+        $(LI Where D could improve (type conversion (initial value types), cycles of module constructors, dub preGenerateCommands, Pegged improvements))
+        $(LI Summary of valuable D language features)
+        $(LI Matryoshka doll analogy. There's another hill after reaching each new top. There's progress but you never know when you'll be done until you're done.)
+    )
+)
+
+BIO =
+$(P Bastiaan Veelo is the lead developer of a specialised program for the computer aided geometric design of ship hulls called Fairway, for the company SARC in the Netherlands. He holds a B.Eng. in naval architecture from the Haarlem Polytechnic, an M.Sc. in marine technology and a Ph.D. in mechanical engineering from NTNU, the Norwegian University of Science and Technology. He has been following the development of the D programming language from its early days, but only started using it actively since 2015 when he saw a chance to change his own future. Now he is well on his way in his master plan to convert his employer's business to a D shop.
+)
