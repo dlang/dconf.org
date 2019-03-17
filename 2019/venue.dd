@@ -1,5 +1,4 @@
-Ddoc
-$(T h1,, Venue)
+Ddoc$(T h1,, Venue)
 $(P
 $(LINK2 https://99cityroad.com/, 99 City Road Conference Centre) is located in the heart of the area known as East London Tech City, near the Old Street tube and rail stations. Operated by $(LINK2, https://www.inmarsat.com, Inmarsat$(COMMA) a global satellite communications firm) headquartered in the same location, the venue is equipped to meet the needs of technology-oriented conferences. With its easy access to transportation, its proximity to popular tourist attractions, and the variety of nearby hotels, it's an ideal location for DConf 2019.
 )

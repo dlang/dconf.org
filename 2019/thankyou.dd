@@ -1,4 +1,3 @@
-Ddoc
-$(T h1,, Registration)
+Ddoc$(T h1,, Registration)
 $(P Thanks! Your request was processed successfully. We look forward to seeing you in London!)
 $(P $(LINK2 /, Return to the DConf homepage.))

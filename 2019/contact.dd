@@ -1,6 +1,4 @@
-Ddoc
-
-$(T h1,, Contact Us)
+Ddoc$(T h1,, Contact Us)
 
 $(P $(LINK2 mailto:foundation@dlang.org, foundation@dlang.org))
 
