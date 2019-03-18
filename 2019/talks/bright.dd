@@ -30,7 +30,7 @@ LEVEL = All
 
 ABSTRACT =
 $(P
-Non-trivial programs are typically heavily dependent on allocating memory. The strategy chosen can have enormous influence over the utility of the resulting program. D supports a number of techniques for allocating meory. Even within a program, multiple techniques can be used. I'll cover the main strategies, along with their strengths and weaknesses. Coverage includes garbage collection, C style allocation, stack allocation, RAII, scope guard, hybrid stack/malloc, and no-allocation allocation.
+Non-trivial programs are typically heavily dependent on allocating memory. The strategy chosen can have enormous influence over the utility of the resulting program. D supports a number of techniques for allocating memory. Even within a program, multiple techniques can be used. I'll cover the main strategies, along with their strengths and weaknesses. Coverage includes garbage collection, C style allocation, stack allocation, RAII, scope guard, hybrid stack/malloc, and no-allocation allocation.
 )
 
 BIO =

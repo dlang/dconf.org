@@ -36,7 +36,7 @@ You’ve developed your app in D, now how to get it into people’s hands? In th
 $(P $(B $(U Description)))
 
 $(P
-One of the harder problems is how to manage dependencies, not just during development in a team where people have different operating systems, but also during deployment in the cloud or customer's environment. DUB is a great package manager for D, but does little to help you build the final deployment package. In the past I’ve created DEB and RPM packages for my D apps, but more recently created Docker containers and/or NIX package. The latter is great for managing dependencies and creating a platform agnostic package and can also be used to create minimal Docker containers.
+One of the harder problems is how to manage dependencies, not just during development in a team where people have different operating systems, but also during deployment in the cloud or customer's environment. DUB is a great package manager for D, but does little to help you build the final deployment package. In the past I’ve created DEB and RPM packages for my D apps, but more recently I'm using Docker containers and/or NIX packages. The latter is great for managing dependencies and creating a platform agnostic package and can also be used to create minimal Docker containers.
 )
 
 BIO =
