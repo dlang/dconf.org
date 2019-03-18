@@ -1,5 +1,4 @@
 Ddoc$(T h1,,Schedule)
-
 $(T table, id="schedule" class="red",
   $(T TR,,
       $(T th, colspan="3", Day 1: Wednesday May 8, 2019)
