@@ -12,6 +12,8 @@ SPEAKER_SHORT = cehreli
 
 SPEAKER_URL =
 
+SPEAKER_PIC = $(BASE)/../2016/images/cehreli.jpg
+
 TALK_TITLE = Using D for ROS Bag File Manipulation for Autonomous Driving
 
 SLIDES = $(SLIDES_NO)
