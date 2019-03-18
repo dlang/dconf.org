@@ -1,5 +1,5 @@
-Ddoc$(alexandrescu_BLURB)
-  $(bright_BLURB)
+Ddoc$(bright_BLURB)
+  $(alexandrescu_BLURB)
   $(isharc_BLURB)
   $(beer_BLURB)
   $(cehreli_BLURB)
