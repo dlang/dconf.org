@@ -12,6 +12,8 @@ SPEAKER_SHORT = lunesu
 
 SPEAKER_URL =
 
+SPEAKER_PIC = $(BASE)/images/lunesu.jpg
+
 TALK_TITLE = Packaging Your D App
 
 SLIDES = $(SLIDES_NO)
