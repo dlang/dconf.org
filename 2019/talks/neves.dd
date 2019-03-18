@@ -12,6 +12,8 @@ SPEAKER_SHORT = neves
 
 SPEAKER_URL =
 
+SPEAKER_PIC = $(BASE)/images/neves.png
+
 TALK_TITLE = Frictionless D adoption for the masses.
 
 SLIDES = $(SLIDES_NO)
