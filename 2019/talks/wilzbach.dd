@@ -10,7 +10,9 @@ SPEAKER = Sebastian Wilzbach
 
 SPEAKER_SHORT = wilzbach
 
-SPEAKER_URL =
+SPEAKER_URL = https://seb.wilzba.ch
+
+SPEAKER_PIC = $(BASE)/images/wilzbach.jpg
 
 TALK_TITLE = How to Become a D Contributor
 
