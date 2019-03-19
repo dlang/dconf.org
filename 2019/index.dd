@@ -60,7 +60,7 @@ $(T table, class="tablediv",
 
 Macros:
 KEYNOTE_SPEAKER_IMG =
-  $(DIV class="rowitem",
+  $(DIV class="rowitem centered",
     <img src="$1" height="170" alt="$2">
     $(BR)$(NLINK $(BASE)/talks/$3.html, $2)
   )

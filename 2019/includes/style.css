@@ -136,10 +136,6 @@ body {
 	margin: 2em 0 0 2em;
 }
 
-.rowwrap {
-	text-align: left;
-}
-
 .map {
 	display: flex;
 	justify-content: center;
