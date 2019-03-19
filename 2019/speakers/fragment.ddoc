@@ -1,10 +1,12 @@
 DDOC =
 $(DEFINE $(TITLE)_BLURB,
   $(T a, href="$(SPEAKER_URL)", $(T h1,, $(SPEAKER)))
-  $(T table, class="tablediv",
-    $(T tr,,
-      $(T td,, <img class="stroke" src="$(SPEAKER_PIC)"  height="170" alt="$(SPEAKER)" />)
-      $(T td,, $(BIO))
+  $(DIV class="row",
+    $(DIV class="rowitem",
+      <img src="$(SPEAKER_PIC)" height="170" alt="$(SPEAKER)">
+    )
+    $(DIV class="rowitem",
+      $(BIO)
     )
   )
 )
