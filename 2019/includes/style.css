@@ -53,7 +53,6 @@ body {
 }
 
 #sidebar {
-	background-color: #ffffff;
 	text-align: center;
 	line-height: 2em;
 }
@@ -63,6 +62,10 @@ body {
 	font-style: italic;
 	text-align: center;
 	padding: 0 0 2em 0;
+}
+
+#container {
+	background-color: #bbdefb;
 }
 
 #twitter {
@@ -141,6 +144,11 @@ body {
 	justify-content: center;
 }
 
+.wrapper {
+	background-color: #ffffff;
+	padding: 1em;
+}
+
 .tablediv {
 	background-color: #ffffff;
 }
@@ -166,7 +174,6 @@ body {
 main {
 	display: block;
 	padding: 0.5em;
-	background-color: #bbdefb;
 }
 
 h1, h2, h3 {
@@ -242,15 +249,14 @@ img {
     }
 
 	#sidebar {
-		margin: 0;
-		border-right: 1px solid #000066;
-		border-bottom: 1px solid #000066;
+		margin: 1em;
 		min-width: 35%;
 	}
 
 	#container {
 		display: flex;
 		justify-content: center;
+		border: 1px solid #000066;
 	}
 
 	#twitter {
@@ -271,8 +277,6 @@ img {
 
     main {
 		padding: 1em 2em;
-		border-left: 1px solid #000066;
-		border-bottom: 1px solid #000066;
 		width: 100%;
     }
 }
