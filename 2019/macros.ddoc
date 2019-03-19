@@ -20,7 +20,7 @@ PAGE_TITLE = The D Programming Language Conference 2019
 
 DEFINE = $1 = $+
 
-POUND = £
+POUND = &#163;
 
 HEADER = <!doctype html>
 <html lang="en">
