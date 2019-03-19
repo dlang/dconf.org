@@ -2,7 +2,9 @@ Ddoc$(T h1,, Venue)
 $(P
 $(LINK2 https://99cityroad.com/, 99 City Road Conference Centre) is located in the heart of the area known as East London Tech City, near the Old Street tube and rail stations. Operated by $(LINK2, https://www.inmarsat.com, Inmarsat$(COMMA) a global satellite communications firm) headquartered in the same location, the venue is equipped to meet the needs of technology-oriented conferences. With its easy access to transportation, its proximity to popular tourist attractions, and the variety of nearby hotels, it's an ideal location for DConf 2019.
 )
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d781.8878161812322!2d-0.08742387464825338!3d51.52534339304672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca58a4a343d%3A0x82e3222c0244bf68!2s99+City+Rd%2C+London+EC1Y+1BJ%2C+UK!5e0!3m2!1sen!2skr!4v1545461540491" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+$(DIV class="map",
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d781.8878161812322!2d-0.08742387464825338!3d51.52534339304672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca58a4a343d%3A0x82e3222c0244bf68!2s99+City+Rd%2C+London+EC1Y+1BJ%2C+UK!5e0!3m2!1sen!2skr!4v1545461540491" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+)
 $(P
 Inmarsat has relationships with several local hotels allowing discounts for conference attendees. Upon registration, every DConf attendee will receive information on how to take advantage of these offers. Anyone who submits a talk and would like to wait until after the author notification date to register, please send an email to $(LINK2 mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;, &#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;) for details.
 )
@@ -19,4 +21,6 @@ Other budget hotels can be found within a longer walking distance or a short tub
 $(T h1,, Nightly Gathering Spot)
 $(P Just around the corner from the venue is the $(LINK2 https://www.theprincearthurpub.co.uk/, Prince Arthur Pub). This is our official gathering spot in the evenings. We've booked a room for May 8, 9, and 10. Part of the fun of DConf is talking face-to-face with the other attendees. This backstreet pub is a cozy spot to do so. Drop by, enjoy a couple of rounds on us, and have some fun!
 )
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.2198676874054!2d-0.08741388401642788!3d51.52752701705202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca5a64f9c67%3A0x52393f526b8bdc58!2sPrince+Arthur!5e0!3m2!1sen!2skr!4v1551633825890" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+$(DIV class="map",
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.2198676874054!2d-0.08741388401642788!3d51.52752701705202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca5a64f9c67%3A0x52393f526b8bdc58!2sPrince+Arthur!5e0!3m2!1sen!2skr!4v1551633825890" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+)

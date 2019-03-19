@@ -3,7 +3,7 @@ $(P
 $(B Early-bird registration $(LINK2 registration.html, has been extended to March 24)!)
 )
 $(P
-The D Language Foundation is pleased to announce the international conference and hackathon DConf 2019 in London, United Kingdom, May 8 - 11 2019.
+The D Language Foundation is pleased to announce the international conference and hackathon DConf 2019 in London, United Kingdom, $(HILITE May 8 - 11 2019).
 )
 $(P
 DConf is the largest gathering of D programming language enthusiasts on the planet, a face-to-face event where programmers talk shop, share and learn about their craft, find jobs, work to improve the D ecosystem, and sample the local selection of brews. Three days of presentations are followed by a fourth day of collaborative hacking on D projects, each day capped off by spirited discussion well into the night.
@@ -21,11 +21,7 @@ $(T h2,,Keynote Speakers)
 $(P
 This year, we're thrilled to have Laeeth Isharc of Symmetry Investments as our invited keynote speaker. Walter Bright and Andrei Alexandrescu will be back to regale the crowd with their bookend keynotes as usual.
 )
-$(P
-  $(DIV class="inline vmid",
-    $(KEYNOTE_SPEAKERS)
-   )
-)
+$(KEYNOTE_SPEAKERS)
 $(T h2,,Call for Submissions)
 $(P
 The submission period has ended! All of the talks have been selected and the schedule $(LINK2 $(BASE)/schedule/, has been published). We've got another great line up this year. We want to thank everyone who made a submission. If you didn't get in this year, please try again next year!
@@ -35,41 +31,44 @@ $(P
 $(LINK2 $(BASE)/talks/hackathon1.html, The DConf Hackathon returns) on Saturday, May 11th. The Hackathon is an unstructured, free-wheeling, full day of solving D issues, advancing D projects, teaching, learning, and communing with like-minded souls. The previous edition of the Hackathon was open to the general public. We are eager to do so this time as well, but need to iron out some details first. Watch this space!
 )
 $(T h2,,Important Dates)
-$(T table,,
+$(T table, class="tablediv",
     $(T tr,,
-      $(T td,, Submission deadline)
-      $(T td,, $(B March 10, 2019, 24:00 AOE))
+      $(T td,, $(B Submission deadline))
+      $(T td,, March 10, 2019, 24:00 AOE)
     )
     $(T tr,,
-      $(T td,, Author notification)
-      $(T td,, $(B March 17, 2019, 24:00 AOE))
+      $(T td,, $(B Author notification))
+      $(T td,, March 17, 2019, 24:00 AOE)
     )
     $(T tr,,
-      $(T td,, Early-bird registration deadline)
-      $(T td,, $(T font, color=blue, $(B March 24, 2019, 24:00 AOE)))
+      $(T td,, $(B Early-bird registration deadline))
+      $(T td,, $(HILITE March 24$(COMMA) 2019$(COMMA) 24:00 AOE))
     )
     $(T tr,,
-      $(T td,, Registration deadline)
-      $(T td,, $(B TBD))
+      $(T td,, $(B Registration deadline))
+      $(T td,, TBD)
     )
     $(T tr,,
-      $(T td,, Conference)
-      $(T td,, $(B Wednesday May 8&ndash;Friday May 10, 2019))
+      $(T td,, $(B Conference))
+      $(T td,, Wednesday May 8&ndash;Friday May 10, 2019)
     )
     $(T tr,,
-      $(T td,, Hackathon)
-      $(T td,, $(B Saturday May 11, 2019))
+      $(T td,, $(B Hackathon))
+      $(T td,, Saturday May 11, 2019)
     )
 )
 
 Macros:
 KEYNOTE_SPEAKER_IMG =
-<table class="image">
-<caption align="bottom"><b>$2</b></caption>
-<tr><td><img class="stroke" src="$1" height="170" alt="$2" /></td></tr>
-</table>
+  $(DIV class="rowitem",
+    <img src="$1" height="170" alt="$2">
+    $(BR)$(NLINK $(BASE)/talks/$3.html, $2)
+  )
+
 
 KEYNOTE_SPEAKERS=
-$(KEYNOTE_SPEAKER_IMG ../2018/images/bright.jpg, Walter Bright<br />&nbsp;, )
-$(KEYNOTE_SPEAKER_IMG ../2018/images/erdani.jpg, Andrei Alexandrescu, )
-$(KEYNOTE_SPEAKER_IMG ../2019/images/laeeth.jpg, Laeeth Isharc<br />&nbsp;, )
+  $(DIV class="row",
+    $(KEYNOTE_SPEAKER_IMG ../2018/images/bright.jpg, Walter Bright, bright)
+    $(KEYNOTE_SPEAKER_IMG ../2018/images/erdani.jpg, Andrei Alexandrescu, alexandrescu)
+    $(KEYNOTE_SPEAKER_IMG ../2019/images/laeeth.jpg, Laeeth Isharc, isharc)
+  )

@@ -1,64 +1,65 @@
-Ddoc$(T h1,,Schedule)
-$(T table, id="schedule" class="red",
-  $(T TR,,
-      $(T th, colspan="3", Day 1: Wednesday May 8, 2019)
+Ddoc$(DIV id="schedule",
+  $(T table, id="daily" class="red",
+    $(T TR,,
+        $(T th, colspan="3", Day 1: Wednesday May 8, 2019)
+    )
+    $(BREAKFAST1)
+    $(bright_ROW)
+    $(mueller_ROW)
+    $(nitu_ROW)
+    $(LUNCH)
+    $(schadek_ROW)
+    $(piolat_ROW)
+    $(lunesu_ROW)
+    $(wilzbach_ROW)
+    $(panel_ROW)
+    $(END_OF_DAY1)
   )
-  $(BREAKFAST1)
-  $(bright_ROW)
-  $(mueller_ROW)
-  $(nitu_ROW)
-  $(LUNCH)
-  $(schadek_ROW)
-  $(piolat_ROW)
-  $(lunesu_ROW)
-  $(wilzbach_ROW)
-  $(panel_ROW)
-  $(END_OF_DAY1)
-)
 
-$(T table, id="schedule" class="blue",
-  $(T TR,,
-    $(T th, colspan="3", Day 2: Thursday May 9, 2019)
+  $(T table, id="daily" class="blue",
+    $(T TR,,
+      $(T th, colspan="3", Day 2: Thursday May 9, 2019)
+    )
+    $(BREAKFAST)
+    $(isharc_ROW)
+    $(beer_ROW)
+    $(marques_ROW)
+    $(LUNCH)
+    $(neves_ROW)
+    $(staniloiu_ROW)
+    $(militaru_ROW)
+    $(galla_ROW)
+    $(lightning_ROW)
+    $(END_OF_DAY2)
   )
-  $(BREAKFAST)
-  $(isharc_ROW)
-  $(beer_ROW)
-  $(marques_ROW)
-  $(LUNCH)
-  $(neves_ROW)
-  $(staniloiu_ROW)
-  $(militaru_ROW)
-  $(galla_ROW)
-  $(lightning_ROW)
-  $(END_OF_DAY2)
-)
 
-$(T table, id="schedule" class="red",
-  $(T TR,,
-    $(T th, colspan="3", Day 3: Friday May 10, 2019)
+  $(T table, id="daily" class="red",
+    $(T TR,,
+      $(T th, colspan="3", Day 3: Friday May 10, 2019)
+    )
+    $(BREAKFAST)
+    $(alexandrescu_ROW)
+    $(veelo_ROW)
+    $(schveighoffer_ROW)
+    $(LUNCH)
+    $(watson_ROW)
+    $(colvin_ROW)
+    $(nacke_ROW)
+    $(cehreli_ROW)
+    $(END_OF_DAY3)
   )
-  $(BREAKFAST)
-  $(alexandrescu_ROW)
-  $(veelo_ROW)
-  $(schveighoffer_ROW)
-  $(LUNCH)
-  $(watson_ROW)
-  $(colvin_ROW)
-  $(nacke_ROW)
-  $(cehreli_ROW)
-  $(END_OF_DAY3)
-)
 
-$(T table, id="schedule" class="blue",
-  $(T TR,,
-    $(T th, colspan="3", Day 4: Saturday May 11, 2019)
+  $(T table, id="daily" class="blue",
+    $(T TR,,
+      $(T th, colspan="3", Day 4: Saturday May 11, 2019)
+    )
+    $(BREAKFAST)
+    $(agm_ROW)
+    $(hackathon1_ROW)
+    $(LUNCH)
+    $(hackathon2_ROW)
+    $(END_OF_DAY4)
   )
-  $(BREAKFAST)
-  $(agm_ROW)
-  $(hackathon1_ROW)
-  $(LUNCH)
-  $(hackathon2_ROW)
-  $(END_OF_DAY4)
 )
 
 Macros:
@@ -67,13 +68,13 @@ BASE = ..
 
 TR = $(T tr,, $0)
 
-BREAKFAST = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, Breakfast))
+BREAKFAST = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, $(B Breakfast)))
 
-BREAKFAST1 = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, Breakfast and Registration))
+BREAKFAST1 = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, $(B Breakfast and Registration)))
 
-LUNCH = $(T tr, class="break", $(T td,, 12:00)$(T td, colspan=2, Lunch &amp; Mingling))
+LUNCH = $(T tr, class="break", $(T td,, 12:00)$(T td, colspan=2, $(B Lunch &amp; Mingling)))
 
-END_OF_DAY1 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, End of Day 1))
-END_OF_DAY2 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, End of Day 2))
-END_OF_DAY3 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, End of Day 3))
-END_OF_DAY4 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, End of the Conference))
+END_OF_DAY1 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, $(B End of Day 1)))
+END_OF_DAY2 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, $(B End of Day 2)))
+END_OF_DAY3 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, $(B End of Day 3)))
+END_OF_DAY4 = $(T tr, class="break", $(T td,, 17:30)$(T td, colspan=2, $(B End of the Conference)))

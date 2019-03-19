@@ -20,26 +20,25 @@ PAGE_TITLE = The D Programming Language Conference 2019
 
 DEFINE = $1 = $+
 
-HEADER = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://w3.org/1999/xhtml" lang="en">
+HEADER = <!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css" />
 <link href="$(BASE)/images/favicon.ico" rel="shortcut icon" />
 $(T title,, $(PAGE_TITLE))
 </head>
 
-LOGO =
-$(DIV class="logo",
-  $(T a, href="$(BASE)/index.html", <img src="$(BASE)/images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London" height="116" border="0" />)
-)
+MASTHEAD =
+<header id="masthead" role="banner">
+<img src="$(BASE)/images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London">
+</header>
 
 NO_LINK_YET=$(DIV class="nolinkyet", $0)
 
 MENU =
-$(DIV class="menu_container",
-$(DIV class="menu row_after",
-  $(T nav,,
+$(T nav,id="sitenav" role=navigation,
     $(T ul,id="menu",
       $(LI $(LINK2 $(BASE)/index.html, Home))
       $(LI $(LINK2 $(BASE)/registration.html, Register))
@@ -54,50 +53,58 @@ $(DIV class="menu row_after",
       $(LI $(LINK2 $(BASE)/../2014, 2014))
       $(LI $(LINK2 $(BASE)/../2013, 2013))
     )
-  )
-)
 )
 
-SPONSORS =
-$(DIV class="page_right equal",
-  $(DIV class="divider_h", &nbsp;)
-  <hr />
-  $(DIV class="sponsors",
-    $(T span, class="sp", Partner/Host/Organizer)<br />
-      $(T table,, $(T tr,,
-      $(T td,, $(LINK2 http://symmetryinvestments.com/,
-      <img src="$(BASE)/images/symmetry-logo1.png" width="100%" alt="QA Systems" border="0" />)))
+SIDEBAR =
+$(T section,id="sidebar",
+  $(DIV id="sponsors",
+    $(P Partner/Host/Organizer)
+    $(P
+      $(LINK2 http://symmetryinvestments.com/,
+        <img src="$(BASE)/images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+      )
     )
   )
-  <hr />
-  $(DIV class="twitter",
-    <a class="twitter-timeline" data-height="420" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  $(DIV id="twitter",
+    <a class="twitter-timeline" data-height="1024" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   )
-  $(DIV class="hash",
+  $(DIV id="hash",
     <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   )
-  <hr />
+)
+
+FOOTER =
+$(T footer, id="sitefoot" role="contentinfo",
+  $(P &copy; $(YEAR) $(LINK2 https://dlang.org/foundation.html, The D Language Foundation) |
+    Generated with Ddoc
+  )
+)
+
+MAIN =
+$(T main, role="main",
+  $(BODY)
+)
+
+CONTAINER =
+$(DIV id="container",
+  $(MAIN)
+  $(SIDEBAR)
 )
 
 DDOC = $(HEADER)
 <body>
-$(LOGO)
-$(MENU)
-$(DIV id="container",
-  $(DIV class="page_left equal hyphenate", $(BODY))
-  $(COMMENT DIV class="divider_v equal", &nbsp;)
-  $(SPONSORS)
-)
-$(FOOTER)
+  $(MASTHEAD)
+  $(MENU)
+  $(CONTAINER)
+  $(FOOTER)
 </body>
 </html>
 
-FOOTER =
-$(DIV class="footer",
-    &copy; $(YEAR) $(LINK2 https://dlang.org/foundation.html, The D Language Foundation) |
-    Generated with Ddoc
-)
 
 WEB = $(LINK2 http://$1, $2)
+
+NLINK = <a class="name" href="$1">$2</a>
+
+HILITE = <span class="hilite">$1$+</span>
 
 DQUOTE = &ldquo;$1&rdquo;
