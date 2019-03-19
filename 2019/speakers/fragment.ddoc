@@ -1,6 +1,6 @@
 DDOC =
 $(DEFINE $(TITLE)_BLURB,
-  $(T a, href="$(SPEAKER_URL)", $(T h1,, $(SPEAKER)))
+  $(T a, class="name" href="$(SPEAKER_URL)", $(T h1,, $(SPEAKER)))
   $(DIV class="row",
     $(DIV class="rowitem",
       <img src="$(SPEAKER_PIC)" height="170" alt="$(SPEAKER)">
