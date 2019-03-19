@@ -1,6 +1,9 @@
 ifeq (,$(OUT))
 $(error you must define OUT)
 endif
+ifeq (,$(DMD))
+$(error you must define DMD)
+endif
 
 TMP = .tmp
 
