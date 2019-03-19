@@ -10,7 +10,6 @@ body {
 	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
 }
 
-
 #masthead {
 	text-align: center;
 	background-color: #ffffff;
@@ -64,10 +63,6 @@ body {
 	font-style: italic;
 	text-align: center;
 	padding: 0 0 2em 0;
-}
-
-#container {
-	margin: 0;
 }
 
 #twitter {
@@ -170,7 +165,6 @@ main {
 	display: block;
 	padding: 0.5em;
 	background-color: #bbdefb;
-	width: 100%;
 }
 
 h1, h2, h3 {
@@ -220,15 +214,15 @@ img {
 		display: flex;
 		justify-content: center;
 	}
-
-	.rowitem {
-		margin: 1em 2em 2em 0;
-	}
 }
 
 @media screen and (max-width: 1279px) {
 	#sitenav {
 		line-height: 2em;
+	}
+
+	h1 {
+		line-height: 1em;
 	}
 }
 
