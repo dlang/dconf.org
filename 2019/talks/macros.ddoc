@@ -30,39 +30,47 @@ CODE_SAMPLES =
 
 VIDEO_YES = $(T A, href="$(VIDEO_URL_Y)",Video)<br />
 
+MAIN =
+$(T main, role="main",
+  $(TALK_INFO)
+)
+
+CONTAINER =
+$(DIV id="container",
+  $(MAIN)
+  $(SIDEBAR)
+)
+
 DDOC =
 $(HEADER)
 <body>
-$(DIV id="container",
+  $(MASTHEAD)
   $(MENU)
-  $(DIV class="page_left equal hyphenate", $(TALK_INFO))
-  $(SPONSORS)
-)
-$(FOOTER)
+  $(CONTAINER)
+  $(FOOTER)
 </body>
 </html>
 
-SPEAKER_IMG = <img class="stroke" src="$(SPEAKER_PIC)" height="170" alt="$(NAME)" />
+SPEAKER_IMG = <img src="$(SPEAKER_PIC)" height="170" alt="$(NAME)">
 
 SPEAKER_BIO = $(P $(B $(U Speaker Bio:) ) $(BIO))
 
 TALK_INFO =
-  $(T h1, align=left, $(TALK_TITLE))
-  $(DIV class="inline vmid",
-    $(SPEAKER_IMG)
-    $(DIV, <p><b><a href="$(SPEAKER_URL)">$(SPEAKER)</a><br />
-      $(DATE) @ $(TIME)</b><br><br>$(I Duration:) $(DURATION)<br />
+  $(DIV class="wrapper",
+    $(T h1, align=left, $(TALK_TITLE))
+    $(P$(SPEAKER_IMG))
+
+    $(DIV, <p><b><a class="name" href="$(SPEAKER_URL)">$(SPEAKER)</a>$(BR)
+      $(DATE) @ $(TIME)</b><br><br>$(I Duration:) $(DURATION)$(BR)
       $(I Talk type:) $(TYPE)<br />
       $(I Level:) $(LEVEL)<br />
       $(CODE_SAMPLES)
       $(SLIDES)
       $(B $(VIDEO))
-      <!--a href="#">Powerpoint slides</a--></p>
     )
+      $(P $(B $(U Abstract:)&nbsp;)$(ABSTRACT))
+      $(SPEAKER_BIO)
   )
-  $(P $(B $(U Abstract:)&nbsp;)$(ABSTRACT))
-  <!--p>$(B $(U Notes:) ) $(NOTES)</p-->
-  $(SPEAKER_BIO)
 
 HACKATHON_ABSTRACT=
 $(P
