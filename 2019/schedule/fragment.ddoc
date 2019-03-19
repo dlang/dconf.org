@@ -8,10 +8,10 @@ $(DEFINE ROW,
   $(T tr, class="tooltip",
     $(T td,, $(TIME))
     $(T td,,
-      $(DIV style='vertical-align:middle',
-        <img src="$(SPEAKER_PIC)" height="30" alt="$(NAME)"  style="float:right" />
+      $(DIV class="tableimg",
+        <img src="$(SPEAKER_PIC)" height="30" alt="$(NAME)">
       )
-    $(LINK2 ../talks/$(TITLE).html, $(TALK_TITLE))<br />
+    $(LINK2 ../talks/$(TITLE).html, $(TALK_TITLE))$(BR)
       $(SPEAKER)
     )
     $(COMMENT td,,$(SLIDES)$(VIDEO))
