@@ -123,13 +123,21 @@ body {
 	background-color: #bbdefb;
 }
 
-.row {
+.centered {
 	text-align: center;
+}
+
+.row {
 	background-color: white;
+	padding-right: 1em;
 }
 
 .rowitem {
 	margin: 2em 0 0 2em;
+}
+
+.rowwrap {
+	text-align: left;
 }
 
 .map {
@@ -138,8 +146,6 @@ body {
 }
 
 .tablediv {
-	display: flex;
-	justify-content: center;
 	background-color: #ffffff;
 }
 
@@ -221,6 +227,14 @@ img {
 		line-height: 2em;
 	}
 
+	.tablediv th {
+		padding-left: 0.2em;
+	}
+
+	.tablediv td {
+		padding-left: 0.2em;
+	}
+
 	h1 {
 		line-height: 1em;
 	}
@@ -250,6 +264,11 @@ img {
 		min-width: 40%;
 	}
 
+	.tablediv {
+		display: flex;
+		justify-content: center;
+	}
+
 	.tableimg {
 		display: block;
 	}
@@ -258,6 +277,7 @@ img {
 		padding: 1em 2em;
 		border-left: 1px solid #000066;
 		border-bottom: 1px solid #000066;
+		width: 100%;
     }
 }
 
