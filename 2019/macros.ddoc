@@ -25,10 +25,10 @@ POUND = &#163;
 HEADER = <!doctype html>
 <html lang="en">
 <head>
-<meta charset=UTF-8" />
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css" />
-<link href="$(BASE)/images/favicon.ico" rel="shortcut icon" />
+<link href="$(BASE)/includes/style.css" rel="stylesheet" type="text/css">
+<link href="$(BASE)/images/favicon.ico" rel="shortcut icon">
 $(T title,, $(PAGE_TITLE))
 </head>
 
