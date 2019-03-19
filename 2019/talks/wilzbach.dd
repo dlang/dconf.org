@@ -30,7 +30,7 @@ LEVEL = Beginner - Intermediate
 
 ABSTRACT =
 $(P
-While there are many people actively contributing to the D Programming Language, there are still more than 7 billion people out there who aren’t. This talk will try to explain some of the hurdles typical beginners run into and show them inside the door.
+While there are many people actively contributing to the D Programming Language, there are still more than 7 billion people out there who aren’t. This talk will try to explain some of the hurdles typical beginners run into and open them the door to the D world.
 )
 
 $(P $(B $(U Description)))
@@ -43,8 +43,7 @@ $(P
 This talk will explain every step on how to become a contributor and core team member. Among others, it will answer these questions:
     $(T ul,,
         $(LI How to find things to help on?)
-        $(LI How can I fix this bug XZY (with actual examples from dmd,)
-    druntime and phobos?)
+        $(LI How can I fix this bug XZY (with actual examples))
         $(LI How is a good PR supposed to look like?)
         $(LI What all these CIs are doing and why are they red?)
         $(LI Why is no one reviewing my PR?)
