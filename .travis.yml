@@ -1,4 +1,4 @@
-language: d
+language: d-2.085.0
 script: make
 before_deploy:
 - echo -e "Host digitalmars.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config

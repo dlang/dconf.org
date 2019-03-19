@@ -3,7 +3,7 @@
 
 set -euox pipefail
 
-DMD_VERSION="2.079.0"
+DMD_VERSION="2.085.0"
 BUILD_DIR="build"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
