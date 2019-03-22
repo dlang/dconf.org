@@ -28,7 +28,7 @@ LEVEL = Intermediate
 
 ABSTRACT =
 $(P
-intel-intrinsics is a D SIMD libray that reuses existing Intel syntax for SIMD intrinsics, $(LINK2 https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=MMX$(COMMA)SSE$(COMMA)SSE2, and associated documentation).
+intel-intrinsics is a D SIMD libray that reuses existing Intel syntax for SIMD intrinsics, $(LINK2 https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=MMX$(COMMA)SSE$(COMMA)SSE2 and associated documentation).
 )
 
 $(P
@@ -40,9 +40,9 @@ What could possibly be more boring than that?
 )
 
 $(P
-It turns out intel-intrinsics is different from equivalents in other languages. Our vision is to decorrelate semantics and codegen completely, to harness the power of the backend.
+It turns out intel-intrinsics is different from equivalents in other languages. Our vision is to decorrelate semantics and codegen completely to harness the power of the backend.
 )
 
 BIO =
-$(P Guillaume Piolat worked as a professional complainer in various segments of the software industry: mostly signal processing.    Struck by baldness early, he is now a purveyor of audio effects in the pro audio market, as Auburn Sounds. Guillaume created "D-idioms", a blog to bring awareness on the most mundane points   of the language. You will likely see him rant about complexity on the D forums.
+$(P Guillaume Piolat worked as a professional complainer in various segments of the software industry: mostly signal processing.    Struck by baldness early, he is now a purveyor of audio effects in the pro audio market, as Auburn Sounds. Guillaume created $(LINK2 https://p0nce.github.io/d-idioms/, "D-idioms"), a blog to bring awareness on the most mundane points of the language. You will likely see him rant about complexity on the D forums.
 )

@@ -6,7 +6,7 @@ DATE = May 9
 
 TIME = 15:00
 
-SPEAKER = Alexander Militaru
+SPEAKER = Alexandru Militaru
 
 SPEAKER_SHORT = militaru
 
@@ -30,24 +30,14 @@ DURATION = 25 minutes
 
 ABSTRACT =
 $(P
-D is advertised as a safe and fast systems programming language. “Fast code,
-fast." is the mantra of the D community. But how fast it really is and how suitable for
-systems programming? We thought to investigate this by porting a Linux kernel driver
-to D, documenting the process, and assessing the results. The talk will delve into the
-details of integrating a D kernel module with the C-written kernel, discuss the
-difficulties encountered, and present the performance and safety benchmarks
-obtained. If you ever wondered if writing a Linux driver in D would be a good idea and
+D is advertised as a safe and fast systems programming language. “Fast code, fast." is the mantra of the D community. But how fast is it really and how suitable for systems programming? We thought to investigate this by porting a Linux kernel driver to D, documenting the process, and assessing the results. The talk will delve into the details of integrating a D kernel module with the C-written kernel, discuss the difficulties encountered, and present the performance and safety benchmarks obtained. If you ever wondered if writing a Linux driver in D would be a good idea and
 how to do that, then this talk could be a good starting point for you.
 )
 
 $(P $(B $(U Description)))
 
 $(P
-The talk aims to present the steps we took to port a Linux device driver to D,
-namely virtio_net. We will comment the main difficulties we encountered and how we
-overcame them, the safety improvements we achieved using features implemented in
-the D language, and the performance and safety benchmarks obtained. There will be
-five big topics discussed:
+The talk aims to present the steps we took to port a Linux device driver to D, namely virtio_net. We will comment on the main difficulties we encountered and how we overcame them, the safety improvements we achieved using features implemented in the D language, and the performance and safety benchmarks obtained. There will be five big topics discussed:
     $(T ul,,
         $(LI linking a D object file with the other Linux kernel objects)
         $(LI porting C code to D: issues, design decisions and shortcomings)
@@ -58,25 +48,15 @@ five big topics discussed:
 )
 
 $(P
-The talk offers a starting point and propose a methodology for those who want to
-port or implement a Linux driver in D and, in the end, reflects on how suited is D for
-kernel programming, how fast it is in such an environment, and what improvements it
-brings.
+The talk offers a starting point and proposes a methodology for those who want to port or implement a Linux driver in D and, in the end, reflects on how suitable D is for kernel programming, how fast it is in such an environment, and what improvements it brings.
 )
 
 $(P $(B $(U Current Status)))
 
 $(P
-By the end of March, the porting of the virtio_net driver will be done. From that
-point on, we will begin “D-ifying” the obtained code and benchmark it. Our estimate is
-that by the time of the conference everything will be ready. Even if something
-unexpected occurs and delays the project schedule, we think that the discoveries we have
-made so far should be interesting enough for the D community.
+By the end of March, the porting of the virtio_net driver will be done. From that point on, we will begin “D-ifying” the obtained code and benchmark it. Our estimate is that by the time of the conference everything will be ready. Even if something unexpected occurs and delays the project schedule, we think that the discoveries we have made so far should be interesting enough for the D community.
 )
 
 BIO =
-$(P Alexandru Militaru is a student in his final year of bachelor’s studies and an
-undergraduate teaching assistant at University "Politehnica" of Bucharest. He is
-passionate about operating systems and compilers. In his bachelor thesis project, he
-uses the D programming language to strengthen the security of Linux kernel modules.
+$(P Alexandru Militaru is a student in his final year of bachelor’s studies and an undergraduate teaching assistant at University "Politehnica" of Bucharest. He is passionate about operating systems and compilers. In his bachelor thesis project, he uses the D programming language to strengthen the security of Linux kernel modules.
 )

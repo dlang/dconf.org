@@ -32,7 +32,7 @@ Functional programming and object-orientation are often seen as contradictory. B
 $(P $(B $(U Description)))
 
 $(P
-Funkwerk application design started out as UML-heavy Java-like. Over the past years we’ve worked on transitioning to a model of immutable unowned domain data managed on the scale of processes, rather than entities, transformed between usecases by freestanding pure functions. Interfaces are primarily used as a tool for separation of concern and and domain process abstraction rather than describing actions that can be done with data.
+Funkwerk application design started out as UML-heavy Java-like. Over the past years we’ve worked on transitioning to a model of immutable unowned domain data managed on the scale of processes, rather than entities, transformed between usecases by freestanding pure functions. Interfaces are primarily used as a tool for separation of concern and domain process abstraction rather than describing actions that can be done with data.
 )
 
 BIO =
