@@ -38,7 +38,7 @@ I’ve written a few different libraries in D, I’ve written some in C++, Java,
 )
 
 $(P
-This talk will cover several examples of generative programming from the community, and show how all the tools the compiler provides makes such programming far simpler than the manual alternatives. If you ever wrote a program in D, and used templates or static if, you probably know this feeling. Even more so if you have used generics or templates in other languages. But add in CTFE, User Data Attributes, compiler __traits, and mixins, and all of a sudden, you can quit your “day job” of writing boilerplate, and let the compiler do all the hard work.
+This talk will cover several examples of generative programming from the community, and show how all the tools the compiler provides makes such programming far simpler than the manual alternatives. If you ever wrote a program in D, and used templates or $(CODE static if), you probably know this feeling. Even more so if you have used generics or templates in other languages. But add in CTFE, User-Defined Attributes, compiler $(CODE __traits), and mixins, and all of a sudden, you can quit your “day job” of writing boilerplate, and let the compiler do all the hard work.
 )
 
 BIO =

@@ -36,15 +36,15 @@ Finally, I will show how you can solve your machine learning problem using the p
 $(P $(B $(U Description)))
 
 $(P
-Machine learning has come a long way since its birth in the 1950s. Thanks to the availability of data and computational resources, many problems are routinely solved using machine learning these days. In comparison to (explicit) programming, machine learning is about performing a task without explicit instructions but rather by means of learning from data. Machine learning comes with its own up- and downsides but is largely to stay relevant in the 21st century as a core technology.
+Machine learning has come a long way since its birth in the 1950s. Thanks to the availability of data and computational resources, many problems are routinely solved using machine learning these days. In comparison to (explicit) programming, machine learning is about performing a task without explicit instructions but rather by means of learning from data. Machine learning comes with its own up- and downsides but is largely expected to stay relevant in the 21st century as a core technology.
 )
 
 $(P
-At dunnhumby we integrate machine learning into our D applications with an aim to get the most out of what it has to offer. We developed a machine learning library called dmxnet which integrates $(LINK2 https://mxnet.incubator.apache.org/, MXNet). MXNet is one of the lesser known machine learning libraries though it is easy to integrate and work with. It has received back up from Amazon. Other noteworthy mentions related to learning frameworks include TensorFlow, Keras and PyTorch.
+At dunnhumby we integrate machine learning into our D applications with an aim to get the most out of what it has to offer. We developed a machine learning library called dmxnet which integrates $(LINK2 https://mxnet.incubator.apache.org/, MXNet). MXNet is one of the lesser known machine learning libraries, though it is easy to integrate and work with. It has received back up from Amazon. Other noteworthy mentions related to learning frameworks include TensorFlow, Keras and PyTorch.
 )
 
 $(P
-Our library was open sourced in 2017 and can be found at $(LINK2 https://github.com/sociomantic-tsunami/dmxnet, https://github.com/sociomantic-tsunami/dmxnet). Recently, it was converted to D2-only which would make it even more appealing to a wider audience. Special care is taken with respect to garbage collection in order to avoid adversely affecting the real-time behavior of our applications. The code also comes with unit- and integration tests and code changes are always reviewed and continuously integrated.
+Our library was open-sourced in 2017 and can be found at $(LINK2 https://github.com/sociomantic-tsunami/dmxnet, https://github.com/sociomantic-tsunami/dmxnet). Recently, it was converted to D2-only, which would make it even more appealing to a wider audience. Special care is taken with respect to garbage collection in order to avoid adversely affecting the real-time behavior of our applications. The code also comes with unit and integration tests and code changes are always reviewed and continuously integrated.
 )
 
 $(P

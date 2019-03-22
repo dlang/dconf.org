@@ -28,13 +28,13 @@ LEVEL = Intermediate
 
 ABSTRACT =
 $(P
-The D programming language is used in writing development tools at Mercedes-Benz Research and Development, North America. This talk will present how the many low and high level features of D and its standard library have been used effectively in migrating and merging ROS bag files: bit manipulations, templates, UDAs, UFCS, design by introspection, mixin, code generation, and more.
+The D programming language is used in writing development tools at Mercedes-Benz Research and Development, North America. This talk will present how the many low- and high-level features of D and its standard library have been used effectively in migrating and merging ROS bag files: bit manipulations, templates, UDAs, UFCS, design by introspection, mixins, code generation, and more.
 )
 
 $(P $(B $(U Description)))
 
 $(P
-The Robot Operating System (ROS) is a set of software libraries and tools that are useful in research and development of robots and other autonomous devices like self driving cars.
+The Robot Operating System (ROS) is a set of software libraries and tools that are useful in research and development of robots and other autonomous devices like self-driving cars.
 )
 
 $(P
@@ -46,5 +46,5 @@ Mercedes-Benz Research and Development, North America, in partnership with Bosch
 )
 
 BIO =
-$(P Ali is a software engineer with programming language experiences mostly in C, C++, and D. His past work includes a fun stint at WekaIO, a high performance storage company that bases its technology entirely on D. Ali is the author of the book Programming in D, the secretary and board member of The D Language Foundation, former acting president of the Silicon Valley Chapter of the ACCU, an organizer of the Silicon Valley DLang meetup group, and a team member of the revolutionary Mill CPU. He currently works in the sensor fusion team of the Autonomous Driving division at Mercedes-Benz Research and Development, North America. One of his responsibilities is helping with ISO 26262 software safety issues.
+$(P Ali is a software engineer with programming language experiences mostly in C, C++, and D. His past work includes a fun stint at WekaIO, a high performance storage company that bases its technology entirely on D. Ali is the author of the book $(LINK2 http://ddili.org/ders/d.en/index.html, Programming in D), the Secretary and a board member of The D Language Foundation, former acting president of the Silicon Valley Chapter of the ACCU, an organizer of the Silicon Valley DLang meetup group, and a team member of the revolutionary Mill CPU. He currently works in the sensor fusion team of the Autonomous Driving division at Mercedes-Benz Research and Development, North America. One of his responsibilities is helping with ISO 26262 software safety issues.
 )

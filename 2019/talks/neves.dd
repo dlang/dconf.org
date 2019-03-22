@@ -38,7 +38,8 @@ The talk will cover anecdotes from the speaker's experience with regards to gett
 )
 
 $(P
-The talk will spend some time on C++'s success, specifically how it made the transition from C codebases so easy that its ubiquity will quite likely last at least a few decades more. It is the speaker's belief that C++'s killer feature is the ability to #include C headers with at most wrapping the preprocessor directive in an `extern "C" {}` block, and the talk will argue that the only way to emulate that success is to "steal" said killer feature. That is, to make it possible to write:
+The talk will spend some time on C++'s success, specifically how it made the transition from C codebases so easy that its ubiquity will quite likely last at least a few decades more. It is the speaker's belief that C++'s killer feature is the ability to $(CODE #include) C headers with at most wrapping the preprocessor directive in an
+$(CODE extern "C" {}) block, and the talk will argue that the only way to emulate that success is to "steal" said killer feature. That is, to make it possible to write:
 <pre>#include "foo.h"</pre>
 And have that work as simply and easily as it does in C++, with the exact same semantics.
 )
@@ -48,7 +49,7 @@ The talk will conclude with a case study of an implementation of said feature th
 )
 
 $(P
-It will also mention existing alternatives in the D ecosystem to interface with C and C++, and how they're not enough to make adoption as easy as it can be.
+It will also mention existing alternatives in the D ecosystem to interface with C and C++ and how they're not enough to make adoption as easy as it can be.
 )
 
 BIO =

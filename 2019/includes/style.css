@@ -218,6 +218,11 @@ img {
 	border-style: none;
 }
 
+code {
+	font-size: 1.1em;
+	background-color: #efefef;
+}
+
 @media screen and (min-width: 600px) {
 	.row {
 		display: flex;

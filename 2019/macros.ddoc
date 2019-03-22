@@ -112,3 +112,5 @@ NLINK = <a class="name" href="$1">$2</a>
 HILITE = <span class="hilite">$1$+</span>
 
 DQUOTE = &ldquo;$1&rdquo;
+
+CODE = <code>$1$+</code>

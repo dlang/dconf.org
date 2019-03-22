@@ -26,7 +26,7 @@ VIDEO = $(VIDEO_NO)
 
 LEVEL = All
 
-DURATION = 3 hours
+DURATION = ~1 hour
 
 TYPE = $(B Hackathon)
 
