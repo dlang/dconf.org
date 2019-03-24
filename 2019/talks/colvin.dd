@@ -26,7 +26,7 @@ LEVEL = Intermediate - Advanced (with some basics)
 
 ABSTRACT =
 $(P
-Ranges are so good, we semi-accidentally ended up developing software in a language where ranges were almost the only feature developed. Inspired heavily (cough cough) by D's ranges, we were able get moving fast with basic data processing before most of the language was complete. Over many months of writing code&emdash;including a lot by non-D users and people who weren't at the start active programmers&emdash;many lessons were learnt; some sweet, some bitter, some downright perplexing. Overall a picture emerged of what ranges are good for, what they aren't suited to, and what they could become good at given specific language and community attention.
+Ranges are so good, we semi-accidentally ended up developing software in a language where ranges were almost the only feature developed. Inspired heavily (cough cough) by D's ranges, we were able get moving fast with basic data processing before most of the language was complete. Over many months of writing code$(MDASH)including a lot by non-D users and people who weren't at the start active programmers$(MDASH)many lessons were learnt; some sweet, some bitter, some downright perplexing. Overall a picture emerged of what ranges are good for, what they aren't suited to, and what they could become good at given specific language and community attention.
 )
 
 $(P $(B $(U Description)))
