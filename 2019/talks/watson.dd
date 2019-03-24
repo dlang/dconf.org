@@ -28,7 +28,7 @@ LEVEL = Beginner - Intermediate
 
 ABSTRACT =
 $(P
-Design by introspection and compile-time function evaluation is fun and exciting. Especially for a performance-focused programmer that likes the idea of running as much code as possible offline. But it’s also something of a wild-west. There are idioms for standard metaprogramming approaches. But what else is the language capable of? Join Ethan as he discovers just how far he can push D with an eye on making a code base easily maintainable and highly efficient&emdash;two goals that have generally been considered mutually exclusive.
+Design by introspection and compile-time function evaluation is fun and exciting. Especially for a performance-focused programmer that likes the idea of running as much code as possible offline. But it’s also something of a wild-west. There are idioms for standard metaprogramming approaches. But what else is the language capable of? Join Ethan as he discovers just how far he can push D with an eye on making a code base easily maintainable and highly efficient$(MDASH)two goals that have generally been considered mutually exclusive.
 )
 
 $(P
@@ -36,5 +36,5 @@ This session also aims to give a person new to this kind of programming an easy 
 )
 
 BIO =
-$(P Fourth time lucky? Ethan Watson is a bit of a vet when it comes to D Conf, having presented at the three previous events. An unhealthy fascination with squirrels aside, his talks are regarded for being information-rich and entertaining at the same time&emdash;thanks to combining 16 years of experience as a programmer in the video games industry with his experience in amateur stand-up comedy. He is currently in the process of setting up a middleware studio and working at another Finnish game studio (Housemarque) at the same time.
+$(P Fourth time lucky? Ethan Watson is a bit of a vet when it comes to D Conf, having presented at the three previous events. An unhealthy fascination with squirrels aside, his talks are regarded for being information-rich and entertaining at the same time$(MDASH)thanks to combining 16 years of experience as a programmer in the video games industry with his experience in amateur stand-up comedy. He is currently in the process of setting up a middleware studio and working at another Finnish game studio (Housemarque) at the same time.
 )

@@ -38,11 +38,11 @@ One of the ways in which D improves upon C++ is by providing powerful, yet sensi
 )
 
 $(P
-D distinguishes between run-time and compile-time facilities by using different syntactical constructs for both. For instance, compile-time value declarations can be distinguished from normal ones by the use of the "enum" keyword. Generic functions can be recognized by the use of two sets of parameters, or by the employment of a template declaration. A conditional becomes a compile-time decision when the "static" keyword is prepended to the regular "if statement". The list goes on.
+D distinguishes between run-time and compile-time facilities by using different syntactical constructs for both. For instance, compile-time value declarations can be distinguished from normal ones by the use of the $(CODE enum) keyword. Generic functions can be recognized by the use of two sets of parameters, or by the employment of a template declaration. A conditional becomes a compile-time decision when the $(CODE static) keyword is prepended to the regular $(CODE if) statement. The list goes on.
 )
 
 $(P
-These differences introduce into the language complexity and irregularities that can create problems. They make the language harder to learn and master; they create corner cases and unexpected interactions; and they make it harder to transition code between the run-time and the compile-time realms, and freely combine from both. For example, if you have a call to a function such as "writefln" you cannot automatically take advantage of compile-time knowledge of the arguments. Instead, the user must change the call syntax according to the circumstances, which becomes even more problematic in generic code.
+These differences introduce into the language complexity and irregularities that can create problems. They make the language harder to learn and master; they create corner cases and unexpected interactions; and they make it harder to transition code between the run-time and the compile-time realms, and freely combine from both. For example, if you have a call to a function such as $(CODE writefln) you cannot automatically take advantage of compile-time knowledge of the arguments. Instead, the user must change the call syntax according to the circumstances, which becomes even more problematic in generic code.
 )
 
 $(P

@@ -179,6 +179,7 @@ main {
 h1, h2, h3 {
     font-family: "Franklin Gothic Medium", Geneva, Tahoma, sans-serif;
     text-align: left;
+	line-height: 1em;
 }
 
 h1 {
@@ -241,10 +242,6 @@ code {
 
 	.tablediv td {
 		padding-left: 0.2em;
-	}
-
-	h1 {
-		line-height: 1em;
 	}
 }
 
