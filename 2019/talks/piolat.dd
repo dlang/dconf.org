@@ -28,7 +28,7 @@ LEVEL = Intermediate
 
 ABSTRACT =
 $(P
-intel-intrinsics is a D SIMD libray that reuses existing Intel syntax for SIMD intrinsics, $(LINK2 https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=MMX$(COMMA)SSE$(COMMA)SSE2 and associated documentation).
+intel-intrinsics is a D SIMD library that reuses existing Intel syntax for SIMD intrinsics, $(LINK2 https://software.intel.com/sites/landingpage/IntrinsicsGuide/#techs=MMX$(COMMA)SSE$(COMMA)SSE2 and associated documentation).
 )
 
 $(P
