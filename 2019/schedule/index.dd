@@ -68,9 +68,9 @@ BASE = ..
 
 TR = $(T tr,, $0)
 
-BREAKFAST = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, $(B Breakfast)))
+BREAKFAST = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, $(B Morning Snack)))
 
-BREAKFAST1 = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, $(B Breakfast and Registration)))
+BREAKFAST1 = $(T tr, class="break", $(T td,, 08:00)$(T td, colspan=2, $(B Morning Snack and Registration)))
 
 LUNCH = $(T tr, class="break", $(T td,, 12:00)$(T td, colspan=2, $(B Lunch &amp; Mingling)))
 
