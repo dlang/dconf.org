@@ -22,15 +22,24 @@ VIDEO_URL_Y = https://www.youtube.com/watch?v=Odj_5_pDN-U
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_YES)
+VIDEO = $(I (Individual video links below))
 
 DURATION = 60 minutes
 
 LEVEL = All
 
 ABSTRACT =
-$(P
-TBA
+$(UL
+$(LI $(LINK2 https://www.youtube.com/watch?v=Odj_5_pDN-U, Gautam Kotian: Large Numbers))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=530, Dragos Carp: Protobuf 3 with D))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=827, Jean-Louis Leroy: Mixins vs Lisp Macros))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=1270, Andreas Reischuck: Values as Types))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=1644, Stefan Koch: Update on newCTFE))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2081, Bogdan))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2406, Walter Fil: Array Language Development))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2797, Shachar Shemesh: Announcing Mecca))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=3040, Simon Lynx: Lynx Game))
+$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=3297, Nicholas Wilson: DCompute Update))
 )
 
 BIO =

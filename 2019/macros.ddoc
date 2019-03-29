@@ -61,10 +61,16 @@ SIDEBAR =
 $(T section,id="sidebar",
   $(DIV class="wrapper",
     $(DIV id="sponsors",
-      $(P Partner/Host/Organizer)
+      $(P Partner/Host/Organizer:)
       $(P
         $(LINK2 http://symmetryinvestments.com/,
           <img src="$(BASE)/images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+        )
+      )
+      $(P Sponsor:)
+      $(P
+        $(LINK2 http://mbrdna.com/,
+          <img src="$(BASE)/images/mbrdna.png" alt="Mercedes-Benz Research and Development North America" border="0" width="270"/>
         )
       )
     )
