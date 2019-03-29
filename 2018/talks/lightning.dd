@@ -30,16 +30,16 @@ LEVEL = All
 
 ABSTRACT =
 $(UL
-$(LI $(LINK2 https://www.youtube.com/watch?v=Odj_5_pDN-U, Gautam Kotian: Large Numbers))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=530, Dragos Carp: Protobuf 3 with D))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=827, Jean-Louis Leroy: Mixins vs Lisp Macros))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=1270, Andreas Reischuck: Values as Types))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=1644, Stefan Koch: Update on newCTFE))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2081, Bogdan))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2406, Walter Fil: Array Language Development))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2797, Shachar Shemesh: Announcing Mecca))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=3040, Simon Lynx: Lynx Game))
-$(LI $(LINK2 https://youtu.be/Odj_5_pDN-U?t=3297, Nicholas Wilson: DCompute Update))
+$(LI Gautam Kotian: $(LINK2 https://www.youtube.com/watch?v=Odj_5_pDN-U, Large Numbers))
+$(LI Dragos Carp: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=530, Protobuf 3 with D))
+$(LI Jean-Louis Leroy: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=827, Mixins vs Lisp Macros))
+$(LI Andreas Reischuck: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=1270, Values as Types))
+$(LI Stefan Koch: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=1644, Update on newCTFE))
+$(LI Bogdan Szabo: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2081, Trial - The extensible test runner for DLang))
+$(LI Walter Fil: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2406, Array Language Development))
+$(LI Shachar Shemesh: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=2797, Announcing Mecca Briefly $(LINK2 https://www.youtube.com/watch?v=xNWRgEHxOhc&feature=youtu.be&t=807, (Click for full version)))
+$(LI Simon Lynx: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=3040, Lynx Game))
+$(LI Nicholas Wilson: $(LINK2 https://youtu.be/Odj_5_pDN-U?t=3297, DCompute Update))
 )
 
 BIO =
