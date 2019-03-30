@@ -42,11 +42,11 @@ $(T table, class="tablediv",
     )
     $(T tr,,
       $(T td,, $(B Early-bird registration deadline))
-      $(T td,, $(HILITE March 24$(COMMA) 2019$(COMMA) 24:00 AOE))
+      $(T td,, March 24$(COMMA) 2019$(COMMA) 24:00 AOE)
     )
     $(T tr,,
       $(T td,, $(B Registration deadline))
-      $(T td,, TBD)
+      $(T td,, $(HILITE  May 6$(COMMA) 2019$(COMMA) 24:00 AOE))
     )
     $(T tr,,
       $(T td,, $(B Conference))
