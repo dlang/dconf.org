@@ -6,7 +6,7 @@ $(P
 The early-bird registration period has ended. The regular registration rate is $(HILITE $(DOLLAR)400). This year, we are required to tack on a $(HILITE 20% VAT), so the total amount is $(HILITE $(DOLLAR)480). Advance registrations are open until $(HILITE May 6$(COMMA) 24:00 AOE). Registrations will be open at the venue throughout the first day of the conference (May 8).
 )
 $(P
-$(EM Note that GBP values in the following table are based on the $(LINK2 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/782717/exrates-monthly-0319.csv/preview, March 2019 HMRC exchange rate) of 1.3064 GBP to 1 USD)
+$(EM Note that GBP values in the following table are based on the $(LINK2 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/789248/exrates-monthly-0419.csv/preview, April 2019 HMRC exchange rate) of 1.3188 GBP to 1 USD)
 )
 $(T table, class="tablediv",
     $(T tr,,
@@ -16,18 +16,6 @@ $(T table, class="tablediv",
         $(T th,, Total)
     )
     $(T tr,,
-        $(T td,, Early-bird Fee (USD))
-        $(T td,, $(DOLLAR)340.00)
-        $(T td,, $(DOLLAR)68.00)
-        $(T td,, $(DOLLAR)408.00)
-    )
-    $(T tr,,
-        $(T td,, Early-bird Fee (GBP))
-        $(T td,, $(POUND)260.25)
-        $(T td,, $(POUND)52.05)
-        $(T td,, $(POUND)312.30)
-    )
-    $(T tr,,
         $(T td,, Regular Fee (USD))
         $(T td,, $(HILITE$(DOLLAR)400.00))
         $(T td,, $(HILITE$(DOLLAR)80.00))
@@ -35,9 +23,9 @@ $(T table, class="tablediv",
     )
     $(T tr,,
         $(T td,, Regular Fee (GBP))
-        $(T td,, $(HILITE$(POUND)306.18))
-        $(T td,, $(HILITE$(POUND)61.24))
-        $(T td,, $(HILITE$(POUND)367.42))
+        $(T td,, $(HILITE$(POUND)303.31))
+        $(T td,, $(HILITE$(POUND)60.66))
+        $(T td,, $(HILITE$(POUND)363.97))
     )
 )
 $(P
@@ -62,12 +50,13 @@ $(DIV class="row",
         </form>
     )
     $(DIV class="rowitem",
-        $(B Register via PayPal (GBP)$(BR)$(HILITE $(POUND)367.42))$(BR)$(BR)
+        $(B Register via PayPal (GBP)$(BR)$(HILITE $(POUND)363.97))$(BR)$(BR)
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="4VQGGH632RXGU">
         <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
+
     )
 )
