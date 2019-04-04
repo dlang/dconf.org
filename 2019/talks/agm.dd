@@ -26,7 +26,7 @@ VIDEO = $(VIDEO_NO)
 
 LEVEL = All
 
-DURATION = 4 hours
+DURATION = ~2 hours
 
 TYPE = $(B AGM)
 
