@@ -12,7 +12,6 @@ body {
 
 #masthead {
 	text-align: center;
-	background-color: #ffffff;
 }
 
 #masthead img {
@@ -65,7 +64,7 @@ body {
 }
 
 #container {
-	background-color: #bbdefb;
+	/*background-color: #bbdefb;*/
 }
 
 #twitter {
