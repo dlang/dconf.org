@@ -51,7 +51,7 @@ The main topics of the talk will be:
 )
 
 $(P
-The copy constructor is fully implemented and the DIP is has been accepted. It is estimated that by the time of this talk, the copy constructor will be available in the master branch of the D
+The copy constructor is fully implemented and the DIP has been accepted. It is estimated that by the time of this talk, the copy constructor will be available in the master branch of the D
 compiler.
 )
 
