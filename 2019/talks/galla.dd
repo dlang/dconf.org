@@ -6,13 +6,15 @@ DATE = May 9
 
 TIME = 15:30
 
-SPEAKER = Francesco Galla
+SPEAKER = Francesco Gallà
 
 SPEAKER_SHORT = galla
 
 SPEAKER_URL =
 
-TALK_TITLE = TBA (Symmetry Autumn of Code Report)
+SPEAKER_PIC = $(BASE)/images/galla.jpg
+
+TALK_TITLE = A season with D: Symmetry Autumn of Code Report
 
 SLIDES = $(SLIDES_NO)
 
@@ -26,9 +28,10 @@ LEVEL = Beginner - Intermediate
 
 ABSTRACT =
 $(P
-TBA
+Symmetry Autumn of Code has been a great opportunity for a few motivated developers to challenge their abilities and boost their involvement in the DLang Community while contributing to the D ecosystem. This report is going to describe my experience as a participant, focusing on the benefits that SAoC brought to me and the community and what future projects could learn from it.
 )
 
 BIO =
-$(P TBA
+$(P
+Francesco Gallà is a MSc student in Computer Science at University of Turin, Italy. He is interested in language theory, network protocols and formal verification methods for concurrent programming, a topic which he's working on for his master thesis. He also enjoys hiking and climbing when he leaves the keyboard behind. He discovered D while looking for modern alternatives to C and C++ which could be used for system programming on multiple platforms (notably Linux). He took part in Symmetry Autumn of Code 2018 to work on the HTTP/2 implementation for the Vibe.d framework.
 )
