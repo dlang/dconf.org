@@ -2,8 +2,13 @@ Ddoc$(T h1,, Registration)
 $(P
 We'd love for you to join us at the $(LINK2 https://99cityroad.com/, 99 City Road Conference Centre) in the heart London's Silicon Roundabout for DConf 2019!
 )
+$(T h3,, Education/Open Source Discount)
 $(P
-The early-bird registration period has ended. The regular registration rate is $(HILITE $(DOLLAR)400). This year, we are required to tack on a $(HILITE 20% VAT), so the total amount is $(HILITE $(DOLLAR)480). Advance registrations are open until $(HILITE May 6$(COMMA) 24:00 AOE). Registrations will be open at the venue throughout the first day of the conference (May 8).
+If you are a student, academic, or a major open source contributor, we want to see you in London! Please contact $(LINK2 mailto:social@dlang.org, social@dlang.org) to apply for a 50% discount on the general registration rate. Even if you've never worked with the D Programming Language, we'd love to meet you.
+)
+$(T h3,, General Registration)
+$(P
+The general registration rate is $(HILITE $(DOLLAR)400). This year, we are required to tack on a $(HILITE 20% VAT), so the total amount is $(HILITE $(DOLLAR)480). Advance registrations are open until $(HILITE May 6$(COMMA) 24:00 AOE). Registrations will be open at the venue throughout the first day of the conference (May 8).
 )
 $(P
 $(EM Note that GBP values in the following table are based on the $(LINK2 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/789248/exrates-monthly-0419.csv/preview, April 2019 HMRC exchange rate) of 1.3188 GBP to 1 USD)
@@ -31,7 +36,6 @@ $(T table, class="tablediv",
 $(P
 Keep an eye on $(LINK2 https://twitter.com/D_Programming, our Twitter feed), $(LINK2 https://forum.dlang.org/group/announce, the D Announce forum), or $(LINK2 https://dlang.org/blog/, the official D Blog) for registration news.
 )
-$(T h3,, DConf 2019 General Registration)
 $(P
 We support registrations through FlipCause and PayPal. If you are registering with a credit card rather than an existing PayPal balance, choosing FlipCause will be more efficient for us, so we encourage you to do so. Thanks!
 )
