@@ -8,7 +8,7 @@ endif
 TMP = .tmp
 
 HTML_NAMES = $(addsuffix .html, \
-	contact index registration schedule/index speakers/index thankyou venue)
+	contact index registration schedule/index speakers/index thankyou venue brexit)
 
 TALK_BASENAMES = \
 	agm \

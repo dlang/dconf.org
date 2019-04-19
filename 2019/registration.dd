@@ -2,6 +2,9 @@ Ddoc$(T h1,, Registration)
 $(P
 We'd love for you to join us at the $(LINK2 https://99cityroad.com/, 99 City Road Conference Centre) in the heart London's Silicon Roundabout for DConf 2019!
 )
+$(P
+$(B Worried about Brexit? $(LINK2 brexit.html, We've got you covered))!
+)
 $(T h3,, Education/Open Source Discount)
 $(P
 If you are a student, academic, or a major open source contributor, we want to see you in London! Please contact $(LINK2 mailto:social@dlang.org, social@dlang.org) to apply for a 50% discount on the general registration rate. Even if you've never worked with the D Programming Language, we'd love to meet you.
