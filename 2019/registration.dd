@@ -14,7 +14,7 @@ $(P
 The general registration rate is $(HILITE $(DOLLAR)400). This year, we are required to tack on a $(HILITE 20% VAT), so the total amount is $(HILITE $(DOLLAR)480). Advance registrations are open until $(HILITE May 6$(COMMA) 24:00 AOE). Registrations will be open at the venue throughout the first day of the conference (May 8).
 )
 $(P
-$(EM Note that GBP values in the following table are based on the $(LINK2 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/789248/exrates-monthly-0419.csv/preview, April 2019 HMRC exchange rate) of 1.3188 GBP to 1 USD)
+$(EM Note that GBP values in the following table are based on the $(LINK2 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/797058/exrates-monthly-0519.csv/preview, May 2019 HMRC exchange rate) of 1.3049 GBP to 1 USD)
 )
 $(T table, class="tablediv",
     $(T tr,,
@@ -31,9 +31,9 @@ $(T table, class="tablediv",
     )
     $(T tr,,
         $(T td,, Regular Fee (GBP))
-        $(T td,, $(HILITE$(POUND)303.31))
-        $(T td,, $(HILITE$(POUND)60.66))
-        $(T td,, $(HILITE$(POUND)363.97))
+        $(T td,, $(HILITE$(POUND)306.54))
+        $(T td,, $(HILITE$(POUND)61.31))
+        $(T td,, $(HILITE$(POUND)367.85))
     )
 )
 $(P
@@ -64,6 +64,5 @@ $(DIV class="row",
         <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
-
     )
 )

@@ -84,6 +84,10 @@ The first DConf Hackathon resulted in, to quote Walter Bright, "A tsunami of pul
 )
 
 $(P
+This year, just as we did in Munich, we're opening the Hackathon doors to the general public. If you're in the area, we invite you to join us. Learn more about D, help some D coders hack on a project, partake in some interesting conversations, or just drop in and say hi! We'll even provide lunch and snacks for our guests as we can. Availability for the food will be limited, though, so it's a first-come-first-serve sort of thing. If you do join us in the morning, be sure to have a backup plan for lunch just in case.
+)
+
+$(P
 In 2018, we kicked off the Hackathon day with one more talk. This year, we're starting it with an $(LINK2 $(BASE)/talks/agm.html, Annual General Meeting) to hash out longstanding issues and set the stage for the Hackathon. The morning Hackathon session will begin immediately following the AGM, the afternoon session immediately after lunch.
 )
 
