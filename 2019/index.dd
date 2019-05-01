@@ -31,7 +31,7 @@ The submission period has ended! All of the talks have been selected and the sch
 )
 $(T h2,, Hackathon)
 $(P
-$(LINK2 $(BASE)/talks/hackathon1.html, The DConf Hackathon returns) on Saturday, May 11th. The Hackathon is an unstructured, free-wheeling, full day of solving D issues, advancing D projects, teaching, learning, and communing with like-minded souls. The previous edition of the Hackathon was open to the general public. We are eager to do so this time as well, but need to iron out some details first. Watch this space!
+$(LINK2 $(BASE)/talks/hackathon1.html, The DConf Hackathon returns) on Saturday, May 11th. The Hackathon is an unstructured, free-wheeling, full day of solving D issues, advancing D projects, teaching, learning, and communing with like-minded souls. The previous edition of the Hackathon was open to the general public. This year, we're doing it again! See $(LINK2 $(BASE)/talks/hackathon1.html, the hackathon page) for details.
 )
 $(T h2,,Important Dates)
 $(T table, class="tablediv",
