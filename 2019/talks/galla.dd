@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/galla.jpg
 
 TALK_TITLE = A season with D: Symmetry Autumn of Code Report
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

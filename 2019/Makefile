@@ -46,6 +46,7 @@ TO_COPY = \
 	includes/ $(wildcard includes/*) \
 	$(wildcard talks/*.pdf) \
 	$(wildcard talks/*.pptx) \
+	$(wildcard talks/*.odp) \
 	$(wildcard talks/code.*.d) \
 
 TALK_NAMES = $(addprefix talks/, $(addsuffix .html, ${TALK_BASENAMES}))

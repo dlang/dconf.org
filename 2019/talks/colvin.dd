@@ -14,7 +14,7 @@ SPEAKER_URL =
 
 TALK_TITLE = Lessons from a DSL where all you have is ranges
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

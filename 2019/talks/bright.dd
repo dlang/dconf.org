@@ -18,7 +18,7 @@ TALK_TITLE = Allocating Memory with the D Programming Language
 
 TYPE = $(B Keynote)
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/piolat.png
 
 TALK_TITLE = intel-intrinsics - Not intrinsically about intrinsics
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

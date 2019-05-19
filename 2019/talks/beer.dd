@@ -14,7 +14,11 @@ SPEAKER_URL =
 
 TALK_TITLE = D and Process-based Object Orientation at Funkwerk
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/beer.odp
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), ODP)
 
 VIDEO_URL_Y =
 

@@ -16,7 +16,11 @@ SPEAKER_PIC = $(BASE)/images/militaru.jpg
 
 TALK_TITLE = D for a @safer Linux Kernel
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
+
+SLIDES_URL = $(BASE)/talks/militaru.pptx
+
+SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PPTX)
 
 VIDEO_URL_Y =
 
