@@ -14,7 +14,9 @@ SPEAKER_URL =
 
 SPEAKER_PIC = $(BASE)/images/laeeth.jpg
 
-TALK_TITLE = TBA
+TALK_TITLE = Keynote: Alternative Investment Management
+
+TYPE = $(B Keynote)
 
 SLIDES = $(SLIDES_YES)
 
@@ -28,9 +30,10 @@ LEVEL = Beginner - Intermediate
 
 ABSTRACT =
 $(P
-TBA
+Adoption of an emerging language at a $4.8bn hedge fund.
 )
 
 BIO =
-$(P TBA
+$(P
+Laeeth Isharc graduated in 1996 from Trinity College, Cambridge, and holds an MA in Economics. Since 2014 he has been developing tools to apply technology to the investment process.
 )
