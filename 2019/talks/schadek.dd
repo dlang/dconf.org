@@ -14,7 +14,7 @@ SPEAKER_URL =
 
 TALK_TITLE = All Spreadsheets Must Die
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

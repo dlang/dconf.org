@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/watson.jpg
 
 TALK_TITLE = Mad With Power - The Hunt for New Compile-Time Idioms
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

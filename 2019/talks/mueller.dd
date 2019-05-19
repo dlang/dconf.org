@@ -14,7 +14,7 @@ SPEAKER_URL =
 
 TALK_TITLE = A Pragmatic Approach for Machine Learning in D
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/lunesu.jpg
 
 TALK_TITLE = Packaging Your D App
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 

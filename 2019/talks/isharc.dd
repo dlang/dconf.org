@@ -16,7 +16,7 @@ SPEAKER_PIC = $(BASE)/images/laeeth.jpg
 
 TALK_TITLE = TBA
 
-SLIDES = $(SLIDES_NO)
+SLIDES = $(SLIDES_YES)
 
 VIDEO_URL_Y =
 
