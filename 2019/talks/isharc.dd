@@ -30,7 +30,7 @@ LEVEL = Beginner - Intermediate
 
 ABSTRACT =
 $(P
-Adoption of an emerging language at a $4.8bn hedge fund.
+Adoption of an emerging language at a $(DOLLAR)4.8bn hedge fund.
 )
 
 BIO =
