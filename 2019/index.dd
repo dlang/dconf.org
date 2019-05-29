@@ -1,10 +1,9 @@
 Ddoc$(T h1,,DConf 2019 in London!)
+<hr>
 $(P
-$(B $(LINK2 registration.html, 50% registration discount ) for students, academics, and major open source contributors!)
+$(I DConf 2019 was a great success. Thanks to our partners at Symmetry Investments for hosting such a fun event. Now we're looking forward to DConf 2020!)
 )
-$(P
-$(B Worried about Brexit? $(LINK2 brexit.html, We've got you covered))!
-)
+<hr>
 $(P
 The D Language Foundation is pleased to announce the international conference and hackathon DConf 2019 in London, United Kingdom, $(HILITE May 8 - 11 2019).
 )
