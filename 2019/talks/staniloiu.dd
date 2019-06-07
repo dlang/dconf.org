@@ -35,7 +35,7 @@ DURATION = 25 minutes
 ABSTRACT =
 $(P
 Every class defined in the D language has $(CODE Object) as the root ancestor. $(CODE Object) defines four
-methods: $(CODE toString), $(CODE toHash), $(CODE opCmp) and $(CODE opEquals); at a fist glance, their presence might not
+methods: $(CODE toString), $(CODE toHash), $(CODE opCmp) and $(CODE opEquals); at first glance, their presence might not
 strike you with much, but they are doing more harm than good. Their signatures predate the
 introduction of the $(CODE @nogc), $(CODE nothrow), $(CODE pure), and $(CODE @safe) function attributes, and also of the $(CODE const),
 $(CODE immutable), and $(CODE shared) type qualifiers. As a consequence, these methods make it difficult to use
