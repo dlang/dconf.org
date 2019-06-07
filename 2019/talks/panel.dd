@@ -28,11 +28,11 @@ TYPE = $(B Panel)
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://youtu.be/OsOfTVm2ExY
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 
