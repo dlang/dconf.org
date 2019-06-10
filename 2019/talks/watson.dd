@@ -18,11 +18,11 @@ TALK_TITLE = Mad With Power - The Hunt for New Compile-Time Idioms
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://youtu.be/rSY78Hu8DqI
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Beginner - Intermediate
 

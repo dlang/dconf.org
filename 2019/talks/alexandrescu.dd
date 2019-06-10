@@ -20,11 +20,11 @@ TYPE = $(B Keynote)
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y =
+VIDEO_URL_Y = https://youtu.be/aRvu2JGGn6E
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 
@@ -34,7 +34,7 @@ The mechanics of binding values to function parameters is a
 central concern in programming languages. In the D language, binding an
 unnamed temporary (rvalue) to a reference parameter is disallowed to
 avoid unintentional misuse. In C++ binding an rvalue to a reference to
-constant is allowed, but binds too tightly, complication that ultimately
+constant is allowed, but binds too tightly, a complication that ultimately
 motivated the introduction of rvalue references. In Rust binding is
 allowed but requires additional syntax on the call side, which hurts
 genericity and composition. How can we relax the rules in the D language
