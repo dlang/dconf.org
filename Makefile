@@ -3,7 +3,7 @@ SITE = dconf.org@digitalmars.com:data/
 DMD = dmd
 OUT = out
 
-all: $(OUT)/index.html 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all
+all: $(OUT)/index.html 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all
 
 .PHONY: rsync
 rsync : all
@@ -16,7 +16,7 @@ deploy : all
 	ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true
 
 .PHONY: clean
-clean: 2013/clean 2014/clean
+clean: 2013/clean 2014/clean 2015/clean 2016/clean 2017/clean 2018/clean 2019/clean 2020/clean
 	rm -rf out
 	rm -rf 20??/.tmp
 
@@ -42,6 +42,9 @@ clean: 2013/clean 2014/clean
 
 2019/%:
 	$(MAKE) DMD=$(DMD) --directory=2019 OUT=../$(OUT)/2019 $*
+
+2020/%:
+	$(MAKE) DMD=$(DMD) --directory=2020 OUT=../$(OUT)/2020 $*
 
 $(OUT)/%: %
 	mkdir -p $(OUT)

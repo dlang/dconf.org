@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 1em;
+      background-color: #ffffff;
+    }
+    article {
+      background-color: #fff;
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2, h3, h4 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      border-top: solid lightgray;
+      margin-top: 1.5em;
+    }
+    p {
+      margin-top: 3em;
+      line-height: 1.8em;
+    }
+    .text-white {
+      color: #fff!important;
+    }
+    .quote {
+      background-color: whitesmoke!important;
+      font-size: 0.93em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-top: 2em;
+    }
+    .tabcolor {
+      color:#fff!important;
+      background-color: #2b2d2f!important;
+    }
+    .talktitle {
+      font-size: 1.3em;
+      border-bottom-style: solid;
+      border-bottom-color: #000;
+      padding: 5px;
+    }
+    .speaker {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+</style>
+<title>The D Programming Language Conference 2020</title>
+</head>
+
+<body class="w3-justify">
+
+    <!-- Links (sit on top) -->
+    <div class="w3-top text-white" style="background-color: #00247D; font-size: 0.9em;">
+      <div class="w3-row">
+        <div class="w3-col s4 m4 l2">
+          <a href="#" class="w3-button w3-block">HOME</a>
+        </div>
+        <div class="w3-col s4 m4 l2">
+          <a href="#sponsors" class="w3-button w3-block">SPONSORS</a>
+        </div>
+        <div class="w3-col s4 m4 l2">
+          <a href="#registration" class="w3-button w3-block">REGISTRATION</a>
+        </div>
+        <div class="w3-col s4 m4 l2">
+          <a href="#schedule" class="w3-button w3-block">SUBMISSIONS</a>
+        </div>
+        <div class="w3-col s4 m4 l2">
+          <a href="#venue" class="w3-button w3-block">VENUE</a>
+        </div>
+        <div class="w3-col w3-dropdown-hover s4 m4 l2">
+          <span class="w3-button w3-block">2013 - 2019</span>
+          <div class="w3-dropdown-content w3-bar-block w3-border">
+            <a href="https://www.dconf.org/2019" class="w3-bar-item w3-button">2019</a>
+            <a href="https://www.dconf.org/2018" class="w3-bar-item w3-button">2018</a>
+            <a href="https://www.dconf.org/2017" class="w3-bar-item w3-button">2017</a>
+            <a href="https://www.dconf.org/2016" class="w3-bar-item w3-button">2016</a>
+            <a href="https://www.dconf.org/2015" class="w3-bar-item w3-button">2015</a>
+            <a href="https://www.dconf.org/2014" class="w3-bar-item w3-button">2014</a>
+            <a href="https://www.dconf.org/2013" class="w3-bar-item w3-button">2013</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-margin-top w3-padding-64">
+              <img src="images/logo.png" alt="DConf 2020 London Logo" class="w3-image">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container toparticle" id="about">
+      <article class="w3-content">
+        <div class="w3-center">
+            <h1>DConf Returns to London!</h1>
+            <span style="font-size: 1.2em;">June 17 - 20, 2020 at 99 City Road</span s>
+        </div>
+        <p>DConf is the largest meetup of D Programming Language enthusiasts on the planet. Professional and amateur programmers from all over the world come together
+          to share their experiences, build and maintain relationships, and expand their knowledge through three days of presentations, capping it all off on the
+          fourth day with a round of collaborative hacking on D projects and solving D problems.
+        </p>
+        <p>The D Language Foundation welcomes members of the D programming language community and anyone interested in learning more about our favorite language to
+          join us in London for four days of fun, challenge, and camaraderie. If you've never attended a DConf,
+          <a href="https://www.youtube.com/channel/UC5DNdmeE-_lS6VhCVydkVvQ/playlists">watch videos from past editions</a> or
+          <a href="https://dlang.org/blog/2019/06/17/dconf-2019-recap/">read a summary of DConf 2019 on the D Blog</a>
+          to get an idea of what it's all about.</p>
+
+        <div class="w3-panel w3-leftbar quote">
+          <p><i>DConf has become the anchoring event that has me
+            inspired and motivated for the whole year. We are a unique programming
+            language community in that we're entirely decentralized geographically.
+            Even the leadership is spread all over across the two US coasts, Western
+            Europe, Eastern Europe, and Asia. Therefore, the event that brings us
+            all together is powerful - an annual systole of the live, beating heart
+            of a great community.</i></p>
+          <p>Andrei Alexandrescu</p>
+        </div>
+
+        <div class="w3-center w3-padding-64">
+          <img src="images/montage2.jpg" alt="DConf Montage" class="w3-image">
+        </div>
+      </article>
+    </div>
+
+
+    <!-- Sponsors Container -->
+    <div class="w3-container" id="sponsors">
+      <article class="w3-content">
+        <h1 class="w3-center">Sponsors</h1>
+        <p>DConf 2020 is hosted by our friends at Symmetry Investments. With offices in Hong Kong, Singapore, and London, Symmetry employs D in their investment
+          management mission. This is the second time they've hosted a DConf&mdash;their first go in 2019 was a smashing a success. They have also twice sponsored the Symmetry Autumn of Code, an event that provides experience to young programmers while enhanching the D ecosystem. We couldn't be more thrilled
+          to be working with Symmetry in bringing DConf to London once again.</p>
+          <div class="w3-center w3-padding-64">
+            <img src="images/symmetry-logo1.png" alt="Symmetry Investments" class="w3-image">
+          </div>
+      </article>
+    </div>
+
+    <!-- Registration Container -->
+    <div class="w3-container" id="registration">
+      <article class="w3-content">
+        <h1 class="w3-center">
+            Registration
+        </h1>
+        <p>Early-bird registration opens soon at a 15% discount off the regular ticket price.
+          Keep an eye on <a href="https://forum.dlang.org/group/announce">the D Announce forum, <a href="https://dlang.org/blog/">the official D Blog</a>,
+          or <a href="https://twitter.com/D_Programming">the D Twitter feed</a> for the announcement.</p>
+      </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container" id="schedule">
+      <article class="w3-content">
+        <h1 class="w3-center">
+            Call For Submissions
+        </h1>
+        <p>We are currently accepting submissions for papers, talks, demos, panels, or research reports for DConf 2020. The topics of choice are anything
+          and everything related to the D language, such as:
+        <ul>
+        <li><strong>Language techniques</strong> enabled by the D language</li>
+        <li><strong>Tools and techniques</strong> for maximizing productivity when working in D</li>
+        <li><strong>Experience reports</strong> on using D in the real world</li>
+        <li><strong>Under the hood</strong> looks at compiler and standard library implementation artifacts</li>
+        <li><strong>Hot topics</strong> such as safe deterministic memory management, migrating from other languages, or community engagement</li>
+        <li><strong>Research reports</strong> by students doing research on or using the D language</li>
+        </ul>
+        But don't feel constrained! Originality in topics and formats is warmly encouraged. If it is relevant to the D language, it fits. This year, we're
+        especially interested in submissions from first-time DConf speakers. Whether your past submissions have been rejected or you've never
+        submitted to DConf at all, don't let it hold you back! We want you to send us your ideas. Just please mind the following guidelines.</p>
+
+        <h3 class= w3-padding">Selection Criteria</h3>
+        <p>We expect original work, or work synthesized from community folklore into interesting tidbits by the author. Related work can be mentioned with
+          credit. Overviews of an area covered by other authors is acceptable, again with due credit and assuming the overview has intrinsic value. Additionally,
+          the selection committee will review and rate submissions according to the following criteria:
+        <ul>
+        <li><strong>Relevance:</strong> Is the topic interesting to DConf attendees? Will a coverage be beneficial? Is it building on tried and true ideas, or,
+          on the contrary, blazing new trails?</li>
+        <li><strong>Coverage:</strong> Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?</li>
+        <li><strong>Organization:</strong> Is the submission well organized? Will the audience tune into the narrative?</li>
+        <li><strong>Novelty and Originality:</strong> How new and noteworthy is the material? Previously published material is acceptable provided it hasn't
+          reached a wide audience within the D community yet.</li>
+        <li><strong>Bottom line:</strong> What's your session's takeaway? How is it going to improve the attendees' knowledge, outlook, and inspiration?</li>
+        </ul></p>
+        <h3 class= w3-padding">Submission Guidelines</h3>
+        <p>We expect submission in plain text format or one of the usual rich document formats, such as PDF or DOC. All submissions should be directed to
+          <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+          and should include:
+        <ol>
+        <li><strong>Title</strong></li>
+        <li><strong>Kind</strong> (e.g., talk, panel, contest)</li>
+        <li><strong>Duration</strong> (we're aiming for 50-minute presentations, but will consider shorter and longer durations)</li>
+        <li><strong>Target Audience</strong> (e.g., beginner, intermediate, advanced)</li>
+        <li><strong>Abstract:</strong> the "elevator pitch" of the talk, in one paragraph</li>
+        <li><strong>Extended description:</strong> an extended abstract including any details you believe are relevant for evaluating the submission</li>
+        <li><strong>Brief speaker biograph</strong> including a summary of the speaker's expertise relative to the talk topic</li>
+        <li><strong>Keyword tags</strong></li>
+        </ol>
+        We can't wait to see what you send us!</p>
+
+        <div class="w3-row w3-center w3-card w3-padding">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day1');" id="myLink">
+              <div class="w3-col s3 tablink">Jun 17</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day2');">
+              <div class="w3-col s3 tablink">June 18</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day3');">
+              <div class="w3-col s3 tablink">June 19</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day4');">
+              <div class="w3-col s3 tablink">June 20</div>
+            </a>
+          </div>
+
+          <div id="day1" class="w3-container menu w3-padding-48 w3-card">
+          <h2>Day One Schedule TBA</h2>
+          </div>
+          <div id="day2" class="w3-container menu w3-padding-48 w3-card">
+            <h2>Day Two Schedule TBA</h2>
+          </div>
+          <div id="day3" class="w3-container menu w3-padding-48 w3-card">
+            <h2>Day 3 Schedule TBA</h2>
+          </div>
+          <div id="day4" class="w3-container menu w3-padding-48 w3-card">
+            <h2>Hackathon Schedule TBA</h2>
+          </div>
+      </article>
+    </div>
+
+    <!-- Venue Container -->
+    <div class="w3-container w3-margin-top" id="venue">
+      <article class="w3-content">
+
+        <div class="w3-center w3-padding-64">
+          <img src="images/dconf2019group2.jpg" alt="DConf 2019 Group Photo" class="w3-image">
+        </div>
+        <h1 class="w3-center">
+            Venue
+        </h1>
+        <p>Once again, we'll be at the excellent <a href="https://99cityroad.com/">99 City Road Conference Centre</a>. Located in the heart of the area known as East
+          London Tech City near the Old Street tube and rail stations, it's operated by <a href="https://www.inmarsat.com">Inmarsat</a>, a global satellite
+          communications firm. The venue is equipped to meet the needs of technology-oriented conferences. The staff are friendly and helpful, and the food is
+          excellent! Combined with the easy access to public transportation and the variety of nearby hotels, it's an excellent location for DConf 2020.</p>
+
+        <p>All of the talks will be livestreamed on our YouTube channel by Inmarsat's A/V staff so that those unable to join us can view them anywhere in the
+          world. And thanks to the excellent job they did last year, <a href="">Stage Engage</a> will once again be recording all talks separately from the live
+          stream in High Definition so that we can upload them all to our YouTube channel when the conference ends.</p>
+
+        <div class="w3-center w3-hide-small">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d781.8878161812322!2d-0.08742387464825338!3d51.52534339304672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca58a4a343d%3A0x82e3222c0244bf68!2s99+City+Rd%2C+London+EC1Y+1BJ%2C+UK!5e0!3m2!1sen!2skr!4v1545461540491" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <p>Inmarsat has relationships with several local hotels allowing discounts for conference attendees. Upon registration, every DConf attendee will
+          receive information on how to take advantage of these offers. Anyone who submits a talk and would like to wait until after the author notification
+          date to register, please send an email to <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> for details.</p>
+
+        <p>Even with the discounts, the partner hotels may be rather pricey. For those looking for cheaper alternatives, there are at least three budget hotels
+          within walking distance:
+        <ul>
+        <li><a href="https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-city-old-street.html?cid=GLBC_LONOLD">
+          Premier Inn London City (Old Street)</a></li>
+        <li><a href="https://www.travelodge.co.uk/hotels/340/London-Central-City-Road-hotel">Travelodge London Central City Road</a></li>
+        <li><a href="https://www.thezhotels.com/shoreditch">The Z Hotel Shoreditch</a></li>
+        </ul>
+
+        Other budget hotels can be found within a longer walking distance or a short tube ride away. There are numerous hostels to choose from as well.</p>
+      </article>
+    </div>
+<script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" tabcolor", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " tabcolor";
+  }
+  document.getElementById("myLink").click();
+S</script>
+</body>
+</html>
