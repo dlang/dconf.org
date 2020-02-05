@@ -51,6 +51,21 @@
     .toparticle {
       margin-top: 0.8em;
     }
+    .row {
+      padding-right: 1em;
+    }
+    .rowitem {
+      margin: 2em 0 0 2em;
+    }
+    .ukred {
+      color: #C8102E;
+    }
+    @media screen and (min-width: 600px) {
+      .row {
+        display: flex;
+        justify-content: center;
+      }
+    }
 </style>
 <title>The D Programming Language Conference 2020</title>
 </head>
@@ -58,7 +73,7 @@
 <body class="w3-justify">
 
     <!-- Links (sit on top) -->
-    <div class="w3-top text-white" style="background-color: #00247D; font-size: 0.9em;">
+    <div class="w3-top text-white" style="background-color: #012169; font-size: 0.9em;">
       <div class="w3-row">
         <div class="w3-col s4 m4 l2">
           <a href="#" class="w3-button w3-block">HOME</a>
@@ -151,11 +166,38 @@
         <h1 class="w3-center">
             Registration
         </h1>
-        <p>Early-bird registration opens soon at a 15% discount off the regular ticket price.
-          Keep an eye on <a href="https://forum.dlang.org/group/announce">the D Announce forum, <a href="https://dlang.org/blog/">the official D Blog</a>,
-          or <a href="https://twitter.com/D_Programming">the D Twitter feed</a> for the announcement.</p>
-      </article>
-    </div>
+        <p>Early-bird registration is now open at a 15% discount off the regular ticket price. That's $340 plus a 20% VAT of $68.00. At the <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/861011/exrates-monthly-0220.CSV/preview">February HMRC exchange rate</a>, that works out to £258.75 and £51.75 respectively. The early-bird rate is in effect until <strong>April 19 AOE</strong>, so take advantage of it while you can.</p>
+
+        <div class="row">
+          <div class="rowitem">
+            <strong>Register via Flipcause (USD)<br><span class="ukred">$408.00</span></strong><br><br>
+            <a href="https://www.flipcause.com/secure/cause_pdetails/NzQ0NzA=">
+              <img src="images/register.png" alt="Register for DConf 2020" class="w3-image">
+            </a>
+          </div>
+          <div class="rowitem">
+            <strong>Register via PayPal (USD)<br><span class="ukred">$408.00</span></strong><br><br>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="ABKR47ER9XW5U">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+          <div class="rowitem">
+            <strong>Register via PayPal (GBP)<br><span class="ukred">£310.50</span></strong><br><br>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="ABKR47ER9XW5U">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+        </div>
+
+        <p>If you'd like to help us put more of your registration fee toward conference expenses, you can do so by clicking on the image on the left above to sign up through <a href="https://www.flipcause.com/secure/cause_pdetails/NzQ0NzA=">our registration form at Flipcause</a>. Here, you'll have the option of paying the credit card processing fee. Even if you uncheck the option so that we cover the fee, you'll still be helping us out.</p>
+
+        <p>We offer registration via PayPal in both USD and GBP. The GBP option allows you to register at a fixed amount, based on the current HMRC monthly exchange rate, rather than relying on the variable exchange rates used by PayPal or your credit card provider (where applicable).</p>
 
     <!-- Schedule Container -->
     <div class="w3-container" id="schedule">
