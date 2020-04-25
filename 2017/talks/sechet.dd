@@ -18,7 +18,7 @@ TALK_TITLE = Cryptography in D
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=CoibdYFM53U&index=5
+VIDEO_URL_Y = https://youtu.be/ik7IBcs9BJA
 
 VIDEO_URL_A =
 
