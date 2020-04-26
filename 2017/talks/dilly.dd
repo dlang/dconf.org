@@ -18,11 +18,11 @@ TALK_TITLE = Amazon Alexa Skills written in D
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = 
+VIDEO_URL_Y = https://youtu.be/C8ckYupIlsw
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Beginner and Intermediate
 

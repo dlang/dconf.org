@@ -18,11 +18,11 @@ TALK_TITLE = IOPipe: a High Performance I/O Library
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = 
+VIDEO_URL_Y = https://youtu.be/un-bZdyumog
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 KEYWORDS = io, buffering, streams, performance, pipeline chaining, parsing
 

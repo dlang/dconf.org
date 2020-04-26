@@ -20,11 +20,11 @@ SLIDE_LINKS = $(LINK2 $(SLIDES_FILE pdf), PDF) &middot $(LINK2 $(SLIDES_FILE ppt
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = 
+VIDEO_URL_Y = https://youtu.be/9Id6Kbi3Y0c
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Beginner to Intermediate
 

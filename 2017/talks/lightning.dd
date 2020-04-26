@@ -18,7 +18,14 @@ TALK_TITLE = Lightning Talks
 
 SLIDES = $(SLIDES_NO)
 
-VIDEO_URL_Y = 
+VIDEO_URL_HATEM = https://youtu.be/ZbzqdYvstn8
+VIDEO_URL_JOE = https://youtu.be/1sr-MiFXXZQ
+VIDEO_URL_ROBERT = https://youtu.be/9BudNl0UuLk
+VIDEO_URL_ADAM = https://youtu.be/Z7FAgwA3rA0
+VIDEO_URL_MEETUPS = https://youtu.be/iS8lEScEmC8
+VIDEO_URL_ADRIAN = https://youtu.be/AB5_UDMPuck
+VIDEO_URL_ATILA = https://youtu.be/Q70yUGR7d8k
+VIDEO_URL_STEFAN = https://youtu.be/zsGe1R80sEw
 
 VIDEO_URL_A =
 
@@ -30,14 +37,14 @@ LEVEL = All
 
 ABSTRACT =
 $(UL
-$(LI "A Dive into Ocean" by $(B Hatem Oraby))
-$(LI "Snap Packages for D Compilers and Build Tools" by $(B Joe Wakeling))
-$(LI "Benchmarking" by $(B Robert Schadek))
-$(LI "SecureD" by $(B Adam Wilson))
-$(LI "Meetup Minutes" by $(B Ben Palmer), $(B Steven Schveighoffer), $(B Stefan Rohe), $(B Ali Çehreli), and $(B John Colvin))
-$(LI "D-Enabled Gadgets" by $(B Adrian Matoga))
-$(LI "Compile-Time Assembler and Disassembler" by $(B Stefan Koch))
-$(LI "Writing Microsoft Excel Add-Ins in D" by $(B Átila Neves))
+$(LI $(T A, href="$(VIDEO_URL_HATEM)", A Dive into Ocean) by $(B Hatem Oraby)
+$(LI $(T A, href="$(VIDEO_URL_JOE)", Snap Packages for D Compilers and Build Tools) by $(B Joe Wakeling))
+$(LI $(T A, href="$(VIDEO_URL_ROBERT)", Benchmarking) by $(B Robert Schadek))
+$(LI $(T A, href="$(VIDEO_URL_ADAM)", SecureD) by $(B Adam Wilson))
+$(LI $(T A, href="$(VIDEO_URL_MEETUPS)", Meetup Minutes) by $(B Ben Palmer), $(B Steven Schveighoffer), $(B Stefan Rohe), $(B Ali Çehreli), and $(B John Colvin))
+$(LI $(T A, href="$(VIDEO_URL_ADRIAN)", D-Enabled Gadgets) by $(B Adrian Matoga))
+$(LI $(T A, href="$(VIDEO_URL_ATILA)", Writing Microsoft Excel Add-Ins in D) by $(B Átila Neves))
+$(LI $(T A, href="$(VIDEO_URL_STEFAN)", Compile-Time Assembler) by $(B Stefan Koch))
 )
 
 BIO =

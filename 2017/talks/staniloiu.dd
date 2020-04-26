@@ -22,11 +22,11 @@ SLIDE_LINKS = $(LINK2 $(SLIDES_URL), PPT)
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = 
+VIDEO_URL_Y = https://youtu.be/bV0TmmEbOvU
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 DURATION = 25 minutes
 
