@@ -37,7 +37,7 @@ LEVEL = All
 
 ABSTRACT =
 $(UL
-$(LI $(T A, href="$(VIDEO_URL_HATEM)", A Dive into Ocean) by $(B Hatem Oraby)
+$(LI $(T A, href="$(VIDEO_URL_HATEM)", A Dive into Ocean) by $(B Hatem Oraby))
 $(LI $(T A, href="$(VIDEO_URL_JOE)", Snap Packages for D Compilers and Build Tools) by $(B Joe Wakeling))
 $(LI $(T A, href="$(VIDEO_URL_ROBERT)", Benchmarking) by $(B Robert Schadek))
 $(LI $(T A, href="$(VIDEO_URL_ADAM)", SecureD) by $(B Adam Wilson))
