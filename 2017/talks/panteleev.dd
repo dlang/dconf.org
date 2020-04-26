@@ -22,11 +22,11 @@ SLIDES_URL = http://thecybershadow.net/d/dconf2017/
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), View online) &middot; $(LINK2 https://github.com/CyberShadow/reveal.js/tree/dconf2017-meta, Source code)
 
-VIDEO_URL_Y = 
-
+VIDEO_URL_PRESENTATION = https://youtu.be/pcgE6lNJCNo
+VIDEO_URL_DEMO = https://youtu.be/btJzwaFPKfQ
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(T A, href="$(VIDEO_URL_PRESENTATION)",Presentation Video)<br />$(T A, href="$(VIDEO_URL_DEMO)",Demo Video)<br />
 
 LEVEL = Intermediate and Advanced
 

@@ -18,11 +18,11 @@ TALK_TITLE = Binderoo - A Rapid Iteration Framework That Even Scripters Can Use
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = 
+VIDEO_URL_Y = https://youtu.be/nro3txFndbM
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate
 
