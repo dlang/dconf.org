@@ -24,7 +24,7 @@ VIDEO_URL_Y = https://www.youtube.com/watch?v=dDg5qa-gVxw
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_YES)
+VIDEO = $(VIDEO_NO)
 
 ABSTRACT =
 There has been increasing interest recently in contributing to D, and many discussions on what to do to make the first steps of potential collaborators easier. This panel puts in the hot seat the major players in the process and build arena, in an unprecedented panel. Bring your toughest questions!

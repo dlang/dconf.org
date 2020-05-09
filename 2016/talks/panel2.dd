@@ -22,7 +22,7 @@ VIDEO_URL_Y = https://www.youtube.com/watch?v=RkeHXEoRbxs
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_YES)
+VIDEO = $(VIDEO_NO)
 
 ABSTRACT =
 This is a group interview with a few prominent folks at Sociomantic, the largest and most successful D outfit. Stay tuned for more information!

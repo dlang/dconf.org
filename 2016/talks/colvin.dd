@@ -26,7 +26,7 @@ VIDEO_URL_Y = https://www.youtube.com/watch?v=o9wnb-THiqI
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_YES)
+VIDEO = $(VIDEO_NO)
 
 LEVEL = All
 
