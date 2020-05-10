@@ -16,11 +16,11 @@ SPEAKER_PIC = $(BASE)/../2014/images/clugston.jpg
 
 SLIDES = $(SLIDES_YES)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=97bxjeP3LzY
+VIDEO_URL_Y = https://youtu.be/YEUAUnamQiA
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 TALK_TITLE = Using Floating Point Without Losing Your Sanity
 
