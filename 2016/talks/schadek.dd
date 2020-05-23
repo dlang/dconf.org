@@ -22,11 +22,11 @@ SLIDES_URL = http://www.slideshare.net/RobertSchadek/asynchronous-single-page-ap
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) &middot; $(LINK2 $(SLIDES_FILE pdf), PDF)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=PCdiRV23WkU
+VIDEO_URL_Y = https://youtu.be/XNI_ptOsgvA
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = All
 
