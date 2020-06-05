@@ -22,11 +22,11 @@ SLIDES_URL = http://www.slideshare.net/cruisercoder/dconf-2016-stddatabase-61743
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) &middot; $(LINK2 $(SLIDES_FILE pdf), PDF)
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=mhmonq2zDCQ
+VIDEO_URL_Y = https://youtu.be/BeFVccqh4zo
 
 VIDEO_URL_A =
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 LEVEL = Intermediate
 

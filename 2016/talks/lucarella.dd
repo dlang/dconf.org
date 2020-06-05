@@ -31,9 +31,9 @@ Extended slides: $(LINK2 $(SLIDES_URL_EXTENDED), SlideShare) &middot; $(LINK2 $(
 
 VIDEO_URL_A =
 
-VIDEO_URL_Y = https://www.youtube.com/watch?v=0iwO3S-3szM
+VIDEO_URL_Y = https://youtu.be/Betac3KPgNU
 
-VIDEO = $(VIDEO_NO)
+VIDEO = $(VIDEO_YES)
 
 BENEFITS =
 
