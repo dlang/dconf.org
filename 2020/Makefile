@@ -18,6 +18,8 @@ TO_COPY = \
 	$(wildcard talks/*.odp) \
 	$(wildcard talks/code.*.d) \
 	index.html \
+	online/images/ $(wildcard online/images/*.png online/images/*.svg online/images/*.jpg) \
+	online/ online/index.html \
 
 
 ALL_RELATIVE_PATHS = $(TO_COPY)
