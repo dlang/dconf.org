@@ -33,6 +33,23 @@
     <div class="w3-top text-white" style="background-color: #012169; font-size: 0.9em;">
       <div class="w3-bar">
           <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+          <a href="https://www.dconf.org/2019" class="w3-bar-item w3-btn w3-block w3-hide-small">2019</a>
+          <a href="https://www.dconf.org/2018" class="w3-bar-item w3-btn w3-block w3-hide-small">2018</a>
+          <a href="https://www.dconf.org/2017" class="w3-bar-item w3-btn w3-block w3-hide-small">2017</a>
+          <a href="https://www.dconf.org/2016" class="w3-bar-item w3-btn w3-block w3-hide-small">2016</a>
+          <a href="https://www.dconf.org/2015" class="w3-bar-item w3-btn w3-block w3-hide-small">2015</a>
+          <a href="https://www.dconf.org/2014" class="w3-bar-item w3-btn w3-block w3-hide-small">2014</a>
+          <a href="https://www.dconf.org/2013" class="w3-bar-item w3-btn w3-block w3-hide-small">2013</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
+      </div>
+      <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+          <a href="https://www.dconf.org/2019" class="w3-bar-item w3-btn w3-block">2019</a>
+          <a href="https://www.dconf.org/2018" class="w3-bar-item w3-btn w3-block">2018</a>
+          <a href="https://www.dconf.org/2017" class="w3-bar-item w3-btn w3-block">2017</a>
+          <a href="https://www.dconf.org/2016" class="w3-bar-item w3-btn w3-block">2016</a>
+          <a href="https://www.dconf.org/2015" class="w3-bar-item w3-btn w3-block">2015</a>
+          <a href="https://www.dconf.org/2014" class="w3-bar-item w3-btn w3-block">2014</a>
+          <a href="https://www.dconf.org/2013" class="w3-bar-item w3-btn w3-block">2013</a>
       </div>
     </div>
 
@@ -57,5 +74,16 @@
         </p>
       </article>
     </div>
+
+    <script>
+    function hamburger() {
+      var x = document.getElementById("small-menu");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
 </body>
 </html>
