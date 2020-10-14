@@ -16,10 +16,20 @@
       max-width: 700px;
       margin-bottom: 32px;
     }
-    h1, h2, h3, h4 {
+    h1, h2, h3 {
       font-family: 'Bree Serif', serif;
+    }
+    h1, h2 {
       background-color: #b03931!important;
       color: whitesmoke!important;
+      padding: 16px;
+    }
+    .w3-ul a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .w3-ul a:hover {
+      text-decoration: underline;
     }
     .text-white {
       color: #fff!important;
@@ -29,52 +39,57 @@
       background-color: #2b2d2f!important;
     }
     .talktitle {
-      font-size: 1.3em;
-      border-bottom-style: solid;
-      border-bottom-color: #000;
-      padding: 5px;
+      padding-bottom: 125px;
+      padding-right: 16px;
+      background-color: lightgray;
+      margin-bottom: 16px;
+    }
+    .speakerIMG {
+      float: left;
+      clear: left;
+      margin-right: 16px;
+      max-height: 250px;
     }
     .speaker {
-      font-size: 1.1em;
       font-weight: bold;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background-color: lightgray;
+      padding: 16px;
+      margin-top: 16px;
     }
     .toparticle {
       margin-top: 0.8em;
     }
-    .row {
-      padding-right: 1em;
-    }
-    .rowitem {
-      margin: 2em 0 0 2em;
-    }
     .ukred {
       color: #C8102E;
     }
+    .strike {
+      text-decoration: line-through;
+    }
     @media screen and (min-width: 600px) {
-      .row {
-        display: flex;
-        justify-content: center;
-      }
+
     }
 </style>
 <title>The D Programming Language Conference 2020</title>
 </head>
 
 <body class="w3-justify">
-    <!-- Links (sit on top) -->
-    <div class="w3-top text-white" style="background-color: #b03931; font-size: 0.9em;">
+    <div class="text-white" style="background-color: #b03931; font-size: 0.9em;">
       <div class="w3-bar">
           <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
           <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small">SUBMISSIONS</a>
           <a href="#swag" class="w3-bar-item w3-btn w3-block w3-hide-small">SWAG</a>
-          <a href="https://dconf.org/2020/" class="w3-bar-item w3-btn w3-block w3-hide-small">OFFLINE</a>
+          <a href="https://dconf.org/2020/" class="w3-bar-item w3-btn w3-block w3-hide-small">DCONF OFFLINE</a>
           <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small">DLANG.ORG</a>
           <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
       </div>
       <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
           <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
           <a href="#swag" class="w3-bar-item w3-btn w3-block">SWAG</a>
-          <a href="https://dconf.org/2020/" class="w3-bar-item w3-btn w3-block">OFFLINE</a>
+          <a href="https://dconf.org/2020/" class="w3-bar-item w3-btn w3-block">DCONF OFFLINE</a>
           <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
       </div>
     </div>
@@ -105,39 +120,398 @@
     <!-- Schedule Container -->
     <div class="w3-container" id="schedule">
       <article class="w3-content">
-        <h1 class="w3-center">Call for Submissions</h1>
-<!--
+        <h1 class="w3-center">Schedule</h1>
+
         <div class="w3-row w3-center w3-card w3-padding">
             <a href="javascript:void(0)" onclick="openMenu(event, 'day1');" id="myLink">
-              <div class="w3-col s3 tablink">Jun 17</div>
+              <div class="w3-col s3 tablink">November 21</div>
             </a>
             <a href="javascript:void(0)" onclick="openMenu(event, 'day2');">
-              <div class="w3-col s3 tablink">June 18</div>
+              <div class="w3-col s3 tablink">November 22</div>
             </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'day3');">
-              <div class="w3-col s3 tablink">June 19</div>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'beerconf');">
+              <div class="w3-col s3 tablink">#BeerConf</div>
             </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'day4');">
-              <div class="w3-col s3 tablink">June 20</div>
-            </a>
-          </div>
+        </div>
 
-          <div id="day1" class="w3-container menu w3-padding-48 w3-card">
-          <h2>Day One Schedule TBA</h2>
+        <div id="day1" class="w3-container menu w3-padding w3-card-4">
+            <ul class="w3-ul w3-card-4 w3-hide-small" style="background-color: lightgray;">
+              <li>14:00 UTC&mdash;<a href="#talk1">Keynote: Destroy All Memory Corruption</a> by Walter Bright</li>
+              <li>15:20 UTC&mdash;<a href="#talk2">D: The Functional Programming Language Nobody is Talking About</a> by Robert Schadek</li>
+              <li>16:40 UTC&mdash;<a href="#talk3">Helpful D Techniques</a> by Ali Çehreli</li>
+              <li>18:00 UTC&mdash;<a href="#talk4">Livestream: Ask Us Anything!</a> by Walter Bright and Átila Neves</li>
+              <li>19:10 UTC&mdash;<a href="#talk5">Parameter Passing & Delegate Covariance: What's Cooking?</a> by Mathias Lang</li>
+              <li>20:30 UTC&mdash;<a href="#talk6">Livecoding Session</a> by Adam D. Ruppe</li>
+            </ul>
+            <div id="talk1" class="w3-panel w3-border">
+              <div class="talktitle w3-card">
+                <img class="speakerIMG w3-image" src="../images/bright.jpg">
+                <h3>Keynote: Destroy All Memory Corruption</h3>
+                <p class="speaker">
+                  Walter Bright<br>
+                  Nov 21, 14:00 UTC
+                </p>
+              </div>
+              <p>Memory corruption is a pernicious and expensive problem.
+              Too often scrubbing it out of code requires manual review,
+              which becomes increasingly impractical as the size of code
+              increases. Runtime checks are inadequate because they cannot
+              prove that memory corruption cannot happen since only the test
+              cases are checked. The idea is to be able to detect memory
+              corruption at compile time as much as possible.</p>
+
+              <p>D has had great success at greatly reducing many common
+              forms of memory corruption, such as buffer overflows, use of
+              uninitialized pointers, constructing invalid pointers, and
+              dangling pointers into expired stack frames.</p>
+
+              <p>The largest remaining category of such problems is tracking
+              the lifetimes of memory objects and the references to them.
+              The idea is to pair every memory allocation with exactly one
+              deallocation and prevent references to a memory object
+              from surviving past the lifetime of that object. This presentation
+              describes the design of a memory ownership and borrowing
+              system suitable for inclusion into the D language, addressing
+              that category.</p>
+
+              <p class="bio w3-card">Walter Bright is the creator and first
+              implementer of the D programming language and has implemented
+              compilers for several other languages. He's an expert in all
+              areas of compiler technology, including front ends, optimizers,
+              code generation, interpreter engines and runtime libraries.
+              Walter regularly writes articles about compilers and
+              programming, is known for engaging and informative
+              presentations, and provides training in compiler development
+              techniques. Many are surprised to discover that Walter is also
+              the creator of the wargame Empire, which is still popular today
+              over 30 years after its debut.</p>
+            </div>
+            <div id="talk2" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/schadek.png">
+                <h3>D: The Functional Programming Language Nobody is Talking About</h3>
+                <p class="speaker">
+                  Robert Schadek<br>
+                  Nov 21, 15:20 UTC
+                </p>
+              </div>
+              <p>D is a functional programming language, but nobody is
+              talking about it. This should change, as functional
+              programming offers many advances that are easily exploited in
+              D.</p>
+
+              <p>D is a multi-paradigm programming language, and one of tho1se
+              paradigms is functional programming. Even though functional
+              programming is often considered to be a niche paradigm, it
+              offers many advantages. These advantages are easily exploited in
+              D. Unfortunately, functional programs are not bug free either,
+              but D's unique combination of built-in unit tests, functional
+              programming, and built-in code coverage allows many/most bugs to
+              be caught early.</p>
+
+              <p class="bio w3-card">Robert Schadek received a master's degree
+              in computer science at the University of Oldenburg. His master's
+              thesis was titled &ldquo;DMCD A Distributed Multithreading
+              Caching D Compiler&rdquo; and introduced multi-threading, among
+              other optimizations, to the compiler control flow. He was a
+              computer science PhD student from 2012&ndash;2018 at the
+              University of Oldenburg. His PhD research focused on quorum
+              systems in combination with graphs. Since 2018 he has been
+              happily using D in his day job working for Symmetry
+              Investments.</p>
+            </div>
+            <div id="talk3" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/cehreli.jpg">
+                <h3>Helpful D Techniques</h3>
+                <p class="speaker">
+                  Ali Çehreli<br>
+                  Nov 21, 16:40 UTC
+                </p>
+              </div>
+              <p>Loosely related to <a href="https://youtu.be/8JhP_Bd2DMc">his
+              DConf 2019 presentation</a>, Ali will present features of D that
+              have proven to be productive at Mercedes-Benz Research and
+              Development, North America: Parallelism, message passing
+              concurrency, nested functions, formatted strings, parsing files
+              at compile-time, profiling and reducing memory allocations, and
+              more.</p>
+
+              <p class="bio w3-card">Ali is a software engineer with
+              programming language experience mostly in C, C++, and D. His
+              past work includes a fun stint at WekaIO, a high performance
+              storage company that bases its technology entirely on D. Ali is
+              the author of the book <a
+              href="https://ddili.org/ders/d.en/">Programming in D</a>, the
+              Secretary of the D Language Foundation Committee, former
+              acting president of the Silicon Valley Chapter of the ACCU, an
+              organizer of the Silicon Valley DLang meetup group, and a team
+              member of the revolutionary Mill CPU. He currently works in the
+              sensor fusion team of the Autonomous Driving division at
+              Mercedes-Benz Research and Development, North America. One of
+              his responsibilities is helping with ISO 26262 software safety
+              issues.</p>
+            </div>
+
+            <div id="talk4" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/wna.png">
+                <h3>Livestream: Ask Us Anything!</h3>
+                <p class="speaker">
+                  Walter Bright and Átila Neves<br>
+                  Nov 21, 18:00 UTC
+                </p>
+              </div>
+              <p>DConf wouldn't be DConf, online or otherwise, without the &ldquo;Ask
+              Us Anything!&rdquo; tradition, where the language maintainers step onto
+              the stage to face the assembled<span class="strike"> mob</span>
+              crowd, take their<span class="strike"> grilling</span>
+              questions, and provide them with the answers they're looking
+              for.</p>
+
+              <p>For our online version, Walter and Átila will be taking most
+              questions from the livestream chat, but we'll also invite a
+              limited number of participants into the conference call to ask
+              their questions directly. Details will be provided at the top of
+              the event.</p>
+
+              <p>So prepare your statements and compile your queries! Walter
+              and Átila are very much looking forward to them. Really. No
+              fooling.</p>
+            </div>
+
+            <div id="talk5" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/lang.png">
+                <h3>Parameter Passing & Delegate Covariance: What's Cooking?</h3>
+                <p class="speaker">
+                  Mathias Lang<br>
+                  Nov 21, 19:10 UTC
+                </p>
+              </div>
+              <p>In this talk, Mathias will share his recent work and
+              future plans related to two topic that are core to D.</p>
+
+              <p>First and foremost, parameter passing: how the current
+              defaults affect us and the issues they bring. This includes the
+              recently added `-preview=in`, an experimental feature that
+              landed in D v2.094.0, and which attempts to redefine input
+              parameters.</p>
+
+              <p>The second part will focus on an issue that every library
+              developer should be familiar with: how delegates and attributes
+              are often at odds, and how writing good library code to support
+              them is not currently possible. Finally, Mathias will show
+              how a simple language addition could help solve this
+              problem.</p>
+
+              <p class="bio w3-card">Mathias Lang started his journey with D
+              in 2012 while looking for a language which could quench his
+              metaprogramming thirst. After a few years at Sociomantic Labs,
+              he is now CTO for <a
+              href="https://bosagora.io">https://bosagora.io</a>, developing a
+              blockchain project in D.</p>
+            </div>
+
+            <div id="talk6" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/ruppe.jpg">
+                <h3>Livecoding Session</h3>
+                <p class="speaker">
+                  Adam D. Ruppe<br>
+                  Nov 21, 20:30 UTC
+                </p>
+              </div>
+              <p>Adam will demonstrate some of <a
+              href="https://github.com/adamdruppe/arsd">his arsd D libraries</a>
+              as well as his personal development process by livecoding a
+              small, simple, online multiplayer game that runs natively on
+              Windows, Linux, and WebAssembly from the same source, along with
+              a web server to coordinate online play. He'll add functions to
+              the WebAssembly libraries as needed, giving a chance to discuss
+              how and why it works the way it does.</p>
+
+              <p class="bio w3-card">Adam has been a D user for over
+              thirteen years, known as a frequent participant in D chats, the
+              primary creator of <a
+              href="https://github.com/adamdruppe/arsd">the arsd all-purpose
+              library collection</a>, and the author of <a
+              href="https://www.packtpub.com/product/d-cookbook/9781783287215">the
+              D Cookbook</a>.</p>
+            </div>
           </div>
-          <div id="day2" class="w3-container menu w3-padding-48 w3-card">
-            <h2>Day Two Schedule TBA</h2>
+          <div id="day2" class="w3-container menu w3-padding w3-card-4">
+            <ul class="w3-ul w3-card-4 w3-hide-small" style="background-color: lightgray;">
+              <li>14:00 UTC&mdash;<a href="#talk7">Keynote</a> by Átila Neves</li>
+              <li>15:20 UTC&mdash;<a href="#talk8">&lsquo;Serialized&rsquo;: Cleanly Encode/Decode JSON and XML to any Data Type</a> by Mathis Beer</li>
+              <li>16:40 UTC&mdash;<a href="#talk9">Exposing a D Library to Python Through a C API</a> by Ali Çehreli</li>
+              <li>18:00 UTC&mdash;<a href="#talk10">Trust Me: An Exploration of @trusted Code in D</a> by Steven Schveighoffer</li>
+              <li>19:20 UTC&mdash;<a href="#talk11">Faster Compile Times: Approaching Zero Template Overhead</a> by Stefan Koch</li>
+            </ul>
+            <div id="talk7" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2019/images/neves.jpg">
+                <h3>Keynote</h3>
+                <p class="speaker">
+                  Átila Neves<br>
+                  Nov 22, 14:00 UTC
+                </p>
+              </div>
+              <p>TBA</p>
+
+              <p class="bio w3-card">Átila Neves has a PhD in Particle Physics
+              for research done at CERN. Most of the time spent there required
+              programming in C++, with a two-year stint as a Perl programmer
+              on the IT department's security team. He also worked for Cisco
+              for almost seven years, developing networking software in C and
+              C++ and leading his teams in the areas of software quality and
+              testing. He now works as a D consultant/programmer for Symmetry
+              Investments, as well as being the deputy maintainer of the D
+              programming language. He spends his spare time yelling at the
+              screen in frustration while waiting for computers to compile his
+              code.</p>
+            </div>
+            <div id="talk8" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/stock.png">
+                <h3>&lsquo;Serialized&rsquo;: Cleanly Encode/Decode JSON and XML to any Data Type</h3>
+                <p class="speaker">
+                  Mathis Beer<br>
+                  Nov 22, 15:20 UTC
+                </p>
+              </div>
+              <p>&lsquo;Serialized&rsquo; is <a
+              href="https://github.com/funkwerk/serialized">Funkwerk's
+              recently open-sourced library</a> for generically
+              encoding/decoding XML and JSON. This talk is about how to use
+              it, how it looks in practice, leaf encoding/decoding, why XML
+              sucks, generic transformers (functions that take internal data
+              types and yield a simpler data type that can be chained), and a
+              call to action.
+              </p>
+
+              <p class="bio w3-card">Mathis has been working at Funkwerk for
+              over three years. He is <a
+              href="https://github.com/funkwerk/serialized">the author of
+              Serialized</a> as well as the company's <a
+              href="https://github.com/funkwerk/boilerplate">Boilerplate
+              library</a>. He presented <a
+              href="https://youtu.be/nKMOFaAdtAc">at DConf 2019 in London</a>.
+              Mathis is also known in the D community as
+              &ldquo;FeepingCreature&rdquo;.</p>
+            </div>
+            <div id="talk9" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/cehreli.jpg">
+                <h3>Exposing a D Library to Python Through a C API</h3>
+                <p class="speaker">
+                  Ali Çehreli<br>
+                  Nov 22, 16:40 UTC
+                </p>
+              </div>
+              <p>This talk will demonstrate a method of exposing a D library
+              through a C API and give an example of using the library from
+              Python.</p>
+
+              <p class="bio w3-card">Ali is a software engineer with
+              programming language experiences mostly in C, C++, and D. His
+              past work includes a fun stint at WekaIO, a high performance
+              storage company that bases its technology entirely on D. Ali is
+              the author of the book Programming in D, the secretary and board
+              member of The D Language Foundation, former acting president of
+              the Silicon Valley Chapter of the ACCU, an organizer of the
+              Silicon Valley DLang meetup group, and a team member of the
+              revolutionary Mill CPU. He currently works in the sensor fusion
+              team of the Autonomous Driving division at Mercedes-Benz
+              Research and Development, North America. One of his
+              responsibilities is helping with ISO 26262 software safety
+              issues.</p>
+            </div>
+            <div id="talk10" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2018/images/schveighoffer.jpg">
+                <h3>Trust Me: An Exploration of @trusted Code in D</h3>
+                <p class="speaker">
+                  Steven Schveighoffer<br>
+                  Nov 22, 18:00 UTC
+                </p>
+              </div>
+              <p>This is a talk for all D coders who care about
+              <code>@safe</code> and
+              <code>@trusted</code> code (which should be all D coders!).
+              Steve will go over memory safety and how D's related attributes
+              can be used, with a focus on the interaction between
+              <code>@safe</code> and <code>@trusted</code>. It's actually easy
+              to write code that's tagged <code>@safe</code> that isn't
+              actually memory safe, thanks to the possibility that
+              <code>@safe</code> and
+              <code>@trusted</code> code can be written with different
+              semantic expectations on the same data. Steve will dig into this
+              through the example of a tagged union implementation.</p>
+
+              <p class="bio w3-card">Steven Schveighoffer has been to every
+              real-world DConf since 2013 and has presented at four of them.
+              He has published an article on the D Blog about writing @trusted
+              code, migrated a very unsafe, complex codebase to be @safe, and
+              worked on fixing @trusted issues in Phobos (D's standard
+              library) and DRuntime.</p>
+            </div>
+            <div id="talk11" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/koch.png">
+                <h3>Faster Compile Times: Approaching Zero Template Overhead</h3>
+                <p class="speaker">
+                  Stefan Koch<br>
+                  Nov 22, 19:20 UTC
+                </p>
+              </div>
+              <p>The D programming language offers a plethora of compile-time
+              features which allow for metaprogramming and code generation,
+              and which have seen increased usage over time. As a side effect, D
+              programmers who use these features have found themselves facing
+              increased compile times.</p>
+
+              <p>In this talk, Stefan will dig into DMD's internals to provide
+              context on this phenomenon. Through code examples, he'll show
+              what can cause increased compile times and how to make them
+              faster. He'll preview work that's currently being done to
+              improve the situation and discuss future directions.</p>
+
+              <p class="bio w3-card">Stefan has been programming in D
+              personally and professionally since 2013. He has taken a special
+              interest in the performance of D’s compile-time features and has
+              been contibuting to DMD for over four years. He has presented
+              either a full talk or a lightning talk at three DConfs and is
+              currently employed as a D programmer by Symmetry
+              Investments.</p>
+            </div>
           </div>
-          <div id="day3" class="w3-container menu w3-padding-48 w3-card">
-            <h2>Day 3 Schedule TBA</h2>
+          <div id="beerconf" class="w3-container menu w3-padding w3-card-4">
+            <p>At every real-world DConf, a location near the venue is selected
+            and annointed as the Official After-Hours Gathering Spot. After the
+            last talk each evening, DConf attendees wander in and out, mingling,
+            chatting, and just generally having a good time.
+            <a
+            href="https://dlang.org/blog/2017/04/19/the-dconf-experience/">Ethan
+            Watson coined the term &ldquo;BeerConf&rdquo;</a> to refer to this
+            event, and the name has stuck&mdash;so much so that he and other
+            members of the D community <a
+            href="https://forum.dlang.org/post/krtvrgubmqbnnrequmtq@forum.dlang.org">initiated
+            an online BeerConf</a> after DConf 2020 was canceled due to the
+            coronavirus pandemic. That one-off event was a hit, and it has been
+            running once a month ever since.</p>
+
+            <p>DConf Online is still DConf, so there still must be a BeerConf.
+            And since it's online, we can run it all weekend! The virtual
+            BeerConf space will be open from the evening (UTC) of Friday,
+            November 20 (the specific time will be announced in advance) and
+            will be continuously open all weekend to anyone who wants to join.
+            Despite the name, no alcohol is required to participate. As long as
+            you have a connected device, a web browser, a microphone, and an
+            optional webcam, you're invited to come on in and participate in
+            this annual DConf tradition.</p>
           </div>
-          <div id="day4" class="w3-container menu w3-padding-48 w3-card">
-            <h2>Hackathon Schedule TBA</h2>
-          </div>
--->
-          <p>
-            The submission period has ended. Thanks to everyone who submitted a talk. The schedule will be published here and announced at the D Blog on October 1st.
-          </p>
+          <div style="margin-top: 16px;"><a href="#schedule">Back to schedule top</a></div>
       </article>
     </div>
 
@@ -146,20 +520,17 @@
       <article class="w3-content">
         <h1 class="w3-center">Swag</h1>
         <p>
-          Speakers at an offline DConf are eligible to have their travel and lodging expenses reimbursed. Sadly, we can&#39;t offer any comparable reward for an online conference that is completely free, but we can offer something! Each speaker whose submission is accepted for the main event will be eligible to receive a DConf Online 2020 t-shirt and coffee mug. Those speakers whose talks are instead accepted for our new &#39;The D Community Presents&#39; playlist will be eligible to receive any t-shirt or coffee mug listed at <a href="https://www.zazzle.com/store/dlang_swag?rf=238129799288374326">the DLang Swag Emporium</a>.
-        </p>
-        <p>
-         DConf Online 2020 swag is now available for purchase at <a href="https://i0.wp.com/dlang.org/blog/wp-content/uploads/2019/08/royal_d.png?w=250&ssl=1">the DLang Swag Emporium</a>. All proceeds will be directed to the D Language Foundation General Fund, which is the fund we'll use to provide the free swag to our speakers and prizer for lucky participants. (<a href="https://www.flipcause.com/hosted_widget/hostedWidgetHome/NDMzMzE=">Direct donations to the General Fund</a> are welcome, too!)
+         DConf Online 2020 swag is available for purchase at <a href="https://www.zazzle.com/store/dlang_swag?rf=238129799288374326">the DLang Swag Emporium</a>. All proceeds will be directed to the D Language Foundation General Fund, which is the fund we're using to provide the free swag to our speakers and prizes for lucky viewers. (<a href="https://www.flipcause.com/hosted_widget/hostedWidgetHome/NDMzMzE=">Direct donations to the General Fund</a> are welcome, too!)
         </p>
          <p>
-         Prizes? Yes, prizes. Throughout the weekend, to show our gratitude for your support of DConf Online 2020, we'll hand out random prizes to a few lucky participants across the platforms we'll be using. Platform details will be announced as the conference date draws near, and the steps required for eligibility to get your hands on a prize will be announced throughout the event. So pay attention!
+         Prizes? Yes, prizes. Throughout the weekend, to show our gratitude for your support of DConf Online 2020, we'll hand out random prizes to a few lucky viewers. The steps required for eligibility to get your hands on a prize will be announced throughout the event. So pay attention!
          </p>
       </article>
     </div>
     <div class="w3-container w3-center w3-small">
       &copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
     </div>
-<!--
+
 <script>
   // Tabbed Menu
   function openMenu(evt, menuName) {
@@ -176,9 +547,7 @@
     evt.currentTarget.firstElementChild.className += " tabcolor";
   }
   document.getElementById("myLink").click();
-</script>
--->
-<script>
+
 function hamburger() {
   var x = document.getElementById("small-menu");
   if (x.className.indexOf("w3-show") == -1) {
