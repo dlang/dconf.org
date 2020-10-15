@@ -38,16 +38,15 @@
       color:#fff!important;
       background-color: #2b2d2f!important;
     }
+    .tablink {
+      min-width: 33%;
+    }
     .talktitle {
       padding-bottom: 125px;
-      padding-right: 16px;
       background-color: lightgray;
       margin-bottom: 16px;
     }
     .speakerIMG {
-      float: left;
-      clear: left;
-      margin-right: 16px;
       max-height: 250px;
     }
     .speaker {
@@ -69,8 +68,21 @@
     .strike {
       text-decoration: line-through;
     }
+    @media screen and (max-width: 599px) {
+     .talktitle {
+       text-align: center;
+     }
+    }
     @media screen and (min-width: 600px) {
-
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
     }
 </style>
 <title>The D Programming Language Conference 2020</title>
