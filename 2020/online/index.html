@@ -139,10 +139,10 @@
         <h1 class="w3-center">Schedule</h1>
 
         <div class="w3-row w3-center w3-card w3-padding">
-            <a href="javascript:void(0)" onclick="openMenu(event, 'day1');" id="myLink">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day1');" id="day1Schedule">
               <div class="w3-col s3 tablink">November 21</div>
             </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'day2');">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day2');" id="day2Schedule">
               <div class="w3-col s3 tablink">November 22</div>
             </a>
             <a href="javascript:void(0)" onclick="openMenu(event, 'beerconf');">
@@ -162,7 +162,7 @@
             <div id="talk1" class="w3-panel w3-border">
               <div class="talktitle w3-card">
                 <img class="speakerIMG w3-image" src="../images/bright.jpg">
-                <h3>Keynote: Destroy All Memory Corruption</h3>
+                <a id="walter"><h3>Keynote: Destroy All Memory Corruption</h3></a>
                 <p class="speaker">
                   Walter Bright<br>
                   Nov 21, 14:00 UTC
@@ -206,7 +206,7 @@
             <div id="talk3" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/cehreli.jpg">
-                <h3>Helpful D Techniques</h3>
+                <a id="ali1"><h3>Helpful D Techniques</h3></a>
                 <p class="speaker">
                   Ali Çehreli<br>
                   Nov 21, 15:20 UTC
@@ -239,7 +239,7 @@
             <div id="talk2" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/schadek.png">
-                <h3>D: The Functional Programming Language Nobody is Talking About</h3>
+                <a id="robert"><h3>D: The Functional Programming Language Nobody is Talking About</h3></a>
                 <p class="speaker">
                   Robert Schadek<br>
                   Nov 21, 16:40 UTC
@@ -273,7 +273,7 @@
             <div id="talk4" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/wna.png">
-                <h3>Livestream: Ask Us Anything!</h3>
+                <a id="aua"><h3>Livestream: Ask Us Anything!</h3></a>
                 <p class="speaker">
                   Walter Bright and Átila Neves<br>
                   Nov 21, 18:00 UTC
@@ -300,7 +300,7 @@
             <div id="talk5" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/lang.png">
-                <h3>Parameter Passing & Delegate Covariance: What's Cooking?</h3>
+                <a id="mathias"><h3>Parameter Passing & Delegate Covariance: What's Cooking?</h3></a>
                 <p class="speaker">
                   Mathias Lang<br>
                   Nov 21, 19:10 UTC
@@ -333,7 +333,7 @@
             <div id="talk6" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/ruppe.jpg">
-                <h3>Livecoding Session</h3>
+                <a id="adam"><h3>Livecoding Session</h3></a>
                 <p class="speaker">
                   Adam D. Ruppe<br>
                   Nov 21, 20:30 UTC
@@ -369,7 +369,7 @@
             <div id="talk7" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="../../2019/images/neves.jpg">
-                <h3>Keynote</h3>
+                <a id="atila"><h3>Keynote</h3></a>
                 <p class="speaker">
                   Átila Neves<br>
                   Nov 22, 14:00 UTC
@@ -392,7 +392,7 @@
             <div id="talk8" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/stock.png">
-                <h3>&lsquo;Serialized&rsquo;: Cleanly Encode/Decode JSON and XML to any Data Type</h3>
+                <a id="mathis"><h3>&lsquo;Serialized&rsquo;: Cleanly Encode/Decode JSON and XML to any Data Type</h3></a>
                 <p class="speaker">
                   Mathis Beer<br>
                   Nov 22, 15:20 UTC
@@ -421,7 +421,7 @@
             <div id="talk9" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/cehreli.jpg">
-                <h3>Exposing a D Library to Python Through a C API</h3>
+                <<a id="ali2"><h3>Exposing a D Library to Python Through a C API</h3></a>
                 <p class="speaker">
                   Ali Çehreli<br>
                   Nov 22, 16:40 UTC
@@ -448,7 +448,7 @@
             <div id="talk10" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="../../2018/images/schveighoffer.jpg">
-                <h3>Trust Me: An Exploration of @trusted Code in D</h3>
+                <a id="steven"><h3>Trust Me: An Exploration of @trusted Code in D</h3></a>
                 <p class="speaker">
                   Steven Schveighoffer<br>
                   Nov 22, 18:00 UTC
@@ -477,7 +477,7 @@
             <div id="talk11" class="w3-panel w3-border">
               <div class="talktitle w3-card">
                 <img class="speakerIMG w3-image" src="../../2019/images/militaru.jpg">
-                <h3>sil-cling: A Story of Three Languages</h3>
+                <a id="alexandru"><h3>sil-cling: A Story of Three Languages</h3></a>
                 <p class="speaker">
                   Alexandru Militaru<br>
                   Nov 22, 19:20 UTC
@@ -505,7 +505,7 @@
             <div id="talk12" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/koch.png">
-                <h3>Faster Compile Times: Approaching Zero Template Overhead</h3>
+                <a id="stefan"><h3>Faster Compile Times: Approaching Zero Template Overhead</h3></a>
                 <p class="speaker">
                   Stefan Koch<br>
                   Nov 22, 19:50 UTC
@@ -592,16 +592,36 @@
     document.getElementById(menuName).style.display = "block";
     evt.currentTarget.firstElementChild.className += " tabcolor";
   }
-  document.getElementById("myLink").click();
 
-function hamburger() {
-  var x = document.getElementById("small-menu");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
   }
-}
+
+  function pickTab() {
+    const hash = new URL(document.URL).hash;
+    var loc = "day1Schedule";
+    if(hash) {
+      console.log(hash);
+      switch(hash) {
+        case "#atila":
+        case "#mathis":
+        case "#ali2":
+        case "#steven":
+        case "#alexandru":
+        case "#stefan":
+          loc = "day2Schedule";
+          break;
+        default: break;
+      }
+    }
+    document.getElementById(loc).click();
+  }
+  pickTab();
 </script>
 </body>
 </html>
