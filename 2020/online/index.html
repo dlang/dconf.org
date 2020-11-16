@@ -153,8 +153,9 @@
         <div id="day1" class="w3-container menu w3-padding w3-card-4">
             <ul class="w3-ul w3-card-4 w3-hide-small" style="background-color: lightgray;">
               <li>14:00 UTC&mdash;<a href="#talk1">Keynote: Destroy All Memory Corruption</a> by Walter Bright</li>
-              <li>15:20 UTC&mdash;<a href="#talk3">Helpful D Techniques</a> by Ali Çehreli</li>
-              <li>16:40 UTC&mdash;<a href="#talk2">D: The Functional Programming Language Nobody is Talking About</a> by Robert Schadek</li>
+              <li>14:45 UTC&mdash;<a href="#talk3">Helpful D Techniques</a> by Ali Çehreli</li>
+              <li>16:00 UTC&mdash;<a href="#talk2">D: The Functional Programming Language Nobody is Talking About</a> by Robert Schadek</li>
+              <li>17:20 UTC&mdash;<a href="#talk11">sil-cling: A Story of Three Languages</a> by Alexandru Militaru</li>
               <li>18:00 UTC&mdash;<a href="#talk4">Livestream: Ask Us Anything!</a> by Walter Bright and Átila Neves</li>
               <li>19:10 UTC&mdash;<a href="#talk5">Parameter Passing & Delegate Covariance: What's Cooking?</a> by Mathias Lang</li>
               <li>20:30 UTC&mdash;<a href="#talk6">Livecoding Session</a> by Adam D. Ruppe</li>
@@ -209,7 +210,7 @@
                 <a id="ali1"><h3>Helpful D Techniques</h3></a>
                 <p class="speaker">
                   Ali Çehreli<br>
-                  Nov 21, 15:20 UTC
+                  Nov 21, 14:45 UTC
                 </p>
               </div>
               <p>Loosely related to <a href="https://youtu.be/8JhP_Bd2DMc">his
@@ -242,7 +243,7 @@
                 <a id="robert"><h3>D: The Functional Programming Language Nobody is Talking About</h3></a>
                 <p class="speaker">
                   Robert Schadek<br>
-                  Nov 21, 16:40 UTC
+                  Nov 21, 16:00 UTC
                 </p>
               </div>
               <p>D is a functional programming language, but nobody is
@@ -269,6 +270,34 @@
               systems in combination with graphs. Since 2018 he has been
               happily using D in his day job working for Symmetry
               Investments.</p>
+            </div>
+            <div id="talk11" class="w3-panel w3-border">
+              <div class="talktitle w3-card">
+                <img class="speakerIMG w3-image" src="../../2019/images/militaru.jpg">
+                <a id="alexandru"><h3>sil-cling: A Story of Three Languages</h3></a>
+                <p class="speaker">
+                  Alexandru Militaru<br>
+                  Nov 22, 17:20 UTC
+                </p>
+              </div>
+              <p>Symmetry Integration Language (SIL) is a D-based
+              domain-specific language of functional flavor. Heavily relying on
+              D's reflection mechanism and its inherent plasticity, one of SIL's
+              greatest achievements is its interoperability with many other
+              sorts of languages and systems. This talk aims to present one of
+              SIL’s extensions, called “sil-cling”, that allows transparent
+              calling of C++ libraries via JIT compilation at runtime. Following
+              DConf’s lightning talks tradition, this presentation will be a
+              quick mix of description and demonstration of sil-cling’s
+              power..</p>
+
+              <p class="bio w3-card">Alexandru Militaru is an MSc student at
+              University "Politehnica" of Bucharest. He is passionate about
+              operating systems and compilers. In his bachelor thesis project,
+              he used D to strengthen the security of Linux kernel modules. This
+              was the subject of <a href="https://youtu.be/weRSwbZtKu0">his very
+              first talk at DConf 2019</a>. He now works as a D
+              consultant/programmer for Symmetry Investments.</p>
             </div>
             <div id="talk4" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
@@ -363,8 +392,7 @@
               <li>15:20 UTC&mdash;<a href="#talk8">&lsquo;Serialized&rsquo;: Cleanly Encode/Decode JSON and XML to any Data Type</a> by Mathis Beer</li>
               <li>16:40 UTC&mdash;<a href="#talk9">Exposing a D Library to Python Through a C API</a> by Ali Çehreli</li>
               <li>18:00 UTC&mdash;<a href="#talk10">Trust Me: An Exploration of @trusted Code in D</a> by Steven Schveighoffer</li>
-              <li>19:20 UTC&mdash;<a href="#talk11">sil-cling: A Story of Three Languages</a> by Alexandru Militaru</li>
-              <li>19:50 UTC&mdash;<a href="#talk12">Faster Compile Times: Approaching Zero Template Overhead</a> by Stefan Koch</li>
+              <li>19:20 UTC&mdash;<a href="#talk12">Faster Compile Times: Approaching Zero Template Overhead</a> by Stefan Koch</li>
             </ul>
             <div id="talk7" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
@@ -482,41 +510,13 @@
               worked on fixing @trusted issues in Phobos (D's standard
               library) and DRuntime.</p>
             </div>
-            <div id="talk11" class="w3-panel w3-border">
-              <div class="talktitle w3-card">
-                <img class="speakerIMG w3-image" src="../../2019/images/militaru.jpg">
-                <a id="alexandru"><h3>sil-cling: A Story of Three Languages</h3></a>
-                <p class="speaker">
-                  Alexandru Militaru<br>
-                  Nov 22, 19:20 UTC
-                </p>
-              </div>
-              <p>Symmetry Integration Language (SIL) is a D-based
-              domain-specific language of functional flavor. Heavily relying on
-              D's reflection mechanism and its inherent plasticity, one of SIL's
-              greatest achievements is its interoperability with many other
-              sorts of languages and systems. This talk aims to present one of
-              SIL’s extensions, called “sil-cling”, that allows transparent
-              calling of C++ libraries via JIT compilation at runtime. Following
-              DConf’s lightning talks tradition, this presentation will be a
-              quick mix of description and demonstration of sil-cling’s
-              power..</p>
-
-              <p class="bio w3-card">Alexandru Militaru is an MSc student at
-              University "Politehnica" of Bucharest. He is passionate about
-              operating systems and compilers. In his bachelor thesis project,
-              he used D to strengthen the security of Linux kernel modules. This
-              was the subject of <a href="https://youtu.be/weRSwbZtKu0">his very
-              first talk at DConf 2019</a>. He now works as a D
-              consultant/programmer for Symmetry Investments.</p>
-            </div>
             <div id="talk12" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/koch.png">
                 <a id="stefan"><h3>Faster Compile Times: Approaching Zero Template Overhead</h3></a>
                 <p class="speaker">
                   Stefan Koch<br>
-                  Nov 22, 19:50 UTC
+                  Nov 22, 19:20 UTC
                 </p>
               </div>
               <p>The D programming language offers a plethora of compile-time
