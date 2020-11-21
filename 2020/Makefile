@@ -19,6 +19,7 @@ TO_COPY = \
 	$(wildcard talks/code.*.d) \
 	index.html \
 	online/images/ $(wildcard online/images/*.png online/images/*.svg online/images/*.jpg) \
+	online/slides/ $(wildcard online/slides/*.pdf online/slides/*.pptx online/slides/*.odp) \
 	online/ online/index.html \
 
 
