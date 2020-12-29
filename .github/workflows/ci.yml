@@ -1,0 +1,33 @@
+name: CI
+on: [ push, pull_request ]
+
+jobs:
+  main:
+    name: Run
+    runs-on: 'ubuntu-latest'
+    steps:
+      # Uses the latest DMD
+      - uses: dlang-community/setup-dlang@v1
+      - uses: actions/checkout@v2
+      - name: Test
+        run: |
+          make all
+
+      - name: Deploy to Github pages
+        if: github.event_name == 'push'
+        run: |
+          # Remove gh-branch if it already exists, check it out
+          git branch -D gh-pages || true
+          git checkout --orphan gh-pages
+          # Remove all staged files - We only need the docs
+          git rm -rf $(git ls-files)
+          # We can have some leftover files (e.g. build)
+          # So add out (which is only what we need), then `git mv` it.
+          git add out/
+          git mv -k out/* ./
+          # Configure user (because persist-credentials does not persist everything)
+          git config --global user.name  "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          # We're done
+          git commit -m "Deployment for commit ${{ github.sha }}"
+          git push -f ${{ github.event.repository.clone_url }} gh-pages:gh-pages
