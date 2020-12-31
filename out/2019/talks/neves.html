@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../includes/style.css" rel="stylesheet" type="text/css">
+<link href="../images/favicon.ico" rel="shortcut icon">
+<title >DConf 2019 speaker: Átila Neves</title>
+</head>
+<body>
+  
+<header id="masthead" role="banner">
+<img src="../images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London">
+</header>
+  
+<nav id="sitenav" role=navigation>    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2018">2018</a></li>
+      <li><a href="../../2017">2017</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+</nav>
+  
+<div id="container">  
+<main role="main">  
+  <div class="wrapper">    <h1 align=left>Frictionless D adoption for the masses.</h1>
+    <p><img src="../images/neves.jpg" height="170" alt=""></p>
+
+    <div ><p><b><a class="name" href="">Átila Neves</a><br>
+      May 9 @ 13:30</b><br><br><i>Duration:</i> 50 minutes<br>
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> All<br />
+      
+      <i>Slides:</i> <b><a href="../talks/neves.pdf">PDF</a></b><br />
+      <b><A href="https://youtu.be/79COPHF3TnE">Video</A><br /></b>
+    </div><!-- end <div > -->
+      <p><b><u>Abstract:</u>&nbsp;</b>
+<p>The talk will mention psychological aspects of programming language adoption, and how C++ "conquered the world" by removing barriers to entry for C programmers. It will suggest a way for D to copy C++'s success in this area.
+</p>
+
+<p><b><u>Description</u></b></p>
+
+<p>The talk will cover anecdotes from the speaker's experience with regards to getting software teams to adopt, or at least consider adopting, D. It will mention that the speaker himself once chose C++ over D at work, why his team efforts ultimately failed, and the steps he believes are needed to decrease the friction of adoption so that it comes naturally.
+</p>
+
+<p>The talk will spend some time on C++'s success, specifically how it made the transition from C codebases so easy that its ubiquity will quite likely last at least a few decades more. It is the speaker's belief that C++'s killer feature is the ability to <code>#include</code> C headers with at most wrapping the preprocessor directive in an
+<code>extern "C" {}</code> block, and the talk will argue that the only way to emulate that success is to "steal" said killer feature. That is, to make it possible to write:
+<pre>#include "foo.h"</pre>
+And have that work as simply and easily as it does in C++, with the exact same semantics.
+</p>
+
+<p>The talk will conclude with a case study of an implementation of said feature that doesn't require compiler modifications or a forked compiler, and suggest that some of the work demonstrated be included in future versions of dmd.
+</p>
+
+<p>It will also mention existing alternatives in the D ecosystem to interface with C and C++ and how they're not enough to make adoption as easy as it can be.
+</p></p>
+      <p><b><u>Speaker Bio:</u> </b> 
+<p>Átila Neves has a PhD in Particle Physics for research done at CERN. Most of the time spent there required programming in C++, with a 2-year stint as a Perl programmer in the IT department's security team. He also worked for Cisco for almost 7 years, developing networking software in C and C++ and leading his teams in the areas of software quality and testing. He now works as a D consultant/programmer for Symmetry Investments. He spends his spare time yelling at the screen in frustration while waiting for computers to compile his code.
+</p></p>
+  </div><!-- end <div class="wrapper"> -->
+</main>
+  
+<section id="sidebar">  <div class="wrapper">    <div id="sponsors">      <p>Partner/Host/Organizer:</p>
+      <p>        <a href="http://symmetryinvestments.com/">          <img src="../images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+        </a>
+      </p>
+      <p>Sponsor:</p>
+      <p>        <a href="http://mbrdna.com/">          <img src="../images/mbrdna.png" alt="Mercedes-Benz Research and Development North America" border="0" width="270"/>
+        </a>
+      </p>
+    </div><!-- end <div id="sponsors"> -->
+    <div id="twitter">      <a class="twitter-timeline" data-height="640" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="twitter"> -->
+    <div id="hash">      <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="hash"> -->
+  </div><!-- end <div class="wrapper"> -->
+</section>
+</div><!-- end <div id="container"> -->
+  
+<footer id="sitefoot" role="contentinfo">  <p>&copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+  </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../includes/style.css" rel="stylesheet" type="text/css">
+<link href="../images/favicon.ico" rel="shortcut icon">
+<title >DConf 2019 speaker: Eduard Staniloiu</title>
+</head>
+<body>
+  
+<header id="masthead" role="banner">
+<img src="../images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London">
+</header>
+  
+<nav id="sitenav" role=navigation>    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2018">2018</a></li>
+      <li><a href="../../2017">2017</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+</nav>
+  
+<div id="container">  
+<main role="main">  
+  <div class="wrapper">    <h1 align=left>Rethinking the Default Class Hierarchy: an Object’s Tale</h1>
+    <p><img src="../../2018/images/staniloiu.jpg" height="170" alt=""></p>
+
+    <div ><p><b><a class="name" href="">Eduard Staniloiu</a><br>
+      May 9 @ 14:30</b><br><br><i>Duration:</i> 25 minutes<br>
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Beginner - Intermediate<br />
+      
+      <i>Slides:</i> <b><a href="../talks/staniloiu.pptx">PPTX</a></b><br />
+      <b><A href="https://youtu.be/EcG5mnOzZ0s">Video</A><br /></b>
+    </div><!-- end <div > -->
+      <p><b><u>Abstract:</u>&nbsp;</b>
+<p>Every class defined in the D language has <code>Object</code> as the root ancestor. <code>Object</code> defines four
+methods: <code>toString</code>, <code>toHash</code>, <code>opCmp</code> and <code>opEquals</code>; at first glance, their presence might not
+strike you with much, but they are doing more harm than good. Their signatures predate the
+introduction of the <code>@nogc</code>, <code>nothrow</code>, <code>pure</code>, and <code>@safe</code> function attributes, and also of the <code>const</code>,
+<code>immutable</code>, and <code>shared</code> type qualifiers. As a consequence, these methods make it difficult to use
+<code>Object</code> with qualifiers or in code with properties such as <code>@nogc</code>, <code>pure</code>, or <code>@safe</code>. We propose
+the introduction of a new class, <code>ProtoObject</code>, as the root class and ancestor of <code>Object</code>.
+<code>ProtoObject</code> defines no method and requires the user to implement the desired behaviour
+through interfaces: this approach enables the user to opt-in for the behaviour that makes sense
+for his class and the design is flexible enough to allow future attributes and language
+improvements to be used without breaking code.
+</p>
+
+<p><b><u>Description</u></b></p>
+
+<p>We start by having a look at the current design and discuss the shortcomings of <code>Object</code>. There are two main issues:
+    <ul >        <li>The user has no way of opting out of one of the four methods; Ex. there are classes for which <code>opCmp</code> doesn't make sense</li>
+        <li>The signatures predate function attributes and qualifiers and this makes it difficult, if not impossible, to work with object in attributed code. Since we sadly can't predict the future and know if and what attributes and qualifiers will be available in the language, this is yet another argument to have a <code>ProtoObject</code> with no methods.</li>
+    </ul>
+</p>
+
+<p>We will discuss how existing code and new code will interact with <code>ProtoObject</code> in this brave new world.
+</p></p>
+      <p><b><u>Speaker Bio:</u> </b> 
+<p>Eduard is a PhD student and Teaching Assistant at University "Politehnica" of Bucharest. He is a hard working student who enjoys ​to get his hands dirty
+</p>
+
+<p>He likes learning new technologies and strengthening his current knowledge. He is passionate about computer science, programming languages, coffee and doing nothing. His previous experience includes distributed systems and parallel programming, operating systems, basic kernel development, open-source software and basic Android programming. He is a Linux fan, a command line addict and a vim enthusiast. He hopes that through his work he will be able to help and improve the D language, which he is becoming so fond of.
+</p></p>
+  </div><!-- end <div class="wrapper"> -->
+</main>
+  
+<section id="sidebar">  <div class="wrapper">    <div id="sponsors">      <p>Partner/Host/Organizer:</p>
+      <p>        <a href="http://symmetryinvestments.com/">          <img src="../images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+        </a>
+      </p>
+      <p>Sponsor:</p>
+      <p>        <a href="http://mbrdna.com/">          <img src="../images/mbrdna.png" alt="Mercedes-Benz Research and Development North America" border="0" width="270"/>
+        </a>
+      </p>
+    </div><!-- end <div id="sponsors"> -->
+    <div id="twitter">      <a class="twitter-timeline" data-height="640" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="twitter"> -->
+    <div id="hash">      <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="hash"> -->
+  </div><!-- end <div class="wrapper"> -->
+</section>
+</div><!-- end <div id="container"> -->
+  
+<footer id="sitefoot" role="contentinfo">  <p>&copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+  </p>
+</footer>
+</body>
+</html>

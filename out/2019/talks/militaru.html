@@ -1,0 +1,96 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../includes/style.css" rel="stylesheet" type="text/css">
+<link href="../images/favicon.ico" rel="shortcut icon">
+<title >DConf 2019 speaker: Alexandru Militaru</title>
+</head>
+<body>
+  
+<header id="masthead" role="banner">
+<img src="../images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London">
+</header>
+  
+<nav id="sitenav" role=navigation>    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2018">2018</a></li>
+      <li><a href="../../2017">2017</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+</nav>
+  
+<div id="container">  
+<main role="main">  
+  <div class="wrapper">    <h1 align=left>D for a @safer Linux Kernel</h1>
+    <p><img src="../images/militaru.jpg" height="170" alt=""></p>
+
+    <div ><p><b><a class="name" href="">Alexandru Militaru</a><br>
+      May 9 @ 15:00</b><br><br><i>Duration:</i> 25 minutes<br>
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Beginner - Intermediate<br />
+      
+      <i>Slides:</i> <b><a href="../talks/militaru.pptx">PPTX</a></b><br />
+      <b><A href="https://youtu.be/weRSwbZtKu0">Video</A><br /></b>
+    </div><!-- end <div > -->
+      <p><b><u>Abstract:</u>&nbsp;</b>
+<p>D is advertised as a safe and fast systems programming language. “Fast code, fast." is the mantra of the D community. But how fast is it really and how suitable for systems programming? We thought to investigate this by porting a Linux kernel driver to D, documenting the process, and assessing the results. The talk will delve into the details of integrating a D kernel module with the C-written kernel, discuss the difficulties encountered, and present the performance and safety benchmarks obtained. If you ever wondered if writing a Linux driver in D would be a good idea and
+how to do that, then this talk could be a good starting point for you.
+</p>
+
+<p><b><u>Description</u></b></p>
+
+<p>The talk aims to present the steps we took to port a Linux device driver to D, namely virtio_net. We will comment on the main difficulties we encountered and how we overcame them, the safety improvements we achieved using features implemented in the D language, and the performance and safety benchmarks obtained. There will be five big topics discussed:
+    <ul >        <li>linking a D object file with the other Linux kernel objects</li>
+        <li>porting C code to D: issues, design decisions and shortcomings</li>
+        <li>a better C: the features we used to improve the code’s safety and how we did that</li>
+        <li>assessing the D-written driver’s behaviour: benchmarks and results</li>
+        <li>conclusions</li>
+    </ul>
+</p>
+
+<p>The talk offers a starting point and proposes a methodology for those who want to port or implement a Linux driver in D and, in the end, reflects on how suitable D is for kernel programming, how fast it is in such an environment, and what improvements it brings.
+</p>
+
+<p><b><u>Current Status</u></b></p>
+
+<p>By the end of March, the porting of the virtio_net driver will be done. From that point on, we will begin “D-ifying” the obtained code and benchmark it. Our estimate is that by the time of the conference everything will be ready. Even if something unexpected occurs and delays the project schedule, we think that the discoveries we have made so far should be interesting enough for the D community.
+</p></p>
+      <p><b><u>Speaker Bio:</u> </b> 
+<p>Alexandru Militaru is a student in his final year of bachelor’s studies and an undergraduate teaching assistant at University "Politehnica" of Bucharest. He is passionate about operating systems and compilers. In his bachelor thesis project, he uses the D programming language to strengthen the security of Linux kernel modules.
+</p></p>
+  </div><!-- end <div class="wrapper"> -->
+</main>
+  
+<section id="sidebar">  <div class="wrapper">    <div id="sponsors">      <p>Partner/Host/Organizer:</p>
+      <p>        <a href="http://symmetryinvestments.com/">          <img src="../images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+        </a>
+      </p>
+      <p>Sponsor:</p>
+      <p>        <a href="http://mbrdna.com/">          <img src="../images/mbrdna.png" alt="Mercedes-Benz Research and Development North America" border="0" width="270"/>
+        </a>
+      </p>
+    </div><!-- end <div id="sponsors"> -->
+    <div id="twitter">      <a class="twitter-timeline" data-height="640" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="twitter"> -->
+    <div id="hash">      <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="hash"> -->
+  </div><!-- end <div class="wrapper"> -->
+</section>
+</div><!-- end <div id="container"> -->
+  
+<footer id="sitefoot" role="contentinfo">  <p>&copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+  </p>
+</footer>
+</body>
+</html>

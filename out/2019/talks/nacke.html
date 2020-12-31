@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../includes/style.css" rel="stylesheet" type="text/css">
+<link href="../images/favicon.ico" rel="shortcut icon">
+<title >DConf 2019 speaker: Kai Nacke</title>
+</head>
+<body>
+  
+<header id="masthead" role="banner">
+<img src="../images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London">
+</header>
+  
+<nav id="sitenav" role=navigation>    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2018">2018</a></li>
+      <li><a href="../../2017">2017</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+</nav>
+  
+<div id="container">  
+<main role="main">  
+  <div class="wrapper">    <h1 align=left>Handmade or tool-built?</h1>
+    <p><img src="../../2018/images/nacke.jpg" height="170" alt=""></p>
+
+    <div ><p><b><a class="name" href="">Kai Nacke</a><br>
+      May 10 @ 15:30</b><br><br><i>Duration:</i> 50 minutes<br>
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Intermediate<br />
+      
+      <i>Slides:</i> <b><a href="../talks/nacke.pdf">PDF</a></b><br />
+      <b><A href="https://youtu.be/PJpGySqFm2U">Video</A><br /></b>
+    </div><!-- end <div > -->
+      <p><b><u>Abstract:</u>&nbsp;</b>
+<p>On the evolution of a parser generator written in D.
+</p>
+
+<p><b><u>Description</u></b></p>
+
+<p>The parsers of real-world compilers like dmd and clang are hand-written. Does it have to be that way? Tools like Coco and AntLR are too simple or bring additional dependencies. In many such tools support for D is outdated or not available. When I was faced with the task of writing a parser for a programming language, I did not think about it for a long time, and decided to create a hand-written reursive descent parser. But it was immediately clear that this is a tedious job. I came up with the idea to automate the essential part of it. The aim was to achieve convenience before completeness. Repetitive activities should be removed from the programmer's resonsibilities without causing restrictions.
+</p>
+
+<p>The result is my tool, LLtool. LLtool generates just the body of a parser from a grammar description, relying on conventions to interface with other parts of a compiler. In my talk I show how a grammar and a recursive descent parser relate to each other and create a parser from a grammar description. I also show how limitations of my approach can be solved in a systematic way. A further topic is how to support language variations. For demonstration, I use the grammar of a real programming language.
+</p></p>
+      <p><b><u>Speaker Bio:</u> </b> 
+<p>Kai Nacke is a professional IT architect. In his spare time he likes to develop open source applications. He was maintainer of LDC, the LLVM-based D compiler, and a committer of the LLVM project. His contributions to LDC include ports to different CPU architectures and operating systems. Another interest of him is using D for business applications. He is the developer of the D bindings for SAP. Besides being programmer, he is also the author of "D Web Development" and a speaker at the Free and Open Source Software Developers' European Meeting (FOSDEM).
+</p></p>
+  </div><!-- end <div class="wrapper"> -->
+</main>
+  
+<section id="sidebar">  <div class="wrapper">    <div id="sponsors">      <p>Partner/Host/Organizer:</p>
+      <p>        <a href="http://symmetryinvestments.com/">          <img src="../images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+        </a>
+      </p>
+      <p>Sponsor:</p>
+      <p>        <a href="http://mbrdna.com/">          <img src="../images/mbrdna.png" alt="Mercedes-Benz Research and Development North America" border="0" width="270"/>
+        </a>
+      </p>
+    </div><!-- end <div id="sponsors"> -->
+    <div id="twitter">      <a class="twitter-timeline" data-height="640" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="twitter"> -->
+    <div id="hash">      <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="hash"> -->
+  </div><!-- end <div class="wrapper"> -->
+</section>
+</div><!-- end <div id="container"> -->
+  
+<footer id="sitefoot" role="contentinfo">  <p>&copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+  </p>
+</footer>
+</body>
+</html>

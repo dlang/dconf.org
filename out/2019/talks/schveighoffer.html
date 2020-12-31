@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../includes/style.css" rel="stylesheet" type="text/css">
+<link href="../images/favicon.ico" rel="shortcut icon">
+<title >DConf 2019 speaker: Steven Schveighoffer</title>
+</head>
+<body>
+  
+<header id="masthead" role="banner">
+<img src="../images/dconf-2019-logo2.png" alt="DConf 2019: May 8&#x2013;11 &#x00B7; London">
+</header>
+  
+<nav id="sitenav" role=navigation>    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2018">2018</a></li>
+      <li><a href="../../2017">2017</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+</nav>
+  
+<div id="container">  
+<main role="main">  
+  <div class="wrapper">    <h1 align=left>D is for (De)Serialization</h1>
+    <p><img src="../../2018/images/schveighoffer.jpg" height="170" alt=""></p>
+
+    <div ><p><b><a class="name" href="http://schveiguy.com">Steven Schveighoffer</a><br>
+      May 10 @ 11:00</b><br><br><i>Duration:</i> 50 minutes<br>
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> All<br />
+      
+      <i>Slides:</i> <b><a href="../talks/schveighoffer.pdf">PDF</a></b><br />
+      <b><A href="https://youtu.be/Y-cgh-rwoC8">Video</A><br /></b>
+    </div><!-- end <div > -->
+      <p><b><u>Abstract:</u>&nbsp;</b>
+<p>Why is it that every time I write some project in D, I end up writing a serializer? I believe the reason lies in the ease with which you can use D to write generative code. It comes down to the fundamental truth that writing code that rids you of boilerplate is not only fun and satisfying, but when it’s easy, you feel foolish not to do it! With D, teaching the compiler how to write code is easier than with any other language I know, and everyone should be doing it.
+</p>
+
+<p><b><u>Description</u></b></p>
+
+<p>I’ve written a few different libraries in D, I’ve written some in C++, Java, and several other languages. But every time I write some code where I find myself copy/pasting or writing tedious code that maps one type of thing to something else, I yearn to use D’s awesome compiler capabilities. D is the only language where I feel comfortable writing generative or templated code, and can actually read and understand (and maintain) the result.
+</p>
+
+<p>This talk will cover several examples of generative programming from the community, and show how all the tools the compiler provides makes such programming far simpler than the manual alternatives. If you ever wrote a program in D, and used templates or <code>static if</code>, you probably know this feeling. Even more so if you have used generics or templates in other languages. But add in CTFE, User-Defined Attributes, compiler <code>__traits</code>, and mixins, and all of a sudden, you can quit your “day job” of writing boilerplate, and let the compiler do all the hard work.
+</p></p>
+      <p><b><u>Speaker Bio:</u> </b> 
+<p>Steven Schveighoffer has written several D libraries, including dcollections (container library) and iopipe (a high-performance i/o pipeline library). He has numerous contributions to both Phobos and Druntime, including rewriting the array runtime, and the RedBlackTree implementation. Most recently, he is working on getting the JSON iopipe library ready for release, including a full serializer.
+</p></p>
+  </div><!-- end <div class="wrapper"> -->
+</main>
+  
+<section id="sidebar">  <div class="wrapper">    <div id="sponsors">      <p>Partner/Host/Organizer:</p>
+      <p>        <a href="http://symmetryinvestments.com/">          <img src="../images/symmetry-logo1.png" alt="Symmetry Investments" border="0" />
+        </a>
+      </p>
+      <p>Sponsor:</p>
+      <p>        <a href="http://mbrdna.com/">          <img src="../images/mbrdna.png" alt="Mercedes-Benz Research and Development North America" border="0" width="270"/>
+        </a>
+      </p>
+    </div><!-- end <div id="sponsors"> -->
+    <div id="twitter">      <a class="twitter-timeline" data-height="640" href="https://twitter.com/D_Programming?ref_src=twsrc%5Etfw">Tweets by D_Programming</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="twitter"> -->
+    <div id="hash">      <a href="https://twitter.com/intent/tweet?button_hashtag=dconf&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #dconf</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div><!-- end <div id="hash"> -->
+  </div><!-- end <div class="wrapper"> -->
+</section>
+</div><!-- end <div id="container"> -->
+  
+<footer id="sitefoot" role="contentinfo">  <p>&copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+  </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<link href="../images/favicon.ico" rel="shortcut icon" />
+<title >DConf 2018 speaker: Igor Česi</title>
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '181936212594750');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=181936212594750&ev=PageView&noscript=1"/></noscript>
+
+</head>
+<body>
+<div id="container">  
+<div class="menu_container"><div class="menu row_after">  <nav >    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2017">2017</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+</div><!-- end <div class="menu_container"> -->
+  <div class="page_left equal hyphenate">
+  <h1 align=left>Porting D to a non-Windows non-Posix platform</h1>
+  <div class="inline vmid">    <img class="stroke" src="../images/cesi.jpg" height="170" alt="" />
+    <div ><p><b><a href="http://www.ubisoft.com/">Igor Česi</a><br />
+      May 3 @ 12:00</b><br><br><i>Duration:</i> 50 minutes<br />
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> All<br />
+      
+      <i>Slides:</i> <b><a href="../talks/cesi.pdf">PDF</a></b><br />
+      <b><A href="https://www.youtube.com/watch?v=A_ReNHDloME">Video</A><br /></b>
+      <!--a href="#">Powerpoint slides</a--></p>
+    </div><!-- end <div > -->
+  </div><!-- end <div class="inline vmid"> -->
+  <p><b><u>Abstract:</u>&nbsp;</b>
+<p>The D language has been ported and well supported on Windows and various Posix platforms. In order to use D on a non-Windows, non-Posix platform, often proprietary and closed source, the compiler, druntime and phobos need to be ported and adapted to the specificities of the platform in question. The talk presents challenges and gotchas encountered on the path of such an effort including: how to choose and build the compiler, how to bootstrap druntime and get the unittests running, phobos porting challenges and more.
+</p>
+
+<p><b><u>Description</u></b></p>
+
+<p>This presentation is meant for programmers who are considering porting D language to currently unsupported platforms. It can also be of interest to D language code architects as it presents how easy (or difficult) it is to find the pieces of code which need to be ported and how well a new platform integrates in the existing code. Finally, the curious programmer can learn some new details on how compilers, druntime and phobos work.
+</p>
+
+<p>Using, or even evaluating, D language on non-supported platforms (non-Windows, non- Posix) requires a major porting effort. Such platforms are often proprietary and closed source (e.g. game consoles).
+</p>
+
+<p>Evaluating necessary work (and therefore time) to get a software working on a new platform is not an easy task. In addition to previous porting experience and knowledge of general porting techniques, a good guide, a How-To document or an overview in the form of a presentation can be invaluable source of information.
+</p>
+
+<p>During the porting, the programmer is faced with many questions and has many decisions to make, such as: compiler choice, build system choice, how to validate that the code is correct, what is the minimum code necessary to run existing unittests, how portable is phobos, and many others.
+</p>
+
+<p>In most cases, the answers are specific to the target platform, but knowing which questions will need answers can be a big help during the planning phase. During the implementation phase, having an idea how far away from the final goal is essential, both from planning and psychological/morale point of view.
+</p>
+
+<p>The presentation describes the porting of D language to an unnamed game console platform (*) which was done by Igor Česi at Ubisoft during autumn / winter 2017. In the form of an experience report it will describe:
+    <ol>        <li>How to choose and then build the compiler for the target platform</li>
+        <li>Build system options</li>
+        <li>Porting druntime</li>
+            <ul>            <li>Bootstrapping</li>
+            <li>A road to unittests</li>
+            <li>Filling the gaps</li>
+            </ul>
+        <li>Porting phobos</li>
+            <ul>            <li>The easy part and low hanging fruits</li>
+            <li>The hard part (platform specificities; the devil is in the details)</li>
+        <li>Useful tips and tricks</li>
+            </ul>
+        </ol>
+
+(*) The reason to avoid specifically naming the target platform is the NDA agreement signed with the platform owner. This should have a positive impact on the content of the presentation as it forces the content to be more generic; it is not expected many people
+will do exactly the same port.
+</p></p>
+  <!--p><b><u>Notes:</u> </b> </p-->
+  <p><b><u>Speaker Bio:</u> </b> 
+<p>Igor Česi is a senior programmer at Ubisoft Paris studio where he helped making 10+ games including multiple titles in Ghost Recon and Just Dance franchises. The latest game he participated in making is Mario+Rabbids Kingdom Battle. He's been programming in C++ for the last 20 years. After following D from a 'distance' for many years and thanks to guys from Remedy Entertainment who proved that D on gaming consoles is possible, he is trying to introduce the D language to programming teams in Ubisoft Paris studio.
+</p></p></div><!-- end <div class="page_left equal hyphenate"> -->
+  
+<div class="page_right equal">  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Partner/Host</span><br />
+      <table ><tr >      <td ><a href="https://www.qa-systems.de/">      <img src="../images/QAS_Logo_UZG_RGB_web.jpg" width="100%" alt="QA Systems" border="0" /></a></td></tr>
+    </table>
+    <span class="sp">Organizer</span><br />
+      <table ><tr >      <td ><a href="http://www.hlmc.de/">      <img src="../images/hlmc-logo-web.png" width="100%" alt="HLMC" border="0" /></a></td></tr>
+    </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+  <div class="sponsors">   
+  </div><!-- end <div class="sponsors"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<div class="footer">    &copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+</div><!-- end <div class="footer"> -->
+</body>
+</html>
