@@ -42,6 +42,8 @@ Keep an eye on $(LINK2 https://twitter.com/D_Programming, our Twitter feed), $(L
 $(P
 We support registrations through FlipCause and PayPal. If you are registering with a credit card rather than an existing PayPal balance, choosing FlipCause will be more efficient for us, so we encourage you to do so. Thanks!
 )
+
+$(COMMENT
 $(DIV class="row",
     $(DIV class="rowitem",
         $(B Register via FlipCause (USD)$(BR)$(HILITE$(DOLLAR)480.00))$(BR)$(BR)
@@ -65,4 +67,4 @@ $(DIV class="row",
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
     )
-)
+))

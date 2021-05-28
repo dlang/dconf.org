@@ -2,13 +2,14 @@ Ddoc
 
 $(T h1,, Registration)
 
-$(P Early bird registration is now open!)
+$(P Early bird registration is closed.)
 
 $(P Are you cost-conscious? Register now $(B for only $(DOLLAR)400) to get the full conference package!)
 
 $(P Registration must be completed on or before March 31, 2014. Prices go up to
 $(DOLLAR)425 (sticker price) after that. Capacity is also limited. Register as soon as possible to reserve your seat for less!)
 
+$(COMMENT
 <hr />
 $(H3 Conference Early Bird Registration)
 $(P Conference from May 21&ndash;23)
@@ -54,7 +55,7 @@ $(P Conference from May 21&ndash;23)
 </td>
 
 </tr>
-</table>
+</table>)
 
 <hr />
 $(P All registrations are final. Registrations are transferrable.)

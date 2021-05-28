@@ -2,8 +2,9 @@ Ddoc
 
 $(T h1,, Registration)
 
-$(P Registration is now open!)
+$(P Registration is closed.)
 
+$(COMMENT
 <hr />
 
 <table>
@@ -87,7 +88,7 @@ UVU Student Registration $(DOLLAR)95
 </td>
 
 </tr>
-</table>
+</table>)
 
 <hr />
 $(P All registrations are final. Registrations are transferrable.)
@@ -102,7 +103,7 @@ share your data with anyone unless compelled by lawful orders.)
 $(T h1,, Sponsorship)
 
 $(P Cannot attend DConf but want to help out? Be a sponsor!)
-
+$(COMMENT
 <hr />
 
 <table>
@@ -127,6 +128,6 @@ Sponsorship $(DOLLAR)50
 
 </table>
 
-<hr />
+<hr />)
 
 
