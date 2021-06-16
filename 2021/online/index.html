@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="../includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.1em;
+      background-color: whitesmoke;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2, h3 {
+      font-family: 'Consolas', 'Inconsolata', monospace;
+    }
+    h1, h2 {
+      background-color: rgb(57, 57, 57);
+      color: rgb(237, 141, 142);
+      padding: 16px;
+    }
+    blockquote {
+      background-color: rgb(57, 57, 57);
+      color: rgb(237, 141, 142);
+      border-left: 10px solid #ccc;
+      font-style: italic;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    blockquote:before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: 0.1em;
+      margin-right: 0.25em;
+      vertical-align: -0.4em;
+    }
+    blockquote p {
+      display: inline;
+    }
+    #home {
+      background-color: rgb(57, 57, 57);
+    }
+    .w3-ul a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .w3-ul a:hover {
+      text-decoration: underline;
+    }
+    .text-white {
+      color: #fff;
+    }
+    .tabcolor {
+      color:#fff;
+      background-color: rgb(57, 57, 57);
+    }
+    .tablink {
+      min-width: 33%;
+    }
+    .talktitle {
+      padding-bottom: 125px;
+      background-color: lightgray;
+      margin-bottom: 16px;
+    }
+    .speakerIMG {
+      max-height: 250px;
+    }
+    .speaker {
+      font-weight: bold;
+    }
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+    .talklinks a {
+      padding: 0.5em;
+      background-color: whitesmoke;
+      color: #2b2d2f;
+      text-decoration: none;
+    }
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background-color: lightgray;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+    @media screen and (max-width: 599px) {
+     .talktitle {
+       text-align: center;
+     }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+</style>
+<title>The D Programming Language Conference 2021</title>
+</head>
+
+<body class="w3-justify">
+    <div class="text-white" style="background-color: #b03931; font-size: 0.9em;">
+      <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+          <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small">SCHEDULE</a>
+          <a href="#swag" class="w3-bar-item w3-btn w3-block w3-hide-small">SWAG</a>
+          <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn w3-block w3-hide-small">DCONF OFFLINE</a>
+          <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small">DLANG.ORG</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
+      </div>
+      <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+          <a href="#schedule" class="w3-bar-item w3-btn w3-block">SCHEDULE</a>
+          <a href="#swag" class="w3-bar-item w3-btn w3-block">SWAG</a>
+          <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn w3-block">DCONF OFFLINE</a>
+          <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
+      </div>
+    </div>
+
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding-64" style="margin-top: 1.5em;">
+              <img src="images/logo.jpg" alt="DConf 2020 London Logo" class="w3-image">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container toparticle" id="about">
+      <article class="w3-content">
+        <h1 class="w3-center">DConf is Back Online</h1>
+        <p>
+          <a href="https://dlang.org/foundation/index.html">The D Language Foundation</a> is happy to inform you that it's time to start preparing for DConf Online 2021! This year's edition is happening <strong>November 20 and 21, 2021</strong>. No registration is required, no payment is necessary. Open your browser, follow the links (TBA) to our DConf Online 2021 YouTube playlist and livestream, and away you go!
+        </p>
+        <p>
+            DConf Online is open to any and all who would like to participate in real time. The talks and livestreams will persist on the <a href="https://www.youtube.com/channel/UC5DNdmeE-_lS6VhCVydkVvQ">D Language Foundation's YouTube channel</a> after the event. Everything from <a href="https://dconf.org/online/2020/">DConf Online 2020 is available there now</a>, including the playlists for the <a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXWsvFA4AuawPoMnq9Bh1lIZ">DConf Online 2020 talks</a> and <a href="https://www.youtube.com/watch?v=4G1FoocVVPY&list=PLIldXzSkPUXX0PcnTlv175rEyfH66yaoI">livesteam Q & A sessions</a>.
+        </p>
+      </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container" id="schedule">
+      <article class="w3-content">
+        <h1 class="w3-center">Call for Submissions</h1>
+        <p>
+            Do you have a D topic you'd like to discuss? A D project you'd like to present to the world? A feature idea to improve the language? A subject for a livecoding session? As Ali Çehreli said in <a href="https://youtu.be/E-78QqeDfI8?t=21">the Q & A for his first DConf Online 2020 talk</a>:
+
+            <blockquote>
+                ...coming up with an idea for a talk is as simple as the way you use D. Just look at your code and it makes a presentation like this.
+            </blockquote>
+        </p>
+        <p>
+            Please send all submissions to <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> no later than <strong>September 5, 2021 AoE</strong> (<a href="https://www.timeanddate.com/time/zones/aoe">Anywhere on Earth</a>). We are accepting submissions for the following:
+              <ul>
+                <li><strong>Pre-recorded talks</strong> This is a standard conference presentation, with a speaker and slides. Presenters are required to use screen recording software (such as <a href="https://obsproject.com/">the freely available OBS</a>) to record their presentations, including slides. Talks should be at least 20 minutes long and no longer than 30. Speakers should be available at the day and time their talk premieres and for 30 minutes after in DConf Online 2021 livestream in order to answer viewer questions.</li>
+                <li><strong>Q & A Panels</strong> Traditional single-moderator, multiple member format. Panels will be livestreamed. Some questions may be prepared in advance, but moderators should select most questions from the livestream audience. Anyone submitting a panel proposal should either be prepared to moderate the panel or have already made arrangements for someone else to do so (and this should be noted in the submission).</li>
+                <li><strong>Livecoding</strong> Solitary livecoding events will be streamed to the D Language Foundation's YouTube channel. Anyone submitting a livecoding session proposal should already be familiar with screen recording software and have experience streaming livecoding sessions. We are looking for demonstrations of D in use, particularly in short programs that can be implemented from beginning to end in no more than 90 minutes. We aren't looking for in-depth tutorials on specific features (those are better as pre-recorded talks) or updates to existing projects. We want something that shows off multiple D features and how they come together in a program, where the livecode provides narration on why and how each feature is used as he or she types.</li>
+              </ul>
+          </p>
+          <p>
+            All submissions should be primarily related to the D Programming Language and, if not, relevant to the D community in some way. Livestreaming submissions (panel, livecoding) should be in Markdown format. Talk submissions should be in the form of a video no longer than five minutes in duration. All submissions should be as detailed as possible within the constraints of the requirements, which include the following:
+            <ul>
+              <li><strong>Kind:</strong> talk/panel/livecoding</li>
+              <li><strong>Duration:</strong> panels and talks should be at least 20 minutes long and no longer than 30. Livecoding sessions can be alloted up to 90 minutes.</li>
+              <li><strong>Target Audience:</strong> beginner/intermediate/advanced/all
+              <li><strong>Abstract:</strong> a brief summary of the main point/theme/coding goal.</li>
+              <li><strong>Description:</strong> a more detailed summary of specific points that will be covered from beginning to end.</li>
+              <li><strong>Speaker Biography:</strong> including a summary of the speaker's expertise in relation to the topic. Links to videos of any pre-recorded talks or livecoding events the speaker has done in the past, if they exist, will be very helpful.</li>
+              <li><strong>DConf Exclusive (optional):</strong> pre-recorded talks that are not added to the main DConf Online schedule may be used in another playlist instead (see below). Permission is implied by submission of the video. If the speaker would like us to only consider the talk for the DConf Online schedule, then this should be indicated verbally as part of the video submission.</li>
+              <li><strong>Keywords:</strong> specific terminology related to the topic.</li>
+            </ul>
+          </p>
+          <p>
+            We are looking to accept more pre-recorded talk submissions than there will be available slots for the DConf Online event itself. Talks that do not make the cut for the main event will be posted (with the speaker's permission) in &#39;The D Community Presents&#39; playlist. To that end, we will work with every speaker we accept to produce a quality video. Further details will be provided upon acceptance.
+          </p>
+
+        <!--
+        <div class="w3-row w3-center w3-card w3-padding">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day1');" id="day1Schedule">
+              <div class="w3-col s3 tablink">November 21</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day2');" id="day2Schedule">
+              <div class="w3-col s3 tablink">November 22</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'beerconf');">
+              <div class="w3-col s3 tablink">#BeerConf</div>
+            </a>
+        </div>
+
+        <div id="day1" class="w3-container menu w3-padding w3-card-4">
+            <p>To be announced.</p>
+          </div>
+          <div id="day2" class="w3-container menu w3-padding w3-card-4">
+            <p>To be announced.</p>
+          </div>
+          <div id="beerconf" class="w3-container menu w3-padding w3-card-4">
+            <p>At every real-world DConf, a location near the venue is selected
+            and annointed as the Official After-Hours Gathering Spot. After the
+            last talk each evening, DConf attendees wander in and out, mingling,
+            chatting, and just generally having a good time.
+            <a
+            href="https://dlang.org/blog/2017/04/19/the-dconf-experience/">Ethan
+            Watson coined the term &ldquo;BeerConf&rdquo;</a> to refer to this
+            event, and the name has stuck&mdash;so much so that he and other
+            members of the D community <a
+            href="https://forum.dlang.org/post/krtvrgubmqbnnrequmtq@forum.dlang.org">initiated
+            an online BeerConf</a> after DConf 2020 was canceled due to the
+            coronavirus pandemic. That one-off event was a hit, and it has been
+            running once a month ever since.</p>
+
+            <p>DConf Online is still DConf, so there still must be a BeerConf.
+            And since it's online, we run it all weekend! The virtual
+            BeerConf for the inaugural DConf Online edition was a lot of fun. We saw more simultaneous participants than
+            in any previous online BeerConf session we've had. We are looking forward to a great repeat experience
+            at DConf Online 2021.</p>
+
+            <p>Anyone who'd like to join us in our upcoming monthly BeerConf sessions can keep an
+            eye on the <a href="https://forum.dlang.org/group/announce">D Announce Forum</a>.
+            See you there!</p>
+          </div>
+          <div style="margin-top: 16px;"><a href="#schedule">Back to schedule top</a></div>
+        -->
+      </article>
+    </div>
+
+    <!-- Swag Container -->
+    <div class="w3-container w3-margin-top" id="swag">
+      <article class="w3-content">
+        <h1 class="w3-center">Swag</h1>
+        <p>
+         DConf Online 2020 swag is still available for purchase at <a href="https://www.zazzle.com/store/dlang_swag?rf=238129799288374326">the DLang Swag Emporium</a> along with other D-themed items. Swag for the 2021 edition will be available a few months prior to the event. Royalties from all purchases in the DLang Swag Emporium are directed to the D Language Foundation General Fund. Money from this fund is used to provide free swag to our speakers and prizes to lucky viewers. (<a href="https://www.flipcause.com/hosted_widget/hostedWidgetHome/NDMzMzE=">Direct donations to the General Fund</a> are welcome, too!)
+        </p>
+         <p>Wait, did we say something about prizes for viewers? Yes! Speakers will be monitoring their talk videos for questions in the livechat while they are playing. After each talk, the speaker will be available in the DConf Online 2021 livestream to answer further questions, elaborate on answers given during the talk, and discuss D and D development in general. Everyone who asks a question during a post-talk livestream will be eligible to win one or more prizes. A winner is selected at the end of each speaker's livestream session, another for the day, and another for the weekend's grand prize</p>
+
+         <p>Last year, questioners were rewarded with several different items from the DLang Swag Emporium after the talks, $50.00 Amazon eGift cards for each day, and a $100 Amazon eGift card grand prize for the weekend. Join us in the DConf Online 2021 livestream to see what the prizes will be this year!</p>
+      </article>
+    </div>
+    <div class="w3-container w3-center w3-small">
+      &copy; 2020 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+
+<script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" tabcolor", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " tabcolor";
+  }
+
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+/*
+  function pickTab() {
+    const hash = new URL(document.URL).hash;
+    var loc = "day1Schedule";
+    if(hash) {
+      console.log(hash);
+      switch(hash) {
+        case "#atila":
+        case "#mathis":
+        case "#ali2":
+        case "#steven":
+        case "#alexandru":
+        case "#stefan":
+          loc = "day2Schedule";
+          break;
+        default: break;
+      }
+    }
+    document.getElementById(loc).click();
+  }
+  pickTab();
+*/
+</script>
+</body>
+</html>
