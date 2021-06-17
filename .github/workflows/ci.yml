@@ -24,10 +24,10 @@ jobs:
           # We can have some leftover files (e.g. build)
           # So add out (which is only what we need), then `git mv` it.
           git add out/
-          git mv -k out/* ./
+          # git mv -k out/* ./
           # Configure user (because persist-credentials does not persist everything)
           git config --global user.name  "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           # We're done
           git commit -m "Deployment for commit ${{ github.sha }}"
-          git push -f ${{ github.event.repository.clone_url }} gh-pages:gh-pages
+          git subtree push -f ${{ github.event.repository.clone_url }} --prefix out gh-pages:gh-pages
