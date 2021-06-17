@@ -16,7 +16,7 @@
       max-width: 700px;
       margin-bottom: 32px;
     }
-    h1, h2, h3 {
+    h1, h2 {
       font-family: 'Consolas', 'Inconsolata', monospace;
     }
     h1, h2 {
@@ -50,6 +50,12 @@
     }
     #home {
       background-color: rgb(57, 57, 57);
+    }
+    .function {
+        color: whitesmoke;
+    }
+    .quote {
+        color: #999;
     }
     .w3-ul a {
       text-decoration: none;
@@ -107,9 +113,18 @@
       text-decoration: line-through;
     }
     @media screen and (max-width: 599px) {
-     .talktitle {
-       text-align: center;
-     }
+        body {
+            font-size: 0.9em;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .talktitle {
+        text-align: center;
+        }
     }
     @media screen and (min-width: 600px) {
       .talktitle {
@@ -146,7 +161,10 @@
 
     <header class="w3-container" id="home">
         <div class="w3-center w3-padding-64" style="margin-top: 1.5em;">
-              <img src="images/logo.jpg" alt="DConf 2020 London Logo" class="w3-image">
+            <!-- <img src="images/logo.jpg" alt="DConf 2020 London Logo" class="w3-image"> -->
+            <h1>
+                <span class="function">writeln(</span><span class="quote">"</span>DConf Online 2021<span class="quote">"</span><span class="function">);</span>
+            </h1>
         </div>
     </header>
 
