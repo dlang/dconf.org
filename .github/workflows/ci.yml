@@ -30,4 +30,4 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           # We're done
           git commit -m "Deployment for commit ${{ github.sha }}"
-          git subtree push --prefix out gh-pages:gh-pages
+          git subtree push --prefix out ${{ github.event.repository.clone_url }} gh-pages:gh-pages
