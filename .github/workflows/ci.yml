@@ -22,9 +22,9 @@ jobs:
           # Remove all staged files - We only need the docs
           git rm -rf $(git ls-files)
           # We can have some leftover files (e.g. build)
-          # So add out (which is only what we need), then `git mv` it.
-          git add out/
-          git mv -k out/* ./
+          # So add docs (which is only what we need), then `git mv` it.
+          git add docs/
+          # git mv -k out/* ./
           # Configure user (because persist-credentials does not persist everything)
           git config --global user.name  "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"

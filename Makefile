@@ -1,7 +1,7 @@
 #SITE=erdani.com:www/d/
 SITE = dconf.org@digitalmars.com:data/
 DMD = dmd
-OUT = out
+OUT = docs
 
 all: $(OUT)/index.html 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all
 
@@ -17,7 +17,7 @@ deploy : all
 
 .PHONY: clean
 clean: 2007/clean 2013/clean 2014/clean 2015/clean 2016/clean 2017/clean 2018/clean 2019/clean 2020/clean 2021/clean
-	rm -rf out
+	rm -rf $(OUT)
 	rm -rf 20??/.tmp
 
 # Patterns
