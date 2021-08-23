@@ -3,7 +3,7 @@ SITE = dconf.org@digitalmars.com:data/
 DMD = dmd
 OUT = docs
 
-all: $(OUT)/index.html 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all
+all: $(OUT)/index.html $(OUT)/CNAME 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all
 
 .PHONY: rsync
 rsync : all
