@@ -347,7 +347,21 @@
                   Nov 21, 14:00 UTC<br>
                 </p>
               </div>
-              <p>To be announced.</p>
+              <p>The D programming language is designed to have a zero-cost interface
+                to C, but D still needs the corresponding C declarations to be written
+                in D in order for the D compiler to access them. While this is very
+                easy and straightforward, hand-translating 10,000+ lines of C header files
+                gets very tedious very quickly. Mechanical translation of C headers to D
+                has had only limited success.</p>
+                
+                <p>The ideal is for it to &ldquo;just work&rdquo;. The only solid way to get D code to
+                import C declarations is for the D compiler to be able to compile C code directly.</p>
+                
+                <p>Walter has dismissed this approach as unworkable in the past. But the more he
+                thought about, the more he realized he could make it work. After all, he's
+                written a C99 compiler before. He knows how to do it. Piece of cake, right?
+                
+                Walter will talk about the journey of ImportC from inspiration to working implementation.</p>
 
               <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He's an expert in all
               areas of compiler technology, including front ends, optimizers,
