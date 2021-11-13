@@ -17,12 +17,15 @@
       margin-bottom: 32px;
     }
     h1, h2 {
-      font-family: 'Consolas', 'Inconsolata', monospace;
     }
-    h1, h2 {
+    h1, h2, .innerhead {
+      font-family: 'Consolas', 'Inconsolata', monospace;
       background-color: rgb(57, 57, 57);
       color: rgb(237, 141, 142);
       padding: 16px;
+    }
+    .innerhead  {
+      text-align: center;
     }
     blockquote {
       background-color: rgb(57, 57, 57);
@@ -196,7 +199,7 @@
               <div class="w3-col s3 tablink">November 21</div>
             </a>
             <a href="javascript:void(0)" onclick="openMenu(event, 'beerconf');">
-              <div class="w3-col s3 tablink">#BeerConf</div>
+              <div class="w3-col s3 tablink">Livestream & #BeerConf</div>
             </a>
         </div>
 
@@ -438,7 +441,7 @@
             <div id="aua" class="w3-panel w3-border">
               <div class="talktitle w3-card-4">
                 <img class="speakerIMG w3-image" src="images/war.jpg">
-                <h3>Livestream: Ask Us Anything</h3>
+                <h3>Livestream: Ask Us Anything!</h3>
                 <p class="speaker">
                   Walter Bright, Átila Neves, and Razvan Nitu<br>
                   Nov 21, 19:00 UTC<br>
@@ -456,8 +459,29 @@
               that come his way. And rumor has it that Walter will have a camera this time, so he won't be a disembodied voice like last time. Bring your best queries and show Razvan 
               just how much fun the DConf AUA can be!</p>
             </div>
-          </div>
+          </div>          
           <div id="beerconf" class="w3-container menu w3-padding w3-card-4">
+            <h3 class="innerhead">Q & A Livestream</h3>
+            <p>The Q & A Livestream runs nonstop each day in parallel to the prerecorded talks. Five minutes before their talks, the speakers join the livestream 
+            to provide a brief introduction. Once their talks begin, they stay in the livestream for an interview/chat with the DConf Online emcee, and to verbalize
+            their answers to questions asked in the talk's live chat. When their talks end, they remain in the livestream for a 20 - 30 minute post-talk Q & A, where they answer questions from 
+            livestream viewers in the livestream chat.</p>
+            <p>Viewers who ask questions in the post-talk Q & A session are eligible to win prizes such as D-themed t-shirts and cofee mugs, or $25 Amazon eGift cards (announced
+            at the end of each Q & A session). Additionaly, they are elibible to win the daily prize of a $50 Amazon eGift card (announced at the end of each day), and the weekend
+            prize of a $100 eGift card (announced at the end of Day Two).</p>
+            <p><strong>DConf Online 2021 Q & A Livestream Schedule (Day 1 & Day 2)</strong>
+            <ul>
+            <li><strong>13:45 UTC</strong> - livestream opens</li>
+            <li><strong>13:50 UTC</strong> - introduction and announcements from the emcee</li>
+            <li><strong>13:55 UTC</strong> - Q & A session for keynote begins</li>
+            <li><strong>15:10 UTC</strong> - Q & A session for second talk begins</li>
+            <li><strong>16:25 UTC</strong> - Q & A session for third talk begins</li>
+            <li><strong>17:10 UTC</strong> - Q & A session for fourth talk begins</li>
+            </ul></p>
+            <p>On <strong>Day One</strong>, the end of the fourth talk's Q & A session will be the end of the livestream. Adam D. Ruppe's livestream for his livecoding session will open by 
+            19:00 UTC. On <strong>Day Two</strong>, the livestream will remain open after the fourth talk for the Ask Us Anything! session that begins at 19:00 UTC and will end when that finishes at
+            20:00 UTC.</p>
+            <h3 class="innerhead">#BeerConf</h3>
             <p>At every real-world DConf, a location near the venue is selected
             and anointed as the Official After-Hours Gathering Spot. After the
             last talk each evening, DConf attendees wander in and out, mingling,
