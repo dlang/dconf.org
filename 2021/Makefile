@@ -19,7 +19,7 @@ TO_COPY = \
 	index.html \
 	online/ online/index.html \
 	online/images/ $(wildcard online/images/*.png online/images/*.svg online/images/*.jpg) \
-#	online/slides/ $(wildcard online/slides/*.pdf online/slides/*.pptx online/slides/*.odp) \
+	online/slides/ $(wildcard online/slides/*.pdf online/slides/*.pptx online/slides/*.odp) \
 
 
 ALL_RELATIVE_PATHS = $(TO_COPY)
