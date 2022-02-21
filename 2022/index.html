@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.1em;
+      background-color: whitesmoke;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2 {
+      font-family: 'Trebuchet MS', 'Arial Black', sans-serif;
+      color: #333;
+      padding: 5px 5px 5px 0px;
+    }
+    h1 {      
+      border-bottom: 5px solid #333;
+    }
+    h2 {      
+      border-bottom: 1px solid #333;
+    }
+    .quote {
+      color: #aaa;
+      font-style: italic;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    .quote p {
+      display: inline;
+    }
+    .quote figcaption, .quote blockquote {
+        margin: 1em;
+    }
+    #menu {
+        background-color: #333;
+        font-size: 1.1em;
+    }
+    #home {
+      background-color: #333;
+    }
+    .quote {
+        color: #777;
+    }
+    .w3-ul a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .w3-ul a:hover {
+      text-decoration: underline;
+    }
+    .text-white {
+      color: #fff;
+    }
+    .tabcolor {
+      color:#fff;
+      background-color: rgb(57, 57, 57);
+    }
+    .tablink {
+      min-width: 33%;
+    }
+    .talktitle {
+      padding-bottom: 125px;
+      background-color: lightgray;
+      margin-bottom: 16px;
+    }
+    .speakerIMG {
+      max-height: 250px;
+    }
+    .speaker {
+      font-weight: bold;
+    }
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+    .talklinks a {
+      padding: 0.5em;
+      background-color: whitesmoke;
+      color: #2b2d2f;
+      text-decoration: none;
+    }
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background-color: lightgray;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+    @media screen and (max-width: 599px) {
+        body {
+            font-size: 0.9em;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .talktitle {
+        text-align: center;
+        }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+</style>
+<title>The D Programming Language Conference 2021</title>
+</head>
+
+<body class="w3-justify">
+    <div class="w3-center w3-top text-white" id="menu">
+        <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block w3-hide-small">REGISTRATION</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small">VENUE</a>
+            <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small">SPONSORS</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+              <span class="w3-button w3-block">2013&ndash;2019</span>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
+                <a href="https://dconf.org/2018/" class="w3-bar-item w3-btn">2018</a>
+                <a href="https://dconf.org/2017/" class="w3-bar-item w3-btn">2017</a>
+                <a href="https://dconf.org/2016/" class="w3-bar-item w3-btn">2016</a>
+                <a href="https://dconf.org/2015/" class="w3-bar-item w3-btn">2015</a>
+                <a href="https://dconf.org/2014/" class="w3-bar-item w3-btn">2014</a>
+                <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+              <span class="w3-button w3-block">DCONF ONLINE</span>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="https://dconf.org/2021/" class="w3-bar-item w3-btn">2021</a>
+                <a href="https://dconf.org/2020/" class="w3-bar-item w3-btn">2020</a>
+              </div>
+            </div>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small">DLANG.ORG</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
+        </div>
+        <div id="small-menu" class="w3-bar-block w3-hide-large w3-hide-medium">
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block">REGISTRATION</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block">VENUE</a>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
+        </div>
+      </div>
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding">
+                <img src="./images/logo-trans-512.png">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container toparticle" id="about">
+      <article class="w3-content">
+        <h1>DConf Returns to London</h1>
+        <p>
+          DConf is back! The D Language Foundation is excited to announce that our friends at Symmetry Investments are hosting the D Programming Language Conference in London once again from <strong>August 1&ndash;4, 2022</strong>. Mark your calendars and book your flights!
+        </p>
+        <p>
+          DConf is the largest meetup event of the D programming language community. Like many other annual gatherings throughout the world, we were sidelined for two years by events beyond our control. We've had regular meetups online to tide us over, but we're eager to once again meet face-to-face in the real world. Whether you're a long-time member of the D community or new, whether you're heavily involved or lurk in the perihpery, even if you aren't currently active in the D community at all, we invite you to join us for four days of education, knowledge sharing, fellowship, and fun.
+      </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container" id="schedule">
+      <article class="w3-content">
+        <h1>Call for Submissions</h1>
+        <figure class="quote">
+            <blockquote>Coming up with an idea for a talk is as simple as the way you use D. Just look at your code, and it makes a presentation...</blockquote>
+            <figcaption>&mdash; Ali Çehreli, DConf Online 2020</figcaption>
+        </figure>
+        <p>
+          We are now accepting submissions for DConf &#8217;22. If you have an idea for a talk, demo, or panel, don't hesitate to submit it. We're interested in anything and everything related to the D programming language.</p> 
+        <p>  
+          Never presented at a conference? Don't let that stop you! Several D community members have given their first conference talks at DConf.
+        </p> 
+        <p>
+          Not sure what to talk about? As Ali pointed out in <a href="https://youtu.be/E-78QqeDfI8?t=30">one of his DConf Online 2020 Q & A sessions</a>, if you're using D now, you probably already have material for a potential talk. 
+        </p>  
+        <p>
+          If you need inspiration, visit <a href="https://dconf.org/2019/schedule/index.html">the DConf 2019 Schedule</a> to see what sort of talks were presented, then follow the links in the menu bar to past conferences for more. Any topic related to D is a potential talk, such as:
+        </p>
+        <ul>
+          <li><strong>Language techniques</strong> enabled by the D programming language</li>
+          <li><strong>Tools and techniques</strong> for maximizing productivity when working in D</li>
+          <li><strong>Experience reports</strong> on using D in the real world, professionally or as a hobby</li>
+          <li><strong>Under the hood</strong> looks at compiler and standard library implementation artifacts</li>
+          <li><strong>Hot topics</strong> such as safe deterministic memory management, migrating from other languages, or community engagement</li>
+          <li><strong>Deep dives</strong> into D projects, their APIs, architecture, and implementation details</li>
+          <li><strong>Research reports</strong> by students doing research on or using the D language</li>
+        </ul>
+        <p>
+          Don't feel constrained in topic or format. Follow your inspiration where it leads and tell us about it!
+        </p>
+        <h2>Selection Criteria</h2>
+        <p>
+          This year we're looking to expand the amount of time we have to chat and mingle between talks. Rather than the traditional 50 minutes, long talks should be kept to 45 minutes. The sweet spot for short talks is 25 minutes. Additionally, we will evaluate submissions according to the following criteria:
+        </p>
+        <ul>
+          <li><strong>Relevance:</strong> Is the topic interesting to DConf attendees? Will coverage be beneficial? Is it building on tried and true ideas, or blazing new trails?</li>
+          <li><strong>Coverage:</strong> Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?</li>
+          <li><strong>Organization:</strong> Is the submission well organized? Will the audience tune into the narrative?</li>
+          <li><strong>Novelty and Originality:</strong> How new and noteworthy is the material? Previously published material is acceptable provided it hasn't
+            reached a wide audience within the D community yet.</li>
+          <li><strong>Bottom Line:</strong> What's your session's takeaway? How is it going to improve the attendees' knowledge, outlook, and inspiration?</li>
+        </ul>
+        <h2>Submission Guidelines</h2>
+        <p>We expect submissions in plain text format or one of the usual rich document formats, such as PDF or DOCX. All submissions should be directed to
+          <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+          and should include:
+        </p>
+        <ol>
+        <li><strong>Title</strong></li>
+        <li><strong>Kind</strong> (e.g., talk, panel, contest)</li>
+        <li><strong>Duration</strong> (we're aiming for 45-minute or 25-minute presentations)</li>
+        <li><strong>Target Audience</strong> (e.g., beginner, intermediate, advanced)</li>
+        <li><strong>Abstract:</strong> the "elevator pitch" of the talk, in one paragraph</li>
+        <li><strong>Extended Description:</strong> an extended abstract including any details you believe are relevant for evaluating the submission</li>
+        <li><strong>Brief Speaker Biography:</strong> including a summary of the speaker's expertise relative to the talk topic</li>
+        </ol>
+        <p>We can't wait to see what you send us!</p>
+      </article>
+    </div>
+    
+    <!-- Registration Container -->
+    <div class="w3-container w3-margin-top" id="register">
+      <article class="w3-content">
+        <h1>Registration</h1>
+        <p>
+          As always, we'll open registration with a discounted early-bird period before the general registration rate kicks in. We'll also offer special discounted rates for those who qualify. Watch <a href="https://forum.dlang.org/group/announce">the D Announce forum</a> for the announcement and check back here for the details.
+        </p>        
+      </article>
+    </div>
+
+    <!-- Venue Container -->
+    <div class="w3-container w3-margin-top" id="venue">
+      <article class="w3-content">
+        <h1>Venue</h1>
+        <p>
+          Keep an eye on this space! We'll publish details about our venue here soon. We'll also let you know the location of our nightly meetup spot, (a.k.a the BeerConf venue).
+        </p>        
+      </article>
+    </div>
+
+    <!-- Sponsors Container -->
+    <div class="w3-container" id="sponsors">
+      <article class="w3-content">
+        <h1>Sponsors</h1>
+        <div class="w3-center w3-padding-64">
+          <img src="../2020/images/symmetry-logo1.png" alt="Symmetry Investments" class="w3-image">
+        </div>
+        <p>DConf &#8217;22 is hosted by our friends at Symmetry Investments. With offices in Hong Kong, Singapore, and London, Symmetry employs D in their investment
+          management mission. This is the second time they've hosted a DConf. Their first go in 2019 was a smashing success. They are also the sponsors of the
+          <a href="https://dlang.org/blog/symmetry-autumn-of-code/">Symmetry Autumn of Code</a>, an annual event that, since 2018, has provided experience to emerging programmers while
+          enhancing the D ecosystem. We couldn't be more thrilled to be working with Symmetry in bringing DConf to London once again.</p>
+      </article>
+    </div>
+    
+    <div class="w3-container w3-center w3-small w3-padding-64">
+      &copy; 2022 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+<script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" tabcolor", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " tabcolor";
+  }
+
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+</script>
+</body>
+</html>
