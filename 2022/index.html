@@ -41,23 +41,15 @@
     }
     #menu {
         background-color: #333;
+        color: #fff;        
         font-size: 1.1em;
+        border-bottom: 5px solid #ccc;
     }
     #home {
       background-color: #333;
     }
     .quote {
         color: #777;
-    }
-    .w3-ul a {
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .w3-ul a:hover {
-      text-decoration: underline;
-    }
-    .text-white {
-      color: #fff;
     }
     .tabcolor {
       color:#fff;
@@ -101,9 +93,6 @@
     .toparticle {
       margin-top: 0.8em;
     }
-    .strike {
-      text-decoration: line-through;
-    }
     @media screen and (max-width: 599px) {
         body {
             font-size: 0.9em;
@@ -134,14 +123,14 @@
 </head>
 
 <body class="w3-justify">
-    <div class="w3-center w3-top text-white" id="menu">
+    <div class="w3-top" id="menu">
         <div class="w3-bar">
             <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
-            <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small">SUBMISSIONS</a>
-            <a href="#register" class="w3-bar-item w3-btn w3-block w3-hide-small">REGISTRATION</a>
-            <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small">VENUE</a>
-            <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small">SPONSORS</a>
-            <div class="w3-dropdown-hover w3-hide-small">
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">REGISTRATION</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">VENUE</a>
+            <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SPONSORS</a>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
               <span class="w3-button w3-block">2013&ndash;2019</span>
               <div class="w3-dropdown-content w3-bar-block w3-border">
                 <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
@@ -153,17 +142,17 @@
                 <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
               </div>
             </div>
-            <div class="w3-dropdown-hover w3-hide-small">
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
               <span class="w3-button w3-block">DCONF ONLINE</span>
               <div class="w3-dropdown-content w3-bar-block w3-border">
                 <a href="https://dconf.org/2021/" class="w3-bar-item w3-btn">2021</a>
                 <a href="https://dconf.org/2020/" class="w3-bar-item w3-btn">2020</a>
               </div>
             </div>
-            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small">DLANG.ORG</a>
-            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">DLANG.ORG</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-right w3-hide-large" onclick="hamburger()">&#9776;</a>
         </div>
-        <div id="small-menu" class="w3-bar-block w3-hide-large w3-hide-medium">
+        <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
             <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
             <a href="#register" class="w3-bar-item w3-btn w3-block">REGISTRATION</a>
             <a href="#venue" class="w3-bar-item w3-btn w3-block">VENUE</a>
@@ -189,7 +178,7 @@
     </div>
 
     <!-- Schedule Container -->
-    <div class="w3-container" id="schedule">
+    <div class="w3-container w3-margin-top" id="schedule">
       <article class="w3-content">
         <h1>Call for Submissions</h1>
         <figure class="quote">
@@ -270,7 +259,7 @@
     </div>
 
     <!-- Sponsors Container -->
-    <div class="w3-container" id="sponsors">
+    <div class="w3-container w3-margin-top" id="sponsors">
       <article class="w3-content">
         <h1>Sponsors</h1>
         <div class="w3-center w3-padding-64">
@@ -287,21 +276,6 @@
       &copy; 2022 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
     </div>
 <script>
-  // Tabbed Menu
-  function openMenu(evt, menuName) {
-    var i, x, tablinks;
-    x = document.getElementsByClassName("menu");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < x.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" tabcolor", "");
-    }
-    document.getElementById(menuName).style.display = "block";
-    evt.currentTarget.firstElementChild.className += " tabcolor";
-  }
-
   function hamburger() {
     var x = document.getElementById("small-menu");
     if (x.className.indexOf("w3-show") == -1) {
