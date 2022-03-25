@@ -17,7 +17,7 @@ TO_COPY = \
 	$(wildcard slides/*.pptx) \
 	$(wildcard slides/*.odp) \
 	$(wildcard slides/code.*.d) \
-	index.html \
+	$(wildcard ./*.html)
 
 ALL_RELATIVE_PATHS = $(TO_COPY)
 
