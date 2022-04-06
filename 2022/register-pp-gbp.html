@@ -141,45 +141,44 @@
     </div>
 <script src="https://www.paypal.com/sdk/js?client-id=ARAcmgIKXYL2RJTfnT5Ow0ZK5dTjLKoWs6awzfz5wUNR_-wQhwOUa4O-x3WhdA5xnmZ4NloAnoAwIT-R&enable-funding=venmo&currency=GBP" data-sdk-integration-source="button-factory"></script>
 <script>
-function initPayPalButton() {
-  paypal.Buttons({
-    style: {
-      shape: 'pill',
-      color: 'gold',
-      layout: 'vertical',
-      label: 'pay',
+  function initPayPalButton() {
+    paypal.Buttons({
+      style: {
+        shape: 'pill',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'paypal',
 
-    },
+      },
 
-    createOrder: function(data, actions) {
-      return actions.order.create({
-        purchase_units: [{"description":"DConf '22 Early-bird Registration (GBP)","amount":{"currency_code":"GBP","value":311.74}}]
-      });
-    },
+      createOrder: function(data, actions) {
+        return actions.order.create({
+          purchase_units: [{"description":"DConf '22 Early-Bird Registration (GBP)","amount":{"currency_code":"GBP","value":320.39}}]
+        });
+      },
 
-    onApprove: function(data, actions) {
-      return actions.order.capture().then(function(orderData) {
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
 
-        // Full available details
-        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+          // Full available details
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
 
-        // Show a success message within this page, e.g.
-        //const element = document.getElementById('paypal-button-container');
-        //element.innerHTML = '';
-       // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
-        // Or go to another URL:  actions.redirect('thank_you.html');
-        actions.redirect('https://dconf.org/2022/register-thanks.html');
+          // Or go to another URL:  actions.redirect('thank_you.html');
 
-      });
-    },
+        });
+      },
 
-    onError: function(err) {
-      console.log(err);
-    }
-  }).render('#paypal-button-container');
-}
-initPayPalButton();
+      onError: function(err) {
+        console.log(err);
+      }
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
 </script>
 
 </body>
