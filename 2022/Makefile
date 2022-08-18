@@ -7,16 +7,10 @@ endif
 
 TMP = .tmp
 
-$(addprefix $(OUT)/, includes/%): includes/%
-	cp $^ $@
-
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*) \
-	$(wildcard slides/*.pdf) \
-	$(wildcard slides/*.pptx) \
-	$(wildcard slides/*.odp) \
-	$(wildcard slides/code.*.d) \
+	slides/ $(wildcard slides/*.pdf slides/*.pptx slides/*.odp) \
 	$(wildcard ./*.html)
 
 ALL_RELATIVE_PATHS = $(TO_COPY)
