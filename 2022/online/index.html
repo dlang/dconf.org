@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="DConf '22">
+<meta property="og:description" content="DConf '22 is happening in London, August 1-4, 2022. We invite you to join us for four days of education, knowledge sharing, fellowship, and fun.">
+<meta property="og:url" content="https://dconf.org/2022/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://dconf.org/2022/images/logo-og2.jpg">
+<meta property="og:image:type" content="image/jpeg" >
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="630">
+<link href="./includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.1em;
+      background-color: whitesmoke;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      background-color: #52255E;
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      padding: 1.5em;
+    }
+    h2 {
+      padding: 1.25em;
+    }
+    .quote {
+      color: #aaa;
+      font-style: italic;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    .quote p {
+      display: inline;
+    }
+    .quote figcaption, .quote blockquote {
+        margin: 1em;
+    }
+    #menu {
+        background-color: #52255E;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    #home {
+      background-color: #52255E;
+    }
+    .dayheader {
+      background-color: #333;
+      color: #fff;
+    }
+    .talktitle {
+      padding-bottom: 125px;
+      padding-top: 16px;
+      padding-left: 16px;
+      background-color: whitesmoke;
+      margin-bottom: 16px;
+    }
+    .speakerIMG {
+      max-height: 200px;
+    }
+    .talkmeta {
+      font-weight: bold;
+    }
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+    .talklinks a {
+      padding: 0.5em;
+      color: #333;
+    }
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background-color: whitesmoke;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+    .smokey {
+      background-color: whitesmoke;
+    }
+    .talklist {
+      background-color: #e5e5e5;
+    }
+    @media screen and (max-width: 599px) {
+      body {
+        font-size: 0.9em;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      .talktitle {
+        text-align: center;
+      }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+</style>
+<title>The D Programming Language Conference 2022</title>
+</head>
+
+<body class="w3-justify">
+    <div class="w3-card-2" id="menu">
+        <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+          <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SUBMISSIONS</a>
+          <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+            <span class="w3-button w3-block">2013&ndash;2019</span>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="https://dconf.org/2022/" class="w3-bar-item w3-btn">2022</a>
+              <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
+              <a href="https://dconf.org/2018/" class="w3-bar-item w3-btn">2018</a>
+              <a href="https://dconf.org/2017/" class="w3-bar-item w3-btn">2017</a>
+              <a href="https://dconf.org/2016/" class="w3-bar-item w3-btn">2016</a>
+              <a href="https://dconf.org/2015/" class="w3-bar-item w3-btn">2015</a>
+              <a href="https://dconf.org/2014/" class="w3-bar-item w3-btn">2014</a>
+              <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+            <span class="w3-button w3-block">DCONF ONLINE</span>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="https://dconf.org/2021/online/" class="w3-bar-item w3-btn">2021</a>
+              <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn">2020</a>
+            </div>
+          </div>
+          <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">DLANG.ORG</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-right w3-hide-large" onclick="hamburger()">&#9776;</a>
+        </div>
+        <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
+          <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
+        </div>
+      </div>
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding">
+          <img src="./images/logo-512.jpg" class="w3-image">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container w3-margin-top" id="about">
+      <article class="w3-content">
+        <h1>DConf Online Third Edition</h1>
+        <p>
+            The D Language Foundation invites you to join us for the third edition of DConf Online, December 17th and 18th, 2022! It's all happening on <a href="https://www.youtube.com/c/TheDLanguageFoundation">the D Language Foundation's YouTube channel</a>, and it's completely free. No registration required. All you need is a web browser or YouTube app, an internet connection, and, if you want to participate in the live chats, a YouTube account.
+        </p>
+        <p>
+            As with past editions of DConf Online, you'll be able to watch a number of prerecorded talks as they appear, and ask questions of each speaker during the talks, and in an ongoing livestream after the talks. All of the talks and the livestreams from both days will continue to be available after the conference ends, and we'll upload each post-talk Q & A session as separate, trimmed-down videos. You can watch videos from the past editions at the following links.
+        </p>
+        <ul>
+            <li><a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXWsvFA4AuawPoMnq9Bh1lIZ">2020 Talks</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXX0PcnTlv175rEyfH66yaoI">2020 Q &amp; A Sessions</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXXA0Ephsge-DJEY8o7aZMsR">2021 Talks</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXVSD9mrF1rHk2G-6AzdddPk">2021 Q &amp; A Sessions</a> </li>
+        </ul>
+        <p>
+            When we had to cancel DConf in 2020 due to the pandemic, we launched the online version as a companion to, and not a substitute for, the real-world version. <a href="https://dconf.org/2022/">DConf '22 was arguably the best DConf yet</a>, and now we finally get to have both versions in the same year. We look forward to continuing both in the years to come.
+        </p>
+      </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container w3-margin-top" id="schedule">
+      <article class="w3-content">
+        <h2>Call for Submissions</h2>
+        <p>
+            <strong>The talk submission deadline is October 9, 2022.</strong> Submissions should be related to the D programming language, or otherwise relevant to the D community, and should adhere to the following requirements.
+        </p>
+        <ul>
+            <li>Videos should be no longer than 5 minutes.</li>
+            <li>Videos should be in 1920x1080 resolution at 30 frames per second.</li>
+            <li>Ideally, you'll show your abstract, description, and other required information (see below) as slides, with a headshot of your self in one corner. The intent is to demonstrate that you are set up to record videos in the format we prefer.</li>
+            <li>Ideal file formats are <code>.mp4</code>, <code>.mov</code>, or <code>.mkv</code>. Just please try to record with commonly-used screen recording software (e.g., <a href="https://obsproject.com/">OBS Studio</a><a href="https://www.cyberlink.com/products/screen-recorder/features_en_US.html">Cyberlink Screen Recorder</a>, etc.).</li>
+        </ul>
+        <p>Submissions should provide the following information.</p>
+        <ul>
+            <li>the duration of the talk (25&ndash;30 minutes is the target, but we can go shorter or longer in specific cases if there's a good justification)</li>
+            <li>the target audience (beginner, intermediate, advanced, all)</li>
+            <li>the abstract (the elevator pitch)</li>
+            <li>the description (a more detailed outline of what you have in mind)</li>
+        </ul>
+    <div class="w3-container w3-center w3-small w3-padding-64">
+      &copy; 2022 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+<script>
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</body>
+</html>

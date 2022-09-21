@@ -11,11 +11,12 @@ TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*) \
 	slides/ $(wildcard slides/*.pdf slides/*.pptx slides/*.odp) \
+	online/ online/index.html \
+	online/includes/ $(wildcard online/includes/*) \
+	online/images/ $(wildcard online/images/*.png online/images/*.svg online/images/*.jpg) \
 	$(wildcard ./*.html)
 
-ALL_RELATIVE_PATHS = $(TO_COPY)
-
-SITE_FILES = $(addprefix $(OUT)/, $(ALL_RELATIVE_PATHS))
+SITE_FILES = $(addprefix $(OUT)/, $(TO_COPY))
 
 # Rules
 
