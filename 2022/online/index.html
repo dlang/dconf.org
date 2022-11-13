@@ -42,6 +42,10 @@
     h2 {
       padding: 1.25em;
     }
+    h3 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
     .quote {
       color: #aaa;
       font-style: italic;
@@ -64,7 +68,7 @@
       background-color: #52255E;
     }
     .dayheader {
-      background-color: #333;
+      background-color: #52255E;
       color: #fff;
     }
     .talktitle {
@@ -134,7 +138,7 @@
       }
     }
 </style>
-<title>The D Programming Language Conference 2022</title>
+<title>The D Programming Language Conference Online 2022</title>
 </head>
 
 <body class="w3-justify">
@@ -180,10 +184,10 @@
       <article class="w3-content">
         <h1>DConf Online Third Edition</h1>
         <p>
-            The D Language Foundation invites you to join us for the third edition of DConf Online, December 17th and 18th, 2022! It's all happening on <a href="https://www.youtube.com/c/TheDLanguageFoundation">the D Language Foundation's YouTube channel</a>, and it's completely free. No registration required. All you need is a web browser or YouTube app, an internet connection, and, if you want to participate in the live chats, a YouTube account.
+            The D Language Foundation invites you to join us for the third edition of DConf Online, December 17th and 18th, 2022! It&#8217;s all happening on <a href="https://www.youtube.com/c/TheDLanguageFoundation">the D Language Foundation&#8217;s YouTube channel</a>, and it&#8217;s completely free. No registration required. All you need is a web browser or YouTube app, an internet connection, and, if you want to participate in the live chats, a YouTube account.
         </p>
         <p>
-            As with past editions of DConf Online, you'll be able to watch a number of prerecorded talks as they appear, and ask questions of each speaker during the talks, and in an ongoing livestream after the talks. All of the talks and the livestreams from both days will continue to be available after the conference ends, and we'll upload each post-talk Q & A session as separate, trimmed-down videos. You can watch videos from the past editions at the following links.
+            As with past editions of DConf Online, you&#8217;ll be able to watch a number of prerecorded talks as they appear, and ask questions of each speaker during the talks, and in an ongoing livestream after the talks. All of the talks and the livestreams from both days will continue to be available after the conference ends, and we&#8217;ll upload each post-talk Q & A session as separate, trimmed-down videos. You can watch videos from the past editions at the following links.
         </p>
         <ul>
             <li><a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXWsvFA4AuawPoMnq9Bh1lIZ">2020 Talks</a></li>
@@ -192,7 +196,7 @@
             <li><a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXVSD9mrF1rHk2G-6AzdddPk">2021 Q &amp; A Sessions</a> </li>
         </ul>
         <p>
-            When we had to cancel DConf in 2020 due to the pandemic, we launched the online version as a companion to, and not a substitute for, the real-world version. <a href="https://dconf.org/2022/">DConf '22 was arguably the best DConf yet</a>, and now we finally get to have both versions in the same year. We look forward to continuing both in the years to come.
+            When we had to cancel DConf in 2020 due to the pandemic, we launched the online version as a companion to, and not a substitute for, the real-world version. <a href="https://dconf.org/2022/">DConf &#8216;2 was arguably the best DConf yet</a>, and now we finally get to have both versions in the same year. We look forward to continuing both in the years to come.
         </p>
       </article>
     </div>
@@ -200,27 +204,280 @@
     <!-- Schedule Container -->
     <div class="w3-container w3-margin-top" id="schedule">
       <article class="w3-content">
-        <h2>Call for Submissions</h2>
-        <p>
-            <strong>The talk submission deadline is October 9, 2022.</strong> Submissions should be related to the D programming language, or otherwise relevant to the D community. All submissions should be directed to
-            <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> and should adhere to the following requirements.
-        </p>
+        <h2>Schedule</h2>
+        <p>Both days of DConf Online &#8216;22 start with a livestream at 13:50 UTC hosted by Mike Parker (links for both streams will be posted here shortly before the event). Each of the talks are pre-recorded videos which are set to premiere at the scheduled times below.</p>
+        <h3>The Livestream</h3>
+        <p>Each presenter will join the livestream five minutes prior to the start of their talk. During the talk, the presenter will remain in the livestream. They will answer questions both from the talk video's livechat and from the livestream. They'll answer livechat questions in two ways: by typing short answers in the livechat, and verbalizing each answer in the livestream, elaborating as required. In between questions, Mike will chat with the presenter, asking his own questions about their talks and their experiences with the D language. After the talk ends, the presenter will remain in the livestream for another 20 minutes or so for a Q &amp; A session. During this post-talk session, anyone whose question is answered will be entered into a drawing for a prize.</p>
+        <p>Viewers are free to remain in the livestream during each talk, but we recommend you instead do the following:</p>
         <ul>
-            <li>Videos should be no longer than 5 minutes.</li>
-            <li>Videos should be in 1920x1080 resolution at 30 frames per second.</li>
-            <li>Ideally, you'll show your abstract, description, and other required information (see below) as slides, with a headshot of your self in one corner. The intent is to demonstrate that you are set up to record videos in the format we prefer.</li>
-            <li>Ideal file formats are <code>.mp4</code>, <code>.mov</code>, or <code>.mkv</code>. Just please try to record with commonly-used screen recording software (e.g., <a href="https://obsproject.com/">OBS Studio</a><a href="https://www.cyberlink.com/products/screen-recorder/features_en_US.html">Cyberlink Screen Recorder</a>, etc.).</li>
+          <li>Pull up the livestream five minutes prior to each talk for the pre-talk session.</li>
+          <li>Leave the livestream to watch the talk when it premieres (a link to the talk will be posted in the livestream chat during the pre-talk session).</li>
+          <li>Pull up the livestream again for the post-talk Q &amp; A session (each talk will redirect to the livestream when it ends).</li>
         </ul>
-        <p>Submissions should provide the following information.</p>
-        <ul>
-            <li>the duration of the talk (25&ndash;30 minutes is the target, but we can go shorter or longer in specific cases if there's a good justification)</li>
-            <li>the target audience (beginner, intermediate, advanced, all)</li>
-            <li>the abstract (the elevator pitch)</li>
-            <li>the description (a more detailed outline of what you have in mind)</li>
-        </ul>
+        <p>Why do we do it this way? Each presenter should be available anyway to answer questions in their talk's livechat, but a chat box isn't the best medium for long, detailed answers and followups. The livestream gives them the opportunity to provide more detailed answers, often with followups from the host, and allows us to record all such answers for posterity. Each presenter's livestream session will be recorded, edited, and uploaded to our YouTube channel as independent videos. Watch the livestream Q &amp; A sessions from <a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXX0PcnTlv175rEyfH66yaoI">DConf Online 2020</a> and <a href="https://www.youtube.com/playlist?list=PLIldXzSkPUXVSD9mrF1rHk2G-6AzdddPk">DConf Online 2021</a> as examples of what to expect.</p>
+
+        <h3>The Talks</h3>
+        <p>Click <code>[Show Details]</code> next to a speaker&#8217;s name below for information about a talk or speaker.<br>
+        <strong>Note that all times are in UTC.</strong>.</p>
+
+        <!--Day One Schedule-->
+        <div class="w3-panel w3-card-4 w3-center dayheader">
+          <h3>Saturday November 17</h3>
+        </div>
+        <div id="day1" class="w3-container menu w3-padding w3-card-4">
+          <ul class="w3-ul w3-card-4 talklist">
+            <li id="walterb"><a href="#walterb"><strong>14:00 Keynote</strong><br></a>
+              by Walter Bright <button class="w3-medium w3-button" id="walterShow" onClick="openTalkDetails('twalter')">[Show Details]</button>
+              <div id = "twalter" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2020/images/bright.jpg">
+                  <div class="talkmeta">
+                    Audience: All
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>TBA</p>
+                </div>
+                <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He&#8217;s an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines, and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.</p>
+              </div>
+            </li>
+            <li id="fengl"><a href="#fengl"><strong>15:15 D-based Next Generation Verification Language</strong></a><br>
+              by Feng Li <button class="w3-medium w3-button" id="fengShow" onClick="openTalkDetails('feng')" >[Show Details]</button>
+              <div id="feng" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2020/online/images/stock.jpg">
+                  <div class="talkmeta">
+                    Audience: Intermediate/Advanced<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>TBA</p>
+                </div>
+                <p class="bio w3-card">Feng Li is an independent developer from China. He&#8217;s the main translator of the books &#8216;Gray Hat Hacking: The Ethical Hacker&#8217;s Handbook, Fourth Edition&#8217; and &#8216;Linux Hardening in Hostile Networks, First Edition&#8216;. He has been developing software for 15 years, including 11 years of mobile development, and is an active participant in various open source communities. He is interested in cloud/edge computing, AI, virtualization, program runtimes, networking, 5G, RISC-V, and EDA.</p>
+              </div>
+            </li>
+            <li id="roberts"><a href="#roberts"><strong>16:30 It&#8217;s All Fake: Test Data Generation in D</strong></a><br>
+              by Robert Schadek <button class="w3-medium w3-button" id="robertShow" onClick="openTalkDetails('robert')">[Show Details]</button>
+              <div id="robert" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2020/online/images/schadek.jpg">
+                  <div class="talkmeta">
+                    Audience: Beginner<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                <p>When building an application, at some point test data is required. Making up a list of somewhat realistic forenames and surnames isn't too much work, but then you need street names and postcodes for France. Faked can help you with that. This library translates the excellent <code>faker.js</code> library to D with help from the worst typescript transpiler known to man. This is its story.</p>
+                </div>
+                <p class="bio w3-card">Robert Schadek received a doctorate degree in computer science from the University of Oldenburg. His dissertation was titled &#8216;Analysis and Development of Quorum Protocols for Real-World Network Topologies&#8217; and focused on quorum systems in combination with graphs. Since 2018, he has been happily using D in his day job working for Symmetry Investments.</p>
+              </div>
+            </li>
+            <li id="larryh"><a href="#larryh"><strong>17:45 Testing Editors &amp; IDEs for the D Language</strong></a><br>
+              by Larry Hemsley <button class="w3-medium w3-button" id="larryShow" onClick="openTalkDetails('larry')">[Show Details]</button>
+              <div id="larry" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="images/hemsley.png">
+                  <div class="talkmeta">
+                    Audience: Beginner<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>As a long-time reader of the D forums, I have noticed that people new to the D language often ask what the best editor to use is. The usual answers are VScode, Vim, someone's other favorite app, or "check out the editor page at dlang.org". I will supply a more complete answer to this question in the hope that the beginning D language user may benefit from the information. </p>
+                </div>
+                <p class="bio w3-card">TBA</p>
+              </div>
+            </li>
+            <li id="auap"><a href="#auap"><strong>19:00 Ask Us Anything!</strong></a><br>
+              with Walter Bright and Átila Neves<button class="w3-medium w3-button" id="auaShow" onClick="openTalkDetails('aua')">[Show Details]</button>
+              <div id="aua" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2020/online/images/wna.png">
+                  <div class="talkmeta">
+                    Audience: All<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>DConf wouldn&#8217;t be DConf, online or otherwise, without the &ldquo;Ask Us Anything!&rdquo; tradition, where the language maintainers step onto the stage to face the assembled crowd, take their questions, and provide them with the answers they're looking for. So prepare your statements and compile your queries! Walter and Átila are very much looking forward to them.</p>
+                </div>
+              </div>
+            </li>
+            <li id="adamr"><a href="#adamr"><strong>20:15 Livecoding Session</strong></a><br>
+              with Adam D. Ruppe<button class="w3-medium w3-button" id="adamShow" onClick="openTalkDetails('adam')">[Show Details]</button>
+              <div id="adam" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2020/online/images/ruppe.jpg">
+                  <div class="talkmeta">
+                    Audience: All<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>Adam is back for a third DConf Online livecoding session. His previous two sessions were a lot of fun (<a href="https://youtu.be/0VfXqRW0yQo">DConf 2020</a> and <a href="https://youtu.be/XuYcZPYWbKk">DConf 2021</a>). What will he code this time? Tune in to find out!</p>
+                  <p><strong>Please Note:</strong> this is not a pre-recorded talk. It takes place in a second livestream, separate from the DConf Online Q &amp; A livestream. There is no pre-talk session, nor a post-talk Q &amp; A session. Adam will be live and in color from the moment the stream kicks off, and will answer any questions posted in the livestream's chat box. A link to Adam's livestream will be posted here prior to the event.</p>
+                </div>
+                <p class="bio w3-card">Adam has been a D user for over fifteen years. He&#8217;s known as a frequent participant in D chats, the primary creator of <a
+                  href="https://github.com/adamdruppe/arsd">the arsd all-purpose library collection</a>, and the author of <a
+                  href="https://www.packtpub.com/product/d-cookbook/9781783287215">the D Cookbook</a>.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!--Day Two Schedule-->
+        <div class="w3-panel w3-card-4 w3-center dayheader">
+          <h3>Sunday November 18</h3>
+        </div>
+        <div id="day2" class="w3-container menu w3-padding w3-card-4">
+          <ul class="w3-ul w3-card-4 talklist">
+            <li id="atilan"><a href="#atilan"><strong>14:00 Keynote</strong></a><br>
+              by Átila Neves <button class="w3-medium w3-button" id="atilaShow" onClick="openTalkDetails('atila')">[Show Details]</button>
+              <div id="atila" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2019/images/neves.jpg">
+                  <div class="talkmeta">
+                    Audience: All<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>TBA</p>
+                </div>
+                <p class="bio w3-card">Átila Neves has a PhD in Particle Physics
+                  for research done at CERN. Most of the time spent there required
+                  programming in C++, with a two-year stint as a Perl programmer
+                  on the IT department's security team. He also worked for Cisco
+                  for almost seven years, developing networking software in C and
+                  C++ and leading his teams in the areas of software quality and
+                  testing. He now works as a D consultant/programmer for Symmetry
+                  Investments, as well as being the deputy maintainer of the D
+                  programming language. He spends his spare time yelling at the
+                  screen in frustration while waiting for computers to compile his
+                  code.</p>
+              </div>
+            </li>
+            <li id="maxh"><a href="#maxh"><strong>15:15 Differentiable Programming in D</strong></a><br>
+              by Max Haughton <button class="w3-medium w3-button" id="maxShow" onClick="openTalkDetails('max')">[Show Details]</button>
+              <div id="max" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2021/online/images/haughton.jpg">
+                  <div class="talkmeta">
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>TBA.</p>
+                </div>
+                <p class="bio w3-card">Max slings code for Symmetry Investments while simultaneously doing odd jobs for the D Language Foundation in a role funded by Symmetry. Otherwise... all words, some action, no bona fides!</p>
+              </div>
+            </li>
+            <li id="mikes"><a href="#mikes"><strong>16:30 Structured Concurrency</strong></a><br>
+              by Mike Shah <button class="w3-medium w3-button" id="mikeShow" onClick="openTalkDetails('mike')">[Show Details]</button>
+              <div id="mike" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../images/shah.jpg">
+                  <div class="talkmeta">
+                    Audience: Beginner<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>This talk is a continuation of <a href="https://dconf.org/2022/#mikes">the Dconf &#8216;22 talk on building a ray tracer in (less than) one
+                    weekend</a>. What this talk will show is that D is a language built for software engineering and
+                    creating applications that scale. In this talk I will continue to take you through the journey of building a
+                    ray tracer, this time focusing on some of the key features of D. We&#8217;ll start by optimizing the
+                    previous ray tracer with <code>static if</code> and <code>std.parallelism</code> for example. Then I&#8217;ll show object-oriented
+                    programming in D and build a few data structures. Finally, we&#8217;ll display a final rendered image
+                    using the new and improved ray tracer with several new features.</p>
+                </div>
+                <p class="bio w3-card">Michael discovered computer science at the age of 13 when googling &ldquo;how do I make games&rdquo;. Since
+                  that fateful google search, Mike has worked as a freelance game developer, worked in industry for
+                  Intel, Sony PlayStation, Oblong Industries, and researched at The Ohio Supercomputer Center to name
+                  a few. Mike cares about building tools to help programmers monitor and improve the performance of
+                  real time applications&mdash;particularly any visual multimedia. Mike believes computer science can be
+                  learned by all. Mike Shah completed his Ph.D. at Tufts University in 2017 and is an associate teaching
+                  professor at Northeastern University. Mike also consults as a 3D Senior Graphics Engineer. In
+                  Michael&#8217;s spare time he goes for long runs, plays video games while on his exercise bike, learns guitar,
+                  and considers himself an amateur pizza and wine maker.</p>
+              </div>
+            </li>
+            <li id="steves"><a href="#steves"><strong>17:45 Model all the Things!</strong></a><br>
+              by Steven Schveighoffer <button class="w3-medium w3-button" id="steveShow" onClick="openTalkDetails('steve')">[Show Details]</button>
+              <div id="steve" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2018/images/schveighoffer.jpg">
+                  <div class="talkmeta">
+                    Audience: Intermediate/Advanced<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                <p>This talk is about the modelling power of D, and why you should at least
+                  consider using structs or classes as models for your APIs. As D has features
+                  such as introspection and generative programming, building a model can be just
+                  as effective as using code to form your API. Plus a model can be a whole lot
+                  prettier in the end. Slap on some UDA magic and the code almost writes itself!</p>
+                <p>
+                  As I talked about in my 2019 talk on serialization, we want to use the D
+                  compiler to the best of its abilities. We&#8217;ll look at a few cases where modelling
+                  can shine as a way to express how your program should behave and look
+                  intuitive to those reading the code.
+                </p>
+                </div>
+                <p class="bio w3-card">Steven Schveighoffer has been to most
+                  real-world DConfs since 2013. He has presented at four of them, and also at DConf Online 2020.
+                  He has published an article on the D Blog about writing <code>@trusted</code>
+                  code, migrated a very unsafe, complex codebase to be <code>@safe</code>, and
+                  worked on fixing <code>@trusted</code> issues in Phobos (D&#8217;s standard
+                  library) and DRuntime.
+              </div>
+            </li>
+            <li id="brianc"><a href="#brianc"><strong>19:00 Programs That Create Other Programs: A beginner&#8217;s guide using D</strong></a><br>
+              by Brian Callahan <button class="w3-medium w3-button" id="brianShow" onClick="openTalkDetails('brian')">[Show Details]</button>
+              <div id="brian" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2021/online/images/callahan.jpg">
+                  <div class="talkmeta">
+                    Audience: Beginner<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>This talk is designed for the newcomer to programming, D, and/or compilers, assemblers, and toolchains. Based on a popular blog series by the presenter, this talk walks viewers through an outline of the problems that must be solved to create a program that creates other programs, develop low-theory beginner-friendly strategies for solving those problems, and then explore how D is particularly well-suited to solving those problems. This talk provides the background for the subsequent workshop, in which we will code as much as we can of an assembler for the Intel 8080 CPU.</p>
+                  <p>For experienced D programmers, this talk and the workshop demonostrate how you can incorporate D early on in a new programmer&#8217;s education and showcase how to use D elegantly using little theory, yet still solve complex and interesting problems, and produce interesting and complex software early in one&#8217;s programming journey.</p>
+                </div>
+                <p class="bio w3-card">Brian Callahan is a professor in the Information Technology
+                  & Web Science program at Rensselaer Polytechnic Institute in Troy, NY. His
+                  research and teaching focuses on cybersecurity, web science, and the
+                  digital humanities. Brian has been an OpenBSD developer since 2013,
+                  where he has a long-standing project to port and package every compiler
+                  in existence for OpenBSD. He is known in the D community for once having
+                  written a popular blog post about getting GDC working on OpenBSD, and
+                  for writing a blog series on how to write a Z80 assembler in D.</p>
+              </div>
+            </li>
+            <li id="works"><a href="#works"><strong>20:15 Workshop: Develop an assembler for the Intel 8080 CPU</strong></a><br>
+              by Brian Callahan <button class="w3-medium w3-button" id="workshopShow" onClick="openTalkDetails('workshop')">[Show Details]</button>
+              <div id="workshop" class="w3-hide w3-panel w3-border">
+                <div class="talktitle w3-card-4">
+                  <img class="speakerIMG w3-image" src="../../2021/online/images/callahan.jpg">
+                  <div class="talkmeta">
+                    Audience: Beginner<br>
+                    <div class="talklinks">
+                    </div>
+                  </div>
+                  <p>Following on the information from his preceding presentation, Brian walks viewers through the creation of Intel 8080 assembler in the D language. Note that this is a prerecorded talk, not a livecoding session. The DConf Online &#8216;22 Livestream will end before this talk premieres, but Brian will be available in the video's livechat to answer any questions that arise.</p>
+                </div>
+                <p class="bio w3-card">Brian Callahan is a professor in the Information Technology
+                  & Web Science program at Rensselaer Polytechnic Institute in Troy, NY. His
+                  research and teaching focuses on cybersecurity, web science, and the
+                  digital humanities. Brian has been an OpenBSD developer since 2013,
+                  where he has a long-standing project to port and package every compiler
+                  in existence for OpenBSD. He is known in the D community for once having
+                  written a popular blog post about getting GDC working on OpenBSD, and
+                  for writing a blog series on how to write a Z80 assembler in D.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
     <div class="w3-container w3-center w3-small w3-padding-64">
       &copy; 2022 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
     </div>
+
 <script>
   function hamburger() {
     var x = document.getElementById("small-menu");
@@ -230,5 +487,18 @@
       x.className = x.className.replace(" w3-show", "");
     }
   }
-</body>
+  function openTalkDetails(name) {
+    var x = document.getElementById(name);
+    var p = document.getElementById(name + "Show");
+    if(x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+      p.innerHTML= "[Hide Details]";
+    }
+    else {
+      x.className = x.className.replace(" w3-show", "");
+      p.innerHTML = "[Show Details]";
+    }
+  }
+</script>
+  </body>
 </html>
