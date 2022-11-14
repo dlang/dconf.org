@@ -596,8 +596,8 @@
                   <p>In D, certain high-level constructs are lowered to calls to functions from DRuntime called hooks. This process takes place in the compiler&#8217;s intermediate representation generator. This has the following disadvantages:</p>
                   <ol class="wr-ol">
                     <li>The compiler doesn't verify the safety of the hooks, because lowerings take place after semantic analysis. This means that the hooks are essentially lying about their attributes.</li>
-                    <li>The hook arguments are mostly <code>void[]</code> and require the <code>TypeInfo</code> hierarchy to extract type information at runtime. This is unnecessarily slow because all type information is available at compile time</li>
-                    <li> All hooks are linked into one large runtime library that all D programs link, regardless of which hooks they use. This makes druntime unnecessarily large for use cases were a subset of the hooks is used.
+                    <li>The hook arguments are mostly <code>void[]</code> and require the <code>TypeInfo</code> hierarchy to extract type information at runtime. This is unnecessarily slow because all type information is available at compile time.</li>
+                    <li>All hooks are linked into one large runtime library that all D programs link, regardless of which hooks they use. This makes druntime unnecessarily large for use cases where a subset of the hooks is used.
                     </li>
                   </ol>
                   <p>This project eliminates all these disadvantages by converting all DRuntime hooks to templates and moving the lowering logic to the semantic phase. Thus, all new hooks are verified to respect the restrictions imposed by attributes, type information is leveraged at compile time, and D executables will only contain code for the hooks they use. In addition, this brings performance benefits since runtime checks are moved to compile time.
