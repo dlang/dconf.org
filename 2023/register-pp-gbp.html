@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="DConf '22">
+<meta property="og:description" content="DConf '22 is happening in London, August 1-4, 2022. We invite you to join us for four days of education, knowledge sharing, fellowship, and fun.">
+<meta property="og:url" content="https://dconf.org/2022/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://dconf.org/2022/images/logo-og2.jpg">
+<meta property="og:image:type" content="image/jpeg" >
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="630">
+<link href="./includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.1em;
+      background-color: whitesmoke;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2 {
+      font-family: 'Trebuchet MS', 'Arial Black', sans-serif;
+      color: #333;
+      padding: 5px 5px 5px 0px;
+    }
+    h1 {
+      border-bottom: 5px solid #333;
+    }
+    h2 {
+      border-bottom: 1px solid #333;
+    }
+    .quote {
+      color: #aaa;
+      font-style: italic;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    .quote p {
+      display: inline;
+    }
+    .quote figcaption, .quote blockquote {
+        margin: 1em;
+    }
+    #menu {
+        background-color: #333;
+        color: #fff;
+        font-size: 1.1em;
+    }
+    #home {
+      background-color: #333;
+    }
+    .quote {
+        color: #777;
+    }
+    .tabcolor {
+      color:#fff;
+      background-color: rgb(57, 57, 57);
+    }
+    .tablink {
+      min-width: 33%;
+    }
+    .talktitle {
+      padding-bottom: 125px;
+      background-color: lightgray;
+      margin-bottom: 16px;
+    }
+    .speakerIMG {
+      max-height: 250px;
+    }
+    .speaker {
+      font-weight: bold;
+    }
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+    .talklinks a {
+      padding: 0.5em;
+      background-color: whitesmoke;
+      color: #2b2d2f;
+      text-decoration: none;
+    }
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background-color: lightgray;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+    @media screen and (max-width: 599px) {
+      body {
+        font-size: 0.9em;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      .talktitle {
+        text-align: center;
+      }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+</style>
+<title>The D Programming Language Conference 2022</title>
+</head>
+
+<body class="w3-justify">
+    <div class="w3-container w3-margin-top" id="thanks">
+        <article class="w3-content">
+          <div id="smart-button-container">
+              <div style="text-align: center;">
+                <div id="paypal-button-container"></div>
+              </div>
+          </div>
+        </article>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=ARAcmgIKXYL2RJTfnT5Ow0ZK5dTjLKoWs6awzfz5wUNR_-wQhwOUa4O-x3WhdA5xnmZ4NloAnoAwIT-R&enable-funding=venmo&currency=GBP" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        paypal.Buttons({
+          style: {
+            shape: 'rect',
+            color: 'blue',
+            layout: 'vertical',
+            label: 'paypal',
+
+          },
+
+          createOrder: function(data, actions) {
+            return actions.order.create({
+              purchase_units: [{"description":"DConf '23 Early-Bird Registration (GBP)","amount":{"currency_code":"GBP","value":382.44,"breakdown":{"item_total":{"currency_code":"GBP","value":318.7},"shipping":{"currency_code":"GBP","value":0},"tax_total":{"currency_code":"GBP","value":63.74}}}}]
+            });
+          },
+
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(orderData) {
+
+              // Full available details
+              console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+              // Show a success message within this page, e.g.
+              const element = document.getElementById('paypal-button-container');
+              element.innerHTML = '';
+              element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+              // Or go to another URL:  actions.redirect('thank_you.html');
+
+            });
+          },
+
+          onError: function(err) {
+            console.log(err);
+          }
+        }).render('#paypal-button-container');
+      }
+      initPayPalButton();
+    </script>
+</body>
+</html>
