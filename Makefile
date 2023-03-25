@@ -3,7 +3,7 @@ SITE = dconf.org@digitalmars.com:data/
 DMD = dmd
 OUT = docs
 
-all: $(OUT)/index.html $(OUT)/CNAME 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all 2022/all
+all: $(OUT)/index.html $(OUT)/CNAME 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all 2022/all 2023/all
 
 .PHONY: rsync
 rsync : all
@@ -53,6 +53,9 @@ clean: 2007/clean 2013/clean 2014/clean 2015/clean 2016/clean 2017/clean 2018/cl
 	
 2022/%:
 	$(MAKE) DMD=$(DMD) --directory=2022 OUT=../$(OUT)/2022 $*
+	
+2023/%:
+	$(MAKE) DMD=$(CMD) --directory=2023 OUT=../$(OUT)/2023 $*
 
 $(OUT)/%: %
 	mkdir -p $(OUT)
