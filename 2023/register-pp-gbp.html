@@ -18,53 +18,15 @@
 <body class="w3-justify" style="background-color: white;">
     <div class="w3-container w3-margin-top" id="thanks">
         <article class="w3-content">
-          <div id="smart-button-container">
-              <div style="text-align: center;">
-                <div id="paypal-button-container"></div>
-              </div>
+          <div style="text-align: center;">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="APUMFRXMK9R9Q">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
           </div>
         </article>
     </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=ARAcmgIKXYL2RJTfnT5Ow0ZK5dTjLKoWs6awzfz5wUNR_-wQhwOUa4O-x3WhdA5xnmZ4NloAnoAwIT-R&enable-funding=venmo&currency=GBP" data-sdk-integration-source="button-factory"></script>
-    <script>
-      function initPayPalButton() {
-        paypal.Buttons({
-          style: {
-            shape: 'rect',
-            color: 'blue',
-            layout: 'vertical',
-            label: 'paypal',
-
-          },
-
-          createOrder: function(data, actions) {
-            return actions.order.create({
-              purchase_units: [{"description":"DConf '23 Early-Bird Registration (GBP)","amount":{"currency_code":"GBP","value":309.32,"breakdown":{"item_total":{"currency_code":"GBP","value":371.18},"shipping":{"currency_code":"GBP","value":0},"tax_total":{"currency_code":"GBP","value":61.86}}}}]
-            });
-          },
-
-          onApprove: function(data, actions) {
-            return actions.order.capture().then(function(orderData) {
-
-              // Full available details
-              console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-              // Show a success message within this page, e.g.
-              const element = document.getElementById('paypal-button-container');
-              element.innerHTML = '';
-              element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-              // Or go to another URL:  actions.redirect('thank_you.html');
-
-            });
-          },
-
-          onError: function(err) {
-            console.log(err);
-          }
-        }).render('#paypal-button-container');
-      }
-      initPayPalButton();
-    </script>
 </body>
 </html>
