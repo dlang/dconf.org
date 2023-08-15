@@ -22,7 +22,7 @@ SLIDES_URL = http://www.slideshare.net/JohnColvin7/clwrap-nonsense-free-control-
 
 SLIDE_LINKS = $(LINK2 $(SLIDES_URL), SlideShare) &middot; $(LINK2 $(SLIDES_FILE pdf), PDF)
 
-VIDEO_URL_Y = https://youtu.be/jk9dDAL6X8A
+VIDEO_URL_Y = https://youtu.be/MgjpNdf7xH8
 
 VIDEO_URL_A =
 
