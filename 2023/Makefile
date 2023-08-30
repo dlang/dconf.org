@@ -10,6 +10,7 @@ TMP = .tmp
 TO_COPY = \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
 	includes/ $(wildcard includes/*) \
+	slides/ $(wildcard slides/*.pdf slides/*.pptx slides/*.odp) \
 	$(wildcard ./*.html)
 
 SITE_FILES = $(addprefix $(OUT)/, $(TO_COPY))
