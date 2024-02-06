@@ -3,7 +3,7 @@ SITE = dconf.org@digitalmars.com:data/
 DMD = dmd
 OUT = docs
 
-all: $(OUT)/index.html $(OUT)/CNAME 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all 2022/all 2023/all
+all: $(OUT)/index.html $(OUT)/CNAME 2007/all 2013/all 2014/all 2015/all 2016/all 2017/all 2018/all 2019/all 2020/all 2021/all 2022/all 2023/all 2024/all
 
 .PHONY: rsync
 rsync : all
@@ -16,7 +16,7 @@ deploy : all
 	ssh travis_ci_dconf@digitalmars.com "chmod -R g+w /usr/local/www/dconf.org/data" || true
 
 .PHONY: clean
-clean: 2007/clean 2013/clean 2014/clean 2015/clean 2016/clean 2017/clean 2018/clean 2019/clean 2020/clean 2021/clean 2022/clean
+clean: 2007/clean 2013/clean 2014/clean 2015/clean 2016/clean 2017/clean 2018/clean 2019/clean 2020/clean 2021/clean 2022/clean 2023/clean 2024/all
 	rm -rf $(OUT)
 	rm -rf 20??/.tmp
 
