@@ -56,6 +56,9 @@ clean: 2007/clean 2013/clean 2014/clean 2015/clean 2016/clean 2017/clean 2018/cl
 	
 2023/%:
 	$(MAKE) DMD=$(DMD) --directory=2023 OUT=../$(OUT)/2023 $*
+	
+2024/%:
+	$(MAKE) DMD=$(DMD) --directory=2024 OUT=../$(OUT)/2024 $*
 
 $(OUT)/%: %
 	mkdir -p $(OUT)
