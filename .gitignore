@@ -4,6 +4,10 @@
 # Generated directories
 /20??/.tmp
 /out
+/docs
 
 # Private key
 /deploy_rsa
+
+# Mac stuff
+.DS_Store
