@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="DConf '24">
+<meta property="og:description" content="DConf '24 is happening in London, September 17-20, 2024. We invite you to join us for four days of education, knowledge sharing, collaboration, and fun.">
+<meta property="og:url" content="https://dconf.org/2024/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://dconf.org/2024/images/logo-og2.jpg">
+<meta property="og:image:type" content="image/jpeg" >
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="630">
+<link href="./includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body {
+        height: 100%;
+        font-family: 'Arial', sans-serif;
+        font-size: 1.2em;
+        color: hsla(225, 15%, 90%, 0.82);
+        background-color: #252526;
+    }
+    article {
+        max-width: 700px;
+        margin-bottom: 32px;
+        padding: 10px;      
+        background-color: #2d2d30;
+    }
+    h1, h2 {
+        font-family: 'Trebuchet MS', 'Arial Black', sans-serif;
+        padding: 5px 5px 5px 0px;
+        background-color: #007acc;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    h1 {
+        border-bottom: 5px solid hsla(225, 15%, 90%, 0.82);
+        margin-top: -16px;
+        padding: 32px;
+    }
+    h2 {
+        padding: 16px 32px;
+    }
+    input {
+        margin-bottom: 8px;
+    }
+    #home {
+        background-color: #1E1E1E;
+        padding-top: 32px;
+    }
+    #map {
+        width: 100%;
+        height: 450px;
+    }
+    #menu {
+        background-color: #007acc;
+        font-size: 1.1em;
+    }
+    #sponsors, #register, #about {
+        background-color: hsla(225, 15%, 90%, 0.82);
+    }
+    #sponsors article, #register article, #about article {
+        background-color: inherit;
+        color: black;
+    }
+    .quote {
+        font-style: italic;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+        border: 2px solid hsla(225, 15%, 90%, 0.82);
+    }
+    .quote p {
+        display: inline;
+    }
+    .quote figcaption, .quote blockquote {
+        margin: 1em;
+    }
+    .reg {        
+        margin: 16px;
+        background-color: inherit;
+    }
+    .reg span {
+        border-bottom: 1px solid hsla(225, 15%, 90%, 0.82);
+    }
+    @media screen and (max-width: 599px) {
+        body {
+            font-size: 0.9em;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .talktitle {
+            text-align: center;
+        }
+    }
+    /*
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      } 
+    } */
+</style>
+<title>The D Programming Language Conference 2022</title>
+</head>
+
+<body class="w3-justify">
+    <div class="w3-card-2" id="menu">
+        <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">REGISTRATION</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">VENUE</a>
+            <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SPONSORS</a>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+                <span class="w3-button w3-block">2013&ndash;2023</span>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="https://dconf.org/2023/" class="w3-bar-item w3-btn">2023</a>
+                    <a href="https://dconf.org/2022/" class="w3-bar-item w3-btn">2022</a>
+                    <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
+                    <a href="https://dconf.org/2018/" class="w3-bar-item w3-btn">2018</a>
+                    <a href="https://dconf.org/2017/" class="w3-bar-item w3-btn">2017</a>
+                    <a href="https://dconf.org/2016/" class="w3-bar-item w3-btn">2016</a>
+                    <a href="https://dconf.org/2015/" class="w3-bar-item w3-btn">2015</a>
+                    <a href="https://dconf.org/2014/" class="w3-bar-item w3-btn">2014</a>
+                    <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+                <span class="w3-button w3-block">DCONF ONLINE</span>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="https://dconf.org/2022/online/" class="w3-bar-item w3-btn">2024</a>
+                    <a href="https://dconf.org/2022/online/" class="w3-bar-item w3-btn">2022</a>
+                    <a href="https://dconf.org/2021/online/" class="w3-bar-item w3-btn">2021</a>
+                    <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn">2020</a>
+                </div>
+            </div>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">DLANG.ORG</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-right w3-hide-large" onclick="hamburger()">&#9776;</a>
+        </div>
+        <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block">REGISTRATION</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block">VENUE</a>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
+        </div>
+    </div>
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding">
+            <img src="./images/logo-512.png" class="w3-image">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container w3-margin-top" id="about">
+        <article class="w3-content w3-card-2">
+            <p>
+                Symmetry Investments and the D Language Foundation are thrilled to invite you to the <b>D Programming Language Conference 2024</b> in London, from <b>September 17&ndash;20</b>. With help once more from <a href="https://brightspaceevents.co.uk">our friends at Brightspace Events</a>, we&#8217;re excited to return to our favorite venue, <a href="https://www.codenode.live">CodeNode</a>. 
+            </p>
+            <p>
+                DConf is more than a conference; it's a community celebration. It's where DLang enthusiasts and experts from across the globe converge for four days of knowledge sharing, collaboration, and fun. Though our regular online meetups are valuable, they can't replicate the connection and energy of in-person interactions, be it during engaging sessions, casual chats, or our nightly BeerConf.
+            </p>
+            <p>
+                Whether you're a seasoned DConf veteran or joining us for the first time, we can't wait to welcome you to London! 
+            </p>
+        </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container w3-margin-top" id="schedule">
+        <article class="w3-content w3-card-2">
+            <h1>Call for Submissions</h1>
+            <figure class="quote">
+                <blockquote>Coming up with an idea for a talk is as simple as the way you use D. Just look at your code, and it makes a presentation...</blockquote>
+                <figcaption>&mdash; Ali Çehreli, DConf Online 2020</figcaption>
+             </figure>
+            <p>
+                We are currently accepting submissions for DConf &#8216;23. If you have an idea for a talk, demo, or panel, don&#8217;t hesitate to submit it. We&#8217;re interested in anything and everything related to the D programming language. We will review all submissions submitted by June 8 AOE.</p>
+            <p>
+                Never presented at a conference? Don&#8217;t let that stop you! Several D community members have given their first conference talks at DConf. Our community is always welcoming and ready to make you feel at home.
+            </p>
+            <p>
+                Not sure what to talk about? As Ali pointed out in <a href="https://youtu.be/E-78QqeDfI8?t=30">one of his DConf Online 2020 Q & A sessions</a>, if you&#8217;re using D now, you probably already have material for a potential talk.
+            </p>
+            <p>
+                If you need inspiration, visit <a href="https://dconf.org/2023/index.html#schedule">the DConf &#8216;23 Schedule</a> to see what sort of talks were presented, then follow the links in the menu bar to past conferences for more. Any topic related to D is a potential talk, such as:
+            </p>
+            <ul>
+                <li><strong>Language techniques</strong> enabled by the D programming language</li>
+                <li><strong>Tools and techniques</strong> for maximizing productivity when working in D</li>
+                <li><strong>Experience reports</strong> on using D in the real world, professionally or as a hobby</li>
+                <li><strong>Under the hood</strong> looks at compiler and standard library implementation artifacts</li>
+                <li><strong>Hot topics</strong> such as safe deterministic memory management, migrating from other languages, or community engagement</li>
+                <li><strong>Deep dives</strong> into D projects, their APIs, architecture, and implementation details</li>
+                <li><strong>Research reports</strong> by students doing research on or using the D language</li>
+            </ul>
+            <p>
+                Don't feel constrained in topic or format. Follow your inspiration where it leads and tell us about it!
+            </p>
+            <h2>Selection Criteria</h2>
+            <p>
+                Talks should be no longer than 40 minutes and no shorter than 25 minutes. Additionally, we will evaluate submissions according to the following criteria:
+            </p>
+            <ul>
+                <li><strong>Relevance:</strong> Is the topic interesting to DConf attendees? Will coverage be beneficial? Is it building on tried and true ideas, or blazing new trails?</li>
+                <li><strong>Coverage:</strong> Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?</li>
+                <li><strong>Organization:</strong> Is the submission well organized? Will the audience tune into the narrative?</li>
+                <li><strong>Novelty and Originality:</strong> How new and noteworthy is the material? Previously published material is acceptable provided it hasn&#8217;t yet
+                reached a wide audience within the D community.</li>
+                <li><strong>Bottom Line:</strong> What&#8217;s your session&#8217;s takeaway? How is it going to improve the attendees&#8217; knowledge, outlook, and inspiration?</li>
+            </ul>
+            <h2>Submission Guidelines</h2>
+            <p>
+                We expect submissions in either plain text or Markdown. Please do not send PDF, DOCX, etc. All submissions should be directed to
+                <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+                and should include:
+            </p>
+            <ol>
+                <li><strong>Title</strong></li>
+                <li><strong>Kind</strong> (e.g., talk, panel, contest)</li>
+                <li><strong>Duration</strong> (25&ndash;40 minutes)</li>
+                <li><strong>Target Audience</strong> (e.g., beginner, intermediate, advanced)</li>
+                <li><strong>Abstract:</strong> the "elevator pitch" of the talk, in one paragraph</li>
+                <li><strong>Extended Description:</strong> an extended abstract including any details you believe are relevant for evaluating the submission</li>
+                <li><strong>Brief Speaker Biography:</strong> including a summary of the speaker&#8217;s expertise relative to the talk topic</li>
+            </ol>
+            <p>We can&#8217;t wait to see what you send us!</p>
+        </article>
+    </div>
+    <!-- Registration Container -->
+    <div class="w3-container w3-margin-top" id="register">
+        <article class="w3-content w3-card-2">
+            <h1>Registration</h1>
+            <p>
+                GBP rates are based on the <a href="https://www.trade-tariff.service.gov.uk/exchange_rates?_ga=2.151572601.1999754293.1711386624-1720286691.1711386624">HMRC Exchange Rate for the current month.</a> Note that this rate is static for the month and will most likely differ from the rate used by PayPal or your credit card company. You may find the USD PayPal link to result in a lower or higher charge on your GBP credit card than the GBP link.</p>
+            <p>A 20% VAT is added to the base registration rates.</p>
+            <div class="reg w3-padding w3-card-2">
+                <p><span>Early-Bird Registration Base Rate: $382.50 (£303.23)</span></p>
+                <p>
+                    Early-bird registration is 15% off the general rate of $450. At a base rate of $382.50, with 20% VAT, the total is $459 (£363.88). Early-bird registration is available until June 17 AOE, <a href="#pay">so register now</a>!
+                </p>
+            </div>
+            <div class="reg w3-padding w3-card-2">
+                <p><span>General Registration Base Rate: $450</span></p>
+                <p>
+                    General registration opens on June 18 AOE. At a base rate of $450, the total with 20% VAT is $540. The GBP rate will be listed at the HMRC June 2024 exchange rate on June 18.
+                </p>
+            </div>
+            <div class="reg w3-padding w3-card-2">
+                <p><span>Student Registration Base Rate: $100 (£79.28)</span></p>
+                <p>                    
+                    The student rate is a fixed $100 + 20% VAT, or $120 (£95.13), until General Registration closes. If you qualify, please contact <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> for details on how to take advantage of this discounted rate.
+                </p>
+            </div>
+            <div class="reg w3-padding w3-card-2">
+                <p><span>Major Open Source Contributor Registration Base Rate: $250 (£198.19)</span></p>
+                <p>                    
+                    The rate for major open source contributors is a fixed $250 + 20% VAT, or $300 (£237.83), until General Registration closes. Eligibility for this discount is determined on a case-by-case basis. If you think you qualify, please contact <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> for more information.
+                </p>
+            </div>
+            <div class="reg w3-padding w3-card-2">
+                <p><span>Hardship Rate</span></p>
+                <p>                    
+                    If you would like to attend DConf but cannot afford any of the above rates, we are willing to offer you a special hardship rate. This is only a discount on registration. We cannot assist you with transportation or lodging. Please contact <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> to explain your situation, and we&#8217;ll provide you with more details.
+                </p>
+            </div>
+            <div class="w3-card w3-padding w3-center">
+                <div class="w3-container"><h2>Register Early-Bird USD: $382.50 + 20% VAT ($459)</h2></div>
+                <form class="w3-container" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="RBVCF823U3HRN" />
+                    <input type="hidden" name="on0" value="Tell us of any special dietary requirements you have."/>
+                    <label>Tell us of any special dietary requirements you have.</label>
+                    <input type="text" class="w3-input" name="os0" maxLength="200" />
+                    <input type="hidden" name="on1" value="Tell us a nickname, if any, to include on your name tag."/>
+                    <label>Tell us a nickname, if any, to include on your name tag.</label>
+                    <input type="text"  class="w3-input" name="os1" maxLength="200" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form>
+                <hr>
+                <div class="w3-container"><h2>Register Early-Bird GBP: £303.23 + 20% VAT (£363.88)</h2></div>
+                <form class="w3-container" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="W9VZ8VBSX5X66" />
+                    <input type="hidden" name="on0" value="Tell us of any special dietary requirements you have."/>
+                    <label>Tell us of any special dietary requirements you have.</label>
+                    <input type="text" class="w3-input" name="os0" maxLength="200" />
+                    <input type="hidden" name="on1" value="Tell us a nickname, if any, to include on your name tag."/>
+                    <label>Tell us a nickname, if any, to include on your name tag.</label>
+                    <input type="text"  class="w3-input" name="os1" maxLength="200" />
+                    <input type="hidden" name="currency_code" value="GBP" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form>
+            </div>
+            <p style="font-size:smaller;">
+                <em>Please be aware that by attending the conference, you acknowledge that you are responsible for any property that you bring to the venue and that neither the D Language Foundation nor its sponsors can assume any responsibility for damaged, stolen or lost property belonging to the attendees.</em>
+            </p>
+        </article>
+    </div>
+
+    <!-- Venue Container -->
+    <div class="w3-container w3-margin-top" id="venue">
+        <article class="w3-content w3-card-2">
+            <h1>Venue</h1>
+            <p>
+                <a href="https://www.codenode.live/">Our DConf '24 venue is CodeNode</a>, a space in Central London specifically designed for tech conferences. It&#8217 conveniently located close between Moorgate and Liverpool Street stations and is a 10&ndash;15 minute walk from Old Street Station to the north.
+            </p>
+                <div class="w3-center">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.703584548956!2d-0.08842978419804387!3d51.51865387963698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cac4424aedb%3A0x77281b9991b7874!2s10%20South%20Pl%2C%20London%20EC2M%207EB%2C%20UK!5e0!3m2!1sen!2skr!4v1648216561193!5m2!1sen!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            <p>
+                Our presentations will happen on the ground floor in the CTRL room, and we'll have the entirety of the ESC area downstairs to ourselves, where attendees can relax, chat, or play table tennis or foosball between talks.
+            </p>
+            <h2 id="hotels">Accommodations</h2>
+            <p>
+                There are several budget hotels in easy walking distance. The following are some options that, according to Google Maps, are less than a 20-minute walk from the venue. Some of them are near an underground station that is one stop away from Moorgate or Liverpool Street stations. Click a link to see the walking route(s) between a hotel and the venue. On the map, you'll find links to reserve a room. Note that most attendees generally stay at the Travelodge London Central City Road.
+            </p>
+            <ul>
+                <li><a href="https://goo.gl/maps/uh9V2VLj9f7fdAX88">Point A Hotel London - Shoreditch</a>: 5 minutes</li>
+                <li><a href="https://goo.gl/maps/MdtDYXmt8GSLFYmm6">Travelodge London Central City Road</a>: 6 minutes </li>
+                <li><a href="https://goo.gl/maps/CsLARVpQiK7MoUTP6">Travelodge London Central Liverpool Street</a>: 9 minutes</li>
+                <li><a href="https://goo.gl/maps/LN22z3fk8FUwRH6X6">Point A Hotel London - Liverpool Street</a>: 11 minutes</li>
+                <li><a href="https://goo.gl/maps/7L7igViopVSRy1J89">Travelodge London Central Bank</a>: 13 minutes</li>
+                <li><a href="https://goo.gl/maps/URAc4A2NCuVzWVT66">Travelodge London City</a>: 13 minutes</li>
+                <li><a href="https://goo.gl/maps/QBzDMkVeS4tSvJBz5">easyHotel London City Shoreditch</a>: 14 minutes</li>
+                <li><a href="https://goo.gl/maps/g3p54HHfiaHou41B9">Hotel Motel One London Tower Hill</a>: 15 minutes</li>
+                <li><a href="https://goo.gl/maps/kCSQXFeYkNjrWFaa7">hub by Premier Inn London Shoreditch</a>: 15 minutes</li>
+                <li><a href="https://goo.gl/maps/misZc78nmDZZggu26">The Z Hotel Shoreditch</a>: 16 minutes</li>
+                <li><a href="https://goo.gl/maps/qiDomcNAPLqQpXcp8">Premier Inn London City (Old Street)</a>: 17 minutes</li>
+                <li><a href="https://goo.gl/maps/PLQgPdPCAX6MyQ1b6">hub by Premier Inn London Spitalfields</a>: 17 minutes</li>
+                <li><a href="https://goo.gl/maps/3h2g7SKUA7UY1wGm8">Premier Inn London Bank (Tower)</a>: 19 minutes</li>
+            </ul>
+        </article>
+    </div>
+
+    <!-- Sponsors Container -->
+    <div class="w3-container w3-margin-top" id="sponsors">
+        <article class="w3-content w3-card-2">
+            <h1>Sponsors</h1>
+            <div class="w3-center w3-padding-64" id="symmetry">
+                <a href="https://symmetryinvestments.com/"><img src="../2020/images/symmetry-logo1.png" alt="Symmetry Investments" class="w3-image"></a>
+            </div>
+            <p>
+                DConf &#8216;23 is sponsored by <a href="https://symmetryinvestments.com/">our friends at Symmetry Investments</a>. With offices in Hong Kong, Singapore, London, Jersey, and the Cayman Islands, Symmetry employs D in their investment management mission. This is the fourth time they&#8217;ve sponsored DConf, and we are thankful for their continued support. They are also the sponsors of the <a href="https://saoc.io/">Symmetry Autumn of Code</a>, an annual event that, since 2018, has provided experience to emerging programmers while enhancing the D ecosystem. We couldn&#8217;t be more excited to bring DConf to London once again with Symmetry&#8217;s support.
+            </p>
+        </article>
+    </div>
+
+    <div class="w3-container w3-center w3-small w3-padding-64">
+        &copy; 2024 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+<script>
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  /*
+  function openTalkDetails(name) {
+    var x = document.getElementById(name);
+    var p = document.getElementById(name + "Show");
+    if(x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+      p.innerHTML= "[Hide Details]";
+    }
+    else {
+      x.className = x.className.replace(" w3-show", "");
+      p.innerHTML = "[Show Details]";
+    }
+  }
+  */
+</script>
+</body>
+</html>
