@@ -84,6 +84,74 @@
         border-bottom: 1px solid hsla(225, 15%, 14%, 0.82);
         font-weight: bold;
     }
+
+    .dayblock {
+        background-color: #252526;
+    }
+    .talklist {
+      background-color: hsla(225, 15%, 90%, 0.82);
+      color: hsla(225, 15%, 14%, 0.82);
+    }
+
+    .talklist li:nth-child(even) {
+      background-color: hsla(225, 15%, 90%, 0.82);
+      color: hsla(225, 15%, 14%, 0.82);
+    }
+
+    .talktitle {
+      padding-bottom: 16px;
+      padding-top: 16px;
+      padding-left: 16px;
+      background-color: hsla(225, 15%, 90%, 0.82);
+      color: hsla(225, 15%, 14%, 0.82);
+      margin-bottom: 16px;
+    }
+
+    .bigbottom {
+      padding-bottom: 125px;
+    }
+
+    .details-hover:hover {
+      background-color: #fefbd8 !important;
+    }
+
+    .speakerIMG {
+      max-height: 200px;
+    }
+
+    .talkmeta {
+      font-weight: bold;
+    }
+
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+
+    .talklinks a {
+      padding: 0.5em;
+      color: #333;
+    }
+
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+
+    .bio {
+      font-size: 0.8em;
+      font-weight: 500;
+      font-style: italic;
+      padding: 16px;
+      margin-top: 16px;
+      background-color: hsla(225, 15%, 90%, 0.82);
+      color: hsla(225, 15%, 14%, 0.82);
+    }
+
+    .fauxlist {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
     @media screen and (max-width: 599px) {
         body {
             font-size: 0.9em;
@@ -98,7 +166,7 @@
             text-align: center;
         }
     }
-    /*
+
     @media screen and (min-width: 600px) {
       .talktitle {
         padding-right: 16px;
@@ -109,7 +177,7 @@
         margin-right: 16px;
         padding-right: 16px;
       } 
-    } */
+    }
 </style>
 <title>The D Programming Language Conference 2024</title>
 </head>
@@ -185,16 +253,586 @@
                     </ul>
                 </div>
             </div>
+            <h2>Keynote Speakers</h2>
+            <div class="w3-row-padding w3-padding-16 w3-center">
+                <div class="w3-third">
+                <img src="../2020/images/bright.jpg" width="200px">
+                <p>
+                    <strong>Walter Bright</strong><br>
+                    Creator and Co-maintainer of the D Programming Language
+                </p>
+                </div>
+                <div class="w3-third">
+                <img src="../2020/online/images/schadek.jpg" width="200px">
+                <p>
+                    <strong>Robert Schadek</strong><br>
+                    Programmer at Symmetry Investments and D Core Team Member
+                </p>
+                </div>
+                <div class="w3-third">
+                <img src="./images/gehr.jpg" width="200px">
+                <p>
+                    <strong>Timon Gehr</strong><br>
+                    Researcher at ETH Zürich and D Core Team Member
+                </p>
+                </div>
+            </div>
         </article>
     </div>
 
     <!-- Schedule Container -->
     <div class="w3-container w3-margin-top" id="schedule">
         <article class="w3-content w3-card-2">
-            <h1>Schedule</h1>            
-            <p>
-                We are no longer accepting submissions. We want to thank everyone who submitted a talk this year. The selection process is underway. Once the selected speakers have been notified, we'll publish the schedule here.
-            </p>            
+            <h1>Schedule</h1>
+            <p>Notably absent from the schedule this year is the Ask Us Anything session, a DConf tradition. We decided to drop it this year in order to make room for an additional talk. However, we aren&#8217;t dispensing with it entirely. We&#8217;ll be hosting an online AUA live stream at some point close to the DConf dates. We&#8217;ll update the schedule with the information once it&#8217;s sorted, so stay tuned!</p>
+            <p>Click <code>[Show Details]</code> next to a speaker&#8217;s name below for information about a talk, panel, or speaker.</p>            
+            <p><strong>Note that all times are in UTC + 1</strong>.</p>
+            <!--Day One Schedule-->
+            <div id="day1" class="w3-container dayblock w3-padding w3-card-4">
+                <ul class="w3-ul w3-card-4 talklist">
+                    <li class="w3-center"><h3>Tuesday September 17th</h3></li>
+                    <li><strong>08:00 Breakfast Snacks</strong><br></li>
+                    <li><strong>08:55 Introduction</strong><br></li>
+
+                    <!-- Walter -->
+                    <li id="walterb"><a href="#walterb" class="bare-anchor"><strong>09:00 Day One Keynote</strong><br></a>
+                        by Walter Bright <button class="w3-button details-hover" id="walterShow"
+                        onClick="openTalkDetails('walter')">[Show Details]</button>
+                        <div id="walter" class="w3-hide w3-panel">
+                            <div class="talktitle bigbottom w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/images/bright.jpg">
+                                <div class="talkmeta">
+                                    Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>TBA</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He&#8217;s an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines, and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 40 years after its debut.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Marcelo -->
+                    <li id="marcelom"><a href="#marcelom" class="bare-anchor"><strong>10:00 Redub: Configuring, Building, and Iterating</strong><br></a>
+                        by Marcelo Mancini <button class="w3-button details-hover" id="marceloShow"
+                        onClick="openTalkDetails('marcelo')">[Show Details]</button>
+                        <div id="marcelo" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/mancini.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>Dub is an amazing tool, but due to its features not being segregated enough, it can be difficult to contribute to the project and to identify bottlenecks. Redub is a tool focused mainly on building. It brings compatibility with dub, faster build times, and rewards good project structure.</p>
+                                <p>In this talk, I introduce the new tool and various aspects of its usage, including but not limiited to the motivation behind it, the base development plan, comparisons with dub and reggae, and more. My goal is to help D users discover new best practices that could benefit the entire D ecosystem, and to thing more about public and private dependencies.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Marcelo Mancini is a game developer who works with web games. Web programming has always been all about compatibility, which motivated him to create Hipreme Engine, one of the biggest game engines made in D. He is also the developer of Redub, based on his experiences with Hipreme Engine, dub and other build tools outside of D. Redub was used to solve a problem with slow iteration inside Hipreme Engine.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Guillaume -->
+                    <li id="guillaumep"><a href="#guillaumep" class="bare-anchor"><strong>11:00 Software as Investment</strong><br></a>
+                        by Guillaume Piolat <button class="w3-button details-hover" id="guillaumeShow"
+                        onClick="openTalkDetails('guillaume')">[Show Details]</button>
+                        <div id="guillaume" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/piolat.jpg">
+                                <div class="talkmeta">
+                                    Audience: Advanced<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>We&#8217;ll devise together a tautologic, all-encompassing, theory of software that posits a composable economic value to every piece of software, however small.</p><br><br>
+                                <p>Through this lens, we&#8217;ll see in equations:</p>
+                                <div class="fauxlist">                                    
+                                    <p><strong>*</strong> why core libraries tends to be so valuable<br>
+                                    <strong>*</strong> how we could define software debt and assets<br>
+                                    <strong>*</strong> what &#8220;ownership&#8221; means and for whom<br>
+                                    <strong>*</strong> if you should fix that bug or take that dependency</p>
+                                </div>
+                                <p>This theory has no predictive power without a cost heuristic (else you would need to see the future), but the hope is that it&#8217;s useful nonetheless, or at least entertaining.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Guillaume Piolat is an ex-C++ salaryman turned D software vendor. Struck by baldness at an early age, he created Auburn Sounds 10 years ago to enjoy the possibility of trickling down value directly from the user and get revenge from everyone that wronged him. Now established as one of the pitch-shifting world champions, he found out the hard way that few people enjoy talking about time-frequency.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>12:00 Lunch</strong><br></li>
+
+                    <!-- Dennis -->
+                    <li id="dennisk"><a href="#dennisk" class="bare-anchor"><strong>13:30 Avoid the Garbage Collector in 80 Lines</strong><br></a>
+                        by Dennis Korpel <button class="w3-button details-hover" id="dennisShow"
+                        onClick="openTalkDetails('dennis')">[Show Details]</button>
+                        <div id="dennis" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2023/images/korpel.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>After an epiphany, I finally found it: the perfect memory allocator. Last year, I talked about stack memory and its limitations, but I've found a way around them. Now I have a scheme that combines the best parts of the Garbage Collector and manual memory management. It&#8217;s <code>@safe</code>, it&#8217;s <code>@nogc</code>, and it&#8217;s implemented in only 80 lines of code. The gist of it is that pointers to arenas are passed to <code>return scope</code> function parameters with default arguments. How it works exactly will be explained in the talk.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Dennis Korpel is a recent CS graduate from Delft University of Technology. D became his language of choice after discovering it in 2018, and he is currently Pull Request manager for the D Language Foundation.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Tom -->
+                    <li id="tomv"><a href="#tomv" class="bare-anchor"><strong>14:30 <em>std</em>-compatible Task Parallelism on FreeRTOS</strong><br></a>
+                        by Tom Vander Aa <button class="w3-button details-hover" id="tomShow"
+                        onClick="openTalkDetails('tom')">[Show Details]</button>
+                        <div id="tom" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/vanderaa.jpg">
+                                <div class="talkmeta">
+                                    Audience: Beginner/Intermediate<br>
+                                    Duration: 30 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>In this talk, we show the key role of the D programming language in the development of a task-based parallel programming framework for a novel compute-accelerator platform. The platform consists of a set of compute accelerators (like GPGPUs) and a management processor. The management processor&#8217;s role is to orchestrate the parallel execution of kernels on the accelerators. Using the D language for the code running on the management processor allowed us to write high-level, size-efficient code.</p>
+
+                                <p>The key features of D to achieve this are extensive use of templates, interoperability with the underlying FreeRTOS written in C, and <em>BetterC</em>. Since this is our first large project in D, we will also share some concrete highs and lows of using the language. Next to that, we discuss the generic user experience of D and lessons learned.</p>
+
+                                <p>This work has been carried out in the ExaScience Lab of the CSA division at imec. Special thanks to Robbert Gurdeep Singh, Geert Vanmeerbeeck, Wilfried Verachtert, and Roel Wuyts</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Tom Vander Aa is a researcher in the ExaScience Lab at imec. This lab uses novel high-performance computing architectures and programming models to generate breakthroughs in life sciences and biotechnology. The ExaScience lab has a profound interest in the interplay between the programming model, the programming language, the computer architecture and the user application, experimenting with languages like Go, LuaJit, Julia, Nim, and Lisp. This is the lab&#8217;s first big project using D. Tom himself obtained a PhD in 2005, in the domain of embedded computer architectures. After his PhD Tom spent most of his time writing compilers in C++ and optimizing applications code in C and C++. This is Tom&#8217;s first experience using D.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Teodor -->
+                    <li id="teodord"><a href="#teodord" class="bare-anchor"><strong>15:30 Replacing DRuntime Hooks with Templates Across Three SAoCs</strong><br></a>
+                        by Teodor Dutu <button class="w3-button details-hover" id="teodorShow"
+                        onClick="openTalkDetails('teodor')">[Show Details]</button>
+                        <div id="teodor" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/dutu.jpg">
+                                <div class="talkmeta">
+                                    Audience: Advanced<br>
+                                    Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>In D, certain high-level constructs are replaced with calls to lower-level functions from DRuntime, called hooks, that provide the same functionality. This makes the compiler&#8217;s job easier by saving it from having to generate code for complex expressions itself. This process takes place in the compiler&#8217;s intermediate representation generator. This has the following disadvantages:</p>
+                                <div class="fauxlist">
+                                    <p><strong>1.</strong> The hook arguments are mostly <code>void[]</code> and require the TypeInfo hierarchy to extract type information at runtime. This is unnecessarily slow because all type information is available at compile-time.</p>
+                                    <p><strong>2.</strong> All hooks are linked into one large runtime library that all D programs link, regardless of which hooks they use. This makes DRuntime unnecessarily large for use cases where a subset of the hooks is used.</p>
+                                </div>
+                                <p>This project eliminates these disadvantages by converting DRuntime hooks to templates and moving the lowering logic to the semantic phase. Thus, all new hooks are verified to respect the restrictions imposed by attributes, type information is leveraged at compile-time, and D executables will only contain code for the hooks they use. This brings performance benefits since runtime checks are moved to compile time.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Teodor Dutu is a PhD student at the National University of Science and Technology POLITEHNICA Bucharest where he teaches computer architecture, compilers, and operating systems labs. His research is on compilers for advanced architectures, such as hardware accelerators. In addition, he is interested in compilers, programming language analysis, operating systems, security, and computer architecture, and he is passionate about open source. He is also a contributor to the D programming language and participated in three consecutive Symmetry Autumn of Code programs, winning the first two.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Adam -->
+                    <li id="adamw"><a href="#adamw" class="bare-anchor"><strong>16:30 The Future of Phobos: Version 3 and Beyond</strong><br></a>
+                        by Adam Wilson <button class="w3-button details-hover" id="adamShow"
+                        onClick="openTalkDetails('adam')">[Show Details]</button>
+                        <div id="adam" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/wilson.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>As time goes by, best practices evolve, needs change, and better ideas have appeared.  What began as idle conversation in late 2023 has become a full-scale effort to forge the future of Phobos. Today, Phobos 3 has been under active development for 6 months and the ground-work for the future has been laid. But what does this mean for Phobos 2? What will be included in Phobos 3 and what will be cut? What comes after Phobos 3?</p>
+
+                                <p>In this talk we will discuss where Phobos 3 stands today, what work still remains to be completed, and finally where we want to take Phobos in the future. The goal of this talk is to provide a roadmap for all D engineers as they begin planning for the transition to Phobos 3.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Adam is an independent contractor with over 22 years of software development experience specializing in libraries and tooling for high performance web services. Adam&#8217;s resume includes start-ups, consulting, and even a stint at Microsoft. He is currently using D to create tooling that supports the development and deployment of a SQL based web-service.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>18:00 End of Day One</strong><br></li>
+                </ul>
+            </div>
+
+            <!--Day Two Schedule-->
+            <div id="day2" class="w3-container dayblock w3-padding w3-card-4">
+                <ul class="w3-ul w3-card-4 talklist">
+                    <li class="w3-center"><h3>Wednesday September 18th</h3></li>
+                    <li><strong>08:00 Breakfast Snacks</strong><br></li>
+                    <li><strong>08:55 Introduction</strong><br></li>
+
+                    <!-- Robert -->
+                    <li id="roberts"><a href="#roberts" class="bare-anchor"><strong>09:00 Good Fun: Creating a Data-Oriented Parser/AST/Visitor Generator</strong><br></a>
+                        by Robert Schadek <button class="w3-button details-hover" id="robertShow"
+                        onClick="openTalkDetails('robert')">[Show Details]</button>
+                        <div id="robert" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/schadek.jpg">
+                                <div class="talkmeta">
+                                    Audience: Advanced<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>When you think of parser/AST/visitor generators you normally think of classes, polymorphism, and pointers. This is, no doubt, the reasonable way to approach such a project. More fun can be had, though. Maybe we can even improve on things by not following the standard way, but having fun outside of the box.</p>
+                                    
+                                <p>In this talk, we therefore explore what happens if we do the interesting/fun things instead of the reasonable, standard, boring things. These things include data-oriented design, array-based trees, bitmaps, and exploring hardware oddities.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Robert Schadek received a doctorate degree in computer science from the University of Oldenburg. His dissertation was titled &#8216;Analysis and Development of Quorum Protocols for Real-World Network Topologies&#8217;and focused on quorum systems in combination with graphs. Since 2018, he has been happily using D in his day job working for Symmetry Investments.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Max -->
+                    <li id="maxm"><a href="#maxm" class="bare-anchor"><strong>10:00 D and Buck2</strong><br></a>
+                        by Max Haughton <button class="w3-button details-hover" id="maxShow"
+                        onClick="openTalkDetails('max')">[Show Details]</button>
+                        <div id="max" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2021/online/images/haughton.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>Buck2 is a shiny new declarative build system from inside Facebook. I have been on an adventure making it speak D. As such, I will describe writing D rules in the &#8216;starlark&#8217; build language that it uses, and then pontificate a bit on declarative build systems (at both micro and macro scales), toolchains, meta-build systems like reggae, and loop back around to dub.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Max slings code for Symmetry Investments. Otherwise... all words, some action, no bona fides!</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Steve & Amaury -->
+                    <li id="steves"><a href="#steves" class="bare-anchor"><strong>11:00 We Need a New GC</strong><br></a>
+                        by Steven Schveighoffer and Amaury Séchet <button class="w3-button details-hover" id="steveShow"
+                        onClick="openTalkDetails('steve')">[Show Details]</button>
+                        <div id="steve" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2023/images/schveighoffer.jpg">
+                                <div class="talkmeta">
+                                    Audience: Advanced<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>In a world which can&#8217;t be stopped, we need a new hero. (Well, maybe we can stop it for a few microseconds...) In any case, the current garbage collector for D has been relatively stagnant in design since the development of DRuntime. We have had a few nice improvements, including fork-based, parallel scanning, and precise scanning. But we can do better. Our ideas on how to improve the performance of the GC get down to the lowest level of the hardware of modern systems, and try to squeeze every last bit of performance from the GC.</p>
+                                <p>This talk will delve into the details of why we need a new garbage collector, and how we can exploit modern memory and CPU architecture and use clever storage techniques to streamline GC allocations.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Steve has been using D for 23 years professionally, and has written or helped write significant parts of DRuntime, including the array runtime, moduleinfo cycle detection, and AA static initialization. He has also written several prominent D libraries, including iopipe, and dcollections.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>12:00 Lunch</strong><br></li>
+
+                    <!-- Murilo -->
+                    <li id="murilom"><a href="#murilom" class="bare-anchor"><strong>13:30 The Search for Artificial Life in D</strong><br></a>
+                        by Murilo Miranda <button class="w3-button details-hover" id="muriloShow"
+                        onClick="openTalkDetails('murilo')">[Show Details]</button>
+                        <div id="murilo" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/miranda.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>Have you ever tried to create life? Of course not! You&#8217;re not a god. But you could try to simulate life in a computer as many scientists have done. I&#8217;ve been doing that in D for months.</p>
+                                <p>I&#8217;ve ventured into the world of biology simulation, I&#8217;ve created a simulator where you can set up an environment in which you can watch organisms interact and evolve. This could be used for research, educational purposes, and fun. It was written purely in D. I&#8217;m striving to make it the best biology simulator in the world. Come watch my talk to learn more. I will talk about some evolutionary concepts such as RND, DNA, natural selection, and biophysics, and I will be demonstrating the software as I explain in detail how it all works. Before the conference, feel free to watch <a href="https://youtu.be/jxh25WY6s-k?si=2pWYRs8BVqcr8i6f">this video that includes a demonstration</a>.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Murilo Miranda is a computer scientist from the University of Brasília (UnB). He works as a programmer, computer technician, and teacher of computer programming. He is also an indie game developer, overclocker, and casemodder in his free time. He maintains <a href="www.computingthesciences.blogspot.com">a blog about CS</a>,  and he recently started a Youtube channel (@256SecondsOfComputerScience).</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Artha -->
+                    <li id="artha_"><a href="#artha_" class="bare-anchor"><strong>14:30 Exploring Declarative Programming Capabilities of D</strong><br></a>
+                        by Artha <button class="w3-button details-hover" id="arthaShow"
+                        onClick="openTalkDetails('artha')">[Show Details]</button>
+                        <div id="artha" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/artha.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>Fluid is a library for building general purpose graphical interfaces. To communicate the desired layout and style to the program, a common language has to be used. I will compare solutions used in different frameworks, explain D's advantages in declarative API design, and its significance for user interface programming.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">I am a hobbyist programmer with strong interest in user interface design, especially in regards to BBS, social media and multiplayer games. Since around 2015 I&#8217;ve been exploring various solutions, most importantly Android UI, web apps, and Godot Engine, in order to find the most suitable for my use cases. I started using D around 2021, which is when I initially created Fluid.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Emmanuel -->
+                    <li id="emmanueln"><a href="#emmanueln" class="bare-anchor"><strong>15:30 The State of C++ Interoperability in D</strong><br></a>
+                        by Emmanuel Nyarko <button class="w3-button details-hover" id="emmanuelShow"
+                        onClick="openTalkDetails('emmanuel')">[Show Details]</button>
+                        <div id="emmanuel" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/nyarko.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 35 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>One of D&#8217;s goals in its interoperability with C++ is to be able to use some of the major C++ Standard Template Library from D. In this talk, I will reveal where we are in this process as a language. I will also cover real-life usage with their design philosophies, limitations, and the way forward in reaching seamless C++ integration.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Emmanuel is a recent computer science bachelors graduate from the Kwame Nkrumah University of Science and Technology from Ghana. He started his experiential programming Journey contributing to D through the 2023 Symmmetry Autumn of Code where he worked on C++ STL interoperability. He has a keen interest in programming languages and operating systems development and is looking to contribute more to D and to other major systems in the world.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Jonathan -->
+                    <li id="jonathand"><a href="#jonathand" class="bare-anchor"><strong>16:30 Reworking the Range API for Phobos v3</strong><br></a>
+                        by Jonathan M. Davis <button class="w3-button details-hover" id="jonathanShow"
+                        onClick="openTalkDetails('jonathan')">[Show Details]</button>
+                        <div id="jonathan" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2018/images/davis.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>A new version of D&#8217;s standard library, Phobos, is currently under development. We would like to fix some of the mistakes that have been made over the years which we haven&#8217;t been able to fix without breaking code, and we want to update Phobos according to the current best practices for D. Ranges are a big part of Phobos, and they are are being reworked as part of the update.</p>
+
+                                <p>Overall, ranges have worked very well for us since they were first introduced in Phobos v2. We would like that continue, but there are some issues with their current design which have come up over the years. We&#8217;re taking advantage of the opportunity Phobos gives us to implmeent otherwise breaking changes by improving upon the existing range design and fixing mistakes. This talk will go over the changes and why we&#8217;re making them.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Jonathan M. Davis is the primary author of <code>std.datetime</code> and one of Phobos&#8217;s core contributors. He is a professional developer and has experience in a number of programming languages, including C++, Haskell, Java, and D. For better or worse, he&#8217;s well known in the D community for answering questions and being long-winded. He currently resides in Utah.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>18:00 End of Day Two</strong><br></li>
+                </ul>
+            </div>
+
+            <!--Day three Schedule-->
+            <div id="day3" class="w3-container dayblock w3-padding w3-card-4">
+                <ul class="w3-ul w3-card-4 talklist">
+                    <li class="w3-center"><h3>Thursday September 19th</h3></li>
+                    <li><strong>08:00 Breakfast Snacks</strong><br></li>
+                    <li><strong>08:55 Introduction</strong><br></li>
+
+                    <!-- Timon -->
+                    <li id="timong"><a href="#timong" class="bare-anchor"><strong>09:00 Value Lifetimes and Move Semantics</strong><br></a>
+                        by Timon Gehr <button class="w3-button details-hover" id="timonShow"
+                        onClick="openTalkDetails('timon')">[Show Details]</button>
+                        <div id="timon" class="w3-hide w3-panel">
+                            <div class="talktitle bigbottom w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/gehr.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate/Advanced<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>In this talk, I will explore memory management in D, and how to reconcile manual memory management with garbage collection and type safety.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Timon Gehr is an established researcher at ETH Zürich who has used D to implement a number of tools and programming languages for his research. He has opened almost 1% of all issues on the D issue tracker. He sometimes dabbles in DMD development and contributed the initial implementation of <code>static foreach</code>.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Mathis -->
+                    <li id="mathisb"><a href="#mathisb" class="bare-anchor"><strong>10:00 Using Dustmite to Make Good Testcases</strong><br></a>
+                        by Mathis Beer <button class="w3-button details-hover" id="mathisShow"
+                        onClick="openTalkDetails('mathis')">[Show Details]</button>
+                        <div id="mathis" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 30 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>D ships with dustmite, a tool that lets you take any D project with an issue and reduce it to a testcase. But using dustmite effectively requires some experience. Having filed many bugs with dustmite reductions, I will share reduction strategies and gotchas.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">At Funkwerk, our large and advanced codebase means we keep running into compiler and standard library issues. When something goes wrong, I use Dustmite to find a reduction.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Steve & Amaury -->
+                    <li id="amaurya"><a href="#amaurya" class="bare-anchor"><strong>11:00 Integrating the New GC</strong><br></a>
+                        by Steven Schveighoffer and Amaury Séchet <button class="w3-button details-hover" id="amauryShow"
+                        onClick="openTalkDetails('amaury')">[Show Details]</button>
+                        <div id="amaury" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2023/images/schveighoffer.jpg">
+                                <div class="talkmeta">
+                                    Audience: Advanced<br>
+                                    Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>Just when you thought we were done with GC talks, we have more for you!</p>
+
+                                <p>In this continued presentation about the new GC, we will talk about how we organize small allocations to reduce fragmentation, how we avoid lock contention when allocating, and how we optimize collections to take as little time away from your code as possible. We will also talk about integration with DRuntime and planned future improvements that can bring this new allocator further into the realm of modern GCs.</p>
+
+                                <p>D deserves to have a GC with few pauses and high multi-core performance. We hope to bring you that experience.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Steve has been using D for 23 years professionally, and has written or helped write significant parts of DRuntime, including the array runtime, moduleinfo cycle detection, and AA static initialization. He has also written several prominent D libraries, including iopipe, and dcollections.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>12:00 Lunch</strong><br></li>
+
+                    <!-- Lightning talks -->
+                    <li id="lightningt"><a href="#lightningt" class="bare-anchor"><strong>13:30 Lightning Talks</strong><br></a>
+                        by Various <button class="w3-button details-hover" id="lightningShow"
+                        onClick="openTalkDetails('lightning')">[Show Details]</button>
+                        <div id="lightning" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>Got something interesting to tell the D community, but not interested in presenting a full talk? We&#8217;ll give you five minutes to tell the world!</p>
+
+                                  <p>Lightning Talks are presentations restricted to five minutes or less. Speakers plug in their laptops and get started immediately. When their time is up, the emcee pulls them off stage and the next speaker gets going. <a href="https://youtu.be/Ks5vXpDO4H0">The Lightning Talks session from DConf &#8216;23</a> serves as an excellent example of the format. It even included a stand-up comedy routine&mdash;a DConf first!</p>
+
+                                  <p>Any DConf attendee can sign up to present a Lightning Talk. We&#8217;ll have up to nine slots available this year, and we&#8217;ll fill them on a first-come, first-serve basis. Email <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> anytime before the conference to reserve your spot (after you&#8217;ve registered), or let Mike Parker know at any point during the conference prior to the start of the Lightning Talks session.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Mike -->
+                    <li id="mikes"><a href="#mikes" class="bare-anchor"><strong>14:30 The Case for Graphics Programming in D Part 2: Tech Demo</strong><br></a>
+                        by Mike Shah <button class="w3-button details-hover" id="mikeShow"
+                        onClick="openTalkDetails('mike')">[Show Details]</button>
+                        <div id="mike" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2022/images/shah.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 30 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>The D programming language and ecosystem provide many modern features which can help give developers a competitive advantage during the software development lifecycle. In this talk, I will discuss how D provides a competitive advantage for graphics application development (e.g., games, rendering), where any reduction in iteration time can improve outcomes. As an example, when creating an art style, having systems allowing rapid iteration can help improve visual fidelity, both in aesthetics and correctness of the application.</p>
+
+                                <p>Throughout the talk I will showcase visual examples, developed in a summer, that show off a graphics engine built completely in the D ecosystem. Topics will include: a hot reload system, a job system (using concurrency), and showcasing the architecture of a small graphics engine. This talk follows up a previous Dconf Online 2024 talk in which I make a case for using D for graphics programming&mdash;this time showing you the results (attendees need not have watched the previous talk).</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Mike discovered computer science at the age of 13 when googling &#8220;how do I make games&#8221;. Since that fateful Google search, Mike has worked as a freelance game developer, worked in industry for Intel, Sony PlayStation, Oblong, and a few other roles as a contracting 3D Senior Graphics Programmer. Mike also consults as a 3D Senior Graphics Engineer. In Michael&#8217;s spare time, he goes for long runs, plays video games while on his exercise bike, learns guitar, and considers himself an amateur pizza and wine maker. <a href="https://youtube.com/c/MikeShah">Mike YouTube channel covers various graphics and programming, including D!</a></p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Vlad -->
+                    <li id="vladr"><a href="#vladr" class="bare-anchor"><strong>15:30 D-scanner: Migrating from libdparse to DMD-as-a-library</strong><br></a>
+                        by Vlăduț-Ștefan Riciu <button class="w3-button details-hover" id="vladShow"
+                        onClick="openTalkDetails('vlad')">[Show Details]</button>
+                        <div id="vlad" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/riciu.jpg">
+                                <div class="talkmeta">
+                                    Audience: Beginner/Intermediate<br>
+                                    Duration: 30 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>D-Scanner is one of the most widely used static code analysis tools for D. It relies on libdparse, a third-party D parser implementation. As a consequence, every time the D frontend is modified, both libdparse and D-Scanner need to be updated. Given that D can be built as a compiler library, replacing libdparse with DMD-as-a-library will make it easier to tackle compiler updates.</p>
+                                
+                                <p>Over the past year, I have embarked on a transformative journey within D-Scanner, tasked with migrating from libdparse to DMD-as-a-library. In this talk, we will explore the migration process and address the challenges of keeping up with DMD-as-a-library, integrating with upstream, and maintaining trustworthy tests.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">My passion for programming started as a child, playing with Arduino. It continued by following an informatics high school and then a computer science university. Currently, I&#8217;m working as a Software Engineer at Adobe, and I&#8217;m finishing up my Bachelor&#8217;s Degree in computer science at University Politehnica of Bucharest. My main programming experience lies in the JVM world&mdash;Java and Kotlin. I&#8217;m interested in distributed systems, and recently I&#8217;ve been intrigued by the world of compilers and static code analysis.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Razvan -->
+                    <li id="razvann"><a href="#razvann" class="bare-anchor"><strong>16:30 A Case Study of D&#8217;s Compiler Internals: When complexity impedes development</strong><br></a>
+                        by Razvan Nitu <button class="w3-button details-hover" id="razvanShow"
+                        onClick="openTalkDetails('razvan')">[Show Details]</button>
+                        <div id="razvan" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2023/images/nitu.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 35 Minutes<br>
+                                    <div class="talklinks">
+                                    </div>
+                                </div>
+                                <p>D has historically been open to the addition of new features. While some of have been net benefits to the language, others simply offer some sort of convenience while either increasing the codebase complexity or enabling patterns which are hard to maintain. This talk will present a series of such language features, exhibit the impact of their implmentations on the D codebase, and explore the alternative of removing them.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Razvan Nitu has a PhD in computer science. He is also one of the Pull Request and Issue Managers for the D Language Foundation. His experience with D lies mostly in compiler development, but he occasionally contributes to DRuntime and Phobos. Razvan has been organizing D summer schools at his hometown university and mentoring students to work on D-related projects (such as integrating DMD-as-a-library in D-Scanner, pay-as-you-go DRuntime, D Google APIs, using D to write linux kernel drivers, etc.) for the past 6 years.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>18:00 End of Day Three</strong><br></li>
+                </ul>
+            </div>
+            <!--Day Four Schedule-->
+      <div id="day3" class="w3-container menu w3-padding w3-card-4">
+        <ul class="w3-ul w3-card-4 talklist">
+          <li class="w3-center"><h3>Friday September 20th</h3></li>
+          <li><strong>08:00 Breakfast Snacks</strong></li>
+          <li><strong>09:00 Hackathon</strong></li>
+          <li><strong>12:00 Lunch</strong></li>
+          <li><strong>13:30 Hackathon</strong></li>
+          <li><strong>18:00 End of DConf &#8217;24</strong></li>
+          <li>
+            <div id="hack" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <h3 style="border-bottom: 1px solid #1E1E1E;">Hackathon</h3>
+                <p>The DConf Hackathon has been part of every edition of DConf since 2017 in Berlin when Sebastian
+                  Wilzbach suggested we extend the conference by one day to work on D projects. A number of
+                  attendees worked on bugs, some tutored others on various D features, and one (Timon Gehr) used the
+                  time to implement a new feature (<code>static foreach</code>).</p>
+                <p>Use your time at the Hackathon the way you feel is best for you: submit PRs to the core D
+                  repositories or your favorite projects in the broader ecosystem; hack on your own project, and
+                  maybe enlist some help from a fellow attendee to work through a tough problem; tutor a novice D
+                  programmer, or seek tutoring from someone more experienced; corner Walter or Átila and rant to
+                  them about your biggest D pet peeve(s); or just sit and chat with the people around you.</p>
+                <p>The DConf Hackathon is also open to the general public. If you are in the area on September 20th and
+                  didn&#8217;t register for the conference, that&#8217;s okay. Join us anyway! If you registered, invite a
+                  friend or relative, maybe someone who knows very little about our favorite programming
+                  language&mdash;there are fewer times as opportune as this one to show them what it&#8217;s all
+                  about.</p>
+                <p>The DConf Hackathon is a great time to ramp up some work or wind down from three days of talks.
+                  It&#8217;s your time, so use it as you will. See you there!</p>
+              </div>
+          </li>
+        </ul>
+      </div>
         </article>
     </div>
     <!-- Registration Container -->
@@ -329,7 +967,7 @@
       x.className = x.className.replace(" w3-show", "");
     }
   }
-  /*
+
   function openTalkDetails(name) {
     var x = document.getElementById(name);
     var p = document.getElementById(name + "Show");
@@ -342,7 +980,6 @@
       p.innerHTML = "[Show Details]";
     }
   }
-  */
 </script>
 </body>
 </html>
