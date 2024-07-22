@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="DConf '23">
+  <meta property="og:description"
+    content="DConf '23 is happening in London, August 29 - September 1, 2023. We invite you to join us for four days of education, knowledge sharing, fellowship, and fun.">
+  <meta property="og:url" content="https://dconf.org/2023/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://dconf.org/2023/images/logo-og.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="630">
+  <link href="./includes/w3.css" rel="stylesheet" type="text/css">
+  <style>
+    body,
+    html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.1em;
+      background-color: #fff;
+    }
+
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+      padding: 10px;
+      background-color: #d5f4e6;
+    }
+
+    h1,
+    h2 {
+      font-family: 'Trebuchet MS', 'Arial Black', sans-serif;
+      color: #333;
+      padding: 5px 5px 5px 0px;
+    }
+
+    h1 {
+      border-bottom: 5px solid #333;
+    }
+
+    h2 {
+      border-bottom: 1px solid #333;
+    }
+    .innerhdr {
+      border-bottom: 1px solid #333;
+      font-weight: 600;
+    }
+
+    #map {
+      width: 100%;
+      height: 450px;
+    }
+
+    .quote {
+      color: #aaa;
+      font-style: italic;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C" "\201D" "\2018" "\2019";
+      background-color: #fefbd8;
+    }
+
+    .quote p {
+      display: inline;
+    }
+
+    .quote figcaption,
+    .quote blockquote {
+      margin: 1em;
+    }
+
+    .bare-anchor {
+      text-decoration: none;
+    }
+
+    #menu {
+      background-color: #618685;
+      color: #fff;
+      font-size: 1.1em;
+    }
+
+    .dayblock {
+      background-color: #618685;
+    }
+
+    .dayheader {
+      background-color: #618685;
+      color: #fff;
+    }
+
+    .talktitle {
+      padding-bottom: 125px;
+      padding-top: 16px;
+      padding-left: 16px;
+      background-color: #fff;
+      margin-bottom: 16px;
+    }
+
+    .details-hover:hover {
+      background-color: #fefbd8 !important;
+    }
+
+    .speakerIMG {
+      max-height: 200px;
+    }
+
+    .talkmeta {
+      font-weight: bold;
+    }
+
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+
+    .talklinks a {
+      padding: 0.5em;
+      color: #333;
+    }
+
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+
+    .bio {
+      font-size: 0.8em;
+      font-weight: 500;
+      font-style: italic;
+      background-color: #fff;
+      padding: 16px;
+      margin-top: 16px;
+    }
+
+    .toparticle {
+      margin-top: 0.8em;
+    }
+
+    .talklist {
+      background-color: #d5f4e6;
+    }
+
+    .talklist li:nth-child(even) {
+      background-color: #eefbf5;
+    }
+
+    @media screen and (max-width: 599px) {
+      body {
+        font-size: 0.9em;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      .talktitle {
+        text-align: center;
+      }
+    }
+
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+  </style>
+  <title>The D Programming Language Conference '23</title>
+</head>
+
+<body class="w3-justify">
+  <div class="w3-card-2" id="menu">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+      <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SCHEDULE</a>
+      <!-- <a href="#register" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">REGISTRATION</a> -->
+      <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">VENUE</a>
+      <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SPONSORS</a>
+      <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+        <span class="w3-button w3-block">2013&ndash;2022</span>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="https://dconf.org/2022/" class="w3-bar-item w3-btn">2022</a>
+          <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
+          <a href="https://dconf.org/2018/" class="w3-bar-item w3-btn">2018</a>
+          <a href="https://dconf.org/2017/" class="w3-bar-item w3-btn">2017</a>
+          <a href="https://dconf.org/2016/" class="w3-bar-item w3-btn">2016</a>
+          <a href="https://dconf.org/2015/" class="w3-bar-item w3-btn">2015</a>
+          <a href="https://dconf.org/2014/" class="w3-bar-item w3-btn">2014</a>
+          <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+        <span class="w3-button w3-block">DCONF ONLINE</span>
+        <div class="w3-dropdown-content w3-bar-block w3-border">
+          <a href="https://dconf.org/2022/online/" class="w3-bar-item w3-btn">2022</a>
+          <a href="https://dconf.org/2021/online/" class="w3-bar-item w3-btn">2021</a>
+          <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn">2020</a>
+        </div>
+      </div>
+      <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">DLANG.ORG</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-right w3-hide-large" onclick="hamburger()">&#9776;</a>
+    </div>
+    <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
+      <a href="#schedule" class="w3-bar-item w3-btn w3-block">SCHEDULE</a>
+      <!-- <a href="#register" class="w3-bar-item w3-btn w3-block">REGISTRATION</a> -->
+      <a href="#venue" class="w3-bar-item w3-btn w3-block">VENUE</a>
+      <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
+    </div>
+  </div>
+  </div>
+  <header class="w3-container" id="home">
+    <div class="w3-center w3-padding">
+      <img src="./images/logo-trans-512.png" class="w3-image">
+    </div>
+  </header>
+
+  <!-- About Container -->
+  <div class="w3-container w3-margin-top" id="about">
+    <article class="w3-content w3-card-2">
+      <h1>DConf London Part 3</h1>
+      <p>
+        We're at CodeNode in London once again from August 29 &ndash; September 1, 2023, for the D Programming
+        Language Conference, sponsored by Symmetry Investments and hosted by the D Language Foundation. This is our
+        third time in London, thanks to Symmetry&#8217;s support, and we&#8217;re thrilled to be back! <a
+          href="https://dconf.org/2022/">DConf &#8216;22 at CodeNode</a> was a huge success, with overwhelmingly
+        positive feedback from attendees. In fact, it was the best one yet, and we&#8217;re committed to making DConf
+        &#8216;23 even better.
+      </p>
+      <p>
+        Can't be there in person? No problem! Join our livestreams during the three days of talks and ask questions
+        of the speakers at any time during each session.
+        <ul>
+          <li><a href="https://www.youtube.com/live/uzuKqiFVNZM?feature=share">August 29 (Day 1) Livestream</a></li>
+          <li><a href="https://www.youtube.com/live/wXTlafzlJVY?feature=share">August 30 (Day 2) Livestream</a></li>
+          <li><a href="https://www.youtube.com/live/CMrb6ZWhqXs?feature=share">August 31 (Day 3) Livestream</a></li>
+        </ul>
+      </p>
+      <p>
+        DConf is the premier meetup event for the D programming language community. Although we continue to hold regular
+        online meetups, nothing compares to the energy and camaraderie of face-to-face interactions. At DConf, both
+        seasoned veterans and first-time attendees, and many in between, come together for four days of education,
+        knowledge sharing, and fun. We can&#8217;t wait to do it all again!
+      </p>
+      <h2>Keynote Speakers</h2>
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <div class="w3-third">
+          <img src="../2020/images/bright.jpg" width="200px">
+          <p>
+            <strong>Walter Bright</strong><br>
+            Creator and Co-maintainer of the D Programming Language
+          </p>
+        </div>
+        <div class="w3-third">
+          <img src="./images/sabeti2.jpg" width="200px">
+          <p>
+            <strong>Saeed Sabeti</strong><br>
+            Director of Organizational Development at Ucora Corporation in Vancouver, Canada
+          </p>
+        </div>
+        <div class="w3-third">
+          <img src="../2019/images/neves.jpg" width="200px">
+          <p>
+            <strong>Átila Neves</strong><br>
+            Co-maintainer of the D Programming Language
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- Schedule Container -->
+  <div class="w3-container w3-margin-top" id="schedule">
+    <article class="w3-content w3-card-2">
+      <h1>Schedule</h1>
+      <p>
+        Click <code>[Show Details]</code> next to a speaker&#8217;s name below for information about a talk, panel, or
+        speaker.<br>
+        <strong>Note that all times are in UTC + 1</strong>.
+      </p>
+
+      <!--Day One Schedule-->
+      <div class="w3-panel w3-card-4 w3-center dayheader">
+        <h3>Tuesday August 29th</h3>
+      </div>
+      <div id="day1" class="w3-container dayblock w3-padding w3-card-4">
+        <ul class="w3-ul w3-card-4 talklist">
+          <li><strong>08:00 Breakfast Snacks</strong><br></li>
+          <li><strong>08:55 Introduction</strong><br></li>
+          <li id="saeeds"><a href="#saeeds" class="bare-anchor"><strong>09:00 The Truth About D</strong><br></a>
+            by Saeed Sabeti <button class="w3-button details-hover" id="saeedShow"
+              onClick="openTalkDetails('saeed')">[Show Details]</button>
+            <div id="saeed" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/sabeti.jpg">
+                <div class="talkmeta">
+                  Duration: 45 Minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/sabeti.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/cN0zS04wOFU">Video</a>
+                  </div>
+                </div>
+                <p>Are you feeling the weight of uncertainty in the programming world as the D Language grapples with
+                challenges amidst the rise of competing languages? There's a looming concern that these hurdles might
+                hold D back from its true potential, relegating it to a lower standing. The cost of letting this happen
+                is significant, not just for D enthusiasts but for the entire programming community. Yet, a solution
+                exists; a way to steer D towards the path of popularity and influence it deserves. There is an
+                unexpected approach to unlocking the value behind the language, and the result will shape D's future and
+                elevate your own personal and professional success. Don't miss out on this discourse that promises to
+                transform your perspective on what DLF means to all of us.</p>
+              </div>
+              <p class="bio w3-card">Saeed Sabeti is a seasoned expert in human motivation, team dynamics, team
+                building, and team alignment, executive coaching, and organizational development. He currently serves as
+                the Director of Organizational Development at Ucora Corporation in Vancouver, Canada. His work takes him
+                across the globe, partnering with organizations to build strong, effective teams with focused, aligning
+                visions. As an executive coach and consultant, Saeed addresses the widespread problem of staff
+                acquisition, retention, motivation, and productivity by helping leaders, stakeholders, and organizations
+                develop a new mindset rooted in fundamental purpose.</p>
+            </div>
+          </li>
+          <li id="timong"><a href="#timong" class="bare-anchor"><strong>10:00 Types and Tuples in D</strong></a><br>
+            by Timon Gehr <button class="w3-button details-hover" id="timonShow"
+              onClick="openTalkDetails('timon')">[Show Details]</button>
+            <div id="timon" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/gehr.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate/Advanced<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/gehr.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/v-SHpG2rNWM">Video</a>
+                  </div>
+                </div>
+                <p>Like many modern programming languages, D has a static type system and
+                  built-in tuple support. In this talk, I will present general design
+                  considerations around type systems, with a particular focus on D&#8217;s
+                  type system, recent developments in D, and possible avenues for
+                  further improving the soundness, expressiveness, and ergonomics of D.
+                  As some operations on tuples remain rather clunky in today&#8217;s D, this
+                  will in particular include design considerations around tuples and a
+                  number of different proposals for how to move forward.</p>
+              </div>
+              <p class="bio w3-card">Timon Gehr is a postdoctoral researcher at ETH Zürich who has
+                used D to implement a number of tools and programming languages for his research. He
+                has opened almost 1% of all issues on the D issue tracker. He sometimes dabbles in
+                DMD development and contributed the initial implementation of static
+                foreach.</p>
+            </div>
+          </li>
+          <li id="razvann"><a href="#razvann" class="bare-anchor"><strong>11:00 DMD as a Library: Between Myth and
+              Reality</strong></a><br>
+            by Razvan Nitu <button class="w3-button details-hover" id="razvanShow"
+              onClick="openTalkDetails('razvan')">[Show Details]</button>
+            <div id="razvan" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/nitu.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate<br>
+                  Duration: 30 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/nitu.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/eKT3MYpRgYA">Video</a>
+                  </div>
+                </div>
+                <p>The absence of a proper compiler library has been haunting the D ecosystem since
+                  forever. Although progress has been made in creating a public API, there is a lot of
+                  room for improvement. In this talk, I will discuss the major challenges of
+                  developing a proper compiler interface for DMD-as-a-library, what has been done so
+                  far, what are the future plans, and what will be the limitations.</p>
+              </div>
+              <p class="bio w3-card">Razvan Nitu has a PhD in computer science. He is also one of
+                the Pull Request and Issue Managers for the D Language Foundation. His experience
+                with D lies mostly in compiler development, but he occasionally contributes to
+                DRuntime and Phobos. Razvan has been organizing D summer schools at his hometown
+                university and mentoring students to work on D-related projects (such as
+                integrating DMD-as-a-library in D-Scanner, pay-as-you-go DRuntime, D Google APIs,
+                etc.) for the past 5 years.</p>
+            </div>
+          </li>
+          <li><strong>11:45 Lunch</strong></li>
+          <li id="dennisk"><a href="#dennisk" class="bare-anchor"><strong>13:30 Stack Memory is
+              Awesome!</strong></a><br>
+            by Dennis Korpel <button class="w3-button details-hover" id="dennisShow"
+              onClick="openTalkDetails('dennis')">[Show Details]</button>
+            <div id="dennis" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/korpel.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/korpel.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/b0hRAdjCFtI">Video</a>
+                  </div>
+                </div>
+                <p>Should D have a smarter Garbage Collector, or support Reference Counting? I
+                  don&#8217;t care. Stack memory is where it&#8217;s at! D is really good at it with its static
+                  arrays, slices, and DIP1000&#8217;s lifetime tracking to make it all memory-safe.
+                  DIP1000 has evolved a lot in its design and implementation, so I&#8217;ll get you up to
+                  speed with where we are now and how we got here.
+                </p>
+              </div>
+              <p class="bio w3-card">Dennis Korpel is a recent CS graduate from Delft University
+                of Technology. D became his language of choice after discovering it in 2018, and he
+                is currently a Pull Request and Issue Manager for the D Language Foundation.</p>
+            </div>
+          </li>
+          <li id="schadekr"><a href="#schadekr" class="bare-anchor"><strong>14:30 Simple @safe D</strong></a><br>
+            by Robert Schadek <button class="w3-button details-hover" id="schadekShow"
+              onClick="openTalkDetails('schadek')">[Show Details]</button>
+            <div id="schadek" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2020/online/images/schadek.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/schadek.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/yC9xD8qfNQY">Video</a>
+                  </div>
+                </div>
+                <p>DIP1000 adds quite a bit of syntax to the language and makes D look a lot less
+                  beautiful, in my opinion. Instead of trying to add things to the language, why not
+                  take a look at things that need to be removed to achieve the same level of memory
+                  safety? This talk shows how to remove three things from the language to make it
+                  memory-safe and still live with the consequences.</p>
+              </div>
+              <p class="bio w3-card">Robert Schadek received a doctorate degree in computer
+                science from the University of Oldenburg. His dissertation was titled
+                &#8216;Analysis and Development of Quorum Protocols for Real-World Network
+                Topologies&#8217; and focused on quorum systems in combination with graphs. Since
+                2018, he has been happily using D in his day job working for Symmetry
+                Investments.</p>
+            </div>
+          </li>
+          <li id="schveighoffers"><a href="#schveighoffers" class="bare-anchor"><strong>15:30 Getting from C to D without Tripping</strong></a><br>
+            by Steven Schveighoffer <button class="w3-button details-hover" id="schveighofferShow"
+              onClick="openTalkDetails('schveighoffer')">[Show Details]</button>
+            <div id="schveighoffer" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/schveighoffer.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/schveighoffer.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/4dPfrKkLmV8">Video</a>
+                  </div>
+                </div>
+                <p>C is the lingua franca of programming languages. Chances are, if
+                  something exists in the world of computer science, there is a version of it
+                  in C. But what if you use D? The great news is that any C project is almost
+                  trivially accessible via D. But what if you hate the problems that come with
+                  C? No overloading! No operators! Zero-terminated strings! Manual memory
+                  management! No memory safety! Many of these things led me to undertake a
+                  project of porting a quite broad and well-used C library to D. What might be
+                  in store for you if you decide to take this journey? Tune in to find out!
+                </p>
+              </div>
+              <p class="bio w3-card">Steven Schveighoffer has been programming for nearly 25 years
+                professionally, using D for over half of that time. He has written several D
+                libraries, including <a href="https://github.com/schveiguy/dcollections">dcollections</a> and <a
+                  href="https://github.com/schveiguy/iopipe">iopipe</a>. He currently maintains <a
+                  href="https://github.com/schveiguy/raylib-d">the raylib-d binding</a> and the
+                <a href="https://github.com/mysql-d/mysql-native">mysql-native client library</a>
+                (which he recently converted to fully
+                <code>@safe</code>). He has been contributing to Phobos and DRuntime nearly the
+                whole time he&#8217;s been a D user.
+              </p>
+            </div>
+          </li>
+          <li id="vijayn"><a href="#vijayn" class="bare-anchor"><strong>16:30 OpenAPI and Service Integration</strong></a><br>
+            by Vijay Nayar <button class="w3-button details-hover" id="vijayShow"
+              onClick="openTalkDetails('vijay')">[Show Details]</button>
+            <div id="vijay" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2022/images/nayar.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate<br>
+                  Duration: 30 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/nayar.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/3YkKxlvLBR4">Video</a>                   
+                  </div>
+                </div>
+                <p>When building software services using D, a practical reality is that most other
+                  services are not also using D. A fairly standard way of inter-service
+                  communication is accomplished via a REST Architecture, based on JSON over HTTPS,
+                  for example. However, writing a new client for every programming language is
+                  error-prone and labor intensive. The internals of the OpenAPI Client library are
+                  discussed showing how D Client code can be generated using mixins and templates
+                  from OpenAPI specifications, permitting compatibility with well known APIs such as
+                  Slack, Stripe, or OpenAI.</p>
+              </div>
+              <p class="bio w3-card">Vijay Paul Nayar is a CalTech graduate and has been
+                professionally programming for over 20 years in various roles from software engineer
+                to CTO. Recently, he has taken on the role of entrepreneur and founded
+                <a href="https://www.funnel-labs.io/">Funnel-Labs.io</a>, where he has been using
+                the D Programming Language in production services.
+              </p>
+            </div>
+          </li>
+          <li><strong>18:00 End of Day One</strong><br></li>
+        </ul>
+      </div>
+
+      <!--Day Two Schedule-->
+      <div class="w3-panel w3-card-4 w3-center dayheader">
+        <h3>Wednesday August 30th</h3>
+      </div>
+      <div id="day2" class="w3-container dayblock w3-padding w3-card-4">
+        <ul class="w3-ul w3-card-4 talklist">
+          <li><strong>08:00 Breakfast Snacks</strong><br></li>
+          <li id="walterb"><a href="#walterb" class="bare-anchor"><strong>09:00 Crafting Self-Evident Code with D</strong><br></a>
+            by Walter Bright <button class="w3-button details-hover" id="walterShow"
+              onClick="openTalkDetails('walter')">[Show Details]</button>
+            <div id="walter" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/images/bright.jpg">
+                <div class="talkmeta">
+                  Duration: 45 Minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/bright.pdf">Slides (PDF)</a> 
+                    <a href="https://youtu.be/3iWn4S8JV8g">Video</a>
+                  </div>
+                </div>
+                <p>Have you ever looked at code you wrote five years ago and wondered what you were thinking? Just think
+                of code you authored even further back! You&#8217;ve heard about secure code, safe code, clean code, modern
+                code, optimized code, clever code, user-friendly code, structured code, effective code, etc. Everybody
+                thinks they write easy-to-understand code (including me), but your future self will likely have the last
+                word on that.</p>
+                <p>Here I&#8217;ll be talking about writing easy-to-understand code. The talk is based on decades of experience
+                writing code that is hard to understand. I&#8217;ll show how D makes it easy to write easy-to-understand
+                code. It won&#8217;t cost anything, either. And who knows? Maybe your future self will sigh contentedly with
+                &#8220;I wrote that!&#8221;</p>
+                <p>The highest praise you can get for your code is someone else looking at it saying &#8220;that&#8217;s so
+                simple, anyone could have done it!&#8221; (But you and I know better!)</p>
+              </div>
+              <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language
+                and has implemented compilers for several other languages. He&#8217;s an expert in all areas of compiler
+                technology, including front ends, optimizers, code generation, interpreter engines, and runtime
+                libraries. Walter regularly writes articles about compilers and programming, is known for engaging and
+                informative presentations, and provides training in compiler development techniques. Many are surprised
+                to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30
+                years after its debut.</p>
+            </div>
+          </li>
+          <li id="marcelom"><a href="#marcelom" class="bare-anchor"><strong>10:00 Hipreme Engine: Bringing D
+              Everywhere</strong></a><br>
+            by Marcelo Mancini <button class="w3-button details-hover" id="marcelloShow"
+              onClick="openTalkDetails('marcello')">[Show Details]</button>
+            <div id="marcello" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/mancini.jpg">
+                <div class="talkmeta">
+                  Audience: Beginner/Intermediate<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/mancini.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/jgygD7B_CPk">Video</a>
+                  </div>
+                </div>
+                <p>In this talk, I will discuss how a three-year ongoing game engine project in D has
+                  been able to run on multiple platforms while staying consistent, fast, and easy
+                  to use.
+                </p>
+              </div>
+              <p class="bio w3-card">Having used several game engines from several programming
+                languages and unsatisfied with how hard it was to get started with a native
+                programming language, Marcelo Mancini went from being a complete novice who didn&#8217;t even know
+                how to build anything to a daily D user producing one of the most ambitious projects
+                in the language. He noticed a big opportunity in D with its flexibility as both a low-
+                and high-level language, its compile-time reflection and mixins, the simplicity of
+                its build system, the presence of a package manager, and how all of this could lead to
+                increased productivity for people learning their first programming language.</p>
+            </div>
+          </li>
+          <li id="mikes"><a href="#mikes" class="bare-anchor"><strong>11:00 A Semester at University: Teaching
+              Software Engineering in
+              DLang</strong></a><br>
+            by Mike Shah <button class="w3-button details-hover" id="mikeShow" onClick="openTalkDetails('mike')">[Show
+              Details]</button>
+            <div id="mike" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2022/images/shah.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 30 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/shah_and_students.pdf">Slides (PDF, combined with slides from next talk)</a>
+                    <a href="https://youtu.be/V2YwTIIMEeU">Video</a>
+                  </div>
+                </div>
+                <p>In January of 2023, I excitedly showed a group of over 110 university students
+                  that D is the 48th most popular programming language on the Tiobe Index (for
+                  whatever its metrics are)&mdash;and then told those students they would be
+                  learning D in the software engineering course that semester. In this talk, I will
+                  recap my university curriculum of how I taught D, and why I think D should be
+                  taught by more faculty in universities. For this software engineering course, we
+                  made use of low-level access, multiple programming paradigms, built-in profilers,
+                  package management (dub), code coverage, ddoc, and unit testing in order to build a
+                  half-semester long project. My conclusion is that using D at university can give
+                  students a competitive advantage versus other languages, and in this talk I&#8217;ll
+                  reflect on the curriculum, pain points, strengths, and future of D in
+                  education.</p>
+              </div>
+              <p class="bio w3-card">Michael discovered computer science at the age of 13 when
+                googling &#8220;how do I make games&#8221;. Since that fateful google search, he has
+                worked as a freelance game developer, worked in industry for Intel, Sony
+                PlayStation, and Oblong Industries, and researched at The Ohio Supercomputer Center.
+                Mike cares about building tools to help programmers monitor and improve the
+                performance of real-time applications&mdash;particularly any visual multimedia. He
+                believes computer science can be learned by all. Mike Shah completed his PhD at
+                Tufts University in 2017 and is an associate teaching professor at Northeastern
+                University. He also consults as a 3D Senior Graphics Engineer. In his spare time he
+                goes for long runs, plays video games while on his exercise bike, learns guitar, and
+                considers himself an amateur pizza and wine maker.</p>
+            </div>
+          </li>
+          <li id="mike-students"><a href="#mike-students" class="bare-anchor"><strong>11:30 A Semester at
+              University: Learning Software
+              Engineering in DLang</strong></a><br>
+            by Ben Mallet, Elizabeth Williams, Andrew Briasco-Stewart, Steven Abbott <button
+              class="w3-button details-hover" id="studentsShow" onClick="openTalkDetails('students')">[Show
+              Details]</button>
+            <div id="students" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <div class="w3-panel w3-third">
+                  <img class="w3-image w3-half" src="../2020/online/images/stock.jpg">
+                  <img class="w3-image w3-half" src="./images/williams.jpg">
+                  <img class="w3-image w3-half" src="./images/briasco-stewart.jpg">
+                  <img class="w3-image w3-half" src="./images/abbott.jpg">
+                </div>
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 30 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/shah_and_students.pdf">Slides (PDF, combined with slides from previous talk)</a>
+                    <a href="https://youtu.be/V2YwTIIMEeU?t=1610">Video</a>
+                  </div>
+                </div>
+                <p>In January of 2023, around 110 students took Foundations of Software
+                  Engineering with Professor Mike Shah at Northeastern University. During the first
+                  class, it was announced that the course would be taught in D. This talk will
+                  follow the perspective of four students (one group) in said course, beginning with
+                  their experience learning the D programming language.</p>
+
+                <p>The main portion will discuss the creation and implementation of the
+                  half-semester long final project: an interactive networked whiteboard application
+                  with a couple of features (chat, brushes). Various tools and add-ons this project
+                  used were <a href="https://gtkd.org/">GtkD</a>, networking, package management (dub), code coverage, and unit
+                  testing (<a href="https://code.dlang.org/packages/unit-threaded">unit-threaded</a>). To conclude, this
+                  talk will discuss the main benefits of D as a post-secondary educational language and reflect on the
+                  state of the D community and development tools.</p>
+
+                <p><strong>NOTE:</strong> This talk immediately follows, and is a continuation of, Mike Shah&#8217;s talk,
+                  with no break in between.</p>
+              </div>
+              <div class="bio w3-card">
+                <p>Ben Mallet is a graduate student at Northeastern University. He expects to
+                  graduate in May 2024. He has D experience from Mike Shah&#8217;s course (Spring 2023)
+                  and some C experience as an Embedded Software Engineer at Running Tide</p>
+
+                <p>Elizabeth Williams is a graduate student at Northeastern University who expects
+                  to graduate in May 2024. She has D experience from Mike Shah&#8217;s course (Spring
+                  2023) and some C experience from other courses.</p>
+
+                <p>Andrew Briasco-Stewart is an undergraduate student at Northeastern University
+                  who expects to graduate in May 2024. He has D experience from Mike Shah&#8217;s course
+                  (Spring 2023) and C/C++ experience from other courses.</p>
+
+                <p>Steven Abbott is an undergraduate student at Northeastern University. He
+                  expects to graduate in December 2023. He has D experience from Mike Shah&#8217;s course
+                  (Spring 2023) and experience with C/C++ experience and Build System/CCID as a
+                  Software Engineer Co-op at MORSE Corp.</p>
+              </div>
+            </div>
+          </li>
+          <li><strong>12:00 Lunch</strong></li>
+          <li id="roym"><a href="#roym" class="bare-anchor"><strong>13:30 If I Cannot Dissuade You from Using
+              Atomics, at least Do It
+              Safely</strong></a><br>
+            by Roy Margalit <button class="w3-button details-hover" id="royShow" onClick="openTalkDetails('roy')">[Show
+              Details]</button>
+            <div id="roy" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2022/images/margalit.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate/Advanced<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/margalit.pptx">Slides (PPTX)</a>
+                    <a href="https://youtu.be/iqyN7c0QRME">Video</a>
+                  </div>
+                </div>
+                <p>Different hardware architectures implement different memory models. This in
+                  turn makes porting multi-threaded software between different target architectures
+                  an insanely complicated task. To solve this problem, C++11 introduced a language
+                  memory model that was later adopted by other languages such as D and Rust.</p>
+
+                <p>In this talk, we&#8217;ll present the C++11 memory model, including multiple options
+                  for atomic accesses that lie on the trade-off between performance and the
+                  consistency level they support. Due to the well known complexities and pitfalls in
+                  this kind of programming, we will also consider several safe patterns to work with
+                  atomic variables that lower the chances of introducing bugs.</p>
+              </div>
+              <p class="bio w3-card">Roy Margalit is a PhD student in the Programming Languages
+                group at School of Computer Science, Tel Aviv University. Currently researching
+                programming languages and verification, with a focus on concurrency and relaxed
+                memory models.</p>
+            </div>
+          </li>
+          <li id="ikeyd"><a href="#ikeyd" class="bare-anchor"><strong>14:30 Taming the Snakes</strong></a><br>
+            by Ikey Doherty<button class="w3-button details-hover" id="ikeyShow" onClick="openTalkDetails('ikey')">[Show
+              Details]</button>
+            <div id="ikey" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/doherty.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/GSkR-Bf1wA0">Video</a>
+                  </div>
+                </div>
+                <p>Serpent OS is a Linux distribution heavily utilizing D for its tooling,
+                  infrastructure, and software update processes. It&#8217;s been an extensive journey,
+                  with lots of mistakes made along the way. Learn how we screwed up - so you don&#8217;t
+                  have to!
+                </p>
+              </div>
+              <p class="bio w3-card">Ikey Doherty is a Staff Engineer at MZLA Technologies working
+                on Thunderbird. He is also the chief architect of the Serpent OS Linux distribution
+                and a member of the Solus Technical Steering Committee, currently working with the
+                team to assist with a rebase onto Serpent OS core technologies.</a>.
+              </p>
+            </div>
+          </li>
+          <li id="zachy"><a href="#zachy" class="bare-anchor"><strong>15:30 Multiplix: Using D for Kernel Developmebt</strong></a><br>
+            by Zachary Yedidia <button class="w3-button details-hover" id="zachShow"
+              onClick="openTalkDetails('zach')">[Show Details]</button>
+            <div id="zach" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/yedidia.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate/Advanced<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/yedidia.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/VL8F7rnrCCA">Video</a>
+                  </div>
+                </div>
+                <p>Multiplix is an operating system written in D under development for a research
+                  project at Stanford University. Kernel code is an unusual setting where there
+                  is no surrounding infrastructure, thus requiring hand-written assembly, a
+                  specialized build process, and custom implementations for core features like
+                  memory allocation and concurrency primitives. This talk will explain how we are
+                  using D for OS development, and show examples of how to write bare-metal D
+                  code. The talk will go over the architecture of Multiplix with an emphasis on
+                  how the D language has shaped it. I&#8217;ll also discuss our experiences using D for
+                  kernel development, and the benefits and challenges that arise from using D in
+                  this setting.</p>
+              </div>
+              <p class="bio w3-card">Zachary Yedidia is a computer science PhD student at Stanford
+                interested in computer systems, hardware, and compilers. You can learn more about him
+                at <a href="https://zyedidia.github.io/">zyedidia.github.io</a>.</p>
+            </div>
+          </li>
+          <li id="beerm"><a href="#beerm" class="bare-anchor"><strong>16:30 The Neat Language: AKA What I've been up to the past three years</strong></a><br>
+            by Mathis Beer <button class="w3-button details-hover" id="mathisShow"
+              onClick="openTalkDetails('mathis')">[Show Details]</button>
+            <div id="mathis" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                <div class="talkmeta">
+                  Audience: Intermediate/Advanced<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/beer.odp">Slides (ODP)</a>
+                    <a href="https://youtu.be/nDqlYnS-K2c">Video</a>
+                  </div>
+                </div>
+                <p>Want to see what D would look like with native sumtypes, rich types, better
+                  lambdas, and macros?</p>
+              </div>
+              <p class="bio w3-card">Mathis Beer writes D code for Funkwerk. He is <a
+                  href="https://github.com/funkwerk/serialized">the author of Serialized</a> as well
+                as the company&#8217;s <a href="https://github.com/funkwerk/boilerplate">Boilerplate
+                  library</a>. Mathis is also known in the D community as
+                &ldquo;FeepingCreature&rdquo;.</p>
+            </div>
+          </li>
+          <li><strong>18:00 End of Day Two</strong><br></li>
+        </ul>
+      </div>
+
+      <!--Day Three Schedule-->
+      <div class="w3-panel w3-card-4 w3-center dayheader">
+        <h3>Thursday August 31st</h3>
+      </div>
+      <div id="day3" class="w3-container dayblock w3-padding w3-card-4">
+        <ul class="w3-ul w3-card-4 talklist">
+          <li><strong>08:00 Breakfast Snacks</strong><br></li>
+          <li id="nevesa"><a href="#nevesa" class="bare-anchor"><strong>09:00 You're Writing D Wrong</strong><br></a>
+            by Átila Neves <button class="w3-button details-hover" id="atilaShow"
+              onClick="openTalkDetails('atila')">[Show Details]</button>
+            <div id="atila" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2019/images/neves.jpg">
+                <div class="talkmeta">
+                  Duration: 45 Minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/neves.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/Rm_8Hpex68s">Video</a>
+                  </div>
+                </div>
+                <p>An old man yells his pet peeves at the clouds.</p>
+              </div>
+              <p class="bio w3-card">Átila Neves has a PhD in Particle Physics for research done at CERN. Most of his
+                time spent there required programming in C++, with a two-year stint as a Perl programmer on the IT
+                department&#8217;s security team. He also worked for Cisco for almost seven years, developing networking
+                software in C and C++ and leading his teams in the areas of software quality and testing. He now works
+                as a D consultant/programmer for Symmetry Investments, and is also the deputy maintainer of the D
+                programming language. He spends his spare time yelling at the screen in frustration while waiting for
+                computers to compile his code.</p>
+            </div>
+          </li>
+          <li id="veelob"><a href="#veelob" class="bare-anchor"><strong>10:00 Internationalization with
+              gettext</strong></a><br>
+            by Bastiaan Veelo <button class="w3-button details-hover" id="veeloShow"
+              onClick="openTalkDetails('veelo')">[Show Details]</button>
+            <div id="veelo" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2017/images/veelo.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/veelo.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/FYKrXsnzrIM">Video</a>
+                  </div>
+                </div>
+                <p>The first part of this talk demonstrates the process of internationalizing an existing program
+                  (adding support for multiple natural languages to its user interface) using <a
+                    href="https://code.dlang.org/packages/gettext">the dub gettext package</a>. The second part focuses
+                  on the implementation of said package, which makes interesting use of various features of the D
+                  programming language.
+                </p>
+              </div>
+              <p class="bio w3-card">Bastiaan Veelo has been in charge of the conversion of roughly half a million lines
+                of Pascal code to D for the company SARC, who develop applications for the marine- and shipping
+                industry. This process has been the topic of <a
+                  href="https://dlang.org/blog/2018/06/20/how-an-engineering-company-chose-to-migrate-to-d/">one blog
+                  post</a> and two prior D conference presentations <a href="https://youtu.be/NoAJziYZ4qs">in 2017</a>
+                and <a href="https://youtu.be/HvunD0ZJqiA">in 2019</a>. Besides upgrading the programming language, SARC
+                decided that it was also time to upgrade their system for internationalization. Thus, Bastiaan
+                implemented <a href="https://code.dlang.org/packages/gettext">the gettext package</a> with valuable
+                help from the D community. This work is now available to everybody under the Boost license.</p>
+            </div>
+          </li>
+          <li id="chicosv"><a href="#chicosv" class="bare-anchor"><strong>11:00 The QUIC Protocol in
+              D</strong></a><br>
+            by Vlăduț Chicoș <button class="w3-button details-hover" id="vladShow"
+              onClick="openTalkDetails('vlad')">[Show Details]</button>
+            <div id="vlad" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/chicos.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 30 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/chicos.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/rWsmqll-DlY">Video</a>
+                  </div>
+                </div>
+                <p>QUIC is a new, standardized and widely adopted internet protocol.
+                  A native library within the D ecosystem would pave the way towards HTTP/3
+                  adoption. Furthermore, it would remove the reliance on bindings to third party C
+                  implementations and would facilitate the use of features like D exceptions and
+                  fiber-based concurrency.</p>
+
+                <p>This talk aims to present my progress on bringing QUIC
+                  to the D environment. I will talk about why someone might consider using QUIC
+                  over other protocols. I will present the challenges that I encountered and how
+                  the solutions reflect into the design of quic-d. I think that the requirements
+                  of QUIC framing/packetization and streams made an interesting case of using D&#8217;s
+                  features, like introspection. I will conclude by presenting some possible
+                  improvements and opportunities. </p>
+              </div>
+              <p class="bio w3-card">Vlăduț Chicoș is a 4th year student at Politehnica University
+                of Bucharest. He participated in SAOC 2022, during which he worked on <a
+                  href="https://github.com/dlang-community/quic-d">the quic-d library</a>, adding
+                modules mostly related to cryptography, packetization/framing and streams. In his
+                bachelor thesis project, he is experimenting with model predictive control as an
+                alternate solution of pacing QUIC packet sending that is compatible with the
+                standard approach.</p>
+            </div>
+          </li>
+          <li><strong>11:45 Lunch</strong></li>
+          <li id="lightning"><a href="#lightning" class="bare-anchor"><strong>13:30 Lightning Talks</strong></a><br>
+            by Multiple Speakers <button class="w3-button details-hover" id="ltsShow"
+              onClick="openTalkDetails('lts')">[Show Details]</button>
+            <div id="lts" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/Ks5vXpDO4H0">Video</a>
+                  </div>
+                </div>
+                <p>Got something interesting to tell the D community, but not interested in presenting a full talk?
+                  We&#8217;ll give you five minutes to tell the world!</p>
+                <p>Lightning Talks are presentations restricted to five minutes or less. Speakers plug in their
+                  laptops and get started immediately. When their time is up, the emcee pulls them off stage and the
+                  next speaker gets going. <a href="https://youtu.be/GOKIH7AQJR0">The Lightning Talk session from DConf
+                    &#8216;22</a> is a great example of the format.</p>
+                <p>Any DConf attendee can sign up to present a Lightning Talk. We&#8217;ll have nine slots available
+                  this year, and we&#8217;ll fill them on a first-come first-serve basis. Email <a
+                    href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+                  anytime before the conference to reserve your spot (after you&#8217;ve registered), or let Mike Parker
+                  know at any point during the conference prior to the start of the Lightning Talks session.</p>
+              </div>
+            </div>
+          </li>
+          <li id="murilom"><a href="#murilom" class="bare-anchor"><strong>14:30 A Beginner&#8217;s Journey with AI in
+              D</strong></a><br>
+            by Murilo Miranda<button class="w3-button details-hover" id="muriloShow"
+              onClick="openTalkDetails('murilo')">[Show Details]</button>
+            <div id="murilo" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/miranda.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/miranda.odp">Slides (ODP)</a>
+                    <a href="https://youtu.be/Ur0xRVwE1Z4">Video</a>
+                  </div>
+                </div>
+                <p>I will talk about my journey learning AI, what I&#8217;ve discovered about it, the
+                  ins and outs most people do not understand, and how I did it all purely in D.
+                  I was able to implement neural networks to do a variety of tasks, such as text
+                  and color recognition. I&#8217;ve created my own neural network creator software,
+                  which in turn was also written in D.
+                </p>
+              </div>
+              <p class="bio w3-card">Murilo Miranda is a computer scientist at the
+                University of Brasília (UnB). He works as a programmer, computer technician, and
+                teacher of computer programming. He&#8217;s also an indie game developer, overclocker, and
+                casemodder in his free time. He maintains a blog about CS at <a
+                  href="https://computingthesciences.blogspot.com">computingthesciences.blogspot.com</a>.
+              </p>
+            </div>
+          </li>
+          <li id="maxh"><a href="#maxh" class="bare-anchor"><strong>15:30 Language Models, D, and so on</strong></a><br>
+            by Max Haughton <button class="w3-button details-hover" id="maxShow" onClick="openTalkDetails('max')">[Show
+              Details]</button>
+            <div id="max" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../2021/online/images/haughton.jpg">
+                <div class="talkmeta">
+                  Audience: Beginner/Intermediate<br>
+                  Duration: 45 minutes<br>
+                  <div class="talklinks">
+                    <a href="./slides/haughton.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/2jbQ77mb12M">Video</a>
+                  </div>
+                </div>
+                <p>Even in their infancy, large language models like ChatGPT are the talk
+                  of the town. Until recently, LLMs have been inferenced (run) using huge
+                  chunks of Python code, but recent interest has brought about some
+                  much simpler, specialized, libraries written in native languages
+                  (llama.cpp being a recently famous example). In this talk, Max talks about the state of 
+                  LLMs and how they might be useful for D programmers.</p>
+              </div>
+              <p class="bio w3-card">Max slings code for Symmetry Investments. Otherwise... all words, some action, no
+                bona fides!</p>
+            </div>
+          </li>
+          <li id="aua"><a href="#aua" class="bare-anchor"><strong>16:30 Ask Us Anything!</strong></a><br>
+            with Walter Bright, Átila Neves, Mathias Lang, Dennis Korpel, Saeed Sabeti, Mike Parker <button
+              class="w3-medium w3-button details-hover" id="tauaShow" onClick="openTalkDetails('taua')">[Show
+              Details]</button>
+            <div id="taua" class="w3-hide w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <div class="w3-panel w3-third">
+                  <img class="w3-image w3-half" src="../2020/images/bright.jpg">
+                  <img class="w3-image w3-half" src="../2019/images/neves.jpg">
+                  <img class="w3-image w3-half" src="../2020/online/images/lang.jpg">
+                  <img class="w3-image w3-half" src="./images/korpel.jpg">
+                  <img class="w3-image w3-half" src="./images/sabeti2.jpg">
+                  <img class="w3-image w3-half" src="../2022/images/parker.jpg">
+                </div>
+                <div class="talkmeta">
+                  Audience: All<br>
+                  Duration: 60 minutes<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/cUkUZmkYsiY">Video</a>
+                  </div>
+                </div>
+                <p>This year, it isn't only Walter and Átila in the hotseat! They'll be joined on stage by Mathias Lang, one of the DLF team members in charge of our high-level goal to enhance the D ecosystem; Dennis Korpel, one of our Pull Request and Issue Managers; Mike Parker, one of the DLF team members in charge of our high-level goal to strengthen the D community; and Saeed Sabeti, who's joining to take questions about Ucora's organizational redevelopment program.</p>
+
+                <p>Curious about the DLF&#8217;s organizational redevelopment? Wondering what&#8217;s in store for the language,
+                  ecosystem, and community down the road? Eager to learn more details about progress on our current
+                  goals? Dying to hear any juicy bits of history from Walter&#8217;s decades as a C compiler developer?
+                  All of these topics and more are on topic for the annual DConf Ask Us Anything!</p>
+              </div>
+            </div>
+          </li>
+          <li><strong>18:00 End of Day Three</strong><br></li>
+        </ul>
+      </div>
+
+      <!--Day Four Schedule-->
+      <div class="w3-panel w3-card-4 w3-center dayheader">
+        <h3>Friday September 1st</h3>
+      </div>
+      <div id="day3" class="w3-container menu w3-padding w3-card-4">
+        <ul class="w3-ul w3-card-4 talklist">
+          <li><strong>08:00 Breakfast Snacks</strong><br></li>
+          <li><strong>09:00 Hackathon & &ldquo;Find Your IVY&rdquo; Morning Sessions</strong><br></li>
+          <li><strong>12:00 Lunch</strong><br></li>
+          <li><strong>13:30 Hackathon & &ldquo;Find Your IVY&rdquo; Afternoon Sessions</strong><br></li>
+          <li><strong>18:00 End of DConf &#8216;23</strong><br></li>
+          <li>
+            <div id="mikep" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <h3 class="innerhdr">Hackathon</h3>
+                <p>The DConf Hackathon has been part of every edition of DConf since 2017 in Berlin when Sebastian
+                  Wilzbach suggested we extend the conference by one day to work on D projects. A number of
+                  attendees worked on bugs, some tutored others on various D features, and one (Timon Gehr) used the
+                  time to implement a new feature (<code>static foreach</code>).</p>
+                <p>Use your time at the Hackathon the way you feel is best for you: submit PRs to the core D
+                  repositories or your favorite projects in the broader ecosystem; hack on your own project, and
+                  maybe enlist some help from a fellow attendee to work through a tough problem; tutor a novice D
+                  programmer, or seek tutoring from someone more experienced; corner Walter or Átila and rant to
+                  them about your biggest D pet peeve(s); or just sit and chat with the people around you.</p>
+                <p>This year, we&#8217;re planning a special event to take place during the morning
+                  session, open to anyone who&#8217;d like to join. We&#8217;ll post the details here once we&#8217;re ready to announce.
+                </p>
+                <p>The DConf Hackathon is also open to the general public. If you are in the area on September 1st and
+                  didn&#8217;t register for the conference, that&#8217;s okay. Join us anyway! If you registered, invite a
+                  friend or relative, maybe someone who knows very little about our favorite programming
+                  language&mdash;there are fewer times as opportune as this one to show them what it&#8217;s all
+                  about.</p>
+                <p>The DConf Hackathon is a great time to ramp up some work or wind down from three days of talks.
+                  It&#8217;s your time, so use it as you will. See you there!</p>
+                <h3 class="innerhdr">Finding Your IVY</h3>
+                <p>Some in the D community will have already heard of the concept of IVY (Ideal Vision of Yourself) from the D Language Foundation's
+                  announcement that they went through an organizational development program courtesy of Ucora. DConf attendees will hear more about
+                  it from Ucora&#8217;s Saeed Sabeti in his opening keynote and during the Ask Us Anything session. The TL;DR: IVY is a different take on the well-known concept
+                  of a vision statement, geared in part toward finding opportunities for collaboration that might otherwise be overlooked.</p>
+                <p>During the Hackathon, Saeed, along with Mike Parker, will be available for group sessions aimed at going more in-depth about the IVY
+                  concept and assisting those interested in learning how to discover their personal IVY statements. They will host up to four hour-long sessions
+                  as needed, starting at 09:30, 11:00, 13:30, and 15:00.</p>
+                <p>Anyone interested in learning how they can benefit from IVY and how the D Language Foundation is employing it is encouraged to
+                  join one of the sessions. Just let Mike Parker know at any point before or during DConf and he will get you sorted.</p>
+              </div>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </article>
+  </div>
+
+  <!-- Registration Container -->
+  <!--
+  <div class="w3-container w3-margin-top" id="register">
+    <article class="w3-content w3-card-2">
+      <h1>Registration</h1>
+      <p>GBP rates are based on the <a
+          href="https://www.gov.uk/government/publications/hmrc-exchange-rates-for-2023-monthly">HMRC Exchange Rate for
+          the current month.</a> Note that this rate is static for the month and will most likely differ from the rate
+        used by PayPal or your credit card company. You may find the USD PayPal link to result in a lower or higher
+        charge on your GBP credit card than the GBP link.</p>
+      <p>A 20% VAT is added to the base registration rates.</p>
+      <p>
+        <strong>General Registration Base Rate: $450 (£349.22)</strong><br>
+        General registration is $450. The total with 20% VAT is $540 (£419.06).
+      </p>
+      <p>
+        <strong>Welcome Back Discount Base Rate: $415 (£322.05)</strong><br>
+        Missed the early-bird registration? Did you attend DConf &#8216;22? Then send an email to <a
+          href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+        to let us know and we&#8217;ll tell you how to pay for your registration at the DConf &#8216;22 general
+        registration rate of $415. With 20% VAT, that&#8217;s $498 (£386.46)
+      </p>
+      <p>
+        <strong>Student Registration Base Rate: $100 (£77.60)</strong><br>
+        The student rate is a fixed $100 + 20% VAT, or $120 (£93.14), until General Registration closes. If you qualify,
+        please contact <a
+          href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+        for details on how to take advantage of this discounted rate.
+      </p>
+      <p>
+        <strong>Major Open Source Contributor Registration Base Rate: $200 (£155.21)</strong><br>
+        The rate for major open source contributors is a fixed $200 + 20% VAT, or $240 (£186.25), until General
+        Registration closes. Eligibility for this discount is determined on a case-by-case basis. If you think you
+        qualify, please contact <a
+          href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+        for more information.
+      </p>
+      <p>
+        <strong>Hardship Rate</strong><br>
+        If you would like to attend DConf but cannot afford any of the above rates, we are willing to offer you a
+        special hardship rate. This is only a discount on registration. We cannot assist you with transportation or
+        lodging. Please contact <a
+          href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+        to explain your situation, and we&#8217;ll provide you with more details.
+      </p>
+      <h2 id="pay">General Registration</h2>
+      <div class="w3-card w3-center w3-padding">
+        <p>(USD) <strong>$450 + 20% VAT ($540)</strong></p>
+        <div class="w3-padding">
+          <iframe src="./register-pp-usd.html" scrolling="no" style="border:0;"></iframe>
+        </div>
+        <hr>
+        <div class="w3-padding">
+          <p>(GBP) <strong>£349.22 + 20% VAT (£419.06)</strong></p>
+          <iframe src="./register-pp-gbp.html" scrolling="no" style="border:0;"></iframe>
+        </div>
+      </div>
+      <p style="font-size:smaller;">
+        <em>Please be aware that by attending the conference, you acknowledge that you are responsible for any property
+          that you bring to the venue and that neither the D Language Foundation nor its sponsors can assume any
+          responsibility for damaged, stolen or lost property belonging to the attendees.</em>
+      </p>
+    </article>
+  </div>
+-->
+
+  <!-- Venue Container -->
+  <div class="w3-container w3-margin-top" id="venue">
+    <article class="w3-content w3-card-2">
+      <h1>Venue</h1>
+      <p>
+        <a href="https://www.codenode.live/">Our DConf &#8216;23 venue is CodeNode</a>, a space in Central London
+        specifically designed for tech conferences. It&#8217;s conveniently located close between Moorgate and Liverpool
+        Street stations and is a 10&ndash;15 minute walk from Old Street Station to the north.
+      </p>
+      <div class="w3-center">
+        <iframe id="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.703584548956!2d-0.08842978419804387!3d51.51865387963698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cac4424aedb%3A0x77281b9991b7874!2s10%20South%20Pl%2C%20London%20EC2M%207EB%2C%20UK!5e0!3m2!1sen!2skr!4v1648216561193!5m2!1sen!2skr"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <p>
+        Our presentations will happen on the ground floor in the CTRL room, and we&#8217;ll have the entirety of the ESC area
+        downstairs to ourselves, where attendees can relax, chat, or play table tennis or foosball between talks.
+      </p>
+      <h2 id="hotels">Accommodations</h2>
+      <p>
+        There are several budget hotels in easy walking distance. The following are some options that, according to
+        Google Maps, are less than a 20-minute walk from the venue. Some of them are near an underground station that is
+        one stop away from Moorgate or Liverpool Street stations. Click a link to see the walking route(s) between a
+        hotel and the venue. On the map, you&#8217;ll find links to reserve a room.
+      </p>
+      <ul>
+        <li><a href="https://goo.gl/maps/uh9V2VLj9f7fdAX88">Point A Hotel London - Shoreditch</a>: 5 minutes</li>
+        <li><a href="https://goo.gl/maps/MdtDYXmt8GSLFYmm6">Travelodge London Central City Road</a>: 6 minutes </li>
+        <li><a href="https://goo.gl/maps/CsLARVpQiK7MoUTP6">Travelodge London Central Liverpool Street</a>: 9 minutes</li>
+        <li><a href="https://goo.gl/maps/LN22z3fk8FUwRH6X6">Point A Hotel London - Liverpool Street</a>: 11 minutes</li>
+        <li><a href="https://goo.gl/maps/7L7igViopVSRy1J89">Travelodge London Central Bank</a>: 13 minutes</li>
+        <li><a href="https://goo.gl/maps/URAc4A2NCuVzWVT66">Travelodge London City</a>: 13 minutes</li>
+        <li><a href="https://goo.gl/maps/QBzDMkVeS4tSvJBz5">easyHotel London City Shoreditch</a>: 14 minutes</li>
+        <li><a href="https://goo.gl/maps/g3p54HHfiaHou41B9">Hotel Motel One London Tower Hill</a>: 15 minutes</li>
+        <li><a href="https://goo.gl/maps/kCSQXFeYkNjrWFaa7">hub by Premier Inn London Shoreditch</a>: 15 minutes</li>
+        <li><a href="https://goo.gl/maps/misZc78nmDZZggu26">The Z Hotel Shoreditch</a>: 16 minutes</li>
+        <li><a href="https://goo.gl/maps/qiDomcNAPLqQpXcp8">Premier Inn London City (Old Street)</a>: 17 minutes</li>
+        <li><a href="https://goo.gl/maps/PLQgPdPCAX6MyQ1b6">hub by Premier Inn London Spitalfields</a>: 17 minutes</li>
+        <li><a href="https://goo.gl/maps/3h2g7SKUA7UY1wGm8">Premier Inn London Bank (Tower)</a>: 19 minutes</li>
+      </ul>
+      <h2 id="hotels">BeerConf</h2>
+      <p>Every evening during the first three nights of DConf means only one thing: BeerConf! <a
+      href="https://wiki.dlang.org/Beerconf">Ethan Watson coined the term</a> in 2016 as a name for
+      what happens at the designated evening gathering spot at every DConf. In 2019 and 2022, we
+      were able to hire space at pubs for BeerConf. Unfortunately, pub hire rates are well beyond
+      our budget this year, so we&#8217;re going back to what we used to do and designating a hotel where
+      everyone can gather.
+      </p>
+      <p>
+        <a href="https://goo.gl/maps/MdtDYXmt8GSLFYmm6">Travelodge London Central City Road</a>
+        is tentatively designated the DConf &#8216;23 BeerConf spot. They have a restaurant/lounge
+        on the ground floor which serves beer, non-alcoholic beverages, and snacks. Despite the
+        name, drinking beer is not required to particpate. Come and go as you please each evening.
+        Chat and talk about D, about programming, about life, or whatever comes up. BeerConf is an
+        excellent way to unwind after a day of DConf!
+      </p>
+    </article>
+  </div>
+
+  <!-- Sponsors Container -->
+  <div class="w3-container w3-margin-top" id="sponsors">
+    <article class="w3-content w3-card-2">
+      <h1>Sponsors</h1>
+      <div class="w3-center w3-padding-64" id="symmetry">
+        <a href="https://symmetryinvestments.com/"><img src="../2020/images/symmetry-logo1.png"
+            alt="Symmetry Investments" class="w3-image"></a>
+      </div>
+      <p><a href="https://symmetryinvestments.com/">Our friends at Symmetry Investments</a> are the primary sponsors and
+        hosts of DConf &#8216;23. With offices in Hong Kong, Singapore, London, Jersey, and the Cayman Islands, Symmetry
+        employs D in their investment management mission. This is the third time they&#8217;ve sponsored DConf, and we
+        are thankful for their continued support. They are also the sponsors of the <a
+          href="https://dlang.org/blog/symmetry-autumn-of-code/">Symmetry Autumn of Code</a>, an annual event that,
+        since 2018, has provided experience to emerging programmers while enhancing the D ecosystem. We couldn&#8217;t
+        be more excited to bring DConf to London once again with Symmetry&#8217;s support.</p>
+      <h2>Supporters</h2>
+      <div class="w3-center w3-padding-64" id="ahrefs">
+        <a href="https://ahrefs.com/"><img src="./images/ahrefs.svg" width="250" alt="ahrefs" class="w3-image"></a>
+      </div>
+      <p>We thank our new friends at Ahrefs for their sponsorship of DConf &#8216;23. Ahrefs Pte. Ltd. is a software
+        company that develops online SEO tools, a search engine, and free educational materials for marketing
+        professionals. They are a lean multinational startup headquartered in Singapore that values making meaningful
+        and easy-to-use products. They shift things fast to give their customers what matters most to them, and to keep
+        us ahead of the game. Their motto is &#8220;First do it, then do it right, then do it better.&#8221;</p>
+      <h2>Partners</h2>
+      <div class="w3-center w3-padding-64" id="devit">
+        <a href="https://devitjobs.uk/jobs/C++/all"><img src="../2022/images/devIT.png" alt="DevITjobs.uk"
+            class="w3-image"></a>
+      </div>
+      <p>A big thanks to <a href="https://devitjobs.uk/jobs/C++/all">DevITjobs, our media partner</a> for DConf
+        &#8216;23. DevITjobs is the first job board built with Software Engineers in mind. Their goal is to bring more
+        transparency, openness and diversity to the British IT market. They want to make the job search process for
+        Software Engineers more enjoyable by gathering all job postings in the United Kingdom and presenting them in an
+        informative way. <a href="https://devitjobs.uk/jobs/C++/all">The DevITjobs.uk portal</a> is not only for
+        Developers but for everyone working in the IT industry: Engineers, SAP and System Admins, Product Managers, QAs
+        and UX/UI Designers!</p>
+    </article>
+  </div>
+
+  <div class="w3-container w3-center w3-small w3-padding-64">
+    &copy; 2023 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+  </div>
+  <script>
+    function hamburger() {
+      var x = document.getElementById("small-menu");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    function openTalkDetails(name) {
+      var x = document.getElementById(name);
+      var p = document.getElementById(name + "Show");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        p.innerHTML = "[Hide Details]";
+      }
+      else {
+        x.className = x.className.replace(" w3-show", "");
+        p.innerHTML = "[Show Details]";
+      }
+    }
+
+  </script>
+</body>
+
+</html>
