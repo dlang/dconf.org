@@ -14,6 +14,7 @@ TO_COPY =  \
 	online/slides/ $(wildcard online/slides/*.pdf) \
 	includes/ $(wildcard includes/*) \
 	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
+	slides/ $(wildcard slides/*.pdf slides/*.otp slides/*.pptx slides/*.md) \
 	$(wildcard ./*.html)
 
 SITE_FILES = $(addprefix $(OUT)/, $(TO_COPY))
