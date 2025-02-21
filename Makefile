@@ -1,7 +1,7 @@
 DMD = dmd
 OUT = docs
 
-all: $(OUT)/index.html $(OUT)/CNAME \
+all: $(OUT)/index.html $(OUT)/favicon.png $(OUT)/CNAME \
 	2007/all \
 	2013/all \
 	2014/all \
