@@ -1,0 +1,290 @@
+html {
+	line-height: 1.15em;
+	font-size: 1.1em;
+	-webkit-text-size-adjust: 100%; /* Prevent adjustment of font size after orientation changes on iOS */
+}
+
+body {
+	background-color: #ffffff;
+	text-align: justify;
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+
+#masthead {
+	text-align: center;
+}
+
+#masthead img {
+	max-width: 75%;
+}
+
+#sitenav {
+	padding: 0.5em;
+	margin: 0;
+	font-size: 0.9em;
+	background-color: #000066;
+	text-align: center;
+	border: 1px solid #000066;
+}
+
+#sitenav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#sitenav ul li {
+	padding: 0.2em;
+	font-size: 1em;
+	margin-right: 1em;
+	display: inline;
+}
+
+#sitenav ul a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #ffffff;
+}
+
+#sitenav ul a:hover {
+	color: #cc0000;
+}
+
+#sidebar {
+	text-align: center;
+	line-height: 2em;
+}
+
+#sitefoot {
+	font-size: 0.9em;
+	font-style: italic;
+	text-align: center;
+	padding: 0 0 2em 0;
+}
+
+#container {
+	/*background-color: #bbdefb;*/
+}
+
+#twitter {
+	display: none;
+}
+
+#hash {
+	text-align: center;
+}
+
+#daily, #daily td, #daily th {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 0.5em 0.3em 0.5em 0.3em;
+}
+
+#schedule {
+	margin: 0;
+}
+
+#daily {
+	margin: auto auto 3em auto;
+	width: 75%;
+	background-color: #ffffff;
+}
+
+#daily th {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #000000;
+}
+
+#daily td:first-child {
+	width: 15%;
+	color: ec8618;
+}
+
+.red th {
+	background-color: #cc0000;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc0000', endColorstr='#992222');
+	background: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#992222));
+	background: -moz-linear-gradient(top,  #cc0000,  #992222);
+}
+
+.blue th {
+	background-color: #000066;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222299', endColorstr='#000066');
+	background: -webkit-gradient(linear, left top, left bottom, from(#222299), to(#000066));
+	background: -moz-linear-gradient(top,  #222299,  #000066);
+}
+
+.red tr:hover {
+	background-color: #ef9a9a;
+}
+.blue tr:hover {
+	background-color: #bbdefb;
+}
+
+.centered {
+	text-align: center;
+}
+
+.row {
+	background-color: white;
+	padding-right: 1em;
+}
+
+.rowitem {
+	margin: 2em 0 0 2em;
+}
+
+.map {
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+.tablediv {
+	background-color: #ffffff;
+}
+
+.tablediv td  {
+	padding-left: 1em;
+}
+
+.tablediv th {
+	padding-left: 1em;
+}
+
+.tableimg {
+	display: none;
+	vertical-align:middle;
+	float: right;
+}
+
+.hilite {
+	color: #cc0000;
+}
+
+main {
+	display: block;
+	padding: 0.5em;
+}
+
+h1, h2, h3 {
+    font-family: "Franklin Gothic Medium", Geneva, Tahoma, sans-serif;
+    text-align: left;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.8em;
+	margin: 0.47em 0;
+}
+
+h3 {
+	font-size: 1.6em;
+	margin: 0.27em 0;
+}
+
+a {
+	background-color: transparent;
+	color: #0000cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000066;
+}
+
+.name {
+	color: #000066;
+}
+
+a.name:hover {
+	color: #0000cc;
+}
+
+img {
+	border-style: none;
+}
+
+code {
+	font-size: 1.1em;
+	background-color: #efefef;
+}
+
+@media screen and (min-width: 600px) {
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	#sitenav {
+		line-height: 2em;
+	}
+
+	.tablediv th {
+		padding-left: 0.2em;
+	}
+
+	.tablediv td {
+		padding-left: 0.2em;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+    #masthead img {
+        width: auto;
+    }
+
+	#sidebar {
+		margin: 1em;
+		min-width: 35%;
+	}
+
+	#container {
+		display: flex;
+		justify-content: center;
+		border: 1px solid #000066;
+	}
+
+	#twitter {
+		display: block;
+		margin: 3em;
+		border: 1px solid #000066;
+		min-width: 40%;
+	}
+
+	.tablediv {
+		display: flex;
+		justify-content: center;
+	}
+
+	.tableimg {
+		display: block;
+	}
+
+    main {
+		padding: 1em 2em;
+		width: 100%;
+    }
+}
+
+@media screen and (min-width: 1768px) {
+
+    #sitefoot {
+        padding: 0;
+    }
+}

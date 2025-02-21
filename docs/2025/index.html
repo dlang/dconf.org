@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="DConf '25">
+<meta property="og:description" content="DConf '25 is happening in London, August 19-22, 2025. We invite you to join us for four days of education, knowledge sharing, collaboration, and fun.">
+<meta property="og:url" content="https://dconf.org/2025/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://dconf.org/2025/images/logo-og.jpg">
+<meta property="og:image:type" content="image/jpeg" >
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="1500">
+<link href="./includes/w3.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/x-icon" href="/favicon.png">
+<style>
+    body {
+        height: 100%;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 1.2em;
+        font-weight: 450;
+        color: darkslategray;
+        background-color: #fff;
+    }
+    article {
+        max-width: 700px;
+        margin-bottom: 32px;
+        padding: 10px;
+    }
+    h1, h2 {
+        margin-left: -16px;
+        margin-right: -16px;
+        font-weight: bold;
+        color: #000;
+    }
+    h1 {
+        margin-top: -16px;
+        text-align: center;
+        padding-top: 16px;
+    }
+    h2 {
+        padding: 16px;
+    }
+    input {
+        margin-bottom: 8px;
+    }
+    strong {
+        color: #000;
+    }
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+    a:visited {
+        color: blueviolet;
+    }
+    a:visited:hover, a:hover {
+        color: orangered;
+    }
+    #map {
+        width: 100%;
+        height: 450px;
+    }
+    #menu {
+        font-size: 1.1em;
+    }
+    #menu a, #menu a:visited, #menu a:visited:hover, #menu a:hover {
+        color: #000;
+    }
+    .quote {
+        font-style: italic;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+    }
+    .quote p {
+        display: inline;
+    }
+   figcaption, blockquote {
+        margin: 1em;
+    }
+    .scard {
+        padding: 32px;
+    }
+    @media screen and (max-width: 599px) {
+        body {
+            font-size: 0.9em;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .talktitle {
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      } 
+    }
+</style>
+<title>The D Programming Language Conference 2025</title>
+</head>
+
+<body class="w3-justify">
+    <div class="w3-card-2" id="menu">
+        <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SUBMISSIONS</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">VENUE</a>
+            <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SPONSORS</a>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+                <span class="w3-button w3-block">2013&ndash;2024</span>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="https://dconf.org/2024/" class="w3-bar-item w3-btn">2024</a>
+                    <a href="https://dconf.org/2023/" class="w3-bar-item w3-btn">2023</a>
+                    <a href="https://dconf.org/2022/" class="w3-bar-item w3-btn">2022</a>
+                    <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
+                    <a href="https://dconf.org/2018/" class="w3-bar-item w3-btn">2018</a>
+                    <a href="https://dconf.org/2017/" class="w3-bar-item w3-btn">2017</a>
+                    <a href="https://dconf.org/2016/" class="w3-bar-item w3-btn">2016</a>
+                    <a href="https://dconf.org/2015/" class="w3-bar-item w3-btn">2015</a>
+                    <a href="https://dconf.org/2014/" class="w3-bar-item w3-btn">2014</a>
+                    <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+                <span class="w3-button w3-block">DCONF ONLINE</span>
+                <div class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="https://dconf.org/2024/online/" class="w3-bar-item w3-btn">2024</a>
+                    <a href="https://dconf.org/2022/online/" class="w3-bar-item w3-btn">2022</a>
+                    <a href="https://dconf.org/2021/online/" class="w3-bar-item w3-btn">2021</a>
+                    <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn">2020</a>
+                </div>
+            </div>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">DLANG.ORG</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-right w3-hide-large w3-hide" onclick="hamburger()">&#9776;</a>
+        </div>
+        <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
+            <a href="#venue" class="w3-bar-item w3-btn w3-block">VENUE</a>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
+        </div>
+    </div>
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding">
+            <img width=512 src="./images/logo-512.svg" class="w3-hide-small">
+            <img width=256 src="./images/logo-512.svg" class="w3-hide-large w3-hide-medium">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container w3-margin-top" id="about">
+        <article class="w3-content">
+            <h1>August 19&ndash;22, 2025</h1>
+            <p>
+                <a href="https://symmetryinvestments.com/">Symmetry Investments</a> and the <a href="https://dlang.org">D Language Foundation</a> invite you to join us August 19&ndash;22 in London for the <strong>D Programming Language Conference 2025</strong>. We&#8217;re happy to be working once more with <a href="https://brightspaceevents.co.uk">our friends at Brightspace Events</a> and <a href="https://www.codenode.live">CodeNode</a> to bring you another four days of fun, insightful conversations, and educational talks.
+            </p>
+            <p>
+                Since 2013, DConf has been the annual event bringing together D programming language enthusiasts and experts from across the globe for the rare opportunity to mingle offline in the real world. We enjoy interacting with each other online, but there's no substitute for the chance to share ideas face-to-face between conference talks, over dinner, or in a local pub.
+            </p>
+            <p>
+                Whether you&#8217;re a seasoned DConf veteran or joining us for the first time, we can&#8217;t wait to welcome you to London! 
+            </p>
+            <figure>
+                <img src="./images/dconf24-grp.jpg" alt="DConf '24 Group Photo" class="w3-image">
+                <figcaption class="w3-center">Group photo from DConf &#8217;24</figcaption>
+            </figure>
+            <div class="w3-card-2 w3-padding">
+                <p>
+                    <strong>IMPORTANT</strong>: As of January 8, 2025, visitors to the UK from visa-exempt, non-European countries must apply for an Electronic Travel Authorization (ETA). This is required to enter the country. The application costs £10. A web search will result in several sites offering application services, but <strong>please do not use them</strong>. They will charge you an additional fee. Please visit <a href="https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta">the UK government's ETA Guidance page</a> for instructions on how to apply
+                </p>
+            </div>
+        </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container w3-margin-top" id="schedule">
+        <article class="w3-content">
+            <h1>Call for Submissions</h1>
+            <figure class="quote">
+                <blockquote>Coming up with an idea for a talk is as simple as the way you use D. Just look at your code, and it makes a presentation...</blockquote>
+                <figcaption>&mdash; Ali Çehreli, DConf Online 2020</figcaption>
+             </figure>
+            <p>
+                We are currently accepting submissions for DConf &#8217;25. If you have an idea for a talk, demo, or panel, don&#8217;t hesitate to submit it! We&#8217;re interested in anything and everything related to the D programming language. We will review all submissions submitted by May 4 AOE.</p>
+            <p>
+                Never presented at a conference? Don&#8217;t let that stop you! Several D community members have given their first conference talks at DConf. Our community is always welcoming and ready to make you feel at home.
+            </p>
+            <p>
+                Not sure what to talk about? As Ali pointed out in <a href="https://youtu.be/E-78QqeDfI8?t=30">one of his DConf Online 2020 Q&amp;A sessions</a>, if you&#8217;re using D now, you probably already have material for a potential talk.
+            </p>
+            <p>
+                If you need inspiration, visit <a href="https://dconf.org/2024/index.html#schedule">the DConf &#8217;24 Schedule</a> to see what sort of talks were presented, then follow the links in the menu bar to past conferences for more. Any topic related to D is a potential talk, such as:
+            </p>
+            <ul>
+                <li><strong>Language techniques</strong> enabled by the D programming language</li>
+                <li><strong>Tools and techniques</strong> for maximizing productivity when working in D</li>
+                <li><strong>Experience reports</strong> on using D in the real world, professionally or as a hobby</li>
+                <li><strong>Under the hood</strong> looks at compiler and standard library implementation artifacts</li>
+                <li><strong>Hot topics</strong> such as safe deterministic memory management, migrating from other languages, or community engagement</li>
+                <li><strong>Deep dives</strong> into D projects, their APIs, architecture, and implementation details</li>
+                <li><strong>Research reports</strong> by students doing research on or using the D language</li>
+            </ul>
+            <p>
+                Don't feel constrained in topic or format. Follow your inspiration where it leads and tell us about it!
+            </p>
+            <h2>Selection Criteria</h2>
+            <p>
+                Talks should be no longer than 40 minutes and no shorter than 25 minutes. Additionally, we will evaluate submissions according to the following criteria:
+            </p>
+            <ul>
+                <li><strong>Relevance:</strong> Is the topic interesting to DConf attendees? Will coverage be beneficial? Is it building on tried and true ideas, or blazing new trails?</li>
+                <li><strong>Coverage:</strong> Does the proposal cover the topic in depth? What are the main insights dispensed by the submission?</li>
+                <li><strong>Organization:</strong> Is the submission well organized? Will the audience tune into the narrative?</li>
+                <li><strong>Novelty and Originality:</strong> How new and noteworthy is the material? Previously published material is acceptable provided it hasn&#8217;t yet
+                reached a wide audience within the D community.</li>
+                <li><strong>Bottom Line:</strong> What&#8217;s your session&#8217;s takeaway? How is it going to improve the attendees&#8217; knowledge, outlook, and inspiration?</li>
+            </ul>
+            <h2>Submission Guidelines</h2>
+            <p>
+                We expect submissions in either plain text or Markdown. Please do not send PDF, DOCX, etc. All submissions should be directed to
+                <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a>
+                and should include:
+            </p>
+            <ol>
+                <li><strong>Title</strong></li>
+                <li><strong>Kind</strong> (e.g., talk, panel, contest)</li>
+                <li><strong>Duration</strong> (25&ndash;40 minutes)</li>
+                <li><strong>Target Audience</strong> (e.g., beginner, intermediate, advanced)</li>
+                <li><strong>Abstract:</strong> the "elevator pitch" of the talk, in one paragraph</li>
+                <li><strong>Extended Description:</strong> an extended abstract including any details you believe are relevant for evaluating the submission</li>
+                <li><strong>Brief Speaker Biography:</strong> including a summary of the speaker&#8217;s expertise relative to the talk topic</li>
+            </ol>
+            <p>We can&#8217;t wait to see what you send us!</p>
+        </article>
+    </div>
+
+    <!-- Venue Container -->
+    <div class="w3-container w3-margin-top" id="venue">
+        <article class="w3-content">
+            <h1>Venue</h1>
+            <p>
+                <a href="https://www.codenode.live/">Our DConf &#8217;25 venue is CodeNode</a>, a space in Central London specifically designed for tech conferences. It&#8217;s conveniently located close between Moorgate and Liverpool Street stations and is a 10&ndash;15 minute walk from Old Street Station to the north.
+            </p>
+                <div class="w3-center">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.703584548956!2d-0.08842978419804387!3d51.51865387963698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cac4424aedb%3A0x77281b9991b7874!2s10%20South%20Pl%2C%20London%20EC2M%207EB%2C%20UK!5e0!3m2!1sen!2skr!4v1648216561193!5m2!1sen!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            <p>
+                Our presentations will happen on the ground floor in the CTRL room, and we&#8217;ll have the entirety of the ESC area downstairs to ourselves, where attendees can relax, chat, or play table tennis or foosball between talks.
+            </p>
+            <h2 id="hotels">Accommodations</h2>
+            <p>
+                We advise you to book a hotel room early, as rates tend to go up the closer to your travel dates. If you want to attend but aren't yet certain you'll be able to, consider booking an option that allows refundable cancelation. That's usually more expensive, but better than giving up a refund if you can't make it.
+            </p>
+            <p>
+                There are several budget hotels in easy walking distance. The following are some options that, according to Google Maps, are less than a 20-minute walk from the venue. Some of them are near an underground station that is one stop away from Moorgate or Liverpool Street stations. Click a link to see the walking route(s) between a hotel and the venue. On the map, you&#8217;ll find links to reserve a room. Note that most attendees generally stay at the Travelodge London Central City Road.
+            </p>
+            <ul>
+                <li><a href="https://goo.gl/maps/uh9V2VLj9f7fdAX88">Point A Hotel London - Shoreditch</a>: 5 minutes</li>
+                <li><a href="https://goo.gl/maps/MdtDYXmt8GSLFYmm6">Travelodge London Central City Road</a>: 6 minutes </li>
+                <li><a href="https://goo.gl/maps/CsLARVpQiK7MoUTP6">Travelodge London Central Liverpool Street</a>: 9 minutes</li>
+                <li><a href="https://goo.gl/maps/LN22z3fk8FUwRH6X6">Point A Hotel London - Liverpool Street</a>: 11 minutes</li>
+                <li><a href="https://goo.gl/maps/7L7igViopVSRy1J89">Travelodge London Central Bank</a>: 13 minutes</li>
+                <li><a href="https://goo.gl/maps/URAc4A2NCuVzWVT66">Travelodge London City</a>: 13 minutes</li>
+                <li><a href="https://goo.gl/maps/QBzDMkVeS4tSvJBz5">easyHotel London City Shoreditch</a>: 14 minutes</li>
+                <li><a href="https://goo.gl/maps/g3p54HHfiaHou41B9">Hotel Motel One London Tower Hill</a>: 15 minutes</li>
+                <li><a href="https://goo.gl/maps/kCSQXFeYkNjrWFaa7">hub by Premier Inn London Shoreditch</a>: 15 minutes</li>
+                <li><a href="https://goo.gl/maps/misZc78nmDZZggu26">The Z Hotel Shoreditch</a>: 16 minutes</li>
+                <li><a href="https://goo.gl/maps/qiDomcNAPLqQpXcp8">Premier Inn London City (Old Street)</a>: 17 minutes</li>
+                <li><a href="https://goo.gl/maps/PLQgPdPCAX6MyQ1b6">hub by Premier Inn London Spitalfields</a>: 17 minutes</li>
+                <li><a href="https://goo.gl/maps/3h2g7SKUA7UY1wGm8">Premier Inn London Bank (Tower)</a>: 19 minutes</li>
+            </ul>
+            <h2 id="beerconf">BeerConf</h2>
+            <p>Every evening during the first three nights of DConf means only one thing: BeerConf! <a href="https://wiki.dlang.org/Beerconf">Ethan Watson coined the term in 2016</a> for our evening gatherings in a designated spot at every DConf. We've sometimes been able to hire pub space for BeerConf and sometimes have had to gather at a local hotel.</p>
+            <p>As of now, all three nights of BeerConf for DConf &#8217;25 are to be located at the Travelodge Central City Road a short walk north of the venue. If we are able to obtain funding to hire space at a pub, we'll post an announcement in the D Forums and update this page.</p>
+        </article>
+    </div>
+
+    <!-- Sponsors Container -->
+    <div class="w3-container w3-margin-top" id="sponsors">
+        <article class="w3-content">
+            <h1>Sponsors</h1>
+            <div class="scard w3-card" id="symmetry">
+                <div class="w3-center">
+                    <a href="https://symmetryinvestments.com/"><img class="w3-hide-small" width=512 src="../2024/images/symmetry.svg" alt="Symmetry Investments">
+                        <img class="w3-hide-large w3-hide-medium" width=256 src="../2024/images/symmetry.svg" alt="Symmetry Investments"></a>
+                </div>
+                <p>
+                    DConf &#8217;25 is hosted by <a href="https://symmetryinvestments.com/">our friends at Symmetry Investments</a>. With offices in Hong Kong, Singapore, London, Jersey, and the Cayman Islands, Symmetry employs D in their investment management mission. This is the fifth time they&#8217;ve sponsored DConf, and we are thankful for their continued support. They are also the sponsors of the <a href="https://saoc.io/">Symmetry Autumn of Code</a>, an annual event that, since 2018, has provided experience to emerging programmers while enhancing the D ecosystem. We couldn&#8217;t be more excited to bring DConf to London once again with Symmetry&#8217;s support.
+                </p>
+            </div>
+<!--
+            <div class="w3-center w3-padding-64" id="weka">
+                <a href="https://www.weka.io"><img src="images/weka.png" alt="WEKA" class="w3-image"></a>
+            </div>
+            <p>
+                DConf &#8217;25 is supported by <a href="https://www.weka.io">our friends at WEKA</a>. WEKA is a fast-growing company that is building a cloud and AI-native data platform that helps to solve complex data challenges for the world&#8217;s leading enterprises and preeminent research organizations. WEKA is a great place to work for developers looking to sharpen their D coding skills and work on really interesting use cases.
+            </p>
+            
+            <div class="w3-center w3-padding-64" id="decard">
+                <a href="https://decard.io"><img src="images/decard.png" alt="Decard" class="w3-image"></a>
+            </div>
+            <p>
+                Additional funding for DConf &#8217;25 has been provided by <a href="https://decard.io">our friends at Decard</a>. Decard harnesses the power of decentralization, security, and scalability to build robust, asset agnostic financial products and services. Co-founder and CEO Theis Simonsen says, &#8220;D is not just a programming language; it is a development shift towards efficiency, safety, and expressiveness without forcing specific programming paradigms.&#8221;
+            </p>
+    -->
+        </article>
+    </div>
+
+    <div class="w3-container w3-center w3-small w3-padding-64" id="footer">
+        &copy; 2025 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+<script>
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+  function openTalkDetails(name) {
+    var x = document.getElementById(name);
+    var p = document.getElementById(name + "Show");
+    if(x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+      p.innerHTML= "[Hide Details]";
+    }
+    else {
+      x.className = x.className.replace(" w3-show", "");
+      p.innerHTML = "[Show Details]";
+    }
+  }
+</script>
+</body>
+</html>

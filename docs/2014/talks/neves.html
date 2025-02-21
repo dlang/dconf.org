@@ -1,0 +1,117 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+
+<link href="../images/favicon.ico" rel="shortcut icon" />
+<title >DConf 2014 speaker: Atila Neves</title>
+</head>
+<body>
+
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="logo">  <a href="../index.html"><img src="../images/dlogo.png" height="100" alt="DConf 2014" border="0" /></a>
+</div><!-- end <div class="logo"> -->
+
+<div class="menu row_after">  <nav >    <ul id="menu">      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../registration.html">Registration</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact Us</a></li>
+      <li><a href="../../2013">DConf 2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+  <div class="page_left equal hyphenate">
+  <h1 align=left>Case Studies In Simplifying Code With Compile-Time Reflection</h1>
+  <div class="inline vmid">    <img class="stroke" src="https://avatars.githubusercontent.com/u/4956425" height="170" alt="" />
+    <div ><p><b><a href="https://github.com/atilaneves">Atila Neves</a><br />
+      May 21st @ 3:30 PM</b><br><br><i>Duration:</i> 50 minutes<br />
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Intermediate, Advanced<br />
+      <b></b>
+      <b>Video:&nbsp;<A href="https://youtu.be/gFAyv-O8Mw0">[youtube]</A>&nbsp;<A href="https://archive.org/details/dconf2014-day-01-talk06">[alternative]</A><br /></b>
+      <!--a href="#">Powerpoint slides</a--></p>
+    </div><!-- end <div > -->
+  </div><!-- end <div class="inline vmid"> -->
+  <p><b><u>Abstract:</u>&nbsp;</b>
+This talk will show how the power of compile-time reflection and user
+defined attributes in D can be leveraged to reduce the number of lines of code
+that need to be written. Two real-life case studies will be presented showing
+how their D incarnations are better than the C++11 ones that inspired them.</p>
+  <p><b><u>Benefits:</u> </b>
+<p>The talk will show how the D versions of two C++11 libraries written by the
+author require less boilerplate code to be written with the use of compile-time
+reflection whislt offering equivalent or better functionality. One is a unit
+testing framework designed from the start to run tests in parallel for maximum
+speed and decoupling, the other a serialisation library that requires user code
+to be written only once for both marshalling and unmarshalling.</p>
+
+<p>For unit-testing, C++ requires macros for assertions, for registering tests, and
+that each test be a child of a TestCase class. The D version not only dispenses
+with registration but also with the requirement of participating in the TestCase
+hierarchy by allowing the registration of functions. User defined attributes can
+be used to tweak the default behaviour.</p>
+
+<p>In the case of serialisation, C++ requires that code be written for every non-
+primitive type. D allows the compiler to write the code for the library user and
+makes it easier, also via user defined attributes, to customise the behaviour
+for certain use cases. In most cases no code need be written at all. The talk
+will show examples taken from an MQTT broker written in D, and how it is smaller
+than the C++ version.</p>
+
+<p>The proposed talk aims to showcase how to write code to make use of D’s compile-
+time reflection, why one would want to write such code, and how it was used in a
+real project to reduce boilerplate. D’s metaprogramming capabilities are an
+advanced topic with few practical examples and it would be helpful to make them
+known to D novices or programmers currently considering learning the language.</p></p>
+  <!--p><b><u>Notes:</u> </b> </p-->
+  <p><b><u>Speaker Bio:</u> </b> 
+I have a PhD in Particle Physics for research done at CERN. Most of the research itself required programming in C++, and I also had a major participation in the coding of the experiment’s data acquisition and decoding software in C and C++. I later joined the Computer Security Team at CERN in the IT department and spent two years there writing Perl.
+
+<p>I currently work at Cisco writing networking software, my job having re- quired me to write in C, C++, Perl, Python, Java and Ruby. I even wrote a small D wrapper for our C API for fun.</p>
+
+<p>The software I wrote and will cover in the talk stems from the work done at my job at Cisco. Both software libraries were written as a better alternative inspired by the code used at work for writing unit tests and serialising network protocol packets. I first wrote them in C++ and after learning D soon realised that both of them would work better in D due to D’s unique capabilities.</p>
+
+<p>The result of this work was a comparison of MQTT broker implementations in different languages, D being one of them, that ended up generating a lot of discussion on Hacker News and programming subreddit.</p></p></div><!-- end <div class="page_left equal hyphenate"> -->
+  
+<div class="page_right equal">  <div class="sponsors">    <span class="sp">Keynote Speakers</span><br />
+      <table ><tr >      <td ><a href="../talks/alexandrescu.html">      <img src="../images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" /></a></td>
+      <td ><a href="../talks/meyers.html">      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" /></a></td>
+      <td ><a href="../talks/bright.html">      <img src="../images/bright_134.jpg" width="75" alt="Walter Bright" border="0" /></a></td></tr>
+      <tr align=center><td >Alexandrescu</td> <td >Meyers</td> <td >Bright</td></tr>
+      </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Sponsors</span><br />
+      <a href="http://www.drdobbs.com">
+      <img src="../images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<hr />
+<div align="right">  <font size="-2">    &copy; 2014 http://digitalmars.com |
+    Generated with Ddoc
+  </font>
+</div><!-- end <div align="right"> -->
+</body>
+</html>

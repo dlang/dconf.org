@@ -1,0 +1,112 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+<link href="../../2015/images/favicon.ico" rel="shortcut icon" />
+<title >DConf 2017 speaker: Stefan Koch</title>
+</head>
+<body>
+
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="menu_container"><div class="menu row_after">  <nav >    <ul id="menu">      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule">Schedule</a></li>
+      <li><a href="../speakers">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2016">2016</a></li>
+      <li><a href="../../2015">2015</a></li>
+      <li><a href="../../2014">2014</a></li>
+      <li><a href="../../2013">2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+</div><!-- end <div class="menu_container"> -->
+  <div class="page_left equal hyphenate">
+  <h1 align=left>A Look Into the New CTFE Engine</h1>
+  <div class="inline vmid">    <img class="stroke" src="https://avatars2.githubusercontent.com/u/2844936?v=3&s=460" height="170" alt="" />
+    <div ><p><b><a href="https://github.com/UplinkCoder">Stefan Koch</a><br />
+      May 4 @ 15:30</b><br><br><i>Duration:</i> 50 minutes<br />
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Intermediate<br />
+      
+      <i>Slides:</i> <b><a href="../talks/koch.odp">ODP</a></b><br />
+      <b><A href="https://youtu.be/jNos-Va01wA">Video</A><br /></b>
+      <!--a href="#">Powerpoint slides</a--></p>
+    </div><!-- end <div > -->
+  </div><!-- end <div class="inline vmid"> -->
+  <p><b><u>Abstract:</u>&nbsp;</b>
+<p>Two parts: The first is me talking about my experience,
+writing the engine. The second goes into deeper technical
+detail explaining the trade-offs, and design decisions.</p>
+
+<ul><li>What is CTFE and what can it be used for?</li>
+<li>Examples std.regex and sqlite-d.</li>
+<li>Show how the utility of ctfe is not just in the big things but
+the simple convenience of assigning cos(viewAngle) to a
+static immutable variable.</li>
+<li>Example: the newCTFE-Engine is ctfeable itself so the
+compiler itself will not compile if the bytecode-tests fail.</li>
+<li>Discussion of the old Engine, pointing out why it is
+suboptimal.</li>
+<li>Exposition of different interpretation models:
+<ul><li>AST-Interpreter.</li>
+<li>ByteCode-Interpreter (and its extension to JIT).</li></ul>
+</li>
+<li>Overview: of the newCTFE Codegen-API
+Explanation of rationale; Backends are pluggable via a
+template parameter.
+Showing 2 back-ends
+BC-Interpreter
+DebugPrinter-Backend.</li>
+<li>Explaining the design of the BC-Interpreter
+Showing the 10x performance improvements as a live demo.</li>
+<li>Explanation of the intricacies of Code-Generation.
+“2 Months of Development. 6 Months of Debugging”.</li>
+<li>Status of what the engine can currently compile.</li>
+<li>Future outlook and showing the 50x Improvement using
+pseudo-JIT.</li>
+<li>Acknowledgements.</li>
+</ul></p>
+  <!--p><b><u>Notes:</u> </b> </p-->
+  <p><b><u>Speaker Bio:</u> </b> 
+<ul><li>25 Years old.</li>
+<li>Programing since the age of 7.</li>
+<li>Begun using D in 2013 while working on the SDC-Compiler.</li>
+<li>Wrote a CTFE reader for Sqlite3-Databases in 2015.</li>
+<li>Working on the new CTFE-Engine and other DMD
+improvements since July 2016.</li>
+</ul></p></div><!-- end <div class="page_left equal hyphenate"> -->
+  
+<div class="page_right equal">  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Partner</span><br />
+      <table ><tr >      <td ><a href="http://sociomantic.com">      <img src="http://www.offremedia.com/sites/default/files/styles/270x170_echelle/public/logo_org_21466.png?itok=moLeleXt" width="100%" alt="Sociomantic" border="0" /></a></td></tr>
+    </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+  <div class="sponsors">   
+  </div><!-- end <div class="sponsors"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<div class="footer">    &copy; 2017 <a href="https://dlang.org/foundation.html">The D Language Foundation</a> |
+    Generated with Ddoc
+</div><!-- end <div class="footer"> -->
+</body>
+</html>
