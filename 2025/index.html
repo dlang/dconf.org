@@ -57,6 +57,9 @@
     a:visited:hover, a:hover {
         color: orangered;
     }
+    input[type=text] {
+        border: solid black 1px;
+    }
     #map {
         width: 100%;
         height: 450px;
@@ -76,11 +79,20 @@
     .quote p {
         display: inline;
     }
-   figcaption, blockquote {
+    figcaption, blockquote {
         margin: 1em;
     }
     .scard {
         padding: 32px;
+    }
+    .reg {        
+        margin: 16px;
+        background-color: inherit;
+        border: 2px solid #007acc;
+    }
+    .reg span {
+        border-bottom: 1px solid hsla(225, 15%, 14%, 0.82);
+        font-weight: bold;
     }
     @media screen and (max-width: 599px) {
         body {
@@ -116,6 +128,7 @@
         <div class="w3-bar">
             <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
             <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">REGISTRATION</a>
             <a href="#venue" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">VENUE</a>
             <a href="#sponsors" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SPONSORS</a>
             <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
@@ -147,6 +160,7 @@
         </div>
         <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
             <a href="#schedule" class="w3-bar-item w3-btn w3-block">SUBMISSIONS</a>
+            <a href="#register" class="w3-bar-item w3-btn w3-block">REGISTRATION</a>
             <a href="#venue" class="w3-bar-item w3-btn w3-block">VENUE</a>
             <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
         </div>
@@ -242,6 +256,66 @@
                 <li><strong>Brief Speaker Biography:</strong> including a summary of the speaker&#8217;s expertise relative to the talk topic</li>
             </ol>
             <p>We can&#8217;t wait to see what you send us!</p>
+        </article>
+    </div>
+
+    <!-- Registration Container -->
+    <div class="w3-container w3-margin-top" id="register">
+        <article class="w3-content w3-card-2">
+            <h1>Registration</h1>
+            <p>
+                GBP rates are based on the <a href="https://www.trade-tariff.service.gov.uk/exchange_rates?_ga=2.151572601.1999754293.1711386624-1720286691.1711386624">HMRC Exchange Rate for the current month.</a> Note that this rate is static for the month and will most likely differ from the rate used by PayPal or your credit card company. You may find the USD PayPal link to result in a lower or higher charge on your GBP credit card than the GBP link.</p>
+            <p>A 20% VAT is added to the base registration rates.</p>
+            <div class="reg w3-padding w3-card">
+                <p><span>General Registration Base Rate: $300 (£231.16)</span></p>
+                <p>
+                    At a base rate of $300, the total with 20% VAT is $360 (£277.39). General Registration closes at 11:59 UTC on August 18. From August 19, the first day of the conference, registration will be possible only on site.
+                </p>
+            </div>
+            <div class="reg w3-padding w3-card">
+                <p><span>Student Registration Base Rate: $100 (£77.05)</span></p>
+                <p>                    
+                    The student rate is a fixed $100 + 20% VAT, or $120 (£92.46) until General Registration closes. If you qualify, please contact <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> for details on how to take advantage of this discounted rate.
+                </p>
+            </div>
+            <div class="reg w3-padding w3-card">
+                <p><span>Hardship Rate</span></p>
+                <p>                    
+                    If you would like to attend DConf but cannot afford any of the above rates, we are willing to offer you a special hardship rate. This is only a discount on registration. We cannot assist you with transportation or lodging. Please contact <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> to explain your situation, and we&#8217;ll provide you with more details.
+                </p>
+            </div>
+            <div class="w3-card w3-padding w3-center">
+                <div class="w3-container"><h2>Register USD: $300 + 20% VAT ($360)</h2></div>
+                <form class="w3-container" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="R48JWZE6YE68N" />
+                    <input type="hidden" name="on0" value="Tell of your special dietary requirements, if any:"/>
+                    <label>Tell of your special dietary requirements, if any:</label>
+                    <input type="text" class="w3-input" name="os0" maxLength="200" />
+                    <input type="hidden" name="on1" value="Tell us a handle/nickname, if any, to include on your nametag:"/>
+                    <label>Tell us a handle/nickname, if any, to include on your nametag:</label>
+                    <input type="text" class="w3-input" name="os1" maxLength="200" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                </form>
+
+                <div class="w3-container"><h2>Register GBP: £231.16 + 20% VAT (£277.39)</h2></div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="NXB89CVNCFRHN" />
+                    <input type="hidden" name="on0" value="Tell us of any special dietary requirements you have:"/>
+                    <label>Tell of your special dietary requirements, if any:</label>
+                    <input type="text" class="w3-input" name="os0" maxLength="200" />
+                    <input type="hidden" name="on1" value="Tell us a nickname, if any, to include on your nametag:"/>
+                    <label>Tell us a handle/nickname, if any, to include on your nametag:</label>
+                    <input type="text" class="w3-input" name="os1" maxLength="200" />
+                    <input type="hidden" name="currency_code" value="GBP" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                  </form>
+            </div>
+            <p style="font-size:smaller;">
+                <em>Please be aware that by attending the conference, you acknowledge that you are responsible for any property that you bring to the venue and that neither the D Language Foundation nor its sponsors can assume any responsibility for damaged, stolen or lost property belonging to the attendees.</em>
+            </p>
         </article>
     </div>
 
