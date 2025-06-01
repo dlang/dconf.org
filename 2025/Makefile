@@ -9,7 +9,7 @@ TMP = .tmp
 
 TO_COPY =  \
 	includes/ $(wildcard includes/*) \
-	images/ $(wildcard images/*.png images/*.svg images/*.jpg) \
+	images/ $(wildcard images/*.png images/*.svg images/*.jpg images/*.webp) \
 	$(wildcard ./*.html)
 
 SITE_FILES = $(addprefix $(OUT)/, $(TO_COPY))
@@ -47,6 +47,9 @@ $(OUT)/%.svg : %.svg
 	cp $^ $@
 
 $(OUT)/%.jpg : %.jpg
+	cp $^ $@
+
+$(OUT)/%.webp : %.webp
 	cp $^ $@
 
 $(OUT)/%.d : %.d
