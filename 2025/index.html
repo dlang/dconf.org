@@ -322,7 +322,7 @@
                             <div class="talktitle w3-card-4">
                                 <img class="speakerIMG w3-image" src="../2022/images/shah.jpg">
                                 <div class="talkmeta">
-                                    Audience: All<br>≈
+                                    Audience: All<br>
                                     Duration: 40 Minutes<br>
                                     <div class="talklinks">
                                         <a href="./slides/shah.pdf">Slides (PDF)</a>
@@ -380,6 +380,9 @@
                                 <div class="talkmeta">
                                     Audience: All<br>
                                     Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/korpel.pdf">Slides (PDF)</a>
+                                    </div>
                                 </div>
                                 <p>There&#8217;s no shortage of enhancement requests and DIPs, but most of them don&#8217;t get realized. Walter Bright jokingly calls himself &#8216;Dr. No&#8217; because he has to say &#8216;no&#8217; to so many proposals. This is not a way to make friends. Why can&#8217;t he be &#8216;Yes Man&#8217; instead and live happily ever after?</p>
                                 <p>As someone who has been using D and working on DMD for quite some time now, Dennis finds himself arguing against new features more and more as well. To explain this perspective, he&#8217;ll talk about technical debt in the compiler using examples of actual bugs he has fixed, and show you first hand why that small feature we can easily add is actually a huge maintenance burden.</p>
@@ -441,6 +444,9 @@
                                 <div class="talkmeta">
                                     Audience: All<br>
                                     Duration: 40 minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/lotem.pdf">Slides (PDF)</a>
+                                    </div>
                                 </div>
                                 <p>Weka has been successfully using D for over a decade to drive innovation in a demanding, high-performance environment. In this talk, Eyal will share some of the unique and interesting ways D has been used at Weka, and how it continues to deliver real value in production.</p>
                             </div>
@@ -474,6 +480,9 @@
                                 <div class="talkmeta">
                                     Audience: All<br>
                                     Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/ben-david.pdf">Slides (PDF)</a>
+                                    </div>
                                 </div>
                                 <p>TBA</p>
                             </div>
@@ -493,6 +502,7 @@
                                     Audience: All<br>
                                     Duration: 40 Minutes<br>
                                     <div class="talklinks">
+                                        <a href="./slides/wilson.pptx">Slides (PPTX)</a>
                                     </div>
                                 </div>
                                 <p>At DConf &#8217;24 we introduced our vision for Phobos 3. Since then, we&#8217;ve been quietly working on the modules that will form the foundation of Phobos 3 and preparing to increase the scope and pace of development. But did you know that there are Phobos 3 modules you can use today? Perhaps you&#8217;re wondering where are we on Ranges. And the question that is on everybody&#8217;s mind: How are we going to handle <code>@nogc</code> and <code>nothrow</code>? This has been one of the most hotly debated topics in the community, so this talk will dive into our plan to address this vexing question.</p>
@@ -555,6 +565,10 @@
                                 <div class="talkmeta">
                                     Audience: Intermediate/Advanced<br>
                                     Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/gehr.pdf">Slides (PDF)</a>
+                                        <a href="./slides/gehr-src.zip">Code (ZIP)</a>
+                                    </div>
                                 </div>
                                 <p>This talk is a deep dive into D&#8217;s compile-time introspection capabilities and limitations. Timon will also give an experience report of his (by now, decade-old) foray into attempting to improve the situation in his experimental custom compiler front end for D.</p>
                             </div>
@@ -622,6 +636,9 @@
                                 <div class="talkmeta">
                                     Audience: All<br>
                                     Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/neves.pdf">Slides (PDF)</a>
+                                    </div>
                                 </div>
                                 <p>D is frequently praised for how easy its templates are to use, and how one does not need to be an expert in order to use them. However, even in D, metaprogramming is harder than regular programming and could be considered a different language altogether. This talk will delve into the differences between the two styles and how exactly metaprogramming is harder, and use a reflection library for D as a case study of how replacing templates with string mixins can lead to simpler, more readable code.</p>
                             </div>
@@ -659,7 +676,10 @@
                                 </div>
                                 <div class="talkmeta">
                                     Audience: Intermediate/Advanced<br>
-                                    Duration: 30 Minutes<br>
+                                    Duration: 30 Minutes<br>                                        
+                                    <div class="talklinks">
+                                        <a href="./slides/jones.pdf">Slides (PDF)</a>
+                                    </div>
                                 </div>
                                 <p>Declarative programming is a powerful paradigm for writing succinct and &#8216;correct by inspection&#8217; code. By delegating the &#8216;how&#8217; to a library implementation, programmers only need to specify &#8216;what&#8217; they want accomplished. Ben will share two projects where he has used this approach for working with complex data formats: the first a parser/editor for the .mov multimedia container format, the second a PEG-inspired recursive descent parser generator.</p>
                                 <p>The .mov file format is a binary format for multimedia files. Since it uses big endian encoding of integers and can contain variably sized arrays, it is not amenable to a simple &#8216;mmap and cast&#8217; approach to decoding. The format consists of many different atom types which can contain primitives, arrays, or other atoms. With <code>opDispatch</code> and a little bit of metaprogramming, atoms can be described as normal D structs whose contents are basically copied verbatim from the format spec.  The library abstracts format and layout differences and allows access to the binary file as if it were made up of normal D struct objects.</p>
@@ -705,6 +725,9 @@
                                 <div class="talkmeta">
                                     Audience: Intermediate<br>
                                     Duration: 40 Minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/lucenic.odp">Slides (ODP)</a>
+                                    </div>
                                 </div>
                                 <p>What is it like to clearly see and directly code architectural concepts? Can software be skillfully maintained over a long period of time without compromising or reducing its quality? Or is it even possible to increase its quality in a controlled manner during its operation while keeping costs low? Can the approach to software testing eventually become obsolete? The elegant idea behind the Arinas platform, a software development concept enabled by the D language ecosystem, seeks to address some of these issues while also enabling engineers to practically grasp higher levels of abstraction, a wider part of the addressable domain, and manage entropy sensibly. Ľudovít invites you to join him on his journey into the realms of efficiently organized software solutions.</p>
                             </div>
@@ -723,6 +746,9 @@
                                 <div class="talkmeta">
                                     Audience: All<br>
                                     Duration: 45 Minutes<br>
+                                    <div class="talklinks">
+                                        <a href="./slides/miranda.odp">Slides (ODP)</a>
+                                    </div>
                                 </div>
                                 <p>How about using beautiful, colorful blocks to create your source code while the entire documentation is simultaneously elaborated by the software? This is what Murilo is trying to create using D. He will create a version of the game &#8216;Metal Slug&#8217; in front of the audience to demonstrate the power of this new tool.</p>
                             </div>
