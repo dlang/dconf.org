@@ -9,10 +9,8 @@ TMP = .tmp
 
 TO_COPY =  \
 	includes/ $(wildcard includes/*) \
-	images/ $(wildcard images/*.png images/*.svg images/*.jpg images/*.webp) \
-	slides/ $(wildcard slides/*.pdf slides/*.otp slides/*.pptx slides/*.html slides/*.zip) \
-	$(wildcard ./*.html)
-
+	images/ $(wildcard images/*.png images/*.svg images/*.jpg images/*.webp)
+	
 SITE_FILES = $(addprefix $(OUT)/, $(TO_COPY))
 
 # Rules
