@@ -15,7 +15,8 @@ all: $(OUT)/index.html $(OUT)/favicon.png $(OUT)/CNAME \
 	2022/all \
 	2023/all \
 	2024/all \
-	2025/all
+	2025/all \
+	2026/all
 
 .PHONY: clean
 clean: 2007/clean \
@@ -31,7 +32,8 @@ clean: 2007/clean \
 	2022/clean \
 	2023/clean \
 	2024/clean \
-	2025/clean
+	2025/clean \
+	2026/clean
 	rm -rf $(OUT)
 	rm -rf 20??/.tmp
 
@@ -77,6 +79,10 @@ clean: 2007/clean \
 
 2025/%:
 	$(MAKE) DMD=$(DMD) --directory=2025 OUT=../$(OUT)/2025 $*
+	
+2026/%:
+	$(MAKE) DMD=$(DMD) --directory=2026 OUT=../$(OUT)/2026 $*
+
 
 $(OUT)/%: %
 	mkdir -p $(OUT)
