@@ -69,6 +69,10 @@
         list-style-position: outside;
         padding: 0 0 0 2em;
     }
+    strong {
+        font-weight: 500;
+        text-decoration: underline;
+    }
     #map {
         width: 100%;
         height: 450px;
@@ -130,7 +134,7 @@
       background-color: white;
     }
     .talklist li:nth-child(even) {
-      background-color: aliceblue;
+      background-color: #ede8d0;
     }
     .talklist li:nth-child(odd) {
       background-color: snow;
@@ -147,6 +151,7 @@
       padding-left: 16px;
       margin-bottom: 16px;
       background-color: white;
+      min-height: 240px;
     }
     .bigbottom {
       padding-bottom: 125px;
@@ -280,7 +285,7 @@
             </p>
             <div>
                 <h2>Important Dates</h2>
-                <div style="background-color: powderblue; font-weight: bold;" class="w3-panel w3-round-xxlarge">
+                <div style="background-color: #ede8d0; font-weight: bold;" class="w3-panel w3-round-xxlarge">
                     <ul style="list-style-type: none;">
                         <li>Submission Deadline: May 24</li>
                         <li>Schedule Publication: June 5</li>
@@ -303,6 +308,437 @@
             <p>
                 TBA
             </p>
+            <!--Day One Schedule-->
+            <div id="day1" class="w3-container dayblock w3-padding w3-card-4">
+                <ul class="w3-ul w3-card-4 talklist">
+                    <li class="w3-center"><h3>Tuesday August 19th</h3></li>
+                    <li><strong>08:00 Breakfast Snacks</strong><br></li>
+                    <li><strong>09:25 Introduction</strong><br></li>
+
+                    <!-- Walter -->
+                    <li id="walterb"><a href="#walterb" class="bare-anchor"><strong>09:30 TBA</strong><br></a>
+                        by Walter Bright <button class="w3-button details-hover" id="walterShow"
+                        onClick="openTalkDetails('walter')">[Show Details]</button>
+                        <div id="walter" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/images/bright.jpg">
+                                <div class="talkmeta">
+                                    Audience: TBA<br>
+                                    Duration: TBA<br>
+                                <!--
+                                    <div class="talklinks">
+                                        <a href="./slides/bright.pdf">Slides (PDF)</a>
+                                    </div>
+                                -->
+                                </div>
+                                <p>TBA</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He&#8217;s an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines, and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 40 years after its debut.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Adam -->
+                    <li id="adamw"><a href="#adamw" class="bare-anchor"><strong>10:30 LLMs in the Standard Library</strong><br></a>
+                        by Adam Wilson <button class="w3-button details-hover" id="adamShow"
+                        onClick="openTalkDetails('adam')">[Show Details]</button>
+                        <div id="adam" class="w3-hide w3-panel">
+                            <div class="talktitle bigbottom w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2024/images/wilson.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 40 minutes<br>
+                                </div>
+                                <p>This talk will examine the integration of Large Language Models (LLMs) into the development process for Phobos 3. We will outline the motivations for adopting LLMs in this foundational component of the D ecosystem, the process and tools we recommend for developing Phobos 3 with an LLM, an overview of the associated legal considerations, the rules established for their responsible use, and our long-term vision for LLMs as a core element of the broader D programming environment.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Adam is an independent contractor with over 24 years of software development experience specializing in libraries and tooling for high performance web services. Adam&#8217;s resume includes start-ups, consulting, and even a few years at Microsoft working on Office 365. He is currently using D to create tooling that supports the development and deployment of a SQL-based web-service.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Robert -->
+                    <li id="roberts"><a href="#roberts" class="bare-anchor"><strong>11:30 AI - The Five Stages of Grief</strong><br></a>
+                        by Robert Schadek <button class="w3-button details-hover" id="robertShow"
+                        onClick="openTalkDetails('robert')">[Show Details]</button>
+                        <div id="robert" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/schadek.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>LLMs are changing things; how, what, and for whom is still vague. Many of the reactions to the change seem to be reflected in the five stages of grief: Denial, Anger, Bargaining, Depression, and Acceptance. This talk will take a humorous look at the changing landscape of software engineering, what is possible with AI, what is still difficult, potential ideas on how to cope with all of this, and how it might relate to the D programming language and its future.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Robert Schadek received a doctorate degree in computer science from the University of Oldenburg. His dissertation was titled &#8216;Analysis and Development of Quorum Protocols for Real-World Network Topologies&#8217;and focused on quorum systems in combination with graphs. Since 2018, he has been happily using D in his day job working for Symmetry Investments.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>12:30 Lunch</strong><br></li>
+
+                    <!-- Lightning talks -->
+                    <li id="lightningt"><a href="#lightningt" class="bare-anchor"><strong>14:00 Lightning Talks</strong><br></a>
+                        by Various <button class="w3-button details-hover" id="lightningShow"
+                        onClick="openTalkDetails('lightning')">[Show Details]</button>
+                        <div id="lightning" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 30 Minutes<br>
+                                </div>
+                                <p>Got something interesting to tell the D community, but not interested in presenting a full talk? We&#8217;ll give you five minutes to tell the world!</p>
+
+                                <p>Lightning Talks are presentations restricted to five minutes or less. Speakers plug in their laptops and get started immediately. When their time is up, the emcee pulls them off stage and the next speaker gets going. <a href="https://youtu.be/Ks5vXpDO4H0">The Lightning Talks session from DConf &#8216;23</a> serves as an excellent example of the format.</p>
+
+                                <p>Any DConf attendee can sign up to present a Lightning Talk. We have three sessions scheduled this year with 6 slots available in each. We&#8217;ll fill them on a first-come, first-serve basis. Email <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> anytime before the conference to reserve your spot (after you&#8217;ve registered), or let Razvan Nitu know at any point during the conference prior to the start of the Lightning Talks session.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Vladimir -->
+                    <li id="vladimirp"><a href="#vladimirp" class="bare-anchor"><strong>14:45 Agentic D</strong><br></a>
+                        by Vladimir Panteleev <button class="w3-button details-hover" id="vladimirShow"
+                        onClick="openTalkDetails('vladimir')">[Show Details]</button>
+                        <div id="vladimir" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>This talk will cover Vladimir&#8217;s experience using software development agents (such as Claude Code / Codex) in developing D software, including surprising successes and common pitfalls, as well as CyDo, a D program providing UI and orchestration for AI agents aiming for more structured software development. Due to the rapid development of the AI ecosystem, details may change by the time of the talk.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Vladimir Panteleev is a long-term D hacker who has dabbled with AI for some time, and is now using agentic tools exclusively for software development.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Timon -->
+                    <li id="timong"><a href="#timong" class="bare-anchor"><strong>15:45 Quantum Computing Crash Course</strong><br></a>
+                        by Timon Gehr <button class="w3-button details-hover" id="timonShow"
+                        onClick="openTalkDetails('timon')">[Show Details]</button>
+                        <div id="timon" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2024/images/gehr.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>The Silq programming language is a high-level programming language for quantum computing. The type checker and compiler are implemented in D. In this talk, Timon will discuss his experience developing Silq in D, some design decisions in Silq, where it was inspired by D, and where it deliberately differs. Furthermore, he will live-code a version of Shor&#8217;s algorithm for factoring integers in a way that is accessible to quantum computing novices.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Timon Gehr is a postdoctoral researcher at ETH Zürich who has used D to implement a number of tools and programming languages for his research. He sometimes dabbles in DMD development and has contributed the initial implementation of features such as <code>static foreach</code>, expression-based contract syntax, and the tuple unpacking syntax.</p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <!--Day Two Schedule-->
+            <div id="day2" class="w3-container dayblock w3-padding w3-card-4">
+                <ul class="w3-ul w3-card-4 talklist">
+                    <li class="w3-center"><h3>Tuesday August 19th</h3></li>
+                    <li><strong>08:00 Breakfast Snacks</strong><br></li>
+                    <li><strong>09:25 Introduction</strong><br></li>
+                    
+                    <!-- Atila -->
+                    <li id="atilan"><a href="#atilan" class="bare-anchor"><strong>09:30 TBA</strong><br></a>
+                        by Átila Neves <button class="w3-button details-hover" id="atilaShow"
+                        onClick="openTalkDetails('atila')">[Show Details]</button>
+                        <div id="atila" class="w3-hide w3-panel">
+                            <div class="talktitle bigbottom w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2019/images/neves.jpg">
+                                <div class="talkmeta">
+                                    Audience: TBA<br>
+                                    Duration: TBA<br>
+                                </div>
+                                <p>TBA</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Átila Neves has a PhD in Particle Physics for research done at CERN. Most of his time spent there required programming in C++, with a two-year stint as a Perl programmer on the IT department&#8217;s security team. He also worked for Cisco for almost seven years, developing networking software in C and C++ and leading his teams in the areas of software quality and testing. He now works as a D consultant/programmer for Symmetry Investments and is also the deputy maintainer of the D programming language. He spends his spare time yelling at the screen in frustration while waiting for computers to compile his code.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Noam -->
+                    <li id="noamw"><a href="#noamw" class="bare-anchor"><strong>10:30 Building Testability into a Mature D Codebase</strong><br></a>
+                        by Noam Weiss <button class="w3-button details-hover" id="noamShow"
+                        onClick="openTalkDetails('noam')">[Show Details]</button>
+                        <div id="noam" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 minutes<br>
+                                </div>
+                                <p>Introducing unit tests into a large production D codebase is very different from building for testability from the start. This talk shares Weka&#8217;s experience adding unit tests to an existing system that was not designed for them, while development was still ongoing. Noam will cover the main technical obstacles they faced, the incremental approach they used to introduce tests without large refactors, and the key lessons learned in practice.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Noam Weiss is a software developer with over 20 years of experience, primarily in C and C++. For the past year, he has been a team lead at Weka, where he has been involved in improving testing practices and introducing more unit testing into a large existing codebase.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Emmanuel -->
+                    <li id="emmanueln"><a href="#emmanueln" class="bare-anchor"><strong>11:30 ImportC</strong><br></a>
+                        by Emmanuel Nyarko <button class="w3-button details-hover" id="emmanuelShow"
+                        onClick="openTalkDetails('emmanuel')">[Show Details]</button>
+                        <div id="emmanuel" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2024/images/nyarko.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 35 Minutes<br>
+                                </div>
+                                <p>A tremendous effort has been directed toward being able to directly compile C code with D&#8217;s ImportC compiler, a C compiler embedded in the D compiler. A lot of improvements were made in late 2025 and early 2026, which is a positiive direction for the language&#8217;s adoption in several legacy systems. In this talk, Emmanuel intends to keep the audience involved in the development journey by discussing the improvements made and providing an update on where we are.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Emmanuel is a computer science graduate from the Kwame Nkrumah University of Science and Technology from Ghana. He started his experiential programming Journey contributing to D through the 2023 Symmmetry Autumn of Code where he worked on C++ STL interoperability. He later worked on ImportC as part of Symmetry Autumn of Code 2025. He has a keen interest in programming languages and operating systems development and is looking to contribute more to D and to other major systems in the world.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>12:30 Lunch</strong><br></li>
+
+                    <!-- Lightning talks -->
+                    <li id="lightningt2"><a href="#lightningt2" class="bare-anchor"><strong>14:00 Lightning Talks</strong><br></a>
+                        by Various <button class="w3-button details-hover" id="lightning2Show"
+                        onClick="openTalkDetails('lightning2')">[Show Details]</button>
+                        <div id="lightning2" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 30 Minutes<br>
+                                </div>
+                                <p>Got something interesting to tell the D community, but not interested in presenting a full talk? We&#8217;ll give you five minutes to tell the world!</p>
+
+                                <p>Lightning Talks are presentations restricted to five minutes or less. Speakers plug in their laptops and get started immediately. When their time is up, the emcee pulls them off stage and the next speaker gets going. <a href="https://youtu.be/Ks5vXpDO4H0">The Lightning Talks session from DConf &#8216;23</a> serves as an excellent example of the format.</p>
+
+                                <p>Any DConf attendee can sign up to present a Lightning Talk. We have three sessions scheduled this year with 6 slots available in each. We&#8217;ll fill them on a first-come, first-serve basis. Email <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> anytime before the conference to reserve your spot (after you&#8217;ve registered), or let Razvan Nitu know at any point during the conference prior to the start of the Lightning Talks session.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Ha -->
+                    <li id="haq"><a href="#haq" class="bare-anchor"><strong>14:45 Vulkan Compute Support in DCompute and LDC</strong><br></a>
+                        by Hà Phạm Quang <button class="w3-button details-hover" id="haShow"
+                        onClick="openTalkDetails('ha')">[Show Details]</button>
+                        <div id="ha" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: Beginner<br>
+                                    Duration: 25 Minutes<br>
+                                </div>
+                                <p>This talk introduces the new experimental Vulkan support in DCompute and LDC, allowing developers to generate SPIR-V bytecode directly from D source code for cross-platform GPU compute. It will explain the high-level pipeline of how D code connects to Vulkan and showcase what kind of compute kernels you can currently write and run natively in pure D.</p>
+                                
+                                <p>The presentation also covers the practical workflow of navigating the massive LDC codebase as a beginner, including how to use AI tools to quickly find the right files. By the end of this talk, attendees will understand the current capabilities of the Vulkan backend and how they can start experimenting with cross-platform GPU programming in D.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Hà Phạm Quang is a second-year Computer Science student at Phenikaa University in Vietnam. Through Google Summer of Code (GSoC), he became a contributor to LDC and DCompute by implementing experimental Vulkan support. As a university student, learning how a production-grade compiler works was a major challenge, and he wants to share his journey to show how other beginners can successfully use modern tools to start contributing to the D ecosystem.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Asadbek -->
+                    <li id="asadbeks"><a href="#asadbeks" class="bare-anchor"><strong>15:45 Taking DCompute to Apple Silicon: Native Metal GPU programming in D</strong><br></a>
+                        by Asadbek Sindarov <button class="w3-button details-hover" id="asadbekShow"
+                        onClick="openTalkDetails('asadbek')">[Show Details]</button>
+                        <div id="asadbek" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/sindarov.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>Apple Silicon has made GPU computing more accessible than ever, but writing Metal kernels has always required leaving your primary language behind, switching to Metal Shading Language or Objective-C/Swift APIs. What if you could write and dispatch GPU kernels entirely in D?</p>
+
+                                <p>LDC, the LLVM-based D compiler, and DCompute already support CUDA and OpenCL targets. Apple, however, maintains its own closed-source fork of LLVM to power their GPU toolchain, making Metal a uniquely challenging target. This talk documents Asabek&#8217;s journey as a contributor adding Metal GPU backend support to LDC and DCompute: the modifications required to emit correct Metal-compatible LLVM IR, the Metal Shading Language compiler intrinsics that had to be mapped, the metadata Apple&#8217;s toolchain expects, and how a working proof-of-concept eventually emerged from the effort.</p>
+                                
+                                <p>By the end of this talk, attendees will know how to write GPGPU programs and run them on Apple GPUs, entirely in the D programming language, to accelerate computationally intensive workloads on their own Apple devices.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Asadbek is a Master&#8217;s student in Computer Science at Saarland University, Germany. His interest in compilers and high-performance computing led him to the D community and, eventually, to contributing a Metal GPU backend to LDC and DCompute.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Sergei -->
+                    <li id="sergeig"><a href="#sergeig" class="bare-anchor"><strong>16:45 Become a D User: From zero to hero</strong><br></a>
+                        by Giniatulin Sergei <button class="w3-button details-hover" id="sergeiShow"
+                        onClick="openTalkDetails('sergei')">[Show Details]</button>
+                        <div id="sergei" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/giniatulin.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 30 Minutes<br>
+                                </div>
+                                <p>In this talk, Sergei presents his story of transformation from a data scientist/analyst who has never worked as a professinoal software developer to a D user who writes code primarily in the data science field and actively participates in D community. His path provides a potential direction for D necomers to improve their D programming skills and become more involved in the D community.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Giniatulin Sergei graduated from Moscow State University as a mathematician/system developer in 2011. After spending some time in academia developing ocean modeling systems in C# and Fortran, he moved on to a career in banking and risk management. He currently works at a consulting firm in Cyprus, and is known as an unofficial community manager in the D Community Discord.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Day Three Schedule-->
+            <div id="day3" class="w3-container dayblock w3-padding w3-card-4">
+                <ul class="w3-ul w3-card-4 talklist">
+                    <li class="w3-center"><h3>Tuesday August 19th</h3></li>
+                    <li><strong>08:00 Breakfast Snacks</strong><br></li>
+                    <li><strong>09:25 Introduction</strong><br></li>
+
+
+                    <!-- Vladimir -->
+                    <li id="vladimirp2"><a href="#vladimirp2" class="bare-anchor"><strong>09:30 Databases and Taxes</strong><br></a>
+                        by Vladimir Panteleev <button class="w3-button details-hover" id="vladimir2Show"
+                        onClick="openTalkDetails('vladimir2')">[Show Details]</button>
+                        <div id="vladimir2" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>This talk will cover Vladimir&#8217;s experience using software development agents (such as Claude Code / Codex) in developing D software, including surprising successes and common pitfalls, as well as CyDo, a D program providing UI and orchestration for AI agents aiming for more structured software development. Due to the rapid development of the AI ecosystem, details may change by the time of the talk.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Vladimir Panteleev is a long-term D hacker who has now had a chance to use D in a professional setting.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Dennis -->
+                    <li id="dennisk"><a href="#dennisk" class="bare-anchor"><strong>10:30 D-livering Bloat Free Game Jam Entries</strong><br></a>
+                        by Dennis Korpel <button class="w3-button details-hover" id="dennisShow"
+                        onClick="openTalkDetails('dennis')">[Show Details]</button>
+                        <div id="dennis" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2023/images/korpel.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>A Game Jam is a hackathon where you build a game from scratch in just a few days. With such time pressure, it&#8217;s sensible to use a game engine so you can build fast. There&#8217;s just one problem: even before you even add a single game object, most engines produce bloated executables that take multiple seconds to download and load!</p>
+                                
+                                <p>Well sure, maybe I should worry about making the game good instead of obsessing over a minor inconvenience. But I believe that complexity in general is the root of so many software problems, so I tried this &#8216;One Weird Trick!&#8217; of just writing the D code I need and not drag in anything else, to see what we can learn. Luckily, many interesting things emerged from this experiment, which I want to share.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Dennis Korpel is a CS graduate from Delft University of Technology. D became his language of choice after he discovered it in 2018. He is currently a Pull Request Manager for the D Language Foundation and a programmer for SARC, a Dutch maritime company using D.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Eric -->
+                    <li id="ericy"><a href="#ericy" class="bare-anchor"><strong>11:30 Deploying Cross-Platform D Games on Steam: From Dev to Production</strong><br></a>
+                        by Eric Yoon <button class="w3-button details-hover" id="ericShow"
+                        onClick="openTalkDetails('eric')">[Show Details]</button>
+                        <div id="eric" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="./images/yoon.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 30 Minutes<br>
+                                </div>
+                                <p>The greatest test of a new game programming language is whether it can actually be used to ship commercial software. This talk will prove that D can indeed be used to make games that are distributed on Mac, Windows, and Steam marketplaces. Eric will go in depth about the technical challenges associated with building universal binaries, code signing executables, and bundling often-used game programming libraries like SDL, Steamworks, and Discord SDKs. By the end of the talk, you&#8217;ll be able to go from dub dev builds to shipping plug-and-play .exe and .app files on Steam.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Eric Yoon is a Yale University undergraduate with experience in both software and game development. He has published two games on Mac, Windows, and Steam stores; he is currently developing his third, Rhythm Game Studio, in D with an in-house engine. Eric is especially interested in game engine development, AR/VR, and creating community-driven experiences. You can view Eric&#8217;s work online at <a href="http://yoonicode.com/">yoonicode.com.</a></p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><strong>12:30 Lunch</strong><br></li>
+
+                    <!-- Lightning talks -->
+                    <li id="lightningt3"><a href="#lightningt3" class="bare-anchor"><strong>14:00 Lightning Talks</strong><br></a>
+                        by Various <button class="w3-button details-hover" id="lightning3Show"
+                        onClick="openTalkDetails('lightning3')">[Show Details]</button>
+                        <div id="lightning3" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 30 Minutes<br>
+                                </div>
+                                <p>Got something interesting to tell the D community, but not interested in presenting a full talk? We&#8217;ll give you five minutes to tell the world!</p>
+
+                                <p>Lightning Talks are presentations restricted to five minutes or less. Speakers plug in their laptops and get started immediately. When their time is up, the emcee pulls them off stage and the next speaker gets going. <a href="https://youtu.be/Ks5vXpDO4H0">The Lightning Talks session from DConf &#8216;23</a> serves as an excellent example of the format.</p>
+
+                                <p>Any DConf attendee can sign up to present a Lightning Talk. We have three sessions scheduled this year with 6 slots available in each. We&#8217;ll fill them on a first-come, first-serve basis. Email <a href="mailto:&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;">&#115;&#111;&#099;&#105;&#097;&#108;&#064;&#100;&#108;&#097;&#110;&#103;&#046;&#111;&#114;&#103;</a> anytime before the conference to reserve your spot (after you&#8217;ve registered), or let Razvan Nitu know at any point during the conference prior to the start of the Lightning Talks session.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Mike -->
+                    <li id="mikes"><a href="#mikes" class="bare-anchor"><strong>14:45 3D Graphics Engine in D</strong><br></a>
+                        by Mike Shah <button class="w3-button details-hover" id="mikeShow"
+                        onClick="openTalkDetails('mike')">[Show Details]</button>
+                        <div id="mike" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2022/images/shah.jpg">
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 35 Minutes<br>
+                                </div>
+                                <p>The D programming language is well positioned to support game and graphics development because of it's ability to compile fast, generate fast code, and maintain plasticity for refactoring code at scale. In this talk, Mike will demonstrate several graphics tech demos that he has developed in his graphics engine using OpenGL 4.6. Throughout the talk Mike will highlight what features of the D programming language helped his development alongside his graphics engine. Mike will also show off his dub configuration, and VIM setup to show why he believes the barrier to entry to using D for game development is low and provides an excellent point to get started building real projects with D!</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Mike Shah is currently a Full-Time Teaching Faculty at Yale University in the Computer Science Department. Mike&#8217;s primary teaching interests are in computer systems, computer graphics, and software engineering. Mike&#8217;s research interests are related to performance engineering (dynamic analysis), software visualization, and computer graphics. Along with teaching and research work, Mike juggles occasional consulting work as a 3D Senior Graphics Engineer in C++ and his YouTube channel, https://www.youtube.com/@MikeShah</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Nicholas -->
+                    <li id="nicholasw"><a href="#nicholasw" class="bare-anchor"><strong>15:45 D is for Students</strong><br></a>
+                        by Nicholas Wilson <button class="w3-button details-hover" id="nicholasShow"
+                        onClick="openTalkDetails('nicholas')">[Show Details]</button>
+                        <div id="nicholas" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2020/online/images/stock.jpg">
+                                <div class="talkmeta">
+                                    Audience: Beginner<br>
+                                    Duration: 25 Minutes<br>
+                                </div>
+                                <p>This talk covers why D is great for Students and how the D ecosystem is shaping up to be great for student projects. Nicholas will cover the progress made by some of the students in their projects for SAoC/GSoC/Bachelors theses for DMD, DCompute and other projects, and his experiences his delights in mentoring them, and tips for a good mentor/mentee relationship. He hopes to convince you that if you have an interesting project you should mentor students, and if you are a student, you should get in contact!</p>                                
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Nicholas went into software after discovering that industrial computer systems was not silicon engineering. He is currently a Pull Request Manager for the D Language Foundation, and a core contributor to DMD, DRuntime, and LDC. He is the author of DCompute, a library and compiler extension for GPGPU (OpenCL/CUDA and now Vulkan/Metal) natively in D. He has mentored many students for Symmetry Autumn of Code and Google Summer of Code in various projects.</p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <!-- AUA -->
+                    <li id="aua"><a href="#aua" class="bare-anchor"><strong>16:45 Ask Us Anything!</strong><br></a>
+                        with Walter Bright and Átila Neves<button class="w3-button details-hover" id="tauaShow"
+                        onClick="openTalkDetails('taua')">[Show Details]</button>
+                        <div id="taua" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <div class="speakerIMG w3-third">
+                                    <img class="w3-image w3-half" src="../2020/images/bright.jpg">
+                                    <img class="w3-image w3-half" src="../2019/images/neves.jpg">
+                                </div>
+                                <div class="talkmeta">
+                                    Audience: All<br>
+                                    Duration: 60 Minutes<br>
+                                </div>
+                                <p>This is your chance to directly ask Walter and Átila your burning questions about the D language. Why did they make that decision you disagree with? What's the backstory behind a language feature? What are they working on behind the scenes? What do they think about your biggest pet peeve or most desired language feature? The floor will be open for an hour or more to everyone in the room, the livestream chat, and the community Discord. Don't be shy!</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
         </article>
     </div>
 
