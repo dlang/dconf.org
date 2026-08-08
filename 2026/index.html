@@ -436,6 +436,29 @@
                             </div>
                         </div>
                     </li>
+
+                    <!-- Yaniv -->
+                    <li id="yanivb"><a href="#yanivb" class="bare-anchor"><strong>16:45 Every Fiber Context Switch, Marked: Caller-Propagated Attributes in D</strong><br></a>
+                        by Yaniv Ben-Yahuda <button class="w3-button details-hover" id="yanivShow"
+                        onClick="openTalkDetails('yaniv')">[Show Details]</button>
+                        <div id="yaniv" class="w3-hide w3-panel">
+                            <div class="talktitle w3-card-4">
+                                <img class="speakerIMG w3-image" src="../2026/images/ben-yahuda.jpg">
+                                <div class="talkmeta">
+                                    Audience: Intermediate<br>
+                                    Duration: 40 Minutes<br>
+                                </div>
+                                <p>Weka's distributed filesystem is a large D codebase running on a fiber runtime, where any call may quietly context-switch. Nothing in the language says which ones, so a reader cannot tell, from the code, where the fiber can be suspended. That ambiguity is a bug factory. So they fixed it in the compiler.</p>
+
+                                <p>This talk introduces <code>callerAttr</code>, a proof of concept built on a fork of the D frontend. It lets you define your own function attribute whose acknowledgment is enforced at every call site and propagates outward to the caller. Write <code>foo@mayYield()</code>, and now the calling function must be <code>@mayYield</code> too. The requirement cannot silently vanish as it travels up the stack.</p>
+
+                                <p>Making that work in real D turned out to be the interesting part. Yaniv will walk through how a caller attribute interacts with the rest of the language&mdash;delegate types and conversions, per-instantiation template inference, <code>foreach</code>, and more&mdash;and what Weka learned pointing it at a production codebase.</p>
+                            </div>
+                            <div>                        
+                                <p class="bio w3-card">Yaniv Ben-Yehuda is a software engineer at WEKA, where he works on the core of a distributed filesystem written in D. He has 30 years of software development experience, focused on distributed systems and tooling for domain-specific languages.</p>
+                            </div>
+                        </div>
+                    </li>
                     
                 </ul>
             </div>
@@ -455,10 +478,10 @@
                             <div class="talktitle bigbottom w3-card-4">
                                 <img class="speakerIMG w3-image" src="../2019/images/neves.jpg">
                                 <div class="talkmeta">
-                                    Audience: TBA<br>
-                                    Duration: TBA<br>
+                                    Audience: Intermediate<br>
+                                    Duration: 40 minutes<br>
                                 </div>
-                                <p>TBA</p>
+                                <p>Agentic coding is growing to be a new software development paradigm. In this talk, Átila will share mistakes and lessons learned getting AI agents to develop complex software for weeks and months on end. Imagine new execution backends for D? He did, and now they exist.</p>
                             </div>
                             <div>                        
                                 <p class="bio w3-card">Átila Neves has a PhD in Particle Physics for research done at CERN. Most of his time spent there required programming in C++, with a two-year stint as a Perl programmer on the IT department&#8217;s security team. He also worked for Cisco for almost seven years, developing networking software in C and C++ and leading his teams in the areas of software quality and testing. He now works as a D consultant/programmer for Symmetry Investments and is also the deputy maintainer of the D programming language. He spends his spare time yelling at the screen in frustration while waiting for computers to compile his code.</p>
