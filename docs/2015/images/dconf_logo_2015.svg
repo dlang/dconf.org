@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300">
+    <defs>
+        <linearGradient id="grad1" x1="50%" y1="0%" x2="80%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(136,66,66)" />
+            <stop offset="100%" style="stop-color:rgb(56,26,36);" />
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(249,160,145)" />
+            <stop offset="100%" style="stop-color:rgb(199,100,95);" />
+        </linearGradient>
+        <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,250,250)" />
+            <stop offset="100%" style="stop-color:rgb(205,205,210);" />
+        </linearGradient>
+        <linearGradient id="grad4" x1="0%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(121,84,84)" />
+            <stop offset="100%" style="stop-color:rgb(61,34,44);" />
+        </linearGradient>
+        <linearGradient id="grad5" x1="0%" y1="0%" x2="30%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(200,132,102)" />
+            <stop offset="100%" style="stop-color:rgb(150,82,92);" />
+        </linearGradient>
+        <linearGradient id="grad6" x1="0%" y1="0%" x2="30%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255)" />
+            <stop offset="100%" style="stop-color:rgb(225,225,212);" />
+        </linearGradient>
+        <linearGradient id="grad7" x1="0%" y1="0%" x2="30%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(235,235,235)" />
+            <stop offset="100%" style="stop-color:rgb(205,205,205);" />
+        </linearGradient>
+    </defs>
+    <filter id="blur">
+        <feOffset result="offOut" in="SourceGraphic" dx="0" dy="3" />
+        <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.4 0 0 0 0 0 0.55 0"/>
+        <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="5" />
+        <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+    <filter id="textblur">
+        <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5" />
+        <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.0 0 0 0 0 0 0.0 0 0 0 0 0 0.0 0 0 0 0 0 0.25 0"/>
+        <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="5" />
+        <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+
+    <!-- grey background -->
+    <g>
+        <rect width="1000" height="300" fill="#545150" />
+    </g>
+
+    <!-- D logo part -->
+    <g transform="translate(70,60)" filter="url(#blur)">
+        <polygon fill="url(#grad1)" points="150,105 175,65 160,52 80,52"/>
+        <polygon fill="url(#grad4)" points="2,131 103,128 133,181 0,185"/>
+        <polygon fill="url(#grad2)" points="0,10 50,52 50,128 2,128" />
+        <polygon fill="url(#grad3)" points="-5,0 110,0 160,50 50,50"/>
+        <polygon fill="url(#grad5)" points="105,130 135,182 175,130 175,65"/>
+    </g>
+
+    <!-- Text part -->
+    <g transform="translate(-10,0)">
+        <text x="290" y="160" fill="url(#grad6)" font-weight="700" font-family="Cabin" stroke-width="2" font-size="125" filter="url(#textblur)">
+            DConf 2015
+        </text>
+
+        <text x="300" y="228" fill="url(#grad7)" font-weight="700" font-family="Cabin" stroke-width="2" font-size="65" filter="url(#textblur)">
+            May 27-29 · Orem, UT
+        </text>
+    </g>
+</svg>
