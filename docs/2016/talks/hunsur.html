@@ -1,0 +1,97 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+<link href="../../2015/images/favicon.ico" rel="shortcut icon" />
+<title >DConf 2016 speaker: Mithun Hunsur</title>
+</head>
+<body>
+
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="logo">  <a href="../index.html"><img src="../images/dconf_logo_2016.svg" alt="DConf 2016: May 4&#x2013;6 &#x00B7; Berlin" height="116" border="0" /></a>
+</div><!-- end <div class="logo"> -->
+
+<div class="menu row_after">  <nav >    <ul id="menu">      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../registration.html">Register</a></li>
+      <li><a href="../schedule">Schedule</a></li>
+      <li><a href="../speakers">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../../2015">DConf 2015</a></li>
+      <li><a href="../../2014">DConf 2014</a></li>
+      <li><a href="../../2013">DConf 2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+  <div class="page_left equal hyphenate">
+  <h1 align=left>Skiron: Experiments in CPU Design in D</h1>
+  <div class="inline vmid">    <img class="stroke" src="../images/hunsur.jpg" height="170" alt="" />
+    <div ><p><b><a href="">Mithun Hunsur</a><br />
+      May 6 @ 4:30 PM</b><br><br><i>Duration:</i> 50 minutes<br />
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Intermediate to Advanced<br />
+      <i>Slides:</i> <b><a href="http://www.slideshare.net/MithunHunsur/skiron-experiments-in-cpu-design-in-d">SlideShare</a> &middot; <a href="../talks/hunsur.pdf">PDF</a></b><br />
+      <b></b>
+      <!--a href="#">Powerpoint slides</a--></p>
+    </div><!-- end <div > -->
+  </div><!-- end <div class="inline vmid"> -->
+  <p><b><u>Abstract:</u>&nbsp;</b>
+When designing a CPU, many considerations need to be taken into account: from hardware constraints to instruction set flexibility, building an architecture worthy of use requires compromise. This talk details the effective use of D and its features, such as metaprogramming, to enable rapid development with equally rapid performance for Skiron: a CPU design and implementation focused on examining the impact of particular design decisions on flexibility and performance.
+
+<p>Skiron is a flexible 32-bit RISC and MIPS-inspired architecture designed for the sole purpose of evaluating potential compromises in CPU design with a minimal time investment in making changes. To this end, the tools involved in the ecosystem – the reference simulator, assembler, disassembler, and documentation – needed to be built around the principle of rapid iteration.</p>
+
+<p>As a result, D was selected as the implementation language: its unique blend of features places it in an ideal place for Skiron, especially with regards to ensuring that changes in design will be reflected across the entire ecosystem. This is accomplished through extensive use of metaprogramming, D-exclusive features, the excellent standard library, and much more.</p>
+
+Areas investigated in this talk will include, but not be limited to:
+
+<ul><li>Compromises inherent in the design of CPUs, including performance, instruction set concerns, and end-user usability</li>
+
+<li>The use of metaprogramming to facilitate rapid development of the instruction set, opcode structure, production of documentation, and more – and the different kinds of metaprogramming available in D, from templates to code generation in mixins</li>
+
+<li>Taking advantage of D features such as final switch and built-in unit tests to ensure correctness of code, as well as other features like binary constants</li>
+
+<li>Using both GC and non-GC code effectively within a set of projects, and tips and tricks involved in writing non-GC code</li>
+
+<li>The advantages of D over competing systems languages for a complex, multi-level project – specifically, how D can be used to go from high-level user-facing functionality to low-level code generation and simulation without switching language</li>
+</ul></p>
+  <!--p><b><u>Notes:</u> </b> </p-->
+  <p><b><u>Speaker Bio:</u> </b> 
+During the day, Mithun Hunsur is an undergraduate student at Monash University – but during the nights and the weekends, he’s a prolific systems programmer and reverse engineer working on exploring the far reaches of the technologies he works with on a daily basis. Since 2013, he has been utilising D in a variety of projects, both internal and external, in order to maximise development speed while keeping performance characteristics from other systems languages. As part of his efforts to support the wider D ecosystem, he has submitted pull requests to druntime and Phobos, and has assisted in improving the performance of exception handling in LDC. He is currently situated in Melbourne, Australia.</p></div><!-- end <div class="page_left equal hyphenate"> -->
+  
+<div class="page_right equal">  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Sponsor</span><br />
+      <table ><tr >      <td ><a href="http://sociomantic.com">      <img src="http://www.offremedia.com/sites/default/files/styles/270x170_echelle/public/logo_org_21466.png?itok=moLeleXt" width="100%" alt="Sociomantic" border="0" /></a></td></tr>
+    </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+  <div class="sponsors">    <span class="sp">Catering Partner</span><br />
+      <table ><tr >      <td ><a href="http://starkes-catering.com">	<img src="../images/starkes.svg" width="40%" alt="Starkes Catering" border="0" /></a></td></tr>
+    </table>
+   </div><!-- end <div class="sponsors"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<hr />
+<div align="right">  <font size="-2">    &copy; 2016 The D Language Foundation |
+    Generated with Ddoc
+  </font>
+</div><!-- end <div align="right"> -->
+</body>
+</html>

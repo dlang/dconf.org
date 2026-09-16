@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Using Dustmite to Make Good Testcases</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Using Dustmite to Make Good Testcases</h1>
+</header>
+<h1 id="effective-dustmite">Effective Dustmite</h1>
+<p>Dustmite is a tool written by CyberShadow that ships with the stock
+DMD download. It is a bug reducer.</p>
+<p>Have you ever run into a compiler bug? Or some error message that you
+didn’t understand, because it involved too much source code? Have you
+formed a theory about what was its cause, only for your simple testcase
+to end up unable to reproduce it? How does everybody else make those
+nice, simple testcases anyways? The answer is Dustmite.</p>
+<p>How does that work? In fully general terms, Dustmite takes two
+things: a test folder, and a tester. The tester <em>demonstrates the
+presence</em> of the bug. In other words, the tester is some form of
+executable, a D file, a Bash script, a bat file, that is executed in the
+test folder and succeeds if and only if the bug is present.</p>
+<h1 id="how-do-i-do-this">How do I do this?</h1>
+<p>Let’s step through a basic reduction. This is the workflow I use,
+born from experience:</p>
+<ol type="1">
+<li>Make a new folder for the repro.</li>
+<li>Copy your project to <code>./src1/</code> in the repro folder.</li>
+<li>Create your repro script in <code>repro1.sh</code>. Note that this
+should run <em>from</em> <code>./src1/</code>, but it should be
+<em>placed</em> in the repro folder itself. Remember to make it
+executable with <code>chmod +x</code>!</li>
+<li>Run dustmite: <code>dustmite src1 ../repro1.sh</code>. This will
+create <code>src1.reduced</code>.</li>
+<li>Don’t even look at that folder! <strong>First,</strong> copy the
+output folder to <code>src2</code> and the repro script to
+<code>repro2.sh</code>.</li>
+<li>Look at the source and decide what follow-up steps to take.</li>
+<li>Repeat 4-7 until your output is sufficiently minimal.</li>
+</ol>
+<p>So you end up with this structure:</p>
+<pre><code>/test
+/test/src1/
+/test/src1.reduced/
+/test/repro1.sh
+/test/src2/
+/test/src2.reduced/
+/test/repro2.sh
+/test/src3/
+/test/repro3.sh</code></pre>
+<p>Why all the copying? It is <em>very</em> easy to look at the output
+and go “oh, I understand the issue now, I’ll simplify it a bit more and
+then file the bug.” It’s often not what you think! The
+<code>src.reduced</code> folder is the product of <strong>hours</strong>
+of compute. Keep it pristine. If you mess up your <code>src2</code>, you
+can just delete it and restart from <code>src1.reduced</code>.</p>
+<p>That’s it. However, the devil is in the details.</p>
+<h1 id="how-does-dustmite-actually-work">How does Dustmite actually
+work?</h1>
+<p>To understand the following sections, it’s important to have a good
+model for the actual thing that Dustmite does.</p>
+<p>Dustmite internally:</p>
+<ul>
+<li>reads in the <em>complete</em> source folder.</li>
+<li>validates the repro script: it should succeed (that is, demonstrate
+the error) with the repro, but fail with an empty folder.</li>
+<li>In a loop:
+<ul>
+<li>performs a reduction operation, which is usually deleting a piece of
+the parse tree, ie. removing a function call, emptying a string,
+removing an empty loop, or even removing a whole file or function</li>
+<li>writes out the modified source, then tests if the error still exists
+(the repro script still passes)</li>
+<li>if yes, records the modified output as a success; if not, as a
+failure.</li>
+<li>continues while it can remove parts of source code and the repro
+script keeps generating successes</li>
+</ul></li>
+<li>When it can find no more reductions, it exits.</li>
+</ul>
+<h1 id="writing-a-good-repro-script">Writing a good repro script</h1>
+<p>In other tools, you may have different workflows for debugging a
+compiler crash, an application crash, or a miscompilation. Dustmite
+doesn’t care. The tester may use <em>any means</em> to ascertain the
+presence of the bug. In technical terms, Dustmite looks at the exit
+status of the tester. This can mess you up: if you are testing for a
+compiler crash, you have to <em>invert</em> the exit status:</p>
+<pre><code>#!/bin/bash
+dmd test.d
+# segfault
+[ $? = 139 ]</code></pre>
+<p>Or to test the produced binary:</p>
+<pre><code>#!/bin/bash
+dmd test.d -oftest
+./test
+[ $? = 139 ]</code></pre>
+<p>However, this is still not a very good repro. Why?</p>
+<p>As a rule, we want to test for as much <em>relevant</em> details as
+possible while excluding as many <em>irrelevant</em> details as we can.
+For instance, when debugging a segfault, it is common for Dustmite to
+replace one segfault with another, totally unrelated segfault. It turns
+out that when removing code, it’s easy to arrive at code that segfaults.
+:)</p>
+<p>When at all possible, you should replace a generic segfault with
+something like an assertion at a specific line. Debug the segfault,
+replace it with a null check that asserts out, then:</p>
+<pre><code>(./program &amp;&amp; exit) 2&gt;&amp;1 |grep &#39;Error Message Goes Here&#39;</code></pre>
+<p>Similarly, you can test for DMD error messages in the same way.</p>
+<p>However, how do you avoid Dustmite optimizing out the assignment of
+the field that becomes null, then? One easy trick is to hide the error
+message in a file that is outside your source folder, then compile it in
+with <code>dmd ../error1.d</code>. In fact, this is exactly why we keep
+the tester outside the source folder: otherwise, Dustmite would
+correctly notice that the easiest way to make the tester pass is to
+delete all lines of code inside it!</p>
+<p>In other words, you can always protect a piece of code or script from
+being reduced by putting it outside the source folder. Also, you can
+pull source into the source folder to trace it.</p>
+<h2 id="important-safety-warning">Important Safety Warning</h2>
+<p>D reductions can end up with infinite loops and unlimited memory
+leaks! Gauge the RAM your compilation takes, then set memory and CPU
+limits in your repro script:</p>
+<pre><code># limit DMD to 10 seconds
+ulimit -t 10
+# limit DMD to 4 GB
+ulimit -v $((4096*1024))</code></pre>
+<p>You can use <code>timeout</code> under Windows, but I’m afraid there
+is no simple equivalent for the memory limit.</p>
+<h1 id="getting-the-source-folder-ready-for-the-initial-run">Getting the
+source folder ready for the initial run</h1>
+<p>So how do you go about things? First of all, whatever build tool you
+use, dub, jinja, reggae, you <em>can</em> keep using it, but usually you
+want to get down to a DMD command line. This puts the minimal distance
+between you and the actual run, and lets you easily inspect the exit
+code and error.</p>
+<p>As the second step, you should clean up all built binaries in your
+source folder. Dustmite <em>can</em> do this for you, by noticing they
+don’t affect the error, but it’s awkward because it has to load the
+whole binary into memory. Also if you start with only source code, you
+don’t have to worry that you’re accidentally testing the wrong
+binary.</p>
+<p>Note that the source code being reduced does not have to be D, or any
+known programming language at all. Dustmite will try to parse all files
+in its directory as D, but it has other strategies: for instance, you
+can configure it to split files by line:</p>
+<pre><code>dustmite --split *.csv:lines</code></pre>
+<p>And it will try to remove lines from CSV files.</p>
+<h1 id="first-run">First run</h1>
+<p>So now you have a source folder <code>src1</code>, you manually run
+your repro script and it exits with success. It’s time to start your
+first dustmite run:</p>
+<pre><code>$ dustmite src1 ../repro1.sh</code></pre>
+<p>Now dustmite will tell you if your repro script has an issue, but if
+everything is well it will begin its run.</p>
+<p>At this point, I recommend going home for the weekend. :-) DMD is not
+the fastest compiler (depends on source), and Dustmite will now
+potentially kick off tens of thousands of DMD runs. When you come back,
+you should have a new directory: <code>src1.reduced</code>, containing
+the minimal source code that still passes the test.</p>
+<p>At this point, again, immediately copy this folder to
+<code>src2</code>. It represents the outcome of potentially multiple
+days of compute time, and must be protected. In <code>src2</code>, you
+can look around and edit as much as you want.</p>
+<h1 id="what-now">What now?</h1>
+<p>If you’re lucky, you will be done. However, this is unlikely, because
+there are many patterns that Dustmite cannot reduce:</p>
+<ul>
+<li>mutual dependencies (<code>foo(a) -&gt; bar(a) -&gt; foo(a)</code>,
+where <code>a</code> is not necessary)</li>
+<li>type changes (<code>template!T</code> to
+<code>template!int</code>)</li>
+<li>and generally any sort of changes that require understanding.</li>
+</ul>
+<p>However, the first thing you should do is rerun your repro command
+and double-check that you’ve ended up with the <em>same</em> bug as you
+started out with. It’s possible to look at the source code and go “oh
+duh, of course this crashes now.” This is usually because Dustmite
+removed some code that turned an incidental crash into an obvious crash,
+for instance removing a variable assignment to a pointer. In that case,
+you’ve sadly wasted your time, and have to go back and find a better
+setup for your initial source and repro script.</p>
+<p>Assuming your reproduction is good, but you want to reduce it
+further, there are several strategies that can be used:</p>
+<h2 id="inlining-libraries-or-phobos-modules">Inlining libraries or
+Phobos modules</h2>
+<p>Often at this point you find that most of the problem is in a Dub or
+Phobos library. The easiest way to handle this is to just copy the
+entire library into your project.</p>
+<p>The dub sources are at
+<code>$HOME/.dub/packages/{name}/{version}/{repo}</code>. The Phobos
+sources are at <code>{DMDDIR}/src/</code> in your install folder, or
+<code>/usr/lib/ldc/x86_64-linux-gnu/include/d</code> for Ubuntu LDC.</p>
+<p>Now, copy the module in question into your project, and immediately
+change the name to something else! This is important, because it means
+that Dustmite can’t just remove the entire file and go back to importing
+the existing file. Make sure it still runs, by deleting everything that
+doesn’t - this usually isn’t much. Change <code>package</code> to
+<code>public</code> where required. Mass-replace all your imports and
+references over to the new name. Then just rerun Dustmite with the new
+folder:</p>
+<pre><code>$ dustmite src2 ../repro2.sh</code></pre>
+<h2 id="specializing-templates">Specializing templates</h2>
+<p>Often issues hide inside templates that are instantiated with
+multiple different types in your remaining source, split into different
+<code>static if</code>s or different code paths. This can make it hard
+to see what the actual necessary code is.</p>
+<p>For instance, if you descended into <code>std.typecons</code>, you
+may now have <code>Nullable!int</code> and <code>Nullable!string</code>
+remaining in your repro code.</p>
+<p>You can break this template open by simply making two copies:</p>
+<pre><code>struct Nullable_int(T) { ... }
+struct Nullable_string(T) { ... }</code></pre>
+<p>And referencing each separately. This will allow Dustmite to strip
+out the parts that the <code>int</code> version doesn’t need, and the
+parts that the <code>string</code> version doesn’t need, making each
+case easier to follow.</p>
+<p>You can also try replacing all uses of <code>T</code> in each with
+<code>int</code> or <code>string</code> directly, though that may not
+work.</p>
+<h2 id="wild-flailing">Wild flailing</h2>
+<p>Honestly, at this stage your code is probably small enough that you
+can just file a bug directly. However, if you want to have some fun,
+form a theory about what the issue is and try it out: for instance,
+replace type parameters with <code>int</code>, or parameters with
+<code>0</code> and see if it still breaks.</p>
+<p>Often, the final reproduction is <em>distressingly</em> simple. From
+a user level, it’s common to think of bugs in terms of a domain problem,
+but from the perspective of the compiler it’s usually something like
+“three particular features were used in an order that nobody has tried
+before”. Even staring directly at the final reduction, it can be hard to
+understand what the actual problem even is.</p>
+<p>Remember that if you went the wrong way in your reduction, you can
+always go back to a previous state.</p>
+<p>If your final repro contains
+<code>__traits(compiles, &lt;expr&gt;)</code>, take a drink. You’ve
+joined the club of speculative semantic pass bugs. About half my bugs
+contain this line.</p>
+<p>And of course, thanks to CyberShadow for his excellent tool.</p>
+<p>That’s it. Have fun!</p>
+</body>
+</html>

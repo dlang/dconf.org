@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@D_Programming">
+<meta name="twitter:creator" content="@D_Programming">
+<meta name="twitter:title" content="DConf Online '24">
+<meta name="twitter:description" content="DConf Online '24 is happening March 16, 2024, on the D Language Foundation's YouTube Channel. It's free and open to all!" />
+<meta name="twitter:image" content="https://dconf.org/2024/online/images/logo-og.jpg" />
+<meta property="og:title" content="DConf Online '24">
+<meta property="og:description" content="DConf Online '24 is happening March 16, 2024, on the D Language Foundation's YouTube Channel. It's free and open to all!">
+<meta property="og:url" content="https://dconf.org/online/2024/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://dconf.org/2024/online/images/logo-og.jpg">
+<meta property="og:image:type" content="image/jpeg" >
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="630">
+<link href="./includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      font-size: 1.1em;
+      background: whitesmoke;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      background: rgb(0,29,179);
+      background: radial-gradient(circle, rgba(0,29,179,1) 20%, rgba(82,37,94,1) 80%);
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      padding: 1.5em;
+    }
+    h2 {
+      padding: 1.25em;
+    }
+    h3 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+    code {
+      font-size: smaller;
+    }
+    .quote {
+      color: #aaa;
+      font-style: italic;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+    .quote p {
+      display: inline;
+    }
+    .quote figcaption, .quote blockquote {
+        margin: 1em;
+    }
+    #menu {
+        background: rgba(0, 0, 0, 0);
+        color: #fff;
+        font-size: 1.1em;
+    }
+    #home {
+      background: rgb(0,29,179);
+      background: radial-gradient(circle, rgba(0,29,179,1) 20%, rgba(82,37,94,1) 80%);
+    }
+    .dayheader {
+      background: #52255E;
+      color: #fff;
+    }
+    .menu {
+      background: rgb(0,29,179);
+      background: radial-gradient(circle, rgba(0,29,179,1) 20%, rgba(82,37,94,1) 80%);
+    }
+    .talktitle {
+      padding-bottom: 125px;
+      padding-top: 16px;
+      padding-left: 16px;
+      background: whitesmoke;
+      margin-bottom: 16px;
+      margin-top: 16px;
+    }
+    .speakerIMG {
+      max-height: 200px;
+    }
+    .talkmeta {
+      font-weight: bold;
+    }
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+    .talklinks a {
+      padding: 0.5em;
+      color: #333;
+    }
+    .talklinks a:hover {
+      background: #2b2d2f;
+      color: white;
+    }
+    .talkdesc {
+      padding: 16px;
+      margin-top: 16px;
+      text-align: left;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background: whitesmoke;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+    .talklist {
+      background: #e5e5e5;
+    }
+    @media screen and (max-width: 599px) {
+      body {
+        font-size: 0.9em;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      .talktitle {
+        text-align: center;
+      }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+</style>
+<title>The D Programming Language Conference Online 2024</title>
+</head>
+
+<body class="w3-justify">
+    <header class="w3-container" id="home">
+      <div id="menu">
+          <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">SCHEDULE</a>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+              <span class="w3-button w3-block">DCONF 2013&ndash;2023</span>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="https://dconf.org/2023/" class="w3-bar-item w3-btn">2023</a>
+                <a href="https://dconf.org/2022/" class="w3-bar-item w3-btn">2022</a>
+                <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn">2019</a>
+                <a href="https://dconf.org/2018/" class="w3-bar-item w3-btn">2018</a>
+                <a href="https://dconf.org/2017/" class="w3-bar-item w3-btn">2017</a>
+                <a href="https://dconf.org/2016/" class="w3-bar-item w3-btn">2016</a>
+                <a href="https://dconf.org/2015/" class="w3-bar-item w3-btn">2015</a>
+                <a href="https://dconf.org/2014/" class="w3-bar-item w3-btn">2014</a>
+                <a href="https://dconf.org/2013/" class="w3-bar-item w3-btn">2013</a>
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+              <span class="w3-button w3-block">DCONF ONLINE</span>
+              <div class="w3-dropdown-content w3-bar-block w3-border">
+                <a href="https://dconf.org/2022/online/" class="w3-bar-item w3-btn">2022</a>
+                <a href="https://dconf.org/2021/online/" class="w3-bar-item w3-btn">2021</a>
+                <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn">2020</a>
+              </div>
+            </div>
+            <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small w3-hide-medium">DLANG.ORG</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-btn w3-right w3-hide-large" onclick="hamburger()">&#9776;</a>
+          </div>
+          <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large">
+            <a href="#schedule" class="w3-bar-item w3-btn w3-block">SCHEDULE</a>
+          </div>
+        </div>
+        <div class="w3-center w3-padding">
+          <img src="./images/logo-512.png" class="w3-image">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container w3-margin-top" id="about">
+      <article class="w3-content">
+        <h1>DConf Online Round 4</h1>
+        <p>
+            The D Language Foundation invites you to join us for the fourth edition of DConf Online on March 16th, 2024! Spend the day with us on <a href="https://www.youtube.com/c/TheDLanguageFoundation">the D Language Foundation&#8217;s YouTube channel</a>. It&#8217;s completely free. No registration is required; all you need is a web browser or the YouTube app, an internet connection, and a YouTube account if you wish to participate in the live chats.
+        </p>
+        <p>
+            In past editions of DConf Online, we ran the livestream and the talks separately. This year, everything is happening in one place:
+        </p>
+        <p>
+            <a href="https://www.youtube.com/live/8GV_TuYk3lk?si=GOENDSVw6LFHT3Qe">The DConf Online &#8216;24 Livestream</a>.
+        </p>
+        <p>    
+            Each talk will go like this:
+
+            <ol>
+              <li>The speaker will join Mike Parker in the livestream for a 10-minute chat about the talk.</li>
+              <li>At 10 minutes past the hour, Mike will launch the talk in the livestream. Viewers will not need to switch away to watch it.</li>
+              <li>The speaker will monitor the livechat while the talk plays and may type out short answers to any questions that come up or defer answering until after the talk.</li>
+              <li>As soon as the talk ends, the speaker will stick around for 10 or 15 minutes to answer questions.</li>
+              <li>When the Q&amp;A session is finished, Mike will announce a break until the top of the hour, when we goto 1.</li>
+            </ol>
+        </p>
+        <p>As with past editions, everyone who has a question answered during the Q&amp;A session will be entered into a drawing to win a swag item. They'll also be entered into a drawing at the end of the day to win a $100 Amazon eGift Card. So be sure to stick around to the end! The livestream link will be posted here and in <a href="https://forum.dlang.org/group/announce">the D Announce forum</a> one week prior to the event.</p>
+
+        <p>Mike will open The DConf Online &#8216;24 livestream at 14:55 UTC. <strong>Note that all times in the below schedule are in UTC.</strong></p>
+      </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container w3-margin-top" id="schedule">
+      <article class="w3-content">
+        <h2>Saturday March 16</h2>
+        <div id="day1" class="w3-container menu w3-padding w3-card-4">
+          <ul class="w3-ul w3-card-4 talklist">
+            <li id="atilan"><a href="#atilan"><strong>15:00 Compiling code is boring and I don&#8217;t want to do it</strong></a>&mdash;
+              by Átila Neves
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2019/images/neves.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  <div class="talklinks">
+                    <a href="./slides/neves.pdf">Slides (PDF)</a>
+                  </div>
+                </div>
+                <p class="talkdesc">This talk will present an aspirational goal for the D language where compiling code is something to be done occasionally to produce binaries instead of the focus of the developer feedback cycle.</p>
+              </div>
+              <p class="bio w3-card">Átila Neves has a PhD in Particle Physics for research done at CERN. Most of the time spent there required programming in C++, with a two-year stint as a Perl programmer on the IT department's security team. He also worked for Cisco for almost seven years, developing networking software in C and C++ and leading his teams in the areas of software quality and testing. He now works as a D consultant/programmer for Symmetry Investments, as well as being the deputy maintainer of the D programming language. He spends his spare time yelling at the screen in frustration while waiting for computers to compile his code.</p>
+            </li>
+            <li id="roberts"><a href="#roberts"><strong>16:00 Analysis of the Design Space of a Container Library for D (Academic rigor or pedanticism? You decide.)</strong></a>&mdash;
+              by Robert Schadek
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/online/images/schadek.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  <div class="talklinks">
+                    <a href="./slides/schadek.pdf">Slides (PDF)</a>
+                  </div>
+                </div>
+                <p class="talkdesc">Everybody wants good containers like C++&#8217;s <code>std:vector</code> in D. But what is &ldquo;good&rdquo;, given the multitude of design choices, language features, user expectations, and their interactions? This talk will analyze this design space, then come up with an answer to the question of what &ldquo;good&rdquo; is, then finally design a &ldquo;good&rdquo; <code>std.vector</code> for D.</p>
+              </div>
+              <p class="bio w3-card">Robert Schadek received a doctorate degree in computer science from the University of Oldenburg. His dissertation was titled &#8216;Analysis and Development of Quorum Protocols for Real-World Network Topologies&#8217; and focused on quorum systems in combination with graphs. Since 2018, he has been happily using D in his day job working for Symmetry Investments.</p>
+            </li>
+            <li id="timong"><a href="#timong"><strong>17:00 Tuples in D</strong></a>&mdash;
+              by Timon Gehr
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2023/images/gehr.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  <div class="talklinks">
+                    <a href="./slides/gehr.pdf">Slides (PDF)</a>
+                  </div>
+                </div>
+              <p class="talkdesc">In this talk, I will present design considerations around tuples, and a number of proposals for how to move forward. I will elaborate and expand upon <a href="https://youtu.be/v-SHpG2rNWM">the second part of my DConf &#8216;23 talk</a>, where I had run out of time.</p>
+              </div>
+              <p class="bio w3-card">Timon Gehr is a postdoctoral researcher at ETH Zürich who has used D to implement a number of tools and programming languages for his research. He has opened almost 1% of all issues on the D issue tracker. He sometimes dabbles in DMD development and has contributed the initial implementation of <code>static foreach</code>.</p>
+            </li>
+            <li id="mikes"><a href="#mikes"><strong>18:00 The Case for Graphics Programming in Dlang</strong></a>&mdash;
+              by Mike Shah
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2022/images/shah.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  <div class="talklinks">
+                    <a href="./slides/shah.pdf">Slides (PDF)</a>
+                  </div>
+                </div>
+                <p class="talkdesc">&#8216;write fast, read fast, and run fast&#8217; is the mantra found on <a href="https://dlang.org/">the D programming language homepage</a>. Notice the word 'fast'—a favorite among game and graphics programmers—is used three times! In this talk I will show how the D programming language can be used for Graphics programming using OpenGL (And I’ll mention Vulkan too!). I’ll show a small graphics demo and highlight how the D programming language was used to make it easier to architect a graphics scene. Viewers of this talk will leave understanding how to setup a basic graphics application and a few tips on why Dlang could be their secret weapon for rapidly building high performance graphics applications.</p>
+              </div>
+              <p class="bio w3-card">Mike discovered computer science at the age of 13 when googling &ldquo;how do I make games&rdquo;. Since that fateful Google search, Mike has worked as a freelance game developer, worked in industry for Intel, Sony PlayStation, Oblong Industries, and researched at The Ohio Supercomputer Center to name a few. Mike cares about building tools to help programmers monitor and improve the performance of real time applications&mdash;particularly any visual multimedia. Mike believes computer science can be learned by all. Mike Shah completed his Ph.D. at Tufts University in 2017 and is an Associate Teaching Professor at Northeastern University. Mike also consults as a 3D Senior Graphics Engineer. In Michael&#8217;s spare time he goes for long runs, plays video games while on his exercise bike, learns guitar, and considers himself an amateur pizza and wine maker. <a href="https://youtube.com/c/MikeShah">Mike&#8217;s YouTube channel</a> covers various graphics and programming including Dlang!</p>
+            </li>
+            <li id="walterb"><a href="#walterb"><strong>19:00 Drinking the Tears of D's Competitors</strong></a>&mdash;
+              by Walter Bright
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/images/bright.jpg">
+                <div class="talkmeta">
+                  Audience: All<br>
+                  <div class="talklinks">
+                    <a href="./slides/bright.pdf">Slides (PDF)</a>
+                  </div>
+                </div>
+                <p class="talkdesc">D, like most modern languages, has builtin types as well as the ability to create user-defined types. Also like most modern languages, the user-defined types are not quite as capable as the builtin ones. This talk is about removing probably the most talked about deficit with user-defined types.
+                </p>
+              </div>
+              <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He&#8217;s an expert in all areas of compiler technology, including front ends, optimizers, code generation, interpreter engines, and runtime libraries. Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.</p>
+            </li>
+          </ul>
+        </div>
+
+      </article>
+    </div>
+    <div class="w3-container w3-center w3-small w3-padding-64">
+      &copy; 2024 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+
+<script>
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+</script>
+  </body>
+</html>

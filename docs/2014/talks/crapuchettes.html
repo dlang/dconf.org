@@ -1,0 +1,105 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+
+<link href="../images/favicon.ico" rel="shortcut icon" />
+<title >DConf 2014 speaker: Jonathan Crapuchettes</title>
+</head>
+<body>
+
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="logo">  <a href="../index.html"><img src="../images/dlogo.png" height="100" alt="DConf 2014" border="0" /></a>
+</div><!-- end <div class="logo"> -->
+
+<div class="menu row_after">  <nav >    <ul id="menu">      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../registration.html">Registration</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact Us</a></li>
+      <li><a href="../../2013">DConf 2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+  <div class="page_left equal hyphenate">
+  <h1 align=left>Templates in the Wild: A Postmortem</h1>
+  <div class="inline vmid">    <img class="stroke" src="https://avatars.githubusercontent.com/u/4846109" height="170" alt="" />
+    <div ><p><b><a href="https://github.com/jcrapuchettes">Jonathan Crapuchettes</a><br />
+      May 21st @ 10:00 AM</b><br><br><i>Duration:</i> 50 minutes<br />
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Intermediate<br />
+      <b></b>
+      <b>Video:&nbsp;<A href="https://youtu.be/5c4A_2IE9Yc">[youtube]</A>&nbsp;<A href="http://www.ustream.tv/recorded/47930242">[alternative]</A><br /></b>
+      <!--a href="#">Powerpoint slides</a--></p>
+    </div><!-- end <div > -->
+  </div><!-- end <div class="inline vmid"> -->
+  <p><b><u>Abstract:</u>&nbsp;</b><I >An industry success story:</I> EMSI needed to improve its data
+processes with n-­dimensional dataset processing, in-­memory data manipulation,
+data type checking, internal testing, and code correctness. D was the language
+of choice because it couples low-­level performance with high-­level design.
+
+<p>EMSI began manipulating economic labor market data using Excel. The company next used SQL for computations, while Excel spreadsheets handled the flow of the operations. As more data sets were incorporated and increasingly complex methodology was added, we moved the flow control to PHP because of its “ease” of development and widespread use. One of the goals when moving to PHP was to allow for quarterly runs of the data processing with just the push of a button. Sadly this goal never came to fruition, but during this time some fundamental concepts regarding data storage structure took shape.</p>
+
+<p>Within a few years the PHP code base had become unwieldy and lacked the kind of internal error­checking that we desperately needed. It was also missing the capacity to manipulate datasets of arbitrary dimensions: up to that point datasets had been two­dimensional (e.g., Area by Industry or Area by Occupation), but demographic measures­­which were becoming increasingly in demand­­added at least two additional dimensions to each dataset. We decided that a new library of dataset structures and manipulation functions needed to be created.</p>
+
+<p>After much debate, D was selected as the language for the new framework. We have been using D since 2007 for some performance-­oriented utilities and appreciated its productive inclusiveness of features from inline assembly to associative arrays in the same clean language. We determined that
+D’s fast compile times, strong static typing, and powerful templating capabilities were ideal for building strongly­-checked and performant data processes. Equally important, D’s high­level features made it accessible to data developers with a wide­range of programming skill and experience.
+</p>
+
+<p>Most importantly, choosing D allowed for the development of five major constructs which today form the basis for our data processing framework: cubes, data storage engines, dimensions, hierarchies, and measures. Cubes encompass data storage engines and offer abstraction layers for particular sets of functionality. Data storage engines hold the dimensions and data nodes for each cube. Dimensions are compile­time concepts that have templated names and hierarchy node types. Hierarchies handle the run­time concepts of classification codes and their levels (e.g., counties to states and states to the nation). Finally, measures are the data contained within each node in the cubes.
+</p>
+
+<p>In applying these constructs, we make heavy use of templated structs, classes, and functions to build custom algorithms at compile­time that are optimized for specific use cases and allow for quicker realization of errors. All in all, D provided a faster, cleaner development of data processes and enabled us to build a framework that met our specific needs while giving us a platform from which we can further develop and improve our processes into the future.
+</p>
+
+<p>I will also be showing examples from our code base of techniques that we have used as well as discussing some of the problems we encountered with D during development.
+</p></p>
+  <p><b><u>Benefits:</u> </b>An inspiring success story that any aspiring D evangelist can learn
+from.</p>
+  <!--p><b><u>Notes:</u> </b> </p-->
+  <p><b><u>Speaker Bio:</u> </b> Jonathan Crapuchettes is a senior programmer at EMSI, a CareerBuilder
+company. He has been developing applications for economic models and data
+manipulation for the last eight years and has been using D since version 1.0 was
+released. He holds a BS in computer science from Eastern Washington University.</p></div><!-- end <div class="page_left equal hyphenate"> -->
+  
+<div class="page_right equal">  <div class="sponsors">    <span class="sp">Keynote Speakers</span><br />
+      <table ><tr >      <td ><a href="../talks/alexandrescu.html">      <img src="../images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" /></a></td>
+      <td ><a href="../talks/meyers.html">      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" /></a></td>
+      <td ><a href="../talks/bright.html">      <img src="../images/bright_134.jpg" width="75" alt="Walter Bright" border="0" /></a></td></tr>
+      <tr align=center><td >Alexandrescu</td> <td >Meyers</td> <td >Bright</td></tr>
+      </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Sponsors</span><br />
+      <a href="http://www.drdobbs.com">
+      <img src="../images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<hr />
+<div align="right">  <font size="-2">    &copy; 2014 http://digitalmars.com |
+    Generated with Ddoc
+  </font>
+</div><!-- end <div align="right"> -->
+</body>
+</html>

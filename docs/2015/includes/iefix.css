@@ -1,0 +1,16 @@
+#menu ul, #menu li {
+	margin: 0px;
+	padding: 0px;
+    letter-spacing: 2px;
+    font-family: "Andale Mono", "Lucida Sans Typewriter", "Lucida Console", monospace;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#menu a {
+	padding: 7px 13px;
+}
+
+.clock {
+	height: 84px;
+}
