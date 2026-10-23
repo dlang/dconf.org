@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="../includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.1em;
+      background-color: whitesmoke;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2, .innerhead {
+      font-family: 'Consolas', 'Inconsolata', monospace;
+      background-color: rgb(57, 57, 57);
+      color: rgb(237, 141, 142);
+      padding: 16px;
+    }
+    .innerhead  {
+      text-align: center;
+    }
+    #menu {
+        background-color: rgb(57, 57, 57);;
+        font-size: 0.9em;
+    }
+    #home {
+      background-color: rgb(57, 57, 57);
+    }
+    .function {
+        color: whitesmoke;
+    }
+    .quote {
+        color: #777;
+    }
+    .w3-ul a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .w3-ul a:hover {
+      text-decoration: underline;
+    }
+    .text-white {
+      color: #fff;
+    }
+    .tabcolor {
+      color:#fff;
+      background-color: rgb(57, 57, 57);
+    }
+    .tablink {
+      min-width: 33%;
+    }
+    .talktitle {
+      padding-bottom: 125px;
+      background-color: lightgray;
+      margin-bottom: 16px;
+    }
+    .speakerIMG {
+      max-height: 250px;
+    }
+    .speaker {
+      font-weight: bold;
+    }
+    .talklinks {
+      font-weight: normal;
+      font-size: large;
+    }
+    .talklinks a {
+      padding: 0.5em;
+      background-color: whitesmoke;
+      color: #2b2d2f;
+      text-decoration: none;
+    }
+    .talklinks a:hover {
+      background-color: #2b2d2f;
+      color: white;
+    }
+    .bio {
+      font-size: 0.8em;
+      font-style: italic;
+      background-color: lightgray;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .toparticle {
+      margin-top: 0.8em;
+    }
+    .strike {
+      text-decoration: line-through;
+    }
+    @media screen and (max-width: 599px) {
+        body {
+            font-size: 0.9em;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .talktitle {
+        text-align: center;
+        }
+    }
+    @media screen and (min-width: 600px) {
+      .talktitle {
+        padding-right: 16px;
+      }
+      .speakerIMG {
+        float: left;
+        clear: left;
+        margin-right: 16px;
+        padding-right: 16px;
+      }
+    }
+</style>
+<title>The D Programming Language Conference 2021</title>
+</head>
+
+<body class="w3-justify">
+    <div class="text-white" id="menu">
+      <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+          <a href="#schedule" class="w3-bar-item w3-btn w3-block w3-hide-small">SCHEDULE</a>
+          <a href="#swag" class="w3-bar-item w3-btn w3-block w3-hide-small">SWAG</a>
+          <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn w3-block w3-hide-small">2020</a>
+          <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn w3-block w3-hide-small">DCONF OFFLINE</a>
+          <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block w3-hide-small">DLANG.ORG</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
+      </div>
+      <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+          <a href="#schedule" class="w3-bar-item w3-btn w3-block">SCHEDULE</a>
+          <a href="#swag" class="w3-bar-item w3-btn w3-block">SWAG</a>
+          <a href="https://dconf.org/2020/online/" class="w3-bar-item w3-btn w3-block">2020</a>
+          <a href="https://dconf.org/2019/" class="w3-bar-item w3-btn w3-block">DCONF OFFLINE</a>
+          <a href="https://dlang.org/" class="w3-bar-item w3-btn w3-block">DLANG.ORG</a>
+      </div>
+    </div>
+
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding-64" style="margin-top: 1.5em;">
+            <!-- <img src="images/logo.jpg" alt="DConf 2020 London Logo" class="w3-image"> -->
+            <h1>
+                <span class="function">writeln(</span><span class="quote">"</span>DConf Online 2021<span class="quote">"</span><span class="function">);</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container toparticle" id="about">
+      <article class="w3-content">
+        <h1 class="w3-center">DConf is Back Online</h1>
+        <p>
+          <a href="https://dlang.org/foundation/index.html">The D Language Foundation</a> hosted DConf Online 2021 <a href="https://www.youtube.com/channel/UC5DNdmeE-_lS6VhCVydkVvQ">on our YouTube channel</a> on <strong>November 20 and 21, 2021</strong>. The event was comprised of <a href="https://www.youtube.com/watch?v=CZSMIqguzNU&list=PLIldXzSkPUXXA0Ephsge-DJEY8o7aZMsR">eight prerecorded talks</a>, <a href="https://www.youtube.com/watch?v=g26eJcs2QB0&list=PLIldXzSkPUXVSD9mrF1rHk2G-6AzdddPk">eight live Q & A sessions</a> (one with each speaker), an Ask Us Anything! session with the lanuage maintainers, and <a href="https://youtu.be/XuYcZPYWbKk">a livecoding session with a proilific D programmer</a>. The schedule below describes each talk and provides links to the prerecorded video, the associated Q & A session, and any slides used.
+        </p>
+        <p>
+          We had a lot of fun bringing DConf Online 2021 to life. Now we're looking to the possibility to bring DConf back to the real world in 2022, and we're already making plans for the next edition of DConf Online! 
+        </p>
+      </article>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="w3-container" id="schedule">
+      <article class="w3-content">
+        <h1 class="w3-center">Schedule</h1>  
+
+        <div class="w3-row w3-center w3-card w3-padding">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day1');" id="day1Schedule">
+              <div class="w3-col s3 tablink">November 20</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'day2');" id="day2Schedule">
+              <div class="w3-col s3 tablink">November 21</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'beerconf');">
+              <div class="w3-col s3 tablink">Livestream & #BeerConf</div>
+            </a>
+        </div>
+
+        <div id="day1" class="w3-container menu w3-padding w3-card-4">
+            <ul class="w3-ul w3-card-4 w3-hide-small" style="background-color: lightgray;">
+              <li>14:00 UTC&mdash;<a href="#atila">D for the 21st Century: Moving fast without breaking things</a> by Átila Neves</li>
+              <li>15:15 UTC&mdash;<a href="#stefan">Fast and Coherent Reflection</a> by Stefan Koch</li>
+              <li>16:30 UTC&mdash;<a href="#brian">Life Outside the Big 4: The Adventure of D on OpenBSD</a> by Brian Callahan</li>
+              <li>17:45 UTC&mdash;<a href="#bradley">Metaprogramming in D</a> by Bradley Chatha</li>
+              <li>19:00 UTC&mdash;<a href="#adam">Livecoding Session</a> by Adam D. Ruppe</li>
+            </ul>
+            <div id="atila" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2019/images/neves.jpg">
+                <h3>D for the 21st Century: Moving fast without breaking things</h3>
+                <p class="speaker">
+                  Átila Neves<br>
+                  Nov 20, 14:00 UTC<br>
+                  <div class="talklinks">
+                    <a href="slides/neves.pptx">Slides (PPTX)</a>
+                    <a href="https://youtu.be/UqW42_8kn0s">Video</a>
+                    <a href="https://youtu.be/g26eJcs2QB0">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>This talk is a brain dump from Átila on his view of the future of D. He believes that D needs to change, and that it's vital that backwards
+              compatibility be maintained as much as possible. In the process, he outlines some of 
+              the major issues D programmers face, shares some thoughts on what's stalling progress, and what some possible future changes could look 
+              like (these possible changes are based on his personal opinions, and are not necessarily reflective of any current plans or strategy in his role as a co-maintainer of the
+              language).</p>
+              <p>On another level, this talk is a call to action for the D community. We have an awesome language that we all would love to be awesomer,
+              but we need a group effort if we want to get there. In the meantime, there's a lot of material here for the post-talk Q & A session, and Átila is eager 
+              to answer your questions!</p>
+
+              <p class="bio w3-card">Átila Neves has a PhD in Particle Physics
+              for research done at CERN. Most of the time spent there required
+              programming in C++, with a two-year stint as a Perl programmer
+              on the IT department's security team. He also worked for Cisco
+              for almost seven years, developing networking software in C and
+              C++ and leading his teams in the areas of software quality and
+              testing. He now works as a D consultant/programmer for Symmetry
+              Investments, as well as being the deputy maintainer of the D
+              programming language. He spends his spare time yelling at the
+              screen in frustration while waiting for computers to compile his
+              code.</p>
+            </div>
+            <div id="stefan" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/online/images/koch.jpg">
+                <h3>Fast and Coherent Reflection</h3>
+                <p class="speaker">
+                  Stefan Koch<br>
+                  Nov 20, 15:15 UTC<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/05j8EHSyGSc">Video</a>
+                    <a href="https://youtu.be/dO9X33OadSU">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>The D programming language provides a number of compile-time traits, both 
+              in the form of built-ins and a standard library API, that D users can employ 
+              in reflecting over their code. But is there a better way?</p>
+
+              <p>In this talk, Stefan will talk about his latest project, <code>core.reflect</code>, a package aimed at making reflection in D more efficient and more coherent by unifying the myriad compile-time traits we currently have in D. The talk will provide a basic overview of the package, describe Stefan's goals for the project, and explain what is currently blocking its completion.</p>
+
+              <p class="bio w3-card">Stefan has been programming in D
+              personally and professionally since 2013. He has taken a special
+              interest in the performance of D’s compile-time features and has
+              been contibuting to DMD for over four years. He has presented
+              either a full talk or a lightning talk at three real-world DConfs,
+              and this is his second DConf Online talk.</p>
+            </div>          
+            <div id="brian" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/callahan.jpg">
+                <h3>Life Outside the Big 4: The Adventure of D on OpenBSD</h3>
+                <p class="speaker">
+                  Brian Callahan<br>
+                  Nov 20, 16:30 UTC<br>
+                  <div class="talklinks">
+                    <a href="slides/callahan.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/4Uu96MEoHqk">Video</a>
+                    <a href="https://youtu.be/6QQl876Wlow">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>For those of us on systems not officially supported by the D Language
+              Foundation (anything other than FreeBSD, Linux, MacOS, Windows), getting up and running with a D compiler on your platform of choice can be a little difficult. Which compiler do I choose? How do I port DRuntime? What about the unique features
+              of my operating system? How do I get help with all this? How do I reduce my
+              maintenance burden over time? Will anyone even care?</p>
+
+              <p>The journey of D from pie-in-the-sky to a package officially offered
+              in the OpenBSD package repository serves as a model story for other
+              platforms who want to offer D to their userbase. We will walk through the
+              many interconnected parts required to get a D package on OpenBSD, what the
+              future is like for D outside the Big 4, how you can get started with D on
+              your platform, and how those of us who enjoy life outside the Big 4 can be
+              a positive force for D and the D community.</p>
+
+              <p class="bio w3-card">Brian Callahan is a professor in the Information Technology
+              & Web Science program at Rensselaer Polytechnic Institute in Troy, NY. His
+              research and teaching focuses on cybersecurity, web science, and the
+              digital humanities. Brian has been an OpenBSD developer since 2013,
+              where he has a long-standing project to port and package every compiler
+              in existence for OpenBSD. He is known in the D community for once having
+              written a popular blog post about getting GDC working on OpenBSD, and
+              for writing a blog series on how to write a Z80 assembler in D.</p>
+            </div>
+            <div id="bradley" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/chatha.jpg">
+                <h3>Metaprogramming in D</h3>
+                <p class="speaker">
+                  Bradley Chatha<br>
+                  Nov 20, 17:45 UTC<br>
+                  <div class="talklinks">
+                    <a href="slides/chatha.odp">Slides (ODP)</a>
+                    <a href="https://youtu.be/0lo-FOeWecA">Video</a>
+                    <a href="https://youtu.be/HIxmxvAarmU">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>D's large array of metaprogramming features can be quite overwhelming, so Bradley has picked out a few usage examples to spark a few ideas in beginning D programmers trying to find their way.</p>
+
+              <p>This talk starts off with a brief overview of templates, then goes on to demonstrate progressively
+              more advanced metaprogramming featurees. Topics covered include Compile Time Function Excecution (CTFE),
+              User Defined Attributes (UDA), traits, static foreach, and more. At the end of the talk, Bradley
+              highlights examples of real-world D projects that make heavy use of metaprogramming.</p>
+
+              <p class="bio w3-card">Bradley has been programming as a hobby since 2012. He choose D as his main language due to its expressiveness and amazing metaprogramming abilities. He has written several meta-heavy libraries and can't live without D's compile-time features. This is his first public talk.</p>
+            </div>
+            <div id="adam" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/online/images/ruppe.jpg">
+                <h3>Livecoding Session</h3>
+                <p class="speaker">
+                  Adam D. Ruppe<br>
+                  Nov 20, 19:00 UTC<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/XuYcZPYWbKk">Livestream</a>
+                  </div>
+                </p>
+              </div>
+              <p>Adam is back for another livecoding session to demonstrate <a
+                href="https://github.com/adamdruppe/arsd">his arsd D libraries</a> and 
+              his personal development process. This year, he intends to continue
+              developing the project he worked on in <a href="https://youtu.be/0VfXqRW0yQo">
+              his DConf Online 2020 livecoding session</a>,
+              a multiplayer online game that runs natively on Windows, Linux, and WebAssembly
+              from the same source.</p>
+
+              <p class="bio w3-card">Adam has been a D user for over
+              thirteen years, known as a frequent participant in D chats, the
+              primary creator of <a
+              href="https://github.com/adamdruppe/arsd">the arsd all-purpose
+              library collection</a>, and the author of <a
+              href="https://www.packtpub.com/product/d-cookbook/9781783287215">the
+              D Cookbook</a>. This is his second livecoding session for DConf Online.</p>
+            </div>
+          </div>
+          <div id="day2" class="w3-container menu w3-padding w3-card-4">            
+            <ul class="w3-ul w3-card-4 w3-hide-small" style="background-color: lightgray;">
+              <li>14:00 UTC&mdash;<a href="#walter">Great Programming with ImportC</a> by Walter Bright</li>
+              <li>15:15 UTC&mdash;<a href="#elijah">A Deep Dive into GPU Text Rendering</a> by Elijah Stone</li>
+              <li>16:30 UTC&mdash;<a href="#robert">GraphQL for D: Do the Boring Things</a> by Robert Schadek</li>
+              <li>17:45 UTC&mdash;<a href="#max">The How and Why of Profiling D Code</a> by Max Haughton</li>
+              <li>19:00 UTC&mdash;<a href="#aua">Livestream: Ask Us Anything!</a> with Walter Bright, Átila Neves, and Razvan Nitu</li>
+            </ul>
+            <div id="walter" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/images/bright.jpg">
+                <h3>Great Programming with ImportC</h3>
+                <p class="speaker">
+                  Walter Bright<br>
+                  Nov 21, 14:00 UTC<br>
+                  <div class="talklinks">
+                    <a href="slides/bright.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/c3kJoFCzA-0">Video</a>
+                    <a href="https://youtu.be/5BVDk0EAMT0">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>The D programming language is designed to have a zero-cost interface
+                to C, but D still needs the corresponding C declarations to be written
+                in D in order for the D compiler to access them. While this is very
+                easy and straightforward, hand-translating 10,000+ lines of C header files
+                gets very tedious very quickly. Mechanical translation of C headers to D
+                has had only limited success.</p>
+                
+                <p>The ideal is for it to &ldquo;just work&rdquo;. The only solid way to get D code to
+                import C declarations is for the D compiler to be able to compile C code directly.</p>
+                
+                <p>Walter has dismissed this approach as unworkable in the past. But the more he
+                thought about, the more he realized he could make it work. After all, he's
+                written a C99 compiler before. He knows how to do it. Piece of cake, right?
+                
+                Walter will talk about the journey of ImportC from inspiration to working implementation. And he would like to thank Iain Buclaw
+                for his invaluable help with ImportC!</p>
+
+              <p class="bio w3-card">Walter Bright is the creator and first implementer of the D programming language and has implemented compilers for several other languages. He's an expert in all
+              areas of compiler technology, including front ends, optimizers,
+              code generation, interpreter engines, and runtime libraries.
+              Walter regularly writes articles about compilers and programming, is known for engaging and informative presentations, and provides training in compiler development techniques. Many are surprised to discover that Walter is also the creator of the wargame Empire, which is still popular today over 30 years after its debut.</p>
+            </div>
+
+            <div id="elijah" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/stone.jpg">
+                <h3>A Deep Dive into GPU Text Rendering</h3>
+                <p class="speaker">
+                  Elijah Stone<br>
+                  Nov 21, 15:15 UTC<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/16-gpcjeN6c">Video</a>
+                    <a href="https://youtu.be/dfJW-KK8kgs">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>This talk covers the primitives used to represent glyphs, a bit
+              of linear algebra, how to rasterize those glyphs, and then how to do it on
+              the GPU.  No graphics knowledge necessary.  Code examples in D!</p>
+
+              <p class="bio w3-card"> Elijah is a self-taught programmer who first discovered D 
+              while looking for a better language than C++ for game development. Graphics
+              programming is somethinghe's always found interesting (though he doesn't know it nearly well enough!) because of the somewhat rigid programming model it forces 
+              upon you, and the performance you get as a result.</p>
+            </div>
+            <div id="robert" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="../../2020/online/images/schadek.jpg">
+                <h3>GraphQL for D: Do the Boring Things</h3>
+                <p class="speaker">
+                  Robert Schadek<br>
+                  Nov 21, 16:30 UTC<br>
+                  <div class="talklinks">
+                    <a href="slides/schadek.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/18_u5bfuNXY">Video</a>
+                    <a href="https://youtu.be/Et5Bs4WtEp0">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>GraphQL is a statically typed query language that is slowly supplanting REST. This talk will focus on D's server implementation.</p>
+
+              <p>graphql-d is an implementation of a GraphQL server.
+              The server receives a GraphQL query and eventually returns JSON.
+              A lot has to happen in between: lexing, parsing, and validating the query is the easy part of this process. How to turn the validated query into JSON with graphql-d, a.k.a. the boring things, will be explained in this presentation.</p>
+
+              <p class="bio w3-card">Robert Schadek received a master's degree
+              in computer science at the University of Oldenburg. His master's
+              thesis was titled &ldquo;DMCD A Distributed Multithreading
+              Caching D Compiler&rdquo; and introduced multi-threading, among
+              other optimizations, to the compiler control flow. He was a
+              computer science PhD student from 2012&ndash;2018 at the
+              University of Oldenburg. His PhD research focused on quorum
+              systems in combination with graphs. Since 2018 he has been
+              happily using D in his day job working for Symmetry
+              Investments</p>
+            </div>
+            <div id="max" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="./images/haughton.jpg">
+                <h3>The How and Why of Profiling D Code</h3>
+                <p class="speaker">
+                  Max Haughton<br>
+                  Nov 21, 17:45 UTC<br>
+                  <div class="talklinks">
+                    <a href="slides/haughton.pdf">Slides (PDF)</a>
+                    <a href="https://youtu.be/6TDZa5LUBzY">Video</a>
+                    <a href="https://youtu.be/SQ9PKy1db7M">Q & A</a>
+                  </div>
+                </p>
+              </div>
+              <p>Max thinks profiling is often badly done, so he wants to provide jumping-off
+              points for people looking for various levels of detail as to what to do. He will
+              include some detail on how processors actually work, partly because it's
+              relevant, but mostly because it's interesting.</p>
+
+              <p>This talk will cover the basics of how to use a profiler and will go in deep on a small section of code and discuss why it performs the way it does. In the
+              the course of the talk, Max will touch on performance-related topics, e.g, memory
+              access and management.</p>
+
+              <p class="bio w3-card">Max Haughton is a Physics student currently moonlighting
+              as a D programmer for Symmetry Investments. He also works on various aspects of D
+              and is affiliated with the D Language Foundation.</p>
+            </div>
+            <div id="aua" class="w3-panel w3-border">
+              <div class="talktitle w3-card-4">
+                <img class="speakerIMG w3-image" src="images/war.jpg">
+                <h3>Livestream: Ask Us Anything!</h3>
+                <p class="speaker">
+                  Walter Bright, Átila Neves, and Razvan Nitu<br>
+                  Nov 21, 19:00 UTC<br>
+                  <div class="talklinks">
+                    <a href="https://youtu.be/H6IOMFmFU8o">Video</a>
+                  </div>
+                </p>
+              </div>
+              <p>DConf wouldn't be DConf, online or otherwise, without the &ldquo;Ask
+              Us Anything!&rdquo; tradition, where the language maintainers step onto
+              the stage to answer any and all questions from the audience. <a href="https://youtu.be/2IEvAdxjMdM">Last year's edition</a> ran just over an hour and covered
+              a variety of topics. This year, we can run as long as we need to since it's the last
+              event on the schedule. </p>
+              
+              <p>This year, we're breaking tradition a bit and bringing a third person into the
+              mix. Razvan Nitu started working this year as the D Language Foundation's 
+              Pull Request and Issue Manager. He has agreed to join in and take any questions 
+              that come his way. And rumor has it that Walter will have a camera this time, so he won't be a disembodied voice like last time. Bring your best queries and show Razvan 
+              just how much fun the DConf AUA can be!</p>
+            </div>
+          </div>          
+          <div id="beerconf" class="w3-container menu w3-padding w3-card-4"> 
+            <h3 class="innerhead">Q & A Livestream</h3>
+            <ul>
+              <li><a href="https://youtu.be/uhxYUyTNZbg">Day One Q & A Livestream</a></li>
+              <li><a href="https://youtu.be/QbGGLoXwIf0">Day Two Q & A Livestream</a></li>
+            </ul>
+            <p>The Q & A Livestream runs nonstop each day in parallel to the prerecorded talks. Five minutes before their talks, the speakers join the livestream 
+            to provide a brief introduction. Once their talks begin, they stay in the livestream for an interview/chat with the DConf Online emcee, and to verbalize
+            their answers to questions asked in the talk's live chat. When their talks end, they remain in the livestream for a 20 - 30 minute post-talk Q & A, where they answer questions from 
+            livestream viewers in the livestream chat.</p>
+            <p>Viewers who ask questions in the post-talk Q & A session are eligible to win prizes such as D-themed t-shirts and cofee mugs, or $25 Amazon eGift cards (announced
+            at the end of each Q & A session). Additionaly, they are elibible to win the daily prize of a $50 Amazon eGift card (announced at the end of each day), and the weekend
+            prize of a $100 eGift card (announced at the end of Day Two).</p>
+            <p><strong>DConf Online 2021 Q & A Livestream Schedule (Day 1 & Day 2)</strong>
+            <ul>
+            <li><strong>13:45 UTC</strong> - livestream opens</li>
+            <li><strong>13:50 UTC</strong> - introduction and announcements from the emcee</li>
+            <li><strong>13:55 UTC</strong> - Q & A session for keynote begins</li>
+            <li><strong>15:10 UTC</strong> - Q & A session for second talk begins</li>
+            <li><strong>16:25 UTC</strong> - Q & A session for third talk begins</li>
+            <li><strong>17:10 UTC</strong> - Q & A session for fourth talk begins</li>
+            </ul></p>
+            <p>On <strong>Day One</strong>, the end of the fourth talk's Q & A session will be the end of the livestream. Adam D. Ruppe's livestream for his livecoding session will open by 
+            19:00 UTC. On <strong>Day Two</strong>, the livestream will remain open after the fourth talk for the Ask Us Anything! session that begins at 19:00 UTC and will end when that finishes at
+            20:00 UTC.</p>
+            <h3 class="innerhead">#BeerConf</h3>
+            <p>The details for joining the DConf Online 2021 BeerConf session <a href="https://forum.dlang.org/post/snava1$1mi4$1@digitalmars.com">are in the D forums</a>.</p>
+            <p>At every real-world DConf, a location near the venue is selected
+            and anointed as the Official After-Hours Gathering Spot. After the
+            last talk each evening, DConf attendees wander in and out, mingling,
+            chatting, and just generally having a good time.
+            <a
+            href="https://dlang.org/blog/2017/04/19/the-dconf-experience/">Ethan
+            Watson coined the term &ldquo;BeerConf&rdquo;</a> to refer to  the event and the name has stuck&mdash;so much so that he and other
+            members of the D community <a
+            href="https://forum.dlang.org/post/krtvrgubmqbnnrequmtq@forum.dlang.org">initiated
+            an online BeerConf</a> after DConf 2020 was canceled due to the
+            coronavirus pandemic. That one-off event was a hit, and it has been
+            running once a month ever since.</p>
+            <p>DConf Online is still DConf, so there still must be a BeerConf.
+            And since it's online, we run it all weekend! The virtual
+            BeerConf for the inaugural DConf Online edition was a lot of fun. We saw more
+            simultaneous participants than in any prior online BeerConf session. The event 
+            has been going strong once a month since then, and we are looking forward to a
+            another great BeerConf experience during DConf Online 2021.</p>
+            <p>Anyone who'd like to join us in our upcoming monthly BeerConf sessions can keep
+            an eye on the <a href="https://forum.dlang.org/group/announce">D Announce Forum</a>.
+            See you there!</p>
+          </div>
+          <div style="margin-top: 16px;"><a href="#schedule">Back to schedule top</a></div>
+      </article>
+    </div>
+
+    <!-- Swag Container -->
+    <div class="w3-container w3-margin-top" id="swag">
+      <article class="w3-content">
+        <h1 class="w3-center">Swag</h1>
+        <p>
+         DConf Online 2021 swag is available for purchase at <a href="https://www.zazzle.com/store/dlang_swag?rf=238129799288374326">the DLang Swag Emporium</a> along with other D-themed items. Royalties from all purchases in the DLang Swag Emporium are directed to the D Language Foundation General Fund. Money from this fund is used to provide free swag to our speakers and prizes to lucky viewers. (<a href="https://www.flipcause.com/hosted_widget/hostedWidgetHome/NDMzMzE=">Direct donations to the General Fund</a> are welcome, too!)
+        </p>
+        <p>
+         Random viewers whose questions were answered in the livestream were awarded a total of three t-shirts, three coffee mugs, and six Amazon eGift cards (three $25, two $50, one $100). See the DConf Online 2021 Q & A videos for the questions that viewers asked and the answers our speakers provided.
+        </p>
+      </article>
+    </div>
+    <div class="w3-container w3-center w3-small">
+      &copy; 2021 <a href="https://dlang.org/foundation.html">The D Language Foundation</a>
+    </div>
+
+<script>
+  // Tabbed Menu
+  function openMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" tabcolor", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " tabcolor";
+  }
+
+  function hamburger() {
+    var x = document.getElementById("small-menu");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+  function pickTab() {
+    const hash = new URL(document.URL).hash;
+    var loc = "day1Schedule";
+    if(hash) {
+      console.log(hash);
+      switch(hash) {
+        case "#walter":
+        case "#elijah":
+        case "#robert":
+        case "#max":
+        case "#aua":
+          loc = "day2Schedule";
+          break;
+        default: break;
+      }
+    }
+    document.getElementById(loc).click();
+  }
+  pickTab();
+
+</script>
+</body>
+</html>
