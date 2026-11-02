@@ -1,0 +1,387 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+
+<link href="../images/favicon.ico" rel="shortcut icon" />
+<title>The D Programming Language Conference 2013</title>
+</head>
+<body>
+<div id="fb-root"></div><!-- end <div id="fb-root"> -->
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="logo">  <a href="../index.html"><img src="../images/logo.png" height="100" width="490" alt="DConf 2013" border="0" /></a>
+</div><!-- end <div class="logo"> -->
+
+<div class="menu row_after">  <nav>
+    <ul id="menu">
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../registration.html">Registration</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+  <div class="page_left equal hyphenate"><br><br>
+<br><br>
+  <h1>Schedule</h1>
+  <table id="schedule" class="green">
+    <tr>
+      <th colspan="3">Day 1: Wednesday May 1, 2013</th>
+    </tr>
+    <tr class="break"><td>8:30 AM - 9:00 AM</td><td colspan=2>Breakfast</td></tr>
+    <tr class="tooltip">
+    <td>9:00 AM</td>
+    <td><a href="../talks/bright.html">Opening Keynote</a><br />
+      Walter Bright<span class="abstract">
+It hardly gets better than listening to D's creator himself!
+Meet Walter Bright, the one and only, and listen to him talk about the
+present and future of the D programming language.</span>
+    </td>
+    <td ><A href=http://slideshare.net/andreialexandrescu1/dconf-2013-opening-keynote-by-walter-bright>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day01-talk01">[HD]</A>&nbsp;<A href="https://www.youtube.com/watch?v=e2F2pqeMLuw">[SD]</A><br /></td>
+  </tr>
+    <tr class="tooltip">
+    <td>10:00 AM</td>
+    <td><a href="../talks/cehreli.html">Copy and Move Semantics in D</a><br />
+      Ali &Ccedil;ehreli<span class="abstract">
+D structs are similar to their counterparts in other languages but they have significant differences as well. The mechanics of copying and moving struct objects are special in D.</span>
+    </td>
+    <td ><A href=../talks/cehreli.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day01-talk02">[HD]</A>&nbsp;<A href="https://youtube.com/watch?v=mPr2UspS0fE">[SD]</A><br /></td>
+  </tr>
+    <tr class="tooltip">
+    <td>11:00 AM</td>
+    <td><a href="../talks/schadek.html">Distributed Caching Compiler for D</a><br />
+      Robert Schadek<span class="abstract">
+<p>Nearly thirty years have passed since the release of the infamous Dragon Book by Aho, Lam, Sethi, and Ullman. Since then the available memory and CPU power has grown by a factor of at least 1000 and 10000 respectively. The use of multiprocessors and fast networks has become the rule rather than the exception. Even though compiler and programming language have advanced greatly in this period of time, their basic design has not been adjusted to reflect the enormous hardware improvements.</p>
+
+<p>In this presentation, which reflects the content of my master thesis, I present a D compiler written in D that exploits these tremendous hardware advances. To utilize multiprocessors the lexer and parser are run in different communicating threads. On top of that different semantic analysis are spread across multiple threads. To speedup compilation, by use of a cache and work distribution among a network, datastructures are created that store results, like the abstract-syntax- tree, in a consecutive chunk of memory. To remove manual labor a lexer- and parser-generator were created that use a custom library that, not only, consists of stl inspired containers.</p>
+
+<p>Besides the conceptual architecture of this new compiler, I will report on the implementation, the use of datastructures and the lessons learned during this project with respect to compiler design as well as the D Programming Language.</p></span>
+    </td>
+    <td ><A href=../talks/schadek.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day01-talk03">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=ITI-fNx1XLI">[SD]</A><br /></td>
+  </tr>
+    <tr class="break"><td>12:00 PM - 1:30 PM</td><td colspan=2>Lunch &amp; Mingling</td></tr>
+    <tr class="tooltip">
+    <td>1:30 PM</td>
+    <td><a href="../talks/gertzfield.html">Writing Testable Code in D</a><br />
+      Ben Gertzfield<span class="abstract">
+<p>Modern large-scale software design often requires ever-growing team
+sizes. As team size scales up, so does the amount of churn (and number
+of bugs introduced) to a code base in a release. Unfortunately, the
+amount of manual developer or QA testing necessary to find those bugs
+scales quadratically (or worse) as N features are tested by hand in M
+configurations. The solution is to keep coders, not QA, responsible
+for maintaining the quality of their individual components, and to
+make it trivial and fast to run just the right tests that cover the
+code the coder changes. D comes pre-baked with lots of tools to make
+this easier, including a standard unit testing harness, but
+there'smuch more we can build on top of that to help write not only
+tests for code, but code that can be tested in an automated fashion.</p>
+
+<p>We'll discuss techniques and tools for designing large-scale
+testable code in D, including unit testing, mocks, fakes, inversion of
+control, and dependency injection.</p></span>
+    </td>
+    <td ><A href=../talks/gertzfield.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day01-talk04">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=V98Z11V7kEY">[SD]</A><br /></td>
+  </tr>
+    
+    <tr class="tooltip">
+    <td>2:30 PM</td>
+    <td><a href="../talks/evans_1.html">Using D Alongside a Game Engine</a><br />
+      Manu Evans<span class="abstract">
+Post-mortem on experiments integrating D with a typical C/C++ game
+engine as an extension language for use processing game logic. Topics
+covered include dynamic C/C++ linkage, memory management, patterns for
+usage as an extension of existing C/C++ code, issues encountered, and
+other hairy details.</span>
+    </td>
+    <td ><A href=../talks/evans_1.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day01-talk05">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=FKceA691Wcg">[SD]</A><br /></td>
+  </tr>
+    <tr class="tooltip">
+    <td>3:30 PM</td>
+    <td><a href="../talks/lucarella.html">Concurrent Garbage Collection for D</a><br />
+      Leandro Lucarella<span class="abstract">
+Stop-the-world garbage collectors can be quite problematic for (soft)
+real-time applications. The pauses introduced can be disruptive to the
+point to make some applications inviable, like games or even low-latency
+servers.
+
+<p>The Concurrent D Garbage Collector (CDGC) was developed mainly to
+address this issue, by making the mark phase run in parallel with the
+actual application, reducing the pause times by 2 orders of magnitude.
+Since our systems at sociomantic labs GmbH require to have very low
+latency at all times, we've been using this collector for almost 2 years
+now with good results.</p>
+
+<p>This presentation gives a brief introduction to garbage collection,
+describes original D's GC implementation details and explains how it has
+been extended to do perform the mark phase in parallel. After showing
+some benchmark results, shortcomings and future work and improvements
+are discussed.</p></span>
+    </td>
+    <td ><A href=../talks/lucarella.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day01-talk06">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=1MF5bcmvJ0o">[SD]</A><br /></td>
+  </tr>
+    <tr class="tooltip">
+    <td>4:30 PM</td>
+    <td><a href="../talks/panel.html">The D Development Process</a><br />
+      Walter Bright, Andrei Alexandrescu, and more<span class="abstract">
+Join us for a lively discussion that's likely to go late into the night over beers. The topic is D's development process&mdash;what are we doing well, what should we improve, and what are the next steps to take?</span>
+    </td>
+    <td >Video:&nbsp;<A href="https://archive.org/details/dconf2013-day01-talk07">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=nws-inqgIvo">[SD]</A><br /></td>
+  </tr>
+  </table>
+<br><br>
+  <table id="schedule" class="orange">
+  <tr>
+    <th colspan="3">Day 2: Thursday May 2, 2013</th>
+  </tr>
+  <tr class="break"><td>8:30 AM - 9:00 AM</td><td colspan=2>Breakfast</td></tr>
+  <tr class="tooltip">
+    <td>9:00 AM</td>
+    <td><a href="../talks/buclaw.html">GDC</a><br />
+      Iain Buclaw<span class="abstract">
+Starting with an introduction to GDC, what works (and doesn't) and
+updates on current progress of development.  Will go on to talk about
+future developments, scope and design.  In particularly focusing on
+the expansion of D, including targeting more architectures, future
+shared library support in the runtime, the implementation of D
+Front-End itself to scale and be platform agnostic, and finally
+getting across the chasm to gain a bigger user base (Andrei said "I
+want 1,000,000 users" back in 2012).  Rounding it up with (an
+interogation :o) Q&A.</span>
+    </td>
+    <td ><A href=../talks/buclaw.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day02-talk01">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=vfgOF5-ztDs">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>10:00 AM</td>
+    <td><a href="../talks/nowak.html">Shared libraries in D</a><br />
+      Martin Nowak<span class="abstract"><p>Where are we?<br>
+I'll give a short overview of the current state of affairs.</p>
+
+<p>Where are we heading?<br>
+I'll take about what I envision to be a good shared library support.</p>
+
+<p>Caveats?<br>
+I'd like to briefly restate shared library pitfalls.</p>
+
+<p>And finally we want to discuss what you'd expect from a good
+shared library support.</p></span>
+    </td>
+    <td ><A href=../talks/nowak.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day02-talk02">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=i63VeudjZM4">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>11:00 AM</td>
+    <td><a href="../talks/wilson.html">C# to D</a><br />
+      Adam Wilson<span class="abstract">
+Breaking up is never easy and taking the plunge opens a Pandora’s Box
+of difficult questions. This talk will answer some of those questions
+and provide direction for anyone looking to convert their C# software
+to D. We will focus on the practical issues that anyone converting
+their project from C# to D will face. These issues include, but are
+not limited to, the differences between C# Namespaces and D Modules,
+Strings, Scoping, Properties, and what to expect while converting from
+the .NET Base Class Library to Phobos. This talk will be code-centric
+featuring real-world examples and how-to’s.</span>
+    </td>
+    <td ><A href=../talks/wilson.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day02-talk03">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=6_xdfSVRrKo">[SD]</A><br /></td>
+  </tr>
+  <tr class="break"><td>12:00 PM - 1:30 PM</td><td colspan=2>Lunch &amp; Mingling</td></tr>
+  <tr class="tooltip">
+    <td>1:30 PM</td>
+    <td><a href="../talks/panteleev.html">Web Development in D</a><br />
+      Vladimir Panteleev<span class="abstract">
+With its speed, safety, and expressiveness, D excels for web
+development. However, D is not yet thought of as a compelling choice
+in that area. The best D tools and techniques for web development are
+young and not well known at this time. This talk will fix that by
+providing an overview of the web development libraries, solutions and
+techniques available to D users today.</span>
+    </td>
+    <td ><A href=../talks/panteleev.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day02-talk04">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=Zs8O7MVmlfw">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>2:30 PM</td>
+    <td><a href="../talks/schuetze.html">A Precise Garbage Collector for D</a><br />
+      Rainer Sch&uuml;tze<span class="abstract">
+<p>Though optional to some extent, garbage collection simplifies
+programming considerably and is a major building block for a number of
+features of the D programming language like slices and delegate
+closures. The current garbage collector implemented in the D runtime
+library is conservative, limiting the possibility to detect false
+pointer references leading to unused memory leaking and polluting the
+address space, especially in 32-bit environments.</p>
+
+<p>This presentation describes the implementation of a precise
+garbage collector for D that takes advantage of building necessary
+type information at compile time via the existing RTInfo compiler
+hook. Modifications to the D runtime library are discussed and
+compiler modifications are proposed to support precise scanning the
+data and TLS segments in addition to heap allocated memory.</p></span>
+    </td>
+    <td ><A href=../talks/schuetze.pdf>Slides</A><br />Video:&nbsp;<A href="https://archive.org/details/dconf2013-day02-talk05">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=LQY1m_eT37c">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>3:30 PM</td>
+    <td><a href="../talks/chevalier_boisvert.html">Higgs, an Experimental JIT Compiler written in D</a><br />
+      Maxime Chevalier-Boisvert<span class="abstract">
+Just-in-time (JIT) compilers are highly complex pieces of software which
+manipulate symbolic representations of code at multiple levels of
+abstraction, generate machine instructions, and introspect the state of
+programs at execution time. We present an experience report on the usage
+of   D in implementing Higgs, an optimizing JIT compiler for JavaScript.
+We discuss how various features of D did or did not address our technical
+and practical concerns and provide some recommendations for future
+development of the language.</span>
+    </td>
+    <td ><A href=../talks/chevalier_boisvert.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day02-talk06">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=hJUNHX0vakI">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>4:30 PM</td>
+    <td><a href="../talks/edwards.html">Falling Down: the birth of &#8491;ker&ouml;n</a><br />
+      Andrew Edwards<span class="abstract">
+A presentation about the the birth of &#8491;ker&ouml;n.</span>
+    </td>
+    <td ></td>
+  </tr>
+  </table>
+<br><br>
+  <table id="schedule" class="purple">
+  <tr>
+    <th colspan="3">Day 3: Friday May 3, 2013</th>
+  </tr>
+  <tr class="break"><td>8:30 AM - 9:00 AM</td><td colspan=2>Breakfast</td></tr>
+  <tr class="tooltip">
+    <td>9:00 AM</td>
+    <td><a href="../talks/clugston.html">Metaprogramming in the Real World</a><br />
+      Don Clugston<span class="abstract">
+<p>Sociomantic Labs is a global leader in real-time bidding for online
+display advertising. Our codebase is not only written entirely in D,
+but also makes extensive use of generic programming, even in
+application-level code. Compile-time metaprogramming techniques have a
+reputation of being akin to sorcery, incomprehensible to all but an
+elite group of top-notch library developers. Yet we have found that
+even developers with no prior knowledge of D have been able to master
+the compile-time aspects of the language in a remarkably short period
+of time.</p>
+
+<p>This presentation will review the history of this part of the
+language, to explain exactly how and why generic programming D has
+become so accessible in practice. Drawing from Sociomantic's
+experience with D, I'll discuss the areas where reality differs from
+expectations. Accessible metaprogramming has huge implications for the
+future commercial growth of D, and our real-world experience will help
+the D community to further exploit this strength.</p></span>
+    </td>
+    <td ><A href=../talks/clugston.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day03-talk01">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=pmwKRYrfEyY">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>10:00 AM</td>
+    <td><a href="../talks/rohe.html">Code Analysis for D with AnalyzeD</a><br />
+      Stefan Rohe<span class="abstract">
+<p>Professional Programming in teams requires a common clean coding
+style. This could be enforced using code reviews, but the simpler and
+less offensive way to achieve this is by using a tool as style cop. It
+helps spreading the conventions about the language in the team and
+assisting new team members in easily adopt to the programming style by
+getting fast feedback on their code. Having such a static code
+analyzer refactoring becomes easier, because it reminds about now
+unused variables, unused parameters or other refactoring artefacts.</p>
+
+<p>This talk will introduce you to <a href="http://analyzed.no-ip.org">AnalyzeD</a>,
+explain you how it's working, and give you an outline about what's planned.</p>
+
+<p>AnalyzeD is currently used for checking 250kLOC of production code against <a href="http://analyzed.no-ip.org/conventions">programming conventions</a> and determines metrics.ent state and what is planned to develop/release.</p></span>
+    </td>
+    <td ><A href=../talks/rohe.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day03-talk02">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=ph_uU7_QGY0">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>11:00 AM</td>
+    <td><a href="../talks/simcha.html">D-Specific Design Patterns</a><br />
+      David Simcha<span class="abstract">
+The D programming language offers a variety of abstractions not found
+together in any other language.  In particular, D's compile time
+metaprogramming facilities are a game changer, especially when
+combined with its low-level programming capabilities.  This session
+explores design patterns that have emerged from my code, my former
+GSoC students' code and code written by other Phobos contributors.  It
+attempts to codify some of the more useful patterns that are currently
+known only informally and only to a small group of hardcore D users.</span>
+    </td>
+    <td >Video:&nbsp;<A href="http://archive.org/details/dconf2013-day03-talk03">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=yMNMV9JlkcQ">[SD]</A><br /></td>
+  </tr>
+  <tr class="break"><td>12:00 PM - 1:30 PM</td><td colspan=2>Lunch &amp; Mingling</td></tr>
+  <tr class="tooltip">
+    <td>1:30 PM</td>
+    <td><a href="../talks/nadlinger.html">LDC</a><br />
+      David Nadlinger<span class="abstract">
+LDC is a fully open source, portable D compiler based on the
+same front-end as DMD, but leveraging the LLVM compiler infrastructure
+for optimization and code generation. Development activity has
+resurged recently, and this talk will start out with an overview of
+the current status, focussing on spec compliance, performance and
+platform support. In the second half, after a cursory look at the
+internal workings of the compiler, the talk will recap the current
+situation from a developer point of view, including our experiences
+regarding the use of DMD in an external project. Finally, future plans
+and open issues will be discussed, with a specific emphasis on
+cross-compiler compatibility.</span>
+    </td>
+    <td ><A href=../talks/nadlinger.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day03-talk04">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=ntdKZWSiJdY">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>2:30 PM</td>
+    <td><a href="../talks/evans_2.html">Effective SIMD for modern architectures</a><br />
+      Manu Evans<span class="abstract">
+Efficient and portable implementation of SIMD algorithms in D using
+<tt>core.simd</tt> and <tt>std.simd</tt>.</span>
+    </td>
+    <td ><A href=../talks/evans_2.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day03-talk05">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=q_39RnxtkgM">[SD]</A><br /></td>
+  </tr>
+  <tr class="tooltip">
+    <td>3:30 PM</td>
+    <td><a href="../talks/alexandrescu.html">Quo Vadis?</a><br />
+      Andrei Alexandrescu<span class="abstract">
+In this closing note, Andrei discusses hot topics in D's development and
+the language's present and future.</span>
+    </td>
+    <td ><A href=../talks/alexandrescu.pdf>Slides</A><br />Video:&nbsp;<A href="http://archive.org/details/dconf2013-day03-talk06">[HD]</A>&nbsp;<A href="http://youtube.com/watch?v=4M-0LFBP9AU">[SD]</A><br /></td>
+  </tr>
+  </table>
+
+</div><!-- end <div class="page_left equal hyphenate"> -->
+  
+  
+<div class="page_right equal">  <div class="sponsors">    <span class="sp">Sponsors</span><br />
+      <a href="http://sociomantic.com">
+      <img src="../images/s_sociomantic.png" width="220" alt="Sociomantic" border="0" /></a><br />
+      <a href="http://remedygames.com"><img src="../images/s_remedy.png" width="219" width="32" alt="Remedy Games" border="0" /></a><br />
+      <a href="../kickstarter/index.html" class="sp ks">Kickstarter Contributors &#x25B8;</a>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+    <div class="inside" id="twit"><script language="javascript" type="text/javascript" src="../includes/twitter.js"></script></div><!-- end <div class="inside" id="twit"> -->
+  </div><!-- end <div class="twitter"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<hr />
+<div align="right">  <font size="-2">    &copy; 2013 http://digitalmars.com |
+    Generated with Ddoc
+  </font>
+</div><!-- end <div align="right"> -->
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="includes/w3.css" rel="stylesheet" type="text/css">
+<style>
+    body, html {
+      height: 100%;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 1.1em;
+      background-color: #fff;
+    }
+    article {
+      max-width: 700px;
+      margin-bottom: 32px;
+    }
+    h1, h2, h3, h4 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      background-color: #012169!important;
+      color: #fff!important;
+    }
+    .text-white {
+      color: #fff!important;
+    }
+</style>
+<title>The D Programming Language Conference 2020</title>
+</head>
+
+<body class="w3-justify">
+    <!-- Links (sit on top) -->
+    <div class="w3-top text-white" style="background-color: #012169; font-size: 0.9em;">
+      <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-btn w3-block">HOME</a>
+          <a href="https://www.dconf.org/2019" class="w3-bar-item w3-btn w3-block w3-hide-small">2019</a>
+          <a href="https://www.dconf.org/2018" class="w3-bar-item w3-btn w3-block w3-hide-small">2018</a>
+          <a href="https://www.dconf.org/2017" class="w3-bar-item w3-btn w3-block w3-hide-small">2017</a>
+          <a href="https://www.dconf.org/2016" class="w3-bar-item w3-btn w3-block w3-hide-small">2016</a>
+          <a href="https://www.dconf.org/2015" class="w3-bar-item w3-btn w3-block w3-hide-small">2015</a>
+          <a href="https://www.dconf.org/2014" class="w3-bar-item w3-btn w3-block w3-hide-small">2014</a>
+          <a href="https://www.dconf.org/2013" class="w3-bar-item w3-btn w3-block w3-hide-small">2013</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="hamburger()">&#9776;</a>
+      </div>
+      <div id="small-menu" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+          <a href="https://www.dconf.org/2019" class="w3-bar-item w3-btn w3-block">2019</a>
+          <a href="https://www.dconf.org/2018" class="w3-bar-item w3-btn w3-block">2018</a>
+          <a href="https://www.dconf.org/2017" class="w3-bar-item w3-btn w3-block">2017</a>
+          <a href="https://www.dconf.org/2016" class="w3-bar-item w3-btn w3-block">2016</a>
+          <a href="https://www.dconf.org/2015" class="w3-bar-item w3-btn w3-block">2015</a>
+          <a href="https://www.dconf.org/2014" class="w3-bar-item w3-btn w3-block">2014</a>
+          <a href="https://www.dconf.org/2013" class="w3-bar-item w3-btn w3-block">2013</a>
+      </div>
+    </div>
+
+    <header class="w3-container" id="home">
+        <div class="w3-center w3-padding-64" style="margin-top: 1.5em;">
+              <img src="images/logo.png" alt="DConf 2020 London Logo" class="w3-image">
+        </div>
+    </header>
+
+    <!-- About Container -->
+    <div class="w3-container toparticle" id="about">
+      <article class="w3-content">
+        <h1 class="w3-center">DConf 2020 Canceled</h1>
+        <p>Due to the COVID-19 pandemic, <a href="https://dlang.org/foundation/index.html">the D Language Foundation</a> and our DConf 2020 sponsors,
+          <a href="https://symmetryinvestments.com/">Symmetry Investments</a>, came to the painful but correct decision to cancel DConf 2020. We
+          hope to bring DConf back as soon as possible, be that in 2021 or some later date.
+        </p>
+        <p>
+          In the meantime, we've started a new tradition. <a href="https://dconf.org/2020/online/index.html">DConf Online 2020</a> took place
+          November 21 & 22, 2020. Details can be found on <a href="https://dconf.org/2020/online/index.html">the DConf Online 2020 home page</a>.
+        </p>
+      </article>
+    </div>
+
+    <script>
+    function hamburger() {
+      var x = document.getElementById("small-menu");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+</body>
+</html>

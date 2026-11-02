@@ -1,0 +1,106 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+
+<link href="../images/favicon.ico" rel="shortcut icon" />
+<title >DConf 2014 speaker: Adam Ruppe</title>
+</head>
+<body>
+
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="logo">  <a href="../index.html"><img src="../images/dlogo.png" height="100" alt="DConf 2014" border="0" /></a>
+</div><!-- end <div class="logo"> -->
+
+<div class="menu row_after">  <nav >    <ul id="menu">      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../registration.html">Registration</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact Us</a></li>
+      <li><a href="../../2013">DConf 2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+  <div class="page_left equal hyphenate">
+  <h1 align=left>x86 Bare Metal and Custom Runtime Programming</h1>
+  <div class="inline vmid">    <img class="stroke" src="http://graph.facebook.com/1056450962/picture?type=large" height="170" alt="" />
+    <div ><p><b><a href="https://github.com/adamdruppe">Adam Ruppe</a><br />
+      May 23rd @ 11:00 AM</b><br><br><i>Duration:</i> 50 minutes<br />
+      <i>Talk type:</i> Presentation<br />
+      <i>Level:</i> Intermediate, Advanced<br />
+      <b></b>
+      <b>Video:&nbsp;<A href="https://youtu.be/lu5TTvnvDSI">[youtube]</A>&nbsp;<A href="https://archive.org/details/dconf2014-day03-talk03">[alternative]</A><br /></b>
+      <!--a href="#">Powerpoint slides</a--></p>
+    </div><!-- end <div > -->
+  </div><!-- end <div class="inline vmid"> -->
+  <p><b><u>Abstract:</u>&nbsp;</b>
+"kernel in D" is a fairly common topic on forums. I've
+written a minimal runtime and then rebuilt it back up to the point
+where we can produce a ~30 KB stand-alone executable which can be used
+on Linux or on bare metal with the support of a decently large subset
+of the language (classes, exceptions, even closures with some manual
+care). By creatively hacking the RTInfo facility in <tt>object.d</tt>, we can
+also perform some static checks on defined types to help confirm to
+performance or correctness checks.
+
+<p>For example, storing a slice without the GC is prone to losing track
+of who owns the memory. Using RTInfo and compile time reflection, we
+can scan all user types and issue a compile error any time this is
+done, directing the user to use an owned array struct instead.</p>
+
+<p>It is also worth noting that such techniques may be usable in the full
+druntime as well, without stepping on other uses, e.g. precise GC.</p></p>
+  <p><b><u>Benefits:</u> </b>
+Get acquianted with what really makes D tick - its core runtime library.</p>
+  <!--p><b><u>Notes:</u> </b> </p-->
+  <p><b><u>Speaker Bio:</u> </b> 
+I've been a freelance programmer since 2009, using primarily
+D as a server-side web language. For the last several months,
+I have also been working on writing a D "cookbook" for people
+to learn the language through practical examples. I joined the
+D community in 2007 and started programming (with assembly
+language and Digital Mars C) in 1999. My open source and hobbyist
+experience covers a wide spectrum of programming related fields
+from bare metal code to compilers to homemade games.</p></div><!-- end <div class="page_left equal hyphenate"> -->
+  
+<div class="page_right equal">  <div class="sponsors">    <span class="sp">Keynote Speakers</span><br />
+      <table ><tr >      <td ><a href="../talks/alexandrescu.html">      <img src="../images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" /></a></td>
+      <td ><a href="../talks/meyers.html">      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" /></a></td>
+      <td ><a href="../talks/bright.html">      <img src="../images/bright_134.jpg" width="75" alt="Walter Bright" border="0" /></a></td></tr>
+      <tr align=center><td >Alexandrescu</td> <td >Meyers</td> <td >Bright</td></tr>
+      </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Sponsors</span><br />
+      <a href="http://www.drdobbs.com">
+      <img src="../images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<hr />
+<div align="right">  <font size="-2">    &copy; 2014 http://digitalmars.com |
+    Generated with Ddoc
+  </font>
+</div><!-- end <div align="right"> -->
+</body>
+</html>

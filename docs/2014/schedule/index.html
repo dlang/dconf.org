@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../includes/style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="../includes/jquery.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="../includes/widget.js"></script>
+<script language="javascript" type="text/javascript" src="https://dlang.org/js/hyphenate.js"></script>
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/iefix.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="../includes/ie8.css" />
+<![endif]-->
+
+<link href="../images/favicon.ico" rel="shortcut icon" />
+<title >The D Programming Language Conference 2014</title>
+</head>
+<body>
+<div id="fb-root"></div><!-- end <div id="fb-root"> -->
+<script language="javascript" type="text/javascript" src="../includes/facebook.js"></script>
+<div id="container">  
+<div class="logo">  <a href="../index.html"><img src="../images/dlogo.png" height="100" alt="DConf 2014" border="0" /></a>
+</div><!-- end <div class="logo"> -->
+
+<div class="menu row_after">  <nav >    <ul id="menu">      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li><a href="../schedule/index.html">Schedule</a></li>
+      <li><a href="../registration.html">Registration</a></li>
+      <li><a href="../speakers/index.html">Speakers</a></li>
+      <li><a href="../venue.html">Venue</a></li>
+      <li><a href="../contact.html">Contact Us</a></li>
+      <li><a href="../../2013">DConf 2013</a></li>
+    </ul>
+  </nav>
+</div><!-- end <div class="menu row_after"> -->
+  <div class="page_left equal hyphenate"><br><br>
+<br><br>
+<h1 >Schedule</h1>
+<br><br>
+<table id="schedule" class="green">  <TR >      <th colspan="3">Day 1: Wednesday May 21, 2014</th>
+  </TR>
+  <tr class="break"><td >8:30 AM - 9:00 AM</td><td colspan=2>Breakfast</td></tr>
+  <tr class="tooltip">    <td >9:00 AM</td>
+    <td ><a href="../talks/alexandrescu.html">Opening Keynote: State of the <tt>struct</tt> address</a><br />
+      Andrei Alexandrescu<span class="abstract">
+Allocators. The state of D adoption at Facebook. Priorities. Vision. All of these and more will be discussed in this highly interactive presentation.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >10:00 AM</td>
+    <td ><a href="../talks/crapuchettes.html">Templates in the Wild: A Postmortem</a><br />
+      Jonathan Crapuchettes<span class="abstract"><I >An industry success story:</I> EMSI needed to improve its data
+processes with n-­dimensional dataset processing, in-­memory data manipulation,
+data type checking, internal testing, and code correctness. D was the language
+of choice because it couples low-­level performance with high-­level design.
+
+<p>EMSI began manipulating economic labor market data using Excel. The company next used SQL for computations, while Excel spreadsheets handled the flow of the operations. As more data sets were incorporated and increasingly complex methodology was added, we moved the flow control to PHP because of its “ease” of development and widespread use. One of the goals when moving to PHP was to allow for quarterly runs of the data processing with just the push of a button. Sadly this goal never came to fruition, but during this time some fundamental concepts regarding data storage structure took shape.</p>
+
+<p>Within a few years the PHP code base had become unwieldy and lacked the kind of internal error­checking that we desperately needed. It was also missing the capacity to manipulate datasets of arbitrary dimensions: up to that point datasets had been two­dimensional (e.g., Area by Industry or Area by Occupation), but demographic measures­­which were becoming increasingly in demand­­added at least two additional dimensions to each dataset. We decided that a new library of dataset structures and manipulation functions needed to be created.</p>
+
+<p>After much debate, D was selected as the language for the new framework. We have been using D since 2007 for some performance-­oriented utilities and appreciated its productive inclusiveness of features from inline assembly to associative arrays in the same clean language. We determined that
+D’s fast compile times, strong static typing, and powerful templating capabilities were ideal for building strongly­-checked and performant data processes. Equally important, D’s high­level features made it accessible to data developers with a wide­range of programming skill and experience.
+</p>
+
+<p>Most importantly, choosing D allowed for the development of five major constructs which today form the basis for our data processing framework: cubes, data storage engines, dimensions, hierarchies, and measures. Cubes encompass data storage engines and offer abstraction layers for particular sets of functionality. Data storage engines hold the dimensions and data nodes for each cube. Dimensions are compile­time concepts that have templated names and hierarchy node types. Hierarchies handle the run­time concepts of classification codes and their levels (e.g., counties to states and states to the nation). Finally, measures are the data contained within each node in the cubes.
+</p>
+
+<p>In applying these constructs, we make heavy use of templated structs, classes, and functions to build custom algorithms at compile­time that are optimized for specific use cases and allow for quicker realization of errors. All in all, D provided a faster, cleaner development of data processes and enabled us to build a framework that met our specific needs while giving us a platform from which we can further develop and improve our processes into the future.
+</p>
+
+<p>I will also be showing examples from our code base of techniques that we have used as well as discussing some of the problems we encountered with D during development.
+</p></span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >11:00 AM</td>
+    <td ><a href="../talks/allison.html">A Real D In Programming: Lessons Learned From Eight Years of Teaching D at the University</a><br />
+      Chuck Allison<span class="abstract">Tales from eight years of downloading D mastery into the brains
+of computer science undergraduates.
+
+<p>The presenter teaches a senior-level course at Utah Valley University on the
+Analysis of Programming Languages that includes a D-programming component. Come see the
+result of eight years of honing pedagogical material and projects that covers D
+from soup to nuts, including the following topics and more: CFTE, UFCS, D’s
+generics, pass-by-name with alias, coroutines via fibers, alias this, the scope
+statement, contract programming, mixins, Variant and Algebraic, Nullable,
+functional programming, and concurrency and infinite streams via message
+passing.</p></span>
+    </td>
+    
+  </tr>
+  <tr class="break"><td >12:00 PM - 1:30 PM</td><td colspan=2>Lunch &amp; Mingling</td></tr>
+  <tr class="tooltip">    <td >1:30 PM</td>
+    <td ><a href="../talks/olshansky.html">Inside the Regular Expressions in D</a><br />
+      Dmitry Olshansky<span class="abstract">
+Take a sneak peek at a regular expression engine internals.
+Learn how simple and effective a metaprogramming could be, by observing D's std.regex library unique features described in great detail.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >2:30 PM</td>
+    <td ><a href="../talks/simpkins.html">Experience Report: Using D at Facebook and Beyond</a><br />
+      Adam Simpkins<span class="abstract">
+Explore Facebook's experiences integrating D into existing
+C++-based infrastructure.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >3:30 PM</td>
+    <td ><a href="../talks/neves.html">Case Studies In Simplifying Code With Compile-Time Reflection</a><br />
+      Atila Neves<span class="abstract">
+This talk will show how the power of compile-time reflection and user
+defined attributes in D can be leveraged to reduce the number of lines of code
+that need to be written. Two real-life case studies will be presented showing
+how their D incarnations are better than the C++11 ones that inspired them.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >4:30 PM</td>
+    <td ><a href="../talks/panel.html">It's Payback Time!</a><br />
+      Walter Bright, Andrei Alexandrescu, and more<span class="abstract">
+Dislike this or that feature or decision made by the language leaders? Ever pounded your keyboard in frustration watching an exchange on the <a href="http://forum.dlang.org/group/digitalmars.D">forum</a>? Really, what were they <i>thinking</i>? Well, it's payback time. They'll be out there for the roasting. Ask them anything, and hold no punches!</span>
+    </td>
+    
+  </tr>
+</table>
+<br><br>
+<table id="schedule" class="orange">  <tr>
+    <th colspan="3">Day 2: Thursday May 22, 2014</th>
+  </tr>
+  <tr class="break"><td >8:30 AM - 9:00 AM</td><td colspan=2>Breakfast</td></tr>
+  <tr class="tooltip">    <td >9:00 AM</td>
+    <td ><a href="../talks/meyers.html">Keynote: The Last Thing D Needs</a><br />
+      Scott Meyers<span class="abstract">
+Based on his 25 years of experience with C++, Scott Meyers will offer a recommendation&mdash;almost a plea&mdash;regarding the D programming language and its community.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >10:00 AM</td>
+    <td ><a href="../talks/chevalier_boisvert.html">Refactoring JIT Compilation</a><br />
+      Maxime Chevalier-Boisvert<span class="abstract">
+Higgs, a JIT compiler for JavaScript written in D, was presented at DConf 2013.
+Basic block versioning, a novel optimization technique in early stages of
+testing at the time, was also introduced. Experimental results demonstratring
+how basic block versioning fares on multiple metrics across a variety of
+benchmarks can now be shown. We discuss how we have interpreted these results
+to inform further development of Higgs and introduce a JIT compiler
+architecture based on the idea of lazy/incremental compilation and inlining.
+We also explore how D has influenced the development of Higgs and take a more
+in-depth look at how various D features such as templates and CTFE are used in
+the Higgs implementation.</span>
+    </td>
+    
+  </tr>
+  
+  <tr class="tooltip">    <td >11:00 AM</td>
+    <td ><a href="../talks/wilson.html">Designing an Aurora: A Glimpse at the Graphical Future of D</a><br />
+      Adam Wilson<span class="abstract">
+Aurora is a brand new Graphics Toolkit written specifically for D and designed for developers with limited to no experience writing graphics code. This presentation is intended to introduce the community to Aurora, demonstrate progress to date, and solicit discussion about the future direction of Aurora and the obstacles that it faces.</span>
+    </td>
+    
+  </tr>
+  <tr class="break"><td >12:00 PM - 1:30 PM</td><td colspan=2>Lunch &amp; Mingling</td></tr>
+  <tr class="tooltip">    <td >1:30 PM</td>
+    <td ><a href="../talks/panteleev.html">Reducing D bugs</a><br />
+      Vladimir Panteleev<span class="abstract">
+This talk confronts some of the challenges encountered by D users and
+developers, such as narrowing down implementation bugs and other problems
+difficult to diagnose conventionally. Topics covered include DustMite, the
+source code minimization tool, Git and its use in D development, as well as a
+miscellanea of other tools of related purpose.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >2:30 PM</td>
+    <td ><a href="../talks/roberts.html">Tooling: Bringing Developers and Development Together</a><br />
+      Brad Roberts<span class="abstract">
+Once any project grows beyond one or two developers automation and communication becomes increasingly important.  This talk will cover the past, present, and a little bit of the future of what exists in the D community today.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >3:30 PM</td>
+    <td ><a href="../talks/buclaw.html">Debugging in D</a><br />
+      Iain Buclaw<span class="abstract">
+Talk about steps and processes used to get (near) complete
+D support in GDB and Binutils.  From recognising primitive types to
+writing a D-style expression parser to run D code interactively with
+the program in debug.  And if using a black and white TUI is not your
+idea of debugging, there's D syntax highlighting support in CGDB on
+show too.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >4:30 PM</td>
+    <td ><a href="../talks/franklin.html">Tiny, Ubiquitous Machines Powered by D</a><br />
+      Michael V. Franklin<span class="abstract">
+Microcontrollers (MCUs) offer a unique and challenging set of constraints for any programming language. They are not fast (10's to low 100's of MHz), they have very little storage (100's of KB) and have even less RAM. Due to these extremely limited resources, languages used to program these tiny, ubiquitous machines must generate the most efficient code in terms of both size and speed. This talk will show that D can program microcontrollers just as well, if not better than the current de facto languages, and will detail progress on the recently launched effort bring D to the ARM Cortex-M family of MCUs.</span>
+    </td>
+    
+  </tr>
+</table>
+<br><br>
+  <table id="schedule" class="purple">
+  <tr>
+    <th colspan="3">Day 3: Friday May 23, 2014</th>
+  </tr>
+  <tr class="break"><td >8:30 AM - 9:00 AM</td><td colspan=2>Breakfast</td></tr>
+  <tr class="tooltip">    <td >9:00 AM</td>
+    <td ><a href="../talks/bright.html">Keynote: High Performance Code Using D</a><br />
+      Walter Bright<span class="abstract">
+Memory safety, powerful abstractions, and fast compilation are great features
+to have. But what about high performance code? This talk shows how D can deliver
+on generating highly competitive, no-compromise performance applications.
+Conventional wisdom says that high performance and powerful abstractions are
+in conflict with each other, that one must write close-to-the-metal code to get
+high performance. Bright will show that this is no longer true with a modern
+high level language like D.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >10:00 AM</td>
+    <td ><a href="../talks/clugston.html">Real-Time Big Data in D</a><br />
+      Don Clugston<span class="abstract">
+"Big Data" applications, which process petabytes of data per year, are
+computationally demanding, yet they have different requirements from
+traditional performance-critical applications. A programming language which
+is well suited for CPU-bound code, isn't necessarily ideal for real-time Big
+Data.
+
+<p>At Sociomantic Labs, we consume a deluge of real time data every day using
+an all-D technology stack. This talk will explain how our use of D has been
+successful in our intensely competitive industry.
+Unfortunately, most existing D libraries were not designed for Big Data
+applications. I'll discuss the performance killers they contain,
+and propose some changes to make D the natural choice for Big Data tasks.</p></span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >11:00 AM</td>
+    <td ><a href="../talks/ruppe.html">x86 Bare Metal and Custom Runtime Programming</a><br />
+      Adam Ruppe<span class="abstract">
+"kernel in D" is a fairly common topic on forums. I've
+written a minimal runtime and then rebuilt it back up to the point
+where we can produce a ~30 KB stand-alone executable which can be used
+on Linux or on bare metal with the support of a decently large subset
+of the language (classes, exceptions, even closures with some manual
+care). By creatively hacking the RTInfo facility in <tt>object.d</tt>, we can
+also perform some static checks on defined types to help confirm to
+performance or correctness checks.
+
+<p>For example, storing a slice without the GC is prone to losing track
+of who owns the memory. Using RTInfo and compile time reflection, we
+can scan all user types and issue a compile error any time this is
+done, directing the user to use an owned array struct instead.</p>
+
+<p>It is also worth noting that such techniques may be usable in the full
+druntime as well, without stepping on other uses, e.g. precise GC.</p></span>
+    </td>
+    
+  </tr>
+  <tr class="break"><td >12:00 PM - 1:30 PM</td><td colspan=2>Lunch &amp; Mingling</td></tr>
+  <tr class="tooltip">    <td >1:30 PM</td>
+    <td ><a href="../talks/dilly.html">Mobile Gameserver Backend in D</a><br />
+      Stephan Dilly<span class="abstract">
+A gameserver backend that I have developed for a mobile game app project. The server is completely written in D using the <tt>vibe.d</tt> framework.</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >2:30 PM</td>
+    <td ><a href="../talks/lightning.html">Lightning Talks!</a><br />
+      Many<span class="abstract">
+Have something to say? Has your proposal been rejected? Worse yet, didn't you have the time to put one together? No problem! This is the time when you get the opportunity to get up on the stage and have it for up to five minutes. Send your lightning talk ideas to Walter and Andrei!</span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >3:30 PM</td>
+    <td ><a href="../talks/strasuns.html">Declarative programming in D</a><br />
+      Mihails Strasuns aka "Dicebot"<span class="abstract">
+When term "declarative programming" is used in context of imperative languages,
+it is most often associated with Domain-Specific Languages. However, it is a
+more general approach with essential value of separating meaningful description
+from boilerplate behavior. It is already widely used in D programs and won't be
+a revelation for any experienced D users.
+
+<p>This talk tries to somewhat generalize this approach and popularize it as common D paradigm, as well as speculate upon possible improvements to D
+reflection capabilities that can make it even more powerful.</p></span>
+    </td>
+    
+  </tr>
+  <tr class="tooltip">    <td >4:30 PM</td>
+    <td ><a href="../talks/sechet.html">SDC, a D Compiler as a Library</a><br />
+      Amaury Sechet<span class="abstract">
+One of the forces of D is the great compile time capabilities. These come with a
+drawback - any tooling around D must be able to semantically analyze the whole
+language. SDC intend to solve that problem by providing a compiler as a library,
+usable by 3rd party tools.</span>
+    </td>
+    
+  </tr>
+  </table>
+
+</div><!-- end <div class="page_left equal hyphenate"> -->
+  
+  
+<div class="page_right equal">  <div class="sponsors">    <span class="sp">Keynote Speakers</span><br />
+      <table ><tr >      <td ><a href="../talks/alexandrescu.html">      <img src="../images/alexandrescu_134.jpg" width="75" alt="Andrei Alexandrescu" border="0" /></a></td>
+      <td ><a href="../talks/meyers.html">      <img src="http://aristeia.com/images/sdm-big.jpg" width="75" alt="Scott Meyers" border="0" /></a></td>
+      <td ><a href="../talks/bright.html">      <img src="../images/bright_134.jpg" width="75" alt="Walter Bright" border="0" /></a></td></tr>
+      <tr align=center><td >Alexandrescu</td> <td >Meyers</td> <td >Bright</td></tr>
+      </table>
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="sponsors">    <span class="sp">Sponsors</span><br />
+      <a href="http://www.drdobbs.com">
+      <img src="../images/DrDobbs.png" width="220" alt="Dr. Dobbs" border="0" /></a><br />
+  </div><!-- end <div class="sponsors"> -->
+  <div class="divider_h">&nbsp;</div><!-- end <div class="divider_h"> -->
+  <div class="twitter">    <div class="hash"></div><!-- end <div class="hash"> -->
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23dconf+%23dlang" data-widget-id="405059685734023169">Tweets about "#dconf #dlang"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- end <div class="twitter"> -->
+</div><!-- end <div class="page_right equal"> -->
+</div><!-- end <div id="container"> -->
+
+<hr />
+<div align="right">  <font size="-2">    &copy; 2014 http://digitalmars.com |
+    Generated with Ddoc
+  </font>
+</div><!-- end <div align="right"> -->
+</body>
+</html>
